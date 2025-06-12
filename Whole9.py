@@ -14,19 +14,25 @@ import requests
 from urllib.parse import urljoin, urlparse
 import os
 import logging
+import json
+import gc  # For garbage collection
 
 class CSVLinkScraper:
-    def __init__(self, headless=True, delay=2):
+    def __init__(self, headless=True, delay=2, batch_size=100):
         """
         Initialize the CSV Link Scraper
         
         Args:
             headless (bool): Run browser in headless mode (default: True)
             delay (int): Delay between requests in seconds (default: 2)
+            batch_size (int): Number of URLs to process per batch (default: 100)
         """
         self.delay = delay
+        self.batch_size = batch_size
         self.scraped_data = []  # Will now store individual horse records
         self.failed_urls = []
+        self.progress_file = "scraping_progress.json"
+        self.batch_output_prefix = "batch_horses"
         
         # Setup logging
         self.setup_logging()
@@ -40,6 +46,10 @@ class CSVLinkScraper:
         chrome_options.add_argument("--disable-gpu")
         chrome_options.add_argument("--window-size=1920,1080")
         chrome_options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36")
+        
+        # Add memory optimization options
+        chrome_options.add_argument("--memory-pressure-off")
+        chrome_options.add_argument("--disable-blink-features=AutomationControlled")
         
         self.driver = webdriver.Chrome(options=chrome_options)
         self.wait = WebDriverWait(self.driver, 10)
@@ -61,6 +71,34 @@ class CSVLinkScraper:
             ]
         )
         self.logger = logging.getLogger(__name__)
+    
+    def save_progress(self, batch_num, total_batches, processed_urls, failed_urls):
+        """Save current progress to a JSON file"""
+        progress = {
+            'last_batch_completed': batch_num,
+            'total_batches': total_batches,
+            'total_urls_processed': processed_urls,
+            'total_failed_urls': len(failed_urls),
+            'failed_urls': failed_urls,
+            'timestamp': datetime.now().isoformat()
+        }
+        
+        with open(self.progress_file, 'w') as f:
+            json.dump(progress, f, indent=2)
+        
+        self.logger.info(f"Progress saved: Batch {batch_num}/{total_batches} completed")
+    
+    def load_progress(self):
+        """Load previous progress if it exists"""
+        if os.path.exists(self.progress_file):
+            try:
+                with open(self.progress_file, 'r') as f:
+                    progress = json.load(f)
+                self.logger.info(f"Previous progress found: Last completed batch {progress['last_batch_completed']}")
+                return progress
+            except Exception as e:
+                self.logger.error(f"Error loading progress file: {e}")
+        return None
     
     def load_csv(self, csv_file):
         """
@@ -853,25 +891,31 @@ class CSVLinkScraper:
             
             return [error_record]
     
-    def scrape_all_urls(self, csv_df):
+    def scrape_batch(self, batch_df, batch_num, total_batches):
         """
-        Scrape all URLs from the CSV DataFrame
+        Scrape a batch of URLs
         
         Args:
-            csv_df (pd.DataFrame): DataFrame containing URLs and metadata
+            batch_df (pd.DataFrame): DataFrame containing batch of URLs
+            batch_num (int): Current batch number
+            total_batches (int): Total number of batches
             
         Returns:
-            list: List of individual horse records from all URLs
+            list: List of horse records from the batch
         """
-        total_urls = len(csv_df)
-        self.logger.info(f"Starting to scrape {total_urls} URLs")
+        batch_size = len(batch_df)
+        batch_data = []
+        batch_failed_urls = []
         
-        urls_missing_first_place = []
+        self.logger.info(f"\n{'='*60}")
+        self.logger.info(f"STARTING BATCH {batch_num}/{total_batches} ({batch_size} URLs)")
+        self.logger.info(f"{'='*60}\n")
         
-        for index, row in csv_df.iterrows():
+        for index, row in batch_df.iterrows():
             url = row['url']
+            relative_index = index % batch_size + 1
             
-            self.logger.info(f"Processing URL {index + 1}/{total_urls}: {url}")
+            self.logger.info(f"Batch {batch_num} - URL {relative_index}/{batch_size}: {url}")
             
             # Convert row to dictionary for context
             row_data = row.to_dict()
@@ -879,65 +923,59 @@ class CSVLinkScraper:
             # Scrape the URL and get individual horse records
             horse_records = self.scrape_url(url, row_data)
             
-            # Check if first place was found for this URL
-            if horse_records:
-                first_place_found = any(record.get('first_place_found', False) for record in horse_records)
-                if not first_place_found:
-                    urls_missing_first_place.append(url)
-                    self.logger.warning(f"⚠ URL missing first place: {url}")
+            # Add batch information to each record
+            for record in horse_records:
+                record['batch_number'] = batch_num
+                record['url_index_in_batch'] = relative_index
             
-            # Add all horse records to our main data list
-            self.scraped_data.extend(horse_records)
+            # Add all horse records to batch data
+            batch_data.extend(horse_records)
             
-            # Track failed URLs (if any horse record has an error status)
+            # Track failed URLs
             if any(record.get('status') != 'success' for record in horse_records):
-                self.failed_urls.append(url)
+                batch_failed_urls.append(url)
             
             # Delay between requests
-            if index < total_urls - 1:  # Don't delay after last URL
+            if relative_index < batch_size:  # Don't delay after last URL in batch
                 self.logger.info(f"Waiting {self.delay} seconds before next request...")
                 time.sleep(self.delay)
         
-        successful_urls = total_urls - len(self.failed_urls)
-        total_horses = len(self.scraped_data)
+        # Update overall failed URLs list
+        self.failed_urls.extend(batch_failed_urls)
         
-        # Log summary of first place findings
-        if urls_missing_first_place:
-            self.logger.error(f"❌ {len(urls_missing_first_place)} URLs missing first place horse:")
-            for url in urls_missing_first_place:
-                self.logger.error(f"  - {url}")
-        else:
-            self.logger.info("✓ All URLs successfully captured first place horse!")
+        successful_urls = batch_size - len(batch_failed_urls)
+        total_horses = len(batch_data)
         
-        self.logger.info(f"Completed scraping. URLs - Success: {successful_urls}, Failed: {len(self.failed_urls)}. Total horses extracted: {total_horses}")
-        return self.scraped_data
+        self.logger.info(f"\nBatch {batch_num} complete - URLs: Success: {successful_urls}, Failed: {len(batch_failed_urls)}, Horses extracted: {total_horses}")
+        
+        return batch_data
     
-    def save_results(self, output_file=None):
+    def save_batch_results(self, batch_data, batch_num):
         """
-        Save scraped results to CSV with only specified columns
+        Save batch results to CSV
         
         Args:
-            output_file (str): Output filename (default: auto-generated)
+            batch_data (list): Horse records from the batch
+            batch_num (int): Batch number
             
         Returns:
-            str: Path to saved file
+            str: Path to saved batch file
         """
-        if not self.scraped_data:
-            self.logger.warning("No data to save")
+        if not batch_data:
+            self.logger.warning(f"No data to save for batch {batch_num}")
             return None
         
-        if output_file is None:
-            timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-            output_file = f"scraped_horses_{timestamp}.csv"
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+        batch_file = f"{self.batch_output_prefix}_batch_{batch_num:04d}_{timestamp}.csv"
         
         try:
-            # Define the specific columns to save (updated with new columns)
+            # Define the specific columns to save
             columns_to_save = [
                 'track_name',
                 'race_date',
                 'race_time',
-                'going',      # New column
-                'distance',   # New column
+                'going',
+                'distance',
                 'horse_name',
                 'jockey',
                 'claims',
@@ -947,72 +985,148 @@ class CSVLinkScraper:
                 'age',
                 'weight',
                 'rating',
-                'first_place_found'  # New column to track if first place was found
+                'first_place_found',
+                'batch_number',
+                'url_index_in_batch'
             ]
             
-            df = pd.DataFrame(self.scraped_data)
+            df = pd.DataFrame(batch_data)
             
             # Select only the specified columns and save
             df_filtered = df[columns_to_save]
-            df_filtered.to_csv(output_file, index=False)
+            df_filtered.to_csv(batch_file, index=False)
             
-            self.logger.info(f"Results saved to {output_file} with columns: {', '.join(columns_to_save)}")
+            self.logger.info(f"Batch {batch_num} results saved to {batch_file}")
             
-            # Save failed URLs separately if any
-            if self.failed_urls:
-                failed_file = output_file.replace('.csv', '_failed_urls.txt')
-                with open(failed_file, 'w') as f:
-                    for url in self.failed_urls:
-                        f.write(f"{url}\n")
-                self.logger.info(f"Failed URLs saved to {failed_file}")
-            
-            # Save URLs missing first place
-            urls_missing_first = [record['url'] for record in self.scraped_data 
-                                 if not record.get('first_place_found', False)]
-            if urls_missing_first:
-                missing_first_file = output_file.replace('.csv', '_missing_first_place.txt')
-                with open(missing_first_file, 'w') as f:
-                    for url in set(urls_missing_first):  # Use set to avoid duplicates
-                        f.write(f"{url}\n")
-                self.logger.warning(f"URLs missing first place saved to {missing_first_file}")
-            
-            return output_file
+            return batch_file
             
         except Exception as e:
-            self.logger.error(f"Error saving results: {e}")
-            raise
+            self.logger.error(f"Error saving batch {batch_num} results: {e}")
+            return None
+    
+    def combine_batch_files(self, batch_files, final_output_file):
+        """
+        Combine all batch files into a single final output file
+        
+        Args:
+            batch_files (list): List of batch file paths
+            final_output_file (str): Final output file path
+        """
+        try:
+            # Read all batch files and combine
+            all_data = []
+            for batch_file in batch_files:
+                if os.path.exists(batch_file):
+                    batch_df = pd.read_csv(batch_file)
+                    all_data.append(batch_df)
+                    self.logger.info(f"Loaded {len(batch_df)} records from {batch_file}")
+            
+            if all_data:
+                combined_df = pd.concat(all_data, ignore_index=True)
+                
+                # Remove batch-specific columns for final output
+                columns_to_remove = ['batch_number', 'url_index_in_batch']
+                final_columns = [col for col in combined_df.columns if col not in columns_to_remove]
+                
+                combined_df[final_columns].to_csv(final_output_file, index=False)
+                self.logger.info(f"Combined {len(combined_df)} total records into {final_output_file}")
+                
+                # Optionally delete individual batch files
+                # for batch_file in batch_files:
+                #     if os.path.exists(batch_file):
+                #         os.remove(batch_file)
+                #         self.logger.info(f"Deleted batch file: {batch_file}")
+                
+                return len(combined_df)
+            else:
+                self.logger.warning("No batch files found to combine")
+                return 0
+                
+        except Exception as e:
+            self.logger.error(f"Error combining batch files: {e}")
+            return 0
+    
+    def scrape_all_urls_batch(self, csv_df, resume=False):
+        """
+        Scrape all URLs from CSV in batches
+        
+        Args:
+            csv_df (pd.DataFrame): DataFrame containing URLs and metadata
+            resume (bool): Whether to resume from previous progress
+            
+        Returns:
+            list: List of all batch output files
+        """
+        total_urls = len(csv_df)
+        total_batches = (total_urls + self.batch_size - 1) // self.batch_size  # Ceiling division
+        
+        self.logger.info(f"Total URLs: {total_urls}, Batch size: {self.batch_size}, Total batches: {total_batches}")
+        
+        # Check for previous progress
+        start_batch = 1
+        if resume:
+            progress = self.load_progress()
+            if progress:
+                start_batch = progress['last_batch_completed'] + 1
+                self.failed_urls = progress.get('failed_urls', [])
+                self.logger.info(f"Resuming from batch {start_batch}")
+        
+        batch_files = []
+        total_processed_urls = (start_batch - 1) * self.batch_size
+        
+        # Process each batch
+        for batch_num in range(start_batch, total_batches + 1):
+            # Calculate batch indices
+            start_idx = (batch_num - 1) * self.batch_size
+            end_idx = min(start_idx + self.batch_size, total_urls)
+            
+            # Get batch DataFrame
+            batch_df = csv_df.iloc[start_idx:end_idx]
+            
+            # Scrape the batch
+            batch_data = self.scrape_batch(batch_df, batch_num, total_batches)
+            
+            # Save batch results
+            batch_file = self.save_batch_results(batch_data, batch_num)
+            if batch_file:
+                batch_files.append(batch_file)
+            
+            # Update progress
+            total_processed_urls += len(batch_df)
+            self.save_progress(batch_num, total_batches, total_processed_urls, self.failed_urls)
+            
+            # Clear memory after each batch
+            self.scraped_data = []  # Clear main data
+            batch_data = None
+            gc.collect()  # Force garbage collection
+            
+            self.logger.info(f"Memory cleared after batch {batch_num}")
+            
+            # Optional: Restart browser after every N batches to prevent memory issues
+            if batch_num % 10 == 0 and batch_num < total_batches:
+                self.logger.info("Restarting browser to clear memory...")
+                self.driver.quit()
+                time.sleep(5)  # Give it time to fully close
+                
+                # Reinitialize driver
+                chrome_options = Options()
+                if self.driver.capabilities.get('goog:chromeOptions', {}).get('args'):
+                    for arg in self.driver.capabilities['goog:chromeOptions']['args']:
+                        chrome_options.add_argument(arg)
+                
+                self.driver = webdriver.Chrome(options=chrome_options)
+                self.wait = WebDriverWait(self.driver, 10)
+                self.logger.info("Browser restarted successfully")
+        
+        return batch_files
     
     def get_summary(self):
         """Get scraping summary statistics"""
-        total_records = len(self.scraped_data)
-        successful_records = len([d for d in self.scraped_data if d.get('status') == 'success'])
-        failed_records = total_records - successful_records
-        
-        # Count unique URLs
-        unique_urls = len(set(d.get('url') for d in self.scraped_data))
-        successful_urls = len(set(d.get('url') for d in self.scraped_data if d.get('status') == 'success'))
-        
-        # Count records with claims
-        records_with_claims = len([d for d in self.scraped_data if d.get('claims', 0) > 0])
-        
-        # Count URLs with first place found
-        urls_with_first_place = len(set(d.get('url') for d in self.scraped_data 
-                                       if d.get('first_place_found', False)))
-        urls_missing_first_place = unique_urls - urls_with_first_place
-        
+        # This method is now less useful for batch processing
+        # but kept for compatibility
         return {
-            'total_horse_records': total_records,
-            'successful_horse_records': successful_records,
-            'failed_horse_records': failed_records,
-            'horse_success_rate': f"{(successful_records/total_records*100):.1f}%" if total_records > 0 else "0%",
-            'unique_urls_processed': unique_urls,
-            'successful_urls': successful_urls,
-            'failed_urls': len(self.failed_urls),
-            'url_success_rate': f"{(successful_urls/unique_urls*100):.1f}%" if unique_urls > 0 else "0%",
-            'records_with_claims': records_with_claims,
-            'urls_with_first_place': urls_with_first_place,
-            'urls_missing_first_place': urls_missing_first_place,
-            'first_place_capture_rate': f"{(urls_with_first_place/unique_urls*100):.1f}%" if unique_urls > 0 else "0%"
+            'total_failed_urls': len(self.failed_urls),
+            'failed_urls': self.failed_urls
         }
     
     def close(self):
@@ -1031,12 +1145,13 @@ class CSVLinkScraper:
 def parse_arguments():
     """Parse command line arguments"""
     parser = argparse.ArgumentParser(
-        description="Scrape URLs from a CSV file using Selenium + BeautifulSoup (Per-Horse Output)",
+        description="Scrape URLs from a CSV file using Selenium + BeautifulSoup with Batch Processing",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
   %(prog)s --csv urls.csv
-  %(prog)s --csv urls.csv --output horses.csv --headless
+  %(prog)s --csv urls.csv --batch-size 50 --output final_horses.csv
+  %(prog)s --csv urls.csv --resume --headless
   %(prog)s --csv urls.csv --delay 5 --verbose
         """
     )
@@ -1050,7 +1165,14 @@ Examples:
     parser.add_argument(
         "--output", "-o",
         default=None,
-        help="Output CSV filename (default: auto-generated with timestamp)"
+        help="Final output CSV filename (default: auto-generated with timestamp)"
+    )
+    
+    parser.add_argument(
+        "--batch-size", "-b",
+        type=int,
+        default=100,
+        help="Number of URLs to process per batch (default: 100)"
     )
     
     parser.add_argument(
@@ -1064,6 +1186,12 @@ Examples:
         "--headless",
         action="store_true",
         help="Run browser in headless mode (default: False)"
+    )
+    
+    parser.add_argument(
+        "--resume",
+        action="store_true",
+        help="Resume from previous progress if available"
     )
     
     parser.add_argument(
@@ -1084,52 +1212,53 @@ def main():
         return
     
     try:
-        with CSVLinkScraper(headless=args.headless, delay=args.delay) as scraper:
+        with CSVLinkScraper(headless=args.headless, delay=args.delay, batch_size=args.batch_size) as scraper:
             # Load CSV
             csv_df = scraper.load_csv(args.csv)
             
-            # Scrape all URLs
-            scraped_data = scraper.scrape_all_urls(csv_df)
+            # Scrape all URLs in batches
+            batch_files = scraper.scrape_all_urls_batch(csv_df, resume=args.resume)
             
-            # Save results
-            output_file = scraper.save_results(args.output)
+            # Combine all batch files into final output
+            if args.output is None:
+                timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+                final_output = f"scraped_horses_combined_{timestamp}.csv"
+            else:
+                final_output = args.output
+            
+            total_records = scraper.combine_batch_files(batch_files, final_output)
+            
+            # Save failed URLs
+            if scraper.failed_urls:
+                failed_file = final_output.replace('.csv', '_failed_urls.txt')
+                with open(failed_file, 'w') as f:
+                    for url in scraper.failed_urls:
+                        f.write(f"{url}\n")
+                print(f"\nFailed URLs saved to {failed_file}")
             
             # Show summary
-            summary = scraper.get_summary()
             print("\n" + "="*50)
-            print("SCRAPING SUMMARY:")
+            print("SCRAPING COMPLETE:")
             print("="*50)
-            print(f"Total horse records: {summary['total_horse_records']}")
-            print(f"Successful horse records: {summary['successful_horse_records']}")
-            print(f"Failed horse records: {summary['failed_horse_records']}")
-            print(f"Horse record success rate: {summary['horse_success_rate']}")
-            print(f"Records with jockey claims: {summary['records_with_claims']}")
-            print(f"URLs processed: {summary['unique_urls_processed']}")
-            print(f"Successful URLs: {summary['successful_urls']}")
-            print(f"Failed URLs: {summary['failed_urls']}")
-            print(f"URL success rate: {summary['url_success_rate']}")
-            print(f"\nFirst Place Detection:")
-            print(f"URLs with first place found: {summary['urls_with_first_place']}")
-            print(f"URLs missing first place: {summary['urls_missing_first_place']}")
-            print(f"First place capture rate: {summary['first_place_capture_rate']}")
+            print(f"Total records combined: {total_records}")
+            print(f"Failed URLs: {len(scraper.failed_urls)}")
+            print(f"Final output saved to: {final_output}")
+            print(f"Batch files created: {len(batch_files)}")
             
-            if output_file:
-                print(f"\nResults saved to: {output_file}")
-            
-            if args.verbose and scraped_data:
-                print("\nSample of scraped horse data:")
-                sample_df = pd.DataFrame(scraped_data[:5])  # Show first 5 horse records
-                # Only show the columns that will be saved to CSV
-                columns_to_show = ['track_name', 'race_date', 'race_time', 'going', 'distance', 'horse_name', 'jockey', 'claims', 'trainer', 'race_position', 'lost_by_length', 'age', 'weight', 'rating', 'first_place_found']
-                if all(col in sample_df.columns for col in columns_to_show):
-                    print(sample_df[columns_to_show].to_string(index=False))
-                else:
-                    print("Sample data columns don't match expected output format")
+            # Clean up progress file
+            if os.path.exists(scraper.progress_file):
+                os.remove(scraper.progress_file)
+                print(f"\nProgress file cleaned up")
     
     except KeyboardInterrupt:
         print("\nScraping interrupted by user")
+        print("Progress has been saved. Use --resume flag to continue from where you left off.")
     except Exception as e:
         print(f"Error: {e}")
+        import traceback
+        traceback.print_exc()
 
 if __name__ == "__main__":
     main()
+
+    #python3 Whole9.py --csv urls.csv --batch-size 50 --output Part2.csv --headless
