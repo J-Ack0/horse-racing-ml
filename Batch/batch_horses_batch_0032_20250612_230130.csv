@@ -1,0 +1,1265 @@
+track_name,race_date,race_time,going,distance,horse_name,jockey,claims,trainer,race_position,lost_by_length,age,weight,rating,first_place_found,batch_number,url_index_in_batch
+N/A,N/A,14:05,Yielding,2m 100y,Jesse Evans (IRE),B. J. Cooper,0,Noel Meade,4th,11 l,6,11-12,-,True,32,1
+N/A,N/A,14:05,Yielding,2m 100y,Saldier (FR),D. E. Mullins,0,W. P. Mullins,3rd,3 3/4 l,8,11-12b,-,True,32,1
+N/A,N/A,14:05,Yielding,2m 100y,Sharjah (FR),Mr P. W. Mullins,0,W. P. Mullins,2nd,4 l,9,11-12t,-,True,32,1
+N/A,N/A,14:05,Yielding,2m 100y,State Man (FR),P. Townend,0,W. P. Mullins,1st,N/A,5,11-12,-,True,32,1
+N/A,N/A,14:05,Yielding,2m 100y,Jesse Evans (IRE),B. J. Cooper,0,Noel Meade,4th,11 l,6,11-12,-,True,32,1
+N/A,N/A,14:05,Yielding,2m 100y,Saldier (FR),D. E. Mullins,0,W. P. Mullins,3rd,3 3/4 l,8,11-12b,-,True,32,1
+N/A,N/A,14:05,Yielding,2m 100y,Sharjah (FR),Mr P. W. Mullins,0,W. P. Mullins,2nd,4 l,9,11-12t,-,True,32,1
+N/A,N/A,14:05,Yielding,2m 100y,State Man (FR),P. Townend,0,W. P. Mullins,1st,N/A,5,11-12,-,True,32,1
+N/A,N/A,14:40,Yielding,2m 5f 80y,Happy Birthday (FR),Jordan Colin Gainford,0,Gordon Elliott,13th,1 1/4 l,5,11-12,-,True,32,2
+N/A,N/A,14:40,Yielding,2m 5f 80y,Jimli's Glory,Jonathan Moore,0,R. K. Watson,12th,52 l,5,11-12h,-,True,32,2
+N/A,N/A,14:40,Yielding,2m 5f 80y,Doyen Wolf (IRE),K. C. Sexton,0,J. R. Finn,11th,1/2 l,6,11-12,-,True,32,2
+N/A,N/A,14:40,Yielding,2m 5f 80y,A Fortune Out West (IRE),Corey McGivern,7,Gordon Elliott,10th,12 l,5,11-12t1,-,True,32,2
+N/A,N/A,14:40,Yielding,2m 5f 80y,Stone Mad (IRE),J. J. Slevin,0,Martin Brassil,9th,29 l,6,11-12t,-,True,32,2
+N/A,N/A,14:40,Yielding,2m 5f 80y,Top Speed (IRE),Rachael Blackmore,0,Henry de Bromhead,8th,4 1/2 l,5,11-12,-,True,32,2
+N/A,N/A,14:40,Yielding,2m 5f 80y,Cocoplum (IRE),Denis O'Regan,0,Colin A. McBratney,7th,4 1/4 l,5,11-5,-,True,32,2
+N/A,N/A,14:40,Yielding,2m 5f 80y,Winter Carnival (IRE),Keith Donoghue,0,John Neilan,6th,4 1/2 l,7,11-12,-,True,32,2
+N/A,N/A,14:40,Yielding,2m 5f 80y,Camino Rock,R. A. Doyle,0,M. F. Morris,5th,8 l,5,11-12t,-,True,32,2
+N/A,N/A,14:40,Yielding,2m 5f 80y,Silver King (IRE),R. J. Condon,5,Oliver McKiernan,4th,8 1/2 l,6,11-12tb1,-,True,32,2
+N/A,N/A,14:40,Yielding,2m 5f 80y,Seabank Bistro (IRE),P. Townend,0,W. P. Mullins,3rd,5 1/2 l,5,11-12,-,True,32,2
+N/A,N/A,14:40,Yielding,2m 5f 80y,Will Do (IRE),J. W. Kennedy,0,Gordon Elliott,2nd,2 3/4 l,5,11-12,-,True,32,2
+N/A,N/A,14:40,Yielding,2m 5f 80y,Monbeg Park (IRE),B. J. Cooper,0,Sean Thomas Doyle,1st,N/A,5,11-12,-,True,32,2
+N/A,N/A,14:40,Yielding,2m 5f 80y,Happy Birthday (FR),Jordan Colin Gainford,0,Gordon Elliott,13th,1 1/4 l,5,11-12,-,True,32,2
+N/A,N/A,14:40,Yielding,2m 5f 80y,Jimli's Glory,Jonathan Moore,0,R. K. Watson,12th,52 l,5,11-12h,-,True,32,2
+N/A,N/A,14:40,Yielding,2m 5f 80y,Doyen Wolf (IRE),K. C. Sexton,0,J. R. Finn,11th,1/2 l,6,11-12,-,True,32,2
+N/A,N/A,14:40,Yielding,2m 5f 80y,A Fortune Out West (IRE),Corey McGivern,7,Gordon Elliott,10th,12 l,5,11-12t1,-,True,32,2
+N/A,N/A,14:40,Yielding,2m 5f 80y,Stone Mad (IRE),J. J. Slevin,0,Martin Brassil,9th,29 l,6,11-12t,-,True,32,2
+N/A,N/A,14:40,Yielding,2m 5f 80y,Top Speed (IRE),Rachael Blackmore,0,Henry de Bromhead,8th,4 1/2 l,5,11-12,-,True,32,2
+N/A,N/A,14:40,Yielding,2m 5f 80y,Cocoplum (IRE),Denis O'Regan,0,Colin A. McBratney,7th,4 1/4 l,5,11-5,-,True,32,2
+N/A,N/A,14:40,Yielding,2m 5f 80y,Winter Carnival (IRE),Keith Donoghue,0,John Neilan,6th,4 1/2 l,7,11-12,-,True,32,2
+N/A,N/A,14:40,Yielding,2m 5f 80y,Camino Rock,R. A. Doyle,0,M. F. Morris,5th,8 l,5,11-12t,-,True,32,2
+N/A,N/A,14:40,Yielding,2m 5f 80y,Silver King (IRE),R. J. Condon,5,Oliver McKiernan,4th,8 1/2 l,6,11-12tb1,-,True,32,2
+N/A,N/A,14:40,Yielding,2m 5f 80y,Seabank Bistro (IRE),P. Townend,0,W. P. Mullins,3rd,5 1/2 l,5,11-12,-,True,32,2
+N/A,N/A,14:40,Yielding,2m 5f 80y,Will Do (IRE),J. W. Kennedy,0,Gordon Elliott,2nd,2 3/4 l,5,11-12,-,True,32,2
+N/A,N/A,14:40,Yielding,2m 5f 80y,Monbeg Park (IRE),B. J. Cooper,0,Sean Thomas Doyle,1st,N/A,5,11-12,-,True,32,2
+N/A,N/A,15:15,Yielding,2m 7f 190y,Longhouse Poet (IRE),J. J. Slevin,0,Martin Brassil,PU,N/A,8,11-12t,144,True,32,3
+N/A,N/A,15:15,Yielding,2m 7f 190y,Benny The Duke (IRE),Rachael Blackmore,0,R. P. Cody,14th,1 1/4 l,5,10-0p1,118,True,32,3
+N/A,N/A,15:15,Yielding,2m 7f 190y,Sassy Yet Classy (IRE),Keith Donoghue,0,Cian Michael Collins,13th,35 l,8,11-3b,135,True,32,3
+N/A,N/A,15:15,Yielding,2m 7f 190y,Floueur (FR),Denis O'Regan,0,Gordon Elliott,12th,1 l,7,11-5t,137,True,32,3
+N/A,N/A,15:15,Yielding,2m 7f 190y,Nell's Well (IRE),M. P. Walsh,0,Sean O. O'Brien,11th,4 1/2 l,8,10-9,127,True,32,3
+N/A,N/A,15:15,Yielding,2m 7f 190y,Robinstown (IRE),Jordan Colin Gainford,0,Cian Michael Collins,10th,8 l,7,10-8t,126,True,32,3
+N/A,N/A,15:15,Yielding,2m 7f 190y,Whatsavailable (IRE),Gavin Peter Brouder,5,M. F. Morris,9th,7 l,5,10-3,121,True,32,3
+N/A,N/A,15:15,Yielding,2m 7f 190y,Coventry (IRE),J. W. Kennedy,0,Gordon Elliott,8th,1 l,5,10-6p,124,True,32,3
+N/A,N/A,15:15,Yielding,2m 7f 190y,Jaycean (IRE),R. J. Condon,5,Gordon Elliott,7th,Short Head,5,10-12,130,True,32,3
+N/A,N/A,15:15,Yielding,2m 7f 190y,Time Marches On (IRE),C. P. McNamara,0,J. D. Motherway,6th,1/2 l,6,10-0p,118,True,32,3
+N/A,N/A,15:15,Yielding,2m 7f 190y,Lord Erskine (IRE),B. Hayes,0,Harry Rogers,5th,2 l,9,10-0p,118,True,32,3
+N/A,N/A,15:15,Yielding,2m 7f 190y,Takarengo (IRE),Jonathan Moore,0,Thomas Mullins,4th,2 1/4 l,6,10-0v,118,True,32,3
+N/A,N/A,15:15,Yielding,2m 7f 190y,Captain Conby (IRE),K. C. Sexton,0,E. Sheehy,3rd,2 1/2 l,5,11-0,132,True,32,3
+N/A,N/A,15:15,Yielding,2m 7f 190y,My Immortal (IRE),M. J. M. O'Sullivan,5,Barry Connell,2nd,Neck,6,10-12p,130,True,32,3
+N/A,N/A,15:15,Yielding,2m 7f 190y,Shewearsitwell (IRE),P. Townend,0,W. P. Mullins,1st,N/A,7,11-5,137,True,32,3
+N/A,N/A,15:15,Yielding,2m 7f 190y,Longhouse Poet (IRE),J. J. Slevin,0,Martin Brassil,PU,N/A,8,11-12t,144,True,32,3
+N/A,N/A,15:15,Yielding,2m 7f 190y,Benny The Duke (IRE),Rachael Blackmore,0,R. P. Cody,14th,1 1/4 l,5,10-0p1,118,True,32,3
+N/A,N/A,15:15,Yielding,2m 7f 190y,Sassy Yet Classy (IRE),Keith Donoghue,0,Cian Michael Collins,13th,35 l,8,11-3b,135,True,32,3
+N/A,N/A,15:15,Yielding,2m 7f 190y,Floueur (FR),Denis O'Regan,0,Gordon Elliott,12th,1 l,7,11-5t,137,True,32,3
+N/A,N/A,15:15,Yielding,2m 7f 190y,Nell's Well (IRE),M. P. Walsh,0,Sean O. O'Brien,11th,4 1/2 l,8,10-9,127,True,32,3
+N/A,N/A,15:15,Yielding,2m 7f 190y,Robinstown (IRE),Jordan Colin Gainford,0,Cian Michael Collins,10th,8 l,7,10-8t,126,True,32,3
+N/A,N/A,15:15,Yielding,2m 7f 190y,Whatsavailable (IRE),Gavin Peter Brouder,5,M. F. Morris,9th,7 l,5,10-3,121,True,32,3
+N/A,N/A,15:15,Yielding,2m 7f 190y,Coventry (IRE),J. W. Kennedy,0,Gordon Elliott,8th,1 l,5,10-6p,124,True,32,3
+N/A,N/A,15:15,Yielding,2m 7f 190y,Jaycean (IRE),R. J. Condon,5,Gordon Elliott,7th,Short Head,5,10-12,130,True,32,3
+N/A,N/A,15:15,Yielding,2m 7f 190y,Time Marches On (IRE),C. P. McNamara,0,J. D. Motherway,6th,1/2 l,6,10-0p,118,True,32,3
+N/A,N/A,15:15,Yielding,2m 7f 190y,Lord Erskine (IRE),B. Hayes,0,Harry Rogers,5th,2 l,9,10-0p,118,True,32,3
+N/A,N/A,15:15,Yielding,2m 7f 190y,Takarengo (IRE),Jonathan Moore,0,Thomas Mullins,4th,2 1/4 l,6,10-0v,118,True,32,3
+N/A,N/A,15:15,Yielding,2m 7f 190y,Captain Conby (IRE),K. C. Sexton,0,E. Sheehy,3rd,2 1/2 l,5,11-0,132,True,32,3
+N/A,N/A,15:15,Yielding,2m 7f 190y,My Immortal (IRE),M. J. M. O'Sullivan,5,Barry Connell,2nd,Neck,6,10-12p,130,True,32,3
+N/A,N/A,15:15,Yielding,2m 7f 190y,Shewearsitwell (IRE),P. Townend,0,W. P. Mullins,1st,N/A,7,11-5,137,True,32,3
+N/A,N/A,15:50,Yielding  Flat (Turf),2m 100y,Alice Van Hall (IRE),J. C. Canavan,7,Miss Hilary McLoughlin,7th,9 1/2 l,8,11-7,-,True,32,4
+N/A,N/A,15:50,Yielding  Flat (Turf),2m 100y,Do As Your Told (IRE),Miss Sioned Whittle,7,R. K. Watson,6th,13 l,4,11-7,-,True,32,4
+N/A,N/A,15:50,Yielding  Flat (Turf),2m 100y,Gambling Glory (IRE),J. P. Shinnick,7,I. Madden,5th,22 l,6,12-0,-,True,32,4
+N/A,N/A,15:50,Yielding  Flat (Turf),2m 100y,I'm For Home (IRE),Mr H. C. Swan,7,R. K. Watson,4th,14 l,4,12-0,-,True,32,4
+N/A,N/A,15:50,Yielding  Flat (Turf),2m 100y,Bective Bridge (IRE),Corey McGivern,7,Cian Michael Collins,3rd,12 l,5,12-0,-,True,32,4
+N/A,N/A,15:50,Yielding  Flat (Turf),2m 100y,Lecky Watson (IRE),Mr P. W. Mullins,0,W. P. Mullins,2nd,N/A,4,12-0,-,True,32,4
+N/A,N/A,15:50,Yielding  Flat (Turf),2m 100y,Cato Capone (IRE),Mr J. J. Codd,0,Gordon Elliott,1st,Head,4,12-0,-,True,32,4
+N/A,N/A,15:50,Yielding  Flat (Turf),2m 100y,Alice Van Hall (IRE),J. C. Canavan,7,Miss Hilary McLoughlin,7th,9 1/2 l,8,11-7,-,True,32,4
+N/A,N/A,15:50,Yielding  Flat (Turf),2m 100y,Do As Your Told (IRE),Miss Sioned Whittle,7,R. K. Watson,6th,13 l,4,11-7,-,True,32,4
+N/A,N/A,15:50,Yielding  Flat (Turf),2m 100y,Gambling Glory (IRE),J. P. Shinnick,7,I. Madden,5th,22 l,6,12-0,-,True,32,4
+N/A,N/A,15:50,Yielding  Flat (Turf),2m 100y,I'm For Home (IRE),Mr H. C. Swan,7,R. K. Watson,4th,14 l,4,12-0,-,True,32,4
+N/A,N/A,15:50,Yielding  Flat (Turf),2m 100y,Bective Bridge (IRE),Corey McGivern,7,Cian Michael Collins,3rd,12 l,5,12-0,-,True,32,4
+N/A,N/A,15:50,Yielding  Flat (Turf),2m 100y,Lecky Watson (IRE),Mr P. W. Mullins,0,W. P. Mullins,2nd,N/A,4,12-0,-,True,32,4
+N/A,N/A,15:50,Yielding  Flat (Turf),2m 100y,Cato Capone (IRE),Mr J. J. Codd,0,Gordon Elliott,1st,Head,4,12-0,-,True,32,4
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Opposite Ends (IRE),D. King,7,Charles Byrnes,UR,N/A,4,11-7,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Equine Evolve (IRE),Jack Doyle,0,P. M. J. Doyle,PU,N/A,4,11-7,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Importateur (FR),Richard Deegan,0,A. McIntyre,21st,1 l,4,11-7,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Shindig,Jack Foley,0,Ross O'Sullivan,20th,2 l,4,11-7,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Falvio (POL),L. A. McKenna,7,A. J. Martin,19th,3 3/4 l,4,11-7,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,In the Balance (IRE),C. A. Landers,0,W. M. Roper,18th,9 1/2 l,4,11-0t,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Morrie In D Quarry (IRE),S. F. O'Keeffe,0,Ross O'Sullivan,17th,3 l,4,11-7,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Neev's Dream (IRE),S. Fitzgerald,3,T. Gibney,16th,1/2 l,4,11-0t1,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Shes My Getaway (IRE),R. J. Phelan,7,Kevin Thomas Coleman,15th,1 1/2 l,4,11-0,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,The Bog Garden (IRE),C. M. Quirke,7,M. Hourigan,14th,2 3/4 l,4,11-7,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,St Denis's Well (IRE),Donagh Meyler,0,Andrew Lynch,13th,7 1/2 l,4,11-7,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Dylan Og (IRE),A. M. McCurtin,3,Ms Debbie Hartnett,12th,1 l,4,11-7,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Sheephaven Flyer (IRE),M. P. O'Connor,5,Henry de Bromhead,11th,2 3/4 l,4,11-7,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Sean Og (IRE),T. N. Brett,7,Ms Margaret Mullins,10th,6 1/2 l,4,11-7,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Pana To Milan (IRE),K. E. Buckley,5,Michael Winters,9th,Nose,4,11-0,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Carlas Big Jim (IRE),Sarah Kavanagh,7,L. J. Archdeacon,8th,3 3/4 l,4,11-7,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Celtic Light (IRE),A. P. Kelly,7,James Joseph Mangan,7th,12 l,4,11-0,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Showurappreciation (IRE),L. P. Dempsey,0,Jonathan Sweeney,6th,1 3/4 l,4,11-7,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,After the Roar (IRE),Phillip Enright,0,Emmet Mullins,5th,8 l,4,11-7,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,True Artist (IRE),Cian Cullinan,7,G. O'Leary,4th,3/4 l,4,11-7,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Atimetodream (IRE),D. J. O'Keeffe,0,Henry de Bromhead,3rd,6 1/2 l,4,11-0,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Splashing Out (IRE),S. D. Torrens,0,Eoin Griffin,2nd,5 l,4,11-0,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Irish Point (FR),Davy Russell,0,Gordon Elliott,1st,N/A,4,11-7,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Opposite Ends (IRE),D. King,7,Charles Byrnes,UR,N/A,4,11-7,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Equine Evolve (IRE),Jack Doyle,0,P. M. J. Doyle,PU,N/A,4,11-7,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Importateur (FR),Richard Deegan,0,A. McIntyre,21st,1 l,4,11-7,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Shindig,Jack Foley,0,Ross O'Sullivan,20th,2 l,4,11-7,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Falvio (POL),L. A. McKenna,7,A. J. Martin,19th,3 3/4 l,4,11-7,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,In the Balance (IRE),C. A. Landers,0,W. M. Roper,18th,9 1/2 l,4,11-0t,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Morrie In D Quarry (IRE),S. F. O'Keeffe,0,Ross O'Sullivan,17th,3 l,4,11-7,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Neev's Dream (IRE),S. Fitzgerald,3,T. Gibney,16th,1/2 l,4,11-0t1,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Shes My Getaway (IRE),R. J. Phelan,7,Kevin Thomas Coleman,15th,1 1/2 l,4,11-0,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,The Bog Garden (IRE),C. M. Quirke,7,M. Hourigan,14th,2 3/4 l,4,11-7,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,St Denis's Well (IRE),Donagh Meyler,0,Andrew Lynch,13th,7 1/2 l,4,11-7,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Dylan Og (IRE),A. M. McCurtin,3,Ms Debbie Hartnett,12th,1 l,4,11-7,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Sheephaven Flyer (IRE),M. P. O'Connor,5,Henry de Bromhead,11th,2 3/4 l,4,11-7,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Sean Og (IRE),T. N. Brett,7,Ms Margaret Mullins,10th,6 1/2 l,4,11-7,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Pana To Milan (IRE),K. E. Buckley,5,Michael Winters,9th,Nose,4,11-0,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Carlas Big Jim (IRE),Sarah Kavanagh,7,L. J. Archdeacon,8th,3 3/4 l,4,11-7,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Celtic Light (IRE),A. P. Kelly,7,James Joseph Mangan,7th,12 l,4,11-0,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Showurappreciation (IRE),L. P. Dempsey,0,Jonathan Sweeney,6th,1 3/4 l,4,11-7,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,After the Roar (IRE),Phillip Enright,0,Emmet Mullins,5th,8 l,4,11-7,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,True Artist (IRE),Cian Cullinan,7,G. O'Leary,4th,3/4 l,4,11-7,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Atimetodream (IRE),D. J. O'Keeffe,0,Henry de Bromhead,3rd,6 1/2 l,4,11-0,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Splashing Out (IRE),S. D. Torrens,0,Eoin Griffin,2nd,5 l,4,11-0,-,True,32,5
+Cork Racing Results | 20th November 2022 12:00,N/A,12:00,Soft,2m,Irish Point (FR),Davy Russell,0,Gordon Elliott,1st,N/A,4,11-7,-,True,32,5
+Cork Racing Results | 20th November 2022 12:30,N/A,12:30,Soft,2m,Catrionas Darling (IRE),Phillip Enright,0,James Daniel Dullea,10th,1/2 l,5,11-5,-,True,32,6
+Cork Racing Results | 20th November 2022 12:30,N/A,12:30,Soft,2m,Thirsty Thursday (USA),C. A. Landers,0,Colin Motherway,9th,7 1/2 l,5,11-12,-,True,32,6
+Cork Racing Results | 20th November 2022 12:30,N/A,12:30,Soft,2m,Nibbles (IRE),Mr Turlough O'Connor,7,Turlough O'Connor,8th,1 3/4 l,5,11-12,-,True,32,6
+Cork Racing Results | 20th November 2022 12:30,N/A,12:30,Soft,2m,Minella Majestic (IRE),A. M. McCurtin,3,John J. Nallen,7th,3 1/4 l,7,11-12,-,True,32,6
+Cork Racing Results | 20th November 2022 12:30,N/A,12:30,Soft,2m,Atacanter (IRE),S. D. Torrens,0,Ross O'Sullivan,6th,4 1/2 l,5,11-12,-,True,32,6
+Cork Racing Results | 20th November 2022 12:30,N/A,12:30,Soft,2m,Jewelinthesky (IRE),Richard Deegan,0,Eoin Christopher McCarthy,5th,4 1/2 l,6,11-5,-,True,32,6
+Cork Racing Results | 20th November 2022 12:30,N/A,12:30,Soft,2m,Ranger Billy (IRE),M. P. O'Connor,5,Eoin Doyle,4th,1 1/4 l,6,11-12,-,True,32,6
+Cork Racing Results | 20th November 2022 12:30,N/A,12:30,Soft,2m,Wee Charlie (IRE),D. J. O'Keeffe,0,T. Gibney,3rd,41 l,5,11-12,-,True,32,6
+Cork Racing Results | 20th November 2022 12:30,N/A,12:30,Soft,2m,Embassy Gardens,S. F. O'Keeffe,0,W. P. Mullins,2nd,1 3/4 l,6,11-12,-,True,32,6
+Cork Racing Results | 20th November 2022 12:30,N/A,12:30,Soft,2m,Itswhatunitesus (IRE),Davy Russell,0,Gordon Elliott,1st,N/A,5,11-12h,-,True,32,6
+Cork Racing Results | 20th November 2022 12:30,N/A,12:30,Soft,2m,Catrionas Darling (IRE),Phillip Enright,0,James Daniel Dullea,10th,1/2 l,5,11-5,-,True,32,6
+Cork Racing Results | 20th November 2022 12:30,N/A,12:30,Soft,2m,Thirsty Thursday (USA),C. A. Landers,0,Colin Motherway,9th,7 1/2 l,5,11-12,-,True,32,6
+Cork Racing Results | 20th November 2022 12:30,N/A,12:30,Soft,2m,Nibbles (IRE),Mr Turlough O'Connor,7,Turlough O'Connor,8th,1 3/4 l,5,11-12,-,True,32,6
+Cork Racing Results | 20th November 2022 12:30,N/A,12:30,Soft,2m,Minella Majestic (IRE),A. M. McCurtin,3,John J. Nallen,7th,3 1/4 l,7,11-12,-,True,32,6
+Cork Racing Results | 20th November 2022 12:30,N/A,12:30,Soft,2m,Atacanter (IRE),S. D. Torrens,0,Ross O'Sullivan,6th,4 1/2 l,5,11-12,-,True,32,6
+Cork Racing Results | 20th November 2022 12:30,N/A,12:30,Soft,2m,Jewelinthesky (IRE),Richard Deegan,0,Eoin Christopher McCarthy,5th,4 1/2 l,6,11-5,-,True,32,6
+Cork Racing Results | 20th November 2022 12:30,N/A,12:30,Soft,2m,Ranger Billy (IRE),M. P. O'Connor,5,Eoin Doyle,4th,1 1/4 l,6,11-12,-,True,32,6
+Cork Racing Results | 20th November 2022 12:30,N/A,12:30,Soft,2m,Wee Charlie (IRE),D. J. O'Keeffe,0,T. Gibney,3rd,41 l,5,11-12,-,True,32,6
+Cork Racing Results | 20th November 2022 12:30,N/A,12:30,Soft,2m,Embassy Gardens,S. F. O'Keeffe,0,W. P. Mullins,2nd,1 3/4 l,6,11-12,-,True,32,6
+Cork Racing Results | 20th November 2022 12:30,N/A,12:30,Soft,2m,Itswhatunitesus (IRE),Davy Russell,0,Gordon Elliott,1st,N/A,5,11-12h,-,True,32,6
+Cork Racing Results | 20th November 2022 13:05,N/A,13:05,Soft,2m,The Niffler (IRE),E. O'Connell,2,Eamonn O'Connell,12th,4 1/4 l,5,11-12h,107,True,32,7
+Cork Racing Results | 20th November 2022 13:05,N/A,13:05,Soft,2m,Navigator Jack (IRE),S. Fitzgerald,0,Eoin Griffin,11th,10 l,5,11-8h,103,True,32,7
+Cork Racing Results | 20th November 2022 13:05,N/A,13:05,Soft,2m,Dancing Jeremy (IRE),Gearoid Patrick Brouder,2,Ian O'Connor,10th,13 l,7,11-13,108,True,32,7
+Cork Racing Results | 20th November 2022 13:05,N/A,13:05,Soft,2m,All Walks Of Life (IRE),C. G. O'Dwyer,4,M. Hourigan,9th,2 1/4 l,4,11-10,105,True,32,7
+Cork Racing Results | 20th November 2022 13:05,N/A,13:05,Soft,2m,Mullins Cross (IRE),Kieran Callaghan,4,Paul Nolan,8th,13 l,6,10-7,88,True,32,7
+Cork Racing Results | 20th November 2022 13:05,N/A,13:05,Soft,2m,Dixon Line,S. O'Callaghan,4,Adrian Sexton,7th,1 1/4 l,4,10-6p1,87,True,32,7
+Cork Racing Results | 20th November 2022 13:05,N/A,13:05,Soft,2m,Vocito (IRE),M. P. O'Connor,2,Eoin Doyle,6th,1 1/2 l,4,11-11t1,106,True,32,7
+Cork Racing Results | 20th November 2022 13:05,N/A,13:05,Soft,2m,Buttons and Bows (IRE),A. P. Kelly,4,Patrick J. Flynn,5th,3 1/2 l,8,11-9,104,True,32,7
+Cork Racing Results | 20th November 2022 13:05,N/A,13:05,Soft,2m,Fongs Way (IRE),C. M. Quirke,4,T. J. Nagle Jnr,4th,Short Head,7,10-9t,90,True,32,7
+Cork Racing Results | 20th November 2022 13:05,N/A,13:05,Soft,2m,Makfils (FR),E. A. Fitzgerald,4,Peter Fahey,3rd,5 1/2 l,5,11-3t,98,True,32,7
+Cork Racing Results | 20th November 2022 13:05,N/A,13:05,Soft,2m,Ventnor (IRE),Sarah Kavanagh,4,James M. Barcoe,2nd,6 l,6,10-0,81,True,32,7
+Cork Racing Results | 20th November 2022 13:05,N/A,13:05,Soft,2m,Ney (IRE),K. E. Buckley,0,Mrs Prunella Dobbs,1st,N/A,4,12-0,109,True,32,7
+Cork Racing Results | 20th November 2022 13:05,N/A,13:05,Soft,2m,The Niffler (IRE),E. O'Connell,2,Eamonn O'Connell,12th,4 1/4 l,5,11-12h,107,True,32,7
+Cork Racing Results | 20th November 2022 13:05,N/A,13:05,Soft,2m,Navigator Jack (IRE),S. Fitzgerald,0,Eoin Griffin,11th,10 l,5,11-8h,103,True,32,7
+Cork Racing Results | 20th November 2022 13:05,N/A,13:05,Soft,2m,Dancing Jeremy (IRE),Gearoid Patrick Brouder,2,Ian O'Connor,10th,13 l,7,11-13,108,True,32,7
+Cork Racing Results | 20th November 2022 13:05,N/A,13:05,Soft,2m,All Walks Of Life (IRE),C. G. O'Dwyer,4,M. Hourigan,9th,2 1/4 l,4,11-10,105,True,32,7
+Cork Racing Results | 20th November 2022 13:05,N/A,13:05,Soft,2m,Mullins Cross (IRE),Kieran Callaghan,4,Paul Nolan,8th,13 l,6,10-7,88,True,32,7
+Cork Racing Results | 20th November 2022 13:05,N/A,13:05,Soft,2m,Dixon Line,S. O'Callaghan,4,Adrian Sexton,7th,1 1/4 l,4,10-6p1,87,True,32,7
+Cork Racing Results | 20th November 2022 13:05,N/A,13:05,Soft,2m,Vocito (IRE),M. P. O'Connor,2,Eoin Doyle,6th,1 1/2 l,4,11-11t1,106,True,32,7
+Cork Racing Results | 20th November 2022 13:05,N/A,13:05,Soft,2m,Buttons and Bows (IRE),A. P. Kelly,4,Patrick J. Flynn,5th,3 1/2 l,8,11-9,104,True,32,7
+Cork Racing Results | 20th November 2022 13:05,N/A,13:05,Soft,2m,Fongs Way (IRE),C. M. Quirke,4,T. J. Nagle Jnr,4th,Short Head,7,10-9t,90,True,32,7
+Cork Racing Results | 20th November 2022 13:05,N/A,13:05,Soft,2m,Makfils (FR),E. A. Fitzgerald,4,Peter Fahey,3rd,5 1/2 l,5,11-3t,98,True,32,7
+Cork Racing Results | 20th November 2022 13:05,N/A,13:05,Soft,2m,Ventnor (IRE),Sarah Kavanagh,4,James M. Barcoe,2nd,6 l,6,10-0,81,True,32,7
+Cork Racing Results | 20th November 2022 13:05,N/A,13:05,Soft,2m,Ney (IRE),K. E. Buckley,0,Mrs Prunella Dobbs,1st,N/A,4,12-0,109,True,32,7
+Cork Racing Results | 20th November 2022 13:40,N/A,13:40,Soft,2m 4f,Thousand Tears (IRE),Conor Clarke,7,Emmet Mullins,UR,N/A,7,11-8,118,True,32,8
+Cork Racing Results | 20th November 2022 13:40,N/A,13:40,Soft,2m 4f,Un Des Flos (FR),L. P. Dempsey,0,Gavin Patrick Cromwell,PU,N/A,4,11-12,123,True,32,8
+Cork Racing Results | 20th November 2022 13:40,N/A,13:40,Soft,2m 4f,William of Wykeham (IRE),Phillip Enright,0,Mark McNiff,10th,16 l,7,11-6t,116,True,32,8
+Cork Racing Results | 20th November 2022 13:40,N/A,13:40,Soft,2m 4f,Sacchoandvanzetti (IRE),S. O'Callaghan,7,John Queally,9th,21 l,6,11-8,118,True,32,8
+Cork Racing Results | 20th November 2022 13:40,N/A,13:40,Soft,2m 4f,Young Dev (IRE),Donagh Meyler,0,Denis Hogan,8th,5 1/2 l,8,11-9,119,True,32,8
+Cork Racing Results | 20th November 2022 13:40,N/A,13:40,Soft,2m 4f,Clody Valley (IRE),Kieran Callaghan,7,Miss Elizabeth Doyle,7th,4 3/4 l,7,10-1t,97,True,32,8
+Cork Racing Results | 20th November 2022 13:40,N/A,13:40,Soft,2m 4f,Petit King (FR),D. J. O'Keeffe,0,Edward Cawley,6th,13 l,6,10-13,109,True,32,8
+Cork Racing Results | 20th November 2022 13:40,N/A,13:40,Soft,2m 4f,Missiee (IRE),Richard Deegan,0,Eoin Christopher McCarthy,5th,1 l,6,10-7,103,True,32,8
+Cork Racing Results | 20th November 2022 13:40,N/A,13:40,Soft,2m 4f,Halsafari (IRE),C. M. Quirke,7,Michael J. Bowe,4th,6 l,9,11-6,116,True,32,8
+Cork Racing Results | 20th November 2022 13:40,N/A,13:40,Soft,2m 4f,Low Lie The Fields (IRE),M. P. O'Connor,5,Henry de Bromhead,3rd,6 l,8,11-4t,114,True,32,8
+Cork Racing Results | 20th November 2022 13:40,N/A,13:40,Soft,2m 4f,San Salvador (IRE),S. Fitzgerald,3,Joseph Patrick O'Brien,2nd,2 3/4 l,6,11-12,122,True,32,8
+Cork Racing Results | 20th November 2022 13:40,N/A,13:40,Soft,2m 4f,Riaan (IRE),Davy Russell,0,Gordon Elliott,1st,N/A,5,11-6,116,True,32,8
+Cork Racing Results | 20th November 2022 13:40,N/A,13:40,Soft,2m 4f,Thousand Tears (IRE),Conor Clarke,7,Emmet Mullins,UR,N/A,7,11-8,118,True,32,8
+Cork Racing Results | 20th November 2022 13:40,N/A,13:40,Soft,2m 4f,Un Des Flos (FR),L. P. Dempsey,0,Gavin Patrick Cromwell,PU,N/A,4,11-12,123,True,32,8
+Cork Racing Results | 20th November 2022 13:40,N/A,13:40,Soft,2m 4f,William of Wykeham (IRE),Phillip Enright,0,Mark McNiff,10th,16 l,7,11-6t,116,True,32,8
+Cork Racing Results | 20th November 2022 13:40,N/A,13:40,Soft,2m 4f,Sacchoandvanzetti (IRE),S. O'Callaghan,7,John Queally,9th,21 l,6,11-8,118,True,32,8
+Cork Racing Results | 20th November 2022 13:40,N/A,13:40,Soft,2m 4f,Young Dev (IRE),Donagh Meyler,0,Denis Hogan,8th,5 1/2 l,8,11-9,119,True,32,8
+Cork Racing Results | 20th November 2022 13:40,N/A,13:40,Soft,2m 4f,Clody Valley (IRE),Kieran Callaghan,7,Miss Elizabeth Doyle,7th,4 3/4 l,7,10-1t,97,True,32,8
+Cork Racing Results | 20th November 2022 13:40,N/A,13:40,Soft,2m 4f,Petit King (FR),D. J. O'Keeffe,0,Edward Cawley,6th,13 l,6,10-13,109,True,32,8
+Cork Racing Results | 20th November 2022 13:40,N/A,13:40,Soft,2m 4f,Missiee (IRE),Richard Deegan,0,Eoin Christopher McCarthy,5th,1 l,6,10-7,103,True,32,8
+Cork Racing Results | 20th November 2022 13:40,N/A,13:40,Soft,2m 4f,Halsafari (IRE),C. M. Quirke,7,Michael J. Bowe,4th,6 l,9,11-6,116,True,32,8
+Cork Racing Results | 20th November 2022 13:40,N/A,13:40,Soft,2m 4f,Low Lie The Fields (IRE),M. P. O'Connor,5,Henry de Bromhead,3rd,6 l,8,11-4t,114,True,32,8
+Cork Racing Results | 20th November 2022 13:40,N/A,13:40,Soft,2m 4f,San Salvador (IRE),S. Fitzgerald,3,Joseph Patrick O'Brien,2nd,2 3/4 l,6,11-12,122,True,32,8
+Cork Racing Results | 20th November 2022 13:40,N/A,13:40,Soft,2m 4f,Riaan (IRE),Davy Russell,0,Gordon Elliott,1st,N/A,5,11-6,116,True,32,8
+Cork Racing Results | 20th November 2022 14:15,N/A,14:15,Soft,2m 5f,Formal Order (USA),K. E. Buckley,5,Ross O'Sullivan,UR,N/A,6,11-12tp,-,True,32,9
+Cork Racing Results | 20th November 2022 14:15,N/A,14:15,Soft,2m 5f,Jody Ted (IRE),Kieran Callaghan,7,Eoin Griffin,UR,N/A,6,11-12,-,True,32,9
+Cork Racing Results | 20th November 2022 14:15,N/A,14:15,Soft,2m 5f,Sweet Street (IRE),Jack Foley,0,Roger McGrath,PU,N/A,7,11-5,-,True,32,9
+Cork Racing Results | 20th November 2022 14:15,N/A,14:15,Soft,2m 5f,Martha Divine,S. F. O'Keeffe,0,Paul Nolan,F,N/A,5,11-5t,-,True,32,9
+Cork Racing Results | 20th November 2022 14:15,N/A,14:15,Soft,2m 5f,Native Gold (IRE),S. D. Torrens,0,Edward Cawley,7th,1 1/2 l,8,11-12,-,True,32,9
+Cork Racing Results | 20th November 2022 14:15,N/A,14:15,Soft,2m 5f,Kalli's Quest (IRE),A. M. McCurtin,3,Terence O'Brien,6th,22 l,9,11-5,-,True,32,9
+Cork Racing Results | 20th November 2022 14:15,N/A,14:15,Soft,2m 5f,Whiskeywealth (IRE),Phillip Enright,0,Eoghan O'Grady,5th,17 l,6,11-12,-,True,32,9
+Cork Racing Results | 20th November 2022 14:15,N/A,14:15,Soft,2m 5f,Allbarone (IRE),D. J. O'Keeffe,0,Henry de Bromhead,4th,3 1/2 l,8,11-12,-,True,32,9
+Cork Racing Results | 20th November 2022 14:15,N/A,14:15,Soft,2m 5f,Ciao Bella (FR),Richard Deegan,0,Miss Elizabeth Doyle,3rd,12 l,6,11-5p,-,True,32,9
+Cork Racing Results | 20th November 2022 14:15,N/A,14:15,Soft,2m 5f,Salmanino (FR),Donagh Meyler,0,Miss Elizabeth Doyle,2nd,1/2 l,6,11-12,-,True,32,9
+Cork Racing Results | 20th November 2022 14:15,N/A,14:15,Soft,2m 5f,Monishter Are Mwee (IRE),S. Fitzgerald,3,Mrs Jayne Hearne,1st,N/A,6,11-5h,-,True,32,9
+Cork Racing Results | 20th November 2022 14:15,N/A,14:15,Soft,2m 5f,Formal Order (USA),K. E. Buckley,5,Ross O'Sullivan,UR,N/A,6,11-12tp,-,True,32,9
+Cork Racing Results | 20th November 2022 14:15,N/A,14:15,Soft,2m 5f,Jody Ted (IRE),Kieran Callaghan,7,Eoin Griffin,UR,N/A,6,11-12,-,True,32,9
+Cork Racing Results | 20th November 2022 14:15,N/A,14:15,Soft,2m 5f,Sweet Street (IRE),Jack Foley,0,Roger McGrath,PU,N/A,7,11-5,-,True,32,9
+Cork Racing Results | 20th November 2022 14:15,N/A,14:15,Soft,2m 5f,Martha Divine,S. F. O'Keeffe,0,Paul Nolan,F,N/A,5,11-5t,-,True,32,9
+Cork Racing Results | 20th November 2022 14:15,N/A,14:15,Soft,2m 5f,Native Gold (IRE),S. D. Torrens,0,Edward Cawley,7th,1 1/2 l,8,11-12,-,True,32,9
+Cork Racing Results | 20th November 2022 14:15,N/A,14:15,Soft,2m 5f,Kalli's Quest (IRE),A. M. McCurtin,3,Terence O'Brien,6th,22 l,9,11-5,-,True,32,9
+Cork Racing Results | 20th November 2022 14:15,N/A,14:15,Soft,2m 5f,Whiskeywealth (IRE),Phillip Enright,0,Eoghan O'Grady,5th,17 l,6,11-12,-,True,32,9
+Cork Racing Results | 20th November 2022 14:15,N/A,14:15,Soft,2m 5f,Allbarone (IRE),D. J. O'Keeffe,0,Henry de Bromhead,4th,3 1/2 l,8,11-12,-,True,32,9
+Cork Racing Results | 20th November 2022 14:15,N/A,14:15,Soft,2m 5f,Ciao Bella (FR),Richard Deegan,0,Miss Elizabeth Doyle,3rd,12 l,6,11-5p,-,True,32,9
+Cork Racing Results | 20th November 2022 14:15,N/A,14:15,Soft,2m 5f,Salmanino (FR),Donagh Meyler,0,Miss Elizabeth Doyle,2nd,1/2 l,6,11-12,-,True,32,9
+Cork Racing Results | 20th November 2022 14:15,N/A,14:15,Soft,2m 5f,Monishter Are Mwee (IRE),S. Fitzgerald,3,Mrs Jayne Hearne,1st,N/A,6,11-5h,-,True,32,9
+Cork Racing Results | 20th November 2022 14:50,N/A,14:50,Soft,2m 160y,Hope Des Blins (FR),S. Fitzgerald,0,John Patrick Ryan,F,N/A,5,11-7,-,True,32,10
+Cork Racing Results | 20th November 2022 14:50,N/A,14:50,Soft,2m 160y,Southwood (IRE),K. E. Buckley,5,Leonard Paul Flynn,4th,58 l,5,11-7,-,True,32,10
+Cork Racing Results | 20th November 2022 14:50,N/A,14:50,Soft,2m 160y,Happy D'ex (FR),Davy Russell,0,Gordon Elliott,3rd,43 l,5,11-7,-,True,32,10
+Cork Racing Results | 20th November 2022 14:50,N/A,14:50,Soft,2m 160y,Roseys Hollow (IRE),S. D. Torrens,0,Jonathan Sweeney,2nd,3 3/4 l,8,11-7,-,True,32,10
+Cork Racing Results | 20th November 2022 14:50,N/A,14:50,Soft,2m 160y,Dinoblue (FR),L. P. Dempsey,0,W. P. Mullins,1st,N/A,5,11-7,-,True,32,10
+Cork Racing Results | 20th November 2022 14:50,N/A,14:50,Soft,2m 160y,Hope Des Blins (FR),S. Fitzgerald,0,John Patrick Ryan,F,N/A,5,11-7,-,True,32,10
+Cork Racing Results | 20th November 2022 14:50,N/A,14:50,Soft,2m 160y,Southwood (IRE),K. E. Buckley,5,Leonard Paul Flynn,4th,58 l,5,11-7,-,True,32,10
+Cork Racing Results | 20th November 2022 14:50,N/A,14:50,Soft,2m 160y,Happy D'ex (FR),Davy Russell,0,Gordon Elliott,3rd,43 l,5,11-7,-,True,32,10
+Cork Racing Results | 20th November 2022 14:50,N/A,14:50,Soft,2m 160y,Roseys Hollow (IRE),S. D. Torrens,0,Jonathan Sweeney,2nd,3 3/4 l,8,11-7,-,True,32,10
+Cork Racing Results | 20th November 2022 14:50,N/A,14:50,Soft,2m 160y,Dinoblue (FR),L. P. Dempsey,0,W. P. Mullins,1st,N/A,5,11-7,-,True,32,10
+Cork Racing Results | 20th November 2022 15:25,N/A,15:25,Soft,2m 160y,Stand Off (IRE),L. P. Dempsey,0,Philip Fenton,8th,6 1/2 l,7,11-2,129,True,32,11
+Cork Racing Results | 20th November 2022 15:25,N/A,15:25,Soft,2m 160y,The Dara Man (IRE),S. Fitzgerald,0,John Patrick Ryan,7th,2 1/4 l,7,11-1,128,True,32,11
+Cork Racing Results | 20th November 2022 15:25,N/A,15:25,Soft,2m 160y,Cusp of Carabelli (IRE),Jack Foley,0,David M. O'Brien,6th,2 1/4 l,9,10-10,123,True,32,11
+Cork Racing Results | 20th November 2022 15:25,N/A,15:25,Soft,2m 160y,Alko Rouge (FR),D. J. O'Keeffe,0,T. Gibney,5th,24 l,8,10-8t1,121,True,32,11
+Cork Racing Results | 20th November 2022 15:25,N/A,15:25,Soft,2m 160y,Espion Du Chenet (FR),C. M. Quirke,7,Louise G. Lyons,4th,1/2 l,8,11-4t,131,True,32,11
+Cork Racing Results | 20th November 2022 15:25,N/A,15:25,Soft,2m 160y,Kildorrery (IRE),S. O'Callaghan,7,T. M. Walsh,3rd,2 1/4 l,9,11-3,130,True,32,11
+Cork Racing Results | 20th November 2022 15:25,N/A,15:25,Soft,2m 160y,Embittered (IRE),Kieran Callaghan,7,Joseph Patrick O'Brien,2nd,Head,8,11-12t,139,True,32,11
+Cork Racing Results | 20th November 2022 15:25,N/A,15:25,Soft,2m 160y,Big Debates (FR),Phillip Enright,0,Robert Tyner,1st,N/A,9,10-2,115,True,32,11
+Cork Racing Results | 20th November 2022 15:25,N/A,15:25,Soft,2m 160y,Stand Off (IRE),L. P. Dempsey,0,Philip Fenton,8th,6 1/2 l,7,11-2,129,True,32,11
+Cork Racing Results | 20th November 2022 15:25,N/A,15:25,Soft,2m 160y,The Dara Man (IRE),S. Fitzgerald,0,John Patrick Ryan,7th,2 1/4 l,7,11-1,128,True,32,11
+Cork Racing Results | 20th November 2022 15:25,N/A,15:25,Soft,2m 160y,Cusp of Carabelli (IRE),Jack Foley,0,David M. O'Brien,6th,2 1/4 l,9,10-10,123,True,32,11
+Cork Racing Results | 20th November 2022 15:25,N/A,15:25,Soft,2m 160y,Alko Rouge (FR),D. J. O'Keeffe,0,T. Gibney,5th,24 l,8,10-8t1,121,True,32,11
+Cork Racing Results | 20th November 2022 15:25,N/A,15:25,Soft,2m 160y,Espion Du Chenet (FR),C. M. Quirke,7,Louise G. Lyons,4th,1/2 l,8,11-4t,131,True,32,11
+Cork Racing Results | 20th November 2022 15:25,N/A,15:25,Soft,2m 160y,Kildorrery (IRE),S. O'Callaghan,7,T. M. Walsh,3rd,2 1/4 l,9,11-3,130,True,32,11
+Cork Racing Results | 20th November 2022 15:25,N/A,15:25,Soft,2m 160y,Embittered (IRE),Kieran Callaghan,7,Joseph Patrick O'Brien,2nd,Head,8,11-12t,139,True,32,11
+Cork Racing Results | 20th November 2022 15:25,N/A,15:25,Soft,2m 160y,Big Debates (FR),Phillip Enright,0,Robert Tyner,1st,N/A,9,10-2,115,True,32,11
+N/A,N/A,12:15,Soft,2m 3f,Cathy West (IRE),L. A. McKenna,0,P. J. F. Hassett,14th,6 1/2 l,4,11-5,-,True,32,12
+N/A,N/A,12:15,Soft,2m 3f,Be Fierce (IRE),S. O'Callaghan,7,T. M. Walsh,13th,1 1/4 l,5,11-12,-,True,32,12
+N/A,N/A,12:15,Soft,2m 3f,Run Getaway Run (IRE),Gearoid Patrick Brouder,5,Seamus Braddish,12th,13 l,4,11-5,-,True,32,12
+N/A,N/A,12:15,Soft,2m 3f,Famous Agent (FR),Kieran Callaghan,7,Miss Elizabeth Doyle,11th,3 1/4 l,4,11-12,-,True,32,12
+N/A,N/A,12:15,Soft,2m 3f,Janverlil (IRE),Jamie Hayes,7,Eric McNamara,10th,18 l,4,11-5,-,True,32,12
+N/A,N/A,12:15,Soft,2m 3f,Cristiano Marealdo (IRE),E. Walsh,5,P. J. Rothwell,9th,8 l,4,11-5p1,-,True,32,12
+N/A,N/A,12:15,Soft,2m 3f,Fortunate Lady (IRE),D. King,7,Denis Hogan,8th,Neck,5,11-5,-,True,32,12
+N/A,N/A,12:15,Soft,2m 3f,Beau's Candle (IRE),T. Joseph Kelly,7,John Gerard Fitzgerald,7th,Nose,7,11-12,-,True,32,12
+N/A,N/A,12:15,Soft,2m 3f,Out Galavanting (IRE),Gavin Peter Brouder,5,Conor O'Dwyer,6th,4 l,5,11-12,-,True,32,12
+N/A,N/A,12:15,Soft,2m 3f,Another Bonnie (IRE),Philip Donovan,5,John Patrick Ryan,5th,5 1/2 l,5,11-5,-,True,32,12
+N/A,N/A,12:15,Soft,2m 3f,Lough Na Fooey (IRE),T. N. Brett,7,L. Young,4th,2 l,6,11-5t1,-,True,32,12
+N/A,N/A,12:15,Soft,2m 3f,Bugscuffle (IRE),D. Moloney,7,John Neilan,3rd,2 1/4 l,7,11-12p1,-,True,32,12
+N/A,N/A,12:15,Soft,2m 3f,Cheerful Chap (IRE),C. Brassil,5,N. Dooly,2nd,1 l,5,11-12,-,True,32,12
+N/A,N/A,12:15,Soft,2m 3f,Luimneach (IRE),A. P. Kelly,7,Desmond McDonogh,1st,N/A,5,11-12,-,True,32,12
+N/A,N/A,12:15,Soft,2m 3f,Cathy West (IRE),L. A. McKenna,0,P. J. F. Hassett,14th,6 1/2 l,4,11-5,-,True,32,12
+N/A,N/A,12:15,Soft,2m 3f,Be Fierce (IRE),S. O'Callaghan,7,T. M. Walsh,13th,1 1/4 l,5,11-12,-,True,32,12
+N/A,N/A,12:15,Soft,2m 3f,Run Getaway Run (IRE),Gearoid Patrick Brouder,5,Seamus Braddish,12th,13 l,4,11-5,-,True,32,12
+N/A,N/A,12:15,Soft,2m 3f,Famous Agent (FR),Kieran Callaghan,7,Miss Elizabeth Doyle,11th,3 1/4 l,4,11-12,-,True,32,12
+N/A,N/A,12:15,Soft,2m 3f,Janverlil (IRE),Jamie Hayes,7,Eric McNamara,10th,18 l,4,11-5,-,True,32,12
+N/A,N/A,12:15,Soft,2m 3f,Cristiano Marealdo (IRE),E. Walsh,5,P. J. Rothwell,9th,8 l,4,11-5p1,-,True,32,12
+N/A,N/A,12:15,Soft,2m 3f,Fortunate Lady (IRE),D. King,7,Denis Hogan,8th,Neck,5,11-5,-,True,32,12
+N/A,N/A,12:15,Soft,2m 3f,Beau's Candle (IRE),T. Joseph Kelly,7,John Gerard Fitzgerald,7th,Nose,7,11-12,-,True,32,12
+N/A,N/A,12:15,Soft,2m 3f,Out Galavanting (IRE),Gavin Peter Brouder,5,Conor O'Dwyer,6th,4 l,5,11-12,-,True,32,12
+N/A,N/A,12:15,Soft,2m 3f,Another Bonnie (IRE),Philip Donovan,5,John Patrick Ryan,5th,5 1/2 l,5,11-5,-,True,32,12
+N/A,N/A,12:15,Soft,2m 3f,Lough Na Fooey (IRE),T. N. Brett,7,L. Young,4th,2 l,6,11-5t1,-,True,32,12
+N/A,N/A,12:15,Soft,2m 3f,Bugscuffle (IRE),D. Moloney,7,John Neilan,3rd,2 1/4 l,7,11-12p1,-,True,32,12
+N/A,N/A,12:15,Soft,2m 3f,Cheerful Chap (IRE),C. Brassil,5,N. Dooly,2nd,1 l,5,11-12,-,True,32,12
+N/A,N/A,12:15,Soft,2m 3f,Luimneach (IRE),A. P. Kelly,7,Desmond McDonogh,1st,N/A,5,11-12,-,True,32,12
+N/A,N/A,12:45,Soft,2m,Alpesh Amin (IRE),K. E. Buckley,0,Eric McNamara,UR,N/A,5,11-12,-,True,32,13
+N/A,N/A,12:45,Soft,2m,Gracefromnaas (IRE),M. J. M. O'Sullivan,2,Bernard Martin Crowley,12th,3/4 l,5,11-5,-,True,32,13
+N/A,N/A,12:45,Soft,2m,Any Alibis,M. P. O'Connor,2,J. R. Finn,11th,4 1/2 l,6,11-12,-,True,32,13
+N/A,N/A,12:45,Soft,2m,Dromhale Vita (IRE),Gavin Peter Brouder,2,P. J. F. Hassett,10th,4 l,7,11-12,-,True,32,13
+N/A,N/A,12:45,Soft,2m,Joe's Joy (IRE),Corey McGivern,4,P. Mulligan,9th,6 l,5,11-12,-,True,32,13
+N/A,N/A,12:45,Soft,2m,Skin In the Game (IRE),A. M. McCurtin,0,J. P. Flavin,8th,3 3/4 l,6,11-12,-,True,32,13
+N/A,N/A,12:45,Soft,2m,Coole Vision (IRE),S. Fitzgerald,0,Norman Lee,7th,1/2 l,5,11-12t,-,True,32,13
+N/A,N/A,12:45,Soft,2m,Mahlers Cove (IRE),A. P. Kelly,4,James Joseph Mangan,6th,1/2 l,5,11-12,-,True,32,13
+N/A,N/A,12:45,Soft,2m,Indulging,S. O'Callaghan,4,T. M. Walsh,5th,2 1/2 l,4,11-12,-,True,32,13
+N/A,N/A,12:45,Soft,2m,Tea It Is (IRE),D. King,4,Vincent Carroll,4th,14 l,5,11-12t1,-,True,32,13
+N/A,N/A,12:45,Soft,2m,Sixhandsinmypocket,C. G. O'Dwyer,0,Conor O'Dwyer,3rd,6 1/2 l,5,11-12,-,True,32,13
+N/A,N/A,12:45,Soft,2m,Walk With Paul (FR),C. Brassil,2,Martin Brassil,2nd,1/2 l,6,11-5ht1,-,True,32,13
+N/A,N/A,12:45,Soft,2m,Brookie (IRE),L. A. McKenna,4,A. J. Martin,1st,N/A,5,11-12t,-,True,32,13
+N/A,N/A,12:45,Soft,2m,Alpesh Amin (IRE),K. E. Buckley,0,Eric McNamara,UR,N/A,5,11-12,-,True,32,13
+N/A,N/A,12:45,Soft,2m,Gracefromnaas (IRE),M. J. M. O'Sullivan,2,Bernard Martin Crowley,12th,3/4 l,5,11-5,-,True,32,13
+N/A,N/A,12:45,Soft,2m,Any Alibis,M. P. O'Connor,2,J. R. Finn,11th,4 1/2 l,6,11-12,-,True,32,13
+N/A,N/A,12:45,Soft,2m,Dromhale Vita (IRE),Gavin Peter Brouder,2,P. J. F. Hassett,10th,4 l,7,11-12,-,True,32,13
+N/A,N/A,12:45,Soft,2m,Joe's Joy (IRE),Corey McGivern,4,P. Mulligan,9th,6 l,5,11-12,-,True,32,13
+N/A,N/A,12:45,Soft,2m,Skin In the Game (IRE),A. M. McCurtin,0,J. P. Flavin,8th,3 3/4 l,6,11-12,-,True,32,13
+N/A,N/A,12:45,Soft,2m,Coole Vision (IRE),S. Fitzgerald,0,Norman Lee,7th,1/2 l,5,11-12t,-,True,32,13
+N/A,N/A,12:45,Soft,2m,Mahlers Cove (IRE),A. P. Kelly,4,James Joseph Mangan,6th,1/2 l,5,11-12,-,True,32,13
+N/A,N/A,12:45,Soft,2m,Indulging,S. O'Callaghan,4,T. M. Walsh,5th,2 1/2 l,4,11-12,-,True,32,13
+N/A,N/A,12:45,Soft,2m,Tea It Is (IRE),D. King,4,Vincent Carroll,4th,14 l,5,11-12t1,-,True,32,13
+N/A,N/A,12:45,Soft,2m,Sixhandsinmypocket,C. G. O'Dwyer,0,Conor O'Dwyer,3rd,6 1/2 l,5,11-12,-,True,32,13
+N/A,N/A,12:45,Soft,2m,Walk With Paul (FR),C. Brassil,2,Martin Brassil,2nd,1/2 l,6,11-5ht1,-,True,32,13
+N/A,N/A,12:45,Soft,2m,Brookie (IRE),L. A. McKenna,4,A. J. Martin,1st,N/A,5,11-12t,-,True,32,13
+N/A,N/A,13:15,Soft,2m,Phils Choice (IRE),Patrick O'Hanlon,2,P. J. Rothwell,RO,N/A,4,11-5,-,True,32,14
+N/A,N/A,13:15,Soft,2m,Lady Llewelyn (IRE),D. King,4,Eoghan O'Grady,PU,N/A,5,11-5t1,-,True,32,14
+N/A,N/A,13:15,Soft,2m,Plain Or Battered (IRE),R. J. Condon,2,N. Dooly,F,N/A,5,11-12,-,True,32,14
+N/A,N/A,13:15,Soft,2m,Tullig Wood (IRE),P. Byrnes,2,Thomas Cooper,11th,19 l,5,11-5,-,True,32,14
+N/A,N/A,13:15,Soft,2m,Ballygriffin Girl (IRE),A. M. McCurtin,0,J. P. Flavin,10th,7 l,4,11-5,-,True,32,14
+N/A,N/A,13:15,Soft,2m,Mad for the Craic,A. P. Kelly,4,Eric McNamara,9th,4 l,4,11-12,-,True,32,14
+N/A,N/A,13:15,Soft,2m,Tony's Pet (FR),M. J. M. O'Sullivan,2,Barry Connell,8th,3 1/4 l,5,11-12,-,True,32,14
+N/A,N/A,13:15,Soft,2m,New Barn Lane (IRE),E. Walsh,0,Eoin Christopher McCarthy,7th,1 l,5,11-12,-,True,32,14
+N/A,N/A,13:15,Soft,2m,Battle Bound (IRE),K. E. Buckley,0,Augustine Leahy,6th,3 l,5,11-12,-,True,32,14
+N/A,N/A,13:15,Soft,2m,Cool Cookie Claude (IRE),Philip Donovan,2,Patrick G. Kelly,5th,Short Head,5,11-12,-,True,32,14
+N/A,N/A,13:15,Soft,2m,Elsannah (IRE),R. Monaghan,4,Shane Crawley,4th,2 1/4 l,5,11-5,-,True,32,14
+N/A,N/A,13:15,Soft,2m,Hot Shimmer (IRE),T. N. Brett,4,L. Young,3rd,7 l,5,11-5t,-,True,32,14
+N/A,N/A,13:15,Soft,2m,Hi Ski (IRE),S. O'Callaghan,4,Ross O'Sullivan,2nd,2 1/4 l,7,11-5,-,True,32,14
+N/A,N/A,13:15,Soft,2m,Elusive Guy (IRE),P. T. Smithers,4,Jarlath P. Fahey,1st,N/A,4,11-12,-,True,32,14
+N/A,N/A,13:15,Soft,2m,Phils Choice (IRE),Patrick O'Hanlon,2,P. J. Rothwell,RO,N/A,4,11-5,-,True,32,14
+N/A,N/A,13:15,Soft,2m,Lady Llewelyn (IRE),D. King,4,Eoghan O'Grady,PU,N/A,5,11-5t1,-,True,32,14
+N/A,N/A,13:15,Soft,2m,Plain Or Battered (IRE),R. J. Condon,2,N. Dooly,F,N/A,5,11-12,-,True,32,14
+N/A,N/A,13:15,Soft,2m,Tullig Wood (IRE),P. Byrnes,2,Thomas Cooper,11th,19 l,5,11-5,-,True,32,14
+N/A,N/A,13:15,Soft,2m,Ballygriffin Girl (IRE),A. M. McCurtin,0,J. P. Flavin,10th,7 l,4,11-5,-,True,32,14
+N/A,N/A,13:15,Soft,2m,Mad for the Craic,A. P. Kelly,4,Eric McNamara,9th,4 l,4,11-12,-,True,32,14
+N/A,N/A,13:15,Soft,2m,Tony's Pet (FR),M. J. M. O'Sullivan,2,Barry Connell,8th,3 1/4 l,5,11-12,-,True,32,14
+N/A,N/A,13:15,Soft,2m,New Barn Lane (IRE),E. Walsh,0,Eoin Christopher McCarthy,7th,1 l,5,11-12,-,True,32,14
+N/A,N/A,13:15,Soft,2m,Battle Bound (IRE),K. E. Buckley,0,Augustine Leahy,6th,3 l,5,11-12,-,True,32,14
+N/A,N/A,13:15,Soft,2m,Cool Cookie Claude (IRE),Philip Donovan,2,Patrick G. Kelly,5th,Short Head,5,11-12,-,True,32,14
+N/A,N/A,13:15,Soft,2m,Elsannah (IRE),R. Monaghan,4,Shane Crawley,4th,2 1/4 l,5,11-5,-,True,32,14
+N/A,N/A,13:15,Soft,2m,Hot Shimmer (IRE),T. N. Brett,4,L. Young,3rd,7 l,5,11-5t,-,True,32,14
+N/A,N/A,13:15,Soft,2m,Hi Ski (IRE),S. O'Callaghan,4,Ross O'Sullivan,2nd,2 1/4 l,7,11-5,-,True,32,14
+N/A,N/A,13:15,Soft,2m,Elusive Guy (IRE),P. T. Smithers,4,Jarlath P. Fahey,1st,N/A,4,11-12,-,True,32,14
+N/A,N/A,13:45,Soft,2m,Kelly's Birr (IRE),C. Brassil,5,John Patrick Ryan,PU,N/A,5,11-2,97,True,32,15
+N/A,N/A,13:45,Soft,2m,Irregularheartbeat (IRE),Kieran Callaghan,7,Terence O'Brien,PU,N/A,9,11-12,107,True,32,15
+N/A,N/A,13:45,Soft,2m,Maggie Walsh (IRE),C. M. Quirke,7,Michael J. Bowe,11th,22 l,5,10-4,85,True,32,15
+N/A,N/A,13:45,Soft,2m,Chacha Dancer (IRE),A. P. Kelly,7,D. Hassett,10th,4 3/4 l,4,11-7t1,102,True,32,15
+N/A,N/A,13:45,Soft,2m,Seangoell (IRE),A. M. McCurtin,3,Norman Lee,9th,1 1/2 l,8,11-3,98,True,32,15
+N/A,N/A,13:45,Soft,2m,Henning (IRE),D. King,7,Denis Hogan,8th,18 l,5,12-3,112,True,32,15
+N/A,N/A,13:45,Soft,2m,Karen's Gift (IRE),E. Walsh,5,P. J. Rothwell,7th,3 3/4 l,8,11-5,100,True,32,15
+N/A,N/A,13:45,Soft,2m,Annie Pender (IRE),Derek Thomas McGrath,7,John Queally,6th,2 3/4 l,6,11-7h,102,True,32,15
+N/A,N/A,13:45,Soft,2m,Tingarran Express (IRE),Niall Moore,7,Philip Fenton,5th,3/4 l,5,10-11,92,True,32,15
+N/A,N/A,13:45,Soft,2m,Good Bye Milan (IRE),S. O'Callaghan,7,Seamus Braddish,4th,10 l,5,10-9,90,True,32,15
+N/A,N/A,13:45,Soft,2m,Robyndeglory (IRE),L. A. McKenna,7,Declan Queally,3rd,2 1/4 l,7,11-13tb,108,True,32,15
+N/A,N/A,13:45,Soft,2m,Bluebell Diva (IRE),Gearoid Patrick Brouder,5,M. F. Morris,2nd,5 1/2 l,5,10-7h,88,True,32,15
+N/A,N/A,13:45,Soft,2m,Capture the Action (IRE),M. P. O'Connor,0,James Joseph Mangan,1st,N/A,9,11-3b,98,True,32,15
+N/A,N/A,13:45,Soft,2m,Kelly's Birr (IRE),C. Brassil,5,John Patrick Ryan,PU,N/A,5,11-2,97,True,32,15
+N/A,N/A,13:45,Soft,2m,Irregularheartbeat (IRE),Kieran Callaghan,7,Terence O'Brien,PU,N/A,9,11-12,107,True,32,15
+N/A,N/A,13:45,Soft,2m,Maggie Walsh (IRE),C. M. Quirke,7,Michael J. Bowe,11th,22 l,5,10-4,85,True,32,15
+N/A,N/A,13:45,Soft,2m,Chacha Dancer (IRE),A. P. Kelly,7,D. Hassett,10th,4 3/4 l,4,11-7t1,102,True,32,15
+N/A,N/A,13:45,Soft,2m,Seangoell (IRE),A. M. McCurtin,3,Norman Lee,9th,1 1/2 l,8,11-3,98,True,32,15
+N/A,N/A,13:45,Soft,2m,Henning (IRE),D. King,7,Denis Hogan,8th,18 l,5,12-3,112,True,32,15
+N/A,N/A,13:45,Soft,2m,Karen's Gift (IRE),E. Walsh,5,P. J. Rothwell,7th,3 3/4 l,8,11-5,100,True,32,15
+N/A,N/A,13:45,Soft,2m,Annie Pender (IRE),Derek Thomas McGrath,7,John Queally,6th,2 3/4 l,6,11-7h,102,True,32,15
+N/A,N/A,13:45,Soft,2m,Tingarran Express (IRE),Niall Moore,7,Philip Fenton,5th,3/4 l,5,10-11,92,True,32,15
+N/A,N/A,13:45,Soft,2m,Good Bye Milan (IRE),S. O'Callaghan,7,Seamus Braddish,4th,10 l,5,10-9,90,True,32,15
+N/A,N/A,13:45,Soft,2m,Robyndeglory (IRE),L. A. McKenna,7,Declan Queally,3rd,2 1/4 l,7,11-13tb,108,True,32,15
+N/A,N/A,13:45,Soft,2m,Bluebell Diva (IRE),Gearoid Patrick Brouder,5,M. F. Morris,2nd,5 1/2 l,5,10-7h,88,True,32,15
+N/A,N/A,13:45,Soft,2m,Capture the Action (IRE),M. P. O'Connor,0,James Joseph Mangan,1st,N/A,9,11-3b,98,True,32,15
+N/A,N/A,14:15,Soft,2m,Bergentown (IRE),Niall Moore,7,Philip Fenton,PU,N/A,5,11-0b1,81,True,32,16
+N/A,N/A,14:15,Soft,2m,Made In The Woods (IRE),Gavin Peter Brouder,5,Norman Lee,13th,37 l,5,11-1h,82,True,32,16
+N/A,N/A,14:15,Soft,2m,Chancer Dancer (IRE),P. Byrnes,5,Noel C. Kelly,12th,5 1/2 l,5,11-5,86,True,32,16
+N/A,N/A,14:15,Soft,2m,Barbaha Queen (IRE),J. P. Kirwan,7,John Patrick Ryan,11th,1/2 l,6,11-11,92,True,32,16
+N/A,N/A,14:15,Soft,2m,Karloss (IRE),Gearoid Patrick Brouder,5,Ian O'Connor,10th,1/2 l,5,11-5,86,True,32,16
+N/A,N/A,14:15,Soft,2m,Lakomet Of Saints (FR),A. M. McCurtin,3,J. P. Flavin,9th,17 l,4,12-0t1,95,True,32,16
+N/A,N/A,14:15,Soft,2m,Fly De Megaudais (FR),C. A. Landers,0,Michael J. McDonagh,8th,8 l,9,10-13b,80,True,32,16
+N/A,N/A,14:15,Soft,2m,Veneziano Springs (FR),D. King,7,Denis Hogan,7th,18 l,10,11-8tp1,89,True,32,16
+N/A,N/A,14:15,Soft,2m,Flemenora (IRE),Peter Carberry,0,Mrs Yvonne Dunleavy,6th,12 l,5,11-4t,85,True,32,16
+N/A,N/A,14:15,Soft,2m,A Mere Bagatelle (IRE),Jonathan Moore,0,John Joseph Hanlon,5th,Head,5,11-9,90,True,32,16
+N/A,N/A,14:15,Soft,2m,Caoimhes Pet (IRE),E. Walsh,5,Eoin Christopher McCarthy,4th,2 3/4 l,5,11-4,85,True,32,16
+N/A,N/A,14:15,Soft,2m,O Mio Babbino (IRE),C. Brassil,5,Patrick Cronin,3rd,1 1/2 l,6,11-0,81,True,32,16
+N/A,N/A,14:15,Soft,2m,Shean Glory (IRE),M. P. O'Connor,5,Sean Aherne,2nd,14 l,6,11-4t,85,True,32,16
+N/A,N/A,14:15,Soft,2m,Brandy Harbour,D. Moloney,7,Mrs Grainne M. O'Connor,1st,N/A,8,11-9h,90,True,32,16
+N/A,N/A,14:15,Soft,2m,Bergentown (IRE),Niall Moore,7,Philip Fenton,PU,N/A,5,11-0b1,81,True,32,16
+N/A,N/A,14:15,Soft,2m,Made In The Woods (IRE),Gavin Peter Brouder,5,Norman Lee,13th,37 l,5,11-1h,82,True,32,16
+N/A,N/A,14:15,Soft,2m,Chancer Dancer (IRE),P. Byrnes,5,Noel C. Kelly,12th,5 1/2 l,5,11-5,86,True,32,16
+N/A,N/A,14:15,Soft,2m,Barbaha Queen (IRE),J. P. Kirwan,7,John Patrick Ryan,11th,1/2 l,6,11-11,92,True,32,16
+N/A,N/A,14:15,Soft,2m,Karloss (IRE),Gearoid Patrick Brouder,5,Ian O'Connor,10th,1/2 l,5,11-5,86,True,32,16
+N/A,N/A,14:15,Soft,2m,Lakomet Of Saints (FR),A. M. McCurtin,3,J. P. Flavin,9th,17 l,4,12-0t1,95,True,32,16
+N/A,N/A,14:15,Soft,2m,Fly De Megaudais (FR),C. A. Landers,0,Michael J. McDonagh,8th,8 l,9,10-13b,80,True,32,16
+N/A,N/A,14:15,Soft,2m,Veneziano Springs (FR),D. King,7,Denis Hogan,7th,18 l,10,11-8tp1,89,True,32,16
+N/A,N/A,14:15,Soft,2m,Flemenora (IRE),Peter Carberry,0,Mrs Yvonne Dunleavy,6th,12 l,5,11-4t,85,True,32,16
+N/A,N/A,14:15,Soft,2m,A Mere Bagatelle (IRE),Jonathan Moore,0,John Joseph Hanlon,5th,Head,5,11-9,90,True,32,16
+N/A,N/A,14:15,Soft,2m,Caoimhes Pet (IRE),E. Walsh,5,Eoin Christopher McCarthy,4th,2 3/4 l,5,11-4,85,True,32,16
+N/A,N/A,14:15,Soft,2m,O Mio Babbino (IRE),C. Brassil,5,Patrick Cronin,3rd,1 1/2 l,6,11-0,81,True,32,16
+N/A,N/A,14:15,Soft,2m,Shean Glory (IRE),M. P. O'Connor,5,Sean Aherne,2nd,14 l,6,11-4t,85,True,32,16
+N/A,N/A,14:15,Soft,2m,Brandy Harbour,D. Moloney,7,Mrs Grainne M. O'Connor,1st,N/A,8,11-9h,90,True,32,16
+N/A,N/A,14:45,Soft,2m 5f,Elzoom (IRE),R. Monaghan,7,Shane Crawley,UR,N/A,4,11-3b,92,True,32,17
+N/A,N/A,14:45,Soft,2m 5f,Coconut Tudor (IRE),S. O'Callaghan,7,Gerard Kelleher,PU,N/A,6,11-10p1,98,True,32,17
+N/A,N/A,14:45,Soft,2m 5f,Little Token (IRE),M. P. O'Connor,0,J. P. O'Keeffe,PU,N/A,7,11-7t,95,True,32,17
+N/A,N/A,14:45,Soft,2m 5f,Huit Reflets (FR),Kieran Callaghan,7,Miss Elizabeth Doyle,PU,N/A,5,11-3,91,True,32,17
+N/A,N/A,14:45,Soft,2m 5f,Champagne Monarch (IRE),E. Walsh,5,Sean Aherne,10th,16 l,7,12-0t,102,True,32,17
+N/A,N/A,14:45,Soft,2m 5f,Hand Over Fist (FR),C. Brassil,5,Henry de Bromhead,9th,18 l,5,11-8,96,True,32,17
+N/A,N/A,14:45,Soft,2m 5f,Lily Of Dromard (IRE),D. King,7,Michael John O'Connor,8th,1 l,8,11-8,96,True,32,17
+N/A,N/A,14:45,Soft,2m 5f,Lake Chad (IRE),Niall Moore,7,Philip Fenton,7th,1 l,7,11-8,96,True,32,17
+N/A,N/A,14:45,Soft,2m 5f,Storm Mahler (IRE),Corey McGivern,7,Eric McNamara,6th,3 l,4,11-3,92,True,32,17
+N/A,N/A,14:45,Soft,2m 5f,Moon Eagle (IRE),C. D. Maxwell,0,Gavin Patrick Cromwell,5th,4 3/4 l,5,12-0t,102,True,32,17
+N/A,N/A,14:45,Soft,2m 5f,Earths Furies (IRE),C. M. Quirke,7,Eugene M. O'Sullivan,4th,3/4 l,6,12-0p,102,True,32,17
+N/A,N/A,14:45,Soft,2m 5f,Tomjackwilliam (IRE),A. M. McCurtin,3,Eoin Christopher McCarthy,3rd,1 l,5,11-2,90,True,32,17
+N/A,N/A,14:45,Soft,2m 5f,Positive Thinker (IRE),C. A. Landers,0,Michael J. McDonagh,2nd,1 1/2 l,5,11-4,92,True,32,17
+N/A,N/A,14:45,Soft,2m 5f,Chainofconsequence (IRE),Gavin Peter Brouder,5,Aengus King,1st,N/A,5,11-4,92,True,32,17
+N/A,N/A,14:45,Soft,2m 5f,Elzoom (IRE),R. Monaghan,7,Shane Crawley,UR,N/A,4,11-3b,92,True,32,17
+N/A,N/A,14:45,Soft,2m 5f,Coconut Tudor (IRE),S. O'Callaghan,7,Gerard Kelleher,PU,N/A,6,11-10p1,98,True,32,17
+N/A,N/A,14:45,Soft,2m 5f,Little Token (IRE),M. P. O'Connor,0,J. P. O'Keeffe,PU,N/A,7,11-7t,95,True,32,17
+N/A,N/A,14:45,Soft,2m 5f,Huit Reflets (FR),Kieran Callaghan,7,Miss Elizabeth Doyle,PU,N/A,5,11-3,91,True,32,17
+N/A,N/A,14:45,Soft,2m 5f,Champagne Monarch (IRE),E. Walsh,5,Sean Aherne,10th,16 l,7,12-0t,102,True,32,17
+N/A,N/A,14:45,Soft,2m 5f,Hand Over Fist (FR),C. Brassil,5,Henry de Bromhead,9th,18 l,5,11-8,96,True,32,17
+N/A,N/A,14:45,Soft,2m 5f,Lily Of Dromard (IRE),D. King,7,Michael John O'Connor,8th,1 l,8,11-8,96,True,32,17
+N/A,N/A,14:45,Soft,2m 5f,Lake Chad (IRE),Niall Moore,7,Philip Fenton,7th,1 l,7,11-8,96,True,32,17
+N/A,N/A,14:45,Soft,2m 5f,Storm Mahler (IRE),Corey McGivern,7,Eric McNamara,6th,3 l,4,11-3,92,True,32,17
+N/A,N/A,14:45,Soft,2m 5f,Moon Eagle (IRE),C. D. Maxwell,0,Gavin Patrick Cromwell,5th,4 3/4 l,5,12-0t,102,True,32,17
+N/A,N/A,14:45,Soft,2m 5f,Earths Furies (IRE),C. M. Quirke,7,Eugene M. O'Sullivan,4th,3/4 l,6,12-0p,102,True,32,17
+N/A,N/A,14:45,Soft,2m 5f,Tomjackwilliam (IRE),A. M. McCurtin,3,Eoin Christopher McCarthy,3rd,1 l,5,11-2,90,True,32,17
+N/A,N/A,14:45,Soft,2m 5f,Positive Thinker (IRE),C. A. Landers,0,Michael J. McDonagh,2nd,1 1/2 l,5,11-4,92,True,32,17
+N/A,N/A,14:45,Soft,2m 5f,Chainofconsequence (IRE),Gavin Peter Brouder,5,Aengus King,1st,N/A,5,11-4,92,True,32,17
+N/A,N/A,15:15,Soft,3m 100y,Kilgorey (IRE),C. Brassil,2,Mrs Yvonne Dunleavy,PU,N/A,8,11-4t,85,True,32,18
+N/A,N/A,15:15,Soft,3m 100y,Trip to Milan (IRE),Kieran Callaghan,4,Seamus Braddish,13th,3/4 l,7,10-13,80,True,32,18
+N/A,N/A,15:15,Soft,3m 100y,Ned the Smith (IRE),Jack G. Gilligan,4,Eugene M. O'Sullivan,12th,3 3/4 l,6,11-3t,84,True,32,18
+N/A,N/A,15:15,Soft,3m 100y,Oh'herewego (IRE),E. Dwan,4,V. T. O'Brien,11th,19 l,13,10-13p,80,True,32,18
+N/A,N/A,15:15,Soft,3m 100y,Kaytana (IRE),C. M. Quirke,4,Michael J. McDonagh,10th,5 1/2 l,5,11-0b,81,True,32,18
+N/A,N/A,15:15,Soft,3m 100y,Wild Caprice (IRE),S. Fitzgerald,0,John Patrick Ryan,9th,3/4 l,8,11-11,92,True,32,18
+N/A,N/A,15:15,Soft,3m 100y,Helly Hansum (IRE),P. Byrnes,2,Noel C. Kelly,8th,8 l,8,10-13p,80,True,32,18
+N/A,N/A,15:15,Soft,3m 100y,Costalita (IRE),Patrick O'Hanlon,2,P. J. Rothwell,7th,1 1/4 l,8,10-13p,80,True,32,18
+N/A,N/A,15:15,Soft,3m 100y,Mahler Appeal (IRE),M. J. M. O'Sullivan,2,Garrett James Power,6th,3 1/2 l,6,11-5,86,True,32,18
+N/A,N/A,15:15,Soft,3m 100y,Da Big Fella (IRE),A. M. McCurtin,0,Eamon Courtney,5th,1 1/2 l,8,11-9,90,True,32,18
+N/A,N/A,15:15,Soft,3m 100y,Getaclan (IRE),A. P. Kelly,4,D. McNamara,4th,1 1/4 l,7,11-0t,81,True,32,18
+N/A,N/A,15:15,Soft,3m 100y,Esthers Marvel (IRE),M. P. O'Connor,2,David Kenneth Budds,3rd,5 1/2 l,9,11-1tp,82,True,32,18
+N/A,N/A,15:15,Soft,3m 100y,Problem Solver (IRE),S. O'Callaghan,0,Augustine Leahy,2nd,4 l,6,11-13,94,True,32,18
+N/A,N/A,15:15,Soft,3m 100y,Well Polly (IRE),D. King,4,Miss J. M. Lee,1st,N/A,8,11-7p,88,True,32,18
+N/A,N/A,15:15,Soft,3m 100y,Kilgorey (IRE),C. Brassil,2,Mrs Yvonne Dunleavy,PU,N/A,8,11-4t,85,True,32,18
+N/A,N/A,15:15,Soft,3m 100y,Trip to Milan (IRE),Kieran Callaghan,4,Seamus Braddish,13th,3/4 l,7,10-13,80,True,32,18
+N/A,N/A,15:15,Soft,3m 100y,Ned the Smith (IRE),Jack G. Gilligan,4,Eugene M. O'Sullivan,12th,3 3/4 l,6,11-3t,84,True,32,18
+N/A,N/A,15:15,Soft,3m 100y,Oh'herewego (IRE),E. Dwan,4,V. T. O'Brien,11th,19 l,13,10-13p,80,True,32,18
+N/A,N/A,15:15,Soft,3m 100y,Kaytana (IRE),C. M. Quirke,4,Michael J. McDonagh,10th,5 1/2 l,5,11-0b,81,True,32,18
+N/A,N/A,15:15,Soft,3m 100y,Wild Caprice (IRE),S. Fitzgerald,0,John Patrick Ryan,9th,3/4 l,8,11-11,92,True,32,18
+N/A,N/A,15:15,Soft,3m 100y,Helly Hansum (IRE),P. Byrnes,2,Noel C. Kelly,8th,8 l,8,10-13p,80,True,32,18
+N/A,N/A,15:15,Soft,3m 100y,Costalita (IRE),Patrick O'Hanlon,2,P. J. Rothwell,7th,1 1/4 l,8,10-13p,80,True,32,18
+N/A,N/A,15:15,Soft,3m 100y,Mahler Appeal (IRE),M. J. M. O'Sullivan,2,Garrett James Power,6th,3 1/2 l,6,11-5,86,True,32,18
+N/A,N/A,15:15,Soft,3m 100y,Da Big Fella (IRE),A. M. McCurtin,0,Eamon Courtney,5th,1 1/2 l,8,11-9,90,True,32,18
+N/A,N/A,15:15,Soft,3m 100y,Getaclan (IRE),A. P. Kelly,4,D. McNamara,4th,1 1/4 l,7,11-0t,81,True,32,18
+N/A,N/A,15:15,Soft,3m 100y,Esthers Marvel (IRE),M. P. O'Connor,2,David Kenneth Budds,3rd,5 1/2 l,9,11-1tp,82,True,32,18
+N/A,N/A,15:15,Soft,3m 100y,Problem Solver (IRE),S. O'Callaghan,0,Augustine Leahy,2nd,4 l,6,11-13,94,True,32,18
+N/A,N/A,15:15,Soft,3m 100y,Well Polly (IRE),D. King,4,Miss J. M. Lee,1st,N/A,8,11-7p,88,True,32,18
+N/A,N/A,15:45,Soft  Flat (Turf),2m,Hanara Rovan (IRE),Miss R. Murphy,7,N. Dooly,10th,34 l,4,11-11,-,True,32,19
+N/A,N/A,15:45,Soft  Flat (Turf),2m,Gilt Ride (IRE),Miss J. Townend,3,Mark Molloy,9th,7 l,5,11-11,-,True,32,19
+N/A,N/A,15:45,Soft  Flat (Turf),2m,Theretirementfund (IRE),Miss E. Cody,7,Miss Elizabeth Doyle,8th,Short Head,4,11-11p1,-,True,32,19
+N/A,N/A,15:45,Soft  Flat (Turf),2m,Well Loved (IRE),Sarah Kavanagh,7,Miss Elizabeth Doyle,7th,2 3/4 l,5,11-11,-,True,32,19
+N/A,N/A,15:45,Soft  Flat (Turf),2m,Jollie Cosmos (IRE),Miss P. Elvin,7,P. J. Rothwell,6th,1 1/4 l,6,11-11,-,True,32,19
+N/A,N/A,15:45,Soft  Flat (Turf),2m,Costanuci (IRE),Miss O. M. Queally,7,John Queally,5th,10 l,5,11-11,-,True,32,19
+N/A,N/A,15:45,Soft  Flat (Turf),2m,Tilloughna (IRE),Miss M. O'Sullivan,5,David Kenneth Budds,4th,11 l,4,11-11t,-,True,32,19
+N/A,N/A,15:45,Soft  Flat (Turf),2m,Mag Dillane (IRE),Miss J. Walton,7,Eric McNamara,3rd,15 l,4,11-11,-,True,32,19
+N/A,N/A,15:45,Soft  Flat (Turf),2m,Della Casa Lunga (IRE),Miss T. Quail,7,S. Curling,2nd,6 1/2 l,4,11-11t1,-,True,32,19
+N/A,N/A,15:45,Soft  Flat (Turf),2m,Shecouldbeanything (IRE),Miss A. B. O'Connor,3,Gordon Elliott,1st,N/A,5,11-11,-,True,32,19
+N/A,N/A,15:45,Soft  Flat (Turf),2m,Hanara Rovan (IRE),Miss R. Murphy,7,N. Dooly,10th,34 l,4,11-11,-,True,32,19
+N/A,N/A,15:45,Soft  Flat (Turf),2m,Gilt Ride (IRE),Miss J. Townend,3,Mark Molloy,9th,7 l,5,11-11,-,True,32,19
+N/A,N/A,15:45,Soft  Flat (Turf),2m,Theretirementfund (IRE),Miss E. Cody,7,Miss Elizabeth Doyle,8th,Short Head,4,11-11p1,-,True,32,19
+N/A,N/A,15:45,Soft  Flat (Turf),2m,Well Loved (IRE),Sarah Kavanagh,7,Miss Elizabeth Doyle,7th,2 3/4 l,5,11-11,-,True,32,19
+N/A,N/A,15:45,Soft  Flat (Turf),2m,Jollie Cosmos (IRE),Miss P. Elvin,7,P. J. Rothwell,6th,1 1/4 l,6,11-11,-,True,32,19
+N/A,N/A,15:45,Soft  Flat (Turf),2m,Costanuci (IRE),Miss O. M. Queally,7,John Queally,5th,10 l,5,11-11,-,True,32,19
+N/A,N/A,15:45,Soft  Flat (Turf),2m,Tilloughna (IRE),Miss M. O'Sullivan,5,David Kenneth Budds,4th,11 l,4,11-11t,-,True,32,19
+N/A,N/A,15:45,Soft  Flat (Turf),2m,Mag Dillane (IRE),Miss J. Walton,7,Eric McNamara,3rd,15 l,4,11-11,-,True,32,19
+N/A,N/A,15:45,Soft  Flat (Turf),2m,Della Casa Lunga (IRE),Miss T. Quail,7,S. Curling,2nd,6 1/2 l,4,11-11t1,-,True,32,19
+N/A,N/A,15:45,Soft  Flat (Turf),2m,Shecouldbeanything (IRE),Miss A. B. O'Connor,3,Gordon Elliott,1st,N/A,5,11-11,-,True,32,19
+Dundalk Racing Results | 23rd November 2022 14:00,N/A,14:00,Standard,1m,Lone Fighter (IRE),G. M. Ryan,0,James McAuley,14th,1 1/4 l,4,9-2,-,True,32,20
+Dundalk Racing Results | 23rd November 2022 14:00,N/A,14:00,Standard,1m,Sea the Sand (IRE),R. P. Cleary,0,Ray Hackett,13th,2 1/2 l,3,9-4,-,True,32,20
+Dundalk Racing Results | 23rd November 2022 14:00,N/A,14:00,Standard,1m,Elephant John (IRE),Shane Foley,0,James McAuley,12th,12 l,4,10-2,-,True,32,20
+Dundalk Racing Results | 23rd November 2022 14:00,N/A,14:00,Standard,1m,Sweeping Statement (IRE),D. B. McMonagle,0,James McAuley,11th,1 1/4 l,4,9-0p,-,True,32,20
+Dundalk Racing Results | 23rd November 2022 14:00,N/A,14:00,Standard,1m,Tommy Taylor (USA),C. Geerdharry,10,Shane Crawley,10th,Neck,8,9-6,-,True,32,20
+Dundalk Racing Results | 23rd November 2022 14:00,N/A,14:00,Standard,1m,Majestic Colt (IRE),J. M. Sheridan,3,Denis Hogan,9th,1/2 l,7,9-10b,-,True,32,20
+Dundalk Racing Results | 23rd November 2022 14:00,N/A,14:00,Standard,1m,Muhalhel (IRE),Jonathan Moore,0,Anthony McCann,8th,Head,4,9-6t,-,True,32,20
+Dundalk Racing Results | 23rd November 2022 14:00,N/A,14:00,Standard,1m,Skontonovski,R. P. Whelan,0,Adrian McGuinness,7th,2 3/4 l,5,10-2v,-,True,32,20
+Dundalk Racing Results | 23rd November 2022 14:00,N/A,14:00,Standard,1m,Dare to Flare (IRE),Amy Jo Hayes,7,A. Slattery,6th,1 1/2 l,6,10-2,-,True,32,20
+Dundalk Racing Results | 23rd November 2022 14:00,N/A,14:00,Standard,1m,Prioritise (IRE),D. W. O'Connor,0,James McAuley,5th,Neck,4,9-10t,-,True,32,20
+Dundalk Racing Results | 23rd November 2022 14:00,N/A,14:00,Standard,1m,Halcyon Spirit,R. Whearty,7,Gavin Patrick Cromwell,4th,Nose,4,8-10v,-,True,32,20
+Dundalk Racing Results | 23rd November 2022 14:00,N/A,14:00,Standard,1m,Akmaam (FR),E. A. Murphy,10,J. F. Levins,3rd,3/4 l,4,10-2,-,True,32,20
+Dundalk Racing Results | 23rd November 2022 14:00,N/A,14:00,Standard,1m,Rocky Dreams,D. King,7,Denis Hogan,2nd,1 l,5,10-2,-,True,32,20
+Dundalk Racing Results | 23rd November 2022 14:00,N/A,14:00,Standard,1m,Hale Bopp (IRE),C. T. Keane,0,G. M. Lyons,1st,N/A,4,10-2,-,True,32,20
+Dundalk Racing Results | 23rd November 2022 14:00,N/A,14:00,Standard,1m,Lone Fighter (IRE),G. M. Ryan,0,James McAuley,14th,1 1/4 l,4,9-2,-,True,32,20
+Dundalk Racing Results | 23rd November 2022 14:00,N/A,14:00,Standard,1m,Sea the Sand (IRE),R. P. Cleary,0,Ray Hackett,13th,2 1/2 l,3,9-4,-,True,32,20
+Dundalk Racing Results | 23rd November 2022 14:00,N/A,14:00,Standard,1m,Elephant John (IRE),Shane Foley,0,James McAuley,12th,12 l,4,10-2,-,True,32,20
+Dundalk Racing Results | 23rd November 2022 14:00,N/A,14:00,Standard,1m,Sweeping Statement (IRE),D. B. McMonagle,0,James McAuley,11th,1 1/4 l,4,9-0p,-,True,32,20
+Dundalk Racing Results | 23rd November 2022 14:00,N/A,14:00,Standard,1m,Tommy Taylor (USA),C. Geerdharry,10,Shane Crawley,10th,Neck,8,9-6,-,True,32,20
+Dundalk Racing Results | 23rd November 2022 14:00,N/A,14:00,Standard,1m,Majestic Colt (IRE),J. M. Sheridan,3,Denis Hogan,9th,1/2 l,7,9-10b,-,True,32,20
+Dundalk Racing Results | 23rd November 2022 14:00,N/A,14:00,Standard,1m,Muhalhel (IRE),Jonathan Moore,0,Anthony McCann,8th,Head,4,9-6t,-,True,32,20
+Dundalk Racing Results | 23rd November 2022 14:00,N/A,14:00,Standard,1m,Skontonovski,R. P. Whelan,0,Adrian McGuinness,7th,2 3/4 l,5,10-2v,-,True,32,20
+Dundalk Racing Results | 23rd November 2022 14:00,N/A,14:00,Standard,1m,Dare to Flare (IRE),Amy Jo Hayes,7,A. Slattery,6th,1 1/2 l,6,10-2,-,True,32,20
+Dundalk Racing Results | 23rd November 2022 14:00,N/A,14:00,Standard,1m,Prioritise (IRE),D. W. O'Connor,0,James McAuley,5th,Neck,4,9-10t,-,True,32,20
+Dundalk Racing Results | 23rd November 2022 14:00,N/A,14:00,Standard,1m,Halcyon Spirit,R. Whearty,7,Gavin Patrick Cromwell,4th,Nose,4,8-10v,-,True,32,20
+Dundalk Racing Results | 23rd November 2022 14:00,N/A,14:00,Standard,1m,Akmaam (FR),E. A. Murphy,10,J. F. Levins,3rd,3/4 l,4,10-2,-,True,32,20
+Dundalk Racing Results | 23rd November 2022 14:00,N/A,14:00,Standard,1m,Rocky Dreams,D. King,7,Denis Hogan,2nd,1 l,5,10-2,-,True,32,20
+Dundalk Racing Results | 23rd November 2022 14:00,N/A,14:00,Standard,1m,Hale Bopp (IRE),C. T. Keane,0,G. M. Lyons,1st,N/A,4,10-2,-,True,32,20
+Dundalk Racing Results | 23rd November 2022 14:30,N/A,14:30,Standard,7f,Base Money,Emmet McNamara,0,Emmet Mullins,13th,2 l,2,9-7,-,True,32,21
+Dundalk Racing Results | 23rd November 2022 14:30,N/A,14:30,Standard,7f,Bye Bye Bae (IRE),D. W. O'Connor,0,John McConnell,12th,7 l,2,9-2,-,True,32,21
+Dundalk Racing Results | 23rd November 2022 14:30,N/A,14:30,Standard,7f,Miss Slovakia (IRE),Shane Foley,0,Edward Lynam,11th,2 l,2,9-2h1,-,True,32,21
+Dundalk Racing Results | 23rd November 2022 14:30,N/A,14:30,Standard,7f,Little Rascal (IRE),W. M. Lordan,0,Luke Comer,10th,Neck,2,9-7,-,True,32,21
+Dundalk Racing Results | 23rd November 2022 14:30,N/A,14:30,Standard,7f,Secret Sauce (IRE),M. A. Enright,0,J. A. Stack,9th,1 1/2 l,2,9-7,-,True,32,21
+Dundalk Racing Results | 23rd November 2022 14:30,N/A,14:30,Standard,7f,Dd Gold,G. M. Ryan,0,Henry de Bromhead,8th,Neck,2,9-2,-,True,32,21
+Dundalk Racing Results | 23rd November 2022 14:30,N/A,14:30,Standard,7f,Cash Out (IRE),D. B. McMonagle,0,Joseph Patrick O'Brien,7th,3/4 l,2,9-7t1,-,True,32,21
+Dundalk Racing Results | 23rd November 2022 14:30,N/A,14:30,Standard,7f,Bataan,C. T. Keane,0,G. M. Lyons,6th,2 1/2 l,2,9-2,-,True,32,21
+Dundalk Racing Results | 23rd November 2022 14:30,N/A,14:30,Standard,7f,Bright Dick (IRE),N. M. Crosse,0,Luke Comer,5th,1 l,2,9-7,-,True,32,21
+Dundalk Racing Results | 23rd November 2022 14:30,N/A,14:30,Standard,7f,Dabirann (IRE),R. P. Whelan,0,M. Halford,4th,1/2 l,2,9-7,-,True,32,21
+Dundalk Racing Results | 23rd November 2022 14:30,N/A,14:30,Standard,7f,Zurana (IRE),S. B. Kelly,0,John Patrick Murtagh,3rd,Neck,2,9-2b,-,True,32,21
+Dundalk Racing Results | 23rd November 2022 14:30,N/A,14:30,Standard,7f,Brasilian Princess (FR),J. Kearney,7,Adrian Murray,2nd,6 1/2 l,2,9-2,-,True,32,21
+Dundalk Racing Results | 23rd November 2022 14:30,N/A,14:30,Standard,7f,White Birch,R. C. Colgan,0,John Joseph Murphy,1st,N/A,2,9-7t,-,True,32,21
+Dundalk Racing Results | 23rd November 2022 14:30,N/A,14:30,Standard,7f,Base Money,Emmet McNamara,0,Emmet Mullins,13th,2 l,2,9-7,-,True,32,21
+Dundalk Racing Results | 23rd November 2022 14:30,N/A,14:30,Standard,7f,Bye Bye Bae (IRE),D. W. O'Connor,0,John McConnell,12th,7 l,2,9-2,-,True,32,21
+Dundalk Racing Results | 23rd November 2022 14:30,N/A,14:30,Standard,7f,Miss Slovakia (IRE),Shane Foley,0,Edward Lynam,11th,2 l,2,9-2h1,-,True,32,21
+Dundalk Racing Results | 23rd November 2022 14:30,N/A,14:30,Standard,7f,Little Rascal (IRE),W. M. Lordan,0,Luke Comer,10th,Neck,2,9-7,-,True,32,21
+Dundalk Racing Results | 23rd November 2022 14:30,N/A,14:30,Standard,7f,Secret Sauce (IRE),M. A. Enright,0,J. A. Stack,9th,1 1/2 l,2,9-7,-,True,32,21
+Dundalk Racing Results | 23rd November 2022 14:30,N/A,14:30,Standard,7f,Dd Gold,G. M. Ryan,0,Henry de Bromhead,8th,Neck,2,9-2,-,True,32,21
+Dundalk Racing Results | 23rd November 2022 14:30,N/A,14:30,Standard,7f,Cash Out (IRE),D. B. McMonagle,0,Joseph Patrick O'Brien,7th,3/4 l,2,9-7t1,-,True,32,21
+Dundalk Racing Results | 23rd November 2022 14:30,N/A,14:30,Standard,7f,Bataan,C. T. Keane,0,G. M. Lyons,6th,2 1/2 l,2,9-2,-,True,32,21
+Dundalk Racing Results | 23rd November 2022 14:30,N/A,14:30,Standard,7f,Bright Dick (IRE),N. M. Crosse,0,Luke Comer,5th,1 l,2,9-7,-,True,32,21
+Dundalk Racing Results | 23rd November 2022 14:30,N/A,14:30,Standard,7f,Dabirann (IRE),R. P. Whelan,0,M. Halford,4th,1/2 l,2,9-7,-,True,32,21
+Dundalk Racing Results | 23rd November 2022 14:30,N/A,14:30,Standard,7f,Zurana (IRE),S. B. Kelly,0,John Patrick Murtagh,3rd,Neck,2,9-2b,-,True,32,21
+Dundalk Racing Results | 23rd November 2022 14:30,N/A,14:30,Standard,7f,Brasilian Princess (FR),J. Kearney,7,Adrian Murray,2nd,6 1/2 l,2,9-2,-,True,32,21
+Dundalk Racing Results | 23rd November 2022 14:30,N/A,14:30,Standard,7f,White Birch,R. C. Colgan,0,John Joseph Murphy,1st,N/A,2,9-7t,-,True,32,21
+Dundalk Racing Results | 23rd November 2022 15:00,N/A,15:00,Standard,7f,Static Charge,G. M. Ryan,0,Joseph G. Murphy,13th,Short Head,2,9-12p,64,True,32,22
+Dundalk Racing Results | 23rd November 2022 15:00,N/A,15:00,Standard,7f,Cloughaneely Mor (IRE),Siobhan Rutledge,5,E. Sheehy,12th,1 3/4 l,2,8-10p1,48,True,32,22
+Dundalk Racing Results | 23rd November 2022 15:00,N/A,15:00,Standard,7f,Bedelia (IRE),C. T. Keane,0,Gavin Patrick Cromwell,11th,3/4 l,2,9-11b,63,True,32,22
+Dundalk Racing Results | 23rd November 2022 15:00,N/A,15:00,Standard,7f,The Fog Horn (IRE),J. J. G. Ryan,7,Seamus G. O'Donnell,10th,1 3/4 l,2,9-7,59,True,32,22
+Dundalk Racing Results | 23rd November 2022 15:00,N/A,15:00,Standard,7f,Reigles,Adam Caffrey,7,Adrian McGuinness,9th,Neck,2,9-6v1,58,True,32,22
+Dundalk Racing Results | 23rd November 2022 15:00,N/A,15:00,Standard,7f,Jackie Brown (IRE),R. C. Colgan,0,A. J. Martin,8th,3/4 l,2,9-8t,60,True,32,22
+Dundalk Racing Results | 23rd November 2022 15:00,N/A,15:00,Standard,7f,Hilltop's Bear (IRE),Shane Foley,0,James McAuley,7th,1 3/4 l,2,9-6,58,True,32,22
+Dundalk Racing Results | 23rd November 2022 15:00,N/A,15:00,Standard,7f,Lashes (IRE),J. M. Sheridan,3,Shane Kieran Ryder,6th,3/4 l,2,9-7tb,59,True,32,22
+Dundalk Racing Results | 23rd November 2022 15:00,N/A,15:00,Standard,7f,Scat Maggie (IRE),W. M. Lordan,0,D. Broad,5th,2 3/4 l,2,8-10b1,48,True,32,22
+Dundalk Racing Results | 23rd November 2022 15:00,N/A,15:00,Standard,7f,Trident Star (IRE),D. B. McMonagle,0,James McAuley,4th,1/2 l,2,9-8,60,True,32,22
+Dundalk Racing Results | 23rd November 2022 15:00,N/A,15:00,Standard,7f,Fendi,R. P. Cleary,0,James M. Barrett,3rd,Neck,2,8-12,50,True,32,22
+Dundalk Racing Results | 23rd November 2022 15:00,N/A,15:00,Standard,7f,Doctor Grace (IRE),R. P. Whelan,0,M. Halford,2nd,1/2 l,2,9-2,54,True,32,22
+Dundalk Racing Results | 23rd November 2022 15:00,N/A,15:00,Standard,7f,Happenstance (IRE),A. C. Persse,7,Patrick J. Flynn,1st,N/A,2,8-12,50,True,32,22
+Dundalk Racing Results | 23rd November 2022 15:00,N/A,15:00,Standard,7f,Static Charge,G. M. Ryan,0,Joseph G. Murphy,13th,Short Head,2,9-12p,64,True,32,22
+Dundalk Racing Results | 23rd November 2022 15:00,N/A,15:00,Standard,7f,Cloughaneely Mor (IRE),Siobhan Rutledge,5,E. Sheehy,12th,1 3/4 l,2,8-10p1,48,True,32,22
+Dundalk Racing Results | 23rd November 2022 15:00,N/A,15:00,Standard,7f,Bedelia (IRE),C. T. Keane,0,Gavin Patrick Cromwell,11th,3/4 l,2,9-11b,63,True,32,22
+Dundalk Racing Results | 23rd November 2022 15:00,N/A,15:00,Standard,7f,The Fog Horn (IRE),J. J. G. Ryan,7,Seamus G. O'Donnell,10th,1 3/4 l,2,9-7,59,True,32,22
+Dundalk Racing Results | 23rd November 2022 15:00,N/A,15:00,Standard,7f,Reigles,Adam Caffrey,7,Adrian McGuinness,9th,Neck,2,9-6v1,58,True,32,22
+Dundalk Racing Results | 23rd November 2022 15:00,N/A,15:00,Standard,7f,Jackie Brown (IRE),R. C. Colgan,0,A. J. Martin,8th,3/4 l,2,9-8t,60,True,32,22
+Dundalk Racing Results | 23rd November 2022 15:00,N/A,15:00,Standard,7f,Hilltop's Bear (IRE),Shane Foley,0,James McAuley,7th,1 3/4 l,2,9-6,58,True,32,22
+Dundalk Racing Results | 23rd November 2022 15:00,N/A,15:00,Standard,7f,Lashes (IRE),J. M. Sheridan,3,Shane Kieran Ryder,6th,3/4 l,2,9-7tb,59,True,32,22
+Dundalk Racing Results | 23rd November 2022 15:00,N/A,15:00,Standard,7f,Scat Maggie (IRE),W. M. Lordan,0,D. Broad,5th,2 3/4 l,2,8-10b1,48,True,32,22
+Dundalk Racing Results | 23rd November 2022 15:00,N/A,15:00,Standard,7f,Trident Star (IRE),D. B. McMonagle,0,James McAuley,4th,1/2 l,2,9-8,60,True,32,22
+Dundalk Racing Results | 23rd November 2022 15:00,N/A,15:00,Standard,7f,Fendi,R. P. Cleary,0,James M. Barrett,3rd,Neck,2,8-12,50,True,32,22
+Dundalk Racing Results | 23rd November 2022 15:00,N/A,15:00,Standard,7f,Doctor Grace (IRE),R. P. Whelan,0,M. Halford,2nd,1/2 l,2,9-2,54,True,32,22
+Dundalk Racing Results | 23rd November 2022 15:00,N/A,15:00,Standard,7f,Happenstance (IRE),A. C. Persse,7,Patrick J. Flynn,1st,N/A,2,8-12,50,True,32,22
+Dundalk Racing Results | 23rd November 2022 15:30,N/A,15:30,Standard,7f,Miss Molly T (IRE),S. P. Bird,10,Gerard Keane,14th,1 l,5,9-9,62,True,32,23
+Dundalk Racing Results | 23rd November 2022 15:30,N/A,15:30,Standard,7f,Eglish,J. J. G. Ryan,7,James McAuley,13th,1 3/4 l,5,10-0v,67,True,32,23
+Dundalk Racing Results | 23rd November 2022 15:30,N/A,15:30,Standard,7f,Improving (IRE),J. Kearney,7,Augustine Leahy,12th,1/2 l,6,9-5,58,True,32,23
+Dundalk Racing Results | 23rd November 2022 15:30,N/A,15:30,Standard,7f,Form of Praise (IRE),Adam Caffrey,7,Adrian McGuinness,11th,Neck,3,10-0,68,True,32,23
+Dundalk Racing Results | 23rd November 2022 15:30,N/A,15:30,Standard,7f,Together Aclaim,Siobhan Rutledge,5,John McConnell,10th,Neck,3,9-11t,65,True,32,23
+Dundalk Racing Results | 23rd November 2022 15:30,N/A,15:30,Standard,7f,Bronze River,P. A. Harnett,7,Denis Hogan,9th,Short Head,5,9-7h,60,True,32,23
+Dundalk Racing Results | 23rd November 2022 15:30,N/A,15:30,Standard,7f,Capla Knight (IRE),A. C. Persse,7,Muredach Kelly,8th,1/2 l,4,8-13,52,True,32,23
+Dundalk Racing Results | 23rd November 2022 15:30,N/A,15:30,Standard,7f,Hell Left Loose,S. D. Bowen,7,Vincent Carroll,7th,3/4 l,6,8-12t,51,True,32,23
+Dundalk Racing Results | 23rd November 2022 15:30,N/A,15:30,Standard,7f,Coolree (IRE),M. A. Enright,0,Miss Jennifer Anne Lynch,6th,1 l,3,10-0h1,68,True,32,23
+Dundalk Racing Results | 23rd November 2022 15:30,N/A,15:30,Standard,7f,Midnight Fire (IRE),L. F. Roche,0,Eddie & Patrick Harty,5th,Neck,5,9-12b,65,True,32,23
+Dundalk Racing Results | 23rd November 2022 15:30,N/A,15:30,Standard,7f,Mulgrave (IRE),D. W. O'Connor,0,John McConnell,4th,1/2 l,4,10-0ht,67,True,32,23
+Dundalk Racing Results | 23rd November 2022 15:30,N/A,15:30,Standard,7f,The Cola Brasil,C. Martins,0,Michael J. Browne,3rd,Head,6,9-5tp1,58,True,32,23
+Dundalk Racing Results | 23rd November 2022 15:30,N/A,15:30,Standard,7f,Aristovic (IRE),J. M. Sheridan,3,J. F. Levins,2nd,1 1/4 l,3,9-9,63,True,32,23
+Dundalk Racing Results | 23rd November 2022 15:30,N/A,15:30,Standard,7f,Sondheim (IRE),Neve Bennett,7,Craig O'Neill,1st,N/A,5,9-5,58,True,32,23
+Dundalk Racing Results | 23rd November 2022 15:30,N/A,15:30,Standard,7f,Miss Molly T (IRE),S. P. Bird,10,Gerard Keane,14th,1 l,5,9-9,62,True,32,23
+Dundalk Racing Results | 23rd November 2022 15:30,N/A,15:30,Standard,7f,Eglish,J. J. G. Ryan,7,James McAuley,13th,1 3/4 l,5,10-0v,67,True,32,23
+Dundalk Racing Results | 23rd November 2022 15:30,N/A,15:30,Standard,7f,Improving (IRE),J. Kearney,7,Augustine Leahy,12th,1/2 l,6,9-5,58,True,32,23
+Dundalk Racing Results | 23rd November 2022 15:30,N/A,15:30,Standard,7f,Form of Praise (IRE),Adam Caffrey,7,Adrian McGuinness,11th,Neck,3,10-0,68,True,32,23
+Dundalk Racing Results | 23rd November 2022 15:30,N/A,15:30,Standard,7f,Together Aclaim,Siobhan Rutledge,5,John McConnell,10th,Neck,3,9-11t,65,True,32,23
+Dundalk Racing Results | 23rd November 2022 15:30,N/A,15:30,Standard,7f,Bronze River,P. A. Harnett,7,Denis Hogan,9th,Short Head,5,9-7h,60,True,32,23
+Dundalk Racing Results | 23rd November 2022 15:30,N/A,15:30,Standard,7f,Capla Knight (IRE),A. C. Persse,7,Muredach Kelly,8th,1/2 l,4,8-13,52,True,32,23
+Dundalk Racing Results | 23rd November 2022 15:30,N/A,15:30,Standard,7f,Hell Left Loose,S. D. Bowen,7,Vincent Carroll,7th,3/4 l,6,8-12t,51,True,32,23
+Dundalk Racing Results | 23rd November 2022 15:30,N/A,15:30,Standard,7f,Coolree (IRE),M. A. Enright,0,Miss Jennifer Anne Lynch,6th,1 l,3,10-0h1,68,True,32,23
+Dundalk Racing Results | 23rd November 2022 15:30,N/A,15:30,Standard,7f,Midnight Fire (IRE),L. F. Roche,0,Eddie & Patrick Harty,5th,Neck,5,9-12b,65,True,32,23
+Dundalk Racing Results | 23rd November 2022 15:30,N/A,15:30,Standard,7f,Mulgrave (IRE),D. W. O'Connor,0,John McConnell,4th,1/2 l,4,10-0ht,67,True,32,23
+Dundalk Racing Results | 23rd November 2022 15:30,N/A,15:30,Standard,7f,The Cola Brasil,C. Martins,0,Michael J. Browne,3rd,Head,6,9-5tp1,58,True,32,23
+Dundalk Racing Results | 23rd November 2022 15:30,N/A,15:30,Standard,7f,Aristovic (IRE),J. M. Sheridan,3,J. F. Levins,2nd,1 1/4 l,3,9-9,63,True,32,23
+Dundalk Racing Results | 23rd November 2022 15:30,N/A,15:30,Standard,7f,Sondheim (IRE),Neve Bennett,7,Craig O'Neill,1st,N/A,5,9-5,58,True,32,23
+Dundalk Racing Results | 23rd November 2022 16:00,N/A,16:00,Standard,7f,Angel Palanas,M. A. Enright,0,Muredach Kelly,14th,Head,8,9-1t1,55,True,32,24
+Dundalk Racing Results | 23rd November 2022 16:00,N/A,16:00,Standard,7f,Cedar Rapids (IRE),J. J. G. Ryan,7,James McAuley,13th,Head,4,9-13tp,67,True,32,24
+Dundalk Racing Results | 23rd November 2022 16:00,N/A,16:00,Standard,7f,Higher Kingdom,Siobhan Rutledge,5,John McConnell,12th,1/2 l,5,9-9,63,True,32,24
+Dundalk Racing Results | 23rd November 2022 16:00,N/A,16:00,Standard,7f,Khattaat (IRE),L. F. Roche,0,Paul W. Flynn,11th,1/2 l,3,9-7t1,62,True,32,24
+Dundalk Racing Results | 23rd November 2022 16:00,N/A,16:00,Standard,7f,Sadiqaa (IRE),J. M. Sheridan,3,Denis Hogan,10th,Short Head,4,9-7p,61,True,32,24
+Dundalk Racing Results | 23rd November 2022 16:00,N/A,16:00,Standard,7f,Above It All (IRE),C. P. Hoban,0,John McConnell,9th,Neck,3,9-12,67,True,32,24
+Dundalk Racing Results | 23rd November 2022 16:00,N/A,16:00,Standard,7f,Royal Tribute (IRE),S. D. Bowen,7,Denis Hogan,8th,1 1/2 l,4,9-10b,64,True,32,24
+Dundalk Racing Results | 23rd November 2022 16:00,N/A,16:00,Standard,7f,Capuchinero,H. J. Horgan,7,Joseph Patrick O'Brien,7th,3/4 l,3,9-11,66,True,32,24
+Dundalk Racing Results | 23rd November 2022 16:00,N/A,16:00,Standard,7f,Delta Romeo (IRE),R. P. Cleary,0,G. O'Leary,6th,1/2 l,4,9-5tb,59,True,32,24
+Dundalk Racing Results | 23rd November 2022 16:00,N/A,16:00,Standard,7f,Arcanears (IRE),P. A. Harnett,7,M. Halford,5th,1/2 l,7,10-1tp,69,True,32,24
+Dundalk Racing Results | 23rd November 2022 16:00,N/A,16:00,Standard,7f,Senor Carrots (IRE),R. C. Colgan,0,Andrew Oliver,4th,Short Head,4,10-1,69,True,32,24
+Dundalk Racing Results | 23rd November 2022 16:00,N/A,16:00,Standard,7f,Jazzy Dancer (IRE),S. B. Kelly,0,W. J. Martin,3rd,3/4 l,4,9-4tb,58,True,32,24
+Dundalk Racing Results | 23rd November 2022 16:00,N/A,16:00,Standard,7f,Scarlet Dancer (IRE),R. Whearty,7,James McAuley,2nd,Head,3,9-12,67,True,32,24
+Dundalk Racing Results | 23rd November 2022 16:00,N/A,16:00,Standard,7f,Linus Larrabee (IRE),Sorcha Woods,7,Edward Lynam,1st,N/A,5,9-8,62,True,32,24
+Dundalk Racing Results | 23rd November 2022 16:00,N/A,16:00,Standard,7f,Angel Palanas,M. A. Enright,0,Muredach Kelly,14th,Head,8,9-1t1,55,True,32,24
+Dundalk Racing Results | 23rd November 2022 16:00,N/A,16:00,Standard,7f,Cedar Rapids (IRE),J. J. G. Ryan,7,James McAuley,13th,Head,4,9-13tp,67,True,32,24
+Dundalk Racing Results | 23rd November 2022 16:00,N/A,16:00,Standard,7f,Higher Kingdom,Siobhan Rutledge,5,John McConnell,12th,1/2 l,5,9-9,63,True,32,24
+Dundalk Racing Results | 23rd November 2022 16:00,N/A,16:00,Standard,7f,Khattaat (IRE),L. F. Roche,0,Paul W. Flynn,11th,1/2 l,3,9-7t1,62,True,32,24
+Dundalk Racing Results | 23rd November 2022 16:00,N/A,16:00,Standard,7f,Sadiqaa (IRE),J. M. Sheridan,3,Denis Hogan,10th,Short Head,4,9-7p,61,True,32,24
+Dundalk Racing Results | 23rd November 2022 16:00,N/A,16:00,Standard,7f,Above It All (IRE),C. P. Hoban,0,John McConnell,9th,Neck,3,9-12,67,True,32,24
+Dundalk Racing Results | 23rd November 2022 16:00,N/A,16:00,Standard,7f,Royal Tribute (IRE),S. D. Bowen,7,Denis Hogan,8th,1 1/2 l,4,9-10b,64,True,32,24
+Dundalk Racing Results | 23rd November 2022 16:00,N/A,16:00,Standard,7f,Capuchinero,H. J. Horgan,7,Joseph Patrick O'Brien,7th,3/4 l,3,9-11,66,True,32,24
+Dundalk Racing Results | 23rd November 2022 16:00,N/A,16:00,Standard,7f,Delta Romeo (IRE),R. P. Cleary,0,G. O'Leary,6th,1/2 l,4,9-5tb,59,True,32,24
+Dundalk Racing Results | 23rd November 2022 16:00,N/A,16:00,Standard,7f,Arcanears (IRE),P. A. Harnett,7,M. Halford,5th,1/2 l,7,10-1tp,69,True,32,24
+Dundalk Racing Results | 23rd November 2022 16:00,N/A,16:00,Standard,7f,Senor Carrots (IRE),R. C. Colgan,0,Andrew Oliver,4th,Short Head,4,10-1,69,True,32,24
+Dundalk Racing Results | 23rd November 2022 16:00,N/A,16:00,Standard,7f,Jazzy Dancer (IRE),S. B. Kelly,0,W. J. Martin,3rd,3/4 l,4,9-4tb,58,True,32,24
+Dundalk Racing Results | 23rd November 2022 16:00,N/A,16:00,Standard,7f,Scarlet Dancer (IRE),R. Whearty,7,James McAuley,2nd,Head,3,9-12,67,True,32,24
+Dundalk Racing Results | 23rd November 2022 16:00,N/A,16:00,Standard,7f,Linus Larrabee (IRE),Sorcha Woods,7,Edward Lynam,1st,N/A,5,9-8,62,True,32,24
+Dundalk Racing Results | 23rd November 2022 16:30,N/A,16:30,Standard,6f,Kippers Company (IRE),L. T. McAteer,3,Muredach Kelly,13th,12 l,4,9-8p,-,True,32,25
+Dundalk Racing Results | 23rd November 2022 16:30,N/A,16:30,Standard,6f,Great to Get Out (IRE),Kyanna Van Buuren,10,Liam Lennon,12th,3 3/4 l,4,9-8,-,True,32,25
+Dundalk Racing Results | 23rd November 2022 16:30,N/A,16:30,Standard,6f,Realtanua (IRE),C. P. Hoban,0,Patrick J. Flynn,11th,1 1/2 l,5,9-3,-,True,32,25
+Dundalk Racing Results | 23rd November 2022 16:30,N/A,16:30,Standard,6f,Witch of the Wood (IRE),M. A. Enright,0,J. A. Stack,10th,Neck,3,9-3b1,-,True,32,25
+Dundalk Racing Results | 23rd November 2022 16:30,N/A,16:30,Standard,6f,Tack (FR),Shane Foley,0,James McAuley,9th,1 3/4 l,3,9-8t,-,True,32,25
+Dundalk Racing Results | 23rd November 2022 16:30,N/A,16:30,Standard,6f,Osraige (IRE),H. J. Horgan,7,Joseph Patrick O'Brien,8th,Neck,3,9-3,-,True,32,25
+Dundalk Racing Results | 23rd November 2022 16:30,N/A,16:30,Standard,6f,Shining Crystal,J. M. Sheridan,3,Adrian Murray,7th,Neck,3,9-3p,-,True,32,25
+Dundalk Racing Results | 23rd November 2022 16:30,N/A,16:30,Standard,6f,Lake Nakuru (IRE),D. B. McMonagle,0,Joseph Patrick O'Brien,6th,1/2 l,3,9-3ht,-,True,32,25
+Dundalk Racing Results | 23rd November 2022 16:30,N/A,16:30,Standard,6f,Not Amused (IRE),Adam Caffrey,7,Mrs Prunella Dobbs,5th,3/4 l,4,9-3,-,True,32,25
+Dundalk Racing Results | 23rd November 2022 16:30,N/A,16:30,Standard,6f,Show Her The Money (IRE),L. F. Roche,0,David Marnane,4th,3/4 l,3,9-3,-,True,32,25
+Dundalk Racing Results | 23rd November 2022 16:30,N/A,16:30,Standard,6f,Maid To Shine (IRE),G. M. Ryan,0,P. J. Hassett,3rd,2 3/4 l,3,9-3t1,-,True,32,25
+Dundalk Racing Results | 23rd November 2022 16:30,N/A,16:30,Standard,6f,Aces Wild (IRE),Siobhan Rutledge,5,John McConnell,2nd,Short Head,3,9-8,-,True,32,25
+Dundalk Racing Results | 23rd November 2022 16:30,N/A,16:30,Standard,6f,Ebtsama (IRE),C. T. Keane,0,Adrian McGuinness,1st,N/A,3,9-3,-,True,32,25
+Dundalk Racing Results | 23rd November 2022 16:30,N/A,16:30,Standard,6f,Kippers Company (IRE),L. T. McAteer,3,Muredach Kelly,13th,12 l,4,9-8p,-,True,32,25
+Dundalk Racing Results | 23rd November 2022 16:30,N/A,16:30,Standard,6f,Great to Get Out (IRE),Kyanna Van Buuren,10,Liam Lennon,12th,3 3/4 l,4,9-8,-,True,32,25
+Dundalk Racing Results | 23rd November 2022 16:30,N/A,16:30,Standard,6f,Realtanua (IRE),C. P. Hoban,0,Patrick J. Flynn,11th,1 1/2 l,5,9-3,-,True,32,25
+Dundalk Racing Results | 23rd November 2022 16:30,N/A,16:30,Standard,6f,Witch of the Wood (IRE),M. A. Enright,0,J. A. Stack,10th,Neck,3,9-3b1,-,True,32,25
+Dundalk Racing Results | 23rd November 2022 16:30,N/A,16:30,Standard,6f,Tack (FR),Shane Foley,0,James McAuley,9th,1 3/4 l,3,9-8t,-,True,32,25
+Dundalk Racing Results | 23rd November 2022 16:30,N/A,16:30,Standard,6f,Osraige (IRE),H. J. Horgan,7,Joseph Patrick O'Brien,8th,Neck,3,9-3,-,True,32,25
+Dundalk Racing Results | 23rd November 2022 16:30,N/A,16:30,Standard,6f,Shining Crystal,J. M. Sheridan,3,Adrian Murray,7th,Neck,3,9-3p,-,True,32,25
+Dundalk Racing Results | 23rd November 2022 16:30,N/A,16:30,Standard,6f,Lake Nakuru (IRE),D. B. McMonagle,0,Joseph Patrick O'Brien,6th,1/2 l,3,9-3ht,-,True,32,25
+Dundalk Racing Results | 23rd November 2022 16:30,N/A,16:30,Standard,6f,Not Amused (IRE),Adam Caffrey,7,Mrs Prunella Dobbs,5th,3/4 l,4,9-3,-,True,32,25
+Dundalk Racing Results | 23rd November 2022 16:30,N/A,16:30,Standard,6f,Show Her The Money (IRE),L. F. Roche,0,David Marnane,4th,3/4 l,3,9-3,-,True,32,25
+Dundalk Racing Results | 23rd November 2022 16:30,N/A,16:30,Standard,6f,Maid To Shine (IRE),G. M. Ryan,0,P. J. Hassett,3rd,2 3/4 l,3,9-3t1,-,True,32,25
+Dundalk Racing Results | 23rd November 2022 16:30,N/A,16:30,Standard,6f,Aces Wild (IRE),Siobhan Rutledge,5,John McConnell,2nd,Short Head,3,9-8,-,True,32,25
+Dundalk Racing Results | 23rd November 2022 16:30,N/A,16:30,Standard,6f,Ebtsama (IRE),C. T. Keane,0,Adrian McGuinness,1st,N/A,3,9-3,-,True,32,25
+Dundalk Racing Results | 23rd November 2022 17:00,N/A,17:00,Standard,1m 2f 150y,No Show (IRE),J. M. Sheridan,3,James Joseph Mangan,13th,7 l,5,9-5b,54,True,32,26
+Dundalk Racing Results | 23rd November 2022 17:00,N/A,17:00,Standard,1m 2f 150y,Destivelle (IRE),L. F. Roche,0,Shane Kieran Ryder,12th,3 1/2 l,3,8-9b,47,True,32,26
+Dundalk Racing Results | 23rd November 2022 17:00,N/A,17:00,Standard,1m 2f 150y,Tommythelongfella (IRE),S. R. Markey,10,Anthony McCann,11th,2 l,3,9-2,54,True,32,26
+Dundalk Racing Results | 23rd November 2022 17:00,N/A,17:00,Standard,1m 2f 150y,Victory Star,Jonathan Moore,0,John Joseph Hanlon,10th,1 1/2 l,5,10-2,65,True,32,26
+Dundalk Racing Results | 23rd November 2022 17:00,N/A,17:00,Standard,1m 2f 150y,Qaabil (IRE),D. B. McMonagle,0,Peter Fahey,9th,1 1/2 l,6,9-7,56,True,32,26
+Dundalk Racing Results | 23rd November 2022 17:00,N/A,17:00,Standard,1m 2f 150y,Shawaf,D. W. O'Connor,0,John McConnell,8th,1 1/2 l,6,9-2ht,51,True,32,26
+Dundalk Racing Results | 23rd November 2022 17:00,N/A,17:00,Standard,1m 2f 150y,Clueless Hill (IRE),N. M. Crosse,0,Luke Comer,7th,1/2 l,7,8-12tp,47,True,32,26
+Dundalk Racing Results | 23rd November 2022 17:00,N/A,17:00,Standard,1m 2f 150y,El C Wells (IRE),R. C. Colgan,0,Thomas J. Gray,6th,2 l,4,10-0,63,True,32,26
+Dundalk Racing Results | 23rd November 2022 17:00,N/A,17:00,Standard,1m 2f 150y,Peppermint Bay (IRE),Shane Foley,0,J. J. Feane,5th,1/2 l,4,8-12,47,True,32,26
+Dundalk Racing Results | 23rd November 2022 17:00,N/A,17:00,Standard,1m 2f 150y,Tara Power (IRE),G. M. Ryan,0,Keith Henry Clarke,4th,1/2 l,4,9-2,51,True,32,26
+Dundalk Racing Results | 23rd November 2022 17:00,N/A,17:00,Standard,1m 2f 150y,The Lion Strikes (IRE),W. M. Lordan,0,Miss Jennifer Anne Lynch,3rd,Neck,3,8-9t,47,True,32,26
+Dundalk Racing Results | 23rd November 2022 17:00,N/A,17:00,Standard,1m 2f 150y,Wonder Spirit,Siobhan Rutledge,5,G. A. Kingston,2nd,Neck,4,9-1,50,True,32,26
+Dundalk Racing Results | 23rd November 2022 17:00,N/A,17:00,Standard,1m 2f 150y,Alphonse Le Grande (IRE),R. P. Whelan,0,R. P. Cody,1st,N/A,3,9-11,63,True,32,26
+Dundalk Racing Results | 23rd November 2022 17:00,N/A,17:00,Standard,1m 2f 150y,No Show (IRE),J. M. Sheridan,3,James Joseph Mangan,13th,7 l,5,9-5b,54,True,32,26
+Dundalk Racing Results | 23rd November 2022 17:00,N/A,17:00,Standard,1m 2f 150y,Destivelle (IRE),L. F. Roche,0,Shane Kieran Ryder,12th,3 1/2 l,3,8-9b,47,True,32,26
+Dundalk Racing Results | 23rd November 2022 17:00,N/A,17:00,Standard,1m 2f 150y,Tommythelongfella (IRE),S. R. Markey,10,Anthony McCann,11th,2 l,3,9-2,54,True,32,26
+Dundalk Racing Results | 23rd November 2022 17:00,N/A,17:00,Standard,1m 2f 150y,Victory Star,Jonathan Moore,0,John Joseph Hanlon,10th,1 1/2 l,5,10-2,65,True,32,26
+Dundalk Racing Results | 23rd November 2022 17:00,N/A,17:00,Standard,1m 2f 150y,Qaabil (IRE),D. B. McMonagle,0,Peter Fahey,9th,1 1/2 l,6,9-7,56,True,32,26
+Dundalk Racing Results | 23rd November 2022 17:00,N/A,17:00,Standard,1m 2f 150y,Shawaf,D. W. O'Connor,0,John McConnell,8th,1 1/2 l,6,9-2ht,51,True,32,26
+Dundalk Racing Results | 23rd November 2022 17:00,N/A,17:00,Standard,1m 2f 150y,Clueless Hill (IRE),N. M. Crosse,0,Luke Comer,7th,1/2 l,7,8-12tp,47,True,32,26
+Dundalk Racing Results | 23rd November 2022 17:00,N/A,17:00,Standard,1m 2f 150y,El C Wells (IRE),R. C. Colgan,0,Thomas J. Gray,6th,2 l,4,10-0,63,True,32,26
+Dundalk Racing Results | 23rd November 2022 17:00,N/A,17:00,Standard,1m 2f 150y,Peppermint Bay (IRE),Shane Foley,0,J. J. Feane,5th,1/2 l,4,8-12,47,True,32,26
+Dundalk Racing Results | 23rd November 2022 17:00,N/A,17:00,Standard,1m 2f 150y,Tara Power (IRE),G. M. Ryan,0,Keith Henry Clarke,4th,1/2 l,4,9-2,51,True,32,26
+Dundalk Racing Results | 23rd November 2022 17:00,N/A,17:00,Standard,1m 2f 150y,The Lion Strikes (IRE),W. M. Lordan,0,Miss Jennifer Anne Lynch,3rd,Neck,3,8-9t,47,True,32,26
+Dundalk Racing Results | 23rd November 2022 17:00,N/A,17:00,Standard,1m 2f 150y,Wonder Spirit,Siobhan Rutledge,5,G. A. Kingston,2nd,Neck,4,9-1,50,True,32,26
+Dundalk Racing Results | 23rd November 2022 17:00,N/A,17:00,Standard,1m 2f 150y,Alphonse Le Grande (IRE),R. P. Whelan,0,R. P. Cody,1st,N/A,3,9-11,63,True,32,26
+Dundalk Racing Results | 23rd November 2022 17:30,N/A,17:30,Standard,1m 2f 150y,Holding Aces (IRE),W. M. Lordan,0,Anthony McCann,12th,1 3/4 l,4,9-0,49,True,32,27
+Dundalk Racing Results | 23rd November 2022 17:30,N/A,17:30,Standard,1m 2f 150y,White Strand (IRE),R. P. Whelan,0,T. Hogan,11th,Neck,3,9-9v1,61,True,32,27
+Dundalk Racing Results | 23rd November 2022 17:30,N/A,17:30,Standard,1m 2f 150y,Complete Fiction (IRE),C. Stone-Walsh,10,Jarlath P. Fahey,10th,1 l,5,9-7p,56,True,32,27
+Dundalk Racing Results | 23rd November 2022 17:30,N/A,17:30,Standard,1m 2f 150y,Eastern Tornado (IRE),M. A. Enright,0,Michael P. Hourigan,9th,Neck,5,8-13,48,True,32,27
+Dundalk Racing Results | 23rd November 2022 17:30,N/A,17:30,Standard,1m 2f 150y,Khafaaq,C. Horgan,7,A. Slattery,8th,Short Head,7,10-2v,65,True,32,27
+Dundalk Racing Results | 23rd November 2022 17:30,N/A,17:30,Standard,1m 2f 150y,Steel Queen (IRE),C. Martins,0,Michael J. Browne,7th,1 3/4 l,5,9-9tp,58,True,32,27
+Dundalk Racing Results | 23rd November 2022 17:30,N/A,17:30,Standard,1m 2f 150y,Han Solo,R. Whearty,7,Augustine Leahy,6th,1/2 l,6,8-12,47,True,32,27
+Dundalk Racing Results | 23rd November 2022 17:30,N/A,17:30,Standard,1m 2f 150y,Kodiac Prince (IRE),R. P. Cleary,0,Thomas Cleary,5th,1 1/4 l,5,10-0p,63,True,32,27
+Dundalk Racing Results | 23rd November 2022 17:30,N/A,17:30,Standard,1m 2f 150y,Celtic Revival (IRE),N. M. Crosse,0,Edward Lynam,4th,1 1/2 l,3,8-9,47,True,32,27
+Dundalk Racing Results | 23rd November 2022 17:30,N/A,17:30,Standard,1m 2f 150y,The Peckhampouncer (IRE),R. C. Colgan,0,D. Broad,3rd,2 l,5,8-12tv,47,True,32,27
+Dundalk Racing Results | 23rd November 2022 17:30,N/A,17:30,Standard,1m 2f 150y,Je T'ai Porte (IRE),D. B. McMonagle,0,Gavin Patrick Cromwell,2nd,1/2 l,4,10-6h,69,True,32,27
+Dundalk Racing Results | 23rd November 2022 17:30,N/A,17:30,Standard,1m 2f 150y,St Cianans Fire (IRE),C. P. Hoban,0,John McConnell,1st,N/A,4,9-12t,61,True,32,27
+Dundalk Racing Results | 23rd November 2022 17:30,N/A,17:30,Standard,1m 2f 150y,Holding Aces (IRE),W. M. Lordan,0,Anthony McCann,12th,1 3/4 l,4,9-0,49,True,32,27
+Dundalk Racing Results | 23rd November 2022 17:30,N/A,17:30,Standard,1m 2f 150y,White Strand (IRE),R. P. Whelan,0,T. Hogan,11th,Neck,3,9-9v1,61,True,32,27
+Dundalk Racing Results | 23rd November 2022 17:30,N/A,17:30,Standard,1m 2f 150y,Complete Fiction (IRE),C. Stone-Walsh,10,Jarlath P. Fahey,10th,1 l,5,9-7p,56,True,32,27
+Dundalk Racing Results | 23rd November 2022 17:30,N/A,17:30,Standard,1m 2f 150y,Eastern Tornado (IRE),M. A. Enright,0,Michael P. Hourigan,9th,Neck,5,8-13,48,True,32,27
+Dundalk Racing Results | 23rd November 2022 17:30,N/A,17:30,Standard,1m 2f 150y,Khafaaq,C. Horgan,7,A. Slattery,8th,Short Head,7,10-2v,65,True,32,27
+Dundalk Racing Results | 23rd November 2022 17:30,N/A,17:30,Standard,1m 2f 150y,Steel Queen (IRE),C. Martins,0,Michael J. Browne,7th,1 3/4 l,5,9-9tp,58,True,32,27
+Dundalk Racing Results | 23rd November 2022 17:30,N/A,17:30,Standard,1m 2f 150y,Han Solo,R. Whearty,7,Augustine Leahy,6th,1/2 l,6,8-12,47,True,32,27
+Dundalk Racing Results | 23rd November 2022 17:30,N/A,17:30,Standard,1m 2f 150y,Kodiac Prince (IRE),R. P. Cleary,0,Thomas Cleary,5th,1 1/4 l,5,10-0p,63,True,32,27
+Dundalk Racing Results | 23rd November 2022 17:30,N/A,17:30,Standard,1m 2f 150y,Celtic Revival (IRE),N. M. Crosse,0,Edward Lynam,4th,1 1/2 l,3,8-9,47,True,32,27
+Dundalk Racing Results | 23rd November 2022 17:30,N/A,17:30,Standard,1m 2f 150y,The Peckhampouncer (IRE),R. C. Colgan,0,D. Broad,3rd,2 l,5,8-12tv,47,True,32,27
+Dundalk Racing Results | 23rd November 2022 17:30,N/A,17:30,Standard,1m 2f 150y,Je T'ai Porte (IRE),D. B. McMonagle,0,Gavin Patrick Cromwell,2nd,1/2 l,4,10-6h,69,True,32,27
+Dundalk Racing Results | 23rd November 2022 17:30,N/A,17:30,Standard,1m 2f 150y,St Cianans Fire (IRE),C. P. Hoban,0,John McConnell,1st,N/A,4,9-12t,61,True,32,27
+Thurles Racing Results | 24th November 2022 12:30,N/A,12:30,Yielding,2m 6f,Psychee Du Brizais (FR),M. P. O'Connor,0,Diarmuid P. Ryan,PU,N/A,8,11-5,-,True,32,28
+Thurles Racing Results | 24th November 2022 12:30,N/A,12:30,Yielding,2m 6f,General Ryan (IRE),C. P. O'Shea,7,G. Ahern,8th,1 3/4 l,8,11-12,-,True,32,28
+Thurles Racing Results | 24th November 2022 12:30,N/A,12:30,Yielding,2m 6f,From The Ashes (IRE),P. Byrnes,5,Charles Byrnes,7th,2 3/4 l,5,11-12,-,True,32,28
+Thurles Racing Results | 24th November 2022 12:30,N/A,12:30,Yielding,2m 6f,Mahler Allstar (IRE),S. F. O'Keeffe,0,James Joseph Mangan,6th,12 l,8,11-12,-,True,32,28
+Thurles Racing Results | 24th November 2022 12:30,N/A,12:30,Yielding,2m 6f,Irascible (FR),Rachael Blackmore,0,Henry de Bromhead,5th,3 1/2 l,7,11-12t,-,True,32,28
+Thurles Racing Results | 24th November 2022 12:30,N/A,12:30,Yielding,2m 6f,Unexpected Depth (IRE),Phillip Enright,0,Oliver McKiernan,4th,6 l,8,11-12tp,-,True,32,28
+Thurles Racing Results | 24th November 2022 12:30,N/A,12:30,Yielding,2m 6f,Indiana Jones (FR),D. J. O'Keeffe,0,M. F. Morris,3rd,6 1/2 l,6,11-12tp,-,True,32,28
+Thurles Racing Results | 24th November 2022 12:30,N/A,12:30,Yielding,2m 6f,Churchstonewarrior (IRE),Denis O'Regan,0,Jonathan Sweeney,2nd,2 1/4 l,7,11-12,-,True,32,28
+Thurles Racing Results | 24th November 2022 12:30,N/A,12:30,Yielding,2m 6f,The Goffer (IRE),J. W. Kennedy,0,Gordon Elliott,1st,N/A,5,11-12,-,True,32,28
+Thurles Racing Results | 24th November 2022 12:30,N/A,12:30,Yielding,2m 6f,Psychee Du Brizais (FR),M. P. O'Connor,0,Diarmuid P. Ryan,PU,N/A,8,11-5,-,True,32,28
+Thurles Racing Results | 24th November 2022 12:30,N/A,12:30,Yielding,2m 6f,General Ryan (IRE),C. P. O'Shea,7,G. Ahern,8th,1 3/4 l,8,11-12,-,True,32,28
+Thurles Racing Results | 24th November 2022 12:30,N/A,12:30,Yielding,2m 6f,From The Ashes (IRE),P. Byrnes,5,Charles Byrnes,7th,2 3/4 l,5,11-12,-,True,32,28
+Thurles Racing Results | 24th November 2022 12:30,N/A,12:30,Yielding,2m 6f,Mahler Allstar (IRE),S. F. O'Keeffe,0,James Joseph Mangan,6th,12 l,8,11-12,-,True,32,28
+Thurles Racing Results | 24th November 2022 12:30,N/A,12:30,Yielding,2m 6f,Irascible (FR),Rachael Blackmore,0,Henry de Bromhead,5th,3 1/2 l,7,11-12t,-,True,32,28
+Thurles Racing Results | 24th November 2022 12:30,N/A,12:30,Yielding,2m 6f,Unexpected Depth (IRE),Phillip Enright,0,Oliver McKiernan,4th,6 l,8,11-12tp,-,True,32,28
+Thurles Racing Results | 24th November 2022 12:30,N/A,12:30,Yielding,2m 6f,Indiana Jones (FR),D. J. O'Keeffe,0,M. F. Morris,3rd,6 1/2 l,6,11-12tp,-,True,32,28
+Thurles Racing Results | 24th November 2022 12:30,N/A,12:30,Yielding,2m 6f,Churchstonewarrior (IRE),Denis O'Regan,0,Jonathan Sweeney,2nd,2 1/4 l,7,11-12,-,True,32,28
+Thurles Racing Results | 24th November 2022 12:30,N/A,12:30,Yielding,2m 6f,The Goffer (IRE),J. W. Kennedy,0,Gordon Elliott,1st,N/A,5,11-12,-,True,32,28
+Thurles Racing Results | 24th November 2022 13:00,N/A,13:00,Yielding,2m 6f,Balinaboola Steel (IRE),Shane Fenelon,7,John Joseph Hanlon,PU,N/A,10,12-1p,117,True,32,29
+Thurles Racing Results | 24th November 2022 13:00,N/A,13:00,Yielding,2m 6f,Smitty Bacall (IRE),D. E. Mullins,0,J. P. Flavin,PU,N/A,11,11-0tp1,102,True,32,29
+Thurles Racing Results | 24th November 2022 13:00,N/A,13:00,Yielding,2m 6f,Diamond Grove,S. D. Torrens,0,Edward Cawley,12th,20 l,7,10-0,88,True,32,29
+Thurles Racing Results | 24th November 2022 13:00,N/A,13:00,Yielding,2m 6f,Goodnightngodbless (USA),M. P. Walsh,0,J. D. Motherway,11th,3 1/2 l,9,11-0tb,102,True,32,29
+Thurles Racing Results | 24th November 2022 13:00,N/A,13:00,Yielding,2m 6f,Difficult Decision (IRE),Phillip Enright,0,Oliver McKiernan,10th,1 3/4 l,9,11-1tp,103,True,32,29
+Thurles Racing Results | 24th November 2022 13:00,N/A,13:00,Yielding,2m 6f,Oscer Romero (IRE),Patrick O'Hanlon,5,P. J. Rothwell,9th,3 1/4 l,7,11-3p,105,True,32,29
+Thurles Racing Results | 24th November 2022 13:00,N/A,13:00,Yielding,2m 6f,Stormey (IRE),Jack G. Gilligan,7,Paul John Gilligan,8th,1 1/4 l,12,11-4t,106,True,32,29
+Thurles Racing Results | 24th November 2022 13:00,N/A,13:00,Yielding,2m 6f,Touch of Oscar (IRE),D. J. O'Keeffe,0,M. Hourigan,7th,Neck,8,10-7p,95,True,32,29
+Thurles Racing Results | 24th November 2022 13:00,N/A,13:00,Yielding,2m 6f,Ennemi Public (FR),J. J. Slevin,0,Daniel John Howard,6th,4 1/2 l,8,11-0tp,102,True,32,29
+Thurles Racing Results | 24th November 2022 13:00,N/A,13:00,Yielding,2m 6f,Yeah Man (IRE),Keith Donoghue,0,Gavin Patrick Cromwell,5th,5 l,5,11-12,114,True,32,29
+Thurles Racing Results | 24th November 2022 13:00,N/A,13:00,Yielding,2m 6f,Arthur's Baby (IRE),Jordan Colin Gainford,0,Mark McNiff,4th,6 1/2 l,8,11-0t,102,True,32,29
+Thurles Racing Results | 24th November 2022 13:00,N/A,13:00,Yielding,2m 6f,Chameron (FR),M. J. M. O'Sullivan,5,Patrick Griffin,3rd,5 1/2 l,9,12-0t,116,True,32,29
+Thurles Racing Results | 24th November 2022 13:00,N/A,13:00,Yielding,2m 6f,Beating the Odds (IRE),S. F. O'Keeffe,0,W. J. Austin,2nd,3 l,9,10-9,97,True,32,29
+Thurles Racing Results | 24th November 2022 13:00,N/A,13:00,Yielding,2m 6f,Arctic Ambition (IRE),J. W. Kennedy,0,Gordon Elliott,1st,N/A,7,10-8,96,True,32,29
+Thurles Racing Results | 24th November 2022 13:00,N/A,13:00,Yielding,2m 6f,Balinaboola Steel (IRE),Shane Fenelon,7,John Joseph Hanlon,PU,N/A,10,12-1p,117,True,32,29
+Thurles Racing Results | 24th November 2022 13:00,N/A,13:00,Yielding,2m 6f,Smitty Bacall (IRE),D. E. Mullins,0,J. P. Flavin,PU,N/A,11,11-0tp1,102,True,32,29
+Thurles Racing Results | 24th November 2022 13:00,N/A,13:00,Yielding,2m 6f,Diamond Grove,S. D. Torrens,0,Edward Cawley,12th,20 l,7,10-0,88,True,32,29
+Thurles Racing Results | 24th November 2022 13:00,N/A,13:00,Yielding,2m 6f,Goodnightngodbless (USA),M. P. Walsh,0,J. D. Motherway,11th,3 1/2 l,9,11-0tb,102,True,32,29
+Thurles Racing Results | 24th November 2022 13:00,N/A,13:00,Yielding,2m 6f,Difficult Decision (IRE),Phillip Enright,0,Oliver McKiernan,10th,1 3/4 l,9,11-1tp,103,True,32,29
+Thurles Racing Results | 24th November 2022 13:00,N/A,13:00,Yielding,2m 6f,Oscer Romero (IRE),Patrick O'Hanlon,5,P. J. Rothwell,9th,3 1/4 l,7,11-3p,105,True,32,29
+Thurles Racing Results | 24th November 2022 13:00,N/A,13:00,Yielding,2m 6f,Stormey (IRE),Jack G. Gilligan,7,Paul John Gilligan,8th,1 1/4 l,12,11-4t,106,True,32,29
+Thurles Racing Results | 24th November 2022 13:00,N/A,13:00,Yielding,2m 6f,Touch of Oscar (IRE),D. J. O'Keeffe,0,M. Hourigan,7th,Neck,8,10-7p,95,True,32,29
+Thurles Racing Results | 24th November 2022 13:00,N/A,13:00,Yielding,2m 6f,Ennemi Public (FR),J. J. Slevin,0,Daniel John Howard,6th,4 1/2 l,8,11-0tp,102,True,32,29
+Thurles Racing Results | 24th November 2022 13:00,N/A,13:00,Yielding,2m 6f,Yeah Man (IRE),Keith Donoghue,0,Gavin Patrick Cromwell,5th,5 l,5,11-12,114,True,32,29
+Thurles Racing Results | 24th November 2022 13:00,N/A,13:00,Yielding,2m 6f,Arthur's Baby (IRE),Jordan Colin Gainford,0,Mark McNiff,4th,6 1/2 l,8,11-0t,102,True,32,29
+Thurles Racing Results | 24th November 2022 13:00,N/A,13:00,Yielding,2m 6f,Chameron (FR),M. J. M. O'Sullivan,5,Patrick Griffin,3rd,5 1/2 l,9,12-0t,116,True,32,29
+Thurles Racing Results | 24th November 2022 13:00,N/A,13:00,Yielding,2m 6f,Beating the Odds (IRE),S. F. O'Keeffe,0,W. J. Austin,2nd,3 l,9,10-9,97,True,32,29
+Thurles Racing Results | 24th November 2022 13:00,N/A,13:00,Yielding,2m 6f,Arctic Ambition (IRE),J. W. Kennedy,0,Gordon Elliott,1st,N/A,7,10-8,96,True,32,29
+Thurles Racing Results | 24th November 2022 13:35,N/A,13:35,Yielding To Soft,2m 7f 13y,Western Flyer (IRE),Jordan Colin Gainford,0,James Andrew Fahey,PU,N/A,6,11-4,-,True,32,30
+Thurles Racing Results | 24th November 2022 13:35,N/A,13:35,Yielding To Soft,2m 7f 13y,Time To Rocco (IRE),M. J. M. O'Sullivan,5,Colin Motherway,F,N/A,5,11-3,-,True,32,30
+Thurles Racing Results | 24th November 2022 13:35,N/A,13:35,Yielding To Soft,2m 7f 13y,Getaway Charlie (IRE),A. M. McCurtin,3,Timothy Doyle,7th,60 l,6,11-4,-,True,32,30
+Thurles Racing Results | 24th November 2022 13:35,N/A,13:35,Yielding To Soft,2m 7f 13y,Silver Gazette (IRE),S. Fitzgerald,3,John Patrick Ryan,6th,Neck,5,11-4,-,True,32,30
+Thurles Racing Results | 24th November 2022 13:35,N/A,13:35,Yielding To Soft,2m 7f 13y,Suain Na Draoicht (IRE),P. Byrnes,5,Charles Byrnes,5th,4 1/2 l,5,11-10,-,True,32,30
+Thurles Racing Results | 24th November 2022 13:35,N/A,13:35,Yielding To Soft,2m 7f 13y,Johnny Cigar (IRE),Denis O'Regan,0,P. F. O'Donnell,4th,61 l,6,11-4,-,True,32,30
+Thurles Racing Results | 24th November 2022 13:35,N/A,13:35,Yielding To Soft,2m 7f 13y,Jack In The Box (IRE),Davy Russell,0,Gordon Elliott,3rd,22 l,5,11-10,-,True,32,30
+Thurles Racing Results | 24th November 2022 13:35,N/A,13:35,Yielding To Soft,2m 7f 13y,Harry Des Ongrais (FR),Rachael Blackmore,0,Henry de Bromhead,2nd,3 1/4 l,5,11-10,-,True,32,30
+Thurles Racing Results | 24th November 2022 13:35,N/A,13:35,Yielding To Soft,2m 7f 13y,Favori De Champdou (FR),J. W. Kennedy,0,Gordon Elliott,1st,N/A,7,11-10,-,True,32,30
+Thurles Racing Results | 24th November 2022 13:35,N/A,13:35,Yielding To Soft,2m 7f 13y,Western Flyer (IRE),Jordan Colin Gainford,0,James Andrew Fahey,PU,N/A,6,11-4,-,True,32,30
+Thurles Racing Results | 24th November 2022 13:35,N/A,13:35,Yielding To Soft,2m 7f 13y,Time To Rocco (IRE),M. J. M. O'Sullivan,5,Colin Motherway,F,N/A,5,11-3,-,True,32,30
+Thurles Racing Results | 24th November 2022 13:35,N/A,13:35,Yielding To Soft,2m 7f 13y,Getaway Charlie (IRE),A. M. McCurtin,3,Timothy Doyle,7th,60 l,6,11-4,-,True,32,30
+Thurles Racing Results | 24th November 2022 13:35,N/A,13:35,Yielding To Soft,2m 7f 13y,Silver Gazette (IRE),S. Fitzgerald,3,John Patrick Ryan,6th,Neck,5,11-4,-,True,32,30
+Thurles Racing Results | 24th November 2022 13:35,N/A,13:35,Yielding To Soft,2m 7f 13y,Suain Na Draoicht (IRE),P. Byrnes,5,Charles Byrnes,5th,4 1/2 l,5,11-10,-,True,32,30
+Thurles Racing Results | 24th November 2022 13:35,N/A,13:35,Yielding To Soft,2m 7f 13y,Johnny Cigar (IRE),Denis O'Regan,0,P. F. O'Donnell,4th,61 l,6,11-4,-,True,32,30
+Thurles Racing Results | 24th November 2022 13:35,N/A,13:35,Yielding To Soft,2m 7f 13y,Jack In The Box (IRE),Davy Russell,0,Gordon Elliott,3rd,22 l,5,11-10,-,True,32,30
+Thurles Racing Results | 24th November 2022 13:35,N/A,13:35,Yielding To Soft,2m 7f 13y,Harry Des Ongrais (FR),Rachael Blackmore,0,Henry de Bromhead,2nd,3 1/4 l,5,11-10,-,True,32,30
+Thurles Racing Results | 24th November 2022 13:35,N/A,13:35,Yielding To Soft,2m 7f 13y,Favori De Champdou (FR),J. W. Kennedy,0,Gordon Elliott,1st,N/A,7,11-10,-,True,32,30
+Thurles Racing Results | 24th November 2022 14:10,N/A,14:10,Yielding To Soft,2m 7f 13y,Ginnets Girl (IRE),J. W. Kennedy,0,Gordon Elliott,PU,N/A,4,11-6,-,True,32,31
+Thurles Racing Results | 24th November 2022 14:10,N/A,14:10,Yielding To Soft,2m 7f 13y,Cool Legacy (IRE),Phillip Enright,0,Colin Motherway,PU,N/A,5,10-13,-,True,32,31
+Thurles Racing Results | 24th November 2022 14:10,N/A,14:10,Yielding To Soft,2m 7f 13y,Glory Liss (IRE),Rachael Blackmore,0,John E. Kiely,PU,N/A,5,10-13,-,True,32,31
+Thurles Racing Results | 24th November 2022 14:10,N/A,14:10,Yielding To Soft,2m 7f 13y,Roccos Inspiration (IRE),M. J. M. O'Sullivan,5,Michael G. Kennedy,PU,N/A,5,10-13tp,-,True,32,31
+Thurles Racing Results | 24th November 2022 14:10,N/A,14:10,Yielding To Soft,2m 7f 13y,Getabelle (IRE),Richard Deegan,0,Liam P. Cusack,PU,N/A,5,10-13t,-,True,32,31
+Thurles Racing Results | 24th November 2022 14:10,N/A,14:10,Yielding To Soft,2m 7f 13y,Pearlofflorida (IRE),Adam Ellis,7,Liam P. Cusack,PU,N/A,5,10-13,-,True,32,31
+Thurles Racing Results | 24th November 2022 14:10,N/A,14:10,Yielding To Soft,2m 7f 13y,Saint Bernadette (IRE),N. T. Prendergast,7,John Patrick Ryan,PU,N/A,5,10-13,-,True,32,31
+Thurles Racing Results | 24th November 2022 14:10,N/A,14:10,Yielding To Soft,2m 7f 13y,Kalahari Diamond (IRE),P. Byrnes,5,Charles Byrnes,PU,N/A,4,10-12,-,True,32,31
+Thurles Racing Results | 24th November 2022 14:10,N/A,14:10,Yielding To Soft,2m 7f 13y,Pulltheplug (IRE),L. A. McKenna,7,Michael G. Kennedy,PU,N/A,6,10-13,-,True,32,31
+Thurles Racing Results | 24th November 2022 14:10,N/A,14:10,Yielding To Soft,2m 7f 13y,Jenny Flex (IRE),Davy Russell,0,Gordon Elliott,6th,1/2 l,5,10-13,-,True,32,31
+Thurles Racing Results | 24th November 2022 14:10,N/A,14:10,Yielding To Soft,2m 7f 13y,Apples In Winter (IRE),J. J. Slevin,0,Liam Casey,5th,11 l,5,10-13,-,True,32,31
+Thurles Racing Results | 24th November 2022 14:10,N/A,14:10,Yielding To Soft,2m 7f 13y,Ballycashin (IRE),D. E. Mullins,0,Anthony Mullins,4th,1 l,5,11-7,-,True,32,31
+Thurles Racing Results | 24th November 2022 14:10,N/A,14:10,Yielding To Soft,2m 7f 13y,Caremuchmore (IRE),A. M. McCurtin,3,Daniel G. Murphy,3rd,1 l,5,10-13,-,True,32,31
+Thurles Racing Results | 24th November 2022 14:10,N/A,14:10,Yielding To Soft,2m 7f 13y,Glorious Singer (IRE),Mr Adam Feeney,7,Ms A. Curran,2nd,25 l,7,10-13p,-,True,32,31
+Thurles Racing Results | 24th November 2022 14:10,N/A,14:10,Yielding To Soft,2m 7f 13y,Sainte Dona (FR),B. J. Cooper,0,Thomas Cooper,1st,N/A,5,10-13,-,True,32,31
+Thurles Racing Results | 24th November 2022 14:10,N/A,14:10,Yielding To Soft,2m 7f 13y,Ginnets Girl (IRE),J. W. Kennedy,0,Gordon Elliott,PU,N/A,4,11-6,-,True,32,31
+Thurles Racing Results | 24th November 2022 14:10,N/A,14:10,Yielding To Soft,2m 7f 13y,Cool Legacy (IRE),Phillip Enright,0,Colin Motherway,PU,N/A,5,10-13,-,True,32,31
+Thurles Racing Results | 24th November 2022 14:10,N/A,14:10,Yielding To Soft,2m 7f 13y,Glory Liss (IRE),Rachael Blackmore,0,John E. Kiely,PU,N/A,5,10-13,-,True,32,31
+Thurles Racing Results | 24th November 2022 14:10,N/A,14:10,Yielding To Soft,2m 7f 13y,Roccos Inspiration (IRE),M. J. M. O'Sullivan,5,Michael G. Kennedy,PU,N/A,5,10-13tp,-,True,32,31
+Thurles Racing Results | 24th November 2022 14:10,N/A,14:10,Yielding To Soft,2m 7f 13y,Getabelle (IRE),Richard Deegan,0,Liam P. Cusack,PU,N/A,5,10-13t,-,True,32,31
+Thurles Racing Results | 24th November 2022 14:10,N/A,14:10,Yielding To Soft,2m 7f 13y,Pearlofflorida (IRE),Adam Ellis,7,Liam P. Cusack,PU,N/A,5,10-13,-,True,32,31
+Thurles Racing Results | 24th November 2022 14:10,N/A,14:10,Yielding To Soft,2m 7f 13y,Saint Bernadette (IRE),N. T. Prendergast,7,John Patrick Ryan,PU,N/A,5,10-13,-,True,32,31
+Thurles Racing Results | 24th November 2022 14:10,N/A,14:10,Yielding To Soft,2m 7f 13y,Kalahari Diamond (IRE),P. Byrnes,5,Charles Byrnes,PU,N/A,4,10-12,-,True,32,31
+Thurles Racing Results | 24th November 2022 14:10,N/A,14:10,Yielding To Soft,2m 7f 13y,Pulltheplug (IRE),L. A. McKenna,7,Michael G. Kennedy,PU,N/A,6,10-13,-,True,32,31
+Thurles Racing Results | 24th November 2022 14:10,N/A,14:10,Yielding To Soft,2m 7f 13y,Jenny Flex (IRE),Davy Russell,0,Gordon Elliott,6th,1/2 l,5,10-13,-,True,32,31
+Thurles Racing Results | 24th November 2022 14:10,N/A,14:10,Yielding To Soft,2m 7f 13y,Apples In Winter (IRE),J. J. Slevin,0,Liam Casey,5th,11 l,5,10-13,-,True,32,31
+Thurles Racing Results | 24th November 2022 14:10,N/A,14:10,Yielding To Soft,2m 7f 13y,Ballycashin (IRE),D. E. Mullins,0,Anthony Mullins,4th,1 l,5,11-7,-,True,32,31
+Thurles Racing Results | 24th November 2022 14:10,N/A,14:10,Yielding To Soft,2m 7f 13y,Caremuchmore (IRE),A. M. McCurtin,3,Daniel G. Murphy,3rd,1 l,5,10-13,-,True,32,31
+Thurles Racing Results | 24th November 2022 14:10,N/A,14:10,Yielding To Soft,2m 7f 13y,Glorious Singer (IRE),Mr Adam Feeney,7,Ms A. Curran,2nd,25 l,7,10-13p,-,True,32,31
+Thurles Racing Results | 24th November 2022 14:10,N/A,14:10,Yielding To Soft,2m 7f 13y,Sainte Dona (FR),B. J. Cooper,0,Thomas Cooper,1st,N/A,5,10-13,-,True,32,31
+Thurles Racing Results | 24th November 2022 14:40,N/A,14:40,Yielding To Soft,2m 4f 156y,Fassbender (IRE),M. P. O'Connor,5,Mark McNiff,PU,N/A,6,11-12t,107,True,32,32
+Thurles Racing Results | 24th November 2022 14:40,N/A,14:40,Yielding To Soft,2m 4f 156y,Father Ailbe (IRE),Denis O'Regan,0,Miss Hilary McLoughlin,PU,N/A,7,11-12,107,True,32,32
+Thurles Racing Results | 24th November 2022 14:40,N/A,14:40,Yielding To Soft,2m 4f 156y,Prince Zaltar (FR),Rachael Blackmore,0,P. J. Rothwell,PU,N/A,5,11-7,102,True,32,32
+Thurles Racing Results | 24th November 2022 14:40,N/A,14:40,Yielding To Soft,2m 4f 156y,Moonovercloon (IRE),B. J. Cooper,0,Matthew J. Smith,PU,N/A,5,11-11p,106,True,32,32
+Thurles Racing Results | 24th November 2022 14:40,N/A,14:40,Yielding To Soft,2m 4f 156y,Staging Post (IRE),C. A. Landers,0,Mark McNiff,PU,N/A,6,11-10t,105,True,32,32
+Thurles Racing Results | 24th November 2022 14:40,N/A,14:40,Yielding To Soft,2m 4f 156y,Attitash (IRE),J. J. Slevin,0,Jennifer Monaghan,PU,N/A,7,11-9,104,True,32,32
+Thurles Racing Results | 24th November 2022 14:40,N/A,14:40,Yielding To Soft,2m 4f 156y,Steppenwolf (FR),L. P. Dempsey,0,Gavin Patrick Cromwell,F,N/A,4,11-8,104,True,32,32
+Thurles Racing Results | 24th November 2022 14:40,N/A,14:40,Yielding To Soft,2m 4f 156y,Paidi's Passion (IRE),Jordan Colin Gainford,0,David Christie,8th,4 l,6,11-10,105,True,32,32
+Thurles Racing Results | 24th November 2022 14:40,N/A,14:40,Yielding To Soft,2m 4f 156y,Benruben (IRE),K. E. Buckley,5,Leonard Paul Flynn,7th,1/2 l,9,11-13t,108,True,32,32
+Thurles Racing Results | 24th November 2022 14:40,N/A,14:40,Yielding To Soft,2m 4f 156y,Thedancingfarrier (IRE),S. Fitzgerald,3,P. Kiely,6th,1/2 l,10,11-11,106,True,32,32
+Thurles Racing Results | 24th November 2022 14:40,N/A,14:40,Yielding To Soft,2m 4f 156y,Asluckwouldhaveit (IRE),S. D. Torrens,0,Padraig Roche,5th,6 l,5,11-9,104,True,32,32
+Thurles Racing Results | 24th November 2022 14:40,N/A,14:40,Yielding To Soft,2m 4f 156y,West Is Awake (IRE),Keith Donoghue,0,Edward Cawley,4th,3/4 l,6,11-9h,104,True,32,32
+Thurles Racing Results | 24th November 2022 14:40,N/A,14:40,Yielding To Soft,2m 4f 156y,Lizlucky (IRE),Phillip Enright,0,Patrick T. Foley,3rd,9 1/2 l,8,11-8t,103,True,32,32
+Thurles Racing Results | 24th November 2022 14:40,N/A,14:40,Yielding To Soft,2m 4f 156y,Gali Flight (FR),Niall Moore,7,Philip Fenton,2nd,4 3/4 l,6,11-9,104,True,32,32
+Thurles Racing Results | 24th November 2022 14:40,N/A,14:40,Yielding To Soft,2m 4f 156y,L'or Des Roses (FR),Mr B. W. Harvey,5,D. Harvey,1st,N/A,5,11-9,104,True,32,32
+Thurles Racing Results | 24th November 2022 14:40,N/A,14:40,Yielding To Soft,2m 4f 156y,Fassbender (IRE),M. P. O'Connor,5,Mark McNiff,PU,N/A,6,11-12t,107,True,32,32
+Thurles Racing Results | 24th November 2022 14:40,N/A,14:40,Yielding To Soft,2m 4f 156y,Father Ailbe (IRE),Denis O'Regan,0,Miss Hilary McLoughlin,PU,N/A,7,11-12,107,True,32,32
+Thurles Racing Results | 24th November 2022 14:40,N/A,14:40,Yielding To Soft,2m 4f 156y,Prince Zaltar (FR),Rachael Blackmore,0,P. J. Rothwell,PU,N/A,5,11-7,102,True,32,32
+Thurles Racing Results | 24th November 2022 14:40,N/A,14:40,Yielding To Soft,2m 4f 156y,Moonovercloon (IRE),B. J. Cooper,0,Matthew J. Smith,PU,N/A,5,11-11p,106,True,32,32
+Thurles Racing Results | 24th November 2022 14:40,N/A,14:40,Yielding To Soft,2m 4f 156y,Staging Post (IRE),C. A. Landers,0,Mark McNiff,PU,N/A,6,11-10t,105,True,32,32
+Thurles Racing Results | 24th November 2022 14:40,N/A,14:40,Yielding To Soft,2m 4f 156y,Attitash (IRE),J. J. Slevin,0,Jennifer Monaghan,PU,N/A,7,11-9,104,True,32,32
+Thurles Racing Results | 24th November 2022 14:40,N/A,14:40,Yielding To Soft,2m 4f 156y,Steppenwolf (FR),L. P. Dempsey,0,Gavin Patrick Cromwell,F,N/A,4,11-8,104,True,32,32
+Thurles Racing Results | 24th November 2022 14:40,N/A,14:40,Yielding To Soft,2m 4f 156y,Paidi's Passion (IRE),Jordan Colin Gainford,0,David Christie,8th,4 l,6,11-10,105,True,32,32
+Thurles Racing Results | 24th November 2022 14:40,N/A,14:40,Yielding To Soft,2m 4f 156y,Benruben (IRE),K. E. Buckley,5,Leonard Paul Flynn,7th,1/2 l,9,11-13t,108,True,32,32
+Thurles Racing Results | 24th November 2022 14:40,N/A,14:40,Yielding To Soft,2m 4f 156y,Thedancingfarrier (IRE),S. Fitzgerald,3,P. Kiely,6th,1/2 l,10,11-11,106,True,32,32
+Thurles Racing Results | 24th November 2022 14:40,N/A,14:40,Yielding To Soft,2m 4f 156y,Asluckwouldhaveit (IRE),S. D. Torrens,0,Padraig Roche,5th,6 l,5,11-9,104,True,32,32
+Thurles Racing Results | 24th November 2022 14:40,N/A,14:40,Yielding To Soft,2m 4f 156y,West Is Awake (IRE),Keith Donoghue,0,Edward Cawley,4th,3/4 l,6,11-9h,104,True,32,32
+Thurles Racing Results | 24th November 2022 14:40,N/A,14:40,Yielding To Soft,2m 4f 156y,Lizlucky (IRE),Phillip Enright,0,Patrick T. Foley,3rd,9 1/2 l,8,11-8t,103,True,32,32
+Thurles Racing Results | 24th November 2022 14:40,N/A,14:40,Yielding To Soft,2m 4f 156y,Gali Flight (FR),Niall Moore,7,Philip Fenton,2nd,4 3/4 l,6,11-9,104,True,32,32
+Thurles Racing Results | 24th November 2022 14:40,N/A,14:40,Yielding To Soft,2m 4f 156y,L'or Des Roses (FR),Mr B. W. Harvey,5,D. Harvey,1st,N/A,5,11-9,104,True,32,32
+Thurles Racing Results | 24th November 2022 15:10,N/A,15:10,Yielding To Soft,2m 33y,Morning Skye (IRE),Kieran Callaghan,7,Patrick T. Foley,PU,N/A,7,11-9p,97,True,32,33
+Thurles Racing Results | 24th November 2022 15:10,N/A,15:10,Yielding To Soft,2m 33y,Mam Trasna (IRE),J. J. Slevin,0,Peter Maher,PU,N/A,8,11-7,95,True,32,33
+Thurles Racing Results | 24th November 2022 15:10,N/A,15:10,Yielding To Soft,2m 33y,The Virginian (IRE),P. T. Smithers,7,Padraig Roche,14th,1/2 l,6,11-9tp,97,True,32,33
+Thurles Racing Results | 24th November 2022 15:10,N/A,15:10,Yielding To Soft,2m 33y,Fairy Tree (IRE),L. A. McKenna,7,Matthew J. Smith,13th,54 l,5,11-9,97,True,32,33
+Thurles Racing Results | 24th November 2022 15:10,N/A,15:10,Yielding To Soft,2m 33y,Gendarme (IRE),P. Byrnes,5,Charles Byrnes,12th,43 l,7,11-11,99,True,32,33
+Thurles Racing Results | 24th November 2022 15:10,N/A,15:10,Yielding To Soft,2m 33y,Mary's Pride (IRE),Phillip Enright,0,Edward Cawley,11th,11 l,5,12-0,102,True,32,33
+Thurles Racing Results | 24th November 2022 15:10,N/A,15:10,Yielding To Soft,2m 33y,Oskar High (IRE),S. O'Callaghan,7,Norman Lee,10th,3 1/4 l,10,11-9,97,True,32,33
+Thurles Racing Results | 24th November 2022 15:10,N/A,15:10,Yielding To Soft,2m 33y,Elusive Rebeldom (IRE),B. J. Cooper,0,Thomas Cooper,9th,4 3/4 l,7,11-7h,95,True,32,33
+Thurles Racing Results | 24th November 2022 15:10,N/A,15:10,Yielding To Soft,2m 33y,Ocojohn (IRE),D. E. Mullins,0,Thomas Cooper,8th,5 l,5,11-8,96,True,32,33
+Thurles Racing Results | 24th November 2022 15:10,N/A,15:10,Yielding To Soft,2m 33y,Bite That (IRE),S. Fitzgerald,3,Patrick J. Flynn,7th,3 1/2 l,6,11-9,97,True,32,33
+Thurles Racing Results | 24th November 2022 15:10,N/A,15:10,Yielding To Soft,2m 33y,Champagne Vacation (IRE),S. F. O'Keeffe,0,Sean Aherne,6th,3 1/2 l,7,11-13,101,True,32,33
+Thurles Racing Results | 24th November 2022 15:10,N/A,15:10,Yielding To Soft,2m 33y,Secret Sea (IRE),R. J. Condon,5,Eoin Doyle,5th,7 1/2 l,5,11-11tp,99,True,32,33
+Thurles Racing Results | 24th November 2022 15:10,N/A,15:10,Yielding To Soft,2m 33y,Our Bobby (IRE),Niall Moore,7,John Michael Burke,4th,1/2 l,5,11-12p,100,True,32,33
+Thurles Racing Results | 24th November 2022 15:10,N/A,15:10,Yielding To Soft,2m 33y,Peace Party (IRE),E. Walsh,5,Desmond McDonogh,3rd,1 1/4 l,10,11-10ht,98,True,32,33
+Thurles Racing Results | 24th November 2022 15:10,N/A,15:10,Yielding To Soft,2m 33y,Know The Game (IRE),Keith Donoghue,0,J. T. R. Dreaper,2nd,14 l,6,11-10,98,True,32,33
+Thurles Racing Results | 24th November 2022 15:10,N/A,15:10,Yielding To Soft,2m 33y,Boghlone Honey (IRE),Richard Deegan,0,Liam P. Cusack,1st,N/A,7,11-8,96,True,32,33
+Thurles Racing Results | 24th November 2022 15:10,N/A,15:10,Yielding To Soft,2m 33y,Morning Skye (IRE),Kieran Callaghan,7,Patrick T. Foley,PU,N/A,7,11-9p,97,True,32,33
+Thurles Racing Results | 24th November 2022 15:10,N/A,15:10,Yielding To Soft,2m 33y,Mam Trasna (IRE),J. J. Slevin,0,Peter Maher,PU,N/A,8,11-7,95,True,32,33
+Thurles Racing Results | 24th November 2022 15:10,N/A,15:10,Yielding To Soft,2m 33y,The Virginian (IRE),P. T. Smithers,7,Padraig Roche,14th,1/2 l,6,11-9tp,97,True,32,33
+Thurles Racing Results | 24th November 2022 15:10,N/A,15:10,Yielding To Soft,2m 33y,Fairy Tree (IRE),L. A. McKenna,7,Matthew J. Smith,13th,54 l,5,11-9,97,True,32,33
+Thurles Racing Results | 24th November 2022 15:10,N/A,15:10,Yielding To Soft,2m 33y,Gendarme (IRE),P. Byrnes,5,Charles Byrnes,12th,43 l,7,11-11,99,True,32,33
+Thurles Racing Results | 24th November 2022 15:10,N/A,15:10,Yielding To Soft,2m 33y,Mary's Pride (IRE),Phillip Enright,0,Edward Cawley,11th,11 l,5,12-0,102,True,32,33
+Thurles Racing Results | 24th November 2022 15:10,N/A,15:10,Yielding To Soft,2m 33y,Oskar High (IRE),S. O'Callaghan,7,Norman Lee,10th,3 1/4 l,10,11-9,97,True,32,33
+Thurles Racing Results | 24th November 2022 15:10,N/A,15:10,Yielding To Soft,2m 33y,Elusive Rebeldom (IRE),B. J. Cooper,0,Thomas Cooper,9th,4 3/4 l,7,11-7h,95,True,32,33
+Thurles Racing Results | 24th November 2022 15:10,N/A,15:10,Yielding To Soft,2m 33y,Ocojohn (IRE),D. E. Mullins,0,Thomas Cooper,8th,5 l,5,11-8,96,True,32,33
+Thurles Racing Results | 24th November 2022 15:10,N/A,15:10,Yielding To Soft,2m 33y,Bite That (IRE),S. Fitzgerald,3,Patrick J. Flynn,7th,3 1/2 l,6,11-9,97,True,32,33
+Thurles Racing Results | 24th November 2022 15:10,N/A,15:10,Yielding To Soft,2m 33y,Champagne Vacation (IRE),S. F. O'Keeffe,0,Sean Aherne,6th,3 1/2 l,7,11-13,101,True,32,33
+Thurles Racing Results | 24th November 2022 15:10,N/A,15:10,Yielding To Soft,2m 33y,Secret Sea (IRE),R. J. Condon,5,Eoin Doyle,5th,7 1/2 l,5,11-11tp,99,True,32,33
+Thurles Racing Results | 24th November 2022 15:10,N/A,15:10,Yielding To Soft,2m 33y,Our Bobby (IRE),Niall Moore,7,John Michael Burke,4th,1/2 l,5,11-12p,100,True,32,33
+Thurles Racing Results | 24th November 2022 15:10,N/A,15:10,Yielding To Soft,2m 33y,Peace Party (IRE),E. Walsh,5,Desmond McDonogh,3rd,1 1/4 l,10,11-10ht,98,True,32,33
+Thurles Racing Results | 24th November 2022 15:10,N/A,15:10,Yielding To Soft,2m 33y,Know The Game (IRE),Keith Donoghue,0,J. T. R. Dreaper,2nd,14 l,6,11-10,98,True,32,33
+Thurles Racing Results | 24th November 2022 15:10,N/A,15:10,Yielding To Soft,2m 33y,Boghlone Honey (IRE),Richard Deegan,0,Liam P. Cusack,1st,N/A,7,11-8,96,True,32,33
+Thurles Racing Results | 24th November 2022 15:40,N/A,15:40,Yielding To Soft  Hurdle (Turf),2m 33y,Night of Dreams,Mr T. P. Harney,7,P. J. Rothwell,15th,3 1/2 l,4,11-4,-,True,32,34
+Thurles Racing Results | 24th November 2022 15:40,N/A,15:40,Yielding To Soft  Hurdle (Turf),2m 33y,Georgie's Gal (IRE),Mr A. P. Ryan,7,P. J. Rothwell,14th,4 1/4 l,4,10-11,-,True,32,34
+Thurles Racing Results | 24th November 2022 15:40,N/A,15:40,Yielding To Soft  Hurdle (Turf),2m 33y,Draco Pulchrac (IRE),Mr D. O'Connor,0,A. J. Martin,13th,7 1/2 l,4,11-5t,-,True,32,34
+Thurles Racing Results | 24th November 2022 15:40,N/A,15:40,Yielding To Soft  Hurdle (Turf),2m 33y,Wee Jerry (IRE),Mr D. Higgins,7,Neill McCluskey,12th,36 l,6,11-4,-,True,32,34
+Thurles Racing Results | 24th November 2022 15:40,N/A,15:40,Yielding To Soft  Hurdle (Turf),2m 33y,Pachmena (IRE),Mr J. Dunne,7,Gavin Patrick Cromwell,11th,1 1/2 l,5,11-5,-,True,32,34
+Thurles Racing Results | 24th November 2022 15:40,N/A,15:40,Yielding To Soft  Hurdle (Turf),2m 33y,Will It Be You (IRE),Mr R. W. Barron,7,Liam P. Cusack,10th,11 l,5,11-4,-,True,32,34
+Thurles Racing Results | 24th November 2022 15:40,N/A,15:40,Yielding To Soft  Hurdle (Turf),2m 33y,King Arthurs Sword (IRE),Mr H. C. Swan,7,M. D. O'Callaghan,9th,6 l,5,11-12h1,-,True,32,34
+Thurles Racing Results | 24th November 2022 15:40,N/A,15:40,Yielding To Soft  Hurdle (Turf),2m 33y,Outdoor Mozzy (IRE),Miss P. Elvin,7,P. J. Rothwell,8th,2 l,5,10-11t1,-,True,32,34
+Thurles Racing Results | 24th November 2022 15:40,N/A,15:40,Yielding To Soft  Hurdle (Turf),2m 33y,Rockonjade (IRE),A. J. Roche,7,Richard Morrissey,7th,25 l,4,10-11t,-,True,32,34
+Thurles Racing Results | 24th November 2022 15:40,N/A,15:40,Yielding To Soft  Hurdle (Turf),2m 33y,Slane Hill (IRE),Mr Finian Maguire,0,Barry Connell,6th,1/2 l,5,11-4,-,True,32,34
+Thurles Racing Results | 24th November 2022 15:40,N/A,15:40,Yielding To Soft  Hurdle (Turf),2m 33y,Song For My Father (IRE),Mr L. P. Shanahan,7,Ross O'Sullivan,5th,11 l,5,11-4,-,True,32,34
+Thurles Racing Results | 24th November 2022 15:40,N/A,15:40,Yielding To Soft  Hurdle (Turf),2m 33y,Chiefs Kingdom (IRE),Mr B. O'Neill,0,Paul Nolan,4th,4 1/4 l,4,11-4,-,True,32,34
+Thurles Racing Results | 24th November 2022 15:40,N/A,15:40,Yielding To Soft  Hurdle (Turf),2m 33y,Ideal De Ciergues (FR),Mr J. J. Codd,0,Gordon Elliott,3rd,Neck,4,11-4,-,True,32,34
+Thurles Racing Results | 24th November 2022 15:40,N/A,15:40,Yielding To Soft  Hurdle (Turf),2m 33y,Helisone (FR),Mr R. A. Berry,7,Henry de Bromhead,2nd,10 l,5,10-11,-,True,32,34
+Thurles Racing Results | 24th November 2022 15:40,N/A,15:40,Yielding To Soft  Hurdle (Turf),2m 33y,Il Etait Temps (FR),Mr P. W. Mullins,0,W. P. Mullins,1st,N/A,4,11-4h1,-,True,32,34
+Thurles Racing Results | 24th November 2022 15:40,N/A,15:40,Yielding To Soft  Hurdle (Turf),2m 33y,Night of Dreams,Mr T. P. Harney,7,P. J. Rothwell,15th,3 1/2 l,4,11-4,-,True,32,34
+Thurles Racing Results | 24th November 2022 15:40,N/A,15:40,Yielding To Soft  Hurdle (Turf),2m 33y,Georgie's Gal (IRE),Mr A. P. Ryan,7,P. J. Rothwell,14th,4 1/4 l,4,10-11,-,True,32,34
+Thurles Racing Results | 24th November 2022 15:40,N/A,15:40,Yielding To Soft  Hurdle (Turf),2m 33y,Draco Pulchrac (IRE),Mr D. O'Connor,0,A. J. Martin,13th,7 1/2 l,4,11-5t,-,True,32,34
+Thurles Racing Results | 24th November 2022 15:40,N/A,15:40,Yielding To Soft  Hurdle (Turf),2m 33y,Wee Jerry (IRE),Mr D. Higgins,7,Neill McCluskey,12th,36 l,6,11-4,-,True,32,34
+Thurles Racing Results | 24th November 2022 15:40,N/A,15:40,Yielding To Soft  Hurdle (Turf),2m 33y,Pachmena (IRE),Mr J. Dunne,7,Gavin Patrick Cromwell,11th,1 1/2 l,5,11-5,-,True,32,34
+Thurles Racing Results | 24th November 2022 15:40,N/A,15:40,Yielding To Soft  Hurdle (Turf),2m 33y,Will It Be You (IRE),Mr R. W. Barron,7,Liam P. Cusack,10th,11 l,5,11-4,-,True,32,34
+Thurles Racing Results | 24th November 2022 15:40,N/A,15:40,Yielding To Soft  Hurdle (Turf),2m 33y,King Arthurs Sword (IRE),Mr H. C. Swan,7,M. D. O'Callaghan,9th,6 l,5,11-12h1,-,True,32,34
+Thurles Racing Results | 24th November 2022 15:40,N/A,15:40,Yielding To Soft  Hurdle (Turf),2m 33y,Outdoor Mozzy (IRE),Miss P. Elvin,7,P. J. Rothwell,8th,2 l,5,10-11t1,-,True,32,34
+Thurles Racing Results | 24th November 2022 15:40,N/A,15:40,Yielding To Soft  Hurdle (Turf),2m 33y,Rockonjade (IRE),A. J. Roche,7,Richard Morrissey,7th,25 l,4,10-11t,-,True,32,34
+Thurles Racing Results | 24th November 2022 15:40,N/A,15:40,Yielding To Soft  Hurdle (Turf),2m 33y,Slane Hill (IRE),Mr Finian Maguire,0,Barry Connell,6th,1/2 l,5,11-4,-,True,32,34
+Thurles Racing Results | 24th November 2022 15:40,N/A,15:40,Yielding To Soft  Hurdle (Turf),2m 33y,Song For My Father (IRE),Mr L. P. Shanahan,7,Ross O'Sullivan,5th,11 l,5,11-4,-,True,32,34
+Thurles Racing Results | 24th November 2022 15:40,N/A,15:40,Yielding To Soft  Hurdle (Turf),2m 33y,Chiefs Kingdom (IRE),Mr B. O'Neill,0,Paul Nolan,4th,4 1/4 l,4,11-4,-,True,32,34
+Thurles Racing Results | 24th November 2022 15:40,N/A,15:40,Yielding To Soft  Hurdle (Turf),2m 33y,Ideal De Ciergues (FR),Mr J. J. Codd,0,Gordon Elliott,3rd,Neck,4,11-4,-,True,32,34
+Thurles Racing Results | 24th November 2022 15:40,N/A,15:40,Yielding To Soft  Hurdle (Turf),2m 33y,Helisone (FR),Mr R. A. Berry,7,Henry de Bromhead,2nd,10 l,5,10-11,-,True,32,34
+Thurles Racing Results | 24th November 2022 15:40,N/A,15:40,Yielding To Soft  Hurdle (Turf),2m 33y,Il Etait Temps (FR),Mr P. W. Mullins,0,W. P. Mullins,1st,N/A,4,11-4h1,-,True,32,34
+Dundalk Racing Results | 25th November 2022 17:00,N/A,17:00,Standard,7f,Church Lane Lady (IRE),N. M. Crosse,0,P. J. F. Murphy,12th,3 l,2,8-9,-,True,32,35
+Dundalk Racing Results | 25th November 2022 17:00,N/A,17:00,Standard,7f,Slow Burner,R. Whearty,7,T. G. McCourt,11th,1/2 l,2,8-12,-,True,32,35
+Dundalk Racing Results | 25th November 2022 17:00,N/A,17:00,Standard,7f,Press Play (IRE),R. P. Cleary,0,C. W. J. Farrell,10th,1/2 l,2,8-8,-,True,32,35
+Dundalk Racing Results | 25th November 2022 17:00,N/A,17:00,Standard,7f,Fleetfootsoldier (IRE),Emmet McNamara,0,Kevin Thomas Coleman,9th,1 1/4 l,2,9-7,-,True,32,35
+Dundalk Racing Results | 25th November 2022 17:00,N/A,17:00,Standard,7f,Empress Cotoh (IRE),S. D. Bowen,0,M. J. Tynan,8th,1/2 l,2,8-8,-,True,32,35
+Dundalk Racing Results | 25th November 2022 17:00,N/A,17:00,Standard,7f,Reigles,A. C. Persse,7,Adrian McGuinness,7th,Neck,2,8-8v1,-,True,32,35
+Dundalk Racing Results | 25th November 2022 17:00,N/A,17:00,Standard,7f,Lisieux (IRE),R. P. Whelan,0,Adrian McGuinness,6th,Head,2,9-6,-,True,32,35
+Dundalk Racing Results | 25th November 2022 17:00,N/A,17:00,Standard,7f,Rossmore Nation (IRE),Siobhan Rutledge,5,Anthony Mullins,5th,2 1/2 l,2,8-8t1,-,True,32,35
+Dundalk Racing Results | 25th November 2022 17:00,N/A,17:00,Standard,7f,Sashay (IRE),M. W. Hassett,10,Joseph Patrick O'Brien,4th,2 1/2 l,2,8-8,-,True,32,35
+Dundalk Racing Results | 25th November 2022 17:00,N/A,17:00,Standard,7f,Trident Star (IRE),W. M. Lordan,0,James McAuley,3rd,2 3/4 l,2,8-11p,-,True,32,35
+Dundalk Racing Results | 25th November 2022 17:00,N/A,17:00,Standard,7f,Monophonic (IRE),J. J. G. Ryan,7,G. M. Lyons,2nd,3/4 l,2,8-11,-,True,32,35
+Dundalk Racing Results | 25th November 2022 17:00,N/A,17:00,Standard,7f,Pub Talk (IRE),C. T. Keane,0,Noel Meade,1st,N/A,2,9-2,-,True,32,35
+Dundalk Racing Results | 25th November 2022 17:00,N/A,17:00,Standard,7f,Church Lane Lady (IRE),N. M. Crosse,0,P. J. F. Murphy,12th,3 l,2,8-9,-,True,32,35
+Dundalk Racing Results | 25th November 2022 17:00,N/A,17:00,Standard,7f,Slow Burner,R. Whearty,7,T. G. McCourt,11th,1/2 l,2,8-12,-,True,32,35
+Dundalk Racing Results | 25th November 2022 17:00,N/A,17:00,Standard,7f,Press Play (IRE),R. P. Cleary,0,C. W. J. Farrell,10th,1/2 l,2,8-8,-,True,32,35
+Dundalk Racing Results | 25th November 2022 17:00,N/A,17:00,Standard,7f,Fleetfootsoldier (IRE),Emmet McNamara,0,Kevin Thomas Coleman,9th,1 1/4 l,2,9-7,-,True,32,35
+Dundalk Racing Results | 25th November 2022 17:00,N/A,17:00,Standard,7f,Empress Cotoh (IRE),S. D. Bowen,0,M. J. Tynan,8th,1/2 l,2,8-8,-,True,32,35
+Dundalk Racing Results | 25th November 2022 17:00,N/A,17:00,Standard,7f,Reigles,A. C. Persse,7,Adrian McGuinness,7th,Neck,2,8-8v1,-,True,32,35
+Dundalk Racing Results | 25th November 2022 17:00,N/A,17:00,Standard,7f,Lisieux (IRE),R. P. Whelan,0,Adrian McGuinness,6th,Head,2,9-6,-,True,32,35
+Dundalk Racing Results | 25th November 2022 17:00,N/A,17:00,Standard,7f,Rossmore Nation (IRE),Siobhan Rutledge,5,Anthony Mullins,5th,2 1/2 l,2,8-8t1,-,True,32,35
+Dundalk Racing Results | 25th November 2022 17:00,N/A,17:00,Standard,7f,Sashay (IRE),M. W. Hassett,10,Joseph Patrick O'Brien,4th,2 1/2 l,2,8-8,-,True,32,35
+Dundalk Racing Results | 25th November 2022 17:00,N/A,17:00,Standard,7f,Trident Star (IRE),W. M. Lordan,0,James McAuley,3rd,2 3/4 l,2,8-11p,-,True,32,35
+Dundalk Racing Results | 25th November 2022 17:00,N/A,17:00,Standard,7f,Monophonic (IRE),J. J. G. Ryan,7,G. M. Lyons,2nd,3/4 l,2,8-11,-,True,32,35
+Dundalk Racing Results | 25th November 2022 17:00,N/A,17:00,Standard,7f,Pub Talk (IRE),C. T. Keane,0,Noel Meade,1st,N/A,2,9-2,-,True,32,35
+Dundalk Racing Results | 25th November 2022 17:30,N/A,17:30,Standard,6f,Dar Og (IRE),M. A. Enright,0,Muredach Kelly,13th,1 1/2 l,2,9-2,-,True,32,36
+Dundalk Racing Results | 25th November 2022 17:30,N/A,17:30,Standard,6f,Annalee Lass (IRE),Siobhan Rutledge,5,John McConnell,12th,1 1/4 l,2,9-2,-,True,32,36
+Dundalk Racing Results | 25th November 2022 17:30,N/A,17:30,Standard,6f,Junaina (IRE),G. M. Ryan,0,John Stephen O'Donoghue,11th,2 l,2,9-2,-,True,32,36
+Dundalk Racing Results | 25th November 2022 17:30,N/A,17:30,Standard,6f,Indian Outlaw (IRE),J. Kearney,7,Andrew McNamara,10th,3/4 l,2,9-2,-,True,32,36
+Dundalk Racing Results | 25th November 2022 17:30,N/A,17:30,Standard,6f,Thirtysecondstreet (IRE),W. M. Lordan,0,Luke Comer,9th,3 3/4 l,2,9-2,-,True,32,36
+Dundalk Racing Results | 25th November 2022 17:30,N/A,17:30,Standard,6f,The Stray Sod (IRE),D. W. O'Connor,0,John McConnell,8th,Nose,2,9-2,-,True,32,36
+Dundalk Racing Results | 25th November 2022 17:30,N/A,17:30,Standard,6f,Maggie Mcgrath (IRE),R. P. Whelan,0,Kieran Patrick Cotter,7th,3/4 l,2,9-2,-,True,32,36
+Dundalk Racing Results | 25th November 2022 17:30,N/A,17:30,Standard,6f,Smullen's Pride (IRE),Shane Foley,0,J. J. Feane,6th,Short Head,2,9-2,-,True,32,36
+Dundalk Racing Results | 25th November 2022 17:30,N/A,17:30,Standard,6f,Valkyrian (IRE),C. T. Keane,0,G. M. Lyons,5th,Neck,2,9-2,-,True,32,36
+Dundalk Racing Results | 25th November 2022 17:30,N/A,17:30,Standard,6f,Ocean Symphony (IRE),S. B. Kelly,0,John Patrick Murtagh,4th,1/2 l,2,9-2,-,True,32,36
+Dundalk Racing Results | 25th November 2022 17:30,N/A,17:30,Standard,6f,Vikki Wall (IRE),C. D. Maxwell,0,Gavin Patrick Cromwell,3rd,Neck,2,9-2,-,True,32,36
+Dundalk Racing Results | 25th November 2022 17:30,N/A,17:30,Standard,6f,Anann (IRE),J. Coen,5,Joseph Patrick O'Brien,2nd,Neck,2,9-2,-,True,32,36
+Dundalk Racing Results | 25th November 2022 17:30,N/A,17:30,Standard,6f,Excesso Velocidad (IRE),D. B. McMonagle,0,Joseph Patrick O'Brien,1st,N/A,2,9-2t1,-,True,32,36
+Dundalk Racing Results | 25th November 2022 17:30,N/A,17:30,Standard,6f,Dar Og (IRE),M. A. Enright,0,Muredach Kelly,13th,1 1/2 l,2,9-2,-,True,32,36
+Dundalk Racing Results | 25th November 2022 17:30,N/A,17:30,Standard,6f,Annalee Lass (IRE),Siobhan Rutledge,5,John McConnell,12th,1 1/4 l,2,9-2,-,True,32,36
+Dundalk Racing Results | 25th November 2022 17:30,N/A,17:30,Standard,6f,Junaina (IRE),G. M. Ryan,0,John Stephen O'Donoghue,11th,2 l,2,9-2,-,True,32,36
+Dundalk Racing Results | 25th November 2022 17:30,N/A,17:30,Standard,6f,Indian Outlaw (IRE),J. Kearney,7,Andrew McNamara,10th,3/4 l,2,9-2,-,True,32,36
+Dundalk Racing Results | 25th November 2022 17:30,N/A,17:30,Standard,6f,Thirtysecondstreet (IRE),W. M. Lordan,0,Luke Comer,9th,3 3/4 l,2,9-2,-,True,32,36
+Dundalk Racing Results | 25th November 2022 17:30,N/A,17:30,Standard,6f,The Stray Sod (IRE),D. W. O'Connor,0,John McConnell,8th,Nose,2,9-2,-,True,32,36
+Dundalk Racing Results | 25th November 2022 17:30,N/A,17:30,Standard,6f,Maggie Mcgrath (IRE),R. P. Whelan,0,Kieran Patrick Cotter,7th,3/4 l,2,9-2,-,True,32,36
+Dundalk Racing Results | 25th November 2022 17:30,N/A,17:30,Standard,6f,Smullen's Pride (IRE),Shane Foley,0,J. J. Feane,6th,Short Head,2,9-2,-,True,32,36
+Dundalk Racing Results | 25th November 2022 17:30,N/A,17:30,Standard,6f,Valkyrian (IRE),C. T. Keane,0,G. M. Lyons,5th,Neck,2,9-2,-,True,32,36
+Dundalk Racing Results | 25th November 2022 17:30,N/A,17:30,Standard,6f,Ocean Symphony (IRE),S. B. Kelly,0,John Patrick Murtagh,4th,1/2 l,2,9-2,-,True,32,36
+Dundalk Racing Results | 25th November 2022 17:30,N/A,17:30,Standard,6f,Vikki Wall (IRE),C. D. Maxwell,0,Gavin Patrick Cromwell,3rd,Neck,2,9-2,-,True,32,36
+Dundalk Racing Results | 25th November 2022 17:30,N/A,17:30,Standard,6f,Anann (IRE),J. Coen,5,Joseph Patrick O'Brien,2nd,Neck,2,9-2,-,True,32,36
+Dundalk Racing Results | 25th November 2022 17:30,N/A,17:30,Standard,6f,Excesso Velocidad (IRE),D. B. McMonagle,0,Joseph Patrick O'Brien,1st,N/A,2,9-2t1,-,True,32,36
+Dundalk Racing Results | 25th November 2022 18:00,N/A,18:00,Standard,5f,Ceapach Rua (FR),D. B. McMonagle,0,Denis Hogan,14th,6 1/2 l,4,8-13p,47,True,32,37
+Dundalk Racing Results | 25th November 2022 18:00,N/A,18:00,Standard,5f,My Joker (IRE),R. P. Whelan,0,Adrian McGuinness,13th,1/2 l,3,8-13,47,True,32,37
+Dundalk Racing Results | 25th November 2022 18:00,N/A,18:00,Standard,5f,Hot Bell,Amy Jo Hayes,7,A. Slattery,12th,3/4 l,4,8-13v,7,True,32,37
+Dundalk Racing Results | 25th November 2022 18:00,N/A,18:00,Standard,5f,Juno Beach (IRE),L. T. McAteer,3,Charles O'Brien,11th,3/4 l,3,9-2,50,True,32,37
+Dundalk Racing Results | 25th November 2022 18:00,N/A,18:00,Standard,5f,Sister Lola (IRE),G. F. Carroll,0,James McAuley,10th,Head,5,10-2tb,64,True,32,37
+Dundalk Racing Results | 25th November 2022 18:00,N/A,18:00,Standard,5f,Florence Thompson (IRE),Shane Foley,0,James McAuley,9th,Neck,5,8-13t,47,True,32,37
+Dundalk Racing Results | 25th November 2022 18:00,N/A,18:00,Standard,5f,Pillar,Sorcha Woods,7,R. K. Watson,8th,Nose,9,9-2,50,True,32,37
+Dundalk Racing Results | 25th November 2022 18:00,N/A,18:00,Standard,5f,Poet's Pride,C. D. Hayes,0,David Marnane,7th,Short Head,7,8-13,47,True,32,37
+Dundalk Racing Results | 25th November 2022 18:00,N/A,18:00,Standard,5f,Betrayed,G. M. Ryan,0,Leanne Breen,6th,1 1/2 l,4,8-13,47,True,32,37
+Dundalk Racing Results | 25th November 2022 18:00,N/A,18:00,Standard,5f,Zig Zag Zyggy (IRE),Adam Caffrey,7,Adrian McGuinness,5th,Neck,7,9-8,56,True,32,37
+Dundalk Racing Results | 25th November 2022 18:00,N/A,18:00,Standard,5f,Silver Nemo (IRE),Siobhan Rutledge,0,L. Smyth,4th,Neck,4,9-2tb,50,True,32,37
+Dundalk Racing Results | 25th November 2022 18:00,N/A,18:00,Standard,5f,Hero Of The Hour,R. C. Colgan,0,G. A. Kingston,3rd,Short Head,5,8-13,4,True,32,37
+Dundalk Racing Results | 25th November 2022 18:00,N/A,18:00,Standard,5f,No Speed Limit (FR),W. M. Lordan,0,P. J. McKenna,2nd,1 1/4 l,7,10-2v,64,True,32,37
+Dundalk Racing Results | 25th November 2022 18:00,N/A,18:00,Standard,5f,Lokada (FR),C. T. Keane,0,M. D. O'Callaghan,1st,N/A,3,10-0t,62,True,32,37
+Dundalk Racing Results | 25th November 2022 18:00,N/A,18:00,Standard,5f,Ceapach Rua (FR),D. B. McMonagle,0,Denis Hogan,14th,6 1/2 l,4,8-13p,47,True,32,37
+Dundalk Racing Results | 25th November 2022 18:00,N/A,18:00,Standard,5f,My Joker (IRE),R. P. Whelan,0,Adrian McGuinness,13th,1/2 l,3,8-13,47,True,32,37
+Dundalk Racing Results | 25th November 2022 18:00,N/A,18:00,Standard,5f,Hot Bell,Amy Jo Hayes,7,A. Slattery,12th,3/4 l,4,8-13v,7,True,32,37
+Dundalk Racing Results | 25th November 2022 18:00,N/A,18:00,Standard,5f,Juno Beach (IRE),L. T. McAteer,3,Charles O'Brien,11th,3/4 l,3,9-2,50,True,32,37
+Dundalk Racing Results | 25th November 2022 18:00,N/A,18:00,Standard,5f,Sister Lola (IRE),G. F. Carroll,0,James McAuley,10th,Head,5,10-2tb,64,True,32,37
+Dundalk Racing Results | 25th November 2022 18:00,N/A,18:00,Standard,5f,Florence Thompson (IRE),Shane Foley,0,James McAuley,9th,Neck,5,8-13t,47,True,32,37
+Dundalk Racing Results | 25th November 2022 18:00,N/A,18:00,Standard,5f,Pillar,Sorcha Woods,7,R. K. Watson,8th,Nose,9,9-2,50,True,32,37
+Dundalk Racing Results | 25th November 2022 18:00,N/A,18:00,Standard,5f,Poet's Pride,C. D. Hayes,0,David Marnane,7th,Short Head,7,8-13,47,True,32,37
+Dundalk Racing Results | 25th November 2022 18:00,N/A,18:00,Standard,5f,Betrayed,G. M. Ryan,0,Leanne Breen,6th,1 1/2 l,4,8-13,47,True,32,37
+Dundalk Racing Results | 25th November 2022 18:00,N/A,18:00,Standard,5f,Zig Zag Zyggy (IRE),Adam Caffrey,7,Adrian McGuinness,5th,Neck,7,9-8,56,True,32,37
+Dundalk Racing Results | 25th November 2022 18:00,N/A,18:00,Standard,5f,Silver Nemo (IRE),Siobhan Rutledge,0,L. Smyth,4th,Neck,4,9-2tb,50,True,32,37
+Dundalk Racing Results | 25th November 2022 18:00,N/A,18:00,Standard,5f,Hero Of The Hour,R. C. Colgan,0,G. A. Kingston,3rd,Short Head,5,8-13,4,True,32,37
+Dundalk Racing Results | 25th November 2022 18:00,N/A,18:00,Standard,5f,No Speed Limit (FR),W. M. Lordan,0,P. J. McKenna,2nd,1 1/4 l,7,10-2v,64,True,32,37
+Dundalk Racing Results | 25th November 2022 18:00,N/A,18:00,Standard,5f,Lokada (FR),C. T. Keane,0,M. D. O'Callaghan,1st,N/A,3,10-0t,62,True,32,37
+Dundalk Racing Results | 25th November 2022 18:30,N/A,18:30,Standard,1m 4f,Pulsating (IRE),C. Horgan,4,Conor O'Dwyer,12th,8 l,8,8-12p,47,True,32,38
+Dundalk Racing Results | 25th November 2022 18:30,N/A,18:30,Standard,1m 4f,Clarinbridge (IRE),Adam Caffrey,4,Noel C. Kelly,11th,13 l,3,8-13,53,True,32,38
+Dundalk Racing Results | 25th November 2022 18:30,N/A,18:30,Standard,1m 4f,Gamigin (IRE),D. B. McMonagle,0,Noel C. Kelly,10th,15 l,4,9-10tp,59,True,32,38
+Dundalk Racing Results | 25th November 2022 18:30,N/A,18:30,Standard,1m 4f,A Few Bob Short (IRE),S. D. Bowen,4,Shane Kieran Ryder,9th,2 1/4 l,7,8-12tb,47,True,32,38
+Dundalk Racing Results | 25th November 2022 18:30,N/A,18:30,Standard,1m 4f,Steps In The Sand (IRE),J. Kearney,4,Ms Sheila Lavery,8th,3 l,3,9-3p1,57,True,32,38
+Dundalk Racing Results | 25th November 2022 18:30,N/A,18:30,Standard,1m 4f,The Riastrad (IRE),S. P. Bird,7,Donal Kinsella,7th,Head,4,10-0,63,True,32,38
+Dundalk Racing Results | 25th November 2022 18:30,N/A,18:30,Standard,1m 4f,Early Strike (FR),L. T. McAteer,0,D. Buckley,6th,3 l,6,9-9t,58,True,32,38
+Dundalk Racing Results | 25th November 2022 18:30,N/A,18:30,Standard,1m 4f,Rock Ya Boy Ya (IRE),J. J. G. Ryan,4,Francis Casey,5th,Head,4,8-12,47,True,32,38
+Dundalk Racing Results | 25th November 2022 18:30,N/A,18:30,Standard,1m 4f,Mosaaheb,J. Coen,0,John Joseph Hanlon,4th,3 1/4 l,4,9-9,58,True,32,38
+Dundalk Racing Results | 25th November 2022 18:30,N/A,18:30,Standard,1m 4f,Shona Mea (IRE),N. M. Crosse,0,Mrs J. Harrington,3rd,2 l,5,9-8v,57,True,32,38
+Dundalk Racing Results | 25th November 2022 18:30,N/A,18:30,Standard,1m 4f,Chateau Musar (IRE),Tom Kiely Marshall,4,John Geoghegan,2nd,1/2 l,5,9-6,55,True,32,38
+Dundalk Racing Results | 25th November 2022 18:30,N/A,18:30,Standard,1m 4f,Maura's Gift (IRE),R. Whearty,4,Paul W. Flynn,1st,N/A,3,9-2p,56,True,32,38
+Dundalk Racing Results | 25th November 2022 18:30,N/A,18:30,Standard,1m 4f,Pulsating (IRE),C. Horgan,4,Conor O'Dwyer,12th,8 l,8,8-12p,47,True,32,38
+Dundalk Racing Results | 25th November 2022 18:30,N/A,18:30,Standard,1m 4f,Clarinbridge (IRE),Adam Caffrey,4,Noel C. Kelly,11th,13 l,3,8-13,53,True,32,38
+Dundalk Racing Results | 25th November 2022 18:30,N/A,18:30,Standard,1m 4f,Gamigin (IRE),D. B. McMonagle,0,Noel C. Kelly,10th,15 l,4,9-10tp,59,True,32,38
+Dundalk Racing Results | 25th November 2022 18:30,N/A,18:30,Standard,1m 4f,A Few Bob Short (IRE),S. D. Bowen,4,Shane Kieran Ryder,9th,2 1/4 l,7,8-12tb,47,True,32,38
+Dundalk Racing Results | 25th November 2022 18:30,N/A,18:30,Standard,1m 4f,Steps In The Sand (IRE),J. Kearney,4,Ms Sheila Lavery,8th,3 l,3,9-3p1,57,True,32,38
+Dundalk Racing Results | 25th November 2022 18:30,N/A,18:30,Standard,1m 4f,The Riastrad (IRE),S. P. Bird,7,Donal Kinsella,7th,Head,4,10-0,63,True,32,38
+Dundalk Racing Results | 25th November 2022 18:30,N/A,18:30,Standard,1m 4f,Early Strike (FR),L. T. McAteer,0,D. Buckley,6th,3 l,6,9-9t,58,True,32,38
+Dundalk Racing Results | 25th November 2022 18:30,N/A,18:30,Standard,1m 4f,Rock Ya Boy Ya (IRE),J. J. G. Ryan,4,Francis Casey,5th,Head,4,8-12,47,True,32,38
+Dundalk Racing Results | 25th November 2022 18:30,N/A,18:30,Standard,1m 4f,Mosaaheb,J. Coen,0,John Joseph Hanlon,4th,3 1/4 l,4,9-9,58,True,32,38
+Dundalk Racing Results | 25th November 2022 18:30,N/A,18:30,Standard,1m 4f,Shona Mea (IRE),N. M. Crosse,0,Mrs J. Harrington,3rd,2 l,5,9-8v,57,True,32,38
+Dundalk Racing Results | 25th November 2022 18:30,N/A,18:30,Standard,1m 4f,Chateau Musar (IRE),Tom Kiely Marshall,4,John Geoghegan,2nd,1/2 l,5,9-6,55,True,32,38
+Dundalk Racing Results | 25th November 2022 18:30,N/A,18:30,Standard,1m 4f,Maura's Gift (IRE),R. Whearty,4,Paul W. Flynn,1st,N/A,3,9-2p,56,True,32,38
+Dundalk Racing Results | 25th November 2022 19:00,N/A,19:00,Standard,1m 4f,Little Trigger (IRE),C. Horgan,4,P. F. McEnery,11th,3/4 l,3,8-7,47,True,32,39
+Dundalk Racing Results | 25th November 2022 19:00,N/A,19:00,Standard,1m 4f,Eagle Terrace,J. Coen,0,John Joseph Hanlon,10th,1 3/4 l,4,9-6,55,True,32,39
+Dundalk Racing Results | 25th November 2022 19:00,N/A,19:00,Standard,1m 4f,Rockview Roman (IRE),Siobhan Rutledge,0,John McConnell,9th,Short Head,6,9-0,49,True,32,39
+Dundalk Racing Results | 25th November 2022 19:00,N/A,19:00,Standard,1m 4f,Innamorare (IRE),R. Whearty,4,Gavin Patrick Cromwell,8th,Neck,7,9-9t,58,True,32,39
+Dundalk Racing Results | 25th November 2022 19:00,N/A,19:00,Standard,1m 4f,Cliffs Of Malta (IRE),Kyanna Van Buuren,7,Barry Fitzgerald,7th,Neck,4,9-2,51,True,32,39
+Dundalk Racing Results | 25th November 2022 19:00,N/A,19:00,Standard,1m 4f,Lucky Number,N. M. Crosse,0,Oliver McKiernan,6th,1/2 l,6,8-12t,47,True,32,39
+Dundalk Racing Results | 25th November 2022 19:00,N/A,19:00,Standard,1m 4f,Ellaat,L. T. McAteer,0,Noel C. Kelly,5th,1/2 l,6,9-3,52,True,32,39
+Dundalk Racing Results | 25th November 2022 19:00,N/A,19:00,Standard,1m 4f,Carslake,Jessica O'Gorman,4,Aengus King,4th,1 l,3,8-7,47,True,32,39
+Dundalk Racing Results | 25th November 2022 19:00,N/A,19:00,Standard,1m 4f,Sheila (IRE),S. D. Bowen,4,Denis Hogan,3rd,1/2 l,5,9-5p,54,True,32,39
+Dundalk Racing Results | 25th November 2022 19:00,N/A,19:00,Standard,1m 4f,Lariat (USA),Adam Caffrey,4,Adrian McGuinness,2nd,1/2 l,6,9-3v,52,True,32,39
+Dundalk Racing Results | 25th November 2022 19:00,N/A,19:00,Standard,1m 4f,Wajaaha (IRE),D. B. McMonagle,0,Charles Byrnes,1st,N/A,7,10-2v1,65,True,32,39
+Dundalk Racing Results | 25th November 2022 19:00,N/A,19:00,Standard,1m 4f,Little Trigger (IRE),C. Horgan,4,P. F. McEnery,11th,3/4 l,3,8-7,47,True,32,39
+Dundalk Racing Results | 25th November 2022 19:00,N/A,19:00,Standard,1m 4f,Eagle Terrace,J. Coen,0,John Joseph Hanlon,10th,1 3/4 l,4,9-6,55,True,32,39
+Dundalk Racing Results | 25th November 2022 19:00,N/A,19:00,Standard,1m 4f,Rockview Roman (IRE),Siobhan Rutledge,0,John McConnell,9th,Short Head,6,9-0,49,True,32,39
+Dundalk Racing Results | 25th November 2022 19:00,N/A,19:00,Standard,1m 4f,Innamorare (IRE),R. Whearty,4,Gavin Patrick Cromwell,8th,Neck,7,9-9t,58,True,32,39
+Dundalk Racing Results | 25th November 2022 19:00,N/A,19:00,Standard,1m 4f,Cliffs Of Malta (IRE),Kyanna Van Buuren,7,Barry Fitzgerald,7th,Neck,4,9-2,51,True,32,39
+Dundalk Racing Results | 25th November 2022 19:00,N/A,19:00,Standard,1m 4f,Lucky Number,N. M. Crosse,0,Oliver McKiernan,6th,1/2 l,6,8-12t,47,True,32,39
+Dundalk Racing Results | 25th November 2022 19:00,N/A,19:00,Standard,1m 4f,Ellaat,L. T. McAteer,0,Noel C. Kelly,5th,1/2 l,6,9-3,52,True,32,39
+Dundalk Racing Results | 25th November 2022 19:00,N/A,19:00,Standard,1m 4f,Carslake,Jessica O'Gorman,4,Aengus King,4th,1 l,3,8-7,47,True,32,39
+Dundalk Racing Results | 25th November 2022 19:00,N/A,19:00,Standard,1m 4f,Sheila (IRE),S. D. Bowen,4,Denis Hogan,3rd,1/2 l,5,9-5p,54,True,32,39
+Dundalk Racing Results | 25th November 2022 19:00,N/A,19:00,Standard,1m 4f,Lariat (USA),Adam Caffrey,4,Adrian McGuinness,2nd,1/2 l,6,9-3v,52,True,32,39
+Dundalk Racing Results | 25th November 2022 19:00,N/A,19:00,Standard,1m 4f,Wajaaha (IRE),D. B. McMonagle,0,Charles Byrnes,1st,N/A,7,10-2v1,65,True,32,39
+Dundalk Racing Results | 25th November 2022 19:30,N/A,19:30,Standard,1m,Cannes Do (IRE),S. D. Bowen,0,Philip Michael Byrne,13th,3 1/2 l,3,9-3,-,True,32,40
+Dundalk Racing Results | 25th November 2022 19:30,N/A,19:30,Standard,1m,Echoing (IRE),William James Lee,0,W. McCreery,12th,Short Head,3,9-3,-,True,32,40
+Dundalk Racing Results | 25th November 2022 19:30,N/A,19:30,Standard,1m,Neverfindanother U (IRE),G. M. Ryan,0,T. Gibney,11th,2 l,3,9-3,-,True,32,40
+Dundalk Racing Results | 25th November 2022 19:30,N/A,19:30,Standard,1m,Tellthemi'mhere (IRE),S. P. Davis,0,P. O'Rourke,10th,Short Head,4,9-5,-,True,32,40
+Dundalk Racing Results | 25th November 2022 19:30,N/A,19:30,Standard,1m,Eyela (IRE),L. F. Roche,0,Eddie & Patrick Harty,9th,3/4 l,3,9-3,-,True,32,40
+Dundalk Racing Results | 25th November 2022 19:30,N/A,19:30,Standard,1m,Windy and Cold (IRE),P. A. Harnett,7,Luke Comer,8th,1/2 l,5,9-5,-,True,32,40
+Dundalk Racing Results | 25th November 2022 19:30,N/A,19:30,Standard,1m,Try Hard,N. M. Crosse,0,Luke Comer,7th,1 1/4 l,4,9-5,-,True,32,40
+Dundalk Racing Results | 25th November 2022 19:30,N/A,19:30,Standard,1m,Thatsthat,R. C. Colgan,0,Ms Sheila Lavery,6th,2 3/4 l,3,9-3,-,True,32,40
+Dundalk Racing Results | 25th November 2022 19:30,N/A,19:30,Standard,1m,Sailor's Warning (IRE),H. J. Horgan,7,Joseph Patrick O'Brien,5th,2 l,3,9-3,-,True,32,40
+Dundalk Racing Results | 25th November 2022 19:30,N/A,19:30,Standard,1m,Selador (IRE),D. B. McMonagle,0,Joseph Patrick O'Brien,4th,Head,3,9-3b,-,True,32,40
+Dundalk Racing Results | 25th November 2022 19:30,N/A,19:30,Standard,1m,Riverina Charm (IRE),J. Coen,5,Joseph Patrick O'Brien,3rd,1/2 l,3,9-3,-,True,32,40
+Dundalk Racing Results | 25th November 2022 19:30,N/A,19:30,Standard,1m,Evidently So (IRE),C. T. Keane,0,G. M. Lyons,2nd,1/2 l,3,9-3,-,True,32,40
+Dundalk Racing Results | 25th November 2022 19:30,N/A,19:30,Standard,1m,Soilse (IRE),R. P. Cleary,0,J. S. Bolger,1st,N/A,4,9-5t,-,True,32,40
+Dundalk Racing Results | 25th November 2022 19:30,N/A,19:30,Standard,1m,Cannes Do (IRE),S. D. Bowen,0,Philip Michael Byrne,13th,3 1/2 l,3,9-3,-,True,32,40
+Dundalk Racing Results | 25th November 2022 19:30,N/A,19:30,Standard,1m,Echoing (IRE),William James Lee,0,W. McCreery,12th,Short Head,3,9-3,-,True,32,40
+Dundalk Racing Results | 25th November 2022 19:30,N/A,19:30,Standard,1m,Neverfindanother U (IRE),G. M. Ryan,0,T. Gibney,11th,2 l,3,9-3,-,True,32,40
+Dundalk Racing Results | 25th November 2022 19:30,N/A,19:30,Standard,1m,Tellthemi'mhere (IRE),S. P. Davis,0,P. O'Rourke,10th,Short Head,4,9-5,-,True,32,40
+Dundalk Racing Results | 25th November 2022 19:30,N/A,19:30,Standard,1m,Eyela (IRE),L. F. Roche,0,Eddie & Patrick Harty,9th,3/4 l,3,9-3,-,True,32,40
+Dundalk Racing Results | 25th November 2022 19:30,N/A,19:30,Standard,1m,Windy and Cold (IRE),P. A. Harnett,7,Luke Comer,8th,1/2 l,5,9-5,-,True,32,40
+Dundalk Racing Results | 25th November 2022 19:30,N/A,19:30,Standard,1m,Try Hard,N. M. Crosse,0,Luke Comer,7th,1 1/4 l,4,9-5,-,True,32,40
+Dundalk Racing Results | 25th November 2022 19:30,N/A,19:30,Standard,1m,Thatsthat,R. C. Colgan,0,Ms Sheila Lavery,6th,2 3/4 l,3,9-3,-,True,32,40
+Dundalk Racing Results | 25th November 2022 19:30,N/A,19:30,Standard,1m,Sailor's Warning (IRE),H. J. Horgan,7,Joseph Patrick O'Brien,5th,2 l,3,9-3,-,True,32,40
+Dundalk Racing Results | 25th November 2022 19:30,N/A,19:30,Standard,1m,Selador (IRE),D. B. McMonagle,0,Joseph Patrick O'Brien,4th,Head,3,9-3b,-,True,32,40
+Dundalk Racing Results | 25th November 2022 19:30,N/A,19:30,Standard,1m,Riverina Charm (IRE),J. Coen,5,Joseph Patrick O'Brien,3rd,1/2 l,3,9-3,-,True,32,40
+Dundalk Racing Results | 25th November 2022 19:30,N/A,19:30,Standard,1m,Evidently So (IRE),C. T. Keane,0,G. M. Lyons,2nd,1/2 l,3,9-3,-,True,32,40
+Dundalk Racing Results | 25th November 2022 19:30,N/A,19:30,Standard,1m,Soilse (IRE),R. P. Cleary,0,J. S. Bolger,1st,N/A,4,9-5t,-,True,32,40
+Dundalk Racing Results | 25th November 2022 20:00,N/A,20:00,Standard,6f,Admiral Nelson,K. Bailey,10,J. F. Levins,13th,1 1/4 l,4,9-9,83,True,32,41
+Dundalk Racing Results | 25th November 2022 20:00,N/A,20:00,Standard,6f,Craft Irish (IRE),J. Coen,5,P. J. F. Murphy,12th,3/4 l,4,10-0p,88,True,32,41
+Dundalk Racing Results | 25th November 2022 20:00,N/A,20:00,Standard,6f,Hypernova (IRE),H. J. Horgan,7,Joseph Patrick O'Brien,11th,1/2 l,3,9-2t,76,True,32,41
+Dundalk Racing Results | 25th November 2022 20:00,N/A,20:00,Standard,6f,J J Jumbo (SWE),C. T. Keane,0,Darren Bunyan,10th,3/4 l,3,9-13p,87,True,32,41
+Dundalk Racing Results | 25th November 2022 20:00,N/A,20:00,Standard,6f,Pulse Of Shanghai (IRE),Shane Foley,0,James McAuley,9th,1/2 l,6,8-11,71,True,32,41
+Dundalk Racing Results | 25th November 2022 20:00,N/A,20:00,Standard,6f,Sunday Sovereign,J. J. G. Ryan,7,James McAuley,8th,Short Head,5,9-6t,80,True,32,41
+Dundalk Racing Results | 25th November 2022 20:00,N/A,20:00,Standard,6f,Is That Love (IRE),R. P. Whelan,0,Adrian McGuinness,7th,Neck,5,8-13,73,True,32,41
+Dundalk Racing Results | 25th November 2022 20:00,N/A,20:00,Standard,6f,Shabaaby,C. D. Hayes,0,J. F. Levins,6th,1/2 l,7,8-8v,68,True,32,41
+Dundalk Racing Results | 25th November 2022 20:00,N/A,20:00,Standard,6f,Maritime Rules (IRE),William James Lee,0,G. O'Leary,5th,1 1/4 l,3,9-6tb,80,True,32,41
+Dundalk Racing Results | 25th November 2022 20:00,N/A,20:00,Standard,6f,Ivasecret (IRE),D. B. McMonagle,0,John Joseph Hanlon,4th,1/2 l,4,9-10,84,True,32,41
+Dundalk Racing Results | 25th November 2022 20:00,N/A,20:00,Standard,6f,Tai Sing Yeh (IRE),G. M. Ryan,0,James McAuley,3rd,Head,8,8-12tb,72,True,32,41
+Dundalk Racing Results | 25th November 2022 20:00,N/A,20:00,Standard,6f,Hodd's Girl (IRE),Adam Caffrey,7,Adrian McGuinness,2nd,1 1/2 l,5,9-10,84,True,32,41
+Dundalk Racing Results | 25th November 2022 20:00,N/A,20:00,Standard,6f,Dandyville (IRE),W. M. Lordan,0,Miss Natalia Lupini,1st,N/A,4,8-13,73,True,32,41
+Dundalk Racing Results | 25th November 2022 20:00,N/A,20:00,Standard,6f,Admiral Nelson,K. Bailey,10,J. F. Levins,13th,1 1/4 l,4,9-9,83,True,32,41
+Dundalk Racing Results | 25th November 2022 20:00,N/A,20:00,Standard,6f,Craft Irish (IRE),J. Coen,5,P. J. F. Murphy,12th,3/4 l,4,10-0p,88,True,32,41
+Dundalk Racing Results | 25th November 2022 20:00,N/A,20:00,Standard,6f,Hypernova (IRE),H. J. Horgan,7,Joseph Patrick O'Brien,11th,1/2 l,3,9-2t,76,True,32,41
+Dundalk Racing Results | 25th November 2022 20:00,N/A,20:00,Standard,6f,J J Jumbo (SWE),C. T. Keane,0,Darren Bunyan,10th,3/4 l,3,9-13p,87,True,32,41
+Dundalk Racing Results | 25th November 2022 20:00,N/A,20:00,Standard,6f,Pulse Of Shanghai (IRE),Shane Foley,0,James McAuley,9th,1/2 l,6,8-11,71,True,32,41
+Dundalk Racing Results | 25th November 2022 20:00,N/A,20:00,Standard,6f,Sunday Sovereign,J. J. G. Ryan,7,James McAuley,8th,Short Head,5,9-6t,80,True,32,41
+Dundalk Racing Results | 25th November 2022 20:00,N/A,20:00,Standard,6f,Is That Love (IRE),R. P. Whelan,0,Adrian McGuinness,7th,Neck,5,8-13,73,True,32,41
+Dundalk Racing Results | 25th November 2022 20:00,N/A,20:00,Standard,6f,Shabaaby,C. D. Hayes,0,J. F. Levins,6th,1/2 l,7,8-8v,68,True,32,41
+Dundalk Racing Results | 25th November 2022 20:00,N/A,20:00,Standard,6f,Maritime Rules (IRE),William James Lee,0,G. O'Leary,5th,1 1/4 l,3,9-6tb,80,True,32,41
+Dundalk Racing Results | 25th November 2022 20:00,N/A,20:00,Standard,6f,Ivasecret (IRE),D. B. McMonagle,0,John Joseph Hanlon,4th,1/2 l,4,9-10,84,True,32,41
+Dundalk Racing Results | 25th November 2022 20:00,N/A,20:00,Standard,6f,Tai Sing Yeh (IRE),G. M. Ryan,0,James McAuley,3rd,Head,8,8-12tb,72,True,32,41
+Dundalk Racing Results | 25th November 2022 20:00,N/A,20:00,Standard,6f,Hodd's Girl (IRE),Adam Caffrey,7,Adrian McGuinness,2nd,1 1/2 l,5,9-10,84,True,32,41
+Dundalk Racing Results | 25th November 2022 20:00,N/A,20:00,Standard,6f,Dandyville (IRE),W. M. Lordan,0,Miss Natalia Lupini,1st,N/A,4,8-13,73,True,32,41
+Dundalk Racing Results | 25th November 2022 20:30,N/A,20:30,Standard,2m,Thousand Tears (IRE),R. Whearty,7,Emmet Mullins,14th,6 1/2 l,7,8-11,78,True,32,42
+Dundalk Racing Results | 25th November 2022 20:30,N/A,20:30,Standard,2m,The Vegas Raider (IRE),A. C. Persse,7,Eoin Doyle,13th,1/2 l,4,8-8v,75,True,32,42
+Dundalk Racing Results | 25th November 2022 20:30,N/A,20:30,Standard,2m,Kingswear,D. King,7,Denis Hogan,12th,3 3/4 l,5,10-1,96,True,32,42
+Dundalk Racing Results | 25th November 2022 20:30,N/A,20:30,Standard,2m,Poseidon (IRE),L. F. Roche,0,Gordon Elliott,11th,4 1/2 l,8,8-7,74,True,32,42
+Dundalk Racing Results | 25th November 2022 20:30,N/A,20:30,Standard,2m,Big Kitten (USA),J. J. G. Ryan,7,John McConnell,10th,Head,7,8-12,79,True,32,42
+Dundalk Racing Results | 25th November 2022 20:30,N/A,20:30,Standard,2m,Supreme Jet (IRE),N. M. Crosse,0,Oliver McKiernan,9th,1 1/4 l,6,8-8p,75,True,32,42
+Dundalk Racing Results | 25th November 2022 20:30,N/A,20:30,Standard,2m,Grandmaster Flash (IRE),D. B. McMonagle,0,Joseph Patrick O'Brien,8th,Nose,6,9-10tp,91,True,32,42
+Dundalk Racing Results | 25th November 2022 20:30,N/A,20:30,Standard,2m,No Trouble (IRE),Siobhan Rutledge,5,John McConnell,7th,Neck,6,8-11t,78,True,32,42
+Dundalk Racing Results | 25th November 2022 20:30,N/A,20:30,Standard,2m,Joupe (IRE),K. J. Leonard,0,Peter Lawlor,6th,1 1/4 l,5,8-10ht,77,True,32,42
+Dundalk Racing Results | 25th November 2022 20:30,N/A,20:30,Standard,2m,Gibraltar (IRE),W. M. Lordan,0,W. P. Mullins,5th,Nose,5,9-2,83,True,32,42
+Dundalk Racing Results | 25th November 2022 20:30,N/A,20:30,Standard,2m,Adamaris (IRE),Shane Foley,0,G. O'Leary,4th,1 1/2 l,5,8-9,76,True,32,42
+Dundalk Racing Results | 25th November 2022 20:30,N/A,20:30,Standard,2m,Boom Boom Boom,S. P. Davis,0,Charles Byrnes,3rd,1 1/4 l,5,8-7,74,True,32,42
+Dundalk Racing Results | 25th November 2022 20:30,N/A,20:30,Standard,2m,Lunar Power (IRE),C. T. Keane,0,Noel Meade,2nd,Head,4,9-7p,88,True,32,42
+Dundalk Racing Results | 25th November 2022 20:30,N/A,20:30,Standard,2m,Cozone,C. D. Hayes,0,Matthew J. Smith,1st,N/A,5,8-13b,80,True,32,42
+Dundalk Racing Results | 25th November 2022 20:30,N/A,20:30,Standard,2m,Thousand Tears (IRE),R. Whearty,7,Emmet Mullins,14th,6 1/2 l,7,8-11,78,True,32,42
+Dundalk Racing Results | 25th November 2022 20:30,N/A,20:30,Standard,2m,The Vegas Raider (IRE),A. C. Persse,7,Eoin Doyle,13th,1/2 l,4,8-8v,75,True,32,42
+Dundalk Racing Results | 25th November 2022 20:30,N/A,20:30,Standard,2m,Kingswear,D. King,7,Denis Hogan,12th,3 3/4 l,5,10-1,96,True,32,42
+Dundalk Racing Results | 25th November 2022 20:30,N/A,20:30,Standard,2m,Poseidon (IRE),L. F. Roche,0,Gordon Elliott,11th,4 1/2 l,8,8-7,74,True,32,42
+Dundalk Racing Results | 25th November 2022 20:30,N/A,20:30,Standard,2m,Big Kitten (USA),J. J. G. Ryan,7,John McConnell,10th,Head,7,8-12,79,True,32,42
+Dundalk Racing Results | 25th November 2022 20:30,N/A,20:30,Standard,2m,Supreme Jet (IRE),N. M. Crosse,0,Oliver McKiernan,9th,1 1/4 l,6,8-8p,75,True,32,42
+Dundalk Racing Results | 25th November 2022 20:30,N/A,20:30,Standard,2m,Grandmaster Flash (IRE),D. B. McMonagle,0,Joseph Patrick O'Brien,8th,Nose,6,9-10tp,91,True,32,42
+Dundalk Racing Results | 25th November 2022 20:30,N/A,20:30,Standard,2m,No Trouble (IRE),Siobhan Rutledge,5,John McConnell,7th,Neck,6,8-11t,78,True,32,42
+Dundalk Racing Results | 25th November 2022 20:30,N/A,20:30,Standard,2m,Joupe (IRE),K. J. Leonard,0,Peter Lawlor,6th,1 1/4 l,5,8-10ht,77,True,32,42
+Dundalk Racing Results | 25th November 2022 20:30,N/A,20:30,Standard,2m,Gibraltar (IRE),W. M. Lordan,0,W. P. Mullins,5th,Nose,5,9-2,83,True,32,42
+Dundalk Racing Results | 25th November 2022 20:30,N/A,20:30,Standard,2m,Adamaris (IRE),Shane Foley,0,G. O'Leary,4th,1 1/2 l,5,8-9,76,True,32,42
+Dundalk Racing Results | 25th November 2022 20:30,N/A,20:30,Standard,2m,Boom Boom Boom,S. P. Davis,0,Charles Byrnes,3rd,1 1/4 l,5,8-7,74,True,32,42
+Dundalk Racing Results | 25th November 2022 20:30,N/A,20:30,Standard,2m,Lunar Power (IRE),C. T. Keane,0,Noel Meade,2nd,Head,4,9-7p,88,True,32,42
+Dundalk Racing Results | 25th November 2022 20:30,N/A,20:30,Standard,2m,Cozone,C. D. Hayes,0,Matthew J. Smith,1st,N/A,5,8-13b,80,True,32,42
+N/A,N/A,12:00,Heavy,2m 4f,Journey With Me (IRE),Rachael Blackmore,0,Henry de Bromhead,F,N/A,6,11-12,-,True,32,43
+N/A,N/A,12:00,Heavy,2m 4f,Folcano (FR),J. W. Kennedy,0,Gordon Elliott,7th,4 3/4 l,7,11-12,-,True,32,43
+N/A,N/A,12:00,Heavy,2m 4f,Sams Profile,D. J. O'Keeffe,0,M. F. Morris,6th,23 l,8,11-12,-,True,32,43
+N/A,N/A,12:00,Heavy,2m 4f,Wellington Hill (IRE),R. A. Doyle,0,Ms Margaret Mullins,5th,1/2 l,6,11-12,-,True,32,43
+N/A,N/A,12:00,Heavy,2m 4f,Angels Dawn (IRE),Phillip Enright,0,S. Curling,4th,3 l,7,11-5,-,True,32,43
+N/A,N/A,12:00,Heavy,2m 4f,Whatdeawant (IRE),S. F. O'Keeffe,0,W. P. Mullins,3rd,27 l,6,11-12,-,True,32,43
+N/A,N/A,12:00,Heavy,2m 4f,Minella Cocooner (IRE),P. Townend,0,W. P. Mullins,2nd,2 3/4 l,6,11-12,-,True,32,43
+N/A,N/A,12:00,Heavy,2m 4f,Classic Getaway (IRE),D. E. Mullins,0,W. P. Mullins,1st,N/A,6,11-12,-,True,32,43
+N/A,N/A,12:00,Heavy,2m 4f,Journey With Me (IRE),Rachael Blackmore,0,Henry de Bromhead,F,N/A,6,11-12,-,True,32,43
+N/A,N/A,12:00,Heavy,2m 4f,Folcano (FR),J. W. Kennedy,0,Gordon Elliott,7th,4 3/4 l,7,11-12,-,True,32,43
+N/A,N/A,12:00,Heavy,2m 4f,Sams Profile,D. J. O'Keeffe,0,M. F. Morris,6th,23 l,8,11-12,-,True,32,43
+N/A,N/A,12:00,Heavy,2m 4f,Wellington Hill (IRE),R. A. Doyle,0,Ms Margaret Mullins,5th,1/2 l,6,11-12,-,True,32,43
+N/A,N/A,12:00,Heavy,2m 4f,Angels Dawn (IRE),Phillip Enright,0,S. Curling,4th,3 l,7,11-5,-,True,32,43
+N/A,N/A,12:00,Heavy,2m 4f,Whatdeawant (IRE),S. F. O'Keeffe,0,W. P. Mullins,3rd,27 l,6,11-12,-,True,32,43
+N/A,N/A,12:00,Heavy,2m 4f,Minella Cocooner (IRE),P. Townend,0,W. P. Mullins,2nd,2 3/4 l,6,11-12,-,True,32,43
+N/A,N/A,12:00,Heavy,2m 4f,Classic Getaway (IRE),D. E. Mullins,0,W. P. Mullins,1st,N/A,6,11-12,-,True,32,43
+N/A,N/A,12:35,Heavy,2m 4f,Hardwired (IRE),Denis O'Regan,0,T. M. Walsh,PU,N/A,6,11-12t,-,True,32,44
+N/A,N/A,12:35,Heavy,2m 4f,Boulon Trou (FR),J. W. Kennedy,0,Gordon Elliott,PU,N/A,5,11-12,-,True,32,44
+N/A,N/A,12:35,Heavy,2m 4f,Our Dylan (IRE),S. D. Torrens,0,P. A. Fahy,PU,N/A,6,11-12,-,True,32,44
+N/A,N/A,12:35,Heavy,2m 4f,Advance (IRE),Sarah Kavanagh,7,Colm A. Murphy,PU,N/A,5,11-12,-,True,32,44
+N/A,N/A,12:35,Heavy,2m 4f,Excelcior (FR),Sam Ewing,0,Gordon Elliott,F,N/A,8,11-12b,-,True,32,44
+N/A,N/A,12:35,Heavy,2m 4f,Cast Iron (IRE),S. Fitzgerald,3,Joseph Patrick O'Brien,7th,24 l,6,11-12,-,True,32,44
+N/A,N/A,12:35,Heavy,2m 4f,The Glenman (IRE),E. Walsh,5,Ciaran Murphy,6th,15 l,6,11-12,-,True,32,44
+N/A,N/A,12:35,Heavy,2m 4f,Malinas Glory (IRE),D. J. O'Keeffe,0,Eoghan O'Grady,5th,13 l,5,11-12t,-,True,32,44
+N/A,N/A,12:35,Heavy,2m 4f,Gondor (IRE),L. A. McKenna,7,Colm A. Murphy,4th,10 l,7,11-12,-,True,32,44
+N/A,N/A,12:35,Heavy,2m 4f,Who's Houdini (IRE),Jordan Colin Gainford,0,John Joseph Hanlon,3rd,11 l,6,11-12,-,True,32,44
+N/A,N/A,12:35,Heavy,2m 4f,Willywampus (IRE),J. C. Canavan,0,Donal Commins,2nd,11 l,5,11-12,-,True,32,44
+N/A,N/A,12:35,Heavy,2m 4f,Yabo (IRE),Richard Deegan,0,Miss Elizabeth Doyle,1st,N/A,7,11-5,-,True,32,44
+N/A,N/A,12:35,Heavy,2m 4f,Hardwired (IRE),Denis O'Regan,0,T. M. Walsh,PU,N/A,6,11-12t,-,True,32,44
+N/A,N/A,12:35,Heavy,2m 4f,Boulon Trou (FR),J. W. Kennedy,0,Gordon Elliott,PU,N/A,5,11-12,-,True,32,44
+N/A,N/A,12:35,Heavy,2m 4f,Our Dylan (IRE),S. D. Torrens,0,P. A. Fahy,PU,N/A,6,11-12,-,True,32,44
+N/A,N/A,12:35,Heavy,2m 4f,Advance (IRE),Sarah Kavanagh,7,Colm A. Murphy,PU,N/A,5,11-12,-,True,32,44
+N/A,N/A,12:35,Heavy,2m 4f,Excelcior (FR),Sam Ewing,0,Gordon Elliott,F,N/A,8,11-12b,-,True,32,44
+N/A,N/A,12:35,Heavy,2m 4f,Cast Iron (IRE),S. Fitzgerald,3,Joseph Patrick O'Brien,7th,24 l,6,11-12,-,True,32,44
+N/A,N/A,12:35,Heavy,2m 4f,The Glenman (IRE),E. Walsh,5,Ciaran Murphy,6th,15 l,6,11-12,-,True,32,44
+N/A,N/A,12:35,Heavy,2m 4f,Malinas Glory (IRE),D. J. O'Keeffe,0,Eoghan O'Grady,5th,13 l,5,11-12t,-,True,32,44
+N/A,N/A,12:35,Heavy,2m 4f,Gondor (IRE),L. A. McKenna,7,Colm A. Murphy,4th,10 l,7,11-12,-,True,32,44
+N/A,N/A,12:35,Heavy,2m 4f,Who's Houdini (IRE),Jordan Colin Gainford,0,John Joseph Hanlon,3rd,11 l,6,11-12,-,True,32,44
+N/A,N/A,12:35,Heavy,2m 4f,Willywampus (IRE),J. C. Canavan,0,Donal Commins,2nd,11 l,5,11-12,-,True,32,44
+N/A,N/A,12:35,Heavy,2m 4f,Yabo (IRE),Richard Deegan,0,Miss Elizabeth Doyle,1st,N/A,7,11-5,-,True,32,44
+N/A,N/A,13:05,Heavy,2m 4f,Carrolls Cottage (IRE),B. Hayes,0,Philip Fenton,7th,26 l,6,10-12,120,True,32,45
+N/A,N/A,13:05,Heavy,2m 4f,Influential Lady (IRE),C. A. Landers,0,James M. Barcoe,6th,3 1/2 l,8,10-5t,113,True,32,45
+N/A,N/A,13:05,Heavy,2m 4f,Gevrey (FR),Davy Russell,0,Gordon Elliott,5th,11 l,6,11-12p1,134,True,32,45
+N/A,N/A,13:05,Heavy,2m 4f,It Could Be You (IRE),Jordan Colin Gainford,0,Thomas Mullins,4th,1 l,8,10-6t,114,True,32,45
+N/A,N/A,13:05,Heavy,2m 4f,Archies Charm,B. J. Cooper,0,B. R. Hamilton,3rd,8 l,7,11-0p,122,True,32,45
+N/A,N/A,13:05,Heavy,2m 4f,Street Value (IRE),D. E. Mullins,0,J. P. Flavin,2nd,10 l,7,11-4,126,True,32,45
+N/A,N/A,13:05,Heavy,2m 4f,Dunboyne (IRE),J. W. Kennedy,0,Gordon Elliott,1st,N/A,7,11-1p,123,True,32,45
+N/A,N/A,13:05,Heavy,2m 4f,Carrolls Cottage (IRE),B. Hayes,0,Philip Fenton,7th,26 l,6,10-12,120,True,32,45
+N/A,N/A,13:05,Heavy,2m 4f,Influential Lady (IRE),C. A. Landers,0,James M. Barcoe,6th,3 1/2 l,8,10-5t,113,True,32,45
+N/A,N/A,13:05,Heavy,2m 4f,Gevrey (FR),Davy Russell,0,Gordon Elliott,5th,11 l,6,11-12p1,134,True,32,45
+N/A,N/A,13:05,Heavy,2m 4f,It Could Be You (IRE),Jordan Colin Gainford,0,Thomas Mullins,4th,1 l,8,10-6t,114,True,32,45
+N/A,N/A,13:05,Heavy,2m 4f,Archies Charm,B. J. Cooper,0,B. R. Hamilton,3rd,8 l,7,11-0p,122,True,32,45
+N/A,N/A,13:05,Heavy,2m 4f,Street Value (IRE),D. E. Mullins,0,J. P. Flavin,2nd,10 l,7,11-4,126,True,32,45
+N/A,N/A,13:05,Heavy,2m 4f,Dunboyne (IRE),J. W. Kennedy,0,Gordon Elliott,1st,N/A,7,11-1p,123,True,32,45
+N/A,N/A,13:40,Heavy,2m,Man Of The House (IRE),Shane Fenelon,7,John Joseph Hanlon,8th,44 l,4,11-5,-,True,32,46
+N/A,N/A,13:40,Heavy,2m,Navy Waves (IRE),E. Dwan,7,Mrs Julie Cashin,7th,3 1/2 l,4,11-5,-,True,32,46
+N/A,N/A,13:40,Heavy,2m,Lakefield Flyer (IRE),S. D. Torrens,0,John Joseph Hanlon,6th,4 l,4,11-5,-,True,32,46
+N/A,N/A,13:40,Heavy,2m,Fireworks (FR),Jordan Colin Gainford,0,John Joseph Hanlon,5th,6 l,4,11-5,-,True,32,46
+N/A,N/A,13:40,Heavy,2m,Bynx (IRE),Phillip Enright,0,Martin Hassett,4th,25 l,4,10-12,-,True,32,46
+N/A,N/A,13:40,Heavy,2m,Spanish Harlem (FR),P. Townend,0,W. P. Mullins,3rd,3 3/4 l,4,11-12,-,True,32,46
+N/A,N/A,13:40,Heavy,2m,Imagine (FR),J. W. Kennedy,0,Gordon Elliott,2nd,1/2 l,4,11-12,-,True,32,46
+N/A,N/A,13:40,Heavy,2m,Inothewayurthinkin (IRE),M. P. Walsh,0,Gavin Patrick Cromwell,1st,N/A,4,11-12,-,True,32,46
+N/A,N/A,13:40,Heavy,2m,Man Of The House (IRE),Shane Fenelon,7,John Joseph Hanlon,8th,44 l,4,11-5,-,True,32,46
+N/A,N/A,13:40,Heavy,2m,Navy Waves (IRE),E. Dwan,7,Mrs Julie Cashin,7th,3 1/2 l,4,11-5,-,True,32,46
+N/A,N/A,13:40,Heavy,2m,Lakefield Flyer (IRE),S. D. Torrens,0,John Joseph Hanlon,6th,4 l,4,11-5,-,True,32,46
+N/A,N/A,13:40,Heavy,2m,Fireworks (FR),Jordan Colin Gainford,0,John Joseph Hanlon,5th,6 l,4,11-5,-,True,32,46
+N/A,N/A,13:40,Heavy,2m,Bynx (IRE),Phillip Enright,0,Martin Hassett,4th,25 l,4,10-12,-,True,32,46
+N/A,N/A,13:40,Heavy,2m,Spanish Harlem (FR),P. Townend,0,W. P. Mullins,3rd,3 3/4 l,4,11-12,-,True,32,46
+N/A,N/A,13:40,Heavy,2m,Imagine (FR),J. W. Kennedy,0,Gordon Elliott,2nd,1/2 l,4,11-12,-,True,32,46
+N/A,N/A,13:40,Heavy,2m,Inothewayurthinkin (IRE),M. P. Walsh,0,Gavin Patrick Cromwell,1st,N/A,4,11-12,-,True,32,46
+N/A,N/A,14:15,Heavy,2m,Ballinaboola Jet (IRE),Shane Fenelon,7,John Joseph Hanlon,F,N/A,5,11-12,-,True,32,47
+N/A,N/A,14:15,Heavy,2m,Plusthevat (IRE),C. P. O'Shea,7,P. A. Fahy,16th,15 l,6,11-12,-,True,32,47
+N/A,N/A,14:15,Heavy,2m,Nouliak (FR),Peter Carberry,0,Matthew J. Smith,15th,32 l,5,11-12t,-,True,32,47
+N/A,N/A,14:15,Heavy,2m,Lockdown Daisy (IRE),L. A. McKenna,7,J. J. Lambe,14th,96 l,5,11-5,-,True,32,47
+N/A,N/A,14:15,Heavy,2m,American Money (IRE),M. J. M. O'Sullivan,5,Eddie & Patrick Harty,13th,Neck,5,11-12,-,True,32,47
+N/A,N/A,14:15,Heavy,2m,Getaway Train (IRE),D. E. Mullins,0,D. Hassett,12th,Neck,5,11-12t,-,True,32,47
+N/A,N/A,14:15,Heavy,2m,Limekiln Rock (IRE),R. A. Doyle,0,M. F. Morris,11th,15 l,5,11-12p1,-,True,32,47
+N/A,N/A,14:15,Heavy,2m,Rockbrook (IRE),J. P. O'Sullivan,5,P. J. Rothwell,10th,2 l,5,11-12,-,True,32,47
+N/A,N/A,14:15,Heavy,2m,Anstand (GER),Jordan Colin Gainford,0,Paul Nolan,9th,2 1/4 l,5,11-12,-,True,32,47
+N/A,N/A,14:15,Heavy,2m,Leading The Way (IRE),D. King,5,Gillian Scott,8th,2 3/4 l,6,11-12,-,True,32,47
+N/A,N/A,14:15,Heavy,2m,Toni Ram (IRE),M. P. Fogarty,0,Jonathan Fogarty,7th,6 1/2 l,5,11-12,-,True,32,47
+N/A,N/A,14:15,Heavy,2m,Secret Artist (IRE),P. Byrnes,5,Charles Byrnes,6th,3 1/2 l,6,11-12,-,True,32,47
+N/A,N/A,14:15,Heavy,2m,Blackwater (IRE),J. W. Kennedy,0,Gordon Elliott,5th,10 l,5,11-12,-,True,32,47
+N/A,N/A,14:15,Heavy,2m,Conna Cottage (IRE),Keith Donoghue,0,Gavin Patrick Cromwell,4th,1/2 l,6,11-12,-,True,32,47
+N/A,N/A,14:15,Heavy,2m,Chosen Thyme (IRE),B. Hayes,0,Philip Fenton,3rd,18 l,5,11-12,-,True,32,47
+N/A,N/A,14:15,Heavy,2m,Pink In The Park (IRE),P. Townend,0,W. P. Mullins,2nd,2 1/4 l,5,11-5,-,True,32,47
+N/A,N/A,14:15,Heavy,2m,Kalanisi Star,Phillip Enright,0,Oliver McKiernan,1st,N/A,5,11-12,-,True,32,47
+N/A,N/A,14:15,Heavy,2m,Ballinaboola Jet (IRE),Shane Fenelon,7,John Joseph Hanlon,F,N/A,5,11-12,-,True,32,47
+N/A,N/A,14:15,Heavy,2m,Plusthevat (IRE),C. P. O'Shea,7,P. A. Fahy,16th,15 l,6,11-12,-,True,32,47
+N/A,N/A,14:15,Heavy,2m,Nouliak (FR),Peter Carberry,0,Matthew J. Smith,15th,32 l,5,11-12t,-,True,32,47
+N/A,N/A,14:15,Heavy,2m,Lockdown Daisy (IRE),L. A. McKenna,7,J. J. Lambe,14th,96 l,5,11-5,-,True,32,47
+N/A,N/A,14:15,Heavy,2m,American Money (IRE),M. J. M. O'Sullivan,5,Eddie & Patrick Harty,13th,Neck,5,11-12,-,True,32,47
+N/A,N/A,14:15,Heavy,2m,Getaway Train (IRE),D. E. Mullins,0,D. Hassett,12th,Neck,5,11-12t,-,True,32,47
+N/A,N/A,14:15,Heavy,2m,Limekiln Rock (IRE),R. A. Doyle,0,M. F. Morris,11th,15 l,5,11-12p1,-,True,32,47
+N/A,N/A,14:15,Heavy,2m,Rockbrook (IRE),J. P. O'Sullivan,5,P. J. Rothwell,10th,2 l,5,11-12,-,True,32,47
+N/A,N/A,14:15,Heavy,2m,Anstand (GER),Jordan Colin Gainford,0,Paul Nolan,9th,2 1/4 l,5,11-12,-,True,32,47
+N/A,N/A,14:15,Heavy,2m,Leading The Way (IRE),D. King,5,Gillian Scott,8th,2 3/4 l,6,11-12,-,True,32,47
+N/A,N/A,14:15,Heavy,2m,Toni Ram (IRE),M. P. Fogarty,0,Jonathan Fogarty,7th,6 1/2 l,5,11-12,-,True,32,47
+N/A,N/A,14:15,Heavy,2m,Secret Artist (IRE),P. Byrnes,5,Charles Byrnes,6th,3 1/2 l,6,11-12,-,True,32,47
+N/A,N/A,14:15,Heavy,2m,Blackwater (IRE),J. W. Kennedy,0,Gordon Elliott,5th,10 l,5,11-12,-,True,32,47
+N/A,N/A,14:15,Heavy,2m,Conna Cottage (IRE),Keith Donoghue,0,Gavin Patrick Cromwell,4th,1/2 l,6,11-12,-,True,32,47
+N/A,N/A,14:15,Heavy,2m,Chosen Thyme (IRE),B. Hayes,0,Philip Fenton,3rd,18 l,5,11-12,-,True,32,47
+N/A,N/A,14:15,Heavy,2m,Pink In The Park (IRE),P. Townend,0,W. P. Mullins,2nd,2 1/4 l,5,11-5,-,True,32,47
+N/A,N/A,14:15,Heavy,2m,Kalanisi Star,Phillip Enright,0,Oliver McKiernan,1st,N/A,5,11-12,-,True,32,47
+N/A,N/A,14:50,Heavy,2m,Enchanted Magic (IRE),P. Townend,0,W. P. Mullins,PU,N/A,4,11-12,120,True,32,48
+N/A,N/A,14:50,Heavy,2m,Hey Johnny (IRE),D. E. Mullins,0,Thomas Mullins,PU,N/A,5,11-2,110,True,32,48
+N/A,N/A,14:50,Heavy,2m,McGrath From Clune (IRE),Phillip Enright,0,Robert Tyner,9th,7 l,6,10-5,99,True,32,48
+N/A,N/A,14:50,Heavy,2m,Astrophysicist,Gavin Peter Brouder,0,James A. Nash,8th,8 1/2 l,4,10-3tp,97,True,32,48
+N/A,N/A,14:50,Heavy,2m,Fongs Way (IRE),C. M. Quirke,7,T. J. Nagle Jnr,7th,41 l,7,10-0t,94,True,32,48
+N/A,N/A,14:50,Heavy,2m,Rodney Bay (IRE),Jordan Colin Gainford,0,Joseph Anthony Murray,6th,2 1/4 l,5,11-5,113,True,32,48
+N/A,N/A,14:50,Heavy,2m,Backintheroom (IRE),S. F. O'Keeffe,0,Paul Nolan,5th,13 l,5,11-11,119,True,32,48
+N/A,N/A,14:50,Heavy,2m,Champ Royal (FR),Sarah Kavanagh,7,Colm A. Murphy,4th,6 1/2 l,6,10-3,97,True,32,48
+N/A,N/A,14:50,Heavy,2m,Itwasfate,Rachael Blackmore,0,Henry de Bromhead,3rd,2 l,5,11-4,112,True,32,48
+N/A,N/A,14:50,Heavy,2m,A Mere Bagatelle (IRE),Sam Ewing,0,John Joseph Hanlon,2nd,2 1/4 l,5,10-0,94,True,32,48
+N/A,N/A,14:50,Heavy,2m,Marelly (IRE),Richard Deegan,0,Eoin Christopher McCarthy,1st,N/A,5,10-7,101,True,32,48
+N/A,N/A,14:50,Heavy,2m,Enchanted Magic (IRE),P. Townend,0,W. P. Mullins,PU,N/A,4,11-12,120,True,32,48
+N/A,N/A,14:50,Heavy,2m,Hey Johnny (IRE),D. E. Mullins,0,Thomas Mullins,PU,N/A,5,11-2,110,True,32,48
+N/A,N/A,14:50,Heavy,2m,McGrath From Clune (IRE),Phillip Enright,0,Robert Tyner,9th,7 l,6,10-5,99,True,32,48
+N/A,N/A,14:50,Heavy,2m,Astrophysicist,Gavin Peter Brouder,0,James A. Nash,8th,8 1/2 l,4,10-3tp,97,True,32,48
+N/A,N/A,14:50,Heavy,2m,Fongs Way (IRE),C. M. Quirke,7,T. J. Nagle Jnr,7th,41 l,7,10-0t,94,True,32,48
+N/A,N/A,14:50,Heavy,2m,Rodney Bay (IRE),Jordan Colin Gainford,0,Joseph Anthony Murray,6th,2 1/4 l,5,11-5,113,True,32,48
+N/A,N/A,14:50,Heavy,2m,Backintheroom (IRE),S. F. O'Keeffe,0,Paul Nolan,5th,13 l,5,11-11,119,True,32,48
+N/A,N/A,14:50,Heavy,2m,Champ Royal (FR),Sarah Kavanagh,7,Colm A. Murphy,4th,6 1/2 l,6,10-3,97,True,32,48
+N/A,N/A,14:50,Heavy,2m,Itwasfate,Rachael Blackmore,0,Henry de Bromhead,3rd,2 l,5,11-4,112,True,32,48
+N/A,N/A,14:50,Heavy,2m,A Mere Bagatelle (IRE),Sam Ewing,0,John Joseph Hanlon,2nd,2 1/4 l,5,10-0,94,True,32,48
+N/A,N/A,14:50,Heavy,2m,Marelly (IRE),Richard Deegan,0,Eoin Christopher McCarthy,1st,N/A,5,10-7,101,True,32,48
+N/A,N/A,15:20,Heavy,2m 4f,Mrs Underwood (IRE),A. M. McCurtin,3,G. Ahern,PU,N/A,7,11-11p1,92,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Lonracha (IRE),D. P. Maxwell,7,Andrew McNamara,PU,N/A,5,11-11t1,92,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Penthouse Poppet (IRE),Gavin Peter Brouder,5,Colin A. McBratney,PU,N/A,5,11-3,84,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,From This Moment (IRE),Phillip Enright,0,Philip Michael Byrne,PU,N/A,6,10-13,80,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Monnie Shanahan (IRE),Corey McGivern,7,Eric McNamara,16th,21 l,5,11-8t,89,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Ringhill Lady (IRE),L. A. McKenna,7,J. J. Lambe,15th,13 l,7,10-13tb,80,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Howsthewoman (IRE),Thomas Reilly,7,John G. Carr,14th,1/2 l,8,10-13ht,80,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Whiskey Lady (IRE),R. A. Doyle,0,Gillian Scott,13th,3 l,5,11-10,91,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Essential Part (IRE),P. T. Smithers,7,Padraig Roche,12th,4 3/4 l,4,11-9t,91,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Watermelon Girl (IRE),B. Hayes,0,John McConnell,11th,13 l,7,10-13p1,80,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Aodhan May (IRE),P. Byrnes,5,Charles Byrnes,10th,13 l,6,11-4,85,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Latest Model (IRE),Jordan Colin Gainford,0,John Joseph Hanlon,9th,Short Head,5,11-11,92,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Short Story Long (IRE),J. P. O'Sullivan,5,N. Dooly,8th,Short Head,8,10-13p,80,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Banada Bridge (IRE),D. J. O'Keeffe,0,Mrs Denise Foster,7th,6 l,5,11-2t,83,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Ramble on Muller (IRE),D. E. Mullins,0,P. A. Fahy,6th,15 l,6,11-5,86,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Haveuseentherain (IRE),M. J. M. O'Sullivan,5,S. G. Walsh,5th,3 1/2 l,7,10-13,80,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Shean Glory (IRE),M. P. O'Connor,5,Sean Aherne,4th,11 l,6,11-4t,85,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Thecornerhouse (IRE),Richard Deegan,0,Mrs Julie Cashin,3rd,1 l,5,11-1,82,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Ardera Ru (IRE),S. O'Callaghan,7,Eoin Doyle,2nd,4 3/4 l,7,12-0tp,95,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Kopon (IRE),C. G. O'Dwyer,7,Gearoid O'Loughlin,1st,N/A,7,10-13tp1,80,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Mrs Underwood (IRE),A. M. McCurtin,3,G. Ahern,PU,N/A,7,11-11p1,92,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Lonracha (IRE),D. P. Maxwell,7,Andrew McNamara,PU,N/A,5,11-11t1,92,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Penthouse Poppet (IRE),Gavin Peter Brouder,5,Colin A. McBratney,PU,N/A,5,11-3,84,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,From This Moment (IRE),Phillip Enright,0,Philip Michael Byrne,PU,N/A,6,10-13,80,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Monnie Shanahan (IRE),Corey McGivern,7,Eric McNamara,16th,21 l,5,11-8t,89,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Ringhill Lady (IRE),L. A. McKenna,7,J. J. Lambe,15th,13 l,7,10-13tb,80,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Howsthewoman (IRE),Thomas Reilly,7,John G. Carr,14th,1/2 l,8,10-13ht,80,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Whiskey Lady (IRE),R. A. Doyle,0,Gillian Scott,13th,3 l,5,11-10,91,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Essential Part (IRE),P. T. Smithers,7,Padraig Roche,12th,4 3/4 l,4,11-9t,91,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Watermelon Girl (IRE),B. Hayes,0,John McConnell,11th,13 l,7,10-13p1,80,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Aodhan May (IRE),P. Byrnes,5,Charles Byrnes,10th,13 l,6,11-4,85,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Latest Model (IRE),Jordan Colin Gainford,0,John Joseph Hanlon,9th,Short Head,5,11-11,92,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Short Story Long (IRE),J. P. O'Sullivan,5,N. Dooly,8th,Short Head,8,10-13p,80,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Banada Bridge (IRE),D. J. O'Keeffe,0,Mrs Denise Foster,7th,6 l,5,11-2t,83,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Ramble on Muller (IRE),D. E. Mullins,0,P. A. Fahy,6th,15 l,6,11-5,86,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Haveuseentherain (IRE),M. J. M. O'Sullivan,5,S. G. Walsh,5th,3 1/2 l,7,10-13,80,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Shean Glory (IRE),M. P. O'Connor,5,Sean Aherne,4th,11 l,6,11-4t,85,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Thecornerhouse (IRE),Richard Deegan,0,Mrs Julie Cashin,3rd,1 l,5,11-1,82,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Ardera Ru (IRE),S. O'Callaghan,7,Eoin Doyle,2nd,4 3/4 l,7,12-0tp,95,True,32,49
+N/A,N/A,15:20,Heavy,2m 4f,Kopon (IRE),C. G. O'Dwyer,7,Gearoid O'Loughlin,1st,N/A,7,10-13tp1,80,True,32,49
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Joven De Corazon (IRE),Donagh Meyler,0,Paul Stafford,UR,N/A,3,10-7,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Bayou Belle (IRE),P. T. Smithers,0,Jarlath P. Fahey,PU,N/A,3,10-7,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Red Trail (IRE),D. J. O'Keeffe,0,Andrew McNamara,PU,N/A,3,10-7,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Secret Rock (IRE),Peter Carberry,0,A. J. Martin,19th,22 l,3,11-0,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Pralognan (FR),L. A. McKenna,7,A. J. Martin,18th,6 1/2 l,3,11-0t,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Mister Wilson (IRE),C. D. Maxwell,0,Gavin Patrick Cromwell,17th,19 l,3,11-0h,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Scarbrook (IRE),K. C. Sexton,0,E. Sheehy,16th,1 l,3,11-0,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Nemean (USA),Phillip Enright,0,A. J. Martin,15th,6 1/2 l,3,11-0,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Verbal Sparring (IRE),S. O'Callaghan,7,Desmond McDonogh,14th,1 1/4 l,3,11-0,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Theonewedreamof (IRE),Patrick Michael O'Brien,7,Gavin Patrick Cromwell,13th,1 l,3,10-7,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Ludus,Sam Ewing,0,Gordon Elliott,12th,Neck,3,11-0,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Portarlington (IRE),M. P. O'Connor,0,David Kenneth Budds,11th,2 l,3,11-0t,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,New Year Honours,J. W. Kennedy,0,Gordon Elliott,10th,1 1/2 l,3,10-7,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Snapius (IRE),Gavin Peter Brouder,0,James A. Nash,9th,Head,3,11-0,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Teagarden Jazz,Jordan Colin Gainford,0,Gordon Elliott,8th,1 1/2 l,3,10-7,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Puntastic (IRE),S. F. O'Keeffe,0,Paul Nolan,7th,1 1/2 l,3,11-0,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,By Your Side,C. P. McNamara,0,Gordon Elliott,6th,2 l,3,11-0,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Thetys (FR),S. D. Torrens,0,A. J. Martin,5th,1 3/4 l,3,10-7,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Poets Cottage (IRE),E. Walsh,5,Noel Meade,4th,1 3/4 l,3,11-0,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Tekao (FR),M. P. Walsh,0,W. P. Mullins,3rd,4 l,3,11-0,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Jazzy Matty (FR),Davy Russell,0,Gordon Elliott,2nd,6 l,3,11-0,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Comfort Zone (IRE),J. J. Slevin,0,Joseph Patrick O'Brien,1st,N/A,3,11-0,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Joven De Corazon (IRE),Donagh Meyler,0,Paul Stafford,UR,N/A,3,10-7,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Bayou Belle (IRE),P. T. Smithers,0,Jarlath P. Fahey,PU,N/A,3,10-7,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Red Trail (IRE),D. J. O'Keeffe,0,Andrew McNamara,PU,N/A,3,10-7,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Secret Rock (IRE),Peter Carberry,0,A. J. Martin,19th,22 l,3,11-0,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Pralognan (FR),L. A. McKenna,7,A. J. Martin,18th,6 1/2 l,3,11-0t,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Mister Wilson (IRE),C. D. Maxwell,0,Gavin Patrick Cromwell,17th,19 l,3,11-0h,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Scarbrook (IRE),K. C. Sexton,0,E. Sheehy,16th,1 l,3,11-0,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Nemean (USA),Phillip Enright,0,A. J. Martin,15th,6 1/2 l,3,11-0,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Verbal Sparring (IRE),S. O'Callaghan,7,Desmond McDonogh,14th,1 1/4 l,3,11-0,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Theonewedreamof (IRE),Patrick Michael O'Brien,7,Gavin Patrick Cromwell,13th,1 l,3,10-7,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Ludus,Sam Ewing,0,Gordon Elliott,12th,Neck,3,11-0,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Portarlington (IRE),M. P. O'Connor,0,David Kenneth Budds,11th,2 l,3,11-0t,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,New Year Honours,J. W. Kennedy,0,Gordon Elliott,10th,1 1/2 l,3,10-7,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Snapius (IRE),Gavin Peter Brouder,0,James A. Nash,9th,Head,3,11-0,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Teagarden Jazz,Jordan Colin Gainford,0,Gordon Elliott,8th,1 1/2 l,3,10-7,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Puntastic (IRE),S. F. O'Keeffe,0,Paul Nolan,7th,1 1/2 l,3,11-0,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,By Your Side,C. P. McNamara,0,Gordon Elliott,6th,2 l,3,11-0,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Thetys (FR),S. D. Torrens,0,A. J. Martin,5th,1 3/4 l,3,10-7,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Poets Cottage (IRE),E. Walsh,5,Noel Meade,4th,1 3/4 l,3,11-0,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Tekao (FR),M. P. Walsh,0,W. P. Mullins,3rd,4 l,3,11-0,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Jazzy Matty (FR),Davy Russell,0,Gordon Elliott,2nd,6 l,3,11-0,-,True,32,50
+Navan Racing Results | 27th November 2022 12:20,N/A,12:20,Soft (Yielding In Places),2m,Comfort Zone (IRE),J. J. Slevin,0,Joseph Patrick O'Brien,1st,N/A,3,11-0,-,True,32,50

@@ -1,0 +1,30 @@
+feature,importance
+is_young_horse,0.338406669003705
+wilson_score,0.30714784582005117
+performance_on_Yielding,0.18731301700345537
+performance_on_Good,0.0626553959681908
+jt_runs,0.044125912177045694
+career_wins,0.01515427168686152
+career_races,0.01055955371823825
+EMA_Form,0.010066797824581081
+is_veteran,0.009057590527948136
+recent_win_rate,0.007062579934640943
+career_win_rate,0.00369598051991136
+performance_on_Good to Yielding,0.0018255207635354646
+performance_on_Soft,0.00165838045633563
+performance_on_Good to Firm,0.0010253891498649156
+track_avg_distance,0.00014297494112913066
+weight,7.94964783680481e-05
+rating_clean,1.8531928668284978e-05
+jt_wins,3.0589315081940743e-06
+distance,1.0331659610930766e-06
+weight_percentile,0.0
+is_prime_age,0.0
+days_since_last,0.0
+performance_on_Heavy,0.0
+performance_on_Standard,0.0
+performance_on_Soft to Heavy,0.0
+performance_on_Yielding to Soft,0.0
+claims,0.0
+age,0.0
+track_win_rate,0.0

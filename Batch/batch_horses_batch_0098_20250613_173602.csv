@@ -1,0 +1,853 @@
+track_name,race_date,race_time,going,distance,horse_name,jockey,claims,trainer,race_position,lost_by_length,age,weight,rating,first_place_found,batch_number,url_index_in_batch
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,Papa Barns (IRE),P M O'Brien,0,J T R Dreaper,NR,N/A,7,10-0,81,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,Road To The Weir (IRE),D Moloney,4,J Neilan,UR,N/A,8,10-8,89,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,I Don't Get It (IRE),P Byrnes,0,N McCluskey,17th,2 1/4 l,10,12-0b,109,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,Zanjabeel,C Brassil,0,Stephanie Ocsko-Moore,16th,9 l,11,10-8tb,89,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,Sundrenched (IRE),S O'Callaghan,2,J J Lambe,15th,46 l,9,11-2t,97,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,Grivei (FR),E M O'Sullivan,4,E Griffin,14th,14 l,7,11-4t1,99,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,Tony's Pet (FR),Anna McGuinness,4,J J Lambe,13th,2 3/4 l,7,11-0tp1,95,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,Poppy Rose (IRE),P J O'Hanlon,0,S R B Crawford,12th,5 1/2 l,7,10-8,89,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,Ballycallan King (IRE),S Cleary-Farrell,0,Barry J Fitzgerald,11th,5 1/2 l,7,11-13h,108,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,Elusive Guy (IRE),P T Smithers,0,J P Fahey,10th,2 l,6,11-10,105,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,Crafty Gael (IRE),T P Harney,0,R O'Sullivan,9th,2 l,5,11-2p,97,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,Pana To Milan (IRE),D J Gilligan,0,M Winters,8th,1 1/4 l,6,10-6,87,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,Young Darleen (IRE),M P O'Connor,0,R P Cody,7th,3/4 l,8,11-3h1,98,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,Politicise (IRE),C P Millar,0,N Slevin,6th,8 l,8,11-7tp,102,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,Butty O Brien (IRE),L A McKenna,0,P Magee,5th,Short Head,8,11-2,97,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,Junot (IRE),M M McDonagh,0,M Winters,4th,1 1/2 l,5,10-6p,87,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,Pride Of Place (IRE),A P Kelly,2,M Hourigan,3rd,1 1/2 l,5,11-9,104,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,Circus Act (IRE),G Brouder,0,J Nash,2nd,Short Head,5,11-2b1,97,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,American Money (IRE),C Stone-Walsh,0,E & P Harty,1st,N/A,7,11-9,104,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,Papa Barns (IRE),P M O'Brien,0,J T R Dreaper,NR,N/A,7,10-0,81,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,Road To The Weir (IRE),D Moloney,4,J Neilan,UR,N/A,8,10-8,89,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,I Don't Get It (IRE),P Byrnes,0,N McCluskey,17th,2 1/4 l,10,12-0b,109,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,Zanjabeel,C Brassil,0,Stephanie Ocsko-Moore,16th,9 l,11,10-8tb,89,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,Sundrenched (IRE),S O'Callaghan,2,J J Lambe,15th,46 l,9,11-2t,97,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,Grivei (FR),E M O'Sullivan,4,E Griffin,14th,14 l,7,11-4t1,99,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,Tony's Pet (FR),Anna McGuinness,4,J J Lambe,13th,2 3/4 l,7,11-0tp1,95,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,Poppy Rose (IRE),P J O'Hanlon,0,S R B Crawford,12th,5 1/2 l,7,10-8,89,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,Ballycallan King (IRE),S Cleary-Farrell,0,Barry J Fitzgerald,11th,5 1/2 l,7,11-13h,108,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,Elusive Guy (IRE),P T Smithers,0,J P Fahey,10th,2 l,6,11-10,105,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,Crafty Gael (IRE),T P Harney,0,R O'Sullivan,9th,2 l,5,11-2p,97,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,Pana To Milan (IRE),D J Gilligan,0,M Winters,8th,1 1/4 l,6,10-6,87,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,Young Darleen (IRE),M P O'Connor,0,R P Cody,7th,3/4 l,8,11-3h1,98,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,Politicise (IRE),C P Millar,0,N Slevin,6th,8 l,8,11-7tp,102,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,Butty O Brien (IRE),L A McKenna,0,P Magee,5th,Short Head,8,11-2,97,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,Junot (IRE),M M McDonagh,0,M Winters,4th,1 1/2 l,5,10-6p,87,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,Pride Of Place (IRE),A P Kelly,2,M Hourigan,3rd,1 1/2 l,5,11-9,104,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,Circus Act (IRE),G Brouder,0,J Nash,2nd,Short Head,5,11-2b1,97,True,98,5
+Naas Racing Results | 12th January 2024 15:12,N/A,15:12,Soft (Yielding In Places),2m 3f 24y,American Money (IRE),C Stone-Walsh,0,E & P Harty,1st,N/A,7,11-9,104,True,98,5
+Naas Racing Results | 12th January 2024 15:47,N/A,15:47,Soft (Yielding In Places)  Flat (Turf),2m,Kelley Kapowski (IRE),Mr H C Swan,5,G Elliott,14th,19 l,4,11-3,-,True,98,6
+Naas Racing Results | 12th January 2024 15:47,N/A,15:47,Soft (Yielding In Places)  Flat (Turf),2m,Call Back Tuesday,Miss A B O'Connor,3,A McCann,13th,29 l,4,11-10,-,True,98,6
+Naas Racing Results | 12th January 2024 15:47,N/A,15:47,Soft (Yielding In Places)  Flat (Turf),2m,I'm Flattered (IRE),P T Smithers,7,P Roche,12th,2 1/4 l,4,11-3,-,True,98,6
+Naas Racing Results | 12th January 2024 15:47,N/A,15:47,Soft (Yielding In Places)  Flat (Turf),2m,Balovale (IRE),Niall Moore,7,E J O'Grady,11th,36 l,4,11-10h1,-,True,98,6
+Naas Racing Results | 12th January 2024 15:47,N/A,15:47,Soft (Yielding In Places)  Flat (Turf),2m,Squire Darlin (IRE),Mr E Finegan,7,M Mulvany,10th,Neck,4,11-10,-,True,98,6
+Naas Racing Results | 12th January 2024 15:47,N/A,15:47,Soft (Yielding In Places)  Flat (Turf),2m,Zazir (IRE),Mr J L Gleeson,5,D Hogan,9th,12 l,4,11-10,-,True,98,6
+Naas Racing Results | 12th January 2024 15:47,N/A,15:47,Soft (Yielding In Places)  Flat (Turf),2m,King In Love (FR),Mr D O'Connor,0,Mrs G O'Connor,8th,1 1/4 l,4,11-10,-,True,98,6
+Naas Racing Results | 12th January 2024 15:47,N/A,15:47,Soft (Yielding In Places)  Flat (Turf),2m,Kaikoura (FR),Mr D G Lavery,0,J P Dempsey,7th,1 l,4,11-10,-,True,98,6
+Naas Racing Results | 12th January 2024 15:47,N/A,15:47,Soft (Yielding In Places)  Flat (Turf),2m,Rose Boum (FR),Mr J W Hendrick,7,P Nolan,6th,1/2 l,4,11-3,-,True,98,6
+Naas Racing Results | 12th January 2024 15:47,N/A,15:47,Soft (Yielding In Places)  Flat (Turf),2m,Paudie's Wings (IRE),Mr D Doyle,7,D H Kelly,5th,6 1/2 l,4,11-3,-,True,98,6
+Naas Racing Results | 12th January 2024 15:47,N/A,15:47,Soft (Yielding In Places)  Flat (Turf),2m,Frogman (IRE),Mr E P O'Brien,5,R O'Brien,4th,13 l,4,11-10,-,True,98,6
+Naas Racing Results | 12th January 2024 15:47,N/A,15:47,Soft (Yielding In Places)  Flat (Turf),2m,Colcannon (IRE),Mr Finn Tegetmeier,7,N Meade,3rd,1/2 l,4,11-10,-,True,98,6
+Naas Racing Results | 12th January 2024 15:47,N/A,15:47,Soft (Yielding In Places)  Flat (Turf),2m,Wartime Leader (IRE),Mr P A King,5,P M J Doyle,2nd,1 1/2 l,4,11-10,-,True,98,6
+Naas Racing Results | 12th January 2024 15:47,N/A,15:47,Soft (Yielding In Places)  Flat (Turf),2m,Shuttle Diplomacy (FR),Mr P W Mullins,0,T Cooper,1st,N/A,4,11-10,-,True,98,6
+Naas Racing Results | 12th January 2024 15:47,N/A,15:47,Soft (Yielding In Places)  Flat (Turf),2m,Kelley Kapowski (IRE),Mr H C Swan,5,G Elliott,14th,19 l,4,11-3,-,True,98,6
+Naas Racing Results | 12th January 2024 15:47,N/A,15:47,Soft (Yielding In Places)  Flat (Turf),2m,Call Back Tuesday,Miss A B O'Connor,3,A McCann,13th,29 l,4,11-10,-,True,98,6
+Naas Racing Results | 12th January 2024 15:47,N/A,15:47,Soft (Yielding In Places)  Flat (Turf),2m,I'm Flattered (IRE),P T Smithers,7,P Roche,12th,2 1/4 l,4,11-3,-,True,98,6
+Naas Racing Results | 12th January 2024 15:47,N/A,15:47,Soft (Yielding In Places)  Flat (Turf),2m,Balovale (IRE),Niall Moore,7,E J O'Grady,11th,36 l,4,11-10h1,-,True,98,6
+Naas Racing Results | 12th January 2024 15:47,N/A,15:47,Soft (Yielding In Places)  Flat (Turf),2m,Squire Darlin (IRE),Mr E Finegan,7,M Mulvany,10th,Neck,4,11-10,-,True,98,6
+Naas Racing Results | 12th January 2024 15:47,N/A,15:47,Soft (Yielding In Places)  Flat (Turf),2m,Zazir (IRE),Mr J L Gleeson,5,D Hogan,9th,12 l,4,11-10,-,True,98,6
+Naas Racing Results | 12th January 2024 15:47,N/A,15:47,Soft (Yielding In Places)  Flat (Turf),2m,King In Love (FR),Mr D O'Connor,0,Mrs G O'Connor,8th,1 1/4 l,4,11-10,-,True,98,6
+Naas Racing Results | 12th January 2024 15:47,N/A,15:47,Soft (Yielding In Places)  Flat (Turf),2m,Kaikoura (FR),Mr D G Lavery,0,J P Dempsey,7th,1 l,4,11-10,-,True,98,6
+Naas Racing Results | 12th January 2024 15:47,N/A,15:47,Soft (Yielding In Places)  Flat (Turf),2m,Rose Boum (FR),Mr J W Hendrick,7,P Nolan,6th,1/2 l,4,11-3,-,True,98,6
+Naas Racing Results | 12th January 2024 15:47,N/A,15:47,Soft (Yielding In Places)  Flat (Turf),2m,Paudie's Wings (IRE),Mr D Doyle,7,D H Kelly,5th,6 1/2 l,4,11-3,-,True,98,6
+Naas Racing Results | 12th January 2024 15:47,N/A,15:47,Soft (Yielding In Places)  Flat (Turf),2m,Frogman (IRE),Mr E P O'Brien,5,R O'Brien,4th,13 l,4,11-10,-,True,98,6
+Naas Racing Results | 12th January 2024 15:47,N/A,15:47,Soft (Yielding In Places)  Flat (Turf),2m,Colcannon (IRE),Mr Finn Tegetmeier,7,N Meade,3rd,1/2 l,4,11-10,-,True,98,6
+Naas Racing Results | 12th January 2024 15:47,N/A,15:47,Soft (Yielding In Places)  Flat (Turf),2m,Wartime Leader (IRE),Mr P A King,5,P M J Doyle,2nd,1 1/2 l,4,11-10,-,True,98,6
+Naas Racing Results | 12th January 2024 15:47,N/A,15:47,Soft (Yielding In Places)  Flat (Turf),2m,Shuttle Diplomacy (FR),Mr P W Mullins,0,T Cooper,1st,N/A,4,11-10,-,True,98,6
+Dundalk Racing Results | 12th January 2024 16:10,N/A,16:10,Standard,6f,Dabirsim Flyer (FR),J J G Ryan,0,F Birrane,10th,1 l,3,9-8tp1,66,True,98,8
+Dundalk Racing Results | 12th January 2024 16:10,N/A,16:10,Standard,6f,Elliott (IRE),K G Kennedy,7,M G Quinn,9th,2 1/4 l,3,9-3t1,61,True,98,8
+Dundalk Racing Results | 12th January 2024 16:10,N/A,16:10,Standard,6f,Relentless Flyer (IRE),C Geerdharry,7,E & P Harty,8th,Nose,3,8-11b,55,True,98,8
+Dundalk Racing Results | 12th January 2024 16:10,N/A,16:10,Standard,6f,Sophia Klimt (IRE),R M Mulligan,7,P Martin,7th,Nose,3,8-7t,51,True,98,8
+Dundalk Racing Results | 12th January 2024 16:10,N/A,16:10,Standard,6f,Sovereign City (IRE),W Joyce,0,D Bunyan & G O'Leary,6th,3/4 l,3,9-5b1,63,True,98,8
+Dundalk Racing Results | 12th January 2024 16:10,N/A,16:10,Standard,6f,Exceeding (IRE),J Coen,0,A Slattery,5th,3/4 l,3,10-1,73,True,98,8
+Dundalk Racing Results | 12th January 2024 16:10,N/A,16:10,Standard,6f,Bruce Lightning (IRE),J Kearney,0,P Martin,4th,Neck,3,10-0h,72,True,98,8
+Dundalk Racing Results | 12th January 2024 16:10,N/A,16:10,Standard,6f,Mary Shoelaces (IRE),P A Harnett,0,E & P Harty,3rd,1 1/4 l,3,9-12b,70,True,98,8
+Dundalk Racing Results | 12th January 2024 16:10,N/A,16:10,Standard,6f,The Poacher Daly (IRE),H J Horgan,2,J P O'Brien,2nd,3/4 l,3,9-12,70,True,98,8
+Dundalk Racing Results | 12th January 2024 16:10,N/A,16:10,Standard,6f,Eddie G (IRE),C J MacRedmond,0,A McGuinness,1st,N/A,3,9-4,62,True,98,8
+Dundalk Racing Results | 12th January 2024 16:10,N/A,16:10,Standard,6f,Dabirsim Flyer (FR),J J G Ryan,0,F Birrane,10th,1 l,3,9-8tp1,66,True,98,8
+Dundalk Racing Results | 12th January 2024 16:10,N/A,16:10,Standard,6f,Elliott (IRE),K G Kennedy,7,M G Quinn,9th,2 1/4 l,3,9-3t1,61,True,98,8
+Dundalk Racing Results | 12th January 2024 16:10,N/A,16:10,Standard,6f,Relentless Flyer (IRE),C Geerdharry,7,E & P Harty,8th,Nose,3,8-11b,55,True,98,8
+Dundalk Racing Results | 12th January 2024 16:10,N/A,16:10,Standard,6f,Sophia Klimt (IRE),R M Mulligan,7,P Martin,7th,Nose,3,8-7t,51,True,98,8
+Dundalk Racing Results | 12th January 2024 16:10,N/A,16:10,Standard,6f,Sovereign City (IRE),W Joyce,0,D Bunyan & G O'Leary,6th,3/4 l,3,9-5b1,63,True,98,8
+Dundalk Racing Results | 12th January 2024 16:10,N/A,16:10,Standard,6f,Exceeding (IRE),J Coen,0,A Slattery,5th,3/4 l,3,10-1,73,True,98,8
+Dundalk Racing Results | 12th January 2024 16:10,N/A,16:10,Standard,6f,Bruce Lightning (IRE),J Kearney,0,P Martin,4th,Neck,3,10-0h,72,True,98,8
+Dundalk Racing Results | 12th January 2024 16:10,N/A,16:10,Standard,6f,Mary Shoelaces (IRE),P A Harnett,0,E & P Harty,3rd,1 1/4 l,3,9-12b,70,True,98,8
+Dundalk Racing Results | 12th January 2024 16:10,N/A,16:10,Standard,6f,The Poacher Daly (IRE),H J Horgan,2,J P O'Brien,2nd,3/4 l,3,9-12,70,True,98,8
+Dundalk Racing Results | 12th January 2024 16:10,N/A,16:10,Standard,6f,Eddie G (IRE),C J MacRedmond,0,A McGuinness,1st,N/A,3,9-4,62,True,98,8
+Dundalk Racing Results | 12th January 2024 16:45,N/A,16:45,Standard,7f,Wantoplantatree,Kyle Faulkner,10,E D Delany,14th,15 l,4,8-7h,61,True,98,9
+Dundalk Racing Results | 12th January 2024 16:45,N/A,16:45,Standard,7f,Coolcalmncollected,Siobhan Rutledge,3,Ciaran Murphy,13th,5 l,4,9-2,70,True,98,9
+Dundalk Racing Results | 12th January 2024 16:45,N/A,16:45,Standard,7f,Western Cape (IRE),N M Crosse,0,E McNamara,12th,1 1/2 l,4,8-7t,61,True,98,9
+Dundalk Racing Results | 12th January 2024 16:45,N/A,16:45,Standard,7f,Mulgrave (IRE),H J Horgan,7,J C McConnell,11th,Head,6,9-12ht,80,True,98,9
+Dundalk Racing Results | 12th January 2024 16:45,N/A,16:45,Standard,7f,Wayside Lady (IRE),R P Cleary,0,C W J Farrell,10th,Nose,4,8-7t,61,True,98,9
+Dundalk Racing Results | 12th January 2024 16:45,N/A,16:45,Standard,7f,Brains (IRE),R C Colgan,0,R Donohoe,9th,Short Head,8,9-11tb,79,True,98,9
+Dundalk Racing Results | 12th January 2024 16:45,N/A,16:45,Standard,7f,El Bello,P A Harnett,5,D Hogan,8th,1/2 l,5,9-4b,72,True,98,9
+Dundalk Racing Results | 12th January 2024 16:45,N/A,16:45,Standard,7f,Eighty Eight (IRE),N G McCullagh,0,J Feane,7th,Head,5,8-13,67,True,98,9
+Dundalk Racing Results | 12th January 2024 16:45,N/A,16:45,Standard,7f,Prisoner's Dilemma,D W O'Connor,0,J F Levins,6th,1 1/4 l,8,10-2p,84,True,98,9
+Dundalk Racing Results | 12th January 2024 16:45,N/A,16:45,Standard,7f,Chica Power (IRE),W Joyce,5,C Collins,5th,3 l,6,8-7p,61,True,98,9
+Dundalk Racing Results | 12th January 2024 16:45,N/A,16:45,Standard,7f,Gobi Star (IRE),J Kearney,5,P Martin,4th,Neck,6,9-8tb,76,True,98,9
+Dundalk Racing Results | 12th January 2024 16:45,N/A,16:45,Standard,7f,Exquisite Acclaim (IRE),J J G Ryan,5,A McGuinness,3rd,1/2 l,5,9-7v,75,True,98,9
+Dundalk Racing Results | 12th January 2024 16:45,N/A,16:45,Standard,7f,Volatile Analyst (USA),C J MacRedmond,5,A McGuinness,2nd,Head,7,10-0,82,True,98,9
+Dundalk Racing Results | 12th January 2024 16:45,N/A,16:45,Standard,7f,Free Solo (IRE),K J Leonard,0,P J F Murphy,1st,N/A,7,9-7tp,75,True,98,9
+Dundalk Racing Results | 12th January 2024 16:45,N/A,16:45,Standard,7f,Wantoplantatree,Kyle Faulkner,10,E D Delany,14th,15 l,4,8-7h,61,True,98,9
+Dundalk Racing Results | 12th January 2024 16:45,N/A,16:45,Standard,7f,Coolcalmncollected,Siobhan Rutledge,3,Ciaran Murphy,13th,5 l,4,9-2,70,True,98,9
+Dundalk Racing Results | 12th January 2024 16:45,N/A,16:45,Standard,7f,Western Cape (IRE),N M Crosse,0,E McNamara,12th,1 1/2 l,4,8-7t,61,True,98,9
+Dundalk Racing Results | 12th January 2024 16:45,N/A,16:45,Standard,7f,Mulgrave (IRE),H J Horgan,7,J C McConnell,11th,Head,6,9-12ht,80,True,98,9
+Dundalk Racing Results | 12th January 2024 16:45,N/A,16:45,Standard,7f,Wayside Lady (IRE),R P Cleary,0,C W J Farrell,10th,Nose,4,8-7t,61,True,98,9
+Dundalk Racing Results | 12th January 2024 16:45,N/A,16:45,Standard,7f,Brains (IRE),R C Colgan,0,R Donohoe,9th,Short Head,8,9-11tb,79,True,98,9
+Dundalk Racing Results | 12th January 2024 16:45,N/A,16:45,Standard,7f,El Bello,P A Harnett,5,D Hogan,8th,1/2 l,5,9-4b,72,True,98,9
+Dundalk Racing Results | 12th January 2024 16:45,N/A,16:45,Standard,7f,Eighty Eight (IRE),N G McCullagh,0,J Feane,7th,Head,5,8-13,67,True,98,9
+Dundalk Racing Results | 12th January 2024 16:45,N/A,16:45,Standard,7f,Prisoner's Dilemma,D W O'Connor,0,J F Levins,6th,1 1/4 l,8,10-2p,84,True,98,9
+Dundalk Racing Results | 12th January 2024 16:45,N/A,16:45,Standard,7f,Chica Power (IRE),W Joyce,5,C Collins,5th,3 l,6,8-7p,61,True,98,9
+Dundalk Racing Results | 12th January 2024 16:45,N/A,16:45,Standard,7f,Gobi Star (IRE),J Kearney,5,P Martin,4th,Neck,6,9-8tb,76,True,98,9
+Dundalk Racing Results | 12th January 2024 16:45,N/A,16:45,Standard,7f,Exquisite Acclaim (IRE),J J G Ryan,5,A McGuinness,3rd,1/2 l,5,9-7v,75,True,98,9
+Dundalk Racing Results | 12th January 2024 16:45,N/A,16:45,Standard,7f,Volatile Analyst (USA),C J MacRedmond,5,A McGuinness,2nd,Head,7,10-0,82,True,98,9
+Dundalk Racing Results | 12th January 2024 16:45,N/A,16:45,Standard,7f,Free Solo (IRE),K J Leonard,0,P J F Murphy,1st,N/A,7,9-7tp,75,True,98,9
+Dundalk Racing Results | 12th January 2024 17:15,N/A,17:15,Standard,1m,Nerano (USA),S T McCullagh,3,J P O'Brien,NR,N/A,3,9-8t,-,True,98,10
+Dundalk Racing Results | 12th January 2024 17:15,N/A,17:15,Standard,1m,Puturhandstogether (IRE),G P Halpin,0,J P O'Brien,NR,N/A,3,9-8,-,True,98,10
+Dundalk Racing Results | 12th January 2024 17:15,N/A,17:15,Standard,1m,My Mate Tony (IRE),A C Persse,7,J P O'Brien,14th,5 1/2 l,3,9-8,-,True,98,10
+Dundalk Racing Results | 12th January 2024 17:15,N/A,17:15,Standard,1m,Lorr's Girl (IRE),C D Maxwell,0,R Sweeney,13th,Head,3,9-3,-,True,98,10
+Dundalk Racing Results | 12th January 2024 17:15,N/A,17:15,Standard,1m,Highland Mist (IRE),P A Harnett,5,A Slattery,12th,Head,3,9-8,-,True,98,10
+Dundalk Racing Results | 12th January 2024 17:15,N/A,17:15,Standard,1m,Maxwell Smart (IRE),Alyse Jane Clarke,10,T G McCourt,11th,1 1/2 l,3,9-8,-,True,98,10
+Dundalk Racing Results | 12th January 2024 17:15,N/A,17:15,Standard,1m,Alex Belardo (IRE),D W O'Connor,0,J C McConnell,10th,Neck,3,9-8,-,True,98,10
+Dundalk Racing Results | 12th January 2024 17:15,N/A,17:15,Standard,1m,Artful Approach (IRE),J J G Ryan,5,J Davison,9th,1/2 l,3,9-8,-,True,98,10
+Dundalk Racing Results | 12th January 2024 17:15,N/A,17:15,Standard,1m,Jurality,J Kearney,5,D Bunyan & G O'Leary,8th,Head,3,9-8p1,-,True,98,10
+Dundalk Racing Results | 12th January 2024 17:15,N/A,17:15,Standard,1m,Card Shark (IRE),S B Kelly,0,J P Murtagh,7th,3/4 l,3,9-8,-,True,98,10
+Dundalk Racing Results | 12th January 2024 17:15,N/A,17:15,Standard,1m,The Bear Trap (IRE),C J MacRedmond,5,J Geoghegan,6th,2 3/4 l,3,9-8p1,-,True,98,10
+Dundalk Racing Results | 12th January 2024 17:15,N/A,17:15,Standard,1m,I Bid You Ajou (FR),R P Cleary,0,M O'Callaghan,5th,Head,3,9-8,-,True,98,10
+Dundalk Racing Results | 12th January 2024 17:15,N/A,17:15,Standard,1m,Nedita (IRE),R C Colgan,0,D Marnane,4th,3/4 l,3,9-8,-,True,98,10
+Dundalk Racing Results | 12th January 2024 17:15,N/A,17:15,Standard,1m,Currumbin (IRE),N M Crosse,0,John O'Donoghue,3rd,1 1/2 l,3,9-8,-,True,98,10
+Dundalk Racing Results | 12th January 2024 17:15,N/A,17:15,Standard,1m,Hoover Dam (IRE),S T McCullagh,3,L Comer,2nd,Neck,3,9-8,-,True,98,10
+Dundalk Racing Results | 12th January 2024 17:15,N/A,17:15,Standard,1m,Western City (USA),D E Sheehy,3,J P O'Brien,1st,N/A,3,9-8t1,-,True,98,10
+Dundalk Racing Results | 12th January 2024 17:15,N/A,17:15,Standard,1m,Nerano (USA),S T McCullagh,3,J P O'Brien,NR,N/A,3,9-8t,-,True,98,10
+Dundalk Racing Results | 12th January 2024 17:15,N/A,17:15,Standard,1m,Puturhandstogether (IRE),G P Halpin,0,J P O'Brien,NR,N/A,3,9-8,-,True,98,10
+Dundalk Racing Results | 12th January 2024 17:15,N/A,17:15,Standard,1m,My Mate Tony (IRE),A C Persse,7,J P O'Brien,14th,5 1/2 l,3,9-8,-,True,98,10
+Dundalk Racing Results | 12th January 2024 17:15,N/A,17:15,Standard,1m,Lorr's Girl (IRE),C D Maxwell,0,R Sweeney,13th,Head,3,9-3,-,True,98,10
+Dundalk Racing Results | 12th January 2024 17:15,N/A,17:15,Standard,1m,Highland Mist (IRE),P A Harnett,5,A Slattery,12th,Head,3,9-8,-,True,98,10
+Dundalk Racing Results | 12th January 2024 17:15,N/A,17:15,Standard,1m,Maxwell Smart (IRE),Alyse Jane Clarke,10,T G McCourt,11th,1 1/2 l,3,9-8,-,True,98,10
+Dundalk Racing Results | 12th January 2024 17:15,N/A,17:15,Standard,1m,Alex Belardo (IRE),D W O'Connor,0,J C McConnell,10th,Neck,3,9-8,-,True,98,10
+Dundalk Racing Results | 12th January 2024 17:15,N/A,17:15,Standard,1m,Artful Approach (IRE),J J G Ryan,5,J Davison,9th,1/2 l,3,9-8,-,True,98,10
+Dundalk Racing Results | 12th January 2024 17:15,N/A,17:15,Standard,1m,Jurality,J Kearney,5,D Bunyan & G O'Leary,8th,Head,3,9-8p1,-,True,98,10
+Dundalk Racing Results | 12th January 2024 17:15,N/A,17:15,Standard,1m,Card Shark (IRE),S B Kelly,0,J P Murtagh,7th,3/4 l,3,9-8,-,True,98,10
+Dundalk Racing Results | 12th January 2024 17:15,N/A,17:15,Standard,1m,The Bear Trap (IRE),C J MacRedmond,5,J Geoghegan,6th,2 3/4 l,3,9-8p1,-,True,98,10
+Dundalk Racing Results | 12th January 2024 17:15,N/A,17:15,Standard,1m,I Bid You Ajou (FR),R P Cleary,0,M O'Callaghan,5th,Head,3,9-8,-,True,98,10
+Dundalk Racing Results | 12th January 2024 17:15,N/A,17:15,Standard,1m,Nedita (IRE),R C Colgan,0,D Marnane,4th,3/4 l,3,9-8,-,True,98,10
+Dundalk Racing Results | 12th January 2024 17:15,N/A,17:15,Standard,1m,Currumbin (IRE),N M Crosse,0,John O'Donoghue,3rd,1 1/2 l,3,9-8,-,True,98,10
+Dundalk Racing Results | 12th January 2024 17:15,N/A,17:15,Standard,1m,Hoover Dam (IRE),S T McCullagh,3,L Comer,2nd,Neck,3,9-8,-,True,98,10
+Dundalk Racing Results | 12th January 2024 17:15,N/A,17:15,Standard,1m,Western City (USA),D E Sheehy,3,J P O'Brien,1st,N/A,3,9-8t1,-,True,98,10
+Dundalk Racing Results | 12th January 2024 17:45,N/A,17:45,Standard,1m,Dancing Leaves (IRE),P A Harnett,5,J P O'Brien,PU,N/A,3,9-3p1,-,True,98,11
+Dundalk Racing Results | 12th January 2024 17:45,N/A,17:45,Standard,1m,Get Your Groove On (IRE),R P Cleary,0,Peter Maher,13th,11 l,3,9-3,-,True,98,11
+Dundalk Racing Results | 12th January 2024 17:45,N/A,17:45,Standard,1m,Beyond Your Dreams (IRE),G P Halpin,0,J P O'Brien,12th,1/2 l,3,9-3,-,True,98,11
+Dundalk Racing Results | 12th January 2024 17:45,N/A,17:45,Standard,1m,Holly Woods Dancer (IRE),Siobhan Rutledge,3,Joe Conlon,11th,3/4 l,3,9-3h1,-,True,98,11
+Dundalk Racing Results | 12th January 2024 17:45,N/A,17:45,Standard,1m,Japanese Silk (IRE),J Cleary,7,Thomas Dowling,10th,2 1/4 l,3,9-3,-,True,98,11
+Dundalk Racing Results | 12th January 2024 17:45,N/A,17:45,Standard,1m,Small Bucks (IRE),J J G Ryan,5,P W Flynn,9th,1 1/4 l,3,9-3,-,True,98,11
+Dundalk Racing Results | 12th January 2024 17:45,N/A,17:45,Standard,1m,Still She Blooms,J Kearney,5,P Martin,8th,Neck,3,9-3,-,True,98,11
+Dundalk Racing Results | 12th January 2024 17:45,N/A,17:45,Standard,1m,Flippity Flop (IRE),O McSweeney,5,L Comer,7th,1 3/4 l,3,9-3,-,True,98,11
+Dundalk Racing Results | 12th January 2024 17:45,N/A,17:45,Standard,1m,Mm Dragonfly (IRE),N G McCullagh,0,M Halford & T Collins,6th,3 l,3,9-3,-,True,98,11
+Dundalk Racing Results | 12th January 2024 17:45,N/A,17:45,Standard,1m,Copie Conforme (IRE),D W O'Connor,0,K Prendergast,4th,Dead Heat,3,9-3,-,True,98,11
+Dundalk Racing Results | 12th January 2024 17:45,N/A,17:45,Standard,1m,Alabama Calling (IRE),R C Colgan,0,D Marnane,4th,3 l,3,9-3,-,True,98,11
+Dundalk Racing Results | 12th January 2024 17:45,N/A,17:45,Standard,1m,Butterfly Bush (IRE),D E Sheehy,3,N Lupini,3rd,Short Head,3,9-3,-,True,98,11
+Dundalk Racing Results | 12th January 2024 17:45,N/A,17:45,Standard,1m,Timana (IRE),S B Kelly,0,J P Murtagh,2nd,1 1/4 l,3,9-3,-,True,98,11
+Dundalk Racing Results | 12th January 2024 17:45,N/A,17:45,Standard,1m,Beautiful Dawn (IRE),N M Crosse,0,J P O'Brien,1st,N/A,3,9-3,-,True,98,11
+Dundalk Racing Results | 12th January 2024 17:45,N/A,17:45,Standard,1m,Dancing Leaves (IRE),P A Harnett,5,J P O'Brien,PU,N/A,3,9-3p1,-,True,98,11
+Dundalk Racing Results | 12th January 2024 17:45,N/A,17:45,Standard,1m,Get Your Groove On (IRE),R P Cleary,0,Peter Maher,13th,11 l,3,9-3,-,True,98,11
+Dundalk Racing Results | 12th January 2024 17:45,N/A,17:45,Standard,1m,Beyond Your Dreams (IRE),G P Halpin,0,J P O'Brien,12th,1/2 l,3,9-3,-,True,98,11
+Dundalk Racing Results | 12th January 2024 17:45,N/A,17:45,Standard,1m,Holly Woods Dancer (IRE),Siobhan Rutledge,3,Joe Conlon,11th,3/4 l,3,9-3h1,-,True,98,11
+Dundalk Racing Results | 12th January 2024 17:45,N/A,17:45,Standard,1m,Japanese Silk (IRE),J Cleary,7,Thomas Dowling,10th,2 1/4 l,3,9-3,-,True,98,11
+Dundalk Racing Results | 12th January 2024 17:45,N/A,17:45,Standard,1m,Small Bucks (IRE),J J G Ryan,5,P W Flynn,9th,1 1/4 l,3,9-3,-,True,98,11
+Dundalk Racing Results | 12th January 2024 17:45,N/A,17:45,Standard,1m,Still She Blooms,J Kearney,5,P Martin,8th,Neck,3,9-3,-,True,98,11
+Dundalk Racing Results | 12th January 2024 17:45,N/A,17:45,Standard,1m,Flippity Flop (IRE),O McSweeney,5,L Comer,7th,1 3/4 l,3,9-3,-,True,98,11
+Dundalk Racing Results | 12th January 2024 17:45,N/A,17:45,Standard,1m,Mm Dragonfly (IRE),N G McCullagh,0,M Halford & T Collins,6th,3 l,3,9-3,-,True,98,11
+Dundalk Racing Results | 12th January 2024 17:45,N/A,17:45,Standard,1m,Copie Conforme (IRE),D W O'Connor,0,K Prendergast,4th,Dead Heat,3,9-3,-,True,98,11
+Dundalk Racing Results | 12th January 2024 17:45,N/A,17:45,Standard,1m,Alabama Calling (IRE),R C Colgan,0,D Marnane,4th,3 l,3,9-3,-,True,98,11
+Dundalk Racing Results | 12th January 2024 17:45,N/A,17:45,Standard,1m,Butterfly Bush (IRE),D E Sheehy,3,N Lupini,3rd,Short Head,3,9-3,-,True,98,11
+Dundalk Racing Results | 12th January 2024 17:45,N/A,17:45,Standard,1m,Timana (IRE),S B Kelly,0,J P Murtagh,2nd,1 1/4 l,3,9-3,-,True,98,11
+Dundalk Racing Results | 12th January 2024 17:45,N/A,17:45,Standard,1m,Beautiful Dawn (IRE),N M Crosse,0,J P O'Brien,1st,N/A,3,9-3,-,True,98,11
+Dundalk Racing Results | 12th January 2024 18:15,N/A,18:15,Standard,1m,One Aim (IRE),P A Harnett,5,S G O'Donnell,NR,N/A,4,9-10,59,True,98,12
+Dundalk Racing Results | 12th January 2024 18:15,N/A,18:15,Standard,1m,Knockmore Prince (IRE),N M Crosse,0,J C McConnell,NR,N/A,4,9-1,50,True,98,12
+Dundalk Racing Results | 12th January 2024 18:15,N/A,18:15,Standard,1m,Miracles In May (IRE),A C Persse,7,M A Cahill,13th,27 l,9,9-3,52,True,98,12
+Dundalk Racing Results | 12th January 2024 18:15,N/A,18:15,Standard,1m,Boskill Marie (IRE),J Kearney,5,P W Flynn,12th,1 1/2 l,4,10-0p1,63,True,98,12
+Dundalk Racing Results | 12th January 2024 18:15,N/A,18:15,Standard,1m,Cold Cold Heart (IRE),O McSweeney,5,L Comer,11th,2 l,5,9-8h1,57,True,98,12
+Dundalk Racing Results | 12th January 2024 18:15,N/A,18:15,Standard,1m,Snag It (IRE),G P Halpin,0,P J F Murphy,10th,1/2 l,7,9-13tp,62,True,98,12
+Dundalk Racing Results | 12th January 2024 18:15,N/A,18:15,Standard,1m,Quick Blessing (IRE),R M Mulligan,10,C Moore,9th,2 3/4 l,4,10-2t,65,True,98,12
+Dundalk Racing Results | 12th January 2024 18:15,N/A,18:15,Standard,1m,Hezahunk (IRE),C J MacRedmond,5,A McGuinness,8th,Nose,5,9-9,58,True,98,12
+Dundalk Racing Results | 12th January 2024 18:15,N/A,18:15,Standard,1m,Hope And Innocence (IRE),J J G Ryan,5,T G McCourt,7th,2 3/4 l,4,9-7,56,True,98,12
+Dundalk Racing Results | 12th January 2024 18:15,N/A,18:15,Standard,1m,Man Is King (IRE),J Cleary,7,Thomas Dowling,6th,Head,5,8-12,47,True,98,12
+Dundalk Racing Results | 12th January 2024 18:15,N/A,18:15,Standard,1m,Humanitarian (USA),R P Cleary,0,J J Hanlon,5th,1 3/4 l,8,9-6t,55,True,98,12
+Dundalk Racing Results | 12th January 2024 18:15,N/A,18:15,Standard,1m,Fleetfootsoldier (IRE),C M Hogan,7,Kevin Coleman,4th,3/4 l,4,10-1,64,True,98,12
+Dundalk Racing Results | 12th January 2024 18:15,N/A,18:15,Standard,1m,Zahee (IRE),K G Kennedy,7,J C McConnell,3rd,1/2 l,9,9-8ht,57,True,98,12
+Dundalk Racing Results | 12th January 2024 18:15,N/A,18:15,Standard,1m,Zero Fighter (IRE),D E Sheehy,3,E D Delany,2nd,Head,4,8-12p,47,True,98,12
+Dundalk Racing Results | 12th January 2024 18:15,N/A,18:15,Standard,1m,Cousin Shay,Siobhan Rutledge,3,J C McConnell,1st,N/A,5,8-13,48,True,98,12
+Dundalk Racing Results | 12th January 2024 18:15,N/A,18:15,Standard,1m,One Aim (IRE),P A Harnett,5,S G O'Donnell,NR,N/A,4,9-10,59,True,98,12
+Dundalk Racing Results | 12th January 2024 18:15,N/A,18:15,Standard,1m,Knockmore Prince (IRE),N M Crosse,0,J C McConnell,NR,N/A,4,9-1,50,True,98,12
+Dundalk Racing Results | 12th January 2024 18:15,N/A,18:15,Standard,1m,Miracles In May (IRE),A C Persse,7,M A Cahill,13th,27 l,9,9-3,52,True,98,12
+Dundalk Racing Results | 12th January 2024 18:15,N/A,18:15,Standard,1m,Boskill Marie (IRE),J Kearney,5,P W Flynn,12th,1 1/2 l,4,10-0p1,63,True,98,12
+Dundalk Racing Results | 12th January 2024 18:15,N/A,18:15,Standard,1m,Cold Cold Heart (IRE),O McSweeney,5,L Comer,11th,2 l,5,9-8h1,57,True,98,12
+Dundalk Racing Results | 12th January 2024 18:15,N/A,18:15,Standard,1m,Snag It (IRE),G P Halpin,0,P J F Murphy,10th,1/2 l,7,9-13tp,62,True,98,12
+Dundalk Racing Results | 12th January 2024 18:15,N/A,18:15,Standard,1m,Quick Blessing (IRE),R M Mulligan,10,C Moore,9th,2 3/4 l,4,10-2t,65,True,98,12
+Dundalk Racing Results | 12th January 2024 18:15,N/A,18:15,Standard,1m,Hezahunk (IRE),C J MacRedmond,5,A McGuinness,8th,Nose,5,9-9,58,True,98,12
+Dundalk Racing Results | 12th January 2024 18:15,N/A,18:15,Standard,1m,Hope And Innocence (IRE),J J G Ryan,5,T G McCourt,7th,2 3/4 l,4,9-7,56,True,98,12
+Dundalk Racing Results | 12th January 2024 18:15,N/A,18:15,Standard,1m,Man Is King (IRE),J Cleary,7,Thomas Dowling,6th,Head,5,8-12,47,True,98,12
+Dundalk Racing Results | 12th January 2024 18:15,N/A,18:15,Standard,1m,Humanitarian (USA),R P Cleary,0,J J Hanlon,5th,1 3/4 l,8,9-6t,55,True,98,12
+Dundalk Racing Results | 12th January 2024 18:15,N/A,18:15,Standard,1m,Fleetfootsoldier (IRE),C M Hogan,7,Kevin Coleman,4th,3/4 l,4,10-1,64,True,98,12
+Dundalk Racing Results | 12th January 2024 18:15,N/A,18:15,Standard,1m,Zahee (IRE),K G Kennedy,7,J C McConnell,3rd,1/2 l,9,9-8ht,57,True,98,12
+Dundalk Racing Results | 12th January 2024 18:15,N/A,18:15,Standard,1m,Zero Fighter (IRE),D E Sheehy,3,E D Delany,2nd,Head,4,8-12p,47,True,98,12
+Dundalk Racing Results | 12th January 2024 18:15,N/A,18:15,Standard,1m,Cousin Shay,Siobhan Rutledge,3,J C McConnell,1st,N/A,5,8-13,48,True,98,12
+Dundalk Racing Results | 12th January 2024 18:45,N/A,18:45,Standard,1m,Mister X (IRE),D W O'Connor,0,J C McConnell,14th,34 l,4,9-11t,60,True,98,13
+Dundalk Racing Results | 12th January 2024 18:45,N/A,18:45,Standard,1m,Alfarida (IRE),P A Harnett,5,A Slattery,13th,Neck,4,9-7,56,True,98,13
+Dundalk Racing Results | 12th January 2024 18:45,N/A,18:45,Standard,1m,Nyla Rua (IRE),Siobhan Rutledge,3,J C McConnell,12th,1 3/4 l,5,8-12p,47,True,98,13
+Dundalk Racing Results | 12th January 2024 18:45,N/A,18:45,Standard,1m,Chancey Approach (IRE),R M Mulligan,10,M Kelly,11th,3 1/4 l,5,8-12tv1,47,True,98,13
+Dundalk Racing Results | 12th January 2024 18:45,N/A,18:45,Standard,1m,Arthur's Victory (IRE),S P Davis,0,J Nash,10th,1 1/4 l,6,9-13,62,True,98,13
+Dundalk Racing Results | 12th January 2024 18:45,N/A,18:45,Standard,1m,Airgead (IRE),J J G Ryan,5,Mrs P Dobbs,9th,Head,8,9-2b,51,True,98,13
+Dundalk Racing Results | 12th January 2024 18:45,N/A,18:45,Standard,1m,Arbaawi (IRE),Alyse Jane Clarke,10,T G McCourt,8th,1 3/4 l,4,10-1,64,True,98,13
+Dundalk Racing Results | 12th January 2024 18:45,N/A,18:45,Standard,1m,Kudbegood (IRE),G P Halpin,0,P J F Murphy,7th,1/2 l,9,9-0p,49,True,98,13
+Dundalk Racing Results | 12th January 2024 18:45,N/A,18:45,Standard,1m,Fahari (IRE),C J MacRedmond,5,A McGuinness,6th,3/4 l,4,9-7,56,True,98,13
+Dundalk Racing Results | 12th January 2024 18:45,N/A,18:45,Standard,1m,Cherry Pink (IRE),N G McCullagh,0,M Halford & T Collins,5th,1/2 l,4,8-13b,48,True,98,13
+Dundalk Racing Results | 12th January 2024 18:45,N/A,18:45,Standard,1m,Hale Bopp (IRE),R C Colgan,0,R Donohoe,4th,1/2 l,6,9-11,60,True,98,13
+Dundalk Racing Results | 12th January 2024 18:45,N/A,18:45,Standard,1m,Suityourselfboss (IRE),K G Kennedy,7,M J Browne,3rd,1 l,5,8-12p1,47,True,98,13
+Dundalk Racing Results | 12th January 2024 18:45,N/A,18:45,Standard,1m,Tara Power (IRE),C D Maxwell,0,K H Clarke,2nd,1/2 l,6,8-12,47,True,98,13
+Dundalk Racing Results | 12th January 2024 18:45,N/A,18:45,Standard,1m,Gatsby Cap (IRE),N M Crosse,0,J C McConnell,1st,N/A,8,8-12tp,47,True,98,13
+Dundalk Racing Results | 12th January 2024 18:45,N/A,18:45,Standard,1m,Mister X (IRE),D W O'Connor,0,J C McConnell,14th,34 l,4,9-11t,60,True,98,13
+Dundalk Racing Results | 12th January 2024 18:45,N/A,18:45,Standard,1m,Alfarida (IRE),P A Harnett,5,A Slattery,13th,Neck,4,9-7,56,True,98,13
+Dundalk Racing Results | 12th January 2024 18:45,N/A,18:45,Standard,1m,Nyla Rua (IRE),Siobhan Rutledge,3,J C McConnell,12th,1 3/4 l,5,8-12p,47,True,98,13
+Dundalk Racing Results | 12th January 2024 18:45,N/A,18:45,Standard,1m,Chancey Approach (IRE),R M Mulligan,10,M Kelly,11th,3 1/4 l,5,8-12tv1,47,True,98,13
+Dundalk Racing Results | 12th January 2024 18:45,N/A,18:45,Standard,1m,Arthur's Victory (IRE),S P Davis,0,J Nash,10th,1 1/4 l,6,9-13,62,True,98,13
+Dundalk Racing Results | 12th January 2024 18:45,N/A,18:45,Standard,1m,Airgead (IRE),J J G Ryan,5,Mrs P Dobbs,9th,Head,8,9-2b,51,True,98,13
+Dundalk Racing Results | 12th January 2024 18:45,N/A,18:45,Standard,1m,Arbaawi (IRE),Alyse Jane Clarke,10,T G McCourt,8th,1 3/4 l,4,10-1,64,True,98,13
+Dundalk Racing Results | 12th January 2024 18:45,N/A,18:45,Standard,1m,Kudbegood (IRE),G P Halpin,0,P J F Murphy,7th,1/2 l,9,9-0p,49,True,98,13
+Dundalk Racing Results | 12th January 2024 18:45,N/A,18:45,Standard,1m,Fahari (IRE),C J MacRedmond,5,A McGuinness,6th,3/4 l,4,9-7,56,True,98,13
+Dundalk Racing Results | 12th January 2024 18:45,N/A,18:45,Standard,1m,Cherry Pink (IRE),N G McCullagh,0,M Halford & T Collins,5th,1/2 l,4,8-13b,48,True,98,13
+Dundalk Racing Results | 12th January 2024 18:45,N/A,18:45,Standard,1m,Hale Bopp (IRE),R C Colgan,0,R Donohoe,4th,1/2 l,6,9-11,60,True,98,13
+Dundalk Racing Results | 12th January 2024 18:45,N/A,18:45,Standard,1m,Suityourselfboss (IRE),K G Kennedy,7,M J Browne,3rd,1 l,5,8-12p1,47,True,98,13
+Dundalk Racing Results | 12th January 2024 18:45,N/A,18:45,Standard,1m,Tara Power (IRE),C D Maxwell,0,K H Clarke,2nd,1/2 l,6,8-12,47,True,98,13
+Dundalk Racing Results | 12th January 2024 18:45,N/A,18:45,Standard,1m,Gatsby Cap (IRE),N M Crosse,0,J C McConnell,1st,N/A,8,8-12tp,47,True,98,13
+N/A,N/A,12:12,Soft (Yielding To Soft In Places),2m,Nara (FR),M P Walsh,0,H De Bromhead,NR,N/A,4,10-12,-,True,98,15
+N/A,N/A,12:12,Soft (Yielding To Soft In Places),2m,Imadpour (IRE),D P Maxwell,7,A McNamara,7th,65 l,4,11-0,-,True,98,15
+N/A,N/A,12:12,Soft (Yielding To Soft In Places),2m,Jupiter Rock (IRE),D King,3,D Hogan,6th,39 l,4,11-0,-,True,98,15
+N/A,N/A,12:12,Soft (Yielding To Soft In Places),2m,Immutable (IRE),M J M O'Sullivan,0,J G Murphy,5th,37 l,4,11-0,-,True,98,15
+N/A,N/A,12:12,Soft (Yielding To Soft In Places),2m,Trustyourinstinct (IRE),S D Torrens,0,J P O'Brien,4th,8 1/2 l,4,11-0h1,-,True,98,15
+N/A,N/A,12:12,Soft (Yielding To Soft In Places),2m,Ndaawi,J W Kennedy,0,G Elliott,3rd,1 1/4 l,4,11-0,-,True,98,15
+N/A,N/A,12:12,Soft (Yielding To Soft In Places),2m,Karia Des Blaises (FR),D E Mullins,0,W P Mullins,2nd,2 1/4 l,4,10-12,-,True,98,15
+N/A,N/A,12:12,Soft (Yielding To Soft In Places),2m,Miss Manzor,P Townend,0,W P Mullins,1st,N/A,4,10-12,-,True,98,15
+N/A,N/A,12:12,Soft (Yielding To Soft In Places),2m,Nara (FR),M P Walsh,0,H De Bromhead,NR,N/A,4,10-12,-,True,98,15
+N/A,N/A,12:12,Soft (Yielding To Soft In Places),2m,Imadpour (IRE),D P Maxwell,7,A McNamara,7th,65 l,4,11-0,-,True,98,15
+N/A,N/A,12:12,Soft (Yielding To Soft In Places),2m,Jupiter Rock (IRE),D King,3,D Hogan,6th,39 l,4,11-0,-,True,98,15
+N/A,N/A,12:12,Soft (Yielding To Soft In Places),2m,Immutable (IRE),M J M O'Sullivan,0,J G Murphy,5th,37 l,4,11-0,-,True,98,15
+N/A,N/A,12:12,Soft (Yielding To Soft In Places),2m,Trustyourinstinct (IRE),S D Torrens,0,J P O'Brien,4th,8 1/2 l,4,11-0h1,-,True,98,15
+N/A,N/A,12:12,Soft (Yielding To Soft In Places),2m,Ndaawi,J W Kennedy,0,G Elliott,3rd,1 1/4 l,4,11-0,-,True,98,15
+N/A,N/A,12:12,Soft (Yielding To Soft In Places),2m,Karia Des Blaises (FR),D E Mullins,0,W P Mullins,2nd,2 1/4 l,4,10-12,-,True,98,15
+N/A,N/A,12:12,Soft (Yielding To Soft In Places),2m,Miss Manzor,P Townend,0,W P Mullins,1st,N/A,4,10-12,-,True,98,15
+N/A,N/A,13:22,Soft (Yielding To Soft In Places),3m,Gortmillish (FR),J W Kennedy,0,G Elliott,10th,25 l,8,11-8p1,123,True,98,17
+N/A,N/A,13:22,Soft (Yielding To Soft In Places),3m,Where's Frankie (IRE),D Meyler,0,K Thornton,9th,13 l,8,10-10,111,True,98,17
+N/A,N/A,13:22,Soft (Yielding To Soft In Places),3m,Pinyon Jay (FR),D J Gilligan,5,G Elliott,8th,17 l,5,11-12p,127,True,98,17
+N/A,N/A,13:22,Soft (Yielding To Soft In Places),3m,It Could Be You (IRE),D E Mullins,0,T Mullins,7th,1 l,10,10-3tb1,104,True,98,17
+N/A,N/A,13:22,Soft (Yielding To Soft In Places),3m,Ballyadam Destiny,D King,3,D Hogan,6th,1 l,10,11-0p,115,True,98,17
+N/A,N/A,13:22,Soft (Yielding To Soft In Places),3m,Party Playboy (GER),P J O'Hanlon,3,D A McLoughlin,5th,3 3/4 l,10,11-3,118,True,98,17
+N/A,N/A,13:22,Soft (Yielding To Soft In Places),3m,Waittillitellyou (IRE),P T Enright,0,E Cawley,4th,3 3/4 l,10,11-0t,115,True,98,17
+N/A,N/A,13:22,Soft (Yielding To Soft In Places),3m,Prince Palace (FR),J S McGarvey,0,P A Fahy,3rd,1 1/2 l,6,11-1,116,True,98,17
+N/A,N/A,13:22,Soft (Yielding To Soft In Places),3m,Castle Field Boy (IRE),M J M O'Sullivan,0,Patrick T Foley,2nd,1 3/4 l,8,11-8t,123,True,98,17
+N/A,N/A,13:22,Soft (Yielding To Soft In Places),3m,Mint Boy (IRE),K M Donoghue,0,G P Cromwell,1st,N/A,6,11-11,126,True,98,17
+N/A,N/A,13:22,Soft (Yielding To Soft In Places),3m,Gortmillish (FR),J W Kennedy,0,G Elliott,10th,25 l,8,11-8p1,123,True,98,17
+N/A,N/A,13:22,Soft (Yielding To Soft In Places),3m,Where's Frankie (IRE),D Meyler,0,K Thornton,9th,13 l,8,10-10,111,True,98,17
+N/A,N/A,13:22,Soft (Yielding To Soft In Places),3m,Pinyon Jay (FR),D J Gilligan,5,G Elliott,8th,17 l,5,11-12p,127,True,98,17
+N/A,N/A,13:22,Soft (Yielding To Soft In Places),3m,It Could Be You (IRE),D E Mullins,0,T Mullins,7th,1 l,10,10-3tb1,104,True,98,17
+N/A,N/A,13:22,Soft (Yielding To Soft In Places),3m,Ballyadam Destiny,D King,3,D Hogan,6th,1 l,10,11-0p,115,True,98,17
+N/A,N/A,13:22,Soft (Yielding To Soft In Places),3m,Party Playboy (GER),P J O'Hanlon,3,D A McLoughlin,5th,3 3/4 l,10,11-3,118,True,98,17
+N/A,N/A,13:22,Soft (Yielding To Soft In Places),3m,Waittillitellyou (IRE),P T Enright,0,E Cawley,4th,3 3/4 l,10,11-0t,115,True,98,17
+N/A,N/A,13:22,Soft (Yielding To Soft In Places),3m,Prince Palace (FR),J S McGarvey,0,P A Fahy,3rd,1 1/2 l,6,11-1,116,True,98,17
+N/A,N/A,13:22,Soft (Yielding To Soft In Places),3m,Castle Field Boy (IRE),M J M O'Sullivan,0,Patrick T Foley,2nd,1 3/4 l,8,11-8t,123,True,98,17
+N/A,N/A,13:22,Soft (Yielding To Soft In Places),3m,Mint Boy (IRE),K M Donoghue,0,G P Cromwell,1st,N/A,6,11-11,126,True,98,17
+N/A,N/A,13:57,Soft (Yielding To Soft In Places),2m 1f 60y,Roseys Hollow (IRE),S D Torrens,0,Jonathan Sweeney,F,N/A,10,10-0p1,127,True,98,18
+N/A,N/A,13:57,Soft (Yielding To Soft In Places),2m 1f 60y,Grange Walk (IRE),D King,3,J P Ryan,10th,12 l,9,10-12b,139,True,98,18
+N/A,N/A,13:57,Soft (Yielding To Soft In Places),2m 1f 60y,Fighting Fit,M P Walsh,0,J P Dempsey,9th,12 l,9,11-3tp,144,True,98,18
+N/A,N/A,13:57,Soft (Yielding To Soft In Places),2m 1f 60y,Whiskeywealth (IRE),P T Enright,0,T O'Brien,8th,2 1/4 l,8,10-0,127,True,98,18
+N/A,N/A,13:57,Soft (Yielding To Soft In Places),2m 1f 60y,Grey Diamond (FR),J W Kennedy,0,G Elliott,7th,12 l,10,10-11t,138,True,98,18
+N/A,N/A,13:57,Soft (Yielding To Soft In Places),2m 1f 60y,Dancing On My Own (IRE),Rachael Blackmore,0,H De Bromhead,6th,2 l,10,11-12t,153,True,98,18
+N/A,N/A,13:57,Soft (Yielding To Soft In Places),2m 1f 60y,Chavez (IRE),D E Mullins,0,W P Mullins,5th,4 1/4 l,8,10-5,132,True,98,18
+N/A,N/A,13:57,Soft (Yielding To Soft In Places),2m 1f 60y,Saint Roi (FR),J S McGarvey,0,W P Mullins,4th,2 l,9,11-10t,151,True,98,18
+N/A,N/A,13:57,Soft (Yielding To Soft In Places),2m 1f 60y,Letsbeclearaboutit (IRE),K M Donoghue,0,G P Cromwell,3rd,2 l,9,11-9,150,True,98,18
+N/A,N/A,13:57,Soft (Yielding To Soft In Places),2m 1f 60y,Lucid Dreams (IRE),L Quinlan,5,J P Ryan,2nd,3 3/4 l,9,11-1,142,True,98,18
+N/A,N/A,13:57,Soft (Yielding To Soft In Places),2m 1f 60y,Uncle Phil (IRE),P Townend,0,W P Mullins,1st,N/A,7,10-12ht,139,True,98,18
+N/A,N/A,13:57,Soft (Yielding To Soft In Places),2m 1f 60y,Roseys Hollow (IRE),S D Torrens,0,Jonathan Sweeney,F,N/A,10,10-0p1,127,True,98,18
+N/A,N/A,13:57,Soft (Yielding To Soft In Places),2m 1f 60y,Grange Walk (IRE),D King,3,J P Ryan,10th,12 l,9,10-12b,139,True,98,18
+N/A,N/A,13:57,Soft (Yielding To Soft In Places),2m 1f 60y,Fighting Fit,M P Walsh,0,J P Dempsey,9th,12 l,9,11-3tp,144,True,98,18
+N/A,N/A,13:57,Soft (Yielding To Soft In Places),2m 1f 60y,Whiskeywealth (IRE),P T Enright,0,T O'Brien,8th,2 1/4 l,8,10-0,127,True,98,18
+N/A,N/A,13:57,Soft (Yielding To Soft In Places),2m 1f 60y,Grey Diamond (FR),J W Kennedy,0,G Elliott,7th,12 l,10,10-11t,138,True,98,18
+N/A,N/A,13:57,Soft (Yielding To Soft In Places),2m 1f 60y,Dancing On My Own (IRE),Rachael Blackmore,0,H De Bromhead,6th,2 l,10,11-12t,153,True,98,18
+N/A,N/A,13:57,Soft (Yielding To Soft In Places),2m 1f 60y,Chavez (IRE),D E Mullins,0,W P Mullins,5th,4 1/4 l,8,10-5,132,True,98,18
+N/A,N/A,13:57,Soft (Yielding To Soft In Places),2m 1f 60y,Saint Roi (FR),J S McGarvey,0,W P Mullins,4th,2 l,9,11-10t,151,True,98,18
+N/A,N/A,13:57,Soft (Yielding To Soft In Places),2m 1f 60y,Letsbeclearaboutit (IRE),K M Donoghue,0,G P Cromwell,3rd,2 l,9,11-9,150,True,98,18
+N/A,N/A,13:57,Soft (Yielding To Soft In Places),2m 1f 60y,Lucid Dreams (IRE),L Quinlan,5,J P Ryan,2nd,3 3/4 l,9,11-1,142,True,98,18
+N/A,N/A,13:57,Soft (Yielding To Soft In Places),2m 1f 60y,Uncle Phil (IRE),P Townend,0,W P Mullins,1st,N/A,7,10-12ht,139,True,98,18
+N/A,N/A,14:32,Soft (Yielding To Soft In Places),2m 1f 60y,Malton Groove (IRE),D J Gilligan,5,G Elliott,7th,5 1/2 l,7,11-12,-,True,98,19
+N/A,N/A,14:32,Soft (Yielding To Soft In Places),2m 1f 60y,Burru (IRE),S F O'Keeffe,0,Bernard Crowley,6th,11 l,6,11-12h,-,True,98,19
+N/A,N/A,14:32,Soft (Yielding To Soft In Places),2m 1f 60y,Byker (IRE),P T Enright,0,C Byrnes,5th,19 l,5,11-8p,-,True,98,19
+N/A,N/A,14:32,Soft (Yielding To Soft In Places),2m 1f 60y,Polo Lounge (IRE),D E Mullins,0,W P Mullins,4th,4 l,7,11-12t,-,True,98,19
+N/A,N/A,14:32,Soft (Yielding To Soft In Places),2m 1f 60y,Firm Footings (IRE),J W Kennedy,0,G Elliott,3rd,7 l,6,11-12,-,True,98,19
+N/A,N/A,14:32,Soft (Yielding To Soft In Places),2m 1f 60y,Path D'oroux (FR),K M Donoghue,0,G P Cromwell,2nd,10 l,7,11-12t,-,True,98,19
+N/A,N/A,14:32,Soft (Yielding To Soft In Places),2m 1f 60y,Hunters Yarn (IRE),P Townend,0,W P Mullins,1st,N/A,7,11-12,-,True,98,19
+N/A,N/A,14:32,Soft (Yielding To Soft In Places),2m 1f 60y,Malton Groove (IRE),D J Gilligan,5,G Elliott,7th,5 1/2 l,7,11-12,-,True,98,19
+N/A,N/A,14:32,Soft (Yielding To Soft In Places),2m 1f 60y,Burru (IRE),S F O'Keeffe,0,Bernard Crowley,6th,11 l,6,11-12h,-,True,98,19
+N/A,N/A,14:32,Soft (Yielding To Soft In Places),2m 1f 60y,Byker (IRE),P T Enright,0,C Byrnes,5th,19 l,5,11-8p,-,True,98,19
+N/A,N/A,14:32,Soft (Yielding To Soft In Places),2m 1f 60y,Polo Lounge (IRE),D E Mullins,0,W P Mullins,4th,4 l,7,11-12t,-,True,98,19
+N/A,N/A,14:32,Soft (Yielding To Soft In Places),2m 1f 60y,Firm Footings (IRE),J W Kennedy,0,G Elliott,3rd,7 l,6,11-12,-,True,98,19
+N/A,N/A,14:32,Soft (Yielding To Soft In Places),2m 1f 60y,Path D'oroux (FR),K M Donoghue,0,G P Cromwell,2nd,10 l,7,11-12t,-,True,98,19
+N/A,N/A,14:32,Soft (Yielding To Soft In Places),2m 1f 60y,Hunters Yarn (IRE),P Townend,0,W P Mullins,1st,N/A,7,11-12,-,True,98,19
+N/A,N/A,15:07,Soft (Yielding To Soft In Places),2m 5f 175y,Hands Of Gold (IRE),R A Doyle,0,A L T Moore,6th,28 l,6,11-10,-,True,98,20
+N/A,N/A,15:07,Soft (Yielding To Soft In Places),2m 5f 175y,Gold Bullion (FR),Rachael Blackmore,0,H De Bromhead,5th,21 l,8,12-0t,-,True,98,20
+N/A,N/A,15:07,Soft (Yielding To Soft In Places),2m 5f 175y,Neveradullmoment (IRE),M P Walsh,0,J P Dempsey,4th,Neck,7,11-7t,-,True,98,20
+N/A,N/A,15:07,Soft (Yielding To Soft In Places),2m 5f 175y,Wellington Hill (IRE),D E Mullins,0,Ms M Mullins,3rd,1/2 l,8,11-4,-,True,98,20
+N/A,N/A,15:07,Soft (Yielding To Soft In Places),2m 5f 175y,Where It All Began (IRE),J W Kennedy,0,G Elliott,2nd,4 1/2 l,8,11-11p,-,True,98,20
+N/A,N/A,15:07,Soft (Yielding To Soft In Places),2m 5f 175y,Intense Raffles (FR),D A Jacob,0,T Gibney,1st,N/A,6,11-6,-,True,98,20
+N/A,N/A,15:07,Soft (Yielding To Soft In Places),2m 5f 175y,Hands Of Gold (IRE),R A Doyle,0,A L T Moore,6th,28 l,6,11-10,-,True,98,20
+N/A,N/A,15:07,Soft (Yielding To Soft In Places),2m 5f 175y,Gold Bullion (FR),Rachael Blackmore,0,H De Bromhead,5th,21 l,8,12-0t,-,True,98,20
+N/A,N/A,15:07,Soft (Yielding To Soft In Places),2m 5f 175y,Neveradullmoment (IRE),M P Walsh,0,J P Dempsey,4th,Neck,7,11-7t,-,True,98,20
+N/A,N/A,15:07,Soft (Yielding To Soft In Places),2m 5f 175y,Wellington Hill (IRE),D E Mullins,0,Ms M Mullins,3rd,1/2 l,8,11-4,-,True,98,20
+N/A,N/A,15:07,Soft (Yielding To Soft In Places),2m 5f 175y,Where It All Began (IRE),J W Kennedy,0,G Elliott,2nd,4 1/2 l,8,11-11p,-,True,98,20
+N/A,N/A,15:07,Soft (Yielding To Soft In Places),2m 5f 175y,Intense Raffles (FR),D A Jacob,0,T Gibney,1st,N/A,6,11-6,-,True,98,20
+N/A,N/A,15:42,Soft (Yielding To Soft In Places) Flat (Turf),2m,Charlie Buckett (IRE),Conor Clarke,7,E Mullins,NR,N/A,5,12-0t1,-,True,98,21
+N/A,N/A,15:42,Soft (Yielding To Soft In Places) Flat (Turf),2m,Mr Bezi (IRE),Mr R L Payne,7,D Hogan,NR,N/A,6,12-0,-,True,98,21
+N/A,N/A,15:42,Soft (Yielding To Soft In Places) Flat (Turf),2m,Yoradreamer,Mr P W Mullins,0,W P Mullins,5th,1 3/4 l,5,12-0,-,True,98,21
+N/A,N/A,15:42,Soft (Yielding To Soft In Places) Flat (Turf),2m,Step Out (IRE),Mr S Connor,7,S R B Crawford,4th,7 l,5,12-0,-,True,98,21
+N/A,N/A,15:42,Soft (Yielding To Soft In Places) Flat (Turf),2m,Jackmoon (FR),Mr J L Gleeson,5,J P Flavin,3rd,4 l,5,12-0,-,True,98,21
+N/A,N/A,15:42,Soft (Yielding To Soft In Places) Flat (Turf),2m,Sporting Glory (IRE),Mr D O'Connor,0,P A Fahy,2nd,1 1/4 l,8,12-0,-,True,98,21
+N/A,N/A,15:42,Soft (Yielding To Soft In Places) Flat (Turf),2m,Romeo Coolio,Mr H C Swan,5,G Elliott,1st,N/A,5,12-0,-,True,98,21
+N/A,N/A,15:42,Soft (Yielding To Soft In Places) Flat (Turf),2m,Charlie Buckett (IRE),Conor Clarke,7,E Mullins,NR,N/A,5,12-0t1,-,True,98,21
+N/A,N/A,15:42,Soft (Yielding To Soft In Places) Flat (Turf),2m,Mr Bezi (IRE),Mr R L Payne,7,D Hogan,NR,N/A,6,12-0,-,True,98,21
+N/A,N/A,15:42,Soft (Yielding To Soft In Places) Flat (Turf),2m,Yoradreamer,Mr P W Mullins,0,W P Mullins,5th,1 3/4 l,5,12-0,-,True,98,21
+N/A,N/A,15:42,Soft (Yielding To Soft In Places) Flat (Turf),2m,Step Out (IRE),Mr S Connor,7,S R B Crawford,4th,7 l,5,12-0,-,True,98,21
+N/A,N/A,15:42,Soft (Yielding To Soft In Places) Flat (Turf),2m,Jackmoon (FR),Mr J L Gleeson,5,J P Flavin,3rd,4 l,5,12-0,-,True,98,21
+N/A,N/A,15:42,Soft (Yielding To Soft In Places) Flat (Turf),2m,Sporting Glory (IRE),Mr D O'Connor,0,P A Fahy,2nd,1 1/4 l,8,12-0,-,True,98,21
+N/A,N/A,15:42,Soft (Yielding To Soft In Places) Flat (Turf),2m,Romeo Coolio,Mr H C Swan,5,G Elliott,1st,N/A,5,12-0,-,True,98,21
+N/A,N/A,12:35,Soft,2m 6f 148y,Marronstown (IRE),B W Harvey,0,D M Christie,6th,3/4 l,7,11-12,-,True,98,22
+N/A,N/A,12:35,Soft,2m 6f 148y,Pictures Of Home,J W Kennedy,0,T M Walsh,5th,8 l,8,11-12,-,True,98,22
+N/A,N/A,12:35,Soft,2m 6f 148y,Brucejack (IRE),M J M O'Sullivan,0,P A Fahy,4th,1/2 l,7,11-12,-,True,98,22
+N/A,N/A,12:35,Soft,2m 6f 148y,Atacanter (IRE),D J O'Keeffe,0,R O'Sullivan,3rd,1 3/4 l,7,11-12p,-,True,98,22
+N/A,N/A,12:35,Soft,2m 6f 148y,Rolly Bowley Boy (IRE),E Walsh,0,Ciaran Murphy,2nd,1/2 l,7,11-12v,-,True,98,22
+N/A,N/A,12:35,Soft,2m 6f 148y,Kates Hill (IRE),D Meyler,0,J P Dempsey,1st,N/A,9,11-5,-,True,98,22
+N/A,N/A,12:35,Soft,2m 6f 148y,Marronstown (IRE),B W Harvey,0,D M Christie,6th,3/4 l,7,11-12,-,True,98,22
+N/A,N/A,12:35,Soft,2m 6f 148y,Pictures Of Home,J W Kennedy,0,T M Walsh,5th,8 l,8,11-12,-,True,98,22
+N/A,N/A,12:35,Soft,2m 6f 148y,Brucejack (IRE),M J M O'Sullivan,0,P A Fahy,4th,1/2 l,7,11-12,-,True,98,22
+N/A,N/A,12:35,Soft,2m 6f 148y,Atacanter (IRE),D J O'Keeffe,0,R O'Sullivan,3rd,1 3/4 l,7,11-12p,-,True,98,22
+N/A,N/A,12:35,Soft,2m 6f 148y,Rolly Bowley Boy (IRE),E Walsh,0,Ciaran Murphy,2nd,1/2 l,7,11-12v,-,True,98,22
+N/A,N/A,12:35,Soft,2m 6f 148y,Kates Hill (IRE),D Meyler,0,J P Dempsey,1st,N/A,9,11-5,-,True,98,22
+N/A,N/A,13:05,Soft,2m 3f 146y,Paidi's Passion (IRE),D J O'Keeffe,0,D M Christie,6th,25 l,8,10-9,-,True,98,23
+N/A,N/A,13:05,Soft,2m 3f 146y,Monbeg Park (IRE),J J Slevin,0,S Doyle,5th,21 l,7,11-2,-,True,98,23
+N/A,N/A,13:05,Soft,2m 3f 146y,Imagine (FR),J W Kennedy,0,G Elliott,4th,25 l,6,11-10,-,True,98,23
+N/A,N/A,13:05,Soft,2m 3f 146y,Silent Approach (IRE),D E Mullins,0,C O'Keeffe,3rd,3 l,6,11-3,-,True,98,23
+N/A,N/A,13:05,Soft,2m 3f 146y,Blood Destiny (FR),P Townend,0,W P Mullins,2nd,2 l,5,10-12t,-,True,98,23
+N/A,N/A,13:05,Soft,2m 3f 146y,Spillane's Tower (IRE),M P Walsh,0,J J Mangan,1st,N/A,6,11-2,-,True,98,23
+N/A,N/A,13:05,Soft,2m 3f 146y,Paidi's Passion (IRE),D J O'Keeffe,0,D M Christie,6th,25 l,8,10-9,-,True,98,23
+N/A,N/A,13:05,Soft,2m 3f 146y,Monbeg Park (IRE),J J Slevin,0,S Doyle,5th,21 l,7,11-2,-,True,98,23
+N/A,N/A,13:05,Soft,2m 3f 146y,Imagine (FR),J W Kennedy,0,G Elliott,4th,25 l,6,11-10,-,True,98,23
+N/A,N/A,13:05,Soft,2m 3f 146y,Silent Approach (IRE),D E Mullins,0,C O'Keeffe,3rd,3 l,6,11-3,-,True,98,23
+N/A,N/A,13:05,Soft,2m 3f 146y,Blood Destiny (FR),P Townend,0,W P Mullins,2nd,2 l,5,10-12t,-,True,98,23
+N/A,N/A,13:05,Soft,2m 3f 146y,Spillane's Tower (IRE),M P Walsh,0,J J Mangan,1st,N/A,6,11-2,-,True,98,23
+N/A,N/A,13:35,Soft,2m 157y,Fascile Mode (IRE),D E Mullins,0,T Mullins,NR,N/A,6,11-4,-,True,98,24
+N/A,N/A,13:35,Soft,2m 157y,Lombron (FR),P Townend,0,W P Mullins,4th,3/4 l,5,11-4,-,True,98,24
+N/A,N/A,13:35,Soft,2m 157y,James's Gate (IRE),J J Slevin,0,M Brassil,3rd,17 l,7,11-4t1,-,True,98,24
+N/A,N/A,13:35,Soft,2m 157y,Jigoro (FR),J W Kennedy,0,G Elliott,2nd,7 l,5,11-4,-,True,98,24
+N/A,N/A,13:35,Soft,2m 157y,Mystical Power (IRE),M P Walsh,0,W P Mullins,1st,N/A,5,11-4,-,True,98,24
+N/A,N/A,13:35,Soft,2m 157y,Fascile Mode (IRE),D E Mullins,0,T Mullins,NR,N/A,6,11-4,-,True,98,24
+N/A,N/A,13:35,Soft,2m 157y,Lombron (FR),P Townend,0,W P Mullins,4th,3/4 l,5,11-4,-,True,98,24
+N/A,N/A,13:35,Soft,2m 157y,James's Gate (IRE),J J Slevin,0,M Brassil,3rd,17 l,7,11-4t1,-,True,98,24
+N/A,N/A,13:35,Soft,2m 157y,Jigoro (FR),J W Kennedy,0,G Elliott,2nd,7 l,5,11-4,-,True,98,24
+N/A,N/A,13:35,Soft,2m 157y,Mystical Power (IRE),M P Walsh,0,W P Mullins,1st,N/A,5,11-4,-,True,98,24
+N/A,N/A,15:05,Soft,2m 3f 146y,Danesfort Mayfly (IRE),R J Condon,0,W J Lanigan,PU,N/A,7,11-0,86,True,98,27
+N/A,N/A,15:05,Soft,2m 3f 146y,Knock On Steel (IRE),C Owens,4,R Donohoe,PU,N/A,11,11-9,95,True,98,27
+N/A,N/A,15:05,Soft,2m 3f 146y,Filon D'oudairies (FR),C G O'Dwyer,2,J P Broderick,8th,18 l,9,11-11,97,True,98,27
+N/A,N/A,15:05,Soft,2m 3f 146y,Mahlers Cove (IRE),M P O'Connor,0,J J Mangan,7th,3/4 l,7,11-6,92,True,98,27
+N/A,N/A,15:05,Soft,2m 3f 146y,Huit Reflets (FR),T P Harney,4,Liz Doyle,6th,1 1/2 l,7,10-11p1,83,True,98,27
+N/A,N/A,15:05,Soft,2m 3f 146y,Glenmalure Lodge (IRE),P J O'Hanlon,0,P J Rothwell,5th,1/2 l,10,11-0tp,86,True,98,27
+N/A,N/A,15:05,Soft,2m 3f 146y,Everystep Oftheway (IRE),J I Duggan,4,O McKiernan,4th,5 l,6,11-4,90,True,98,27
+N/A,N/A,15:05,Soft,2m 3f 146y,Captain Jimmy (IRE),P K Donovan,2,P G Kelly,3rd,Neck,11,11-8b,94,True,98,27
+N/A,N/A,15:05,Soft,2m 3f 146y,Knocknagappagh (IRE),D J Gilligan,0,Peter Fahey,2nd,8 l,8,11-9p,95,True,98,27
+N/A,N/A,15:05,Soft,2m 3f 146y,Easy Bucks,Shane Fenelon,4,J J Hanlon,1st,N/A,9,12-0,100,True,98,27
+N/A,N/A,15:05,Soft,2m 3f 146y,Danesfort Mayfly (IRE),R J Condon,0,W J Lanigan,PU,N/A,7,11-0,86,True,98,27
+N/A,N/A,15:05,Soft,2m 3f 146y,Knock On Steel (IRE),C Owens,4,R Donohoe,PU,N/A,11,11-9,95,True,98,27
+N/A,N/A,15:05,Soft,2m 3f 146y,Filon D'oudairies (FR),C G O'Dwyer,2,J P Broderick,8th,18 l,9,11-11,97,True,98,27
+N/A,N/A,15:05,Soft,2m 3f 146y,Mahlers Cove (IRE),M P O'Connor,0,J J Mangan,7th,3/4 l,7,11-6,92,True,98,27
+N/A,N/A,15:05,Soft,2m 3f 146y,Huit Reflets (FR),T P Harney,4,Liz Doyle,6th,1 1/2 l,7,10-11p1,83,True,98,27
+N/A,N/A,15:05,Soft,2m 3f 146y,Glenmalure Lodge (IRE),P J O'Hanlon,0,P J Rothwell,5th,1/2 l,10,11-0tp,86,True,98,27
+N/A,N/A,15:05,Soft,2m 3f 146y,Everystep Oftheway (IRE),J I Duggan,4,O McKiernan,4th,5 l,6,11-4,90,True,98,27
+N/A,N/A,15:05,Soft,2m 3f 146y,Captain Jimmy (IRE),P K Donovan,2,P G Kelly,3rd,Neck,11,11-8b,94,True,98,27
+N/A,N/A,15:05,Soft,2m 3f 146y,Knocknagappagh (IRE),D J Gilligan,0,Peter Fahey,2nd,8 l,8,11-9p,95,True,98,27
+N/A,N/A,15:05,Soft,2m 3f 146y,Easy Bucks,Shane Fenelon,4,J J Hanlon,1st,N/A,9,12-0,100,True,98,27
+N/A,N/A,15:35,Soft ap Chase (Turf),2m 6f 148y,The Flier Begley (IRE),Mr S Connor,7,S R B Crawford,PU,N/A,9,11-12,123,True,98,28
+N/A,N/A,15:35,Soft ap Chase (Turf),2m 6f 148y,Punitive (IRE),Mr H C Swan,5,G Elliott,PU,N/A,10,12-4b,129,True,98,28
+N/A,N/A,15:35,Soft ap Chase (Turf),2m 6f 148y,Routine Excellence (IRE),Mr D G Lavery,0,G P Cromwell,4th,1/2 l,8,11-7b1,118,True,98,28
+N/A,N/A,15:35,Soft ap Chase (Turf),2m 6f 148y,Young Dev (IRE),Mr J L Gleeson,5,D Hogan,3rd,15 l,10,11-8,119,True,98,28
+N/A,N/A,15:35,Soft ap Chase (Turf),2m 6f 148y,Bonnie Kellie (IRE),Mr P A King,5,S Curling,2nd,6 l,7,11-7,118,True,98,28
+N/A,N/A,15:35,Soft ap Chase (Turf),2m 6f 148y,Hardwired (IRE),Mr A Harvey,7,T M Walsh,1st,N/A,8,10-8tb,105,True,98,28
+N/A,N/A,15:35,Soft ap Chase (Turf),2m 6f 148y,The Flier Begley (IRE),Mr S Connor,7,S R B Crawford,PU,N/A,9,11-12,123,True,98,28
+N/A,N/A,15:35,Soft ap Chase (Turf),2m 6f 148y,Punitive (IRE),Mr H C Swan,5,G Elliott,PU,N/A,10,12-4b,129,True,98,28
+N/A,N/A,15:35,Soft ap Chase (Turf),2m 6f 148y,Routine Excellence (IRE),Mr D G Lavery,0,G P Cromwell,4th,1/2 l,8,11-7b1,118,True,98,28
+N/A,N/A,15:35,Soft ap Chase (Turf),2m 6f 148y,Young Dev (IRE),Mr J L Gleeson,5,D Hogan,3rd,15 l,10,11-8,119,True,98,28
+N/A,N/A,15:35,Soft ap Chase (Turf),2m 6f 148y,Bonnie Kellie (IRE),Mr P A King,5,S Curling,2nd,6 l,7,11-7,118,True,98,28
+N/A,N/A,15:35,Soft ap Chase (Turf),2m 6f 148y,Hardwired (IRE),Mr A Harvey,7,T M Walsh,1st,N/A,8,10-8tb,105,True,98,28
+N/A,N/A,13:55,Soft,2m 4f 33y,Justmadeit (IRE),D King,3,D Hogan,NR,N/A,5,11-7,-,True,98,30
+N/A,N/A,13:55,Soft,2m 4f 33y,Maivangomary (IRE),L Donnelly,7,R Hackett,PU,N/A,5,11-7,-,True,98,30
+N/A,N/A,13:55,Soft,2m 4f 33y,Next Question (IRE),S O'Callaghan,5,T M Walsh,PU,N/A,6,11-7,-,True,98,30
+N/A,N/A,13:55,Soft,2m 4f 33y,Hamazing (IRE),Shane Fenelon,7,E Sheehy,9th,10 l,6,11-7,-,True,98,30
+N/A,N/A,13:55,Soft,2m 4f 33y,One For Daisy (IRE),P T Enright,0,S Curling,8th,15 l,6,11-7t1,-,True,98,30
+N/A,N/A,13:55,Soft,2m 4f 33y,Slim Marvel (FR),T Ryan,5,A Slattery,7th,3/4 l,6,11-7,-,True,98,30
+N/A,N/A,13:55,Soft,2m 4f 33y,Get Down To It (IRE),D J O'Keeffe,0,T Gibney,6th,11 l,5,11-7,-,True,98,30
+N/A,N/A,13:55,Soft,2m 4f 33y,Redzy Rocco (IRE),A P Kelly,5,J P Fahey,5th,5 1/2 l,6,11-7,-,True,98,30
+N/A,N/A,13:55,Soft,2m 4f 33y,Pallas Athene (IRE),J W Kennedy,0,G Elliott,4th,1/2 l,6,11-7,-,True,98,30
+N/A,N/A,13:55,Soft,2m 4f 33y,Kiltealy Park (IRE),S W Flanagan,0,P Nolan,3rd,Nose,5,11-7,-,True,98,30
+N/A,N/A,13:55,Soft,2m 4f 33y,Ashdale Flyer (IRE),C D Smithers,7,Mrs J Harrington,2nd,Nose,5,11-7,-,True,98,30
+N/A,N/A,13:55,Soft,2m 4f 33y,Annalecka (IRE),R A Doyle,0,M Fahey,1st,N/A,7,11-7,-,True,98,30
+N/A,N/A,13:55,Soft,2m 4f 33y,Justmadeit (IRE),D King,3,D Hogan,NR,N/A,5,11-7,-,True,98,30
+N/A,N/A,13:55,Soft,2m 4f 33y,Maivangomary (IRE),L Donnelly,7,R Hackett,PU,N/A,5,11-7,-,True,98,30
+N/A,N/A,13:55,Soft,2m 4f 33y,Next Question (IRE),S O'Callaghan,5,T M Walsh,PU,N/A,6,11-7,-,True,98,30
+N/A,N/A,13:55,Soft,2m 4f 33y,Hamazing (IRE),Shane Fenelon,7,E Sheehy,9th,10 l,6,11-7,-,True,98,30
+N/A,N/A,13:55,Soft,2m 4f 33y,One For Daisy (IRE),P T Enright,0,S Curling,8th,15 l,6,11-7t1,-,True,98,30
+N/A,N/A,13:55,Soft,2m 4f 33y,Slim Marvel (FR),T Ryan,5,A Slattery,7th,3/4 l,6,11-7,-,True,98,30
+N/A,N/A,13:55,Soft,2m 4f 33y,Get Down To It (IRE),D J O'Keeffe,0,T Gibney,6th,11 l,5,11-7,-,True,98,30
+N/A,N/A,13:55,Soft,2m 4f 33y,Redzy Rocco (IRE),A P Kelly,5,J P Fahey,5th,5 1/2 l,6,11-7,-,True,98,30
+N/A,N/A,13:55,Soft,2m 4f 33y,Pallas Athene (IRE),J W Kennedy,0,G Elliott,4th,1/2 l,6,11-7,-,True,98,30
+N/A,N/A,13:55,Soft,2m 4f 33y,Kiltealy Park (IRE),S W Flanagan,0,P Nolan,3rd,Nose,5,11-7,-,True,98,30
+N/A,N/A,13:55,Soft,2m 4f 33y,Ashdale Flyer (IRE),C D Smithers,7,Mrs J Harrington,2nd,Nose,5,11-7,-,True,98,30
+N/A,N/A,13:55,Soft,2m 4f 33y,Annalecka (IRE),R A Doyle,0,M Fahey,1st,N/A,7,11-7,-,True,98,30
+N/A,N/A,14:25,Soft,2m 4f 33y,Jack Du Large (FR),J W Kennedy,0,G Elliott,NR,N/A,5,11-4,99,True,98,31
+N/A,N/A,14:25,Soft,2m 4f 33y,C'est Rien (IRE),J B Foley,0,T Mullins,12th,1/2 l,7,10-10t,91,True,98,31
+N/A,N/A,14:25,Soft,2m 4f 33y,Five Minutes More (IRE),R P Treacy,0,R Tyner,11th,2 l,6,10-2,83,True,98,31
+N/A,N/A,14:25,Soft,2m 4f 33y,Tipp For Mac (IRE),D Meyler,0,T Cooper,10th,2 1/2 l,7,11-5,100,True,98,31
+N/A,N/A,14:25,Soft,2m 4f 33y,Makfils (FR),Sam Ewing,0,Peter Fahey,9th,4 3/4 l,7,10-13,94,True,98,31
+N/A,N/A,14:25,Soft,2m 4f 33y,Pay Later,M J M O'Sullivan,0,Jonathan Sweeney,8th,2 3/4 l,11,10-12t,93,True,98,31
+N/A,N/A,14:25,Soft,2m 4f 33y,Trackman Tommy (IRE),Ms E C Costello,7,P G Kelly,7th,15 l,6,11-4,99,True,98,31
+N/A,N/A,14:25,Soft,2m 4f 33y,Clear The Clouds (IRE),K E Buckley,0,G P Cromwell,6th,2 1/2 l,6,11-2t,97,True,98,31
+N/A,N/A,14:25,Soft,2m 4f 33y,Friends N Commerce (IRE),P K Donovan,5,P G Kelly,5th,2 1/4 l,8,12-0b1,109,True,98,31
+N/A,N/A,14:25,Soft,2m 4f 33y,That's About Right (IRE),J P O'Sullivan,3,P J Rothwell,4th,1/2 l,6,10-9,90,True,98,31
+N/A,N/A,14:25,Soft,2m 4f 33y,Dgalwaygallivantor (IRE),C Stone-Walsh,5,G P Cromwell,3rd,1 1/2 l,5,11-2t,97,True,98,31
+N/A,N/A,14:25,Soft,2m 4f 33y,Mr Social (IRE),R A Doyle,0,E Griffin,2nd,3 l,6,10-6,87,True,98,31
+N/A,N/A,14:25,Soft,2m 4f 33y,Silver King (IRE),P T Enright,0,O McKiernan,1st,N/A,8,12-0ht,109,True,98,31
+N/A,N/A,14:25,Soft,2m 4f 33y,Jack Du Large (FR),J W Kennedy,0,G Elliott,NR,N/A,5,11-4,99,True,98,31
+N/A,N/A,14:25,Soft,2m 4f 33y,C'est Rien (IRE),J B Foley,0,T Mullins,12th,1/2 l,7,10-10t,91,True,98,31
+N/A,N/A,14:25,Soft,2m 4f 33y,Five Minutes More (IRE),R P Treacy,0,R Tyner,11th,2 l,6,10-2,83,True,98,31
+N/A,N/A,14:25,Soft,2m 4f 33y,Tipp For Mac (IRE),D Meyler,0,T Cooper,10th,2 1/2 l,7,11-5,100,True,98,31
+N/A,N/A,14:25,Soft,2m 4f 33y,Makfils (FR),Sam Ewing,0,Peter Fahey,9th,4 3/4 l,7,10-13,94,True,98,31
+N/A,N/A,14:25,Soft,2m 4f 33y,Pay Later,M J M O'Sullivan,0,Jonathan Sweeney,8th,2 3/4 l,11,10-12t,93,True,98,31
+N/A,N/A,14:25,Soft,2m 4f 33y,Trackman Tommy (IRE),Ms E C Costello,7,P G Kelly,7th,15 l,6,11-4,99,True,98,31
+N/A,N/A,14:25,Soft,2m 4f 33y,Clear The Clouds (IRE),K E Buckley,0,G P Cromwell,6th,2 1/2 l,6,11-2t,97,True,98,31
+N/A,N/A,14:25,Soft,2m 4f 33y,Friends N Commerce (IRE),P K Donovan,5,P G Kelly,5th,2 1/4 l,8,12-0b1,109,True,98,31
+N/A,N/A,14:25,Soft,2m 4f 33y,That's About Right (IRE),J P O'Sullivan,3,P J Rothwell,4th,1/2 l,6,10-9,90,True,98,31
+N/A,N/A,14:25,Soft,2m 4f 33y,Dgalwaygallivantor (IRE),C Stone-Walsh,5,G P Cromwell,3rd,1 1/2 l,5,11-2t,97,True,98,31
+N/A,N/A,14:25,Soft,2m 4f 33y,Mr Social (IRE),R A Doyle,0,E Griffin,2nd,3 l,6,10-6,87,True,98,31
+N/A,N/A,14:25,Soft,2m 4f 33y,Silver King (IRE),P T Enright,0,O McKiernan,1st,N/A,8,12-0ht,109,True,98,31
+N/A,N/A,15:25,Soft,2m 6f 205y,Ballycairn (IRE),Non Runner,0,Caroline Mccaldin,NR,N/A,9,11-3,90,True,98,33
+N/A,N/A,15:25,Soft,2m 6f 205y,Clyde The Glide (IRE),P K Donovan,5,P G Kelly,13th,16 l,7,10-13,86,True,98,33
+N/A,N/A,15:25,Soft,2m 6f 205y,Vintage Gold (IRE),D King,3,J J Murphy,12th,29 l,5,11-10p,97,True,98,33
+N/A,N/A,15:25,Soft,2m 6f 205y,Yabo (IRE),T P Harney,7,Liz Doyle,11th,8 1/2 l,9,11-13,100,True,98,33
+N/A,N/A,15:25,Soft,2m 6f 205y,Perfect Arch (IRE),Anna McGuinness,7,S McConville,10th,1 1/2 l,7,10-7p,80,True,98,33
+N/A,N/A,15:25,Soft,2m 6f 205y,Thegoaheadman (IRE),K Callaghan,5,J Barcoe,9th,Head,10,10-13,86,True,98,33
+N/A,N/A,15:25,Soft,2m 6f 205y,Greenhill Damsel (IRE),J J Slevin,0,G J Power,8th,3/4 l,9,11-4,91,True,98,33
+N/A,N/A,15:25,Soft,2m 6f 205y,Imbolc (IRE),S W Flanagan,0,E Sheehy,7th,5 l,6,10-13,86,True,98,33
+N/A,N/A,15:25,Soft,2m 6f 205y,Danny The Fence (IRE),D Meyler,0,K Thornton,6th,3 1/2 l,7,11-10t,97,True,98,33
+N/A,N/A,15:25,Soft,2m 6f 205y,The Flying Donkey (IRE),P T Enright,0,J Dullea,5th,4 3/4 l,6,10-13,86,True,98,33
+N/A,N/A,15:25,Soft,2m 6f 205y,Glenabo Bridge (IRE),J I Duggan,7,O McKiernan,4th,12 l,13,10-12tp,85,True,98,33
+N/A,N/A,15:25,Soft,2m 6f 205y,Lough Nigara (IRE),R A Doyle,0,M A Daly,3rd,5 l,7,11-4,91,True,98,33
+N/A,N/A,15:25,Soft,2m 6f 205y,No Fussing (IRE),Mr D Doyle,7,T Doyle,2nd,1/2 l,8,11-13,100,True,98,33
+N/A,N/A,15:25,Soft,2m 6f 205y,Buachaillbocht,M P Walsh,0,T M Walsh,1st,N/A,6,11-10,97,True,98,33
+N/A,N/A,15:25,Soft,2m 6f 205y,Ballycairn (IRE),Non Runner,0,Caroline Mccaldin,NR,N/A,9,11-3,90,True,98,33
+N/A,N/A,15:25,Soft,2m 6f 205y,Clyde The Glide (IRE),P K Donovan,5,P G Kelly,13th,16 l,7,10-13,86,True,98,33
+N/A,N/A,15:25,Soft,2m 6f 205y,Vintage Gold (IRE),D King,3,J J Murphy,12th,29 l,5,11-10p,97,True,98,33
+N/A,N/A,15:25,Soft,2m 6f 205y,Yabo (IRE),T P Harney,7,Liz Doyle,11th,8 1/2 l,9,11-13,100,True,98,33
+N/A,N/A,15:25,Soft,2m 6f 205y,Perfect Arch (IRE),Anna McGuinness,7,S McConville,10th,1 1/2 l,7,10-7p,80,True,98,33
+N/A,N/A,15:25,Soft,2m 6f 205y,Thegoaheadman (IRE),K Callaghan,5,J Barcoe,9th,Head,10,10-13,86,True,98,33
+N/A,N/A,15:25,Soft,2m 6f 205y,Greenhill Damsel (IRE),J J Slevin,0,G J Power,8th,3/4 l,9,11-4,91,True,98,33
+N/A,N/A,15:25,Soft,2m 6f 205y,Imbolc (IRE),S W Flanagan,0,E Sheehy,7th,5 l,6,10-13,86,True,98,33
+N/A,N/A,15:25,Soft,2m 6f 205y,Danny The Fence (IRE),D Meyler,0,K Thornton,6th,3 1/2 l,7,11-10t,97,True,98,33
+N/A,N/A,15:25,Soft,2m 6f 205y,The Flying Donkey (IRE),P T Enright,0,J Dullea,5th,4 3/4 l,6,10-13,86,True,98,33
+N/A,N/A,15:25,Soft,2m 6f 205y,Glenabo Bridge (IRE),J I Duggan,7,O McKiernan,4th,12 l,13,10-12tp,85,True,98,33
+N/A,N/A,15:25,Soft,2m 6f 205y,Lough Nigara (IRE),R A Doyle,0,M A Daly,3rd,5 l,7,11-4,91,True,98,33
+N/A,N/A,15:25,Soft,2m 6f 205y,No Fussing (IRE),Mr D Doyle,7,T Doyle,2nd,1/2 l,8,11-13,100,True,98,33
+N/A,N/A,15:25,Soft,2m 6f 205y,Buachaillbocht,M P Walsh,0,T M Walsh,1st,N/A,6,11-10,97,True,98,33
+N/A,N/A,16:00,Soft,2m 37y,Sarrealta (IRE),Mr J L Gleeson,5,Peter Fahey,NR,N/A,5,11-11,-,True,98,34
+N/A,N/A,16:00,Soft,2m 37y,Instant Tendance (FR),Mr H C Swan,5,G Elliott,NR,N/A,6,11-11t,-,True,98,34
+N/A,N/A,16:00,Soft,2m 37y,Bombay Glory (IRE),Mr F Maguire,0,M C Grassick,12th,53 l,7,11-11t1,-,True,98,34
+N/A,N/A,16:00,Soft,2m 37y,Mountrivers Lass (IRE),Mr H Hunt,7,R Murphy,11th,26 l,5,11-11,-,True,98,34
+N/A,N/A,16:00,Soft,2m 37y,Merry Shuil (IRE),Mr R James,7,Leonard Flynn,10th,10 l,6,11-11,-,True,98,34
+N/A,N/A,16:00,Soft,2m 37y,Hidden Bid (IRE),Mr S Connor,7,S R B Crawford,9th,5 1/2 l,6,11-11,-,True,98,34
+N/A,N/A,16:00,Soft,2m 37y,Mayos Vendangeur (IRE),Miss P Elvin,7,P J Rothwell,8th,2 l,5,11-11t1,-,True,98,34
+N/A,N/A,16:00,Soft,2m 37y,Dansanttothetune (IRE),Ms J E Grant,7,D M O'Brien,7th,6 1/2 l,6,11-11,-,True,98,34
+N/A,N/A,16:00,Soft,2m 37y,Roxhill Roise (IRE),Mr B O'Neill,0,D M O'Brien,6th,3 l,6,11-11h,-,True,98,34
+N/A,N/A,16:00,Soft,2m 37y,Florance (IRE),Miss A B O'Connor,3,A McCann,5th,2 1/4 l,6,11-11h1,-,True,98,34
+N/A,N/A,16:00,Soft,2m 37y,Amanha (FR),Mr D McGill,7,D A McLoughlin,4th,3 1/4 l,6,11-11t,-,True,98,34
+N/A,N/A,16:00,Soft,2m 37y,The Lord Maid (IRE),Mr M J Kenneally,7,J Halley,3rd,3/4 l,6,11-11,-,True,98,34
+N/A,N/A,16:00,Soft,2m 37y,Harrys Annie (IRE),Mr D Allen,7,T O'Brien,2nd,11 l,7,11-11,-,True,98,34
+N/A,N/A,16:00,Soft,2m 37y,Maughreen (IRE),Mr P W Mullins,0,W P Mullins,1st,N/A,5,11-11,-,True,98,34
+N/A,N/A,16:00,Soft,2m 37y,Sarrealta (IRE),Mr J L Gleeson,5,Peter Fahey,NR,N/A,5,11-11,-,True,98,34
+N/A,N/A,16:00,Soft,2m 37y,Instant Tendance (FR),Mr H C Swan,5,G Elliott,NR,N/A,6,11-11t,-,True,98,34
+N/A,N/A,16:00,Soft,2m 37y,Bombay Glory (IRE),Mr F Maguire,0,M C Grassick,12th,53 l,7,11-11t1,-,True,98,34
+N/A,N/A,16:00,Soft,2m 37y,Mountrivers Lass (IRE),Mr H Hunt,7,R Murphy,11th,26 l,5,11-11,-,True,98,34
+N/A,N/A,16:00,Soft,2m 37y,Merry Shuil (IRE),Mr R James,7,Leonard Flynn,10th,10 l,6,11-11,-,True,98,34
+N/A,N/A,16:00,Soft,2m 37y,Hidden Bid (IRE),Mr S Connor,7,S R B Crawford,9th,5 1/2 l,6,11-11,-,True,98,34
+N/A,N/A,16:00,Soft,2m 37y,Mayos Vendangeur (IRE),Miss P Elvin,7,P J Rothwell,8th,2 l,5,11-11t1,-,True,98,34
+N/A,N/A,16:00,Soft,2m 37y,Dansanttothetune (IRE),Ms J E Grant,7,D M O'Brien,7th,6 1/2 l,6,11-11,-,True,98,34
+N/A,N/A,16:00,Soft,2m 37y,Roxhill Roise (IRE),Mr B O'Neill,0,D M O'Brien,6th,3 l,6,11-11h,-,True,98,34
+N/A,N/A,16:00,Soft,2m 37y,Florance (IRE),Miss A B O'Connor,3,A McCann,5th,2 1/4 l,6,11-11h1,-,True,98,34
+N/A,N/A,16:00,Soft,2m 37y,Amanha (FR),Mr D McGill,7,D A McLoughlin,4th,3 1/4 l,6,11-11t,-,True,98,34
+N/A,N/A,16:00,Soft,2m 37y,The Lord Maid (IRE),Mr M J Kenneally,7,J Halley,3rd,3/4 l,6,11-11,-,True,98,34
+N/A,N/A,16:00,Soft,2m 37y,Harrys Annie (IRE),Mr D Allen,7,T O'Brien,2nd,11 l,7,11-11,-,True,98,34
+N/A,N/A,16:00,Soft,2m 37y,Maughreen (IRE),Mr P W Mullins,0,W P Mullins,1st,N/A,5,11-11,-,True,98,34
+Dundalk Racing Results | 16th January 2024 13:05,N/A,13:05,Standard,1m 4f,Free Flow (USA),C M Hogan,7,J M Barrett,NR,N/A,4,9-9t1,-,True,98,35
+Dundalk Racing Results | 16th January 2024 13:05,N/A,13:05,Standard,1m 4f,Lope De Light,C J MacRedmond,0,W Durkan,12th,15 l,4,9-9,-,True,98,35
+Dundalk Racing Results | 16th January 2024 13:05,N/A,13:05,Standard,1m 4f,He Is Brave (IRE),O McSweeney,0,L Comer,11th,1 l,6,9-12h1,-,True,98,35
+Dundalk Racing Results | 16th January 2024 13:05,N/A,13:05,Standard,1m 4f,Firebrand (GER),D King,0,J Nallen,10th,1/2 l,4,9-9,-,True,98,35
+Dundalk Racing Results | 16th January 2024 13:05,N/A,13:05,Standard,1m 4f,Tincurra Lad (IRE),R M Mulligan,7,W J Martin,9th,1 3/4 l,7,9-12,-,True,98,35
+Dundalk Racing Results | 16th January 2024 13:05,N/A,13:05,Standard,1m 4f,Chopsticks (IRE),W Joyce,0,S M Duffy,8th,3 1/4 l,4,9-9,-,True,98,35
+Dundalk Racing Results | 16th January 2024 13:05,N/A,13:05,Standard,1m 4f,As Fast As Wind (IRE),J J G Ryan,0,E Doyle,7th,Nose,4,9-4b,-,True,98,35
+Dundalk Racing Results | 16th January 2024 13:05,N/A,13:05,Standard,1m 4f,Hangry (IRE),D A Kidd,7,J C McConnell,6th,2 l,4,9-9,-,True,98,35
+Dundalk Racing Results | 16th January 2024 13:05,N/A,13:05,Standard,1m 4f,Belleplaine (IRE),R Whearty,0,J C McConnell,5th,4 3/4 l,4,9-4,-,True,98,35
+Dundalk Racing Results | 16th January 2024 13:05,N/A,13:05,Standard,1m 4f,Next Week (IRE),C Horgan,4,A Slattery,4th,Head,6,9-12,-,True,98,35
+Dundalk Racing Results | 16th January 2024 13:05,N/A,13:05,Standard,1m 4f,Moab (IRE),P A Harnett,0,J P O'Brien,3rd,3 1/4 l,4,9-9p1,-,True,98,35
+Dundalk Racing Results | 16th January 2024 13:05,N/A,13:05,Standard,1m 4f,Impero (IRE),J Cleary,4,Michael G Cleary,2nd,1/2 l,5,9-12,-,True,98,35
+Dundalk Racing Results | 16th January 2024 13:05,N/A,13:05,Standard,1m 4f,Gran Caballo (USA),H J Horgan,2,J P O'Brien,1st,N/A,4,9-9t,-,True,98,35
+Dundalk Racing Results | 16th January 2024 13:05,N/A,13:05,Standard,1m 4f,Free Flow (USA),C M Hogan,7,J M Barrett,NR,N/A,4,9-9t1,-,True,98,35
+Dundalk Racing Results | 16th January 2024 13:05,N/A,13:05,Standard,1m 4f,Lope De Light,C J MacRedmond,0,W Durkan,12th,15 l,4,9-9,-,True,98,35
+Dundalk Racing Results | 16th January 2024 13:05,N/A,13:05,Standard,1m 4f,He Is Brave (IRE),O McSweeney,0,L Comer,11th,1 l,6,9-12h1,-,True,98,35
+Dundalk Racing Results | 16th January 2024 13:05,N/A,13:05,Standard,1m 4f,Firebrand (GER),D King,0,J Nallen,10th,1/2 l,4,9-9,-,True,98,35
+Dundalk Racing Results | 16th January 2024 13:05,N/A,13:05,Standard,1m 4f,Tincurra Lad (IRE),R M Mulligan,7,W J Martin,9th,1 3/4 l,7,9-12,-,True,98,35
+Dundalk Racing Results | 16th January 2024 13:05,N/A,13:05,Standard,1m 4f,Chopsticks (IRE),W Joyce,0,S M Duffy,8th,3 1/4 l,4,9-9,-,True,98,35
+Dundalk Racing Results | 16th January 2024 13:05,N/A,13:05,Standard,1m 4f,As Fast As Wind (IRE),J J G Ryan,0,E Doyle,7th,Nose,4,9-4b,-,True,98,35
+Dundalk Racing Results | 16th January 2024 13:05,N/A,13:05,Standard,1m 4f,Hangry (IRE),D A Kidd,7,J C McConnell,6th,2 l,4,9-9,-,True,98,35
+Dundalk Racing Results | 16th January 2024 13:05,N/A,13:05,Standard,1m 4f,Belleplaine (IRE),R Whearty,0,J C McConnell,5th,4 3/4 l,4,9-4,-,True,98,35
+Dundalk Racing Results | 16th January 2024 13:05,N/A,13:05,Standard,1m 4f,Next Week (IRE),C Horgan,4,A Slattery,4th,Head,6,9-12,-,True,98,35
+Dundalk Racing Results | 16th January 2024 13:05,N/A,13:05,Standard,1m 4f,Moab (IRE),P A Harnett,0,J P O'Brien,3rd,3 1/4 l,4,9-9p1,-,True,98,35
+Dundalk Racing Results | 16th January 2024 13:05,N/A,13:05,Standard,1m 4f,Impero (IRE),J Cleary,4,Michael G Cleary,2nd,1/2 l,5,9-12,-,True,98,35
+Dundalk Racing Results | 16th January 2024 13:05,N/A,13:05,Standard,1m 4f,Gran Caballo (USA),H J Horgan,2,J P O'Brien,1st,N/A,4,9-9t,-,True,98,35
+Dundalk Racing Results | 16th January 2024 13:40,N/A,13:40,Standard,1m 2f 150y,Clueless Hill (IRE),O McSweeney,5,L Comer,14th,1/2 l,9,9-2tb,47,True,98,36
+Dundalk Racing Results | 16th January 2024 13:40,N/A,13:40,Standard,1m 2f 150y,Curzon Queen (IRE),N G McCullagh,0,Daniel Murphy,13th,4 1/2 l,4,9-1p,47,True,98,36
+Dundalk Racing Results | 16th January 2024 13:40,N/A,13:40,Standard,1m 2f 150y,Limited Edition,C D Maxwell,0,K H Clarke,12th,Neck,6,9-3,48,True,98,36
+Dundalk Racing Results | 16th January 2024 13:40,N/A,13:40,Standard,1m 2f 150y,Happaugue (IRE),D W O'Connor,0,J C McConnell,11th,3 3/4 l,8,9-7,52,True,98,36
+Dundalk Racing Results | 16th January 2024 13:40,N/A,13:40,Standard,1m 2f 150y,Blackstone Cliff (IRE),J J G Ryan,5,S Crawley,10th,1 l,8,9-2ht,47,True,98,36
+Dundalk Racing Results | 16th January 2024 13:40,N/A,13:40,Standard,1m 2f 150y,Action Motion (IRE),K J Leonard,0,D Hogan,9th,1 1/4 l,5,9-9tp,54,True,98,36
+Dundalk Racing Results | 16th January 2024 13:40,N/A,13:40,Standard,1m 2f 150y,Grey Fable (IRE),R C Colgan,0,S Lavery,8th,Neck,4,10-0,60,True,98,36
+Dundalk Racing Results | 16th January 2024 13:40,N/A,13:40,Standard,1m 2f 150y,Genuine Jim (IRE),W Joyce,5,R P Burns,7th,1 3/4 l,4,9-6,52,True,98,36
+Dundalk Racing Results | 16th January 2024 13:40,N/A,13:40,Standard,1m 2f 150y,Cursory Exam,S T McCullagh,3,D Bunyan & G O'Leary,6th,3/4 l,6,10-0p,59,True,98,36
+Dundalk Racing Results | 16th January 2024 13:40,N/A,13:40,Standard,1m 2f 150y,Gemini Man (IRE),R P Cleary,0,C P Donoghue,5th,1 l,6,9-2p,47,True,98,36
+Dundalk Racing Results | 16th January 2024 13:40,N/A,13:40,Standard,1m 2f 150y,Sunny Dude (IRE),D E Sheehy,3,D Buckley,4th,1/2 l,4,9-1,47,True,98,36
+Dundalk Racing Results | 16th January 2024 13:40,N/A,13:40,Standard,1m 2f 150y,Dinamine (IRE),Siobhan Rutledge,3,J C McConnell,3rd,2 l,6,9-2,47,True,98,36
+Dundalk Racing Results | 16th January 2024 13:40,N/A,13:40,Standard,1m 2f 150y,Together Aclaim,K G Kennedy,7,J C McConnell,2nd,4 1/4 l,5,9-2t,47,True,98,36
+Dundalk Racing Results | 16th January 2024 13:40,N/A,13:40,Standard,1m 2f 150y,Dark Street (IRE),N M Crosse,0,L Comer,1st,N/A,6,9-7,52,True,98,36
+Dundalk Racing Results | 16th January 2024 13:40,N/A,13:40,Standard,1m 2f 150y,Clueless Hill (IRE),O McSweeney,5,L Comer,14th,1/2 l,9,9-2tb,47,True,98,36
+Dundalk Racing Results | 16th January 2024 13:40,N/A,13:40,Standard,1m 2f 150y,Curzon Queen (IRE),N G McCullagh,0,Daniel Murphy,13th,4 1/2 l,4,9-1p,47,True,98,36
+Dundalk Racing Results | 16th January 2024 13:40,N/A,13:40,Standard,1m 2f 150y,Limited Edition,C D Maxwell,0,K H Clarke,12th,Neck,6,9-3,48,True,98,36
+Dundalk Racing Results | 16th January 2024 13:40,N/A,13:40,Standard,1m 2f 150y,Happaugue (IRE),D W O'Connor,0,J C McConnell,11th,3 3/4 l,8,9-7,52,True,98,36
+Dundalk Racing Results | 16th January 2024 13:40,N/A,13:40,Standard,1m 2f 150y,Blackstone Cliff (IRE),J J G Ryan,5,S Crawley,10th,1 l,8,9-2ht,47,True,98,36
+Dundalk Racing Results | 16th January 2024 13:40,N/A,13:40,Standard,1m 2f 150y,Action Motion (IRE),K J Leonard,0,D Hogan,9th,1 1/4 l,5,9-9tp,54,True,98,36
+Dundalk Racing Results | 16th January 2024 13:40,N/A,13:40,Standard,1m 2f 150y,Grey Fable (IRE),R C Colgan,0,S Lavery,8th,Neck,4,10-0,60,True,98,36
+Dundalk Racing Results | 16th January 2024 13:40,N/A,13:40,Standard,1m 2f 150y,Genuine Jim (IRE),W Joyce,5,R P Burns,7th,1 3/4 l,4,9-6,52,True,98,36
+Dundalk Racing Results | 16th January 2024 13:40,N/A,13:40,Standard,1m 2f 150y,Cursory Exam,S T McCullagh,3,D Bunyan & G O'Leary,6th,3/4 l,6,10-0p,59,True,98,36
+Dundalk Racing Results | 16th January 2024 13:40,N/A,13:40,Standard,1m 2f 150y,Gemini Man (IRE),R P Cleary,0,C P Donoghue,5th,1 l,6,9-2p,47,True,98,36
+Dundalk Racing Results | 16th January 2024 13:40,N/A,13:40,Standard,1m 2f 150y,Sunny Dude (IRE),D E Sheehy,3,D Buckley,4th,1/2 l,4,9-1,47,True,98,36
+Dundalk Racing Results | 16th January 2024 13:40,N/A,13:40,Standard,1m 2f 150y,Dinamine (IRE),Siobhan Rutledge,3,J C McConnell,3rd,2 l,6,9-2,47,True,98,36
+Dundalk Racing Results | 16th January 2024 13:40,N/A,13:40,Standard,1m 2f 150y,Together Aclaim,K G Kennedy,7,J C McConnell,2nd,4 1/4 l,5,9-2t,47,True,98,36
+Dundalk Racing Results | 16th January 2024 13:40,N/A,13:40,Standard,1m 2f 150y,Dark Street (IRE),N M Crosse,0,L Comer,1st,N/A,6,9-7,52,True,98,36
+Dundalk Racing Results | 16th January 2024 14:15,N/A,14:15,Standard,1m 2f 150y,Ayrton (FR),G P Halpin,0,T J O'Mara,14th,4 1/2 l,5,9-8p,55,True,98,37
+Dundalk Racing Results | 16th January 2024 14:15,N/A,14:15,Standard,1m 2f 150y,Minella Butterfly,C J MacRedmond,5,J Nallen,13th,Neck,4,9-1,49,True,98,37
+Dundalk Racing Results | 16th January 2024 14:15,N/A,14:15,Standard,1m 2f 150y,Kartayaz (IRE),C D Fahy,10,J C McConnell,12th,2 l,7,9-4,51,True,98,37
+Dundalk Racing Results | 16th January 2024 14:15,N/A,14:15,Standard,1m 2f 150y,Benz (IRE),S B Kelly,0,R K Watson,11th,1 1/2 l,6,9-0b1,47,True,98,37
+Dundalk Racing Results | 16th January 2024 14:15,N/A,14:15,Standard,1m 2f 150y,Flag High (IRE),Siobhan Rutledge,3,J C McConnell,10th,1 l,5,9-0ht,47,True,98,37
+Dundalk Racing Results | 16th January 2024 14:15,N/A,14:15,Standard,1m 2f 150y,Ciao Adios (IRE),K J Leonard,0,D Hogan,9th,Head,5,9-0b,47,True,98,37
+Dundalk Racing Results | 16th January 2024 14:15,N/A,14:15,Standard,1m 2f 150y,Burvea (IRE),R Whearty,5,D Broad,8th,Head,4,9-11,59,True,98,37
+Dundalk Racing Results | 16th January 2024 14:15,N/A,14:15,Standard,1m 2f 150y,Prince Of Abington (IRE),J J G Ryan,5,Miss Jennifer Anne Lynch,7th,Neck,6,9-3,50,True,98,37
+Dundalk Racing Results | 16th January 2024 14:15,N/A,14:15,Standard,1m 2f 150y,Darkened (IRE),P A Harnett,5,D Hogan,6th,1/2 l,8,10-0tb,61,True,98,37
+Dundalk Racing Results | 16th January 2024 14:15,N/A,14:15,Standard,1m 2f 150y,Nevada Brave (IRE),N M Crosse,0,L Comer,5th,Short Head,6,9-0,47,True,98,37
+Dundalk Racing Results | 16th January 2024 14:15,N/A,14:15,Standard,1m 2f 150y,Arctic Blaze (IRE),K G Kennedy,7,J C McConnell,4th,1/2 l,8,9-11,58,True,98,37
+Dundalk Racing Results | 16th January 2024 14:15,N/A,14:15,Standard,1m 2f 150y,Lucky Question,R P Cleary,0,S Lavery,3rd,1 3/4 l,4,8-13p,47,True,98,37
+Dundalk Racing Results | 16th January 2024 14:15,N/A,14:15,Standard,1m 2f 150y,Don't Look Now (IRE),R C Colgan,0,L Comer,2nd,Head,4,9-5p,53,True,98,37
+Dundalk Racing Results | 16th January 2024 14:15,N/A,14:15,Standard,1m 2f 150y,Moondharrig (IRE),W Joyce,5,E Doyle,1st,N/A,4,9-2tb1,50,True,98,37
+Dundalk Racing Results | 16th January 2024 14:15,N/A,14:15,Standard,1m 2f 150y,Ayrton (FR),G P Halpin,0,T J O'Mara,14th,4 1/2 l,5,9-8p,55,True,98,37
+Dundalk Racing Results | 16th January 2024 14:15,N/A,14:15,Standard,1m 2f 150y,Minella Butterfly,C J MacRedmond,5,J Nallen,13th,Neck,4,9-1,49,True,98,37
+Dundalk Racing Results | 16th January 2024 14:15,N/A,14:15,Standard,1m 2f 150y,Kartayaz (IRE),C D Fahy,10,J C McConnell,12th,2 l,7,9-4,51,True,98,37
+Dundalk Racing Results | 16th January 2024 14:15,N/A,14:15,Standard,1m 2f 150y,Benz (IRE),S B Kelly,0,R K Watson,11th,1 1/2 l,6,9-0b1,47,True,98,37
+Dundalk Racing Results | 16th January 2024 14:15,N/A,14:15,Standard,1m 2f 150y,Flag High (IRE),Siobhan Rutledge,3,J C McConnell,10th,1 l,5,9-0ht,47,True,98,37
+Dundalk Racing Results | 16th January 2024 14:15,N/A,14:15,Standard,1m 2f 150y,Ciao Adios (IRE),K J Leonard,0,D Hogan,9th,Head,5,9-0b,47,True,98,37
+Dundalk Racing Results | 16th January 2024 14:15,N/A,14:15,Standard,1m 2f 150y,Burvea (IRE),R Whearty,5,D Broad,8th,Head,4,9-11,59,True,98,37
+Dundalk Racing Results | 16th January 2024 14:15,N/A,14:15,Standard,1m 2f 150y,Prince Of Abington (IRE),J J G Ryan,5,Miss Jennifer Anne Lynch,7th,Neck,6,9-3,50,True,98,37
+Dundalk Racing Results | 16th January 2024 14:15,N/A,14:15,Standard,1m 2f 150y,Darkened (IRE),P A Harnett,5,D Hogan,6th,1/2 l,8,10-0tb,61,True,98,37
+Dundalk Racing Results | 16th January 2024 14:15,N/A,14:15,Standard,1m 2f 150y,Nevada Brave (IRE),N M Crosse,0,L Comer,5th,Short Head,6,9-0,47,True,98,37
+Dundalk Racing Results | 16th January 2024 14:15,N/A,14:15,Standard,1m 2f 150y,Arctic Blaze (IRE),K G Kennedy,7,J C McConnell,4th,1/2 l,8,9-11,58,True,98,37
+Dundalk Racing Results | 16th January 2024 14:15,N/A,14:15,Standard,1m 2f 150y,Lucky Question,R P Cleary,0,S Lavery,3rd,1 3/4 l,4,8-13p,47,True,98,37
+Dundalk Racing Results | 16th January 2024 14:15,N/A,14:15,Standard,1m 2f 150y,Don't Look Now (IRE),R C Colgan,0,L Comer,2nd,Head,4,9-5p,53,True,98,37
+Dundalk Racing Results | 16th January 2024 14:15,N/A,14:15,Standard,1m 2f 150y,Moondharrig (IRE),W Joyce,5,E Doyle,1st,N/A,4,9-2tb1,50,True,98,37
+Dundalk Racing Results | 16th January 2024 14:50,N/A,14:50,Standard,1m,Phil's Dream (IRE),H J Horgan,2,J C McConnell,11th,2 3/4 l,4,9-0tv1,54,True,98,38
+Dundalk Racing Results | 16th January 2024 14:50,N/A,14:50,Standard,1m,Arthur's Victory (IRE),J J G Ryan,0,J Nash,10th,1/2 l,6,9-8p,62,True,98,38
+Dundalk Racing Results | 16th January 2024 14:50,N/A,14:50,Standard,1m,Cyber Attack (IRE),R Whearty,0,G P Cromwell,9th,1 1/4 l,4,9-12,66,True,98,38
+Dundalk Racing Results | 16th January 2024 14:50,N/A,14:50,Standard,1m,Wrecking Ball Paul (IRE),C M Hogan,7,Paul Mulligan,8th,2 3/4 l,6,10-0,68,True,98,38
+Dundalk Racing Results | 16th January 2024 14:50,N/A,14:50,Standard,1m,Rhodesia (IRE),P A Harnett,0,N Lupini,7th,4 1/4 l,4,9-10,64,True,98,38
+Dundalk Racing Results | 16th January 2024 14:50,N/A,14:50,Standard,1m,Comfort Line (IRE),C J MacRedmond,0,A McGuinness,6th,2 l,7,9-13v,67,True,98,38
+Dundalk Racing Results | 16th January 2024 14:50,N/A,14:50,Standard,1m,Doctor Grace (IRE),R M Mulligan,7,M Halford & T Collins,5th,Neck,4,9-10b,64,True,98,38
+Dundalk Racing Results | 16th January 2024 14:50,N/A,14:50,Standard,1m,Rio Largo (IRE),O McSweeney,0,L Comer,4th,2 l,4,10-0,68,True,98,38
+Dundalk Racing Results | 16th January 2024 14:50,N/A,14:50,Standard,1m,Superior Force,J Coen,0,A Murray,3rd,1 l,5,10-2,70,True,98,38
+Dundalk Racing Results | 16th January 2024 14:50,N/A,14:50,Standard,1m,Ha Long Bay (IRE),W Joyce,0,R P Burns,2nd,4 1/2 l,5,8-8,48,True,98,38
+Dundalk Racing Results | 16th January 2024 14:50,N/A,14:50,Standard,1m,Old Peculier,K G Kennedy,7,M Fahey,1st,N/A,5,10-5b,73,True,98,38
+Dundalk Racing Results | 16th January 2024 14:50,N/A,14:50,Standard,1m,Phil's Dream (IRE),H J Horgan,2,J C McConnell,11th,2 3/4 l,4,9-0tv1,54,True,98,38
+Dundalk Racing Results | 16th January 2024 14:50,N/A,14:50,Standard,1m,Arthur's Victory (IRE),J J G Ryan,0,J Nash,10th,1/2 l,6,9-8p,62,True,98,38
+Dundalk Racing Results | 16th January 2024 14:50,N/A,14:50,Standard,1m,Cyber Attack (IRE),R Whearty,0,G P Cromwell,9th,1 1/4 l,4,9-12,66,True,98,38
+Dundalk Racing Results | 16th January 2024 14:50,N/A,14:50,Standard,1m,Wrecking Ball Paul (IRE),C M Hogan,7,Paul Mulligan,8th,2 3/4 l,6,10-0,68,True,98,38
+Dundalk Racing Results | 16th January 2024 14:50,N/A,14:50,Standard,1m,Rhodesia (IRE),P A Harnett,0,N Lupini,7th,4 1/4 l,4,9-10,64,True,98,38
+Dundalk Racing Results | 16th January 2024 14:50,N/A,14:50,Standard,1m,Comfort Line (IRE),C J MacRedmond,0,A McGuinness,6th,2 l,7,9-13v,67,True,98,38
+Dundalk Racing Results | 16th January 2024 14:50,N/A,14:50,Standard,1m,Doctor Grace (IRE),R M Mulligan,7,M Halford & T Collins,5th,Neck,4,9-10b,64,True,98,38
+Dundalk Racing Results | 16th January 2024 14:50,N/A,14:50,Standard,1m,Rio Largo (IRE),O McSweeney,0,L Comer,4th,2 l,4,10-0,68,True,98,38
+Dundalk Racing Results | 16th January 2024 14:50,N/A,14:50,Standard,1m,Superior Force,J Coen,0,A Murray,3rd,1 l,5,10-2,70,True,98,38
+Dundalk Racing Results | 16th January 2024 14:50,N/A,14:50,Standard,1m,Ha Long Bay (IRE),W Joyce,0,R P Burns,2nd,4 1/2 l,5,8-8,48,True,98,38
+Dundalk Racing Results | 16th January 2024 14:50,N/A,14:50,Standard,1m,Old Peculier,K G Kennedy,7,M Fahey,1st,N/A,5,10-5b,73,True,98,38
+Dundalk Racing Results | 16th January 2024 15:25,N/A,15:25,Standard,1m,Guest Star,R Whearty,5,D Bunyan & G O'Leary,7th,2 1/2 l,3,9-4b,57,True,98,39
+Dundalk Racing Results | 16th January 2024 15:25,N/A,15:25,Standard,1m,Amerigo Vespucci (IRE),J J G Ryan,5,M O'Callaghan,6th,1 1/4 l,3,8-9ht,48,True,98,39
+Dundalk Racing Results | 16th January 2024 15:25,N/A,15:25,Standard,1m,Relentless Flyer (IRE),N M Crosse,0,E & P Harty,5th,2 l,3,9-2b,55,True,98,39
+Dundalk Racing Results | 16th January 2024 15:25,N/A,15:25,Standard,1m,Signor Ferrari (IRE),H J Horgan,7,J Feane,4th,1 1/4 l,3,9-12,65,True,98,39
+Dundalk Racing Results | 16th January 2024 15:25,N/A,15:25,Standard,1m,Gregorina (IRE),C J MacRedmond,5,A McGuinness,3rd,Neck,3,9-4v,57,True,98,39
+Dundalk Racing Results | 16th January 2024 15:25,N/A,15:25,Standard,1m,Mary Bagot (IRE),N G McCullagh,0,M Halford & T Collins,2nd,1/2 l,3,9-5,58,True,98,39
+Dundalk Racing Results | 16th January 2024 15:25,N/A,15:25,Standard,1m,Aisling Oscar (IRE),D E Sheehy,3,Craig O'Neill,1st,N/A,3,8-8,47,True,98,39
+Dundalk Racing Results | 16th January 2024 15:25,N/A,15:25,Standard,1m,Guest Star,R Whearty,5,D Bunyan & G O'Leary,7th,2 1/2 l,3,9-4b,57,True,98,39
+Dundalk Racing Results | 16th January 2024 15:25,N/A,15:25,Standard,1m,Amerigo Vespucci (IRE),J J G Ryan,5,M O'Callaghan,6th,1 1/4 l,3,8-9ht,48,True,98,39
+Dundalk Racing Results | 16th January 2024 15:25,N/A,15:25,Standard,1m,Relentless Flyer (IRE),N M Crosse,0,E & P Harty,5th,2 l,3,9-2b,55,True,98,39
+Dundalk Racing Results | 16th January 2024 15:25,N/A,15:25,Standard,1m,Signor Ferrari (IRE),H J Horgan,7,J Feane,4th,1 1/4 l,3,9-12,65,True,98,39
+Dundalk Racing Results | 16th January 2024 15:25,N/A,15:25,Standard,1m,Gregorina (IRE),C J MacRedmond,5,A McGuinness,3rd,Neck,3,9-4v,57,True,98,39
+Dundalk Racing Results | 16th January 2024 15:25,N/A,15:25,Standard,1m,Mary Bagot (IRE),N G McCullagh,0,M Halford & T Collins,2nd,1/2 l,3,9-5,58,True,98,39
+Dundalk Racing Results | 16th January 2024 15:25,N/A,15:25,Standard,1m,Aisling Oscar (IRE),D E Sheehy,3,Craig O'Neill,1st,N/A,3,8-8,47,True,98,39
+Dundalk Racing Results | 16th January 2024 16:00,N/A,16:00,Standard,6f,Santa Fe (IRE),K J Leonard,0,C O'Brien,NR,N/A,4,9-0t,48,True,98,40
+Dundalk Racing Results | 16th January 2024 16:00,N/A,16:00,Standard,6f,Dawn Noir (IRE),N G McCullagh,0,N G Hynds,14th,8 1/2 l,6,9-8t,56,True,98,40
+Dundalk Racing Results | 16th January 2024 16:00,N/A,16:00,Standard,6f,Un Bacio Ancora (IRE),G P Halpin,0,P J F Murphy,13th,1 l,5,9-13t,61,True,98,40
+Dundalk Racing Results | 16th January 2024 16:00,N/A,16:00,Standard,6f,Silver Nemo (IRE),Siobhan Rutledge,3,L Smyth,12th,3/4 l,6,8-13t,47,True,98,40
+Dundalk Racing Results | 16th January 2024 16:00,N/A,16:00,Standard,6f,Maggie Thunder (IRE),W Joyce,5,G Hassett,11th,Neck,8,8-13p,47,True,98,40
+Dundalk Racing Results | 16th January 2024 16:00,N/A,16:00,Standard,6f,Empress Of Bough (IRE),R P Cleary,0,A McCann,10th,1 3/4 l,5,9-3,51,True,98,40
+Dundalk Racing Results | 16th January 2024 16:00,N/A,16:00,Standard,6f,Poet's Pride,N M Crosse,0,D Marnane,9th,Neck,9,9-0,48,True,98,40
+Dundalk Racing Results | 16th January 2024 16:00,N/A,16:00,Standard,6f,Kuwait Direction (IRE),R Whearty,5,K H Clarke,8th,Head,7,8-13,47,True,98,40
+Dundalk Racing Results | 16th January 2024 16:00,N/A,16:00,Standard,6f,Millieblue (IRE),C J MacRedmond,5,N Slevin,7th,Short Head,4,9-2p,50,True,98,40
+Dundalk Racing Results | 16th January 2024 16:00,N/A,16:00,Standard,6f,Hezahunk (IRE),C M Hogan,7,A McGuinness,6th,3/4 l,5,9-10v,58,True,98,40
+Dundalk Racing Results | 16th January 2024 16:00,N/A,16:00,Standard,6f,Rebecca's Girl (IRE),S T McCullagh,3,A Kinirons,5th,Short Head,4,10-1,63,True,98,40
+Dundalk Racing Results | 16th January 2024 16:00,N/A,16:00,Standard,6f,Theriverrunsdeep (IRE),J J G Ryan,5,S G O'Donnell,4th,3/4 l,8,9-10p,58,True,98,40
+Dundalk Racing Results | 16th January 2024 16:00,N/A,16:00,Standard,6f,Below Deck (IRE),O McSweeney,5,L Comer,3rd,Short Head,4,9-1p1,49,True,98,40
+Dundalk Racing Results | 16th January 2024 16:00,N/A,16:00,Standard,6f,Irish Rumour (IRE),R C Colgan,0,Miss Jennifer Anne Lynch,2nd,3/4 l,4,10-0,62,True,98,40
+Dundalk Racing Results | 16th January 2024 16:00,N/A,16:00,Standard,6f,Havana Notion,H J Horgan,7,J Feane,1st,N/A,4,9-8,56,True,98,40
+Dundalk Racing Results | 16th January 2024 16:00,N/A,16:00,Standard,6f,Santa Fe (IRE),K J Leonard,0,C O'Brien,NR,N/A,4,9-0t,48,True,98,40
+Dundalk Racing Results | 16th January 2024 16:00,N/A,16:00,Standard,6f,Dawn Noir (IRE),N G McCullagh,0,N G Hynds,14th,8 1/2 l,6,9-8t,56,True,98,40
+Dundalk Racing Results | 16th January 2024 16:00,N/A,16:00,Standard,6f,Un Bacio Ancora (IRE),G P Halpin,0,P J F Murphy,13th,1 l,5,9-13t,61,True,98,40
+Dundalk Racing Results | 16th January 2024 16:00,N/A,16:00,Standard,6f,Silver Nemo (IRE),Siobhan Rutledge,3,L Smyth,12th,3/4 l,6,8-13t,47,True,98,40
+Dundalk Racing Results | 16th January 2024 16:00,N/A,16:00,Standard,6f,Maggie Thunder (IRE),W Joyce,5,G Hassett,11th,Neck,8,8-13p,47,True,98,40
+Dundalk Racing Results | 16th January 2024 16:00,N/A,16:00,Standard,6f,Empress Of Bough (IRE),R P Cleary,0,A McCann,10th,1 3/4 l,5,9-3,51,True,98,40
+Dundalk Racing Results | 16th January 2024 16:00,N/A,16:00,Standard,6f,Poet's Pride,N M Crosse,0,D Marnane,9th,Neck,9,9-0,48,True,98,40
+Dundalk Racing Results | 16th January 2024 16:00,N/A,16:00,Standard,6f,Kuwait Direction (IRE),R Whearty,5,K H Clarke,8th,Head,7,8-13,47,True,98,40
+Dundalk Racing Results | 16th January 2024 16:00,N/A,16:00,Standard,6f,Millieblue (IRE),C J MacRedmond,5,N Slevin,7th,Short Head,4,9-2p,50,True,98,40
+Dundalk Racing Results | 16th January 2024 16:00,N/A,16:00,Standard,6f,Hezahunk (IRE),C M Hogan,7,A McGuinness,6th,3/4 l,5,9-10v,58,True,98,40
+Dundalk Racing Results | 16th January 2024 16:00,N/A,16:00,Standard,6f,Rebecca's Girl (IRE),S T McCullagh,3,A Kinirons,5th,Short Head,4,10-1,63,True,98,40
+Dundalk Racing Results | 16th January 2024 16:00,N/A,16:00,Standard,6f,Theriverrunsdeep (IRE),J J G Ryan,5,S G O'Donnell,4th,3/4 l,8,9-10p,58,True,98,40
+Dundalk Racing Results | 16th January 2024 16:00,N/A,16:00,Standard,6f,Below Deck (IRE),O McSweeney,5,L Comer,3rd,Short Head,4,9-1p1,49,True,98,40
+Dundalk Racing Results | 16th January 2024 16:00,N/A,16:00,Standard,6f,Irish Rumour (IRE),R C Colgan,0,Miss Jennifer Anne Lynch,2nd,3/4 l,4,10-0,62,True,98,40
+Dundalk Racing Results | 16th January 2024 16:00,N/A,16:00,Standard,6f,Havana Notion,H J Horgan,7,J Feane,1st,N/A,4,9-8,56,True,98,40
+Dundalk Racing Results | 16th January 2024 16:35,N/A,16:35,Standard,6f,Coco Hill (IRE),Siobhan Rutledge,3,J C McConnell,NR,N/A,4,8-13,47,True,98,41
+Dundalk Racing Results | 16th January 2024 16:35,N/A,16:35,Standard,6f,Invincible Larne (IRE),R C Colgan,0,E McNamara,14th,4 1/2 l,8,9-10t1,58,True,98,41
+Dundalk Racing Results | 16th January 2024 16:35,N/A,16:35,Standard,6f,Iur Cinn Tra (IRE),R Whearty,5,P Downey,13th,3 l,5,9-10t,58,True,98,41
+Dundalk Racing Results | 16th January 2024 16:35,N/A,16:35,Standard,6f,Zig Zag Zyggy (IRE),C J MacRedmond,5,A McGuinness,12th,1 3/4 l,9,8-13v,47,True,98,41
+Dundalk Racing Results | 16th January 2024 16:35,N/A,16:35,Standard,6f,The Fog Horn (IRE),J J G Ryan,5,S G O'Donnell,11th,Neck,4,9-6p,54,True,98,41
+Dundalk Racing Results | 16th January 2024 16:35,N/A,16:35,Standard,6f,American In Paris (IRE),P A Harnett,5,D Hogan,10th,Head,4,9-11p,59,True,98,41
+Dundalk Racing Results | 16th January 2024 16:35,N/A,16:35,Standard,6f,Tynan (IRE),S B Kelly,0,R K Watson,9th,3/4 l,6,8-13tp,47,True,98,41
+Dundalk Racing Results | 16th January 2024 16:35,N/A,16:35,Standard,6f,Haalim,C D Maxwell,0,A McCann,8th,3 l,4,9-0h1,48,True,98,41
+Dundalk Racing Results | 16th January 2024 16:35,N/A,16:35,Standard,6f,My Girl Sioux (IRE),C Horgan,7,A Slattery,7th,Neck,4,9-0,48,True,98,41
+Dundalk Racing Results | 16th January 2024 16:35,N/A,16:35,Standard,6f,Princess Plumeria (IRE),R P Cleary,0,T Cleary,6th,3/4 l,6,8-13t,47,True,98,41
+Dundalk Racing Results | 16th January 2024 16:35,N/A,16:35,Standard,6f,Maid To Shine (IRE),D W O'Connor,0,G Hassett,5th,Neck,5,10-2,64,True,98,41
+Dundalk Racing Results | 16th January 2024 16:35,N/A,16:35,Standard,6f,Gegenpressing,N M Crosse,0,E & P Harty,4th,2 1/2 l,6,9-2,50,True,98,41
+Dundalk Racing Results | 16th January 2024 16:35,N/A,16:35,Standard,6f,Jazzy Dancer (IRE),D E Sheehy,3,W J Martin,3rd,1 l,6,9-11b,59,True,98,41
+Dundalk Racing Results | 16th January 2024 16:35,N/A,16:35,Standard,6f,No Speed Limit (FR),K J Leonard,0,P J McKenna,2nd,Head,9,9-10v,58,True,98,41
+Dundalk Racing Results | 16th January 2024 16:35,N/A,16:35,Standard,6f,James Henry (IRE),S T McCullagh,3,L Breen,1st,N/A,5,10-2b,64,True,98,41
+Dundalk Racing Results | 16th January 2024 16:35,N/A,16:35,Standard,6f,Coco Hill (IRE),Siobhan Rutledge,3,J C McConnell,NR,N/A,4,8-13,47,True,98,41
+Dundalk Racing Results | 16th January 2024 16:35,N/A,16:35,Standard,6f,Invincible Larne (IRE),R C Colgan,0,E McNamara,14th,4 1/2 l,8,9-10t1,58,True,98,41
+Dundalk Racing Results | 16th January 2024 16:35,N/A,16:35,Standard,6f,Iur Cinn Tra (IRE),R Whearty,5,P Downey,13th,3 l,5,9-10t,58,True,98,41
+Dundalk Racing Results | 16th January 2024 16:35,N/A,16:35,Standard,6f,Zig Zag Zyggy (IRE),C J MacRedmond,5,A McGuinness,12th,1 3/4 l,9,8-13v,47,True,98,41
+Dundalk Racing Results | 16th January 2024 16:35,N/A,16:35,Standard,6f,The Fog Horn (IRE),J J G Ryan,5,S G O'Donnell,11th,Neck,4,9-6p,54,True,98,41
+Dundalk Racing Results | 16th January 2024 16:35,N/A,16:35,Standard,6f,American In Paris (IRE),P A Harnett,5,D Hogan,10th,Head,4,9-11p,59,True,98,41
+Dundalk Racing Results | 16th January 2024 16:35,N/A,16:35,Standard,6f,Tynan (IRE),S B Kelly,0,R K Watson,9th,3/4 l,6,8-13tp,47,True,98,41
+Dundalk Racing Results | 16th January 2024 16:35,N/A,16:35,Standard,6f,Haalim,C D Maxwell,0,A McCann,8th,3 l,4,9-0h1,48,True,98,41
+Dundalk Racing Results | 16th January 2024 16:35,N/A,16:35,Standard,6f,My Girl Sioux (IRE),C Horgan,7,A Slattery,7th,Neck,4,9-0,48,True,98,41
+Dundalk Racing Results | 16th January 2024 16:35,N/A,16:35,Standard,6f,Princess Plumeria (IRE),R P Cleary,0,T Cleary,6th,3/4 l,6,8-13t,47,True,98,41
+Dundalk Racing Results | 16th January 2024 16:35,N/A,16:35,Standard,6f,Maid To Shine (IRE),D W O'Connor,0,G Hassett,5th,Neck,5,10-2,64,True,98,41
+Dundalk Racing Results | 16th January 2024 16:35,N/A,16:35,Standard,6f,Gegenpressing,N M Crosse,0,E & P Harty,4th,2 1/2 l,6,9-2,50,True,98,41
+Dundalk Racing Results | 16th January 2024 16:35,N/A,16:35,Standard,6f,Jazzy Dancer (IRE),D E Sheehy,3,W J Martin,3rd,1 l,6,9-11b,59,True,98,41
+Dundalk Racing Results | 16th January 2024 16:35,N/A,16:35,Standard,6f,No Speed Limit (FR),K J Leonard,0,P J McKenna,2nd,Head,9,9-10v,58,True,98,41
+Dundalk Racing Results | 16th January 2024 16:35,N/A,16:35,Standard,6f,James Henry (IRE),S T McCullagh,3,L Breen,1st,N/A,5,10-2b,64,True,98,41
+Dundalk Racing Results | 16th January 2024 17:10,N/A,17:10,Standard,6f,Ecoutez Bien (IRE),N M Crosse,0,J P O'Brien,10th,3 1/4 l,3,9-0,-,True,98,42
+Dundalk Racing Results | 16th January 2024 17:10,N/A,17:10,Standard,6f,Go Girl Go (IRE),R P Cleary,0,A Murray,9th,Neck,3,9-0,-,True,98,42
+Dundalk Racing Results | 16th January 2024 17:10,N/A,17:10,Standard,6f,Posh Maisie (IRE),D E Sheehy,3,J P Murtagh,8th,3/4 l,3,9-0t1,-,True,98,42
+Dundalk Racing Results | 16th January 2024 17:10,N/A,17:10,Standard,6f,Puturhandstogether (IRE),G P Halpin,0,J P O'Brien,7th,1/2 l,3,9-5,-,True,98,42
+Dundalk Racing Results | 16th January 2024 17:10,N/A,17:10,Standard,6f,Coulstar (IRE),S B Kelly,0,J P Murtagh,6th,1/2 l,3,9-0,-,True,98,42
+Dundalk Racing Results | 16th January 2024 17:10,N/A,17:10,Standard,6f,Ohailbhic (IRE),R Whearty,5,J Feane,5th,1 1/4 l,3,9-5,-,True,98,42
+Dundalk Racing Results | 16th January 2024 17:10,N/A,17:10,Standard,6f,Tarsus (IRE),C Horgan,7,A Slattery,4th,Short Head,3,9-8t,-,True,98,42
+Dundalk Racing Results | 16th January 2024 17:10,N/A,17:10,Standard,6f,Manhattan Dreamer (USA),J J G Ryan,5,A Murray,3rd,Neck,3,9-0,-,True,98,42
+Dundalk Racing Results | 16th January 2024 17:10,N/A,17:10,Standard,6f,Mint Man,O McSweeney,5,P J F Murphy,2nd,Neck,3,9-5,-,True,98,42
+Dundalk Racing Results | 16th January 2024 17:10,N/A,17:10,Standard,6f,Perfect Judgement (IRE),C J MacRedmond,5,A McGuinness,1st,N/A,3,9-5,-,True,98,42
+Dundalk Racing Results | 16th January 2024 17:10,N/A,17:10,Standard,6f,Ecoutez Bien (IRE),N M Crosse,0,J P O'Brien,10th,3 1/4 l,3,9-0,-,True,98,42
+Dundalk Racing Results | 16th January 2024 17:10,N/A,17:10,Standard,6f,Go Girl Go (IRE),R P Cleary,0,A Murray,9th,Neck,3,9-0,-,True,98,42
+Dundalk Racing Results | 16th January 2024 17:10,N/A,17:10,Standard,6f,Posh Maisie (IRE),D E Sheehy,3,J P Murtagh,8th,3/4 l,3,9-0t1,-,True,98,42
+Dundalk Racing Results | 16th January 2024 17:10,N/A,17:10,Standard,6f,Puturhandstogether (IRE),G P Halpin,0,J P O'Brien,7th,1/2 l,3,9-5,-,True,98,42
+Dundalk Racing Results | 16th January 2024 17:10,N/A,17:10,Standard,6f,Coulstar (IRE),S B Kelly,0,J P Murtagh,6th,1/2 l,3,9-0,-,True,98,42
+Dundalk Racing Results | 16th January 2024 17:10,N/A,17:10,Standard,6f,Ohailbhic (IRE),R Whearty,5,J Feane,5th,1 1/4 l,3,9-5,-,True,98,42
+Dundalk Racing Results | 16th January 2024 17:10,N/A,17:10,Standard,6f,Tarsus (IRE),C Horgan,7,A Slattery,4th,Short Head,3,9-8t,-,True,98,42
+Dundalk Racing Results | 16th January 2024 17:10,N/A,17:10,Standard,6f,Manhattan Dreamer (USA),J J G Ryan,5,A Murray,3rd,Neck,3,9-0,-,True,98,42
+Dundalk Racing Results | 16th January 2024 17:10,N/A,17:10,Standard,6f,Mint Man,O McSweeney,5,P J F Murphy,2nd,Neck,3,9-5,-,True,98,42
+Dundalk Racing Results | 16th January 2024 17:10,N/A,17:10,Standard,6f,Perfect Judgement (IRE),C J MacRedmond,5,A McGuinness,1st,N/A,3,9-5,-,True,98,42
+Dundalk Racing Results | 19th January 2024 16:00,N/A,16:00,Standard,6f,Belle Fourche (IRE),R P Cleary,0,A McCann,13th,9 1/2 l,5,8-10tb,67,True,98,43
+Dundalk Racing Results | 19th January 2024 16:00,N/A,16:00,Standard,6f,Livingston Range (IRE),K G Kennedy,7,L Breen,12th,4 3/4 l,6,9-2tb,73,True,98,43
+Dundalk Racing Results | 19th January 2024 16:00,N/A,16:00,Standard,6f,Coolcalmncollected,Siobhan Rutledge,3,Ciaran Murphy,11th,1 1/4 l,4,8-12,69,True,98,43
+Dundalk Racing Results | 19th January 2024 16:00,N/A,16:00,Standard,6f,Distillate,J A Powell,3,A McGuinness,10th,1 3/4 l,4,9-1t,72,True,98,43
+Dundalk Racing Results | 19th January 2024 16:00,N/A,16:00,Standard,6f,Marsa (IRE),C D Hayes,0,E Lynam,9th,1 l,5,9-5,76,True,98,43
+Dundalk Racing Results | 19th January 2024 16:00,N/A,16:00,Standard,6f,Rough Diamond (IRE),Sorcha Woods,7,E Lynam,8th,3/4 l,7,10-0,85,True,98,43
+Dundalk Racing Results | 19th January 2024 16:00,N/A,16:00,Standard,6f,Dontspoilasale (IRE),J A Heffernan,0,N Lupini,7th,2 3/4 l,4,9-12,83,True,98,43
+Dundalk Racing Results | 19th January 2024 16:00,N/A,16:00,Standard,6f,Ostraka (IRE),R P Whelan,0,M Halford & T Collins,6th,Neck,4,9-4b,75,True,98,43
+Dundalk Racing Results | 19th January 2024 16:00,N/A,16:00,Standard,6f,Collective Power (IRE),D P McDonogh,0,E Lynam,5th,Neck,6,9-11,82,True,98,43
+Dundalk Racing Results | 19th January 2024 16:00,N/A,16:00,Standard,6f,Musical Tribute,R Whearty,5,K H Clarke,4th,Head,4,9-7b,78,True,98,43
+Dundalk Racing Results | 19th January 2024 16:00,N/A,16:00,Standard,6f,Prisoner's Dilemma,D W O'Connor,0,J F Levins,3rd,Head,8,9-10p,81,True,98,43
+Dundalk Racing Results | 19th January 2024 16:00,N/A,16:00,Standard,6f,Inishmot Prince (IRE),J J G Ryan,5,T G McCourt,2nd,3/4 l,6,9-11v,82,True,98,43
+Dundalk Racing Results | 19th January 2024 16:00,N/A,16:00,Standard,6f,Dream Today (IRE),C J MacRedmond,5,A McGuinness,1st,N/A,9,9-12tp,83,True,98,43
+Dundalk Racing Results | 19th January 2024 16:00,N/A,16:00,Standard,6f,Belle Fourche (IRE),R P Cleary,0,A McCann,13th,9 1/2 l,5,8-10tb,67,True,98,43
+Dundalk Racing Results | 19th January 2024 16:00,N/A,16:00,Standard,6f,Livingston Range (IRE),K G Kennedy,7,L Breen,12th,4 3/4 l,6,9-2tb,73,True,98,43
+Dundalk Racing Results | 19th January 2024 16:00,N/A,16:00,Standard,6f,Coolcalmncollected,Siobhan Rutledge,3,Ciaran Murphy,11th,1 1/4 l,4,8-12,69,True,98,43
+Dundalk Racing Results | 19th January 2024 16:00,N/A,16:00,Standard,6f,Distillate,J A Powell,3,A McGuinness,10th,1 3/4 l,4,9-1t,72,True,98,43
+Dundalk Racing Results | 19th January 2024 16:00,N/A,16:00,Standard,6f,Marsa (IRE),C D Hayes,0,E Lynam,9th,1 l,5,9-5,76,True,98,43
+Dundalk Racing Results | 19th January 2024 16:00,N/A,16:00,Standard,6f,Rough Diamond (IRE),Sorcha Woods,7,E Lynam,8th,3/4 l,7,10-0,85,True,98,43
+Dundalk Racing Results | 19th January 2024 16:00,N/A,16:00,Standard,6f,Dontspoilasale (IRE),J A Heffernan,0,N Lupini,7th,2 3/4 l,4,9-12,83,True,98,43
+Dundalk Racing Results | 19th January 2024 16:00,N/A,16:00,Standard,6f,Ostraka (IRE),R P Whelan,0,M Halford & T Collins,6th,Neck,4,9-4b,75,True,98,43
+Dundalk Racing Results | 19th January 2024 16:00,N/A,16:00,Standard,6f,Collective Power (IRE),D P McDonogh,0,E Lynam,5th,Neck,6,9-11,82,True,98,43
+Dundalk Racing Results | 19th January 2024 16:00,N/A,16:00,Standard,6f,Musical Tribute,R Whearty,5,K H Clarke,4th,Head,4,9-7b,78,True,98,43
+Dundalk Racing Results | 19th January 2024 16:00,N/A,16:00,Standard,6f,Prisoner's Dilemma,D W O'Connor,0,J F Levins,3rd,Head,8,9-10p,81,True,98,43
+Dundalk Racing Results | 19th January 2024 16:00,N/A,16:00,Standard,6f,Inishmot Prince (IRE),J J G Ryan,5,T G McCourt,2nd,3/4 l,6,9-11v,82,True,98,43
+Dundalk Racing Results | 19th January 2024 16:00,N/A,16:00,Standard,6f,Dream Today (IRE),C J MacRedmond,5,A McGuinness,1st,N/A,9,9-12tp,83,True,98,43
+Dundalk Racing Results | 19th January 2024 16:30,N/A,16:30,Standard,2m,Tenth Amendment (IRE),R Whearty,5,K H Clarke,4th,4 l,10,9-10t,-,True,98,44
+Dundalk Racing Results | 19th January 2024 16:30,N/A,16:30,Standard,2m,Cape Bridgewater (IRE),S Foley,0,D Bunyan & G O'Leary,3rd,8 l,4,9-5,-,True,98,44
+Dundalk Racing Results | 19th January 2024 16:30,N/A,16:30,Standard,2m,Longclaw (USA),G M Ryan,0,P J F Murphy,2nd,Short Head,7,9-10,-,True,98,44
+Dundalk Racing Results | 19th January 2024 16:30,N/A,16:30,Standard,2m,Magellan Strait (IRE),H J Horgan,7,J P O'Brien,1st,N/A,5,9-10p,-,True,98,44
+Dundalk Racing Results | 19th January 2024 16:30,N/A,16:30,Standard,2m,Tenth Amendment (IRE),R Whearty,5,K H Clarke,4th,4 l,10,9-10t,-,True,98,44
+Dundalk Racing Results | 19th January 2024 16:30,N/A,16:30,Standard,2m,Cape Bridgewater (IRE),S Foley,0,D Bunyan & G O'Leary,3rd,8 l,4,9-5,-,True,98,44
+Dundalk Racing Results | 19th January 2024 16:30,N/A,16:30,Standard,2m,Longclaw (USA),G M Ryan,0,P J F Murphy,2nd,Short Head,7,9-10,-,True,98,44
+Dundalk Racing Results | 19th January 2024 16:30,N/A,16:30,Standard,2m,Magellan Strait (IRE),H J Horgan,7,J P O'Brien,1st,N/A,5,9-10p,-,True,98,44
+Dundalk Racing Results | 19th January 2024 17:00,N/A,17:00,Standard,2m,Spinning Web (IRE),N G McCullagh,0,Ms M Mullins,NR,N/A,4,9-4,57,True,98,45
+Dundalk Racing Results | 19th January 2024 17:00,N/A,17:00,Standard,2m,Overstate,J M Sheridan,0,D Hogan,NR,N/A,5,9-13p,61,True,98,45
+Dundalk Racing Results | 19th January 2024 17:00,N/A,17:00,Standard,2m,Ballybaun Star (IRE),G M Ryan,0,T Gibney,14th,47 l,7,8-13,47,True,98,45
+Dundalk Racing Results | 19th January 2024 17:00,N/A,17:00,Standard,2m,Firm Belief (IRE),J A Heffernan,0,R Sweeney,13th,Short Head,6,10-1,63,True,98,45
+Dundalk Racing Results | 19th January 2024 17:00,N/A,17:00,Standard,2m,Club Manager,R Whearty,5,G P Cromwell,12th,Nose,4,9-12,65,True,98,45
+Dundalk Racing Results | 19th January 2024 17:00,N/A,17:00,Standard,2m,Breagagh (IRE),Aileen O'Sullivan,10,S Millar,11th,1 1/2 l,6,9-2p,50,True,98,45
+Dundalk Racing Results | 19th January 2024 17:00,N/A,17:00,Standard,2m,Movie King (IRE),S Foley,0,A J Martin,10th,1 3/4 l,7,9-10t,58,True,98,45
+Dundalk Racing Results | 19th January 2024 17:00,N/A,17:00,Standard,2m,Kashi (FR),R C Colgan,0,K Thornton,9th,Head,7,9-6,54,True,98,45
+Dundalk Racing Results | 19th January 2024 17:00,N/A,17:00,Standard,2m,Desert Friend (IRE),R P Cleary,0,Mrs D Foster,8th,Neck,8,10-1,63,True,98,45
+Dundalk Racing Results | 19th January 2024 17:00,N/A,17:00,Standard,2m,Figurehead (IRE),J Cleary,7,Michael G Cleary,7th,3/4 l,7,9-12tp,60,True,98,45
+Dundalk Racing Results | 19th January 2024 17:00,N/A,17:00,Standard,2m,Honketonk Angel (IRE),O McSweeney,5,L Comer,6th,1/2 l,7,9-6p,54,True,98,45
+Dundalk Racing Results | 19th January 2024 17:00,N/A,17:00,Standard,2m,Crystal Caves (FR),C D Hayes,0,T Gibney,5th,Short Head,5,9-12t,60,True,98,45
+Dundalk Racing Results | 19th January 2024 17:00,N/A,17:00,Standard,2m,Hammersmith (IRE),J J G Ryan,5,T O'Brien,4th,Neck,8,9-5tb,53,True,98,45
+Dundalk Racing Results | 19th January 2024 17:00,N/A,17:00,Standard,2m,Alex The Great (IRE),M P Sheehy,0,A Murray,3rd,Short Head,4,9-7,60,True,98,45
+Dundalk Racing Results | 19th January 2024 17:00,N/A,17:00,Standard,2m,Folly Beach,D King,5,M A Molloy,2nd,1/2 l,6,10-1h,63,True,98,45
+Dundalk Racing Results | 19th January 2024 17:00,N/A,17:00,Standard,2m,Gains Of War (IRE),N M Crosse,0,L Comer,1st,N/A,5,8-13p,47,True,98,45
+Dundalk Racing Results | 19th January 2024 17:00,N/A,17:00,Standard,2m,Spinning Web (IRE),N G McCullagh,0,Ms M Mullins,NR,N/A,4,9-4,57,True,98,45
+Dundalk Racing Results | 19th January 2024 17:00,N/A,17:00,Standard,2m,Overstate,J M Sheridan,0,D Hogan,NR,N/A,5,9-13p,61,True,98,45
+Dundalk Racing Results | 19th January 2024 17:00,N/A,17:00,Standard,2m,Ballybaun Star (IRE),G M Ryan,0,T Gibney,14th,47 l,7,8-13,47,True,98,45
+Dundalk Racing Results | 19th January 2024 17:00,N/A,17:00,Standard,2m,Firm Belief (IRE),J A Heffernan,0,R Sweeney,13th,Short Head,6,10-1,63,True,98,45
+Dundalk Racing Results | 19th January 2024 17:00,N/A,17:00,Standard,2m,Club Manager,R Whearty,5,G P Cromwell,12th,Nose,4,9-12,65,True,98,45
+Dundalk Racing Results | 19th January 2024 17:00,N/A,17:00,Standard,2m,Breagagh (IRE),Aileen O'Sullivan,10,S Millar,11th,1 1/2 l,6,9-2p,50,True,98,45
+Dundalk Racing Results | 19th January 2024 17:00,N/A,17:00,Standard,2m,Movie King (IRE),S Foley,0,A J Martin,10th,1 3/4 l,7,9-10t,58,True,98,45
+Dundalk Racing Results | 19th January 2024 17:00,N/A,17:00,Standard,2m,Kashi (FR),R C Colgan,0,K Thornton,9th,Head,7,9-6,54,True,98,45
+Dundalk Racing Results | 19th January 2024 17:00,N/A,17:00,Standard,2m,Desert Friend (IRE),R P Cleary,0,Mrs D Foster,8th,Neck,8,10-1,63,True,98,45
+Dundalk Racing Results | 19th January 2024 17:00,N/A,17:00,Standard,2m,Figurehead (IRE),J Cleary,7,Michael G Cleary,7th,3/4 l,7,9-12tp,60,True,98,45
+Dundalk Racing Results | 19th January 2024 17:00,N/A,17:00,Standard,2m,Honketonk Angel (IRE),O McSweeney,5,L Comer,6th,1/2 l,7,9-6p,54,True,98,45
+Dundalk Racing Results | 19th January 2024 17:00,N/A,17:00,Standard,2m,Crystal Caves (FR),C D Hayes,0,T Gibney,5th,Short Head,5,9-12t,60,True,98,45
+Dundalk Racing Results | 19th January 2024 17:00,N/A,17:00,Standard,2m,Hammersmith (IRE),J J G Ryan,5,T O'Brien,4th,Neck,8,9-5tb,53,True,98,45
+Dundalk Racing Results | 19th January 2024 17:00,N/A,17:00,Standard,2m,Alex The Great (IRE),M P Sheehy,0,A Murray,3rd,Short Head,4,9-7,60,True,98,45
+Dundalk Racing Results | 19th January 2024 17:00,N/A,17:00,Standard,2m,Folly Beach,D King,5,M A Molloy,2nd,1/2 l,6,10-1h,63,True,98,45
+Dundalk Racing Results | 19th January 2024 17:00,N/A,17:00,Standard,2m,Gains Of War (IRE),N M Crosse,0,L Comer,1st,N/A,5,8-13p,47,True,98,45
+Dundalk Racing Results | 19th January 2024 17:30,N/A,17:30,Standard,7f,Bungle Inthedesert (IRE),D W O'Connor,0,J C McConnell,3rd,1 1/2 l,5,9-5,-,True,98,46
+Dundalk Racing Results | 19th January 2024 17:30,N/A,17:30,Standard,7f,Point Gellibrand (IRE),S Foley,0,D Bunyan & G O'Leary,2nd,6 l,5,9-5,-,True,98,46
+Dundalk Racing Results | 19th January 2024 17:30,N/A,17:30,Standard,7f,San Andreas (IRE),H J Horgan,7,J P O'Brien,1st,N/A,8,9-5p1,-,True,98,46
+Dundalk Racing Results | 19th January 2024 17:30,N/A,17:30,Standard,7f,Bungle Inthedesert (IRE),D W O'Connor,0,J C McConnell,3rd,1 1/2 l,5,9-5,-,True,98,46
+Dundalk Racing Results | 19th January 2024 17:30,N/A,17:30,Standard,7f,Point Gellibrand (IRE),S Foley,0,D Bunyan & G O'Leary,2nd,6 l,5,9-5,-,True,98,46
+Dundalk Racing Results | 19th January 2024 17:30,N/A,17:30,Standard,7f,San Andreas (IRE),H J Horgan,7,J P O'Brien,1st,N/A,8,9-5p1,-,True,98,46
+Dundalk Racing Results | 19th January 2024 18:30,N/A,18:30,Standard,1m,San Martino (IRE),Aileen O'Sullivan,10,S Millar,12th,7 1/2 l,6,9-3,73,True,98,48
+Dundalk Racing Results | 19th January 2024 18:30,N/A,18:30,Standard,1m,Pillar Of Hope,J A Heffernan,0,H D McGuigan,11th,Short Head,6,9-8,78,True,98,48
+Dundalk Racing Results | 19th January 2024 18:30,N/A,18:30,Standard,1m,Atlas (IRE),Alyse Jane Clarke,10,T G McCourt,10th,4 1/2 l,11,8-7v,63,True,98,48
+Dundalk Racing Results | 19th January 2024 18:30,N/A,18:30,Standard,1m,Higher Kingdom,Siobhan Rutledge,3,J C McConnell,9th,3/4 l,7,8-13,69,True,98,48
+Dundalk Racing Results | 19th January 2024 18:30,N/A,18:30,Standard,1m,Run The Jewels (IRE),O McSweeney,5,M McCullagh,8th,Neck,7,9-2,72,True,98,48
+Dundalk Racing Results | 19th January 2024 18:30,N/A,18:30,Standard,1m,Mulgrave (IRE),D W O'Connor,0,J C McConnell,7th,Nose,6,9-7ht,77,True,98,48
+Dundalk Racing Results | 19th January 2024 18:30,N/A,18:30,Standard,1m,Pierre Lapin (IRE),R P Whelan,0,A McGuinness,6th,1/2 l,7,9-3p,73,True,98,48
+Dundalk Racing Results | 19th January 2024 18:30,N/A,18:30,Standard,1m,Little Keilee (IRE),S Foley,0,Ciaran Murphy,5th,1 1/4 l,4,9-5,75,True,98,48
+Dundalk Racing Results | 19th January 2024 18:30,N/A,18:30,Standard,1m,Storm Eric (IRE),J J G Ryan,5,Jamie Flynn,4th,Head,5,9-2t,72,True,98,48
+Dundalk Racing Results | 19th January 2024 18:30,N/A,18:30,Standard,1m,Ransom,J M Sheridan,0,D Hogan,3rd,3/4 l,7,9-13t,83,True,98,48
+Dundalk Racing Results | 19th January 2024 18:30,N/A,18:30,Standard,1m,Hightimeyouwon,C J MacRedmond,5,A McGuinness,2nd,1/2 l,8,10-0v,84,True,98,48
+Dundalk Racing Results | 19th January 2024 18:30,N/A,18:30,Standard,1m,Chavajod,P A Harnett,5,D P Coakley,1st,N/A,6,9-7v,77,True,98,48
+Dundalk Racing Results | 19th January 2024 18:30,N/A,18:30,Standard,1m,San Martino (IRE),Aileen O'Sullivan,10,S Millar,12th,7 1/2 l,6,9-3,73,True,98,48
+Dundalk Racing Results | 19th January 2024 18:30,N/A,18:30,Standard,1m,Pillar Of Hope,J A Heffernan,0,H D McGuigan,11th,Short Head,6,9-8,78,True,98,48
+Dundalk Racing Results | 19th January 2024 18:30,N/A,18:30,Standard,1m,Atlas (IRE),Alyse Jane Clarke,10,T G McCourt,10th,4 1/2 l,11,8-7v,63,True,98,48
+Dundalk Racing Results | 19th January 2024 18:30,N/A,18:30,Standard,1m,Higher Kingdom,Siobhan Rutledge,3,J C McConnell,9th,3/4 l,7,8-13,69,True,98,48
+Dundalk Racing Results | 19th January 2024 18:30,N/A,18:30,Standard,1m,Run The Jewels (IRE),O McSweeney,5,M McCullagh,8th,Neck,7,9-2,72,True,98,48
+Dundalk Racing Results | 19th January 2024 18:30,N/A,18:30,Standard,1m,Mulgrave (IRE),D W O'Connor,0,J C McConnell,7th,Nose,6,9-7ht,77,True,98,48
+Dundalk Racing Results | 19th January 2024 18:30,N/A,18:30,Standard,1m,Pierre Lapin (IRE),R P Whelan,0,A McGuinness,6th,1/2 l,7,9-3p,73,True,98,48
+Dundalk Racing Results | 19th January 2024 18:30,N/A,18:30,Standard,1m,Little Keilee (IRE),S Foley,0,Ciaran Murphy,5th,1 1/4 l,4,9-5,75,True,98,48
+Dundalk Racing Results | 19th January 2024 18:30,N/A,18:30,Standard,1m,Storm Eric (IRE),J J G Ryan,5,Jamie Flynn,4th,Head,5,9-2t,72,True,98,48
+Dundalk Racing Results | 19th January 2024 18:30,N/A,18:30,Standard,1m,Ransom,J M Sheridan,0,D Hogan,3rd,3/4 l,7,9-13t,83,True,98,48
+Dundalk Racing Results | 19th January 2024 18:30,N/A,18:30,Standard,1m,Hightimeyouwon,C J MacRedmond,5,A McGuinness,2nd,1/2 l,8,10-0v,84,True,98,48
+Dundalk Racing Results | 19th January 2024 18:30,N/A,18:30,Standard,1m,Chavajod,P A Harnett,5,D P Coakley,1st,N/A,6,9-7v,77,True,98,48
+Dundalk Racing Results | 19th January 2024 19:00,N/A,19:00,Standard,1m 4f,Fashion Flair,M P Sheehy,0,John O'Donoghue,14th,Head,5,9-11p1,60,True,98,49
+Dundalk Racing Results | 19th January 2024 19:00,N/A,19:00,Standard,1m 4f,Teddy's Dawn (IRE),C J MacRedmond,5,A McGuinness,13th,1 1/4 l,4,9-8,60,True,98,49
+Dundalk Racing Results | 19th January 2024 19:00,N/A,19:00,Standard,1m 4f,Alhaajeb (IRE),S T McCullagh,3,R O'Brien,12th,2 1/4 l,6,10-1,64,True,98,49
+Dundalk Racing Results | 19th January 2024 19:00,N/A,19:00,Standard,1m 4f,Halcyon Spirit,Siobhan Rutledge,3,J C McConnell,11th,Head,6,9-1,50,True,98,49
+Dundalk Racing Results | 19th January 2024 19:00,N/A,19:00,Standard,1m 4f,Mille Miglia,C D Maxwell,0,C A McBratney,10th,3/4 l,6,9-5p,54,True,98,49
+Dundalk Racing Results | 19th January 2024 19:00,N/A,19:00,Standard,1m 4f,Chica Linda (IRE),P A Harnett,5,M Fahey,9th,1 3/4 l,4,9-3b1,55,True,98,49
+Dundalk Racing Results | 19th January 2024 19:00,N/A,19:00,Standard,1m 4f,Goonyaboyya (IRE),J M Sheridan,0,G Keane,8th,1 l,5,9-7,56,True,98,49
+Dundalk Racing Results | 19th January 2024 19:00,N/A,19:00,Standard,1m 4f,Hinemoa (FR),A C Persse,7,M A Cahill,7th,1/2 l,8,9-4,53,True,98,49
+Dundalk Racing Results | 19th January 2024 19:00,N/A,19:00,Standard,1m 4f,Maura's Gift (IRE),D W O'Connor,0,P W Flynn,6th,1/2 l,5,9-4p,53,True,98,49
+Dundalk Racing Results | 19th January 2024 19:00,N/A,19:00,Standard,1m 4f,General Idea,Sam Ewing,0,Ian Donoghue,5th,1/2 l,5,10-2tp,65,True,98,49
+Dundalk Racing Results | 19th January 2024 19:00,N/A,19:00,Standard,1m 4f,Brave Thought (IRE),R C Colgan,0,L Comer,4th,1/2 l,4,9-11,63,True,98,49
+Dundalk Racing Results | 19th January 2024 19:00,N/A,19:00,Standard,1m 4f,Tom The Plasterer (IRE),O McSweeney,5,L Comer,3rd,3/4 l,7,9-3,52,True,98,49
+Dundalk Racing Results | 19th January 2024 19:00,N/A,19:00,Standard,1m 4f,St Cianans Fire (IRE),H J Horgan,7,S Crawley,2nd,1 1/4 l,6,9-9t,58,True,98,49
+Dundalk Racing Results | 19th January 2024 19:00,N/A,19:00,Standard,1m 4f,Secret Rock (IRE),J Coen,5,A J Martin,1st,N/A,5,9-13t,62,True,98,49
+Dundalk Racing Results | 19th January 2024 19:00,N/A,19:00,Standard,1m 4f,Fashion Flair,M P Sheehy,0,John O'Donoghue,14th,Head,5,9-11p1,60,True,98,49
+Dundalk Racing Results | 19th January 2024 19:00,N/A,19:00,Standard,1m 4f,Teddy's Dawn (IRE),C J MacRedmond,5,A McGuinness,13th,1 1/4 l,4,9-8,60,True,98,49
+Dundalk Racing Results | 19th January 2024 19:00,N/A,19:00,Standard,1m 4f,Alhaajeb (IRE),S T McCullagh,3,R O'Brien,12th,2 1/4 l,6,10-1,64,True,98,49
+Dundalk Racing Results | 19th January 2024 19:00,N/A,19:00,Standard,1m 4f,Halcyon Spirit,Siobhan Rutledge,3,J C McConnell,11th,Head,6,9-1,50,True,98,49
+Dundalk Racing Results | 19th January 2024 19:00,N/A,19:00,Standard,1m 4f,Mille Miglia,C D Maxwell,0,C A McBratney,10th,3/4 l,6,9-5p,54,True,98,49
+Dundalk Racing Results | 19th January 2024 19:00,N/A,19:00,Standard,1m 4f,Chica Linda (IRE),P A Harnett,5,M Fahey,9th,1 3/4 l,4,9-3b1,55,True,98,49
+Dundalk Racing Results | 19th January 2024 19:00,N/A,19:00,Standard,1m 4f,Goonyaboyya (IRE),J M Sheridan,0,G Keane,8th,1 l,5,9-7,56,True,98,49
+Dundalk Racing Results | 19th January 2024 19:00,N/A,19:00,Standard,1m 4f,Hinemoa (FR),A C Persse,7,M A Cahill,7th,1/2 l,8,9-4,53,True,98,49
+Dundalk Racing Results | 19th January 2024 19:00,N/A,19:00,Standard,1m 4f,Maura's Gift (IRE),D W O'Connor,0,P W Flynn,6th,1/2 l,5,9-4p,53,True,98,49
+Dundalk Racing Results | 19th January 2024 19:00,N/A,19:00,Standard,1m 4f,General Idea,Sam Ewing,0,Ian Donoghue,5th,1/2 l,5,10-2tp,65,True,98,49
+Dundalk Racing Results | 19th January 2024 19:00,N/A,19:00,Standard,1m 4f,Brave Thought (IRE),R C Colgan,0,L Comer,4th,1/2 l,4,9-11,63,True,98,49
+Dundalk Racing Results | 19th January 2024 19:00,N/A,19:00,Standard,1m 4f,Tom The Plasterer (IRE),O McSweeney,5,L Comer,3rd,3/4 l,7,9-3,52,True,98,49
+Dundalk Racing Results | 19th January 2024 19:00,N/A,19:00,Standard,1m 4f,St Cianans Fire (IRE),H J Horgan,7,S Crawley,2nd,1 1/4 l,6,9-9t,58,True,98,49
+Dundalk Racing Results | 19th January 2024 19:00,N/A,19:00,Standard,1m 4f,Secret Rock (IRE),J Coen,5,A J Martin,1st,N/A,5,9-13t,62,True,98,49
+Dundalk Racing Results | 19th January 2024 19:30,N/A,19:30,Standard,1m 4f,Berlina (IRE),R M Mulligan,10,J C McConnell,14th,16 l,4,8-13b1,47,True,98,50
+Dundalk Racing Results | 19th January 2024 19:30,N/A,19:30,Standard,1m 4f,Angel In The Sky (IRE),S T McCullagh,3,L Comer,13th,4 1/2 l,9,9-9tp,54,True,98,50
+Dundalk Racing Results | 19th January 2024 19:30,N/A,19:30,Standard,1m 4f,Uberrima Fides,C D Maxwell,0,S R B Crawford,12th,13 l,5,9-4,49,True,98,50
+Dundalk Racing Results | 19th January 2024 19:30,N/A,19:30,Standard,1m 4f,Navajo River (IRE),P A Harnett,5,L Comer,11th,1 1/2 l,4,9-12,60,True,98,50
+Dundalk Racing Results | 19th January 2024 19:30,N/A,19:30,Standard,1m 4f,Emperor Of Silk (IRE),R C Colgan,0,L Comer,10th,1/2 l,7,9-11b,56,True,98,50
+Dundalk Racing Results | 19th January 2024 19:30,N/A,19:30,Standard,1m 4f,Dinamine (IRE),Siobhan Rutledge,3,J C McConnell,9th,1 l,6,9-2,47,True,98,50
+Dundalk Racing Results | 19th January 2024 19:30,N/A,19:30,Standard,1m 4f,Power Drive,Ciara Flynn,7,P W Flynn,8th,1 1/2 l,9,9-10p,55,True,98,50
+Dundalk Racing Results | 19th January 2024 19:30,N/A,19:30,Standard,1m 4f,Nyota (IRE),K G Kennedy,7,M Halford & T Collins,7th,1/2 l,4,9-8p,56,True,98,50
+Dundalk Racing Results | 19th January 2024 19:30,N/A,19:30,Standard,1m 4f,Flier,G P Halpin,0,Mrs D Foster,6th,1/2 l,5,9-10t,55,True,98,50
+Dundalk Racing Results | 19th January 2024 19:30,N/A,19:30,Standard,1m 4f,Big Challenge (IRE),D W O'Connor,0,R Donohoe,5th,3/4 l,10,9-3,48,True,98,50
+Dundalk Racing Results | 19th January 2024 19:30,N/A,19:30,Standard,1m 4f,Neddies Boy (IRE),O McSweeney,5,R P Burns,4th,1/2 l,6,9-9,54,True,98,50
+Dundalk Racing Results | 19th January 2024 19:30,N/A,19:30,Standard,1m 4f,Glyde Ranger (IRE),N G McCullagh,0,T G McCourt,3rd,3/4 l,4,9-12v,60,True,98,50
+Dundalk Racing Results | 19th January 2024 19:30,N/A,19:30,Standard,1m 4f,Areana (IRE),J M Sheridan,0,D Hogan,2nd,3 l,5,10-0t,59,True,98,50
+Dundalk Racing Results | 19th January 2024 19:30,N/A,19:30,Standard,1m 4f,Dreams Fled Away (IRE),H J Horgan,7,S Crawley,1st,N/A,5,9-5b,50,True,98,50
+Dundalk Racing Results | 19th January 2024 19:30,N/A,19:30,Standard,1m 4f,Berlina (IRE),R M Mulligan,10,J C McConnell,14th,16 l,4,8-13b1,47,True,98,50
+Dundalk Racing Results | 19th January 2024 19:30,N/A,19:30,Standard,1m 4f,Angel In The Sky (IRE),S T McCullagh,3,L Comer,13th,4 1/2 l,9,9-9tp,54,True,98,50
+Dundalk Racing Results | 19th January 2024 19:30,N/A,19:30,Standard,1m 4f,Uberrima Fides,C D Maxwell,0,S R B Crawford,12th,13 l,5,9-4,49,True,98,50
+Dundalk Racing Results | 19th January 2024 19:30,N/A,19:30,Standard,1m 4f,Navajo River (IRE),P A Harnett,5,L Comer,11th,1 1/2 l,4,9-12,60,True,98,50
+Dundalk Racing Results | 19th January 2024 19:30,N/A,19:30,Standard,1m 4f,Emperor Of Silk (IRE),R C Colgan,0,L Comer,10th,1/2 l,7,9-11b,56,True,98,50
+Dundalk Racing Results | 19th January 2024 19:30,N/A,19:30,Standard,1m 4f,Dinamine (IRE),Siobhan Rutledge,3,J C McConnell,9th,1 l,6,9-2,47,True,98,50
+Dundalk Racing Results | 19th January 2024 19:30,N/A,19:30,Standard,1m 4f,Power Drive,Ciara Flynn,7,P W Flynn,8th,1 1/2 l,9,9-10p,55,True,98,50
+Dundalk Racing Results | 19th January 2024 19:30,N/A,19:30,Standard,1m 4f,Nyota (IRE),K G Kennedy,7,M Halford & T Collins,7th,1/2 l,4,9-8p,56,True,98,50
+Dundalk Racing Results | 19th January 2024 19:30,N/A,19:30,Standard,1m 4f,Flier,G P Halpin,0,Mrs D Foster,6th,1/2 l,5,9-10t,55,True,98,50
+Dundalk Racing Results | 19th January 2024 19:30,N/A,19:30,Standard,1m 4f,Big Challenge (IRE),D W O'Connor,0,R Donohoe,5th,3/4 l,10,9-3,48,True,98,50
+Dundalk Racing Results | 19th January 2024 19:30,N/A,19:30,Standard,1m 4f,Neddies Boy (IRE),O McSweeney,5,R P Burns,4th,1/2 l,6,9-9,54,True,98,50
+Dundalk Racing Results | 19th January 2024 19:30,N/A,19:30,Standard,1m 4f,Glyde Ranger (IRE),N G McCullagh,0,T G McCourt,3rd,3/4 l,4,9-12v,60,True,98,50
+Dundalk Racing Results | 19th January 2024 19:30,N/A,19:30,Standard,1m 4f,Areana (IRE),J M Sheridan,0,D Hogan,2nd,3 l,5,10-0t,59,True,98,50
+Dundalk Racing Results | 19th January 2024 19:30,N/A,19:30,Standard,1m 4f,Dreams Fled Away (IRE),H J Horgan,7,S Crawley,1st,N/A,5,9-5b,50,True,98,50

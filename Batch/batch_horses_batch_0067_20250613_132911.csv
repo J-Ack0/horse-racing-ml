@@ -1,0 +1,925 @@
+track_name,race_date,race_time,going,distance,horse_name,jockey,claims,trainer,race_position,lost_by_length,age,weight,rating,first_place_found,batch_number,url_index_in_batch
+Naas Racing Results | 8th July 2023 17:05,N/A,17:05,Good (Good To Firm In Places),7f,Winemaker (FR),G. M. Ryan,0,Diego Dias,4th,1/2 l,3,9-10,-,True,67,1
+Naas Racing Results | 8th July 2023 17:05,N/A,17:05,Good (Good To Firm In Places),7f,Go Sioux Me (IRE),Ben Martin Coen,0,James A. Nash,3rd,1 1/2 l,3,9-5,-,True,67,1
+Naas Racing Results | 8th July 2023 17:05,N/A,17:05,Good (Good To Firm In Places),7f,Vernet (IRE),H. J. Horgan,7,Joseph Patrick O'Brien,2nd,3/4 l,3,9-5,-,True,67,1
+Naas Racing Results | 8th July 2023 17:05,N/A,17:05,Good (Good To Firm In Places),7f,Clever and Cool (IRE),R. P. Cleary,0,J. S. Bolger,1st,N/A,3,9-5p,-,True,67,1
+Naas Racing Results | 8th July 2023 17:05,N/A,17:05,Good (Good To Firm In Places),7f,Winemaker (FR),G. M. Ryan,0,Diego Dias,4th,1/2 l,3,9-10,-,True,67,1
+Naas Racing Results | 8th July 2023 17:05,N/A,17:05,Good (Good To Firm In Places),7f,Go Sioux Me (IRE),Ben Martin Coen,0,James A. Nash,3rd,1 1/2 l,3,9-5,-,True,67,1
+Naas Racing Results | 8th July 2023 17:05,N/A,17:05,Good (Good To Firm In Places),7f,Vernet (IRE),H. J. Horgan,7,Joseph Patrick O'Brien,2nd,3/4 l,3,9-5,-,True,67,1
+Naas Racing Results | 8th July 2023 17:05,N/A,17:05,Good (Good To Firm In Places),7f,Clever and Cool (IRE),R. P. Cleary,0,J. S. Bolger,1st,N/A,3,9-5p,-,True,67,1
+Bellewstown Racing Results | 8th July 2023 16:55,N/A,16:55,Good,2m 188y,Wayne R Walker,Sean Flanagan,0,Donal Kinsella,7th,Neck,4,11-0,-,True,67,3
+Bellewstown Racing Results | 8th July 2023 16:55,N/A,16:55,Good,2m 188y,Rene Artois (IRE),A. P. Kelly,7,James A. Nash,6th,19 l,4,11-0,-,True,67,3
+Bellewstown Racing Results | 8th July 2023 16:55,N/A,16:55,Good,2m 188y,I Am the Sea,J. J. Slevin,0,P. M. Cloke,5th,22 l,4,11-0,-,True,67,3
+Bellewstown Racing Results | 8th July 2023 16:55,N/A,16:55,Good,2m 188y,Gordons Aura (IRE),J. W. Kennedy,0,Gordon Elliott,4th,5 1/2 l,4,11-6,-,True,67,3
+Bellewstown Racing Results | 8th July 2023 16:55,N/A,16:55,Good,2m 188y,Mister Wilson (IRE),Keith Donoghue,0,Gavin Patrick Cromwell,3rd,12 l,4,11-6h,-,True,67,3
+Bellewstown Racing Results | 8th July 2023 16:55,N/A,16:55,Good,2m 188y,Calico (FR),B. W. Harvey,5,Gordon Elliott,2nd,1/2 l,4,11-3t,-,True,67,3
+Bellewstown Racing Results | 8th July 2023 16:55,N/A,16:55,Good,2m 188y,Charlie Luciano (IRE),L. A. McKenna,5,Noel Meade,1st,N/A,4,11-10,-,True,67,3
+Bellewstown Racing Results | 8th July 2023 16:55,N/A,16:55,Good,2m 188y,Wayne R Walker,Sean Flanagan,0,Donal Kinsella,7th,Neck,4,11-0,-,True,67,3
+Bellewstown Racing Results | 8th July 2023 16:55,N/A,16:55,Good,2m 188y,Rene Artois (IRE),A. P. Kelly,7,James A. Nash,6th,19 l,4,11-0,-,True,67,3
+Bellewstown Racing Results | 8th July 2023 16:55,N/A,16:55,Good,2m 188y,I Am the Sea,J. J. Slevin,0,P. M. Cloke,5th,22 l,4,11-0,-,True,67,3
+Bellewstown Racing Results | 8th July 2023 16:55,N/A,16:55,Good,2m 188y,Gordons Aura (IRE),J. W. Kennedy,0,Gordon Elliott,4th,5 1/2 l,4,11-6,-,True,67,3
+Bellewstown Racing Results | 8th July 2023 16:55,N/A,16:55,Good,2m 188y,Mister Wilson (IRE),Keith Donoghue,0,Gavin Patrick Cromwell,3rd,12 l,4,11-6h,-,True,67,3
+Bellewstown Racing Results | 8th July 2023 16:55,N/A,16:55,Good,2m 188y,Calico (FR),B. W. Harvey,5,Gordon Elliott,2nd,1/2 l,4,11-3t,-,True,67,3
+Bellewstown Racing Results | 8th July 2023 16:55,N/A,16:55,Good,2m 188y,Charlie Luciano (IRE),L. A. McKenna,5,Noel Meade,1st,N/A,4,11-10,-,True,67,3
+Bellewstown Racing Results | 8th July 2023 17:30,N/A,17:30,Good,2m 188y,Finans Bay (IRE),D. J. O'Keeffe,0,Henry de Bromhead,NR,N/A,6,11-12,-,True,67,4
+Bellewstown Racing Results | 8th July 2023 17:30,N/A,17:30,Good,2m 188y,Six Ace (IRE),J. W. Kennedy,0,Gordon Elliott,PU,N/A,5,11-4p,-,True,67,4
+Bellewstown Racing Results | 8th July 2023 17:30,N/A,17:30,Good,2m 188y,Riqaaby (USA),J. J. Slevin,0,Miss Elizabeth Doyle,F,N/A,7,10-11,-,True,67,4
+Bellewstown Racing Results | 8th July 2023 17:30,N/A,17:30,Good,2m 188y,Victory Star,A. P. Heskin,0,John Joseph Hanlon,10th,32 l,6,11-12,-,True,67,4
+Bellewstown Racing Results | 8th July 2023 17:30,N/A,17:30,Good,2m 188y,Walkonthebriteside (IRE),B. Hayes,0,John McConnell,9th,8 l,5,11-4,-,True,67,4
+Bellewstown Racing Results | 8th July 2023 17:30,N/A,17:30,Good,2m 188y,Oneforgonzo (IRE),Phillip Enright,0,Sean Aherne,8th,3 1/2 l,5,11-4,-,True,67,4
+Bellewstown Racing Results | 8th July 2023 17:30,N/A,17:30,Good,2m 188y,Fameaftertheglory,Sean Flanagan,0,Gavin Patrick Cromwell,7th,2 1/4 l,7,11-12tv,-,True,67,4
+Bellewstown Racing Results | 8th July 2023 17:30,N/A,17:30,Good,2m 188y,Atreides (IRE),L. A. McKenna,5,Colm A. Murphy,6th,8 l,5,11-4t,-,True,67,4
+Bellewstown Racing Results | 8th July 2023 17:30,N/A,17:30,Good,2m 188y,Baby Chou (IRE),S. F. O'Keeffe,0,Mrs J. Harrington,5th,2 1/4 l,5,10-11t,-,True,67,4
+Bellewstown Racing Results | 8th July 2023 17:30,N/A,17:30,Good,2m 188y,Pahlavi (IRE),J. S. McGarvey,0,John Joseph Hanlon,4th,1/2 l,6,11-4,-,True,67,4
+Bellewstown Racing Results | 8th July 2023 17:30,N/A,17:30,Good,2m 188y,Fox Leicester (IRE),E. Walsh,3,John Michael Burke,3rd,5 l,7,11-12,-,True,67,4
+Bellewstown Racing Results | 8th July 2023 17:30,N/A,17:30,Good,2m 188y,Dutch Schultz,Keith Donoghue,0,Gavin Patrick Cromwell,2nd,13 l,6,11-12h1,-,True,67,4
+Bellewstown Racing Results | 8th July 2023 17:30,N/A,17:30,Good,2m 188y,Encanto Bruno (IRE),B. W. Harvey,5,John McConnell,1st,N/A,5,11-12,-,True,67,4
+Bellewstown Racing Results | 8th July 2023 17:30,N/A,17:30,Good,2m 188y,Finans Bay (IRE),D. J. O'Keeffe,0,Henry de Bromhead,NR,N/A,6,11-12,-,True,67,4
+Bellewstown Racing Results | 8th July 2023 17:30,N/A,17:30,Good,2m 188y,Six Ace (IRE),J. W. Kennedy,0,Gordon Elliott,PU,N/A,5,11-4p,-,True,67,4
+Bellewstown Racing Results | 8th July 2023 17:30,N/A,17:30,Good,2m 188y,Riqaaby (USA),J. J. Slevin,0,Miss Elizabeth Doyle,F,N/A,7,10-11,-,True,67,4
+Bellewstown Racing Results | 8th July 2023 17:30,N/A,17:30,Good,2m 188y,Victory Star,A. P. Heskin,0,John Joseph Hanlon,10th,32 l,6,11-12,-,True,67,4
+Bellewstown Racing Results | 8th July 2023 17:30,N/A,17:30,Good,2m 188y,Walkonthebriteside (IRE),B. Hayes,0,John McConnell,9th,8 l,5,11-4,-,True,67,4
+Bellewstown Racing Results | 8th July 2023 17:30,N/A,17:30,Good,2m 188y,Oneforgonzo (IRE),Phillip Enright,0,Sean Aherne,8th,3 1/2 l,5,11-4,-,True,67,4
+Bellewstown Racing Results | 8th July 2023 17:30,N/A,17:30,Good,2m 188y,Fameaftertheglory,Sean Flanagan,0,Gavin Patrick Cromwell,7th,2 1/4 l,7,11-12tv,-,True,67,4
+Bellewstown Racing Results | 8th July 2023 17:30,N/A,17:30,Good,2m 188y,Atreides (IRE),L. A. McKenna,5,Colm A. Murphy,6th,8 l,5,11-4t,-,True,67,4
+Bellewstown Racing Results | 8th July 2023 17:30,N/A,17:30,Good,2m 188y,Baby Chou (IRE),S. F. O'Keeffe,0,Mrs J. Harrington,5th,2 1/4 l,5,10-11t,-,True,67,4
+Bellewstown Racing Results | 8th July 2023 17:30,N/A,17:30,Good,2m 188y,Pahlavi (IRE),J. S. McGarvey,0,John Joseph Hanlon,4th,1/2 l,6,11-4,-,True,67,4
+Bellewstown Racing Results | 8th July 2023 17:30,N/A,17:30,Good,2m 188y,Fox Leicester (IRE),E. Walsh,3,John Michael Burke,3rd,5 l,7,11-12,-,True,67,4
+Bellewstown Racing Results | 8th July 2023 17:30,N/A,17:30,Good,2m 188y,Dutch Schultz,Keith Donoghue,0,Gavin Patrick Cromwell,2nd,13 l,6,11-12h1,-,True,67,4
+Bellewstown Racing Results | 8th July 2023 17:30,N/A,17:30,Good,2m 188y,Encanto Bruno (IRE),B. W. Harvey,5,John McConnell,1st,N/A,5,11-12,-,True,67,4
+Bellewstown Racing Results | 8th July 2023 18:00,N/A,18:00,Good,2m 188y,Rock On Seamie (IRE),Phillip Enright,0,Ray Hackett,F,N/A,8,10-10,120,True,67,5
+Bellewstown Racing Results | 8th July 2023 18:00,N/A,18:00,Good,2m 188y,Tom Mcgreevy (IRE),J. J. Slevin,0,Miss Elizabeth Doyle,10th,9 l,8,10-3ht,113,True,67,5
+Bellewstown Racing Results | 8th July 2023 18:00,N/A,18:00,Good,2m 188y,Global Export (IRE),Patrick Michael O'Brien,7,Gavin Patrick Cromwell,9th,2 3/4 l,5,10-8,118,True,67,5
+Bellewstown Racing Results | 8th July 2023 18:00,N/A,18:00,Good,2m 188y,Rich Belief,Donagh Meyler,0,Karl Thornton,8th,4 3/4 l,6,11-2b,126,True,67,5
+Bellewstown Racing Results | 8th July 2023 18:00,N/A,18:00,Good,2m 188y,Magnor Glory (IRE),M. J. M. O'Sullivan,3,Terence O'Brien,7th,2 1/2 l,7,11-12h,136,True,67,5
+Bellewstown Racing Results | 8th July 2023 18:00,N/A,18:00,Good,2m 188y,By Your Side,Rachael Blackmore,0,Gordon Elliott,6th,4 l,4,10-5,119,True,67,5
+Bellewstown Racing Results | 8th July 2023 18:00,N/A,18:00,Good,2m 188y,Wajaaha (IRE),L. A. McKenna,5,P. J. McKenna,5th,8 l,8,10-13p,123,True,67,5
+Bellewstown Racing Results | 8th July 2023 18:00,N/A,18:00,Good,2m 188y,Ifiwerearichman (IRE),S. F. O'Keeffe,0,Paul Nolan,4th,Head,5,10-11h,121,True,67,5
+Bellewstown Racing Results | 8th July 2023 18:00,N/A,18:00,Good,2m 188y,Tronador (IRE),B. W. Harvey,5,Gordon Elliott,3rd,1 1/4 l,7,11-1,125,True,67,5
+Bellewstown Racing Results | 8th July 2023 18:00,N/A,18:00,Good,2m 188y,Set Point (IRE),J. W. Kennedy,0,Gordon Elliott,2nd,3/4 l,5,10-13p,123,True,67,5
+Bellewstown Racing Results | 8th July 2023 18:00,N/A,18:00,Good,2m 188y,Wouldn't You Agree (IRE),M. M. McDonagh,5,Eoin Griffin,1st,N/A,9,10-6b,116,True,67,5
+Bellewstown Racing Results | 8th July 2023 18:00,N/A,18:00,Good,2m 188y,Rock On Seamie (IRE),Phillip Enright,0,Ray Hackett,F,N/A,8,10-10,120,True,67,5
+Bellewstown Racing Results | 8th July 2023 18:00,N/A,18:00,Good,2m 188y,Tom Mcgreevy (IRE),J. J. Slevin,0,Miss Elizabeth Doyle,10th,9 l,8,10-3ht,113,True,67,5
+Bellewstown Racing Results | 8th July 2023 18:00,N/A,18:00,Good,2m 188y,Global Export (IRE),Patrick Michael O'Brien,7,Gavin Patrick Cromwell,9th,2 3/4 l,5,10-8,118,True,67,5
+Bellewstown Racing Results | 8th July 2023 18:00,N/A,18:00,Good,2m 188y,Rich Belief,Donagh Meyler,0,Karl Thornton,8th,4 3/4 l,6,11-2b,126,True,67,5
+Bellewstown Racing Results | 8th July 2023 18:00,N/A,18:00,Good,2m 188y,Magnor Glory (IRE),M. J. M. O'Sullivan,3,Terence O'Brien,7th,2 1/2 l,7,11-12h,136,True,67,5
+Bellewstown Racing Results | 8th July 2023 18:00,N/A,18:00,Good,2m 188y,By Your Side,Rachael Blackmore,0,Gordon Elliott,6th,4 l,4,10-5,119,True,67,5
+Bellewstown Racing Results | 8th July 2023 18:00,N/A,18:00,Good,2m 188y,Wajaaha (IRE),L. A. McKenna,5,P. J. McKenna,5th,8 l,8,10-13p,123,True,67,5
+Bellewstown Racing Results | 8th July 2023 18:00,N/A,18:00,Good,2m 188y,Ifiwerearichman (IRE),S. F. O'Keeffe,0,Paul Nolan,4th,Head,5,10-11h,121,True,67,5
+Bellewstown Racing Results | 8th July 2023 18:00,N/A,18:00,Good,2m 188y,Tronador (IRE),B. W. Harvey,5,Gordon Elliott,3rd,1 1/4 l,7,11-1,125,True,67,5
+Bellewstown Racing Results | 8th July 2023 18:00,N/A,18:00,Good,2m 188y,Set Point (IRE),J. W. Kennedy,0,Gordon Elliott,2nd,3/4 l,5,10-13p,123,True,67,5
+Bellewstown Racing Results | 8th July 2023 18:00,N/A,18:00,Good,2m 188y,Wouldn't You Agree (IRE),M. M. McDonagh,5,Eoin Griffin,1st,N/A,9,10-6b,116,True,67,5
+Bellewstown Racing Results | 8th July 2023 18:30,N/A,18:30,Good (Good To Firm In Places),2m 4f,Coastguard Lady (IRE),D. E. Mullins,0,W. P. Mullins,NR,N/A,5,10-13,-,True,67,6
+Bellewstown Racing Results | 8th July 2023 18:30,N/A,18:30,Good (Good To Firm In Places),2m 4f,Cullagh Pride (IRE),S. D. Torrens,0,Seamus Fahey,NR,N/A,5,10-13h,-,True,67,6
+Bellewstown Racing Results | 8th July 2023 18:30,N/A,18:30,Good (Good To Firm In Places),2m 4f,Shoshone Girl (IRE),T. P. Harney,7,P. A. Fahy,PU,N/A,5,10-13,-,True,67,6
+Bellewstown Racing Results | 8th July 2023 18:30,N/A,18:30,Good (Good To Firm In Places),2m 4f,Sandymount Baby (IRE),S. F. O'Keeffe,0,Mrs J. Harrington,PU,N/A,6,10-13,-,True,67,6
+Bellewstown Racing Results | 8th July 2023 18:30,N/A,18:30,Good (Good To Firm In Places),2m 4f,Tellthemi'mhere (IRE),Keith Donoghue,0,Ian Patrick Donoghue,PU,N/A,5,11-7h,-,True,67,6
+Bellewstown Racing Results | 8th July 2023 18:30,N/A,18:30,Good (Good To Firm In Places),2m 4f,Michal (IRE),L. A. McKenna,5,Colm A. Murphy,6th,Neck,5,10-13,-,True,67,6
+Bellewstown Racing Results | 8th July 2023 18:30,N/A,18:30,Good (Good To Firm In Places),2m 4f,Winning Mischief (IRE),D. J. O'Keeffe,0,M. Hourigan,5th,Short Head,6,10-13,-,True,67,6
+Bellewstown Racing Results | 8th July 2023 18:30,N/A,18:30,Good (Good To Firm In Places),2m 4f,Fizzle Rock (IRE),C. P. Millar,7,Nigel Slevin,4th,15 l,6,11-7,-,True,67,6
+Bellewstown Racing Results | 8th July 2023 18:30,N/A,18:30,Good (Good To Firm In Places),2m 4f,Ginnets Girl (IRE),J. W. Kennedy,0,Gordon Elliott,3rd,1 3/4 l,5,11-7,-,True,67,6
+Bellewstown Racing Results | 8th July 2023 18:30,N/A,18:30,Good (Good To Firm In Places),2m 4f,Jumping Susie (IRE),B. Hayes,0,John McConnell,2nd,1 3/4 l,5,10-13,-,True,67,6
+Bellewstown Racing Results | 8th July 2023 18:30,N/A,18:30,Good (Good To Firm In Places),2m 4f,Miss Fourie (IRE),Sean Flanagan,0,Peter Fahey,1st,N/A,6,11-7,-,True,67,6
+Bellewstown Racing Results | 8th July 2023 18:30,N/A,18:30,Good (Good To Firm In Places),2m 4f,Coastguard Lady (IRE),D. E. Mullins,0,W. P. Mullins,NR,N/A,5,10-13,-,True,67,6
+Bellewstown Racing Results | 8th July 2023 18:30,N/A,18:30,Good (Good To Firm In Places),2m 4f,Cullagh Pride (IRE),S. D. Torrens,0,Seamus Fahey,NR,N/A,5,10-13h,-,True,67,6
+Bellewstown Racing Results | 8th July 2023 18:30,N/A,18:30,Good (Good To Firm In Places),2m 4f,Shoshone Girl (IRE),T. P. Harney,7,P. A. Fahy,PU,N/A,5,10-13,-,True,67,6
+Bellewstown Racing Results | 8th July 2023 18:30,N/A,18:30,Good (Good To Firm In Places),2m 4f,Sandymount Baby (IRE),S. F. O'Keeffe,0,Mrs J. Harrington,PU,N/A,6,10-13,-,True,67,6
+Bellewstown Racing Results | 8th July 2023 18:30,N/A,18:30,Good (Good To Firm In Places),2m 4f,Tellthemi'mhere (IRE),Keith Donoghue,0,Ian Patrick Donoghue,PU,N/A,5,11-7h,-,True,67,6
+Bellewstown Racing Results | 8th July 2023 18:30,N/A,18:30,Good (Good To Firm In Places),2m 4f,Michal (IRE),L. A. McKenna,5,Colm A. Murphy,6th,Neck,5,10-13,-,True,67,6
+Bellewstown Racing Results | 8th July 2023 18:30,N/A,18:30,Good (Good To Firm In Places),2m 4f,Winning Mischief (IRE),D. J. O'Keeffe,0,M. Hourigan,5th,Short Head,6,10-13,-,True,67,6
+Bellewstown Racing Results | 8th July 2023 18:30,N/A,18:30,Good (Good To Firm In Places),2m 4f,Fizzle Rock (IRE),C. P. Millar,7,Nigel Slevin,4th,15 l,6,11-7,-,True,67,6
+Bellewstown Racing Results | 8th July 2023 18:30,N/A,18:30,Good (Good To Firm In Places),2m 4f,Ginnets Girl (IRE),J. W. Kennedy,0,Gordon Elliott,3rd,1 3/4 l,5,11-7,-,True,67,6
+Bellewstown Racing Results | 8th July 2023 18:30,N/A,18:30,Good (Good To Firm In Places),2m 4f,Jumping Susie (IRE),B. Hayes,0,John McConnell,2nd,1 3/4 l,5,10-13,-,True,67,6
+Bellewstown Racing Results | 8th July 2023 18:30,N/A,18:30,Good (Good To Firm In Places),2m 4f,Miss Fourie (IRE),Sean Flanagan,0,Peter Fahey,1st,N/A,6,11-7,-,True,67,6
+Bellewstown Racing Results | 8th July 2023 19:30,N/A,19:30,Good (Good To Firm In Places),2m 4f,Virtual Hug (IRE),L. A. McKenna,2,Conor O'Dwyer,11th,44 l,5,12-0t,102,True,67,8
+Bellewstown Racing Results | 8th July 2023 19:30,N/A,19:30,Good (Good To Firm In Places),2m 4f,Make The Switch (IRE),J. P. O'Sullivan,0,G. A. Kingston,10th,18 l,8,11-7tb,95,True,67,8
+Bellewstown Racing Results | 8th July 2023 19:30,N/A,19:30,Good (Good To Firm In Places),2m 4f,Cassarina Gold (IRE),J. Smith,4,Matthew J. Smith,9th,2 l,6,11-7t,95,True,67,8
+Bellewstown Racing Results | 8th July 2023 19:30,N/A,19:30,Good (Good To Firm In Places),2m 4f,Roi De Dubai (IRE),B. W. Harvey,0,John McConnell,8th,1 3/4 l,11,11-9,97,True,67,8
+Bellewstown Racing Results | 8th July 2023 19:30,N/A,19:30,Good (Good To Firm In Places),2m 4f,Queenie Newall (FR),K. E. Buckley,0,Gavin Patrick Cromwell,7th,2 1/4 l,5,11-11,99,True,67,8
+Bellewstown Racing Results | 8th July 2023 19:30,N/A,19:30,Good (Good To Firm In Places),2m 4f,Joshua Chamberlain (IRE),Thomas Reilly,4,Gerard Keane,6th,1 3/4 l,6,11-9,97,True,67,8
+Bellewstown Racing Results | 8th July 2023 19:30,N/A,19:30,Good (Good To Firm In Places),2m 4f,Top Line Tommy (IRE),M. P. O'Connor,0,E. J. O'Grady,5th,1/2 l,7,12-0,102,True,67,8
+Bellewstown Racing Results | 8th July 2023 19:30,N/A,19:30,Good (Good To Firm In Places),2m 4f,Serpolette (IRE),C. M. Quirke,4,E. D. Delany,4th,2 l,8,11-4t,92,True,67,8
+Bellewstown Racing Results | 8th July 2023 19:30,N/A,19:30,Good (Good To Firm In Places),2m 4f,Inforapenny (IRE),M. M. McDonagh,2,Mark Fahey,3rd,5 1/2 l,7,11-9,97,True,67,8
+Bellewstown Racing Results | 8th July 2023 19:30,N/A,19:30,Good (Good To Firm In Places),2m 4f,Hidalgo Des Mottes (FR),M. J. M. O'Sullivan,0,Eoin Griffin,2nd,3/4 l,6,11-12t1,100,True,67,8
+Bellewstown Racing Results | 8th July 2023 19:30,N/A,19:30,Good (Good To Firm In Places),2m 4f,Our Bobby (IRE),E. Walsh,0,John Michael Burke,1st,N/A,6,11-9h,97,True,67,8
+Bellewstown Racing Results | 8th July 2023 19:30,N/A,19:30,Good (Good To Firm In Places),2m 4f,Virtual Hug (IRE),L. A. McKenna,2,Conor O'Dwyer,11th,44 l,5,12-0t,102,True,67,8
+Bellewstown Racing Results | 8th July 2023 19:30,N/A,19:30,Good (Good To Firm In Places),2m 4f,Make The Switch (IRE),J. P. O'Sullivan,0,G. A. Kingston,10th,18 l,8,11-7tb,95,True,67,8
+Bellewstown Racing Results | 8th July 2023 19:30,N/A,19:30,Good (Good To Firm In Places),2m 4f,Cassarina Gold (IRE),J. Smith,4,Matthew J. Smith,9th,2 l,6,11-7t,95,True,67,8
+Bellewstown Racing Results | 8th July 2023 19:30,N/A,19:30,Good (Good To Firm In Places),2m 4f,Roi De Dubai (IRE),B. W. Harvey,0,John McConnell,8th,1 3/4 l,11,11-9,97,True,67,8
+Bellewstown Racing Results | 8th July 2023 19:30,N/A,19:30,Good (Good To Firm In Places),2m 4f,Queenie Newall (FR),K. E. Buckley,0,Gavin Patrick Cromwell,7th,2 1/4 l,5,11-11,99,True,67,8
+Bellewstown Racing Results | 8th July 2023 19:30,N/A,19:30,Good (Good To Firm In Places),2m 4f,Joshua Chamberlain (IRE),Thomas Reilly,4,Gerard Keane,6th,1 3/4 l,6,11-9,97,True,67,8
+Bellewstown Racing Results | 8th July 2023 19:30,N/A,19:30,Good (Good To Firm In Places),2m 4f,Top Line Tommy (IRE),M. P. O'Connor,0,E. J. O'Grady,5th,1/2 l,7,12-0,102,True,67,8
+Bellewstown Racing Results | 8th July 2023 19:30,N/A,19:30,Good (Good To Firm In Places),2m 4f,Serpolette (IRE),C. M. Quirke,4,E. D. Delany,4th,2 l,8,11-4t,92,True,67,8
+Bellewstown Racing Results | 8th July 2023 19:30,N/A,19:30,Good (Good To Firm In Places),2m 4f,Inforapenny (IRE),M. M. McDonagh,2,Mark Fahey,3rd,5 1/2 l,7,11-9,97,True,67,8
+Bellewstown Racing Results | 8th July 2023 19:30,N/A,19:30,Good (Good To Firm In Places),2m 4f,Hidalgo Des Mottes (FR),M. J. M. O'Sullivan,0,Eoin Griffin,2nd,3/4 l,6,11-12t1,100,True,67,8
+Bellewstown Racing Results | 8th July 2023 19:30,N/A,19:30,Good (Good To Firm In Places),2m 4f,Our Bobby (IRE),E. Walsh,0,John Michael Burke,1st,N/A,6,11-9h,97,True,67,8
+Bellewstown Racing Results | 8th July 2023 20:00,N/A,20:00,Good (Good To Firm In Places),3m,Attaboyarchie (IRE),Miss E. J. Sweeney,7,Dermot Anthony McLoughlin,NR,N/A,6,11-4,115,True,67,9
+Bellewstown Racing Results | 8th July 2023 20:00,N/A,20:00,Good (Good To Firm In Places),3m,Country Queen (IRE),J. W. Kennedy,0,Gordon Elliott,9th,50 l,6,11-0p1,111,True,67,9
+Bellewstown Racing Results | 8th July 2023 20:00,N/A,20:00,Good (Good To Firm In Places),3m,Hascoeur Clermont (FR),Donagh Meyler,0,Gavin Patrick Cromwell,8th,4 1/4 l,6,11-0h1,111,True,67,9
+Bellewstown Racing Results | 8th July 2023 20:00,N/A,20:00,Good (Good To Firm In Places),3m,Mary Cassatt (FR),Mr A. Harvey,7,John McConnell,7th,1 3/4 l,4,10-12t,116,True,67,9
+Bellewstown Racing Results | 8th July 2023 20:00,N/A,20:00,Good (Good To Firm In Places),3m,Macgiloney (IRE),Philip Donovan,5,Denis Hogan,6th,6 1/2 l,10,12-3p,128,True,67,9
+Bellewstown Racing Results | 8th July 2023 20:00,N/A,20:00,Good (Good To Firm In Places),3m,Junior Alliance (IRE),E. Walsh,3,T. Gibney,5th,1 l,7,10-10,107,True,67,9
+Bellewstown Racing Results | 8th July 2023 20:00,N/A,20:00,Good (Good To Firm In Places),3m,Conna Cottage (IRE),Sean Flanagan,0,Gavin Patrick Cromwell,4th,1 1/2 l,7,11-0,111,True,67,9
+Bellewstown Racing Results | 8th July 2023 20:00,N/A,20:00,Good (Good To Firm In Places),3m,Pale Blue Dot (FR),Phillip Enright,0,Denis Hogan,3rd,2 1/2 l,7,10-11p,108,True,67,9
+Bellewstown Racing Results | 8th July 2023 20:00,N/A,20:00,Good (Good To Firm In Places),3m,Easy Fella (IRE),Rachael Blackmore,0,R. P. Cody,2nd,3 1/2 l,6,11-7p,118,True,67,9
+Bellewstown Racing Results | 8th July 2023 20:00,N/A,20:00,Good (Good To Firm In Places),3m,Dartan,J. Smith,7,Matthew J. Smith,1st,N/A,6,11-11t,122,True,67,9
+Bellewstown Racing Results | 8th July 2023 20:00,N/A,20:00,Good (Good To Firm In Places),3m,Attaboyarchie (IRE),Miss E. J. Sweeney,7,Dermot Anthony McLoughlin,NR,N/A,6,11-4,115,True,67,9
+Bellewstown Racing Results | 8th July 2023 20:00,N/A,20:00,Good (Good To Firm In Places),3m,Country Queen (IRE),J. W. Kennedy,0,Gordon Elliott,9th,50 l,6,11-0p1,111,True,67,9
+Bellewstown Racing Results | 8th July 2023 20:00,N/A,20:00,Good (Good To Firm In Places),3m,Hascoeur Clermont (FR),Donagh Meyler,0,Gavin Patrick Cromwell,8th,4 1/4 l,6,11-0h1,111,True,67,9
+Bellewstown Racing Results | 8th July 2023 20:00,N/A,20:00,Good (Good To Firm In Places),3m,Mary Cassatt (FR),Mr A. Harvey,7,John McConnell,7th,1 3/4 l,4,10-12t,116,True,67,9
+Bellewstown Racing Results | 8th July 2023 20:00,N/A,20:00,Good (Good To Firm In Places),3m,Macgiloney (IRE),Philip Donovan,5,Denis Hogan,6th,6 1/2 l,10,12-3p,128,True,67,9
+Bellewstown Racing Results | 8th July 2023 20:00,N/A,20:00,Good (Good To Firm In Places),3m,Junior Alliance (IRE),E. Walsh,3,T. Gibney,5th,1 l,7,10-10,107,True,67,9
+Bellewstown Racing Results | 8th July 2023 20:00,N/A,20:00,Good (Good To Firm In Places),3m,Conna Cottage (IRE),Sean Flanagan,0,Gavin Patrick Cromwell,4th,1 1/2 l,7,11-0,111,True,67,9
+Bellewstown Racing Results | 8th July 2023 20:00,N/A,20:00,Good (Good To Firm In Places),3m,Pale Blue Dot (FR),Phillip Enright,0,Denis Hogan,3rd,2 1/2 l,7,10-11p,108,True,67,9
+Bellewstown Racing Results | 8th July 2023 20:00,N/A,20:00,Good (Good To Firm In Places),3m,Easy Fella (IRE),Rachael Blackmore,0,R. P. Cody,2nd,3 1/2 l,6,11-7p,118,True,67,9
+Bellewstown Racing Results | 8th July 2023 20:00,N/A,20:00,Good (Good To Firm In Places),3m,Dartan,J. Smith,7,Matthew J. Smith,1st,N/A,6,11-11t,122,True,67,9
+Bellewstown Racing Results | 8th July 2023 20:30,N/A,20:30,Good (Good To Firm In Places),2m 188y,Cape Best (IRE),Mr D. O'Connor,0,Ms Margaret Mullins,8th,89 l,4,11-3,-,True,67,10
+Bellewstown Racing Results | 8th July 2023 20:30,N/A,20:30,Good (Good To Firm In Places),2m 188y,Sweet Liberty (IRE),Mr H. C. Swan,5,James A. Nash,7th,6 l,5,11-7,-,True,67,10
+Bellewstown Racing Results | 8th July 2023 20:30,N/A,20:30,Good (Good To Firm In Places),2m 188y,Cedar Wood (IRE),Ms J. E. Grant,7,David M. O'Brien,6th,3 3/4 l,5,11-0,-,True,67,10
+Bellewstown Racing Results | 8th July 2023 20:30,N/A,20:30,Good (Good To Firm In Places),2m 188y,Valiretta (IRE),Mr Paddy Hanlon,7,John Joseph Hanlon,5th,Neck,4,10-10,-,True,67,10
+Bellewstown Racing Results | 8th July 2023 20:30,N/A,20:30,Good (Good To Firm In Places),2m 188y,Sameasiteverwas (IRE),Mr J. M. Halford,7,M. Halford & T. Collins,4th,3 3/4 l,6,11-7t1,-,True,67,10
+Bellewstown Racing Results | 8th July 2023 20:30,N/A,20:30,Good (Good To Firm In Places),2m 188y,Kilta (IRE),Mr Alan O'Sullivan,7,J. Hennessy,3rd,6 1/2 l,6,11-7,-,True,67,10
+Bellewstown Racing Results | 8th July 2023 20:30,N/A,20:30,Good (Good To Firm In Places),2m 188y,Gone For Tea (IRE),Mr J. H. Williamson,7,Peter Fahey,2nd,14 l,5,11-0,-,True,67,10
+Bellewstown Racing Results | 8th July 2023 20:30,N/A,20:30,Good (Good To Firm In Places),2m 188y,Intense Approach,Mr A. Harvey,7,John McConnell,1st,N/A,4,11-3,-,True,67,10
+Bellewstown Racing Results | 8th July 2023 20:30,N/A,20:30,Good (Good To Firm In Places),2m 188y,Cape Best (IRE),Mr D. O'Connor,0,Ms Margaret Mullins,8th,89 l,4,11-3,-,True,67,10
+Bellewstown Racing Results | 8th July 2023 20:30,N/A,20:30,Good (Good To Firm In Places),2m 188y,Sweet Liberty (IRE),Mr H. C. Swan,5,James A. Nash,7th,6 l,5,11-7,-,True,67,10
+Bellewstown Racing Results | 8th July 2023 20:30,N/A,20:30,Good (Good To Firm In Places),2m 188y,Cedar Wood (IRE),Ms J. E. Grant,7,David M. O'Brien,6th,3 3/4 l,5,11-0,-,True,67,10
+Bellewstown Racing Results | 8th July 2023 20:30,N/A,20:30,Good (Good To Firm In Places),2m 188y,Valiretta (IRE),Mr Paddy Hanlon,7,John Joseph Hanlon,5th,Neck,4,10-10,-,True,67,10
+Bellewstown Racing Results | 8th July 2023 20:30,N/A,20:30,Good (Good To Firm In Places),2m 188y,Sameasiteverwas (IRE),Mr J. M. Halford,7,M. Halford & T. Collins,4th,3 3/4 l,6,11-7t1,-,True,67,10
+Bellewstown Racing Results | 8th July 2023 20:30,N/A,20:30,Good (Good To Firm In Places),2m 188y,Kilta (IRE),Mr Alan O'Sullivan,7,J. Hennessy,3rd,6 1/2 l,6,11-7,-,True,67,10
+Bellewstown Racing Results | 8th July 2023 20:30,N/A,20:30,Good (Good To Firm In Places),2m 188y,Gone For Tea (IRE),Mr J. H. Williamson,7,Peter Fahey,2nd,14 l,5,11-0,-,True,67,10
+Bellewstown Racing Results | 8th July 2023 20:30,N/A,20:30,Good (Good To Firm In Places),2m 188y,Intense Approach,Mr A. Harvey,7,John McConnell,1st,N/A,4,11-3,-,True,67,10
+Sligo Racing Results | 9th July 2023 14:00,N/A,14:00,Good,2m 194y,Say It So (IRE),Sean Flanagan,0,Eric McNamara,10th,12 l,4,10-13,-,True,67,11
+Sligo Racing Results | 9th July 2023 14:00,N/A,14:00,Good,2m 194y,Blenheim Belle (IRE),Phillip Enright,0,Mark McNiff,9th,1 1/2 l,4,10-6,-,True,67,11
+Sligo Racing Results | 9th July 2023 14:00,N/A,14:00,Good,2m 194y,Suile Ban (IRE),Donagh Meyler,0,Denis Hogan,8th,4 3/4 l,4,10-13t1,-,True,67,11
+Sligo Racing Results | 9th July 2023 14:00,N/A,14:00,Good,2m 194y,Cramers Valley (IRE),J. P. O'Sullivan,5,P. J. Rothwell,7th,1/2 l,4,10-13,-,True,67,11
+Sligo Racing Results | 9th July 2023 14:00,N/A,14:00,Good,2m 194y,Keeptellinemnuttin (IRE),A. P. Heskin,0,Michael Mulvany,6th,3/4 l,4,10-13,-,True,67,11
+Sligo Racing Results | 9th July 2023 14:00,N/A,14:00,Good,2m 194y,Chequer Square (IRE),Jack G. Gilligan,7,Paul John Gilligan,5th,10 l,4,10-13tb1,-,True,67,11
+Sligo Racing Results | 9th July 2023 14:00,N/A,14:00,Good,2m 194y,Ceis Charraigin (IRE),D. E. Mullins,0,Ms Margaret Mullins,4th,3 l,4,10-6,-,True,67,11
+Sligo Racing Results | 9th July 2023 14:00,N/A,14:00,Good,2m 194y,Mount Frisco (IRE),Philip Donovan,5,John Patrick Ryan,3rd,15 l,4,10-13,-,True,67,11
+Sligo Racing Results | 9th July 2023 14:00,N/A,14:00,Good,2m 194y,Shajak (IRE),J. W. Kennedy,0,Gordon Elliott,2nd,Neck,4,11-7t,-,True,67,11
+Sligo Racing Results | 9th July 2023 14:00,N/A,14:00,Good,2m 194y,Dark Note,C. M. Quirke,7,A. Slattery,1st,N/A,4,11-7,-,True,67,11
+Sligo Racing Results | 9th July 2023 14:00,N/A,14:00,Good,2m 194y,Say It So (IRE),Sean Flanagan,0,Eric McNamara,10th,12 l,4,10-13,-,True,67,11
+Sligo Racing Results | 9th July 2023 14:00,N/A,14:00,Good,2m 194y,Blenheim Belle (IRE),Phillip Enright,0,Mark McNiff,9th,1 1/2 l,4,10-6,-,True,67,11
+Sligo Racing Results | 9th July 2023 14:00,N/A,14:00,Good,2m 194y,Suile Ban (IRE),Donagh Meyler,0,Denis Hogan,8th,4 3/4 l,4,10-13t1,-,True,67,11
+Sligo Racing Results | 9th July 2023 14:00,N/A,14:00,Good,2m 194y,Cramers Valley (IRE),J. P. O'Sullivan,5,P. J. Rothwell,7th,1/2 l,4,10-13,-,True,67,11
+Sligo Racing Results | 9th July 2023 14:00,N/A,14:00,Good,2m 194y,Keeptellinemnuttin (IRE),A. P. Heskin,0,Michael Mulvany,6th,3/4 l,4,10-13,-,True,67,11
+Sligo Racing Results | 9th July 2023 14:00,N/A,14:00,Good,2m 194y,Chequer Square (IRE),Jack G. Gilligan,7,Paul John Gilligan,5th,10 l,4,10-13tb1,-,True,67,11
+Sligo Racing Results | 9th July 2023 14:00,N/A,14:00,Good,2m 194y,Ceis Charraigin (IRE),D. E. Mullins,0,Ms Margaret Mullins,4th,3 l,4,10-6,-,True,67,11
+Sligo Racing Results | 9th July 2023 14:00,N/A,14:00,Good,2m 194y,Mount Frisco (IRE),Philip Donovan,5,John Patrick Ryan,3rd,15 l,4,10-13,-,True,67,11
+Sligo Racing Results | 9th July 2023 14:00,N/A,14:00,Good,2m 194y,Shajak (IRE),J. W. Kennedy,0,Gordon Elliott,2nd,Neck,4,11-7t,-,True,67,11
+Sligo Racing Results | 9th July 2023 14:00,N/A,14:00,Good,2m 194y,Dark Note,C. M. Quirke,7,A. Slattery,1st,N/A,4,11-7,-,True,67,11
+Sligo Racing Results | 9th July 2023 14:35,N/A,14:35,Good,2m 194y,Kalsman (IRE),Thomas Reilly,7,Liam Lennon,UR,N/A,5,11-12h,-,True,67,12
+Sligo Racing Results | 9th July 2023 14:35,N/A,14:35,Good,2m 194y,Split the Pound (IRE),D. E. Mullins,0,John Patrick Ryan,PU,N/A,5,11-12p1,-,True,67,12
+Sligo Racing Results | 9th July 2023 14:35,N/A,14:35,Good,2m 194y,Glenabbey (IRE),S. Fitzgerald,0,John Neilan,13th,13 l,7,11-12,-,True,67,12
+Sligo Racing Results | 9th July 2023 14:35,N/A,14:35,Good,2m 194y,Get It Right (IRE),Phillip Enright,0,Sean Aherne,12th,13 l,5,11-12t1,-,True,67,12
+Sligo Racing Results | 9th July 2023 14:35,N/A,14:35,Good,2m 194y,Watergrangedreamer (IRE),A. M. McCurtin,0,Eoin Christopher McCarthy,11th,27 l,6,11-12,-,True,67,12
+Sligo Racing Results | 9th July 2023 14:35,N/A,14:35,Good,2m 194y,Ozark Thunder (IRE),H. Morgan,0,Thomas Cleary,10th,12 l,6,11-12t,-,True,67,12
+Sligo Racing Results | 9th July 2023 14:35,N/A,14:35,Good,2m 194y,Knockwilliambridge (IRE),Shane Fenelon,7,John Joseph Hanlon,9th,12 l,8,11-12p,-,True,67,12
+Sligo Racing Results | 9th July 2023 14:35,N/A,14:35,Good,2m 194y,Righteous Ruane (IRE),Jack G. Gilligan,7,Paul John Gilligan,8th,4 1/2 l,5,11-12,-,True,67,12
+Sligo Racing Results | 9th July 2023 14:35,N/A,14:35,Good,2m 194y,Zahina (IRE),D. P. Maxwell,7,J. P. Broderick,7th,2 1/2 l,5,11-5p1,-,True,67,12
+Sligo Racing Results | 9th July 2023 14:35,N/A,14:35,Good,2m 194y,Artemis Angel (IRE),Sean Flanagan,0,Peter Fahey,6th,2 l,6,11-5p1,-,True,67,12
+Sligo Racing Results | 9th July 2023 14:35,N/A,14:35,Good,2m 194y,Mac's Xpress (IRE),S. F. O'Keeffe,0,Mrs J. Harrington,5th,3/4 l,5,11-12p,-,True,67,12
+Sligo Racing Results | 9th July 2023 14:35,N/A,14:35,Good,2m 194y,Rohans Successor (IRE),S. D. Torrens,0,Peter Fahey,4th,3 1/2 l,6,11-12,-,True,67,12
+Sligo Racing Results | 9th July 2023 14:35,N/A,14:35,Good,2m 194y,Nevermindestranger (IRE),B. W. Harvey,5,David Christie,3rd,3 1/2 l,6,11-12,-,True,67,12
+Sligo Racing Results | 9th July 2023 14:35,N/A,14:35,Good,2m 194y,The Mass Path (IRE),J. J. Slevin,0,Charles Byrnes,2nd,1 3/4 l,6,11-12p1,-,True,67,12
+Sligo Racing Results | 9th July 2023 14:35,N/A,14:35,Good,2m 194y,Bukhill (IRE),E. A. Fitzgerald,7,Peter Fahey,1st,N/A,5,11-12,-,True,67,12
+Sligo Racing Results | 9th July 2023 14:35,N/A,14:35,Good,2m 194y,Kalsman (IRE),Thomas Reilly,7,Liam Lennon,UR,N/A,5,11-12h,-,True,67,12
+Sligo Racing Results | 9th July 2023 14:35,N/A,14:35,Good,2m 194y,Split the Pound (IRE),D. E. Mullins,0,John Patrick Ryan,PU,N/A,5,11-12p1,-,True,67,12
+Sligo Racing Results | 9th July 2023 14:35,N/A,14:35,Good,2m 194y,Glenabbey (IRE),S. Fitzgerald,0,John Neilan,13th,13 l,7,11-12,-,True,67,12
+Sligo Racing Results | 9th July 2023 14:35,N/A,14:35,Good,2m 194y,Get It Right (IRE),Phillip Enright,0,Sean Aherne,12th,13 l,5,11-12t1,-,True,67,12
+Sligo Racing Results | 9th July 2023 14:35,N/A,14:35,Good,2m 194y,Watergrangedreamer (IRE),A. M. McCurtin,0,Eoin Christopher McCarthy,11th,27 l,6,11-12,-,True,67,12
+Sligo Racing Results | 9th July 2023 14:35,N/A,14:35,Good,2m 194y,Ozark Thunder (IRE),H. Morgan,0,Thomas Cleary,10th,12 l,6,11-12t,-,True,67,12
+Sligo Racing Results | 9th July 2023 14:35,N/A,14:35,Good,2m 194y,Knockwilliambridge (IRE),Shane Fenelon,7,John Joseph Hanlon,9th,12 l,8,11-12p,-,True,67,12
+Sligo Racing Results | 9th July 2023 14:35,N/A,14:35,Good,2m 194y,Righteous Ruane (IRE),Jack G. Gilligan,7,Paul John Gilligan,8th,4 1/2 l,5,11-12,-,True,67,12
+Sligo Racing Results | 9th July 2023 14:35,N/A,14:35,Good,2m 194y,Zahina (IRE),D. P. Maxwell,7,J. P. Broderick,7th,2 1/2 l,5,11-5p1,-,True,67,12
+Sligo Racing Results | 9th July 2023 14:35,N/A,14:35,Good,2m 194y,Artemis Angel (IRE),Sean Flanagan,0,Peter Fahey,6th,2 l,6,11-5p1,-,True,67,12
+Sligo Racing Results | 9th July 2023 14:35,N/A,14:35,Good,2m 194y,Mac's Xpress (IRE),S. F. O'Keeffe,0,Mrs J. Harrington,5th,3/4 l,5,11-12p,-,True,67,12
+Sligo Racing Results | 9th July 2023 14:35,N/A,14:35,Good,2m 194y,Rohans Successor (IRE),S. D. Torrens,0,Peter Fahey,4th,3 1/2 l,6,11-12,-,True,67,12
+Sligo Racing Results | 9th July 2023 14:35,N/A,14:35,Good,2m 194y,Nevermindestranger (IRE),B. W. Harvey,5,David Christie,3rd,3 1/2 l,6,11-12,-,True,67,12
+Sligo Racing Results | 9th July 2023 14:35,N/A,14:35,Good,2m 194y,The Mass Path (IRE),J. J. Slevin,0,Charles Byrnes,2nd,1 3/4 l,6,11-12p1,-,True,67,12
+Sligo Racing Results | 9th July 2023 14:35,N/A,14:35,Good,2m 194y,Bukhill (IRE),E. A. Fitzgerald,7,Peter Fahey,1st,N/A,5,11-12,-,True,67,12
+Sligo Racing Results | 9th July 2023 15:10,N/A,15:10,Good,2m 194y,Nelly's Money (IRE),D. E. Mullins,0,John Patrick Ryan,8th,37 l,10,11-5t,109,True,67,13
+Sligo Racing Results | 9th July 2023 15:10,N/A,15:10,Good,2m 194y,Purse Price,J. W. Kennedy,0,Gordon Elliott,7th,15 l,6,11-3tp,107,True,67,13
+Sligo Racing Results | 9th July 2023 15:10,N/A,15:10,Good,2m 194y,Eve Moneypenny (IRE),J. S. McGarvey,0,Colin Bowe,6th,4 1/4 l,5,11-12h,116,True,67,13
+Sligo Racing Results | 9th July 2023 15:10,N/A,15:10,Good,2m 194y,Angelsworknovrtime (IRE),A. P. Kelly,7,James Andrew Fahey,5th,5 1/2 l,7,10-8,98,True,67,13
+Sligo Racing Results | 9th July 2023 15:10,N/A,15:10,Good,2m 194y,Nodoubtaboutthat (IRE),M. P. O'Connor,3,Shane Crawley,4th,1 l,8,11-5,109,True,67,13
+Sligo Racing Results | 9th July 2023 15:10,N/A,15:10,Good,2m 194y,We Got This (USA),Patrick Michael O'Brien,7,F. G. Hand,3rd,4 1/4 l,5,11-10,114,True,67,13
+Sligo Racing Results | 9th July 2023 15:10,N/A,15:10,Good,2m 194y,Delante (IRE),Donagh Meyler,0,Thomas Cooper,2nd,3/4 l,5,11-5,109,True,67,13
+Sligo Racing Results | 9th July 2023 15:10,N/A,15:10,Good,2m 194y,Red Ball Of Fire (IRE),M. J. M. O'Sullivan,3,Mark McNiff,1st,N/A,6,11-5b,109,True,67,13
+Sligo Racing Results | 9th July 2023 15:10,N/A,15:10,Good,2m 194y,Nelly's Money (IRE),D. E. Mullins,0,John Patrick Ryan,8th,37 l,10,11-5t,109,True,67,13
+Sligo Racing Results | 9th July 2023 15:10,N/A,15:10,Good,2m 194y,Purse Price,J. W. Kennedy,0,Gordon Elliott,7th,15 l,6,11-3tp,107,True,67,13
+Sligo Racing Results | 9th July 2023 15:10,N/A,15:10,Good,2m 194y,Eve Moneypenny (IRE),J. S. McGarvey,0,Colin Bowe,6th,4 1/4 l,5,11-12h,116,True,67,13
+Sligo Racing Results | 9th July 2023 15:10,N/A,15:10,Good,2m 194y,Angelsworknovrtime (IRE),A. P. Kelly,7,James Andrew Fahey,5th,5 1/2 l,7,10-8,98,True,67,13
+Sligo Racing Results | 9th July 2023 15:10,N/A,15:10,Good,2m 194y,Nodoubtaboutthat (IRE),M. P. O'Connor,3,Shane Crawley,4th,1 l,8,11-5,109,True,67,13
+Sligo Racing Results | 9th July 2023 15:10,N/A,15:10,Good,2m 194y,We Got This (USA),Patrick Michael O'Brien,7,F. G. Hand,3rd,4 1/4 l,5,11-10,114,True,67,13
+Sligo Racing Results | 9th July 2023 15:10,N/A,15:10,Good,2m 194y,Delante (IRE),Donagh Meyler,0,Thomas Cooper,2nd,3/4 l,5,11-5,109,True,67,13
+Sligo Racing Results | 9th July 2023 15:10,N/A,15:10,Good,2m 194y,Red Ball Of Fire (IRE),M. J. M. O'Sullivan,3,Mark McNiff,1st,N/A,6,11-5b,109,True,67,13
+Sligo Racing Results | 9th July 2023 15:45,N/A,15:45,Good,2m 194y,So Easy Way (IRE),D. Moloney,4,I. Madden,10th,9 1/2 l,7,10-0,88,True,67,14
+Sligo Racing Results | 9th July 2023 15:45,N/A,15:45,Good,2m 194y,Garcon Doux (IRE),C. M. Quirke,4,Philip Fenton,9th,27 l,7,11-2,104,True,67,14
+Sligo Racing Results | 9th July 2023 15:45,N/A,15:45,Good,2m 194y,Alhaajeb (IRE),Shane Fenelon,4,John Joseph Hanlon,8th,4 1/2 l,5,10-10,98,True,67,14
+Sligo Racing Results | 9th July 2023 15:45,N/A,15:45,Good,2m 194y,Bigz Belief (IRE),J. Smith,4,Matthew J. Smith,7th,Neck,6,11-12tb,114,True,67,14
+Sligo Racing Results | 9th July 2023 15:45,N/A,15:45,Good,2m 194y,Willyouwalkwithme (IRE),J. P. Shinnick,4,Harry Smyth,6th,8 l,8,11-7,109,True,67,14
+Sligo Racing Results | 9th July 2023 15:45,N/A,15:45,Good,2m 194y,Staging Post (IRE),M. J. M. O'Sullivan,0,Mark McNiff,5th,3 l,7,10-6tb,94,True,67,14
+Sligo Racing Results | 9th July 2023 15:45,N/A,15:45,Good,2m 194y,Pont Audemer (FR),K. E. Buckley,0,Gavin Patrick Cromwell,4th,4 1/4 l,4,11-6,112,True,67,14
+Sligo Racing Results | 9th July 2023 15:45,N/A,15:45,Good,2m 194y,Woodstream Lad (IRE),M. P. O'Connor,0,R. K. Watson,3rd,3 1/2 l,6,10-0b1,88,True,67,14
+Sligo Racing Results | 9th July 2023 15:45,N/A,15:45,Good,2m 194y,Warm In Gorey (IRE),Patrick O'Hanlon,0,P. J. Rothwell,2nd,3 1/4 l,5,10-8t,96,True,67,14
+Sligo Racing Results | 9th July 2023 15:45,N/A,15:45,Good,2m 194y,The Big Chap (IRE),A. P. Kelly,4,Paul W. Flynn,1st,N/A,6,12-0t,116,True,67,14
+Sligo Racing Results | 9th July 2023 15:45,N/A,15:45,Good,2m 194y,So Easy Way (IRE),D. Moloney,4,I. Madden,10th,9 1/2 l,7,10-0,88,True,67,14
+Sligo Racing Results | 9th July 2023 15:45,N/A,15:45,Good,2m 194y,Garcon Doux (IRE),C. M. Quirke,4,Philip Fenton,9th,27 l,7,11-2,104,True,67,14
+Sligo Racing Results | 9th July 2023 15:45,N/A,15:45,Good,2m 194y,Alhaajeb (IRE),Shane Fenelon,4,John Joseph Hanlon,8th,4 1/2 l,5,10-10,98,True,67,14
+Sligo Racing Results | 9th July 2023 15:45,N/A,15:45,Good,2m 194y,Bigz Belief (IRE),J. Smith,4,Matthew J. Smith,7th,Neck,6,11-12tb,114,True,67,14
+Sligo Racing Results | 9th July 2023 15:45,N/A,15:45,Good,2m 194y,Willyouwalkwithme (IRE),J. P. Shinnick,4,Harry Smyth,6th,8 l,8,11-7,109,True,67,14
+Sligo Racing Results | 9th July 2023 15:45,N/A,15:45,Good,2m 194y,Staging Post (IRE),M. J. M. O'Sullivan,0,Mark McNiff,5th,3 l,7,10-6tb,94,True,67,14
+Sligo Racing Results | 9th July 2023 15:45,N/A,15:45,Good,2m 194y,Pont Audemer (FR),K. E. Buckley,0,Gavin Patrick Cromwell,4th,4 1/4 l,4,11-6,112,True,67,14
+Sligo Racing Results | 9th July 2023 15:45,N/A,15:45,Good,2m 194y,Woodstream Lad (IRE),M. P. O'Connor,0,R. K. Watson,3rd,3 1/2 l,6,10-0b1,88,True,67,14
+Sligo Racing Results | 9th July 2023 15:45,N/A,15:45,Good,2m 194y,Warm In Gorey (IRE),Patrick O'Hanlon,0,P. J. Rothwell,2nd,3 1/4 l,5,10-8t,96,True,67,14
+Sligo Racing Results | 9th July 2023 15:45,N/A,15:45,Good,2m 194y,The Big Chap (IRE),A. P. Kelly,4,Paul W. Flynn,1st,N/A,6,12-0t,116,True,67,14
+Sligo Racing Results | 9th July 2023 16:20,N/A,16:20,Good,2m 3f 194y,Midnight Fortune (IRE),Conor Orr,0,Noel C. Kelly,PU,N/A,5,10-13t1,80,True,67,15
+Sligo Racing Results | 9th July 2023 16:20,N/A,16:20,Good,2m 3f 194y,Corkbeg (IRE),C. M. Quirke,7,David Harry Kelly,F,N/A,6,12-0ht,95,True,67,15
+Sligo Racing Results | 9th July 2023 16:20,N/A,16:20,Good,2m 3f 194y,Bidentime (IRE),Phillip Enright,0,N. Hynds,12th,4 1/4 l,7,11-1,82,True,67,15
+Sligo Racing Results | 9th July 2023 16:20,N/A,16:20,Good,2m 3f 194y,Inagh's Gift (IRE),D. J. O'Keeffe,0,Sean P. Hennessy,11th,1 1/2 l,10,10-13,80,True,67,15
+Sligo Racing Results | 9th July 2023 16:20,N/A,16:20,Good,2m 3f 194y,Mosaaheb,J. S. McGarvey,0,John Joseph Hanlon,10th,16 l,5,11-7,88,True,67,15
+Sligo Racing Results | 9th July 2023 16:20,N/A,16:20,Good,2m 3f 194y,Macs Lady (IRE),B. W. Harvey,5,Shane Kieran Ryder,9th,12 l,5,11-5t1,86,True,67,15
+Sligo Racing Results | 9th July 2023 16:20,N/A,16:20,Good,2m 3f 194y,Natural Breeze (IRE),J. P. O'Sullivan,5,P. J. Rothwell,8th,2 3/4 l,8,11-5p,86,True,67,15
+Sligo Racing Results | 9th July 2023 16:20,N/A,16:20,Good,2m 3f 194y,Mooney Boy (IRE),S. D. Torrens,0,P. J. Rothwell,7th,3 3/4 l,6,10-13,80,True,67,15
+Sligo Racing Results | 9th July 2023 16:20,N/A,16:20,Good,2m 3f 194y,Sayitfirst (IRE),J. J. Slevin,0,Darren Collins,6th,5 l,7,10-13,80,True,67,15
+Sligo Racing Results | 9th July 2023 16:20,N/A,16:20,Good,2m 3f 194y,Getabelle (IRE),B. Hayes,0,Liam P. Cusack,5th,3 1/2 l,6,11-3,84,True,67,15
+Sligo Racing Results | 9th July 2023 16:20,N/A,16:20,Good,2m 3f 194y,Millies Dream (IRE),Keith Donoghue,0,Gavin Patrick Cromwell,4th,1 3/4 l,5,11-8,89,True,67,15
+Sligo Racing Results | 9th July 2023 16:20,N/A,16:20,Good,2m 3f 194y,Tea It Is (IRE),Sean Flanagan,0,Vincent Carroll,3rd,1 1/4 l,6,11-8,89,True,67,15
+Sligo Racing Results | 9th July 2023 16:20,N/A,16:20,Good,2m 3f 194y,Sean Og (IRE),D. E. Mullins,0,Ms Margaret Mullins,2nd,1/2 l,5,12-0,95,True,67,15
+Sligo Racing Results | 9th July 2023 16:20,N/A,16:20,Good,2m 3f 194y,Athagabhain (IRE),Mr H. E. Sexton,7,Adrian Sexton,1st,N/A,6,11-2,83,True,67,15
+Sligo Racing Results | 9th July 2023 16:20,N/A,16:20,Good,2m 3f 194y,Midnight Fortune (IRE),Conor Orr,0,Noel C. Kelly,PU,N/A,5,10-13t1,80,True,67,15
+Sligo Racing Results | 9th July 2023 16:20,N/A,16:20,Good,2m 3f 194y,Corkbeg (IRE),C. M. Quirke,7,David Harry Kelly,F,N/A,6,12-0ht,95,True,67,15
+Sligo Racing Results | 9th July 2023 16:20,N/A,16:20,Good,2m 3f 194y,Bidentime (IRE),Phillip Enright,0,N. Hynds,12th,4 1/4 l,7,11-1,82,True,67,15
+Sligo Racing Results | 9th July 2023 16:20,N/A,16:20,Good,2m 3f 194y,Inagh's Gift (IRE),D. J. O'Keeffe,0,Sean P. Hennessy,11th,1 1/2 l,10,10-13,80,True,67,15
+Sligo Racing Results | 9th July 2023 16:20,N/A,16:20,Good,2m 3f 194y,Mosaaheb,J. S. McGarvey,0,John Joseph Hanlon,10th,16 l,5,11-7,88,True,67,15
+Sligo Racing Results | 9th July 2023 16:20,N/A,16:20,Good,2m 3f 194y,Macs Lady (IRE),B. W. Harvey,5,Shane Kieran Ryder,9th,12 l,5,11-5t1,86,True,67,15
+Sligo Racing Results | 9th July 2023 16:20,N/A,16:20,Good,2m 3f 194y,Natural Breeze (IRE),J. P. O'Sullivan,5,P. J. Rothwell,8th,2 3/4 l,8,11-5p,86,True,67,15
+Sligo Racing Results | 9th July 2023 16:20,N/A,16:20,Good,2m 3f 194y,Mooney Boy (IRE),S. D. Torrens,0,P. J. Rothwell,7th,3 3/4 l,6,10-13,80,True,67,15
+Sligo Racing Results | 9th July 2023 16:20,N/A,16:20,Good,2m 3f 194y,Sayitfirst (IRE),J. J. Slevin,0,Darren Collins,6th,5 l,7,10-13,80,True,67,15
+Sligo Racing Results | 9th July 2023 16:20,N/A,16:20,Good,2m 3f 194y,Getabelle (IRE),B. Hayes,0,Liam P. Cusack,5th,3 1/2 l,6,11-3,84,True,67,15
+Sligo Racing Results | 9th July 2023 16:20,N/A,16:20,Good,2m 3f 194y,Millies Dream (IRE),Keith Donoghue,0,Gavin Patrick Cromwell,4th,1 3/4 l,5,11-8,89,True,67,15
+Sligo Racing Results | 9th July 2023 16:20,N/A,16:20,Good,2m 3f 194y,Tea It Is (IRE),Sean Flanagan,0,Vincent Carroll,3rd,1 1/4 l,6,11-8,89,True,67,15
+Sligo Racing Results | 9th July 2023 16:20,N/A,16:20,Good,2m 3f 194y,Sean Og (IRE),D. E. Mullins,0,Ms Margaret Mullins,2nd,1/2 l,5,12-0,95,True,67,15
+Sligo Racing Results | 9th July 2023 16:20,N/A,16:20,Good,2m 3f 194y,Athagabhain (IRE),Mr H. E. Sexton,7,Adrian Sexton,1st,N/A,6,11-2,83,True,67,15
+Sligo Racing Results | 9th July 2023 17:30,N/A,17:30,Good,2m 2f,Hardy Buck (IRE),Mr Paddy Hanlon,7,John Joseph Hanlon,12th,8 l,5,12-0,-,True,67,17
+Sligo Racing Results | 9th July 2023 17:30,N/A,17:30,Good,2m 2f,Mont Beuvray (IRE),Mr A. Harvey,7,John Patrick Ryan,11th,1 1/2 l,5,12-0,-,True,67,17
+Sligo Racing Results | 9th July 2023 17:30,N/A,17:30,Good,2m 2f,Light Lady (IRE),Mr S. Cleary,7,James M. Barcoe,10th,44 l,6,11-7h1,-,True,67,17
+Sligo Racing Results | 9th July 2023 17:30,N/A,17:30,Good,2m 2f,Willwekeephim (IRE),Mr L. J. Murphy,7,Peter John Flood,9th,22 l,5,12-0,-,True,67,17
+Sligo Racing Results | 9th July 2023 17:30,N/A,17:30,Good,2m 2f,Laidback Joanie (IRE),Mr Pat Taaffe,7,Louise G. Lyons,8th,30 l,5,11-7,-,True,67,17
+Sligo Racing Results | 9th July 2023 17:30,N/A,17:30,Good,2m 2f,Bama Breeze (IRE),Mr M. E. McCrory,7,Noel C. Kelly,7th,Short Head,5,11-7,-,True,67,17
+Sligo Racing Results | 9th July 2023 17:30,N/A,17:30,Good,2m 2f,Tobins Cross (IRE),Mr A. P. Ryan,7,A. Slattery,6th,3 1/4 l,5,12-0,-,True,67,17
+Sligo Racing Results | 9th July 2023 17:30,N/A,17:30,Good,2m 2f,Lummi Island (IRE),Mr R. Sugrue,7,D. Deacon,5th,24 l,5,12-0,-,True,67,17
+Sligo Racing Results | 9th July 2023 17:30,N/A,17:30,Good,2m 2f,Givago (FR),Mr P. W. Mullins,0,W. P. Mullins,4th,1 3/4 l,5,12-0t1,-,True,67,17
+Sligo Racing Results | 9th July 2023 17:30,N/A,17:30,Good,2m 2f,Lake Winnipesaukee (IRE),Mr J. Dunne,7,Gavin Patrick Cromwell,3rd,4 3/4 l,6,12-0,-,True,67,17
+Sligo Racing Results | 9th July 2023 17:30,N/A,17:30,Good,2m 2f,Midleton Rare (IRE),Mr J. P. Sutton,7,Dermot Anthony McLoughlin,2nd,19 l,5,12-0,-,True,67,17
+Sligo Racing Results | 9th July 2023 17:30,N/A,17:30,Good,2m 2f,Arabian Diamond (IRE),Mr H. C. Swan,5,Gordon Elliott,1st,N/A,5,12-0,-,True,67,17
+Sligo Racing Results | 9th July 2023 17:30,N/A,17:30,Good,2m 2f,Hardy Buck (IRE),Mr Paddy Hanlon,7,John Joseph Hanlon,12th,8 l,5,12-0,-,True,67,17
+Sligo Racing Results | 9th July 2023 17:30,N/A,17:30,Good,2m 2f,Mont Beuvray (IRE),Mr A. Harvey,7,John Patrick Ryan,11th,1 1/2 l,5,12-0,-,True,67,17
+Sligo Racing Results | 9th July 2023 17:30,N/A,17:30,Good,2m 2f,Light Lady (IRE),Mr S. Cleary,7,James M. Barcoe,10th,44 l,6,11-7h1,-,True,67,17
+Sligo Racing Results | 9th July 2023 17:30,N/A,17:30,Good,2m 2f,Willwekeephim (IRE),Mr L. J. Murphy,7,Peter John Flood,9th,22 l,5,12-0,-,True,67,17
+Sligo Racing Results | 9th July 2023 17:30,N/A,17:30,Good,2m 2f,Laidback Joanie (IRE),Mr Pat Taaffe,7,Louise G. Lyons,8th,30 l,5,11-7,-,True,67,17
+Sligo Racing Results | 9th July 2023 17:30,N/A,17:30,Good,2m 2f,Bama Breeze (IRE),Mr M. E. McCrory,7,Noel C. Kelly,7th,Short Head,5,11-7,-,True,67,17
+Sligo Racing Results | 9th July 2023 17:30,N/A,17:30,Good,2m 2f,Tobins Cross (IRE),Mr A. P. Ryan,7,A. Slattery,6th,3 1/4 l,5,12-0,-,True,67,17
+Sligo Racing Results | 9th July 2023 17:30,N/A,17:30,Good,2m 2f,Lummi Island (IRE),Mr R. Sugrue,7,D. Deacon,5th,24 l,5,12-0,-,True,67,17
+Sligo Racing Results | 9th July 2023 17:30,N/A,17:30,Good,2m 2f,Givago (FR),Mr P. W. Mullins,0,W. P. Mullins,4th,1 3/4 l,5,12-0t1,-,True,67,17
+Sligo Racing Results | 9th July 2023 17:30,N/A,17:30,Good,2m 2f,Lake Winnipesaukee (IRE),Mr J. Dunne,7,Gavin Patrick Cromwell,3rd,4 3/4 l,6,12-0,-,True,67,17
+Sligo Racing Results | 9th July 2023 17:30,N/A,17:30,Good,2m 2f,Midleton Rare (IRE),Mr J. P. Sutton,7,Dermot Anthony McLoughlin,2nd,19 l,5,12-0,-,True,67,17
+Sligo Racing Results | 9th July 2023 17:30,N/A,17:30,Good,2m 2f,Arabian Diamond (IRE),Mr H. C. Swan,5,Gordon Elliott,1st,N/A,5,12-0,-,True,67,17
+Roscommon Racing Results | 10th July 2023 17:00,N/A,17:00,Good To Yielding,2m 4f,Saddle In the Rain (IRE),Richard Condon,5,D. J. Barry,PU,N/A,6,10-6tp,-,True,67,18
+Roscommon Racing Results | 10th July 2023 17:00,N/A,17:00,Good To Yielding,2m 4f,My Manekineko,Gavin Peter Brouder,5,Peter McCreery,11th,1 1/4 l,14,10-8,-,True,67,18
+Roscommon Racing Results | 10th July 2023 17:00,N/A,17:00,Good To Yielding,2m 4f,Latest Model (IRE),J. S. McGarvey,0,John Joseph Hanlon,10th,4 1/2 l,6,10-8t,-,True,67,18
+Roscommon Racing Results | 10th July 2023 17:00,N/A,17:00,Good To Yielding,2m 4f,Knock On Steel (IRE),S. F. O'Keeffe,0,Brian Jordan,9th,8 l,10,11-0,-,True,67,18
+Roscommon Racing Results | 10th July 2023 17:00,N/A,17:00,Good To Yielding,2m 4f,Massons Castle,C. D. Maxwell,0,Dermot Anthony McLoughlin,8th,5 1/2 l,8,10-8,-,True,67,18
+Roscommon Racing Results | 10th July 2023 17:00,N/A,17:00,Good To Yielding,2m 4f,Repeat That (IRE),Phillip Enright,0,Michael Butler,7th,2 1/2 l,10,10-6b,-,True,67,18
+Roscommon Racing Results | 10th July 2023 17:00,N/A,17:00,Good To Yielding,2m 4f,Benz (IRE),C. P. Millar,7,Gordon Elliott,6th,2 1/4 l,5,10-8p,-,True,67,18
+Roscommon Racing Results | 10th July 2023 17:00,N/A,17:00,Good To Yielding,2m 4f,Coventry (IRE),J. W. Kennedy,0,Gordon Elliott,5th,Short Head,6,11-10b,-,True,67,18
+Roscommon Racing Results | 10th July 2023 17:00,N/A,17:00,Good To Yielding,2m 4f,Eagle Terrace,B. Hayes,0,John Joseph Hanlon,4th,1/2 l,5,11-0t,-,True,67,18
+Roscommon Racing Results | 10th July 2023 17:00,N/A,17:00,Good To Yielding,2m 4f,Barbary Master,L. A. McKenna,5,Noel Meade,3rd,1 l,8,11-4t,-,True,67,18
+Roscommon Racing Results | 10th July 2023 17:00,N/A,17:00,Good To Yielding,2m 4f,Custers Mistake (IRE),J. J. Slevin,0,John F. O'Neill,2nd,1 1/4 l,6,11-4t,-,True,67,18
+Roscommon Racing Results | 10th July 2023 17:00,N/A,17:00,Good To Yielding,2m 4f,Bal De Rio (FR),Philip Donovan,5,Denis Hogan,1st,N/A,10,11-8,-,True,67,18
+Roscommon Racing Results | 10th July 2023 17:00,N/A,17:00,Good To Yielding,2m 4f,Saddle In the Rain (IRE),Richard Condon,5,D. J. Barry,PU,N/A,6,10-6tp,-,True,67,18
+Roscommon Racing Results | 10th July 2023 17:00,N/A,17:00,Good To Yielding,2m 4f,My Manekineko,Gavin Peter Brouder,5,Peter McCreery,11th,1 1/4 l,14,10-8,-,True,67,18
+Roscommon Racing Results | 10th July 2023 17:00,N/A,17:00,Good To Yielding,2m 4f,Latest Model (IRE),J. S. McGarvey,0,John Joseph Hanlon,10th,4 1/2 l,6,10-8t,-,True,67,18
+Roscommon Racing Results | 10th July 2023 17:00,N/A,17:00,Good To Yielding,2m 4f,Knock On Steel (IRE),S. F. O'Keeffe,0,Brian Jordan,9th,8 l,10,11-0,-,True,67,18
+Roscommon Racing Results | 10th July 2023 17:00,N/A,17:00,Good To Yielding,2m 4f,Massons Castle,C. D. Maxwell,0,Dermot Anthony McLoughlin,8th,5 1/2 l,8,10-8,-,True,67,18
+Roscommon Racing Results | 10th July 2023 17:00,N/A,17:00,Good To Yielding,2m 4f,Repeat That (IRE),Phillip Enright,0,Michael Butler,7th,2 1/2 l,10,10-6b,-,True,67,18
+Roscommon Racing Results | 10th July 2023 17:00,N/A,17:00,Good To Yielding,2m 4f,Benz (IRE),C. P. Millar,7,Gordon Elliott,6th,2 1/4 l,5,10-8p,-,True,67,18
+Roscommon Racing Results | 10th July 2023 17:00,N/A,17:00,Good To Yielding,2m 4f,Coventry (IRE),J. W. Kennedy,0,Gordon Elliott,5th,Short Head,6,11-10b,-,True,67,18
+Roscommon Racing Results | 10th July 2023 17:00,N/A,17:00,Good To Yielding,2m 4f,Eagle Terrace,B. Hayes,0,John Joseph Hanlon,4th,1/2 l,5,11-0t,-,True,67,18
+Roscommon Racing Results | 10th July 2023 17:00,N/A,17:00,Good To Yielding,2m 4f,Barbary Master,L. A. McKenna,5,Noel Meade,3rd,1 l,8,11-4t,-,True,67,18
+Roscommon Racing Results | 10th July 2023 17:00,N/A,17:00,Good To Yielding,2m 4f,Custers Mistake (IRE),J. J. Slevin,0,John F. O'Neill,2nd,1 1/4 l,6,11-4t,-,True,67,18
+Roscommon Racing Results | 10th July 2023 17:00,N/A,17:00,Good To Yielding,2m 4f,Bal De Rio (FR),Philip Donovan,5,Denis Hogan,1st,N/A,10,11-8,-,True,67,18
+Roscommon Racing Results | 10th July 2023 18:05,N/A,18:05,Good To Yielding,1m 7f 110y,Winds Of Winter (IRE),L. A. McKenna,5,Paul W. Flynn,14th,5 1/2 l,5,10-11h1,-,True,67,20
+Roscommon Racing Results | 10th July 2023 18:05,N/A,18:05,Good To Yielding,1m 7f 110y,Dugort Bay (IRE),M. M. McDonagh,5,Paul Stafford,13th,8 l,5,10-11,-,True,67,20
+Roscommon Racing Results | 10th July 2023 18:05,N/A,18:05,Good To Yielding,1m 7f 110y,Beanie to Sea (IRE),A. P. Kelly,7,Seamus Fahey,12th,2 1/2 l,5,10-11,-,True,67,20
+Roscommon Racing Results | 10th July 2023 18:05,N/A,18:05,Good To Yielding,1m 7f 110y,Free Parking (IRE),Thomas Reilly,7,John McConnell,11th,1 1/4 l,6,11-4t,-,True,67,20
+Roscommon Racing Results | 10th July 2023 18:05,N/A,18:05,Good To Yielding,1m 7f 110y,Jimmy Mcgill (IRE),D. J. O'Keeffe,0,Ian Patrick Donoghue,10th,2 l,5,11-4t,-,True,67,20
+Roscommon Racing Results | 10th July 2023 18:05,N/A,18:05,Good To Yielding,1m 7f 110y,No Risk No Story (IRE),Phillip Enright,0,Charles Byrnes,9th,15 l,5,10-11,-,True,67,20
+Roscommon Racing Results | 10th July 2023 18:05,N/A,18:05,Good To Yielding,1m 7f 110y,Pretty Soldier (GER),S. D. Torrens,0,Mervyn Torrens,8th,2 1/4 l,6,11-12,-,True,67,20
+Roscommon Racing Results | 10th July 2023 18:05,N/A,18:05,Good To Yielding,1m 7f 110y,Longagoanfarbehind (FR),B. P. Kennedy,7,Seamus Fahey,7th,1 l,6,11-4,-,True,67,20
+Roscommon Racing Results | 10th July 2023 18:05,N/A,18:05,Good To Yielding,1m 7f 110y,Rushford,H. Morgan,0,T. R. Hughes,6th,1/2 l,4,11-8,-,True,67,20
+Roscommon Racing Results | 10th July 2023 18:05,N/A,18:05,Good To Yielding,1m 7f 110y,Electric Eddy,K. E. Buckley,3,Mrs Prunella Dobbs,5th,2 1/2 l,5,11-4,-,True,67,20
+Roscommon Racing Results | 10th July 2023 18:05,N/A,18:05,Good To Yielding,1m 7f 110y,Fast Medicine (IRE),J. S. McGarvey,0,John Joseph Hanlon,4th,3/4 l,5,11-12h,-,True,67,20
+Roscommon Racing Results | 10th July 2023 18:05,N/A,18:05,Good To Yielding,1m 7f 110y,Stormy Jenn (IRE),Donagh Meyler,0,Peter Cluskey,3rd,5 1/2 l,6,11-5,-,True,67,20
+Roscommon Racing Results | 10th July 2023 18:05,N/A,18:05,Good To Yielding,1m 7f 110y,Ballycallan King (IRE),S. Cleary-Farrell,7,Barry Fitzgerald,2nd,3 1/4 l,6,11-4,-,True,67,20
+Roscommon Racing Results | 10th July 2023 18:05,N/A,18:05,Good To Yielding,1m 7f 110y,Timourid (IRE),Keith Donoghue,0,Paul W. Flynn,1st,N/A,6,11-12t,-,True,67,20
+Roscommon Racing Results | 10th July 2023 18:05,N/A,18:05,Good To Yielding,1m 7f 110y,Winds Of Winter (IRE),L. A. McKenna,5,Paul W. Flynn,14th,5 1/2 l,5,10-11h1,-,True,67,20
+Roscommon Racing Results | 10th July 2023 18:05,N/A,18:05,Good To Yielding,1m 7f 110y,Dugort Bay (IRE),M. M. McDonagh,5,Paul Stafford,13th,8 l,5,10-11,-,True,67,20
+Roscommon Racing Results | 10th July 2023 18:05,N/A,18:05,Good To Yielding,1m 7f 110y,Beanie to Sea (IRE),A. P. Kelly,7,Seamus Fahey,12th,2 1/2 l,5,10-11,-,True,67,20
+Roscommon Racing Results | 10th July 2023 18:05,N/A,18:05,Good To Yielding,1m 7f 110y,Free Parking (IRE),Thomas Reilly,7,John McConnell,11th,1 1/4 l,6,11-4t,-,True,67,20
+Roscommon Racing Results | 10th July 2023 18:05,N/A,18:05,Good To Yielding,1m 7f 110y,Jimmy Mcgill (IRE),D. J. O'Keeffe,0,Ian Patrick Donoghue,10th,2 l,5,11-4t,-,True,67,20
+Roscommon Racing Results | 10th July 2023 18:05,N/A,18:05,Good To Yielding,1m 7f 110y,No Risk No Story (IRE),Phillip Enright,0,Charles Byrnes,9th,15 l,5,10-11,-,True,67,20
+Roscommon Racing Results | 10th July 2023 18:05,N/A,18:05,Good To Yielding,1m 7f 110y,Pretty Soldier (GER),S. D. Torrens,0,Mervyn Torrens,8th,2 1/4 l,6,11-12,-,True,67,20
+Roscommon Racing Results | 10th July 2023 18:05,N/A,18:05,Good To Yielding,1m 7f 110y,Longagoanfarbehind (FR),B. P. Kennedy,7,Seamus Fahey,7th,1 l,6,11-4,-,True,67,20
+Roscommon Racing Results | 10th July 2023 18:05,N/A,18:05,Good To Yielding,1m 7f 110y,Rushford,H. Morgan,0,T. R. Hughes,6th,1/2 l,4,11-8,-,True,67,20
+Roscommon Racing Results | 10th July 2023 18:05,N/A,18:05,Good To Yielding,1m 7f 110y,Electric Eddy,K. E. Buckley,3,Mrs Prunella Dobbs,5th,2 1/2 l,5,11-4,-,True,67,20
+Roscommon Racing Results | 10th July 2023 18:05,N/A,18:05,Good To Yielding,1m 7f 110y,Fast Medicine (IRE),J. S. McGarvey,0,John Joseph Hanlon,4th,3/4 l,5,11-12h,-,True,67,20
+Roscommon Racing Results | 10th July 2023 18:05,N/A,18:05,Good To Yielding,1m 7f 110y,Stormy Jenn (IRE),Donagh Meyler,0,Peter Cluskey,3rd,5 1/2 l,6,11-5,-,True,67,20
+Roscommon Racing Results | 10th July 2023 18:05,N/A,18:05,Good To Yielding,1m 7f 110y,Ballycallan King (IRE),S. Cleary-Farrell,7,Barry Fitzgerald,2nd,3 1/4 l,6,11-4,-,True,67,20
+Roscommon Racing Results | 10th July 2023 18:05,N/A,18:05,Good To Yielding,1m 7f 110y,Timourid (IRE),Keith Donoghue,0,Paul W. Flynn,1st,N/A,6,11-12t,-,True,67,20
+Roscommon Racing Results | 10th July 2023 18:38,N/A,18:38,Good To Yielding,1m 7f 110y,Fanta Magic (IRE),R. P. Geoghegan,7,Norman Lee,8th,1 1/2 l,7,10-9,-,True,67,21
+Roscommon Racing Results | 10th July 2023 18:38,N/A,18:38,Good To Yielding,1m 7f 110y,Katou (IRE),D. E. Mullins,0,W. P. Mullins,7th,16 l,6,11-1,-,True,67,21
+Roscommon Racing Results | 10th July 2023 18:38,N/A,18:38,Good To Yielding,1m 7f 110y,Extrapolation (IRE),Denis O'Regan,0,Richard John O'Brien,6th,11 l,6,11-2,-,True,67,21
+Roscommon Racing Results | 10th July 2023 18:38,N/A,18:38,Good To Yielding,1m 7f 110y,This Songisforyou (USA),Donagh Meyler,0,Emmet Mullins,5th,1/2 l,5,11-2,-,True,67,21
+Roscommon Racing Results | 10th July 2023 18:38,N/A,18:38,Good To Yielding,1m 7f 110y,Walhaan (IRE),E. Walsh,3,Ciaran Murphy,4th,1 1/2 l,7,11-8,-,True,67,21
+Roscommon Racing Results | 10th July 2023 18:38,N/A,18:38,Good To Yielding,1m 7f 110y,Bowmore (IRE),Rachael Blackmore,0,Henry de Bromhead,3rd,8 1/2 l,5,11-8,-,True,67,21
+Roscommon Racing Results | 10th July 2023 18:38,N/A,18:38,Good To Yielding,1m 7f 110y,Lucid Dreams (IRE),Mr H. C. Swan,5,John Patrick Ryan,2nd,1/2 l,8,11-12,-,True,67,21
+Roscommon Racing Results | 10th July 2023 18:38,N/A,18:38,Good To Yielding,1m 7f 110y,Williamstowndancer (IRE),P. Townend,0,W. P. Mullins,1st,N/A,5,11-1,-,True,67,21
+Roscommon Racing Results | 10th July 2023 18:38,N/A,18:38,Good To Yielding,1m 7f 110y,Fanta Magic (IRE),R. P. Geoghegan,7,Norman Lee,8th,1 1/2 l,7,10-9,-,True,67,21
+Roscommon Racing Results | 10th July 2023 18:38,N/A,18:38,Good To Yielding,1m 7f 110y,Katou (IRE),D. E. Mullins,0,W. P. Mullins,7th,16 l,6,11-1,-,True,67,21
+Roscommon Racing Results | 10th July 2023 18:38,N/A,18:38,Good To Yielding,1m 7f 110y,Extrapolation (IRE),Denis O'Regan,0,Richard John O'Brien,6th,11 l,6,11-2,-,True,67,21
+Roscommon Racing Results | 10th July 2023 18:38,N/A,18:38,Good To Yielding,1m 7f 110y,This Songisforyou (USA),Donagh Meyler,0,Emmet Mullins,5th,1/2 l,5,11-2,-,True,67,21
+Roscommon Racing Results | 10th July 2023 18:38,N/A,18:38,Good To Yielding,1m 7f 110y,Walhaan (IRE),E. Walsh,3,Ciaran Murphy,4th,1 1/2 l,7,11-8,-,True,67,21
+Roscommon Racing Results | 10th July 2023 18:38,N/A,18:38,Good To Yielding,1m 7f 110y,Bowmore (IRE),Rachael Blackmore,0,Henry de Bromhead,3rd,8 1/2 l,5,11-8,-,True,67,21
+Roscommon Racing Results | 10th July 2023 18:38,N/A,18:38,Good To Yielding,1m 7f 110y,Lucid Dreams (IRE),Mr H. C. Swan,5,John Patrick Ryan,2nd,1/2 l,8,11-12,-,True,67,21
+Roscommon Racing Results | 10th July 2023 18:38,N/A,18:38,Good To Yielding,1m 7f 110y,Williamstowndancer (IRE),P. Townend,0,W. P. Mullins,1st,N/A,5,11-1,-,True,67,21
+Tramore Racing Results | 11th July 2023 17:15,N/A,17:15,Good To Yielding,1m 4f,Doyouthinkso,C. D. Hayes,0,J. P. Flavin,7th,11 l,7,8-12tp,-,True,67,25
+Tramore Racing Results | 11th July 2023 17:15,N/A,17:15,Good To Yielding,1m 4f,Csarina (IRE),J. A. Powell,5,Michael Mulvany,6th,1/2 l,4,8-8t,-,True,67,25
+Tramore Racing Results | 11th July 2023 17:15,N/A,17:15,Good To Yielding,1m 4f,Kiss My Lucky Egg,L. F. Roche,0,Emmet Mullins,5th,2 l,5,8-10,-,True,67,25
+Tramore Racing Results | 11th July 2023 17:15,N/A,17:15,Good To Yielding,1m 4f,Hurricane Helen,Ben Martin Coen,0,John Joseph Hanlon,4th,1 3/4 l,5,9-6,-,True,67,25
+Tramore Racing Results | 11th July 2023 17:15,N/A,17:15,Good To Yielding,1m 4f,Desert Friend (IRE),J. M. Sheridan,0,Denis Hogan,3rd,1/2 l,7,10-2,-,True,67,25
+Tramore Racing Results | 11th July 2023 17:15,N/A,17:15,Good To Yielding,1m 4f,Black Soul (IRE),C. T. Keane,0,John E. & Thomas Kiely,2nd,4 3/4 l,4,9-8,-,True,67,25
+Tramore Racing Results | 11th July 2023 17:15,N/A,17:15,Good To Yielding,1m 4f,Magnetic North (IRE),Adam Caffrey,5,R. Donohoe,1st,N/A,8,10-2v,-,True,67,25
+Tramore Racing Results | 11th July 2023 17:15,N/A,17:15,Good To Yielding,1m 4f,Doyouthinkso,C. D. Hayes,0,J. P. Flavin,7th,11 l,7,8-12tp,-,True,67,25
+Tramore Racing Results | 11th July 2023 17:15,N/A,17:15,Good To Yielding,1m 4f,Csarina (IRE),J. A. Powell,5,Michael Mulvany,6th,1/2 l,4,8-8t,-,True,67,25
+Tramore Racing Results | 11th July 2023 17:15,N/A,17:15,Good To Yielding,1m 4f,Kiss My Lucky Egg,L. F. Roche,0,Emmet Mullins,5th,2 l,5,8-10,-,True,67,25
+Tramore Racing Results | 11th July 2023 17:15,N/A,17:15,Good To Yielding,1m 4f,Hurricane Helen,Ben Martin Coen,0,John Joseph Hanlon,4th,1 3/4 l,5,9-6,-,True,67,25
+Tramore Racing Results | 11th July 2023 17:15,N/A,17:15,Good To Yielding,1m 4f,Desert Friend (IRE),J. M. Sheridan,0,Denis Hogan,3rd,1/2 l,7,10-2,-,True,67,25
+Tramore Racing Results | 11th July 2023 17:15,N/A,17:15,Good To Yielding,1m 4f,Black Soul (IRE),C. T. Keane,0,John E. & Thomas Kiely,2nd,4 3/4 l,4,9-8,-,True,67,25
+Tramore Racing Results | 11th July 2023 17:15,N/A,17:15,Good To Yielding,1m 4f,Magnetic North (IRE),Adam Caffrey,5,R. Donohoe,1st,N/A,8,10-2v,-,True,67,25
+Tramore Racing Results | 11th July 2023 17:50,N/A,17:50,Good To Yielding,1m 4f,Loveauntviv (IRE),D. E. Sheehy,3,Joe Conlon,10th,15 l,6,9-4v1,-,True,67,26
+Tramore Racing Results | 11th July 2023 17:50,N/A,17:50,Good To Yielding,1m 4f,Rock Basher (IRE),N. M. Crosse,0,Luke Comer,9th,11 l,4,9-9t,-,True,67,26
+Tramore Racing Results | 11th July 2023 17:50,N/A,17:50,Good To Yielding,1m 4f,Dreamz (IRE),R. P. Whelan,0,Brian Nolan,8th,1/2 l,6,9-4t,-,True,67,26
+Tramore Racing Results | 11th July 2023 17:50,N/A,17:50,Good To Yielding,1m 4f,Bella Nebula (IRE),D. B. McMonagle,0,Emmet Mullins,7th,3/4 l,4,9-4,-,True,67,26
+Tramore Racing Results | 11th July 2023 17:50,N/A,17:50,Good To Yielding,1m 4f,Daghdha (IRE),Ben Martin Coen,0,Henry de Bromhead,6th,1 3/4 l,7,9-9,-,True,67,26
+Tramore Racing Results | 11th July 2023 17:50,N/A,17:50,Good To Yielding,1m 4f,Moon Over Claddagh,C. T. Keane,0,Henry de Bromhead,5th,2 l,5,9-9,-,True,67,26
+Tramore Racing Results | 11th July 2023 17:50,N/A,17:50,Good To Yielding,1m 4f,Penny Jar (IRE),R. Whearty,7,Patrick Downey,4th,4 l,7,9-9t,-,True,67,26
+Tramore Racing Results | 11th July 2023 17:50,N/A,17:50,Good To Yielding,1m 4f,Barnacullia (IRE),G. F. Carroll,0,Michael Mulvany,3rd,3/4 l,6,9-9,-,True,67,26
+Tramore Racing Results | 11th July 2023 17:50,N/A,17:50,Good To Yielding,1m 4f,Humtaza (IRE),J. A. Powell,5,P. O'Rourke,2nd,8 1/2 l,4,9-4,-,True,67,26
+Tramore Racing Results | 11th July 2023 17:50,N/A,17:50,Good To Yielding,1m 4f,My Mate Mozzie (IRE),C. D. Hayes,0,Gavin Patrick Cromwell,1st,N/A,7,9-9,-,True,67,26
+Tramore Racing Results | 11th July 2023 17:50,N/A,17:50,Good To Yielding,1m 4f,Loveauntviv (IRE),D. E. Sheehy,3,Joe Conlon,10th,15 l,6,9-4v1,-,True,67,26
+Tramore Racing Results | 11th July 2023 17:50,N/A,17:50,Good To Yielding,1m 4f,Rock Basher (IRE),N. M. Crosse,0,Luke Comer,9th,11 l,4,9-9t,-,True,67,26
+Tramore Racing Results | 11th July 2023 17:50,N/A,17:50,Good To Yielding,1m 4f,Dreamz (IRE),R. P. Whelan,0,Brian Nolan,8th,1/2 l,6,9-4t,-,True,67,26
+Tramore Racing Results | 11th July 2023 17:50,N/A,17:50,Good To Yielding,1m 4f,Bella Nebula (IRE),D. B. McMonagle,0,Emmet Mullins,7th,3/4 l,4,9-4,-,True,67,26
+Tramore Racing Results | 11th July 2023 17:50,N/A,17:50,Good To Yielding,1m 4f,Daghdha (IRE),Ben Martin Coen,0,Henry de Bromhead,6th,1 3/4 l,7,9-9,-,True,67,26
+Tramore Racing Results | 11th July 2023 17:50,N/A,17:50,Good To Yielding,1m 4f,Moon Over Claddagh,C. T. Keane,0,Henry de Bromhead,5th,2 l,5,9-9,-,True,67,26
+Tramore Racing Results | 11th July 2023 17:50,N/A,17:50,Good To Yielding,1m 4f,Penny Jar (IRE),R. Whearty,7,Patrick Downey,4th,4 l,7,9-9t,-,True,67,26
+Tramore Racing Results | 11th July 2023 17:50,N/A,17:50,Good To Yielding,1m 4f,Barnacullia (IRE),G. F. Carroll,0,Michael Mulvany,3rd,3/4 l,6,9-9,-,True,67,26
+Tramore Racing Results | 11th July 2023 17:50,N/A,17:50,Good To Yielding,1m 4f,Humtaza (IRE),J. A. Powell,5,P. O'Rourke,2nd,8 1/2 l,4,9-4,-,True,67,26
+Tramore Racing Results | 11th July 2023 17:50,N/A,17:50,Good To Yielding,1m 4f,My Mate Mozzie (IRE),C. D. Hayes,0,Gavin Patrick Cromwell,1st,N/A,7,9-9,-,True,67,26
+Tramore Racing Results | 11th July 2023 18:20,N/A,18:20,Good To Yielding,1m 4f,Agenda (GER),C. T. Keane,0,Mrs Lorna Fowler,9th,16 l,6,9-11,73,True,67,27
+Tramore Racing Results | 11th July 2023 18:20,N/A,18:20,Good To Yielding,1m 4f,Rain (GER),N. M. Crosse,0,James M. Barcoe,8th,1 1/2 l,4,9-13,75,True,67,27
+Tramore Racing Results | 11th July 2023 18:20,N/A,18:20,Good To Yielding,1m 4f,Red Trail (IRE),J. Kearney,7,Andrew McNamara,7th,7 l,4,9-0,62,True,67,27
+Tramore Racing Results | 11th July 2023 18:20,N/A,18:20,Good To Yielding,1m 4f,Pachmena (IRE),G. F. Carroll,0,Gavin Patrick Cromwell,6th,1/2 l,6,9-10t,72,True,67,27
+Tramore Racing Results | 11th July 2023 18:20,N/A,18:20,Good To Yielding,1m 4f,Vera Verto (IRE),R. Whearty,7,Gavin Patrick Cromwell,5th,Neck,5,10-7t,83,True,67,27
+Tramore Racing Results | 11th July 2023 18:20,N/A,18:20,Good To Yielding,1m 4f,Beautiful Chaos (IRE),Jack Cleary,7,Ross O'Sullivan,4th,Neck,5,9-6,68,True,67,27
+Tramore Racing Results | 11th July 2023 18:20,N/A,18:20,Good To Yielding,1m 4f,Coill Na Sionainne (IRE),J. A. Powell,5,W. McCreery,3rd,2 1/2 l,7,10-0,76,True,67,27
+Tramore Racing Results | 11th July 2023 18:20,N/A,18:20,Good To Yielding,1m 4f,Queen Of Seduction (IRE),Shane Foley,0,Mrs J. Harrington,2nd,2 3/4 l,4,9-13p,75,True,67,27
+Tramore Racing Results | 11th July 2023 18:20,N/A,18:20,Good To Yielding,1m 4f,Vischio (IRE),M. P. Sheehy,0,R. Donohoe,1st,N/A,6,9-10,72,True,67,27
+Tramore Racing Results | 11th July 2023 18:20,N/A,18:20,Good To Yielding,1m 4f,Agenda (GER),C. T. Keane,0,Mrs Lorna Fowler,9th,16 l,6,9-11,73,True,67,27
+Tramore Racing Results | 11th July 2023 18:20,N/A,18:20,Good To Yielding,1m 4f,Rain (GER),N. M. Crosse,0,James M. Barcoe,8th,1 1/2 l,4,9-13,75,True,67,27
+Tramore Racing Results | 11th July 2023 18:20,N/A,18:20,Good To Yielding,1m 4f,Red Trail (IRE),J. Kearney,7,Andrew McNamara,7th,7 l,4,9-0,62,True,67,27
+Tramore Racing Results | 11th July 2023 18:20,N/A,18:20,Good To Yielding,1m 4f,Pachmena (IRE),G. F. Carroll,0,Gavin Patrick Cromwell,6th,1/2 l,6,9-10t,72,True,67,27
+Tramore Racing Results | 11th July 2023 18:20,N/A,18:20,Good To Yielding,1m 4f,Vera Verto (IRE),R. Whearty,7,Gavin Patrick Cromwell,5th,Neck,5,10-7t,83,True,67,27
+Tramore Racing Results | 11th July 2023 18:20,N/A,18:20,Good To Yielding,1m 4f,Beautiful Chaos (IRE),Jack Cleary,7,Ross O'Sullivan,4th,Neck,5,9-6,68,True,67,27
+Tramore Racing Results | 11th July 2023 18:20,N/A,18:20,Good To Yielding,1m 4f,Coill Na Sionainne (IRE),J. A. Powell,5,W. McCreery,3rd,2 1/2 l,7,10-0,76,True,67,27
+Tramore Racing Results | 11th July 2023 18:20,N/A,18:20,Good To Yielding,1m 4f,Queen Of Seduction (IRE),Shane Foley,0,Mrs J. Harrington,2nd,2 3/4 l,4,9-13p,75,True,67,27
+Tramore Racing Results | 11th July 2023 18:20,N/A,18:20,Good To Yielding,1m 4f,Vischio (IRE),M. P. Sheehy,0,R. Donohoe,1st,N/A,6,9-10,72,True,67,27
+Tramore Racing Results | 11th July 2023 18:50,N/A,18:50,Good To Yielding,1m 4f,Lakomet Of Saints (FR),C. D. Hayes,0,J. P. Flavin,6th,87 l,5,10-4,72,True,67,28
+Tramore Racing Results | 11th July 2023 18:50,N/A,18:50,Good To Yielding,1m 4f,Je T'ai Porte (IRE),G. F. Carroll,0,Gavin Patrick Cromwell,5th,2 1/2 l,5,10-4h,72,True,67,28
+Tramore Racing Results | 11th July 2023 18:50,N/A,18:50,Good To Yielding,1m 4f,The Truant (IRE),Ben Martin Coen,0,Peter Fahey,4th,4 1/2 l,6,9-13,67,True,67,28
+Tramore Racing Results | 11th July 2023 18:50,N/A,18:50,Good To Yielding,1m 4f,Blackpoint (IRE),Shane Foley,0,John E. & Thomas Kiely,3rd,3 1/2 l,7,9-13,67,True,67,28
+Tramore Racing Results | 11th July 2023 18:50,N/A,18:50,Good To Yielding,1m 4f,Expound,J. M. Sheridan,0,Denis Hogan,2nd,1/2 l,4,10-4t,72,True,67,28
+Tramore Racing Results | 11th July 2023 18:50,N/A,18:50,Good To Yielding,1m 4f,Dark Note,Andrew Joseph Slattery,0,A. Slattery,1st,N/A,4,10-1,69,True,67,28
+Tramore Racing Results | 11th July 2023 18:50,N/A,18:50,Good To Yielding,1m 4f,Lakomet Of Saints (FR),C. D. Hayes,0,J. P. Flavin,6th,87 l,5,10-4,72,True,67,28
+Tramore Racing Results | 11th July 2023 18:50,N/A,18:50,Good To Yielding,1m 4f,Je T'ai Porte (IRE),G. F. Carroll,0,Gavin Patrick Cromwell,5th,2 1/2 l,5,10-4h,72,True,67,28
+Tramore Racing Results | 11th July 2023 18:50,N/A,18:50,Good To Yielding,1m 4f,The Truant (IRE),Ben Martin Coen,0,Peter Fahey,4th,4 1/2 l,6,9-13,67,True,67,28
+Tramore Racing Results | 11th July 2023 18:50,N/A,18:50,Good To Yielding,1m 4f,Blackpoint (IRE),Shane Foley,0,John E. & Thomas Kiely,3rd,3 1/2 l,7,9-13,67,True,67,28
+Tramore Racing Results | 11th July 2023 18:50,N/A,18:50,Good To Yielding,1m 4f,Expound,J. M. Sheridan,0,Denis Hogan,2nd,1/2 l,4,10-4t,72,True,67,28
+Tramore Racing Results | 11th July 2023 18:50,N/A,18:50,Good To Yielding,1m 4f,Dark Note,Andrew Joseph Slattery,0,A. Slattery,1st,N/A,4,10-1,69,True,67,28
+Tramore Racing Results | 11th July 2023 19:20,N/A,19:20,Good To Yielding,1m 4f,Vocito (IRE),Shane Foley,0,Eoin Doyle,8th,21 l,5,10-1,62,True,67,29
+Tramore Racing Results | 11th July 2023 19:20,N/A,19:20,Good To Yielding,1m 4f,Kingsofthemidlands (FR),Rachael Blackmore,0,P. A. Fahy,7th,1 3/4 l,5,10-4,65,True,67,29
+Tramore Racing Results | 11th July 2023 19:20,N/A,19:20,Good To Yielding,1m 4f,Grizabella (IRE),G. M. Ryan,0,John Joseph Hanlon,6th,2 l,4,10-0,61,True,67,29
+Tramore Racing Results | 11th July 2023 19:20,N/A,19:20,Good To Yielding,1m 4f,Magi Gal (IRE),Siobhan Rutledge,5,John McConnell,5th,5 1/2 l,7,9-0,47,True,67,29
+Tramore Racing Results | 11th July 2023 19:20,N/A,19:20,Good To Yielding,1m 4f,Bardo Contiguo (IRE),A. C. Persse,0,Eoin Doyle,4th,Short Head,7,9-12p,59,True,67,29
+Tramore Racing Results | 11th July 2023 19:20,N/A,19:20,Good To Yielding,1m 4f,Herculaneum (IRE),Adam Caffrey,5,Noel C. Kelly,3rd,1 1/4 l,6,10-4b1,65,True,67,29
+Tramore Racing Results | 11th July 2023 19:20,N/A,19:20,Good To Yielding,1m 4f,While You're Up (IRE),C. T. Keane,0,Andrew McNamara,2nd,1 3/4 l,5,9-10,57,True,67,29
+Tramore Racing Results | 11th July 2023 19:20,N/A,19:20,Good To Yielding,1m 4f,Zoffany Bay (IRE),Ben Martin Coen,0,Peter Fahey,1st,N/A,9,9-13,60,True,67,29
+Tramore Racing Results | 11th July 2023 19:20,N/A,19:20,Good To Yielding,1m 4f,Vocito (IRE),Shane Foley,0,Eoin Doyle,8th,21 l,5,10-1,62,True,67,29
+Tramore Racing Results | 11th July 2023 19:20,N/A,19:20,Good To Yielding,1m 4f,Kingsofthemidlands (FR),Rachael Blackmore,0,P. A. Fahy,7th,1 3/4 l,5,10-4,65,True,67,29
+Tramore Racing Results | 11th July 2023 19:20,N/A,19:20,Good To Yielding,1m 4f,Grizabella (IRE),G. M. Ryan,0,John Joseph Hanlon,6th,2 l,4,10-0,61,True,67,29
+Tramore Racing Results | 11th July 2023 19:20,N/A,19:20,Good To Yielding,1m 4f,Magi Gal (IRE),Siobhan Rutledge,5,John McConnell,5th,5 1/2 l,7,9-0,47,True,67,29
+Tramore Racing Results | 11th July 2023 19:20,N/A,19:20,Good To Yielding,1m 4f,Bardo Contiguo (IRE),A. C. Persse,0,Eoin Doyle,4th,Short Head,7,9-12p,59,True,67,29
+Tramore Racing Results | 11th July 2023 19:20,N/A,19:20,Good To Yielding,1m 4f,Herculaneum (IRE),Adam Caffrey,5,Noel C. Kelly,3rd,1 1/4 l,6,10-4b1,65,True,67,29
+Tramore Racing Results | 11th July 2023 19:20,N/A,19:20,Good To Yielding,1m 4f,While You're Up (IRE),C. T. Keane,0,Andrew McNamara,2nd,1 3/4 l,5,9-10,57,True,67,29
+Tramore Racing Results | 11th July 2023 19:20,N/A,19:20,Good To Yielding,1m 4f,Zoffany Bay (IRE),Ben Martin Coen,0,Peter Fahey,1st,N/A,9,9-13,60,True,67,29
+Tramore Racing Results | 11th July 2023 19:50,N/A,19:50,Good To Yielding,2m,Sunwalk,Andrew Joseph Slattery,0,Seamus Neville,10th,22 l,5,9-4t,66,True,67,30
+Tramore Racing Results | 11th July 2023 19:50,N/A,19:50,Good To Yielding,2m,Team Of Firsts,C. D. Hayes,0,Patrick J. Flynn,9th,1/2 l,5,10-4,80,True,67,30
+Tramore Racing Results | 11th July 2023 19:50,N/A,19:50,Good To Yielding,2m,One Cool Poet (IRE),L. F. Roche,0,Matthew J. Smith,8th,6 l,11,9-12t,74,True,67,30
+Tramore Racing Results | 11th July 2023 19:50,N/A,19:50,Good To Yielding,2m,Duty Bound,G. F. Carroll,0,J. P. Flavin,7th,6 1/2 l,4,10-0,76,True,67,30
+Tramore Racing Results | 11th July 2023 19:50,N/A,19:50,Good To Yielding,2m,Aurora Princess (IRE),D. E. Mullins,0,Emmet Mullins,6th,Neck,5,10-6,82,True,67,30
+Tramore Racing Results | 11th July 2023 19:50,N/A,19:50,Good To Yielding,2m,Jake Peter (IRE),J. M. Sheridan,0,Mark Cahill,5th,7 l,9,9-4t,66,True,67,30
+Tramore Racing Results | 11th July 2023 19:50,N/A,19:50,Good To Yielding,2m,Vultan (IRE),Ben Martin Coen,0,A. J. Martin,4th,3 1/4 l,6,10-9,85,True,67,30
+Tramore Racing Results | 11th July 2023 19:50,N/A,19:50,Good To Yielding,2m,Longclaw (USA),G. M. Ryan,0,P. J. F. Murphy,3rd,1 3/4 l,6,9-11,73,True,67,30
+Tramore Racing Results | 11th July 2023 19:50,N/A,19:50,Good To Yielding,2m,Teed Up (IRE),Donagh Meyler,0,Emmet Mullins,2nd,1 3/4 l,6,10-9,85,True,67,30
+Tramore Racing Results | 11th July 2023 19:50,N/A,19:50,Good To Yielding,2m,Lord Erskine (IRE),Siobhan Rutledge,5,Harry Rogers,1st,N/A,10,10-0p,76,True,67,30
+Tramore Racing Results | 11th July 2023 19:50,N/A,19:50,Good To Yielding,2m,Sunwalk,Andrew Joseph Slattery,0,Seamus Neville,10th,22 l,5,9-4t,66,True,67,30
+Tramore Racing Results | 11th July 2023 19:50,N/A,19:50,Good To Yielding,2m,Team Of Firsts,C. D. Hayes,0,Patrick J. Flynn,9th,1/2 l,5,10-4,80,True,67,30
+Tramore Racing Results | 11th July 2023 19:50,N/A,19:50,Good To Yielding,2m,One Cool Poet (IRE),L. F. Roche,0,Matthew J. Smith,8th,6 l,11,9-12t,74,True,67,30
+Tramore Racing Results | 11th July 2023 19:50,N/A,19:50,Good To Yielding,2m,Duty Bound,G. F. Carroll,0,J. P. Flavin,7th,6 1/2 l,4,10-0,76,True,67,30
+Tramore Racing Results | 11th July 2023 19:50,N/A,19:50,Good To Yielding,2m,Aurora Princess (IRE),D. E. Mullins,0,Emmet Mullins,6th,Neck,5,10-6,82,True,67,30
+Tramore Racing Results | 11th July 2023 19:50,N/A,19:50,Good To Yielding,2m,Jake Peter (IRE),J. M. Sheridan,0,Mark Cahill,5th,7 l,9,9-4t,66,True,67,30
+Tramore Racing Results | 11th July 2023 19:50,N/A,19:50,Good To Yielding,2m,Vultan (IRE),Ben Martin Coen,0,A. J. Martin,4th,3 1/4 l,6,10-9,85,True,67,30
+Tramore Racing Results | 11th July 2023 19:50,N/A,19:50,Good To Yielding,2m,Longclaw (USA),G. M. Ryan,0,P. J. F. Murphy,3rd,1 3/4 l,6,9-11,73,True,67,30
+Tramore Racing Results | 11th July 2023 19:50,N/A,19:50,Good To Yielding,2m,Teed Up (IRE),Donagh Meyler,0,Emmet Mullins,2nd,1 3/4 l,6,10-9,85,True,67,30
+Tramore Racing Results | 11th July 2023 19:50,N/A,19:50,Good To Yielding,2m,Lord Erskine (IRE),Siobhan Rutledge,5,Harry Rogers,1st,N/A,10,10-0p,76,True,67,30
+Tramore Racing Results | 11th July 2023 20:20,N/A,20:20,Good To Yielding,2m,Kalmira (IRE),Ben Martin Coen,0,Shane Crawley,11th,2 l,7,10-3p,64,True,67,31
+Tramore Racing Results | 11th July 2023 20:20,N/A,20:20,Good To Yielding,2m,Honketonk Angel (IRE),N. M. Crosse,0,Luke Comer,10th,3/4 l,6,9-10,57,True,67,31
+Tramore Racing Results | 11th July 2023 20:20,N/A,20:20,Good To Yielding,2m,Your Honor (IRE),Gavin Peter Brouder,5,James A. Nash,9th,2 1/2 l,4,10-3,64,True,67,31
+Tramore Racing Results | 11th July 2023 20:20,N/A,20:20,Good To Yielding,2m,Craic Eile (IRE),J. A. Powell,5,David Kenneth Budds,8th,Neck,6,9-0tp,47,True,67,31
+Tramore Racing Results | 11th July 2023 20:20,N/A,20:20,Good To Yielding,2m,Scalor (FR),C. Stone-Walsh,7,Miss Elizabeth Doyle,7th,4 3/4 l,8,9-5ht,52,True,67,31
+Tramore Racing Results | 11th July 2023 20:20,N/A,20:20,Good To Yielding,2m,All In Peder (FR),Donagh Meyler,0,Emmet Mullins,6th,3 3/4 l,4,10-4,65,True,67,31
+Tramore Racing Results | 11th July 2023 20:20,N/A,20:20,Good To Yielding,2m,Mephisto (IRE),C. T. Keane,0,Gerard Keane,5th,1/2 l,6,10-0v,61,True,67,31
+Tramore Racing Results | 11th July 2023 20:20,N/A,20:20,Good To Yielding,2m,Appian Way (FR),L. F. Roche,0,Gordon Elliott,4th,3/4 l,7,9-0,47,True,67,31
+Tramore Racing Results | 11th July 2023 20:20,N/A,20:20,Good To Yielding,2m,Walnut Beach (IRE),G. F. Carroll,0,Patrick J. Flynn,3rd,3/4 l,6,9-12b,59,True,67,31
+Tramore Racing Results | 11th July 2023 20:20,N/A,20:20,Good To Yielding,2m,Franno (IRE),R. Whearty,7,Gerard Keane,2nd,3 1/2 l,6,9-9b,56,True,67,31
+Tramore Racing Results | 11th July 2023 20:20,N/A,20:20,Good To Yielding,2m,Wild Shot,D. W. O'Connor,0,John McConnell,1st,N/A,9,9-8t,55,True,67,31
+Tramore Racing Results | 11th July 2023 20:20,N/A,20:20,Good To Yielding,2m,Kalmira (IRE),Ben Martin Coen,0,Shane Crawley,11th,2 l,7,10-3p,64,True,67,31
+Tramore Racing Results | 11th July 2023 20:20,N/A,20:20,Good To Yielding,2m,Honketonk Angel (IRE),N. M. Crosse,0,Luke Comer,10th,3/4 l,6,9-10,57,True,67,31
+Tramore Racing Results | 11th July 2023 20:20,N/A,20:20,Good To Yielding,2m,Your Honor (IRE),Gavin Peter Brouder,5,James A. Nash,9th,2 1/2 l,4,10-3,64,True,67,31
+Tramore Racing Results | 11th July 2023 20:20,N/A,20:20,Good To Yielding,2m,Craic Eile (IRE),J. A. Powell,5,David Kenneth Budds,8th,Neck,6,9-0tp,47,True,67,31
+Tramore Racing Results | 11th July 2023 20:20,N/A,20:20,Good To Yielding,2m,Scalor (FR),C. Stone-Walsh,7,Miss Elizabeth Doyle,7th,4 3/4 l,8,9-5ht,52,True,67,31
+Tramore Racing Results | 11th July 2023 20:20,N/A,20:20,Good To Yielding,2m,All In Peder (FR),Donagh Meyler,0,Emmet Mullins,6th,3 3/4 l,4,10-4,65,True,67,31
+Tramore Racing Results | 11th July 2023 20:20,N/A,20:20,Good To Yielding,2m,Mephisto (IRE),C. T. Keane,0,Gerard Keane,5th,1/2 l,6,10-0v,61,True,67,31
+Tramore Racing Results | 11th July 2023 20:20,N/A,20:20,Good To Yielding,2m,Appian Way (FR),L. F. Roche,0,Gordon Elliott,4th,3/4 l,7,9-0,47,True,67,31
+Tramore Racing Results | 11th July 2023 20:20,N/A,20:20,Good To Yielding,2m,Walnut Beach (IRE),G. F. Carroll,0,Patrick J. Flynn,3rd,3/4 l,6,9-12b,59,True,67,31
+Tramore Racing Results | 11th July 2023 20:20,N/A,20:20,Good To Yielding,2m,Franno (IRE),R. Whearty,7,Gerard Keane,2nd,3 1/2 l,6,9-9b,56,True,67,31
+Tramore Racing Results | 11th July 2023 20:20,N/A,20:20,Good To Yielding,2m,Wild Shot,D. W. O'Connor,0,John McConnell,1st,N/A,9,9-8t,55,True,67,31
+Dundalk Racing Results | 12th July 2023 13:55,N/A,13:55,Standard,5f,Primo Uomo (IRE),N. G. McCullagh,0,Darren Bunyan,6th,1/2 l,11,9-1t,87,True,67,32
+Dundalk Racing Results | 12th July 2023 13:55,N/A,13:55,Standard,5f,Catherine of Siena (IRE),C. Stone-Walsh,7,Kevin Thomas Coleman,5th,3 3/4 l,3,9-6,97,True,67,32
+Dundalk Racing Results | 12th July 2023 13:55,N/A,13:55,Standard,5f,Harmony Rose,J. A. Powell,5,K. J. Condon,4th,2 l,4,9-4,90,True,67,32
+Dundalk Racing Results | 12th July 2023 13:55,N/A,13:55,Standard,5f,Harry's Bar,C. J. MacRedmond,5,Adrian McGuinness,3rd,1/2 l,8,10-8tp,108,True,67,32
+Dundalk Racing Results | 12th July 2023 13:55,N/A,13:55,Standard,5f,Dontspoilasale (IRE),D. E. Sheehy,3,Miss Natalia Lupini,2nd,2 1/2 l,3,8-8,85,True,67,32
+Dundalk Racing Results | 12th July 2023 13:55,N/A,13:55,Standard,5f,Dun Na Sead (IRE),Oisin McSweeney,5,Kieran Patrick Cotter,1st,N/A,4,8-11,83,True,67,32
+Dundalk Racing Results | 12th July 2023 13:55,N/A,13:55,Standard,5f,Primo Uomo (IRE),N. G. McCullagh,0,Darren Bunyan,6th,1/2 l,11,9-1t,87,True,67,32
+Dundalk Racing Results | 12th July 2023 13:55,N/A,13:55,Standard,5f,Catherine of Siena (IRE),C. Stone-Walsh,7,Kevin Thomas Coleman,5th,3 3/4 l,3,9-6,97,True,67,32
+Dundalk Racing Results | 12th July 2023 13:55,N/A,13:55,Standard,5f,Harmony Rose,J. A. Powell,5,K. J. Condon,4th,2 l,4,9-4,90,True,67,32
+Dundalk Racing Results | 12th July 2023 13:55,N/A,13:55,Standard,5f,Harry's Bar,C. J. MacRedmond,5,Adrian McGuinness,3rd,1/2 l,8,10-8tp,108,True,67,32
+Dundalk Racing Results | 12th July 2023 13:55,N/A,13:55,Standard,5f,Dontspoilasale (IRE),D. E. Sheehy,3,Miss Natalia Lupini,2nd,2 1/2 l,3,8-8,85,True,67,32
+Dundalk Racing Results | 12th July 2023 13:55,N/A,13:55,Standard,5f,Dun Na Sead (IRE),Oisin McSweeney,5,Kieran Patrick Cotter,1st,N/A,4,8-11,83,True,67,32
+Dundalk Racing Results | 12th July 2023 14:25,N/A,11:11,Standard,7f,Short N Sweet (IRE),J. Coen,5,P. J. F. Murphy,11th,5 1/2 l,4,9-7b,-,True,67,33
+Dundalk Racing Results | 12th July 2023 14:25,N/A,11:11,Standard,7f,Najat,N. G. McCullagh,0,Donal Kinsella,10th,3 3/4 l,4,9-7tb1,-,True,67,33
+Dundalk Racing Results | 12th July 2023 14:25,N/A,11:11,Standard,7f,Just Another (IRE),K. J. Leonard,0,L. Smyth,9th,1 l,4,9-10tb,-,True,67,33
+Dundalk Racing Results | 12th July 2023 14:25,N/A,11:11,Standard,7f,Poet's Pride,Andrew Joseph Slattery,0,David Marnane,8th,Head,8,9-9,-,True,67,33
+Dundalk Racing Results | 12th July 2023 14:25,N/A,11:11,Standard,7f,Texas Sun (IRE),J. J. G. Ryan,7,G. M. Lyons,7th,2 1/2 l,4,10-2t,-,True,67,33
+Dundalk Racing Results | 12th July 2023 14:25,N/A,11:11,Standard,7f,Might And Mercy,D. B. McMonagle,0,Noel Meade,6th,1/2 l,4,9-11b,-,True,67,33
+Dundalk Racing Results | 12th July 2023 14:25,N/A,11:11,Standard,7f,Jaafel (IRE),C. J. MacRedmond,5,Adrian McGuinness,5th,Neck,5,10-2t,-,True,67,33
+Dundalk Racing Results | 12th July 2023 14:25,N/A,11:11,Standard,7f,Yester (IRE),R. P. Whelan,0,John McConnell,4th,1 1/2 l,7,9-6b,-,True,67,33
+Dundalk Racing Results | 12th July 2023 14:25,N/A,11:11,Standard,7f,Is That Love (IRE),Shane Foley,0,James McAuley,3rd,Head,6,9-13,-,True,67,33
+Dundalk Racing Results | 12th July 2023 14:25,N/A,11:11,Standard,7f,Benavente,J. Kearney,7,Richard John O'Brien,2nd,1/2 l,5,10-2,-,True,67,33
+Dundalk Racing Results | 12th July 2023 14:25,N/A,11:11,Standard,7f,Rocky Dreams,J. M. Sheridan,0,James McAuley,1st,N/A,6,9-13p,-,True,67,33
+Dundalk Racing Results | 12th July 2023 14:25,N/A,11:11,Standard,7f,Short N Sweet (IRE),J. Coen,5,P. J. F. Murphy,11th,5 1/2 l,4,9-7b,-,True,67,33
+Dundalk Racing Results | 12th July 2023 14:25,N/A,11:11,Standard,7f,Najat,N. G. McCullagh,0,Donal Kinsella,10th,3 3/4 l,4,9-7tb1,-,True,67,33
+Dundalk Racing Results | 12th July 2023 14:25,N/A,11:11,Standard,7f,Just Another (IRE),K. J. Leonard,0,L. Smyth,9th,1 l,4,9-10tb,-,True,67,33
+Dundalk Racing Results | 12th July 2023 14:25,N/A,11:11,Standard,7f,Poet's Pride,Andrew Joseph Slattery,0,David Marnane,8th,Head,8,9-9,-,True,67,33
+Dundalk Racing Results | 12th July 2023 14:25,N/A,11:11,Standard,7f,Texas Sun (IRE),J. J. G. Ryan,7,G. M. Lyons,7th,2 1/2 l,4,10-2t,-,True,67,33
+Dundalk Racing Results | 12th July 2023 14:25,N/A,11:11,Standard,7f,Might And Mercy,D. B. McMonagle,0,Noel Meade,6th,1/2 l,4,9-11b,-,True,67,33
+Dundalk Racing Results | 12th July 2023 14:25,N/A,11:11,Standard,7f,Jaafel (IRE),C. J. MacRedmond,5,Adrian McGuinness,5th,Neck,5,10-2t,-,True,67,33
+Dundalk Racing Results | 12th July 2023 14:25,N/A,11:11,Standard,7f,Yester (IRE),R. P. Whelan,0,John McConnell,4th,1 1/2 l,7,9-6b,-,True,67,33
+Dundalk Racing Results | 12th July 2023 14:25,N/A,11:11,Standard,7f,Is That Love (IRE),Shane Foley,0,James McAuley,3rd,Head,6,9-13,-,True,67,33
+Dundalk Racing Results | 12th July 2023 14:25,N/A,11:11,Standard,7f,Benavente,J. Kearney,7,Richard John O'Brien,2nd,1/2 l,5,10-2,-,True,67,33
+Dundalk Racing Results | 12th July 2023 14:25,N/A,11:11,Standard,7f,Rocky Dreams,J. M. Sheridan,0,James McAuley,1st,N/A,6,9-13p,-,True,67,33
+Dundalk Racing Results | 12th July 2023 14:55,N/A,14:55,Standard,7f,Ard Mhacha (IRE),Adam Caffrey,5,Adrian McGuinness,14th,3 1/4 l,3,9-10,70,True,67,34
+Dundalk Racing Results | 12th July 2023 14:55,N/A,14:55,Standard,7f,Toughen Up (IRE),G. F. Carroll,0,Andrew Oliver,13th,1 1/4 l,3,9-13tp1,73,True,67,34
+Dundalk Racing Results | 12th July 2023 14:55,N/A,14:55,Standard,7f,Little Keilee (IRE),D. B. McMonagle,0,Ciaran Murphy,12th,Short Head,3,9-11p1,71,True,67,34
+Dundalk Racing Results | 12th July 2023 14:55,N/A,14:55,Standard,7f,Zero Fighter (IRE),C. D. Hayes,0,Noel Meade,11th,3/4 l,3,9-7,67,True,67,34
+Dundalk Racing Results | 12th July 2023 14:55,N/A,14:55,Standard,7f,Californiagoldrush (IRE),N. M. Crosse,0,Kevin Thomas Coleman,10th,Head,3,9-1,61,True,67,34
+Dundalk Racing Results | 12th July 2023 14:55,N/A,14:55,Standard,7f,Net A Porter Queen (IRE),Shane Foley,0,Mrs J. Harrington,9th,Neck,3,9-5,65,True,67,34
+Dundalk Racing Results | 12th July 2023 14:55,N/A,14:55,Standard,7f,Sir John Monash,G. M. Ryan,0,P. J. F. Murphy,8th,Short Head,3,9-11,71,True,67,34
+Dundalk Racing Results | 12th July 2023 14:55,N/A,14:55,Standard,7f,The Snapper (IRE),L. T. McAteer,0,Jack W. Davison,7th,Head,3,9-10p,70,True,67,34
+Dundalk Racing Results | 12th July 2023 14:55,N/A,14:55,Standard,7f,The Fog Horn (IRE),J. J. G. Ryan,7,Seamus G. O'Donnell,6th,1/2 l,3,8-12b,58,True,67,34
+Dundalk Racing Results | 12th July 2023 14:55,N/A,14:55,Standard,7f,Ferrari Desert,Declan McDonogh,0,E. J. O'Neill,5th,1 3/4 l,3,9-6p1,66,True,67,34
+Dundalk Racing Results | 12th July 2023 14:55,N/A,14:55,Standard,7f,Malacanne (IRE),Ben Martin Coen,0,John Patrick Murtagh,4th,Head,3,10-0b,74,True,67,34
+Dundalk Racing Results | 12th July 2023 14:55,N/A,14:55,Standard,7f,One For Mum (IRE),C. T. Keane,0,G. M. Lyons,3rd,1/2 l,3,9-4,64,True,67,34
+Dundalk Racing Results | 12th July 2023 14:55,N/A,14:55,Standard,7f,Dromantine (IRE),R. P. Whelan,0,M. Halford & T. Collins,2nd,2 l,3,9-12,72,True,67,34
+Dundalk Racing Results | 12th July 2023 14:55,N/A,14:55,Standard,7f,On Our Radar (IRE),C. Horgan,7,A. Slattery,1st,N/A,3,9-7,67,True,67,34
+Dundalk Racing Results | 12th July 2023 14:55,N/A,14:55,Standard,7f,Ard Mhacha (IRE),Adam Caffrey,5,Adrian McGuinness,14th,3 1/4 l,3,9-10,70,True,67,34
+Dundalk Racing Results | 12th July 2023 14:55,N/A,14:55,Standard,7f,Toughen Up (IRE),G. F. Carroll,0,Andrew Oliver,13th,1 1/4 l,3,9-13tp1,73,True,67,34
+Dundalk Racing Results | 12th July 2023 14:55,N/A,14:55,Standard,7f,Little Keilee (IRE),D. B. McMonagle,0,Ciaran Murphy,12th,Short Head,3,9-11p1,71,True,67,34
+Dundalk Racing Results | 12th July 2023 14:55,N/A,14:55,Standard,7f,Zero Fighter (IRE),C. D. Hayes,0,Noel Meade,11th,3/4 l,3,9-7,67,True,67,34
+Dundalk Racing Results | 12th July 2023 14:55,N/A,14:55,Standard,7f,Californiagoldrush (IRE),N. M. Crosse,0,Kevin Thomas Coleman,10th,Head,3,9-1,61,True,67,34
+Dundalk Racing Results | 12th July 2023 14:55,N/A,14:55,Standard,7f,Net A Porter Queen (IRE),Shane Foley,0,Mrs J. Harrington,9th,Neck,3,9-5,65,True,67,34
+Dundalk Racing Results | 12th July 2023 14:55,N/A,14:55,Standard,7f,Sir John Monash,G. M. Ryan,0,P. J. F. Murphy,8th,Short Head,3,9-11,71,True,67,34
+Dundalk Racing Results | 12th July 2023 14:55,N/A,14:55,Standard,7f,The Snapper (IRE),L. T. McAteer,0,Jack W. Davison,7th,Head,3,9-10p,70,True,67,34
+Dundalk Racing Results | 12th July 2023 14:55,N/A,14:55,Standard,7f,The Fog Horn (IRE),J. J. G. Ryan,7,Seamus G. O'Donnell,6th,1/2 l,3,8-12b,58,True,67,34
+Dundalk Racing Results | 12th July 2023 14:55,N/A,14:55,Standard,7f,Ferrari Desert,Declan McDonogh,0,E. J. O'Neill,5th,1 3/4 l,3,9-6p1,66,True,67,34
+Dundalk Racing Results | 12th July 2023 14:55,N/A,14:55,Standard,7f,Malacanne (IRE),Ben Martin Coen,0,John Patrick Murtagh,4th,Head,3,10-0b,74,True,67,34
+Dundalk Racing Results | 12th July 2023 14:55,N/A,14:55,Standard,7f,One For Mum (IRE),C. T. Keane,0,G. M. Lyons,3rd,1/2 l,3,9-4,64,True,67,34
+Dundalk Racing Results | 12th July 2023 14:55,N/A,14:55,Standard,7f,Dromantine (IRE),R. P. Whelan,0,M. Halford & T. Collins,2nd,2 l,3,9-12,72,True,67,34
+Dundalk Racing Results | 12th July 2023 14:55,N/A,14:55,Standard,7f,On Our Radar (IRE),C. Horgan,7,A. Slattery,1st,N/A,3,9-7,67,True,67,34
+Dundalk Racing Results | 12th July 2023 15:25,N/A,15:25,Standard,1m,Gift Of Life (IRE),R. Whearty,7,C. Moore,14th,30 l,3,9-8,-,True,67,35
+Dundalk Racing Results | 12th July 2023 15:25,N/A,15:25,Standard,1m,Clady River (IRE),J. Coen,5,Matthew J. Smith,13th,17 l,3,9-8,-,True,67,35
+Dundalk Racing Results | 12th July 2023 15:25,N/A,15:25,Standard,1m,He Has Style (IRE),G. M. Ryan,0,Luke Comer,12th,2 1/4 l,3,9-8,-,True,67,35
+Dundalk Racing Results | 12th July 2023 15:25,N/A,15:25,Standard,1m,Superior Power (IRE),M. P. Sheehy,0,Edward Lynam,11th,6 1/2 l,3,9-8t1,-,True,67,35
+Dundalk Racing Results | 12th July 2023 15:25,N/A,15:25,Standard,1m,Lady Pro,S. B. Kelly,0,R. K. Watson,10th,1 l,3,9-3,-,True,67,35
+Dundalk Racing Results | 12th July 2023 15:25,N/A,15:25,Standard,1m,North Dorset,J. A. Powell,5,Mrs J. Harrington,9th,1 l,3,9-8,-,True,67,35
+Dundalk Racing Results | 12th July 2023 15:25,N/A,15:25,Standard,1m,Time Tells All (IRE),C. D. Hayes,0,D. K. Weld,8th,1 1/4 l,3,9-8,-,True,67,35
+Dundalk Racing Results | 12th July 2023 15:25,N/A,15:25,Standard,1m,Rerkha (IRE),Ben Martin Coen,0,John Patrick Murtagh,7th,3/4 l,3,9-3,-,True,67,35
+Dundalk Racing Results | 12th July 2023 15:25,N/A,15:25,Standard,1m,Shanadar (IRE),R. P. Whelan,0,M. Halford & T. Collins,6th,1/2 l,3,9-8,-,True,67,35
+Dundalk Racing Results | 12th July 2023 15:25,N/A,15:25,Standard,1m,Brave Thought (IRE),N. M. Crosse,0,Luke Comer,5th,2 l,3,9-3,-,True,67,35
+Dundalk Racing Results | 12th July 2023 15:25,N/A,15:25,Standard,1m,Banana Three (IRE),J. J. G. Ryan,7,G. M. Lyons,4th,1 3/4 l,3,9-8,-,True,67,35
+Dundalk Racing Results | 12th July 2023 15:25,N/A,15:25,Standard,1m,Agia (IRE),G. F. Carroll,0,G. M. Lyons,3rd,1/2 l,3,9-3,-,True,67,35
+Dundalk Racing Results | 12th July 2023 15:25,N/A,15:25,Standard,1m,Pivotal Revive,Shane Foley,0,Mrs J. Harrington,2nd,4 1/2 l,3,9-8,-,True,67,35
+Dundalk Racing Results | 12th July 2023 15:25,N/A,15:25,Standard,1m,Sandy Creek (USA),Declan McDonogh,0,Joseph Patrick O'Brien,1st,N/A,3,9-3,-,True,67,35
+Dundalk Racing Results | 12th July 2023 15:25,N/A,15:25,Standard,1m,Gift Of Life (IRE),R. Whearty,7,C. Moore,14th,30 l,3,9-8,-,True,67,35
+Dundalk Racing Results | 12th July 2023 15:25,N/A,15:25,Standard,1m,Clady River (IRE),J. Coen,5,Matthew J. Smith,13th,17 l,3,9-8,-,True,67,35
+Dundalk Racing Results | 12th July 2023 15:25,N/A,15:25,Standard,1m,He Has Style (IRE),G. M. Ryan,0,Luke Comer,12th,2 1/4 l,3,9-8,-,True,67,35
+Dundalk Racing Results | 12th July 2023 15:25,N/A,15:25,Standard,1m,Superior Power (IRE),M. P. Sheehy,0,Edward Lynam,11th,6 1/2 l,3,9-8t1,-,True,67,35
+Dundalk Racing Results | 12th July 2023 15:25,N/A,15:25,Standard,1m,Lady Pro,S. B. Kelly,0,R. K. Watson,10th,1 l,3,9-3,-,True,67,35
+Dundalk Racing Results | 12th July 2023 15:25,N/A,15:25,Standard,1m,North Dorset,J. A. Powell,5,Mrs J. Harrington,9th,1 l,3,9-8,-,True,67,35
+Dundalk Racing Results | 12th July 2023 15:25,N/A,15:25,Standard,1m,Time Tells All (IRE),C. D. Hayes,0,D. K. Weld,8th,1 1/4 l,3,9-8,-,True,67,35
+Dundalk Racing Results | 12th July 2023 15:25,N/A,15:25,Standard,1m,Rerkha (IRE),Ben Martin Coen,0,John Patrick Murtagh,7th,3/4 l,3,9-3,-,True,67,35
+Dundalk Racing Results | 12th July 2023 15:25,N/A,15:25,Standard,1m,Shanadar (IRE),R. P. Whelan,0,M. Halford & T. Collins,6th,1/2 l,3,9-8,-,True,67,35
+Dundalk Racing Results | 12th July 2023 15:25,N/A,15:25,Standard,1m,Brave Thought (IRE),N. M. Crosse,0,Luke Comer,5th,2 l,3,9-3,-,True,67,35
+Dundalk Racing Results | 12th July 2023 15:25,N/A,15:25,Standard,1m,Banana Three (IRE),J. J. G. Ryan,7,G. M. Lyons,4th,1 3/4 l,3,9-8,-,True,67,35
+Dundalk Racing Results | 12th July 2023 15:25,N/A,15:25,Standard,1m,Agia (IRE),G. F. Carroll,0,G. M. Lyons,3rd,1/2 l,3,9-3,-,True,67,35
+Dundalk Racing Results | 12th July 2023 15:25,N/A,15:25,Standard,1m,Pivotal Revive,Shane Foley,0,Mrs J. Harrington,2nd,4 1/2 l,3,9-8,-,True,67,35
+Dundalk Racing Results | 12th July 2023 15:25,N/A,15:25,Standard,1m,Sandy Creek (USA),Declan McDonogh,0,Joseph Patrick O'Brien,1st,N/A,3,9-3,-,True,67,35
+Dundalk Racing Results | 12th July 2023 15:55,N/A,15:55,Standard,1m,Circles (IRE),S. R. Markey,10,Anthony McCann,13th,1/2 l,4,10-0tb,63,True,67,36
+Dundalk Racing Results | 12th July 2023 15:55,N/A,15:55,Standard,1m,Universally (IRE),Declan McDonogh,0,E. J. O'Neill,12th,Neck,4,9-12p,61,True,67,36
+Dundalk Racing Results | 12th July 2023 15:55,N/A,15:55,Standard,1m,Woodrow (IRE),N. G. McCullagh,0,Leanne Breen,11th,1 l,6,9-6tp1,55,True,67,36
+Dundalk Racing Results | 12th July 2023 15:55,N/A,15:55,Standard,1m,Cool Vixen (IRE),C. D. Hayes,0,Stephen Gerard Carey,10th,1 1/2 l,6,9-2p1,51,True,67,36
+Dundalk Racing Results | 12th July 2023 15:55,N/A,15:55,Standard,1m,Init Together,L. T. McAteer,0,Seamus Fahey,9th,1 1/2 l,5,9-4p,53,True,67,36
+Dundalk Racing Results | 12th July 2023 15:55,N/A,15:55,Standard,1m,Anatoli,J. Coen,5,J. J. Feane,8th,Neck,4,9-12,61,True,67,36
+Dundalk Racing Results | 12th July 2023 15:55,N/A,15:55,Standard,1m,Miltonia (USA),R. P. Whelan,0,M. Halford & T. Collins,7th,Neck,4,9-0,49,True,67,36
+Dundalk Racing Results | 12th July 2023 15:55,N/A,15:55,Standard,1m,Lucky Number,C. J. MacRedmond,5,Oliver McKiernan,6th,Nose,7,8-12t,47,True,67,36
+Dundalk Racing Results | 12th July 2023 15:55,N/A,15:55,Standard,1m,Together Aclaim,M. P. Sheehy,0,John McConnell,5th,Neck,4,9-6t,55,True,67,36
+Dundalk Racing Results | 12th July 2023 15:55,N/A,15:55,Standard,1m,Geological (IRE),R. P. Cleary,0,Damian Joseph English,4th,1 1/2 l,11,9-8,57,True,67,36
+Dundalk Racing Results | 12th July 2023 15:55,N/A,15:55,Standard,1m,Dutch Glory (IRE),Siobhan Rutledge,5,Ross O'Sullivan,3rd,1/2 l,4,10-2,65,True,67,36
+Dundalk Racing Results | 12th July 2023 15:55,N/A,15:55,Standard,1m,Alfarida (IRE),Andrew Joseph Slattery,0,A. Slattery,2nd,Nose,3,9-0,58,True,67,36
+Dundalk Racing Results | 12th July 2023 15:55,N/A,15:55,Standard,1m,Bobby K (IRE),G. F. Carroll,0,Michael O'Meara,1st,N/A,8,10-0,63,True,67,36
+Dundalk Racing Results | 12th July 2023 15:55,N/A,15:55,Standard,1m,Circles (IRE),S. R. Markey,10,Anthony McCann,13th,1/2 l,4,10-0tb,63,True,67,36
+Dundalk Racing Results | 12th July 2023 15:55,N/A,15:55,Standard,1m,Universally (IRE),Declan McDonogh,0,E. J. O'Neill,12th,Neck,4,9-12p,61,True,67,36
+Dundalk Racing Results | 12th July 2023 15:55,N/A,15:55,Standard,1m,Woodrow (IRE),N. G. McCullagh,0,Leanne Breen,11th,1 l,6,9-6tp1,55,True,67,36
+Dundalk Racing Results | 12th July 2023 15:55,N/A,15:55,Standard,1m,Cool Vixen (IRE),C. D. Hayes,0,Stephen Gerard Carey,10th,1 1/2 l,6,9-2p1,51,True,67,36
+Dundalk Racing Results | 12th July 2023 15:55,N/A,15:55,Standard,1m,Init Together,L. T. McAteer,0,Seamus Fahey,9th,1 1/2 l,5,9-4p,53,True,67,36
+Dundalk Racing Results | 12th July 2023 15:55,N/A,15:55,Standard,1m,Anatoli,J. Coen,5,J. J. Feane,8th,Neck,4,9-12,61,True,67,36
+Dundalk Racing Results | 12th July 2023 15:55,N/A,15:55,Standard,1m,Miltonia (USA),R. P. Whelan,0,M. Halford & T. Collins,7th,Neck,4,9-0,49,True,67,36
+Dundalk Racing Results | 12th July 2023 15:55,N/A,15:55,Standard,1m,Lucky Number,C. J. MacRedmond,5,Oliver McKiernan,6th,Nose,7,8-12t,47,True,67,36
+Dundalk Racing Results | 12th July 2023 15:55,N/A,15:55,Standard,1m,Together Aclaim,M. P. Sheehy,0,John McConnell,5th,Neck,4,9-6t,55,True,67,36
+Dundalk Racing Results | 12th July 2023 15:55,N/A,15:55,Standard,1m,Geological (IRE),R. P. Cleary,0,Damian Joseph English,4th,1 1/2 l,11,9-8,57,True,67,36
+Dundalk Racing Results | 12th July 2023 15:55,N/A,15:55,Standard,1m,Dutch Glory (IRE),Siobhan Rutledge,5,Ross O'Sullivan,3rd,1/2 l,4,10-2,65,True,67,36
+Dundalk Racing Results | 12th July 2023 15:55,N/A,15:55,Standard,1m,Alfarida (IRE),Andrew Joseph Slattery,0,A. Slattery,2nd,Nose,3,9-0,58,True,67,36
+Dundalk Racing Results | 12th July 2023 15:55,N/A,15:55,Standard,1m,Bobby K (IRE),G. F. Carroll,0,Michael O'Meara,1st,N/A,8,10-0,63,True,67,36
+Dundalk Racing Results | 12th July 2023 16:25,N/A,16:25,Standard,1m,Estella Bella (IRE),R. P. Whelan,0,M. Halford & T. Collins,14th,2 l,5,9-7t,56,True,67,37
+Dundalk Racing Results | 12th July 2023 16:25,N/A,16:25,Standard,1m,Kratos,G. M. Ryan,0,John McConnell,13th,5 1/2 l,5,8-13p,48,True,67,37
+Dundalk Racing Results | 12th July 2023 16:25,N/A,16:25,Standard,1m,Lily Like,C. D. Hayes,0,Donal Kinsella,12th,4 3/4 l,6,9-1,50,True,67,37
+Dundalk Racing Results | 12th July 2023 16:25,N/A,16:25,Standard,1m,Little Trigger (IRE),C. J. MacRedmond,5,P. F. McEnery,11th,6 1/2 l,4,8-12tp,47,True,67,37
+Dundalk Racing Results | 12th July 2023 16:25,N/A,16:25,Standard,1m,Areana (IRE),J. M. Sheridan,0,Denis Hogan,10th,1/2 l,4,10-1t,64,True,67,37
+Dundalk Racing Results | 12th July 2023 16:25,N/A,16:25,Standard,1m,Happaugue (IRE),G. F. Carroll,0,John McConnell,9th,1 l,7,9-9,58,True,67,37
+Dundalk Racing Results | 12th July 2023 16:25,N/A,16:25,Standard,1m,Khattaat (IRE),L. T. McAteer,0,Paul W. Flynn,8th,1/2 l,4,9-5t,54,True,67,37
+Dundalk Racing Results | 12th July 2023 16:25,N/A,16:25,Standard,1m,Red Cymbal,K. J. Leonard,0,Anthony McCann,7th,1 1/4 l,8,8-12tb,47,True,67,37
+Dundalk Racing Results | 12th July 2023 16:25,N/A,16:25,Standard,1m,Sunset Nova (IRE),Andrew Joseph Slattery,0,A. Slattery,6th,1/2 l,7,9-6v,55,True,67,37
+Dundalk Racing Results | 12th July 2023 16:25,N/A,16:25,Standard,1m,Blue Wood (IRE),A. C. Persse,7,Mark Cahill,5th,1 1/4 l,7,9-0t,49,True,67,37
+Dundalk Racing Results | 12th July 2023 16:25,N/A,16:25,Standard,1m,Tynamite (IRE),J. A. Powell,5,David Marnane,4th,2 l,9,9-3,52,True,67,37
+Dundalk Racing Results | 12th July 2023 16:25,N/A,16:25,Standard,1m,Boadicea Belle (IRE),Declan McDonogh,0,Matthew J. Smith,3rd,3/4 l,4,9-9,58,True,67,37
+Dundalk Racing Results | 12th July 2023 16:25,N/A,16:25,Standard,1m,Numidia (IRE),C. Stone-Walsh,7,Peter Lawlor,2nd,1 l,5,9-1v,50,True,67,37
+Dundalk Racing Results | 12th July 2023 16:25,N/A,16:25,Standard,1m,The Bog Bank (IRE),J. J. G. Ryan,7,T. G. McCourt,1st,N/A,6,9-12tp,61,True,67,37
+Dundalk Racing Results | 12th July 2023 16:25,N/A,16:25,Standard,1m,Estella Bella (IRE),R. P. Whelan,0,M. Halford & T. Collins,14th,2 l,5,9-7t,56,True,67,37
+Dundalk Racing Results | 12th July 2023 16:25,N/A,16:25,Standard,1m,Kratos,G. M. Ryan,0,John McConnell,13th,5 1/2 l,5,8-13p,48,True,67,37
+Dundalk Racing Results | 12th July 2023 16:25,N/A,16:25,Standard,1m,Lily Like,C. D. Hayes,0,Donal Kinsella,12th,4 3/4 l,6,9-1,50,True,67,37
+Dundalk Racing Results | 12th July 2023 16:25,N/A,16:25,Standard,1m,Little Trigger (IRE),C. J. MacRedmond,5,P. F. McEnery,11th,6 1/2 l,4,8-12tp,47,True,67,37
+Dundalk Racing Results | 12th July 2023 16:25,N/A,16:25,Standard,1m,Areana (IRE),J. M. Sheridan,0,Denis Hogan,10th,1/2 l,4,10-1t,64,True,67,37
+Dundalk Racing Results | 12th July 2023 16:25,N/A,16:25,Standard,1m,Happaugue (IRE),G. F. Carroll,0,John McConnell,9th,1 l,7,9-9,58,True,67,37
+Dundalk Racing Results | 12th July 2023 16:25,N/A,16:25,Standard,1m,Khattaat (IRE),L. T. McAteer,0,Paul W. Flynn,8th,1/2 l,4,9-5t,54,True,67,37
+Dundalk Racing Results | 12th July 2023 16:25,N/A,16:25,Standard,1m,Red Cymbal,K. J. Leonard,0,Anthony McCann,7th,1 1/4 l,8,8-12tb,47,True,67,37
+Dundalk Racing Results | 12th July 2023 16:25,N/A,16:25,Standard,1m,Sunset Nova (IRE),Andrew Joseph Slattery,0,A. Slattery,6th,1/2 l,7,9-6v,55,True,67,37
+Dundalk Racing Results | 12th July 2023 16:25,N/A,16:25,Standard,1m,Blue Wood (IRE),A. C. Persse,7,Mark Cahill,5th,1 1/4 l,7,9-0t,49,True,67,37
+Dundalk Racing Results | 12th July 2023 16:25,N/A,16:25,Standard,1m,Tynamite (IRE),J. A. Powell,5,David Marnane,4th,2 l,9,9-3,52,True,67,37
+Dundalk Racing Results | 12th July 2023 16:25,N/A,16:25,Standard,1m,Boadicea Belle (IRE),Declan McDonogh,0,Matthew J. Smith,3rd,3/4 l,4,9-9,58,True,67,37
+Dundalk Racing Results | 12th July 2023 16:25,N/A,16:25,Standard,1m,Numidia (IRE),C. Stone-Walsh,7,Peter Lawlor,2nd,1 l,5,9-1v,50,True,67,37
+Dundalk Racing Results | 12th July 2023 16:25,N/A,16:25,Standard,1m,The Bog Bank (IRE),J. J. G. Ryan,7,T. G. McCourt,1st,N/A,6,9-12tp,61,True,67,37
+Dundalk Racing Results | 12th July 2023 17:00,N/A,17:00,Standard,1m 2f 150y,Taxiing (USA),D. E. Sheehy,3,A. Slattery,14th,77 l,3,9-3,-,True,67,38
+Dundalk Racing Results | 12th July 2023 17:00,N/A,17:00,Standard,1m 2f 150y,Port Salalah (FR),C. J. MacRedmond,5,Oliver McKiernan,13th,31 l,6,10-4t,-,True,67,38
+Dundalk Racing Results | 12th July 2023 17:00,N/A,17:00,Standard,1m 2f 150y,Awakino (IRE),L. T. McAteer,0,Denis W. Cullen,12th,2 1/2 l,3,9-3,-,True,67,38
+Dundalk Racing Results | 12th July 2023 17:00,N/A,17:00,Standard,1m 2f 150y,Galileo's Compass (IRE),Shane Foley,0,Mrs J. Harrington,11th,Neck,3,9-8p1,-,True,67,38
+Dundalk Racing Results | 12th July 2023 17:00,N/A,17:00,Standard,1m 2f 150y,Executive Summary (IRE),R. P. Cleary,0,Henry de Bromhead,10th,Head,3,9-8t1,-,True,67,38
+Dundalk Racing Results | 12th July 2023 17:00,N/A,17:00,Standard,1m 2f 150y,Navajo River (IRE),C. D. Hayes,0,Luke Comer,9th,14 l,3,9-8,-,True,67,38
+Dundalk Racing Results | 12th July 2023 17:00,N/A,17:00,Standard,1m 2f 150y,Red Special (USA),J. A. Powell,5,W. McCreery,8th,3 1/4 l,3,9-8v,-,True,67,38
+Dundalk Racing Results | 12th July 2023 17:00,N/A,17:00,Standard,1m 2f 150y,Jinxs Link (IRE),J. J. Slevin,0,M. M. Rice,7th,3/4 l,7,10-4,-,True,67,38
+Dundalk Racing Results | 12th July 2023 17:00,N/A,17:00,Standard,1m 2f 150y,Kitty Mcfee (IRE),R. P. Whelan,0,John S. O'Donoghue,6th,Neck,3,9-3,-,True,67,38
+Dundalk Racing Results | 12th July 2023 17:00,N/A,17:00,Standard,1m 2f 150y,Dakota Chief (IRE),C. Horgan,7,A. Slattery,5th,3/4 l,3,9-8,-,True,67,38
+Dundalk Racing Results | 12th July 2023 17:00,N/A,17:00,Standard,1m 2f 150y,Great Cat Mau (USA),G. F. Carroll,0,G. M. Lyons,4th,2 l,3,9-8,-,True,67,38
+Dundalk Racing Results | 12th July 2023 17:00,N/A,17:00,Standard,1m 2f 150y,King Leodegrance (IRE),Jack Cleary,7,Aidan O'Brien,3rd,1 1/2 l,3,9-8b,-,True,67,38
+Dundalk Racing Results | 12th July 2023 17:00,N/A,17:00,Standard,1m 2f 150y,Van Demon (IRE),R. Whearty,7,Noel Meade,2nd,3 1/4 l,3,9-8,-,True,67,38
+Dundalk Racing Results | 12th July 2023 17:00,N/A,17:00,Standard,1m 2f 150y,Shamwari (USA),Declan McDonogh,0,Joseph Patrick O'Brien,1st,N/A,3,9-3,-,True,67,38
+Dundalk Racing Results | 12th July 2023 17:00,N/A,17:00,Standard,1m 2f 150y,Taxiing (USA),D. E. Sheehy,3,A. Slattery,14th,77 l,3,9-3,-,True,67,38
+Dundalk Racing Results | 12th July 2023 17:00,N/A,17:00,Standard,1m 2f 150y,Port Salalah (FR),C. J. MacRedmond,5,Oliver McKiernan,13th,31 l,6,10-4t,-,True,67,38
+Dundalk Racing Results | 12th July 2023 17:00,N/A,17:00,Standard,1m 2f 150y,Awakino (IRE),L. T. McAteer,0,Denis W. Cullen,12th,2 1/2 l,3,9-3,-,True,67,38
+Dundalk Racing Results | 12th July 2023 17:00,N/A,17:00,Standard,1m 2f 150y,Galileo's Compass (IRE),Shane Foley,0,Mrs J. Harrington,11th,Neck,3,9-8p1,-,True,67,38
+Dundalk Racing Results | 12th July 2023 17:00,N/A,17:00,Standard,1m 2f 150y,Executive Summary (IRE),R. P. Cleary,0,Henry de Bromhead,10th,Head,3,9-8t1,-,True,67,38
+Dundalk Racing Results | 12th July 2023 17:00,N/A,17:00,Standard,1m 2f 150y,Navajo River (IRE),C. D. Hayes,0,Luke Comer,9th,14 l,3,9-8,-,True,67,38
+Dundalk Racing Results | 12th July 2023 17:00,N/A,17:00,Standard,1m 2f 150y,Red Special (USA),J. A. Powell,5,W. McCreery,8th,3 1/4 l,3,9-8v,-,True,67,38
+Dundalk Racing Results | 12th July 2023 17:00,N/A,17:00,Standard,1m 2f 150y,Jinxs Link (IRE),J. J. Slevin,0,M. M. Rice,7th,3/4 l,7,10-4,-,True,67,38
+Dundalk Racing Results | 12th July 2023 17:00,N/A,17:00,Standard,1m 2f 150y,Kitty Mcfee (IRE),R. P. Whelan,0,John S. O'Donoghue,6th,Neck,3,9-3,-,True,67,38
+Dundalk Racing Results | 12th July 2023 17:00,N/A,17:00,Standard,1m 2f 150y,Dakota Chief (IRE),C. Horgan,7,A. Slattery,5th,3/4 l,3,9-8,-,True,67,38
+Dundalk Racing Results | 12th July 2023 17:00,N/A,17:00,Standard,1m 2f 150y,Great Cat Mau (USA),G. F. Carroll,0,G. M. Lyons,4th,2 l,3,9-8,-,True,67,38
+Dundalk Racing Results | 12th July 2023 17:00,N/A,17:00,Standard,1m 2f 150y,King Leodegrance (IRE),Jack Cleary,7,Aidan O'Brien,3rd,1 1/2 l,3,9-8b,-,True,67,38
+Dundalk Racing Results | 12th July 2023 17:00,N/A,17:00,Standard,1m 2f 150y,Van Demon (IRE),R. Whearty,7,Noel Meade,2nd,3 1/4 l,3,9-8,-,True,67,38
+Dundalk Racing Results | 12th July 2023 17:00,N/A,17:00,Standard,1m 2f 150y,Shamwari (USA),Declan McDonogh,0,Joseph Patrick O'Brien,1st,N/A,3,9-3,-,True,67,38
+Dundalk Racing Results | 12th July 2023 17:30,N/A,17:30,Standard,1m 4f,Turf Range (IRE),R. Whearty,7,D. Broad,13th,Head,7,10-1b,74,True,67,39
+Dundalk Racing Results | 12th July 2023 17:30,N/A,17:30,Standard,1m 4f,Portunalia (USA),J. J. G. Ryan,7,G. M. Lyons,12th,2 3/4 l,3,8-13,70,True,67,39
+Dundalk Racing Results | 12th July 2023 17:30,N/A,17:30,Standard,1m 4f,Galactica (FR),G. F. Carroll,0,Gavin Patrick Cromwell,11th,1 l,5,9-13h1,72,True,67,39
+Dundalk Racing Results | 12th July 2023 17:30,N/A,17:30,Standard,1m 4f,Party Moon (GER),R. P. Cleary,0,John J. Maguire,10th,1 3/4 l,7,8-7,52,True,67,39
+Dundalk Racing Results | 12th July 2023 17:30,N/A,17:30,Standard,1m 4f,Boola Boola (IRE),J. A. Powell,5,Mrs J. Harrington,9th,1 3/4 l,6,9-7tp,66,True,67,39
+Dundalk Racing Results | 12th July 2023 17:30,N/A,17:30,Standard,1m 4f,Cursory Exam,D. N. Curran,7,Darren Bunyan,8th,5 l,5,10-2,75,True,67,39
+Dundalk Racing Results | 12th July 2023 17:30,N/A,17:30,Standard,1m 4f,Halcyon Spirit,Cillian McConnell,7,John McConnell,7th,3 1/4 l,5,9-9,68,True,67,39
+Dundalk Racing Results | 12th July 2023 17:30,N/A,17:30,Standard,1m 4f,L'Un Deux Trois (IRE),L. T. McAteer,0,Oliver McKiernan,6th,1/2 l,7,9-5tp,64,True,67,39
+Dundalk Racing Results | 12th July 2023 17:30,N/A,17:30,Standard,1m 4f,Rauzan (IRE),R. P. Whelan,0,M. Halford & T. Collins,5th,3/4 l,3,8-13p,70,True,67,39
+Dundalk Racing Results | 12th July 2023 17:30,N/A,17:30,Standard,1m 4f,Gracesolution (IRE),C. Stone-Walsh,7,Ross O'Sullivan,4th,2 1/4 l,6,9-8,67,True,67,39
+Dundalk Racing Results | 12th July 2023 17:30,N/A,17:30,Standard,1m 4f,S'all Good Man (IRE),C. J. MacRedmond,5,W. T. Farrell,3rd,1/2 l,7,10-2p,75,True,67,39
+Dundalk Racing Results | 12th July 2023 17:30,N/A,17:30,Standard,1m 4f,Tender Camilla (USA),C. D. Hayes,0,Noel Meade,2nd,1 1/4 l,3,8-9b1,66,True,67,39
+Dundalk Racing Results | 12th July 2023 17:30,N/A,17:30,Standard,1m 4f,Roman Bull (IRE),J. Coen,5,Michael O'Meara,1st,N/A,5,9-13,72,True,67,39
+Dundalk Racing Results | 12th July 2023 17:30,N/A,17:30,Standard,1m 4f,Turf Range (IRE),R. Whearty,7,D. Broad,13th,Head,7,10-1b,74,True,67,39
+Dundalk Racing Results | 12th July 2023 17:30,N/A,17:30,Standard,1m 4f,Portunalia (USA),J. J. G. Ryan,7,G. M. Lyons,12th,2 3/4 l,3,8-13,70,True,67,39
+Dundalk Racing Results | 12th July 2023 17:30,N/A,17:30,Standard,1m 4f,Galactica (FR),G. F. Carroll,0,Gavin Patrick Cromwell,11th,1 l,5,9-13h1,72,True,67,39
+Dundalk Racing Results | 12th July 2023 17:30,N/A,17:30,Standard,1m 4f,Party Moon (GER),R. P. Cleary,0,John J. Maguire,10th,1 3/4 l,7,8-7,52,True,67,39
+Dundalk Racing Results | 12th July 2023 17:30,N/A,17:30,Standard,1m 4f,Boola Boola (IRE),J. A. Powell,5,Mrs J. Harrington,9th,1 3/4 l,6,9-7tp,66,True,67,39
+Dundalk Racing Results | 12th July 2023 17:30,N/A,17:30,Standard,1m 4f,Cursory Exam,D. N. Curran,7,Darren Bunyan,8th,5 l,5,10-2,75,True,67,39
+Dundalk Racing Results | 12th July 2023 17:30,N/A,17:30,Standard,1m 4f,Halcyon Spirit,Cillian McConnell,7,John McConnell,7th,3 1/4 l,5,9-9,68,True,67,39
+Dundalk Racing Results | 12th July 2023 17:30,N/A,17:30,Standard,1m 4f,L'Un Deux Trois (IRE),L. T. McAteer,0,Oliver McKiernan,6th,1/2 l,7,9-5tp,64,True,67,39
+Dundalk Racing Results | 12th July 2023 17:30,N/A,17:30,Standard,1m 4f,Rauzan (IRE),R. P. Whelan,0,M. Halford & T. Collins,5th,3/4 l,3,8-13p,70,True,67,39
+Dundalk Racing Results | 12th July 2023 17:30,N/A,17:30,Standard,1m 4f,Gracesolution (IRE),C. Stone-Walsh,7,Ross O'Sullivan,4th,2 1/4 l,6,9-8,67,True,67,39
+Dundalk Racing Results | 12th July 2023 17:30,N/A,17:30,Standard,1m 4f,S'all Good Man (IRE),C. J. MacRedmond,5,W. T. Farrell,3rd,1/2 l,7,10-2p,75,True,67,39
+Dundalk Racing Results | 12th July 2023 17:30,N/A,17:30,Standard,1m 4f,Tender Camilla (USA),C. D. Hayes,0,Noel Meade,2nd,1 1/4 l,3,8-9b1,66,True,67,39
+Dundalk Racing Results | 12th July 2023 17:30,N/A,17:30,Standard,1m 4f,Roman Bull (IRE),J. Coen,5,Michael O'Meara,1st,N/A,5,9-13,72,True,67,39
+Fairyhouse Racing Results | 12th July 2023 16:50,N/A,16:50,Good,1m 2f,Serotonin,C. D. Maxwell,0,Alan Richardson,11th,3 3/4 l,3,10-0b,-,True,67,40
+Fairyhouse Racing Results | 12th July 2023 16:50,N/A,16:50,Good,1m 2f,Silkies Sib (IRE),L. F. Roche,0,Timothy Doyle,10th,2 3/4 l,3,9-6,-,True,67,40
+Fairyhouse Racing Results | 12th July 2023 16:50,N/A,16:50,Good,1m 2f,Td's Approach (IRE),D. B. McMonagle,0,Ciaran Murphy,9th,2 3/4 l,3,10-0,-,True,67,40
+Fairyhouse Racing Results | 12th July 2023 16:50,N/A,16:50,Good,1m 2f,Ballyvohane (IRE),S. McCullagh,3,Mrs J. Harrington,8th,1/2 l,3,9-6,-,True,67,40
+Fairyhouse Racing Results | 12th July 2023 16:50,N/A,16:50,Good,1m 2f,Irresistible You (IRE),R. C. Colgan,0,M. C. Grassick,7th,1/2 l,3,8-13p1,-,True,67,40
+Fairyhouse Racing Results | 12th July 2023 16:50,N/A,16:50,Good,1m 2f,Burvea (IRE),P. A. Harnett,7,D. Broad,6th,1 1/2 l,3,9-9,-,True,67,40
+Fairyhouse Racing Results | 12th July 2023 16:50,N/A,16:50,Good,1m 2f,Ravelli (IRE),J. Kearney,7,G. M. Lyons,5th,1 1/4 l,3,9-9,-,True,67,40
+Fairyhouse Racing Results | 12th July 2023 16:50,N/A,16:50,Good,1m 2f,Western Cape (IRE),S. D. Bowen,7,Denis Hogan,4th,1 1/2 l,3,9-9tp,-,True,67,40
+Fairyhouse Racing Results | 12th July 2023 16:50,N/A,16:50,Good,1m 2f,Roman Harry (IRE),C. T. Keane,0,G. M. Lyons,3rd,Neck,3,9-9,-,True,67,40
+Fairyhouse Racing Results | 12th July 2023 16:50,N/A,16:50,Good,1m 2f,Nakassama (IRE),D. W. O'Connor,0,J. F. Levins,2nd,Neck,3,9-4,-,True,67,40
+Fairyhouse Racing Results | 12th July 2023 16:50,N/A,16:50,Good,1m 2f,Susie Wosie (IRE),Adam Caffrey,5,Noel Meade,1st,N/A,3,8-13,-,True,67,40
+Fairyhouse Racing Results | 12th July 2023 16:50,N/A,16:50,Good,1m 2f,Serotonin,C. D. Maxwell,0,Alan Richardson,11th,3 3/4 l,3,10-0b,-,True,67,40
+Fairyhouse Racing Results | 12th July 2023 16:50,N/A,16:50,Good,1m 2f,Silkies Sib (IRE),L. F. Roche,0,Timothy Doyle,10th,2 3/4 l,3,9-6,-,True,67,40
+Fairyhouse Racing Results | 12th July 2023 16:50,N/A,16:50,Good,1m 2f,Td's Approach (IRE),D. B. McMonagle,0,Ciaran Murphy,9th,2 3/4 l,3,10-0,-,True,67,40
+Fairyhouse Racing Results | 12th July 2023 16:50,N/A,16:50,Good,1m 2f,Ballyvohane (IRE),S. McCullagh,3,Mrs J. Harrington,8th,1/2 l,3,9-6,-,True,67,40
+Fairyhouse Racing Results | 12th July 2023 16:50,N/A,16:50,Good,1m 2f,Irresistible You (IRE),R. C. Colgan,0,M. C. Grassick,7th,1/2 l,3,8-13p1,-,True,67,40
+Fairyhouse Racing Results | 12th July 2023 16:50,N/A,16:50,Good,1m 2f,Burvea (IRE),P. A. Harnett,7,D. Broad,6th,1 1/2 l,3,9-9,-,True,67,40
+Fairyhouse Racing Results | 12th July 2023 16:50,N/A,16:50,Good,1m 2f,Ravelli (IRE),J. Kearney,7,G. M. Lyons,5th,1 1/4 l,3,9-9,-,True,67,40
+Fairyhouse Racing Results | 12th July 2023 16:50,N/A,16:50,Good,1m 2f,Western Cape (IRE),S. D. Bowen,7,Denis Hogan,4th,1 1/2 l,3,9-9tp,-,True,67,40
+Fairyhouse Racing Results | 12th July 2023 16:50,N/A,16:50,Good,1m 2f,Roman Harry (IRE),C. T. Keane,0,G. M. Lyons,3rd,Neck,3,9-9,-,True,67,40
+Fairyhouse Racing Results | 12th July 2023 16:50,N/A,16:50,Good,1m 2f,Nakassama (IRE),D. W. O'Connor,0,J. F. Levins,2nd,Neck,3,9-4,-,True,67,40
+Fairyhouse Racing Results | 12th July 2023 16:50,N/A,16:50,Good,1m 2f,Susie Wosie (IRE),Adam Caffrey,5,Noel Meade,1st,N/A,3,8-13,-,True,67,40
+Fairyhouse Racing Results | 12th July 2023 17:20,N/A,17:20,Good,1m 6f 32y,Born By The Sea (IRE),C. T. Keane,0,Paul John Gilligan,6th,2 1/2 l,9,9-1,-,True,67,41
+Fairyhouse Racing Results | 12th July 2023 17:20,N/A,17:20,Good,1m 6f 32y,Dalton Highway (IRE),L. F. Roche,0,D. K. Weld,5th,3 l,10,9-12,-,True,67,41
+Fairyhouse Racing Results | 12th July 2023 17:20,N/A,17:20,Good,1m 6f 32y,Last Ammo (IRE),D. B. McMonagle,0,Richard John O'Brien,4th,3 1/2 l,4,9-4,-,True,67,41
+Fairyhouse Racing Results | 12th July 2023 17:20,N/A,17:20,Good,1m 6f 32y,Takarengo (IRE),J. Kearney,7,Thomas Mullins,3rd,3 1/4 l,7,9-1p,-,True,67,41
+Fairyhouse Racing Results | 12th July 2023 17:20,N/A,17:20,Good,1m 6f 32y,Hell Bent (IRE),S. McCullagh,3,Mrs J. Harrington,2nd,1 1/4 l,5,10-2p,-,True,67,41
+Fairyhouse Racing Results | 12th July 2023 17:20,N/A,17:20,Good,1m 6f 32y,En Or (FR),Ben Martin Coen,0,A. J. Martin,1st,N/A,5,9-2t,-,True,67,41
+Fairyhouse Racing Results | 12th July 2023 17:20,N/A,17:20,Good,1m 6f 32y,Born By The Sea (IRE),C. T. Keane,0,Paul John Gilligan,6th,2 1/2 l,9,9-1,-,True,67,41
+Fairyhouse Racing Results | 12th July 2023 17:20,N/A,17:20,Good,1m 6f 32y,Dalton Highway (IRE),L. F. Roche,0,D. K. Weld,5th,3 l,10,9-12,-,True,67,41
+Fairyhouse Racing Results | 12th July 2023 17:20,N/A,17:20,Good,1m 6f 32y,Last Ammo (IRE),D. B. McMonagle,0,Richard John O'Brien,4th,3 1/2 l,4,9-4,-,True,67,41
+Fairyhouse Racing Results | 12th July 2023 17:20,N/A,17:20,Good,1m 6f 32y,Takarengo (IRE),J. Kearney,7,Thomas Mullins,3rd,3 1/4 l,7,9-1p,-,True,67,41
+Fairyhouse Racing Results | 12th July 2023 17:20,N/A,17:20,Good,1m 6f 32y,Hell Bent (IRE),S. McCullagh,3,Mrs J. Harrington,2nd,1 1/4 l,5,10-2p,-,True,67,41
+Fairyhouse Racing Results | 12th July 2023 17:20,N/A,17:20,Good,1m 6f 32y,En Or (FR),Ben Martin Coen,0,A. J. Martin,1st,N/A,5,9-2t,-,True,67,41
+Fairyhouse Racing Results | 12th July 2023 17:50,N/A,17:50,Good,6f,Funny Face (IRE),K. J. Leonard,0,F. Costello,14th,11 l,2,9-7,-,True,67,42
+Fairyhouse Racing Results | 12th July 2023 17:50,N/A,17:50,Good,6f,Barley Cove (IRE),Ben Martin Coen,0,Edward Lynam,13th,3/4 l,2,9-7,-,True,67,42
+Fairyhouse Racing Results | 12th July 2023 17:50,N/A,17:50,Good,6f,Aisling Oscar (IRE),Marc Monaghan,0,Craig O'Neill,12th,1 1/2 l,2,9-7,-,True,67,42
+Fairyhouse Racing Results | 12th July 2023 17:50,N/A,17:50,Good,6f,Rogerwaswrong (IRE),G. P. Halpin,0,Sean Davis,11th,6 1/2 l,2,9-7,-,True,67,42
+Fairyhouse Racing Results | 12th July 2023 17:50,N/A,17:50,Good,6f,Munasir (IRE),M. P. Sheehy,0,Joseph Patrick O'Brien,10th,3 l,2,9-7t1,-,True,67,42
+Fairyhouse Racing Results | 12th July 2023 17:50,N/A,17:50,Good,6f,Guest Star,S. McCullagh,3,Mrs J. Harrington,9th,1 1/4 l,2,9-7,-,True,67,42
+Fairyhouse Racing Results | 12th July 2023 17:50,N/A,17:50,Good,6f,Parry,J. Kearney,7,G. M. Lyons,8th,2 l,2,9-7,-,True,67,42
+Fairyhouse Racing Results | 12th July 2023 17:50,N/A,17:50,Good,6f,Janzoor (IRE),N. G. McCullagh,0,Darren Bunyan,7th,Short Head,2,9-7,-,True,67,42
+Fairyhouse Racing Results | 12th July 2023 17:50,N/A,17:50,Good,6f,Beauty Thunder (IRE),L. F. Roche,0,G. M. Lyons,6th,Head,2,9-7,-,True,67,42
+Fairyhouse Racing Results | 12th July 2023 17:50,N/A,17:50,Good,6f,Poppadom (IRE),Amy Jo Hayes,7,A. Slattery,5th,1/2 l,2,9-7,-,True,67,42
+Fairyhouse Racing Results | 12th July 2023 17:50,N/A,17:50,Good,6f,Royalcorrespondent (IRE),C. T. Keane,0,G. M. Lyons,4th,1 1/2 l,2,9-7,-,True,67,42
+Fairyhouse Racing Results | 12th July 2023 17:50,N/A,17:50,Good,6f,Vespertilio (FR),N. M. Crosse,0,W. McCreery,3rd,2 1/4 l,2,9-2,-,True,67,42
+Fairyhouse Racing Results | 12th July 2023 17:50,N/A,17:50,Good,6f,Innate (IRE),D. B. McMonagle,0,Joseph Patrick O'Brien,2nd,1/2 l,2,9-7,-,True,67,42
+Fairyhouse Racing Results | 12th July 2023 17:50,N/A,17:50,Good,6f,The Caribbean (IRE),K. K. Hennessy,5,Aidan O'Brien,1st,N/A,2,9-7b1,-,True,67,42
+Fairyhouse Racing Results | 12th July 2023 17:50,N/A,17:50,Good,6f,Funny Face (IRE),K. J. Leonard,0,F. Costello,14th,11 l,2,9-7,-,True,67,42
+Fairyhouse Racing Results | 12th July 2023 17:50,N/A,17:50,Good,6f,Barley Cove (IRE),Ben Martin Coen,0,Edward Lynam,13th,3/4 l,2,9-7,-,True,67,42
+Fairyhouse Racing Results | 12th July 2023 17:50,N/A,17:50,Good,6f,Aisling Oscar (IRE),Marc Monaghan,0,Craig O'Neill,12th,1 1/2 l,2,9-7,-,True,67,42
+Fairyhouse Racing Results | 12th July 2023 17:50,N/A,17:50,Good,6f,Rogerwaswrong (IRE),G. P. Halpin,0,Sean Davis,11th,6 1/2 l,2,9-7,-,True,67,42
+Fairyhouse Racing Results | 12th July 2023 17:50,N/A,17:50,Good,6f,Munasir (IRE),M. P. Sheehy,0,Joseph Patrick O'Brien,10th,3 l,2,9-7t1,-,True,67,42
+Fairyhouse Racing Results | 12th July 2023 17:50,N/A,17:50,Good,6f,Guest Star,S. McCullagh,3,Mrs J. Harrington,9th,1 1/4 l,2,9-7,-,True,67,42
+Fairyhouse Racing Results | 12th July 2023 17:50,N/A,17:50,Good,6f,Parry,J. Kearney,7,G. M. Lyons,8th,2 l,2,9-7,-,True,67,42
+Fairyhouse Racing Results | 12th July 2023 17:50,N/A,17:50,Good,6f,Janzoor (IRE),N. G. McCullagh,0,Darren Bunyan,7th,Short Head,2,9-7,-,True,67,42
+Fairyhouse Racing Results | 12th July 2023 17:50,N/A,17:50,Good,6f,Beauty Thunder (IRE),L. F. Roche,0,G. M. Lyons,6th,Head,2,9-7,-,True,67,42
+Fairyhouse Racing Results | 12th July 2023 17:50,N/A,17:50,Good,6f,Poppadom (IRE),Amy Jo Hayes,7,A. Slattery,5th,1/2 l,2,9-7,-,True,67,42
+Fairyhouse Racing Results | 12th July 2023 17:50,N/A,17:50,Good,6f,Royalcorrespondent (IRE),C. T. Keane,0,G. M. Lyons,4th,1 1/2 l,2,9-7,-,True,67,42
+Fairyhouse Racing Results | 12th July 2023 17:50,N/A,17:50,Good,6f,Vespertilio (FR),N. M. Crosse,0,W. McCreery,3rd,2 1/4 l,2,9-2,-,True,67,42
+Fairyhouse Racing Results | 12th July 2023 17:50,N/A,17:50,Good,6f,Innate (IRE),D. B. McMonagle,0,Joseph Patrick O'Brien,2nd,1/2 l,2,9-7,-,True,67,42
+Fairyhouse Racing Results | 12th July 2023 17:50,N/A,17:50,Good,6f,The Caribbean (IRE),K. K. Hennessy,5,Aidan O'Brien,1st,N/A,2,9-7b1,-,True,67,42
+Fairyhouse Racing Results | 12th July 2023 18:20,N/A,18:20,Good,7f,Go Til Its Over (IRE),K. J. Leonard,0,Philip Michael Byrne,14th,3 1/2 l,3,9-8,-,True,67,43
+Fairyhouse Racing Results | 12th July 2023 18:20,N/A,18:20,Good,7f,Mayo Dawn (IRE),Adam Caffrey,5,Adrian McGuinness,13th,1 3/4 l,3,9-3,-,True,67,43
+Fairyhouse Racing Results | 12th July 2023 18:20,N/A,18:20,Good,7f,Love Me Doree (IRE),C. D. Maxwell,0,Dermot Anthony McLoughlin,12th,1 1/4 l,4,9-11,-,True,67,43
+Fairyhouse Racing Results | 12th July 2023 18:20,N/A,18:20,Good,7f,Needsomeluck (IRE),Siobhan Rutledge,5,Harry Rogers,11th,1 3/4 l,3,9-3t1,-,True,67,43
+Fairyhouse Racing Results | 12th July 2023 18:20,N/A,18:20,Good,7f,Lope De Rueda,M. P. Sheehy,0,Charles O'Brien,10th,1/2 l,3,9-8h1,-,True,67,43
+Fairyhouse Racing Results | 12th July 2023 18:20,N/A,18:20,Good,7f,Teton Sioux (IRE),G. M. Ryan,0,T. Gibney,9th,2 1/4 l,3,9-8,-,True,67,43
+Fairyhouse Racing Results | 12th July 2023 18:20,N/A,18:20,Good,7f,Cross Border,Ben Martin Coen,0,Edward Lynam,8th,Head,3,9-8,-,True,67,43
+Fairyhouse Racing Results | 12th July 2023 18:20,N/A,18:20,Good,7f,Limestone Red (IRE),N. G. McCullagh,0,M. Halford & T. Collins,7th,1 1/4 l,3,9-8,-,True,67,43
+Fairyhouse Racing Results | 12th July 2023 18:20,N/A,18:20,Good,7f,Dance Night Andday (IRE),N. M. Crosse,0,Ross O'Sullivan,6th,Nose,3,9-3,-,True,67,43
+Fairyhouse Racing Results | 12th July 2023 18:20,N/A,18:20,Good,7f,Bold Optimist (IRE),Oisin McSweeney,5,Michael McCullagh,5th,2 1/4 l,3,9-8,-,True,67,43
+Fairyhouse Racing Results | 12th July 2023 18:20,N/A,18:20,Good,7f,Treasured Soul (IRE),C. T. Keane,0,G. M. Lyons,4th,1/2 l,3,9-8,-,True,67,43
+Fairyhouse Racing Results | 12th July 2023 18:20,N/A,18:20,Good,7f,First Gentleman (IRE),Shane Foley,0,Mrs J. Harrington,3rd,1 1/2 l,3,9-8p1,-,True,67,43
+Fairyhouse Racing Results | 12th July 2023 18:20,N/A,18:20,Good,7f,Blue News (USA),Andrew Joseph Slattery,0,A. Slattery,2nd,2 3/4 l,3,9-8t1,-,True,67,43
+Fairyhouse Racing Results | 12th July 2023 18:20,N/A,18:20,Good,7f,Desert Haven,D. B. McMonagle,0,Noel Meade,1st,N/A,3,9-8t1,-,True,67,43
+Fairyhouse Racing Results | 12th July 2023 18:20,N/A,18:20,Good,7f,Go Til Its Over (IRE),K. J. Leonard,0,Philip Michael Byrne,14th,3 1/2 l,3,9-8,-,True,67,43
+Fairyhouse Racing Results | 12th July 2023 18:20,N/A,18:20,Good,7f,Mayo Dawn (IRE),Adam Caffrey,5,Adrian McGuinness,13th,1 3/4 l,3,9-3,-,True,67,43
+Fairyhouse Racing Results | 12th July 2023 18:20,N/A,18:20,Good,7f,Love Me Doree (IRE),C. D. Maxwell,0,Dermot Anthony McLoughlin,12th,1 1/4 l,4,9-11,-,True,67,43
+Fairyhouse Racing Results | 12th July 2023 18:20,N/A,18:20,Good,7f,Needsomeluck (IRE),Siobhan Rutledge,5,Harry Rogers,11th,1 3/4 l,3,9-3t1,-,True,67,43
+Fairyhouse Racing Results | 12th July 2023 18:20,N/A,18:20,Good,7f,Lope De Rueda,M. P. Sheehy,0,Charles O'Brien,10th,1/2 l,3,9-8h1,-,True,67,43
+Fairyhouse Racing Results | 12th July 2023 18:20,N/A,18:20,Good,7f,Teton Sioux (IRE),G. M. Ryan,0,T. Gibney,9th,2 1/4 l,3,9-8,-,True,67,43
+Fairyhouse Racing Results | 12th July 2023 18:20,N/A,18:20,Good,7f,Cross Border,Ben Martin Coen,0,Edward Lynam,8th,Head,3,9-8,-,True,67,43
+Fairyhouse Racing Results | 12th July 2023 18:20,N/A,18:20,Good,7f,Limestone Red (IRE),N. G. McCullagh,0,M. Halford & T. Collins,7th,1 1/4 l,3,9-8,-,True,67,43
+Fairyhouse Racing Results | 12th July 2023 18:20,N/A,18:20,Good,7f,Dance Night Andday (IRE),N. M. Crosse,0,Ross O'Sullivan,6th,Nose,3,9-3,-,True,67,43
+Fairyhouse Racing Results | 12th July 2023 18:20,N/A,18:20,Good,7f,Bold Optimist (IRE),Oisin McSweeney,5,Michael McCullagh,5th,2 1/4 l,3,9-8,-,True,67,43
+Fairyhouse Racing Results | 12th July 2023 18:20,N/A,18:20,Good,7f,Treasured Soul (IRE),C. T. Keane,0,G. M. Lyons,4th,1/2 l,3,9-8,-,True,67,43
+Fairyhouse Racing Results | 12th July 2023 18:20,N/A,18:20,Good,7f,First Gentleman (IRE),Shane Foley,0,Mrs J. Harrington,3rd,1 1/2 l,3,9-8p1,-,True,67,43
+Fairyhouse Racing Results | 12th July 2023 18:20,N/A,18:20,Good,7f,Blue News (USA),Andrew Joseph Slattery,0,A. Slattery,2nd,2 3/4 l,3,9-8t1,-,True,67,43
+Fairyhouse Racing Results | 12th July 2023 18:20,N/A,18:20,Good,7f,Desert Haven,D. B. McMonagle,0,Noel Meade,1st,N/A,3,9-8t1,-,True,67,43
+Fairyhouse Racing Results | 12th July 2023 18:50,N/A,18:50,Good,7f,Dower House (IRE),Declan McDonogh,0,Aidan O'Brien,8th,2 1/2 l,3,9-1t,-,True,67,44
+Fairyhouse Racing Results | 12th July 2023 18:50,N/A,18:50,Good,7f,Maybe Just Maybe (JPN),Ben Martin Coen,0,Aidan O'Brien,7th,Short Head,3,9-1b,-,True,67,44
+Fairyhouse Racing Results | 12th July 2023 18:50,N/A,18:50,Good,7f,Nelda (IRE),Shane Foley,0,Mrs J. Harrington,6th,1/2 l,3,9-1,-,True,67,44
+Fairyhouse Racing Results | 12th July 2023 18:50,N/A,18:50,Good,7f,Dame Kiri (USA),G. M. Ryan,0,Aidan O'Brien,5th,1/2 l,3,9-1,-,True,67,44
+Fairyhouse Racing Results | 12th July 2023 18:50,N/A,18:50,Good,7f,Beginnings (USA),M. P. Sheehy,0,Aidan O'Brien,4th,1 3/4 l,3,9-1b,-,True,67,44
+Fairyhouse Racing Results | 12th July 2023 18:50,N/A,18:50,Good,7f,American Sonja,D. B. McMonagle,0,Joseph Patrick O'Brien,3rd,1 1/4 l,3,9-1,-,True,67,44
+Fairyhouse Racing Results | 12th July 2023 18:50,N/A,18:50,Good,7f,Cigamia (USA),N. M. Crosse,0,W. McCreery,2nd,2 1/2 l,4,9-9,-,True,67,44
+Fairyhouse Racing Results | 12th July 2023 18:50,N/A,18:50,Good,7f,Zarinsk,C. T. Keane,0,G. M. Lyons,1st,N/A,3,9-4,-,True,67,44
+Fairyhouse Racing Results | 12th July 2023 18:50,N/A,18:50,Good,7f,Dower House (IRE),Declan McDonogh,0,Aidan O'Brien,8th,2 1/2 l,3,9-1t,-,True,67,44
+Fairyhouse Racing Results | 12th July 2023 18:50,N/A,18:50,Good,7f,Maybe Just Maybe (JPN),Ben Martin Coen,0,Aidan O'Brien,7th,Short Head,3,9-1b,-,True,67,44
+Fairyhouse Racing Results | 12th July 2023 18:50,N/A,18:50,Good,7f,Nelda (IRE),Shane Foley,0,Mrs J. Harrington,6th,1/2 l,3,9-1,-,True,67,44
+Fairyhouse Racing Results | 12th July 2023 18:50,N/A,18:50,Good,7f,Dame Kiri (USA),G. M. Ryan,0,Aidan O'Brien,5th,1/2 l,3,9-1,-,True,67,44
+Fairyhouse Racing Results | 12th July 2023 18:50,N/A,18:50,Good,7f,Beginnings (USA),M. P. Sheehy,0,Aidan O'Brien,4th,1 3/4 l,3,9-1b,-,True,67,44
+Fairyhouse Racing Results | 12th July 2023 18:50,N/A,18:50,Good,7f,American Sonja,D. B. McMonagle,0,Joseph Patrick O'Brien,3rd,1 1/4 l,3,9-1,-,True,67,44
+Fairyhouse Racing Results | 12th July 2023 18:50,N/A,18:50,Good,7f,Cigamia (USA),N. M. Crosse,0,W. McCreery,2nd,2 1/2 l,4,9-9,-,True,67,44
+Fairyhouse Racing Results | 12th July 2023 18:50,N/A,18:50,Good,7f,Zarinsk,C. T. Keane,0,G. M. Lyons,1st,N/A,3,9-4,-,True,67,44
+Fairyhouse Racing Results | 12th July 2023 19:20,N/A,19:20,Good,7f,Hallowed Time (IRE),Declan McDonogh,0,E. J. O'Neill,10th,2 l,5,8-12,79,True,67,45
+Fairyhouse Racing Results | 12th July 2023 19:20,N/A,19:20,Good,7f,Hightimeyouwon,Adam Caffrey,5,Adrian McGuinness,9th,1/2 l,7,9-0v,81,True,67,45
+Fairyhouse Racing Results | 12th July 2023 19:20,N/A,19:20,Good,7f,Exquisite Acclaim (IRE),R. P. Whelan,0,Adrian McGuinness,8th,Short Head,4,8-12v,79,True,67,45
+Fairyhouse Racing Results | 12th July 2023 19:20,N/A,19:20,Good,7f,Lust (IRE),C. T. Keane,0,G. M. Lyons,7th,1 1/2 l,5,10-3t,98,True,67,45
+Fairyhouse Racing Results | 12th July 2023 19:20,N/A,19:20,Good,7f,Red Heel (IRE),L. F. Roche,0,W. McCreery,6th,Neck,6,8-10p,77,True,67,45
+Fairyhouse Racing Results | 12th July 2023 19:20,N/A,19:20,Good,7f,Prisoner's Dilemma,D. W. O'Connor,0,J. F. Levins,5th,1/2 l,7,10-0,95,True,67,45
+Fairyhouse Racing Results | 12th July 2023 19:20,N/A,19:20,Good,7f,Furnace Creek (IRE),Ben Martin Coen,0,Joseph Anthony Murray,4th,Head,4,9-0,81,True,67,45
+Fairyhouse Racing Results | 12th July 2023 19:20,N/A,19:20,Good,7f,Lexington Dash (FR),Shane Foley,0,John McConnell,3rd,1 1/2 l,6,9-7t,88,True,67,45
+Fairyhouse Racing Results | 12th July 2023 19:20,N/A,19:20,Good,7f,Big Baby Bull (IRE),S. D. Bowen,7,Denis Hogan,2nd,3/4 l,7,9-0tb,81,True,67,45
+Fairyhouse Racing Results | 12th July 2023 19:20,N/A,19:20,Good,7f,Hotrocket (IRE),C. Stone-Walsh,7,Joseph Patrick O'Brien,1st,N/A,4,9-13,94,True,67,45
+Fairyhouse Racing Results | 12th July 2023 19:20,N/A,19:20,Good,7f,Hallowed Time (IRE),Declan McDonogh,0,E. J. O'Neill,10th,2 l,5,8-12,79,True,67,45
+Fairyhouse Racing Results | 12th July 2023 19:20,N/A,19:20,Good,7f,Hightimeyouwon,Adam Caffrey,5,Adrian McGuinness,9th,1/2 l,7,9-0v,81,True,67,45
+Fairyhouse Racing Results | 12th July 2023 19:20,N/A,19:20,Good,7f,Exquisite Acclaim (IRE),R. P. Whelan,0,Adrian McGuinness,8th,Short Head,4,8-12v,79,True,67,45
+Fairyhouse Racing Results | 12th July 2023 19:20,N/A,19:20,Good,7f,Lust (IRE),C. T. Keane,0,G. M. Lyons,7th,1 1/2 l,5,10-3t,98,True,67,45
+Fairyhouse Racing Results | 12th July 2023 19:20,N/A,19:20,Good,7f,Red Heel (IRE),L. F. Roche,0,W. McCreery,6th,Neck,6,8-10p,77,True,67,45
+Fairyhouse Racing Results | 12th July 2023 19:20,N/A,19:20,Good,7f,Prisoner's Dilemma,D. W. O'Connor,0,J. F. Levins,5th,1/2 l,7,10-0,95,True,67,45
+Fairyhouse Racing Results | 12th July 2023 19:20,N/A,19:20,Good,7f,Furnace Creek (IRE),Ben Martin Coen,0,Joseph Anthony Murray,4th,Head,4,9-0,81,True,67,45
+Fairyhouse Racing Results | 12th July 2023 19:20,N/A,19:20,Good,7f,Lexington Dash (FR),Shane Foley,0,John McConnell,3rd,1 1/2 l,6,9-7t,88,True,67,45
+Fairyhouse Racing Results | 12th July 2023 19:20,N/A,19:20,Good,7f,Big Baby Bull (IRE),S. D. Bowen,7,Denis Hogan,2nd,3/4 l,7,9-0tb,81,True,67,45
+Fairyhouse Racing Results | 12th July 2023 19:20,N/A,19:20,Good,7f,Hotrocket (IRE),C. Stone-Walsh,7,Joseph Patrick O'Brien,1st,N/A,4,9-13,94,True,67,45
+Fairyhouse Racing Results | 12th July 2023 19:50,N/A,19:50,Good,7f,Von Krolock (IRE),R. P. Whelan,0,Timothy Doyle,NR,N/A,4,8-13b,47,True,67,46
+Fairyhouse Racing Results | 12th July 2023 19:50,N/A,19:50,Good,7f,Princess Rajj (IRE),Shane Foley,0,Mrs J. Harrington,16th,Neck,4,9-12tp,60,True,67,46
+Fairyhouse Racing Results | 12th July 2023 19:50,N/A,19:50,Good,7f,Hilltop's Bear (IRE),M. W. Hassett,7,J. G. Murray,15th,1 1/2 l,3,8-71,49,True,67,46
+Fairyhouse Racing Results | 12th July 2023 19:50,N/A,19:50,Good,7f,El Maga (IRE),K. J. Leonard,0,Tom McGuinness,14th,Neck,4,8-13b1,47,True,67,46
+Fairyhouse Racing Results | 12th July 2023 19:50,N/A,19:50,Good,7f,Qalahari Queen (IRE),J. J. G. Ryan,7,T. G. McCourt,13th,3/4 l,3,9-3p,59,True,67,46
+Fairyhouse Racing Results | 12th July 2023 19:50,N/A,19:50,Good,7f,Broken Silence (IRE),Declan McDonogh,0,R. R. Roberts,12th,1/2 l,7,8-13b1,47,True,67,46
+Fairyhouse Racing Results | 12th July 2023 19:50,N/A,19:50,Good,7f,Badinage,Ben Martin Coen,0,E. J. O'Neill,11th,Short Head,4,9-0p1,48,True,67,46
+Fairyhouse Racing Results | 12th July 2023 19:50,N/A,19:50,Good,7f,Soyounique (IRE),G. F. Carroll,0,Ciaran Murphy,10th,3/4 l,6,9-8p,56,True,67,46
+Fairyhouse Racing Results | 12th July 2023 19:50,N/A,19:50,Good,7f,Gobi Star (IRE),C. T. Keane,0,Patrick Martin,9th,Neck,5,10-2tp,64,True,67,46
+Fairyhouse Racing Results | 12th July 2023 19:50,N/A,19:50,Good,7f,Shimmerz (IRE),Siobhan Rutledge,5,Charles O'Brien,8th,3/4 l,5,9-13,61,True,67,46
+Fairyhouse Racing Results | 12th July 2023 19:50,N/A,19:50,Good,7f,Happenstance (IRE),A. C. Persse,7,Patrick J. Flynn,7th,1 l,3,8-7b1,49,True,67,46
+Fairyhouse Racing Results | 12th July 2023 19:50,N/A,19:50,Good,7f,Benerville (IRE),Andrew Joseph Slattery,0,T. Hogan,6th,1 1/4 l,3,8-10p1,52,True,67,46
+Fairyhouse Racing Results | 12th July 2023 19:50,N/A,19:50,Good,7f,General Idea,K. S. McHugh,10,Denis Hogan,5th,Short Head,4,9-7tp,55,True,67,46
+Fairyhouse Racing Results | 12th July 2023 19:50,N/A,19:50,Good,7f,Bride Tree,D. E. Sheehy,3,Mrs Sarah Dawson,4th,1/2 l,3,8-10p1,52,True,67,46
+Fairyhouse Racing Results | 12th July 2023 19:50,N/A,19:50,Good,7f,She's Local (IRE),D. B. McMonagle,0,Noel Meade,3rd,Neck,3,9-4p,60,True,67,46
+Fairyhouse Racing Results | 12th July 2023 19:50,N/A,19:50,Good,7f,Miss Slovakia (IRE),L. F. Roche,0,Edward Lynam,2nd,2 1/2 l,3,8-7,49,True,67,46
+Fairyhouse Racing Results | 12th July 2023 19:50,N/A,19:50,Good,7f,Amanirenas (IRE),R. C. Colgan,0,M. C. Grassick,1st,N/A,4,10-3p,65,True,67,46
+Fairyhouse Racing Results | 12th July 2023 19:50,N/A,19:50,Good,7f,Von Krolock (IRE),R. P. Whelan,0,Timothy Doyle,NR,N/A,4,8-13b,47,True,67,46
+Fairyhouse Racing Results | 12th July 2023 19:50,N/A,19:50,Good,7f,Princess Rajj (IRE),Shane Foley,0,Mrs J. Harrington,16th,Neck,4,9-12tp,60,True,67,46
+Fairyhouse Racing Results | 12th July 2023 19:50,N/A,19:50,Good,7f,Hilltop's Bear (IRE),M. W. Hassett,7,J. G. Murray,15th,1 1/2 l,3,8-71,49,True,67,46
+Fairyhouse Racing Results | 12th July 2023 19:50,N/A,19:50,Good,7f,El Maga (IRE),K. J. Leonard,0,Tom McGuinness,14th,Neck,4,8-13b1,47,True,67,46
+Fairyhouse Racing Results | 12th July 2023 19:50,N/A,19:50,Good,7f,Qalahari Queen (IRE),J. J. G. Ryan,7,T. G. McCourt,13th,3/4 l,3,9-3p,59,True,67,46
+Fairyhouse Racing Results | 12th July 2023 19:50,N/A,19:50,Good,7f,Broken Silence (IRE),Declan McDonogh,0,R. R. Roberts,12th,1/2 l,7,8-13b1,47,True,67,46
+Fairyhouse Racing Results | 12th July 2023 19:50,N/A,19:50,Good,7f,Badinage,Ben Martin Coen,0,E. J. O'Neill,11th,Short Head,4,9-0p1,48,True,67,46
+Fairyhouse Racing Results | 12th July 2023 19:50,N/A,19:50,Good,7f,Soyounique (IRE),G. F. Carroll,0,Ciaran Murphy,10th,3/4 l,6,9-8p,56,True,67,46
+Fairyhouse Racing Results | 12th July 2023 19:50,N/A,19:50,Good,7f,Gobi Star (IRE),C. T. Keane,0,Patrick Martin,9th,Neck,5,10-2tp,64,True,67,46
+Fairyhouse Racing Results | 12th July 2023 19:50,N/A,19:50,Good,7f,Shimmerz (IRE),Siobhan Rutledge,5,Charles O'Brien,8th,3/4 l,5,9-13,61,True,67,46
+Fairyhouse Racing Results | 12th July 2023 19:50,N/A,19:50,Good,7f,Happenstance (IRE),A. C. Persse,7,Patrick J. Flynn,7th,1 l,3,8-7b1,49,True,67,46
+Fairyhouse Racing Results | 12th July 2023 19:50,N/A,19:50,Good,7f,Benerville (IRE),Andrew Joseph Slattery,0,T. Hogan,6th,1 1/4 l,3,8-10p1,52,True,67,46
+Fairyhouse Racing Results | 12th July 2023 19:50,N/A,19:50,Good,7f,General Idea,K. S. McHugh,10,Denis Hogan,5th,Short Head,4,9-7tp,55,True,67,46
+Fairyhouse Racing Results | 12th July 2023 19:50,N/A,19:50,Good,7f,Bride Tree,D. E. Sheehy,3,Mrs Sarah Dawson,4th,1/2 l,3,8-10p1,52,True,67,46
+Fairyhouse Racing Results | 12th July 2023 19:50,N/A,19:50,Good,7f,She's Local (IRE),D. B. McMonagle,0,Noel Meade,3rd,Neck,3,9-4p,60,True,67,46
+Fairyhouse Racing Results | 12th July 2023 19:50,N/A,19:50,Good,7f,Miss Slovakia (IRE),L. F. Roche,0,Edward Lynam,2nd,2 1/2 l,3,8-7,49,True,67,46
+Fairyhouse Racing Results | 12th July 2023 19:50,N/A,19:50,Good,7f,Amanirenas (IRE),R. C. Colgan,0,M. C. Grassick,1st,N/A,4,10-3p,65,True,67,46
+Fairyhouse Racing Results | 12th July 2023 20:20,N/A,20:20,Good,7f,Flag High (IRE),D. W. O'Connor,0,John McConnell,17th,1 1/2 l,4,9-3h,52,True,67,47
+Fairyhouse Racing Results | 12th July 2023 20:20,N/A,20:20,Good,7f,Epaulawn (IRE),Siobhan Rutledge,5,M. G. Quinn,16th,2 l,5,9-0t,49,True,67,47
+Fairyhouse Racing Results | 12th July 2023 20:20,N/A,20:20,Good,7f,Twins for Joy (IRE),Adam Caffrey,5,Adrian McGuinness,15th,Head,4,9-2,51,True,67,47
+Fairyhouse Racing Results | 12th July 2023 20:20,N/A,20:20,Good,7f,Lisabetta (IRE),G. M. Ryan,0,Timothy Doyle,14th,3/4 l,5,8-12b,47,True,67,47
+Fairyhouse Racing Results | 12th July 2023 20:20,N/A,20:20,Good,7f,Chica Power (IRE),C. T. Keane,0,Patrick Martin,13th,Neck,5,9-7p,56,True,67,47
+Fairyhouse Racing Results | 12th July 2023 20:20,N/A,20:20,Good,7f,Famous Enough (IRE),P. A. Harnett,7,Liam G. O'Brien,12th,1 3/4 l,3,9-1,58,True,67,47
+Fairyhouse Racing Results | 12th July 2023 20:20,N/A,20:20,Good,7f,Pretty Boy Floyd (IRE),Shane Foley,0,Mrs Sarah Dawson,11th,1/2 l,8,9-12b,61,True,67,47
+Fairyhouse Racing Results | 12th July 2023 20:20,N/A,20:20,Good,7f,Merlins Muse (USA),K. J. Leonard,0,Tom McGuinness,10th,1 1/4 l,8,8-12,47,True,67,47
+Fairyhouse Racing Results | 12th July 2023 20:20,N/A,20:20,Good,7f,Empress Of Bough (IRE),S. R. Markey,10,Anthony McCann,9th,1/2 l,4,9-1,50,True,67,47
+Fairyhouse Racing Results | 12th July 2023 20:20,N/A,20:20,Good,7f,Redshore City (IRE),Oisin McSweeney,5,John McConnell,8th,3/4 l,3,8-12,55,True,67,47
+Fairyhouse Racing Results | 12th July 2023 20:20,N/A,20:20,Good,7f,Gosford (IRE),Ben Martin Coen,0,Edward Lynam,7th,Neck,3,9-6,63,True,67,47
+Fairyhouse Racing Results | 12th July 2023 20:20,N/A,20:20,Good,7f,Soi Dao (IRE),S. B. Kelly,0,Michael Fenton,6th,1/2 l,4,9-10b,59,True,67,47
+Fairyhouse Racing Results | 12th July 2023 20:20,N/A,20:20,Good,7f,Corballis Flyer (IRE),L. T. McAteer,0,James M. Barrett,5th,1/2 l,5,9-3,52,True,67,47
+Fairyhouse Racing Results | 12th July 2023 20:20,N/A,20:20,Good,7f,Designer Cailin (IRE),D. B. McMonagle,0,Patrick Martin,4th,1/2 l,5,8-12,47,True,67,47
+Fairyhouse Racing Results | 12th July 2023 20:20,N/A,20:20,Good,7f,Sondheim (IRE),Neve Bennett,7,Craig O'Neill,3rd,Head,6,10-1b,64,True,67,47
+Fairyhouse Racing Results | 12th July 2023 20:20,N/A,20:20,Good,7f,Whatharm (IRE),C. P. Hoban,0,Patrick J. Flynn,2nd,Neck,8,10-0p,63,True,67,47
+Fairyhouse Racing Results | 12th July 2023 20:20,N/A,20:20,Good,7f,Golden Days (IRE),R. P. Whelan,0,M. Halford & T. Collins,1st,N/A,6,8-12p,47,True,67,47
+Fairyhouse Racing Results | 12th July 2023 20:20,N/A,20:20,Good,7f,Flag High (IRE),D. W. O'Connor,0,John McConnell,17th,1 1/2 l,4,9-3h,52,True,67,47
+Fairyhouse Racing Results | 12th July 2023 20:20,N/A,20:20,Good,7f,Epaulawn (IRE),Siobhan Rutledge,5,M. G. Quinn,16th,2 l,5,9-0t,49,True,67,47
+Fairyhouse Racing Results | 12th July 2023 20:20,N/A,20:20,Good,7f,Twins for Joy (IRE),Adam Caffrey,5,Adrian McGuinness,15th,Head,4,9-2,51,True,67,47
+Fairyhouse Racing Results | 12th July 2023 20:20,N/A,20:20,Good,7f,Lisabetta (IRE),G. M. Ryan,0,Timothy Doyle,14th,3/4 l,5,8-12b,47,True,67,47
+Fairyhouse Racing Results | 12th July 2023 20:20,N/A,20:20,Good,7f,Chica Power (IRE),C. T. Keane,0,Patrick Martin,13th,Neck,5,9-7p,56,True,67,47
+Fairyhouse Racing Results | 12th July 2023 20:20,N/A,20:20,Good,7f,Famous Enough (IRE),P. A. Harnett,7,Liam G. O'Brien,12th,1 3/4 l,3,9-1,58,True,67,47
+Fairyhouse Racing Results | 12th July 2023 20:20,N/A,20:20,Good,7f,Pretty Boy Floyd (IRE),Shane Foley,0,Mrs Sarah Dawson,11th,1/2 l,8,9-12b,61,True,67,47
+Fairyhouse Racing Results | 12th July 2023 20:20,N/A,20:20,Good,7f,Merlins Muse (USA),K. J. Leonard,0,Tom McGuinness,10th,1 1/4 l,8,8-12,47,True,67,47
+Fairyhouse Racing Results | 12th July 2023 20:20,N/A,20:20,Good,7f,Empress Of Bough (IRE),S. R. Markey,10,Anthony McCann,9th,1/2 l,4,9-1,50,True,67,47
+Fairyhouse Racing Results | 12th July 2023 20:20,N/A,20:20,Good,7f,Redshore City (IRE),Oisin McSweeney,5,John McConnell,8th,3/4 l,3,8-12,55,True,67,47
+Fairyhouse Racing Results | 12th July 2023 20:20,N/A,20:20,Good,7f,Gosford (IRE),Ben Martin Coen,0,Edward Lynam,7th,Neck,3,9-6,63,True,67,47
+Fairyhouse Racing Results | 12th July 2023 20:20,N/A,20:20,Good,7f,Soi Dao (IRE),S. B. Kelly,0,Michael Fenton,6th,1/2 l,4,9-10b,59,True,67,47
+Fairyhouse Racing Results | 12th July 2023 20:20,N/A,20:20,Good,7f,Corballis Flyer (IRE),L. T. McAteer,0,James M. Barrett,5th,1/2 l,5,9-3,52,True,67,47
+Fairyhouse Racing Results | 12th July 2023 20:20,N/A,20:20,Good,7f,Designer Cailin (IRE),D. B. McMonagle,0,Patrick Martin,4th,1/2 l,5,8-12,47,True,67,47
+Fairyhouse Racing Results | 12th July 2023 20:20,N/A,20:20,Good,7f,Sondheim (IRE),Neve Bennett,7,Craig O'Neill,3rd,Head,6,10-1b,64,True,67,47
+Fairyhouse Racing Results | 12th July 2023 20:20,N/A,20:20,Good,7f,Whatharm (IRE),C. P. Hoban,0,Patrick J. Flynn,2nd,Neck,8,10-0p,63,True,67,47
+Fairyhouse Racing Results | 12th July 2023 20:20,N/A,20:20,Good,7f,Golden Days (IRE),R. P. Whelan,0,M. Halford & T. Collins,1st,N/A,6,8-12p,47,True,67,47
+Downpatrick Racing Results | 13th July 2023 15:15,N/A,15:15,Good To Yielding  Hurdle (Turf),2m 1f 165y,Mon Loulou (FR),D. J. O'Keeffe,0,Patrick Griffin,14th,1 3/4 l,5,11-4,-,True,67,49
+Downpatrick Racing Results | 13th July 2023 15:15,N/A,15:15,Good To Yielding  Hurdle (Turf),2m 1f 165y,Instinct De Loup (FR),Mr A. Harvey,7,D. Harvey,13th,Neck,5,11-4,-,True,67,49
+Downpatrick Racing Results | 13th July 2023 15:15,N/A,15:15,Good To Yielding  Hurdle (Turf),2m 1f 165y,Farewellchancer (IRE),J. P. Robottom,7,Gordon Elliott,12th,3/4 l,6,11-4,-,True,67,49
+Downpatrick Racing Results | 13th July 2023 15:15,N/A,15:15,Good To Yielding  Hurdle (Turf),2m 1f 165y,Irish Envoy (IRE),A. P. Kelly,5,Miss Elizabeth Doyle,11th,1 1/2 l,5,11-12,-,True,67,49
+Downpatrick Racing Results | 13th July 2023 15:15,N/A,15:15,Good To Yielding  Hurdle (Turf),2m 1f 165y,Farrokh (FR),M. J. M. O'Sullivan,3,Barry Connell,10th,9 1/2 l,4,11-0,-,True,67,49
+Downpatrick Racing Results | 13th July 2023 15:15,N/A,15:15,Good To Yielding  Hurdle (Turf),2m 1f 165y,Temptation Time (IRE),Phillip Enright,0,Mark McNiff,9th,1 3/4 l,5,11-4,-,True,67,49
+Downpatrick Racing Results | 13th July 2023 15:15,N/A,15:15,Good To Yielding  Hurdle (Turf),2m 1f 165y,Now Is The Hour (IRE),Sean Flanagan,0,Gavin Patrick Cromwell,8th,20 l,6,11-4,-,True,67,49
+Downpatrick Racing Results | 13th July 2023 15:15,N/A,15:15,Good To Yielding  Hurdle (Turf),2m 1f 165y,Liberty Flame (IRE),B. W. Harvey,3,Peter John Flood,7th,6 1/2 l,5,11-4h,-,True,67,49
+Downpatrick Racing Results | 13th July 2023 15:15,N/A,15:15,Good To Yielding  Hurdle (Turf),2m 1f 165y,Moneynabane (IRE),Gearoid Patrick Brouder,5,Neill McCluskey,6th,4 l,5,11-4,-,True,67,49
+Downpatrick Racing Results | 13th July 2023 15:15,N/A,15:15,Good To Yielding  Hurdle (Turf),2m 1f 165y,J'adore Chas (FR),Liam Quinlan,5,Gerald Stephen Quinn,5th,1 l,4,11-0,-,True,67,49
+Downpatrick Racing Results | 13th July 2023 15:15,N/A,15:15,Good To Yielding  Hurdle (Turf),2m 1f 165y,Art of Silence (IRE),M. M. McDonagh,5,Gerard Keane,4th,2 1/2 l,5,11-12,-,True,67,49
+Downpatrick Racing Results | 13th July 2023 15:15,N/A,15:15,Good To Yielding  Hurdle (Turf),2m 1f 165y,Colonel Bellew (IRE),M. P. O'Connor,3,Henry de Bromhead,3rd,4 1/2 l,6,11-4t,-,True,67,49
+Downpatrick Racing Results | 13th July 2023 15:15,N/A,15:15,Good To Yielding  Hurdle (Turf),2m 1f 165y,Gino Drummer Boy (IRE),J. W. Kennedy,0,Gordon Elliott,2nd,3 l,7,11-4p,-,True,67,49
+Downpatrick Racing Results | 13th July 2023 15:15,N/A,15:15,Good To Yielding  Hurdle (Turf),2m 1f 165y,The Folkes Tiara (IRE),Rachael Blackmore,0,Henry de Bromhead,1st,N/A,7,11-4t,-,True,67,49
+Downpatrick Racing Results | 13th July 2023 15:15,N/A,15:15,Good To Yielding  Hurdle (Turf),2m 1f 165y,Mon Loulou (FR),D. J. O'Keeffe,0,Patrick Griffin,14th,1 3/4 l,5,11-4,-,True,67,49
+Downpatrick Racing Results | 13th July 2023 15:15,N/A,15:15,Good To Yielding  Hurdle (Turf),2m 1f 165y,Instinct De Loup (FR),Mr A. Harvey,7,D. Harvey,13th,Neck,5,11-4,-,True,67,49
+Downpatrick Racing Results | 13th July 2023 15:15,N/A,15:15,Good To Yielding  Hurdle (Turf),2m 1f 165y,Farewellchancer (IRE),J. P. Robottom,7,Gordon Elliott,12th,3/4 l,6,11-4,-,True,67,49
+Downpatrick Racing Results | 13th July 2023 15:15,N/A,15:15,Good To Yielding  Hurdle (Turf),2m 1f 165y,Irish Envoy (IRE),A. P. Kelly,5,Miss Elizabeth Doyle,11th,1 1/2 l,5,11-12,-,True,67,49
+Downpatrick Racing Results | 13th July 2023 15:15,N/A,15:15,Good To Yielding  Hurdle (Turf),2m 1f 165y,Farrokh (FR),M. J. M. O'Sullivan,3,Barry Connell,10th,9 1/2 l,4,11-0,-,True,67,49
+Downpatrick Racing Results | 13th July 2023 15:15,N/A,15:15,Good To Yielding  Hurdle (Turf),2m 1f 165y,Temptation Time (IRE),Phillip Enright,0,Mark McNiff,9th,1 3/4 l,5,11-4,-,True,67,49
+Downpatrick Racing Results | 13th July 2023 15:15,N/A,15:15,Good To Yielding  Hurdle (Turf),2m 1f 165y,Now Is The Hour (IRE),Sean Flanagan,0,Gavin Patrick Cromwell,8th,20 l,6,11-4,-,True,67,49
+Downpatrick Racing Results | 13th July 2023 15:15,N/A,15:15,Good To Yielding  Hurdle (Turf),2m 1f 165y,Liberty Flame (IRE),B. W. Harvey,3,Peter John Flood,7th,6 1/2 l,5,11-4h,-,True,67,49
+Downpatrick Racing Results | 13th July 2023 15:15,N/A,15:15,Good To Yielding  Hurdle (Turf),2m 1f 165y,Moneynabane (IRE),Gearoid Patrick Brouder,5,Neill McCluskey,6th,4 l,5,11-4,-,True,67,49
+Downpatrick Racing Results | 13th July 2023 15:15,N/A,15:15,Good To Yielding  Hurdle (Turf),2m 1f 165y,J'adore Chas (FR),Liam Quinlan,5,Gerald Stephen Quinn,5th,1 l,4,11-0,-,True,67,49
+Downpatrick Racing Results | 13th July 2023 15:15,N/A,15:15,Good To Yielding  Hurdle (Turf),2m 1f 165y,Art of Silence (IRE),M. M. McDonagh,5,Gerard Keane,4th,2 1/2 l,5,11-12,-,True,67,49
+Downpatrick Racing Results | 13th July 2023 15:15,N/A,15:15,Good To Yielding  Hurdle (Turf),2m 1f 165y,Colonel Bellew (IRE),M. P. O'Connor,3,Henry de Bromhead,3rd,4 1/2 l,6,11-4t,-,True,67,49
+Downpatrick Racing Results | 13th July 2023 15:15,N/A,15:15,Good To Yielding  Hurdle (Turf),2m 1f 165y,Gino Drummer Boy (IRE),J. W. Kennedy,0,Gordon Elliott,2nd,3 l,7,11-4p,-,True,67,49
+Downpatrick Racing Results | 13th July 2023 15:15,N/A,15:15,Good To Yielding  Hurdle (Turf),2m 1f 165y,The Folkes Tiara (IRE),Rachael Blackmore,0,Henry de Bromhead,1st,N/A,7,11-4t,-,True,67,49
+Downpatrick Racing Results | 13th July 2023 15:50,N/A,15:50,Good,2m 1f 165y,Millies Dream (IRE),K. E. Buckley,3,Gavin Patrick Cromwell,13th,9 l,5,11-2p1,89,True,67,50
+Downpatrick Racing Results | 13th July 2023 15:50,N/A,15:50,Good,2m 1f 165y,Trishknowsbest (IRE),M. M. McDonagh,5,Mrs Prunella Dobbs,12th,Neck,6,11-12ht,99,True,67,50
+Downpatrick Racing Results | 13th July 2023 15:50,N/A,15:50,Good,2m 1f 165y,Ask The Leader (IRE),D. J. O'Keeffe,0,David Christie,11th,1 l,7,11-10t,97,True,67,50
+Downpatrick Racing Results | 13th July 2023 15:50,N/A,15:50,Good,2m 1f 165y,Chancer Dancer (IRE),Conor Orr,0,Noel C. Kelly,10th,1 1/2 l,6,10-10t,83,True,67,50
+Downpatrick Racing Results | 13th July 2023 15:50,N/A,15:50,Good,2m 1f 165y,Sovereign Duke (GER),J. S. McGarvey,0,John Joseph Hanlon,9th,Head,8,11-12,99,True,67,50
+Downpatrick Racing Results | 13th July 2023 15:50,N/A,15:50,Good,2m 1f 165y,Sula Warrior (IRE),L. A. McKenna,5,J. G. Cosgrave,8th,1 3/4 l,7,11-8,95,True,67,50
+Downpatrick Racing Results | 13th July 2023 15:50,N/A,15:50,Good,2m 1f 165y,Ivane (FR),E. Walsh,3,Ciaran Murphy,7th,16 l,5,11-1,88,True,67,50
+Downpatrick Racing Results | 13th July 2023 15:50,N/A,15:50,Good,2m 1f 165y,Maxios Show (IRE),Donagh Meyler,0,Gary McGill,6th,1 1/4 l,5,10-12,85,True,67,50
+Downpatrick Racing Results | 13th July 2023 15:50,N/A,15:50,Good,2m 1f 165y,Clear The Clouds (IRE),Keith Donoghue,0,Gavin Patrick Cromwell,5th,3 l,5,11-9,96,True,67,50
+Downpatrick Racing Results | 13th July 2023 15:50,N/A,15:50,Good,2m 1f 165y,Kellie's Dream (IRE),C. M. Quirke,5,A. Slattery,4th,4 l,6,11-2,89,True,67,50
+Downpatrick Racing Results | 13th July 2023 15:50,N/A,15:50,Good,2m 1f 165y,Breagagh (IRE),Mr N. Gault,7,S. Michael Millar,3rd,1 1/4 l,5,11-3p,90,True,67,50
+Downpatrick Racing Results | 13th July 2023 15:50,N/A,15:50,Good,2m 1f 165y,C'Est Quelqu'un (FR),J. W. Kennedy,0,Gordon Elliott,2nd,5 1/2 l,6,11-5,92,True,67,50
+Downpatrick Racing Results | 13th July 2023 15:50,N/A,15:50,Good,2m 1f 165y,Thornleigh Frank (IRE),A. P. Kelly,5,Mark Fahey,1st,N/A,6,11-7,94,True,67,50
+Downpatrick Racing Results | 13th July 2023 15:50,N/A,15:50,Good,2m 1f 165y,Millies Dream (IRE),K. E. Buckley,3,Gavin Patrick Cromwell,13th,9 l,5,11-2p1,89,True,67,50
+Downpatrick Racing Results | 13th July 2023 15:50,N/A,15:50,Good,2m 1f 165y,Trishknowsbest (IRE),M. M. McDonagh,5,Mrs Prunella Dobbs,12th,Neck,6,11-12ht,99,True,67,50
+Downpatrick Racing Results | 13th July 2023 15:50,N/A,15:50,Good,2m 1f 165y,Ask The Leader (IRE),D. J. O'Keeffe,0,David Christie,11th,1 l,7,11-10t,97,True,67,50
+Downpatrick Racing Results | 13th July 2023 15:50,N/A,15:50,Good,2m 1f 165y,Chancer Dancer (IRE),Conor Orr,0,Noel C. Kelly,10th,1 1/2 l,6,10-10t,83,True,67,50
+Downpatrick Racing Results | 13th July 2023 15:50,N/A,15:50,Good,2m 1f 165y,Sovereign Duke (GER),J. S. McGarvey,0,John Joseph Hanlon,9th,Head,8,11-12,99,True,67,50
+Downpatrick Racing Results | 13th July 2023 15:50,N/A,15:50,Good,2m 1f 165y,Sula Warrior (IRE),L. A. McKenna,5,J. G. Cosgrave,8th,1 3/4 l,7,11-8,95,True,67,50
+Downpatrick Racing Results | 13th July 2023 15:50,N/A,15:50,Good,2m 1f 165y,Ivane (FR),E. Walsh,3,Ciaran Murphy,7th,16 l,5,11-1,88,True,67,50
+Downpatrick Racing Results | 13th July 2023 15:50,N/A,15:50,Good,2m 1f 165y,Maxios Show (IRE),Donagh Meyler,0,Gary McGill,6th,1 1/4 l,5,10-12,85,True,67,50
+Downpatrick Racing Results | 13th July 2023 15:50,N/A,15:50,Good,2m 1f 165y,Clear The Clouds (IRE),Keith Donoghue,0,Gavin Patrick Cromwell,5th,3 l,5,11-9,96,True,67,50
+Downpatrick Racing Results | 13th July 2023 15:50,N/A,15:50,Good,2m 1f 165y,Kellie's Dream (IRE),C. M. Quirke,5,A. Slattery,4th,4 l,6,11-2,89,True,67,50
+Downpatrick Racing Results | 13th July 2023 15:50,N/A,15:50,Good,2m 1f 165y,Breagagh (IRE),Mr N. Gault,7,S. Michael Millar,3rd,1 1/4 l,5,11-3p,90,True,67,50
+Downpatrick Racing Results | 13th July 2023 15:50,N/A,15:50,Good,2m 1f 165y,C'Est Quelqu'un (FR),J. W. Kennedy,0,Gordon Elliott,2nd,5 1/2 l,6,11-5,92,True,67,50
+Downpatrick Racing Results | 13th July 2023 15:50,N/A,15:50,Good,2m 1f 165y,Thornleigh Frank (IRE),A. P. Kelly,5,Mark Fahey,1st,N/A,6,11-7,94,True,67,50

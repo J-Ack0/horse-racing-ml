@@ -1,0 +1,1331 @@
+track_name,race_date,race_time,going,distance,horse_name,jockey,claims,trainer,race_position,lost_by_length,age,weight,rating,first_place_found,batch_number,url_index_in_batch
+N/A,N/A,20:30,Standard,1m 4f,What About This (IRE),M. A. Enright,0,Miss Jennifer Anne Lynch,14th,1/2 l,3,9-3h,58,True,22,1
+N/A,N/A,20:30,Standard,1m 4f,Wrapitup (IRE),Seamie Heffernan,0,Denis W. Cullen,13th,2 l,4,8-13,47,True,22,1
+N/A,N/A,20:30,Standard,1m 4f,Katzoff (IRE),Amy Jo Hayes,7,J. Morrison,12th,3/4 l,5,8-13,47,True,22,1
+N/A,N/A,20:30,Standard,1m 4f,Dodie Baby (IRE),James J. Doyle,0,Donal Commins,11th,Head,3,8-7h1,48,True,22,1
+N/A,N/A,20:30,Standard,1m 4f,Spiritual Grey (IRE),Siobhan Rutledge,5,Harry Rogers,10th,2 1/2 l,4,9-0,48,True,22,1
+N/A,N/A,20:30,Standard,1m 4f,Pak Army (IRE),R. P. Cleary,0,Eoin Doyle,9th,1 1/2 l,7,9-10tb,58,True,22,1
+N/A,N/A,20:30,Standard,1m 4f,Lamprog (IRE),D. B. McMonagle,0,R. P. Cody,8th,Neck,3,9-10b,65,True,22,1
+N/A,N/A,20:30,Standard,1m 4f,Boing,C. J. MacRedmond,5,Paul Traynor,7th,3/4 l,7,8-13t,47,True,22,1
+N/A,N/A,20:30,Standard,1m 4f,Power Drive,L. T. McAteer,3,Paul W. Flynn,6th,1 l,7,10-2p,64,True,22,1
+N/A,N/A,20:30,Standard,1m 4f,Aleksey Tolstoy (IRE),Shane Foley,0,James McAuley,5th,1 3/4 l,4,9-4p,52,True,22,1
+N/A,N/A,20:30,Standard,1m 4f,Lily of the Glen (IRE),K. J. Leonard,0,L. Smyth,4th,2 3/4 l,4,9-5,53,True,22,1
+N/A,N/A,20:30,Standard,1m 4f,Cursory Exam,C. T. Keane,0,G. O'Leary,3rd,1/2 l,4,10-2,64,True,22,1
+N/A,N/A,20:30,Standard,1m 4f,Guild,C. D. Hayes,0,Luke Comer,2nd,2 l,7,10-2t,64,True,22,1
+N/A,N/A,20:30,Standard,1m 4f,Draco Pulchrac (IRE),Ben Martin Coen,0,A. J. Martin,1st,N/A,4,9-10t,58,True,22,1
+N/A,N/A,20:30,Standard,1m 4f,What About This (IRE),M. A. Enright,0,Miss Jennifer Anne Lynch,14th,1/2 l,3,9-3h,58,True,22,1
+N/A,N/A,20:30,Standard,1m 4f,Wrapitup (IRE),Seamie Heffernan,0,Denis W. Cullen,13th,2 l,4,8-13,47,True,22,1
+N/A,N/A,20:30,Standard,1m 4f,Katzoff (IRE),Amy Jo Hayes,7,J. Morrison,12th,3/4 l,5,8-13,47,True,22,1
+N/A,N/A,20:30,Standard,1m 4f,Dodie Baby (IRE),James J. Doyle,0,Donal Commins,11th,Head,3,8-7h1,48,True,22,1
+N/A,N/A,20:30,Standard,1m 4f,Spiritual Grey (IRE),Siobhan Rutledge,5,Harry Rogers,10th,2 1/2 l,4,9-0,48,True,22,1
+N/A,N/A,20:30,Standard,1m 4f,Pak Army (IRE),R. P. Cleary,0,Eoin Doyle,9th,1 1/2 l,7,9-10tb,58,True,22,1
+N/A,N/A,20:30,Standard,1m 4f,Lamprog (IRE),D. B. McMonagle,0,R. P. Cody,8th,Neck,3,9-10b,65,True,22,1
+N/A,N/A,20:30,Standard,1m 4f,Boing,C. J. MacRedmond,5,Paul Traynor,7th,3/4 l,7,8-13t,47,True,22,1
+N/A,N/A,20:30,Standard,1m 4f,Power Drive,L. T. McAteer,3,Paul W. Flynn,6th,1 l,7,10-2p,64,True,22,1
+N/A,N/A,20:30,Standard,1m 4f,Aleksey Tolstoy (IRE),Shane Foley,0,James McAuley,5th,1 3/4 l,4,9-4p,52,True,22,1
+N/A,N/A,20:30,Standard,1m 4f,Lily of the Glen (IRE),K. J. Leonard,0,L. Smyth,4th,2 3/4 l,4,9-5,53,True,22,1
+N/A,N/A,20:30,Standard,1m 4f,Cursory Exam,C. T. Keane,0,G. O'Leary,3rd,1/2 l,4,10-2,64,True,22,1
+N/A,N/A,20:30,Standard,1m 4f,Guild,C. D. Hayes,0,Luke Comer,2nd,2 l,7,10-2t,64,True,22,1
+N/A,N/A,20:30,Standard,1m 4f,Draco Pulchrac (IRE),Ben Martin Coen,0,A. J. Martin,1st,N/A,4,9-10t,58,True,22,1
+N/A,N/A,13:05,Soft (Yielding To Soft In Places),6f,Chica Linda (IRE),M. A. Enright,0,Eoin Doyle,10th,Neck,2,9-2,-,True,22,2
+N/A,N/A,13:05,Soft (Yielding To Soft In Places),6f,Broad Daylight (IRE),K. J. Manning,0,J. S. Bolger,9th,2 l,2,9-7t,-,True,22,2
+N/A,N/A,13:05,Soft (Yielding To Soft In Places),6f,Son Of Sampers (IRE),R. P. Whelan,0,M. Halford,8th,3 l,2,9-7,-,True,22,2
+N/A,N/A,13:05,Soft (Yielding To Soft In Places),6f,Lisieux (IRE),C. J. MacRedmond,5,Adrian McGuinness,7th,2 l,2,9-2,-,True,22,2
+N/A,N/A,13:05,Soft (Yielding To Soft In Places),6f,Torivega (IRE),R. C. Colgan,0,Ms Sheila Lavery,6th,3/4 l,2,9-7,-,True,22,2
+N/A,N/A,13:05,Soft (Yielding To Soft In Places),6f,New Image,C. T. Keane,0,G. M. Lyons,5th,Head,2,9-7,-,True,22,2
+N/A,N/A,13:05,Soft (Yielding To Soft In Places),6f,Hispanic (IRE),W. M. Lordan,0,Aidan O'Brien,4th,2 1/2 l,2,9-7,-,True,22,2
+N/A,N/A,13:05,Soft (Yielding To Soft In Places),6f,Desert Haven,C. D. Hayes,0,Noel Meade,3rd,1/2 l,2,9-7,-,True,22,2
+N/A,N/A,13:05,Soft (Yielding To Soft In Places),6f,Ardad's Great,Shane Foley,0,Mrs J. Harrington,2nd,4 3/4 l,2,9-2,-,True,22,2
+N/A,N/A,13:05,Soft (Yielding To Soft In Places),6f,Small Oasis,G. M. Ryan,0,M. C. Grassick,1st,N/A,2,9-2,-,True,22,2
+N/A,N/A,13:05,Soft (Yielding To Soft In Places),6f,Chica Linda (IRE),M. A. Enright,0,Eoin Doyle,10th,Neck,2,9-2,-,True,22,2
+N/A,N/A,13:05,Soft (Yielding To Soft In Places),6f,Broad Daylight (IRE),K. J. Manning,0,J. S. Bolger,9th,2 l,2,9-7t,-,True,22,2
+N/A,N/A,13:05,Soft (Yielding To Soft In Places),6f,Son Of Sampers (IRE),R. P. Whelan,0,M. Halford,8th,3 l,2,9-7,-,True,22,2
+N/A,N/A,13:05,Soft (Yielding To Soft In Places),6f,Lisieux (IRE),C. J. MacRedmond,5,Adrian McGuinness,7th,2 l,2,9-2,-,True,22,2
+N/A,N/A,13:05,Soft (Yielding To Soft In Places),6f,Torivega (IRE),R. C. Colgan,0,Ms Sheila Lavery,6th,3/4 l,2,9-7,-,True,22,2
+N/A,N/A,13:05,Soft (Yielding To Soft In Places),6f,New Image,C. T. Keane,0,G. M. Lyons,5th,Head,2,9-7,-,True,22,2
+N/A,N/A,13:05,Soft (Yielding To Soft In Places),6f,Hispanic (IRE),W. M. Lordan,0,Aidan O'Brien,4th,2 1/2 l,2,9-7,-,True,22,2
+N/A,N/A,13:05,Soft (Yielding To Soft In Places),6f,Desert Haven,C. D. Hayes,0,Noel Meade,3rd,1/2 l,2,9-7,-,True,22,2
+N/A,N/A,13:05,Soft (Yielding To Soft In Places),6f,Ardad's Great,Shane Foley,0,Mrs J. Harrington,2nd,4 3/4 l,2,9-2,-,True,22,2
+N/A,N/A,13:05,Soft (Yielding To Soft In Places),6f,Small Oasis,G. M. Ryan,0,M. C. Grassick,1st,N/A,2,9-2,-,True,22,2
+N/A,N/A,13:35,Yielding (Good To Yielding In Places),1m,Lakota Seven (IRE),Declan McDonogh,0,Joseph Patrick O'Brien,5th,2 1/2 l,2,9-5,-,True,22,3
+N/A,N/A,13:35,Yielding (Good To Yielding In Places),1m,Roaring Gallagher (FR),S. M. Crosse,0,Joseph Patrick O'Brien,4th,1 1/4 l,2,9-5,-,True,22,3
+N/A,N/A,13:35,Yielding (Good To Yielding In Places),1m,Young Ireland (IRE),K. J. Manning,0,J. S. Bolger,3rd,4 l,2,9-5t,-,True,22,3
+N/A,N/A,13:35,Yielding (Good To Yielding In Places),1m,Adelaide River (IRE),W. M. Lordan,0,Aidan O'Brien,2nd,2 1/4 l,2,9-5,-,True,22,3
+N/A,N/A,13:35,Yielding (Good To Yielding In Places),1m,Crypto Force,C. T. Keane,0,M. D. O'Callaghan,1st,N/A,2,9-5,-,True,22,3
+N/A,N/A,13:35,Yielding (Good To Yielding In Places),1m,Lakota Seven (IRE),Declan McDonogh,0,Joseph Patrick O'Brien,5th,2 1/2 l,2,9-5,-,True,22,3
+N/A,N/A,13:35,Yielding (Good To Yielding In Places),1m,Roaring Gallagher (FR),S. M. Crosse,0,Joseph Patrick O'Brien,4th,1 1/4 l,2,9-5,-,True,22,3
+N/A,N/A,13:35,Yielding (Good To Yielding In Places),1m,Young Ireland (IRE),K. J. Manning,0,J. S. Bolger,3rd,4 l,2,9-5t,-,True,22,3
+N/A,N/A,13:35,Yielding (Good To Yielding In Places),1m,Adelaide River (IRE),W. M. Lordan,0,Aidan O'Brien,2nd,2 1/4 l,2,9-5,-,True,22,3
+N/A,N/A,13:35,Yielding (Good To Yielding In Places),1m,Crypto Force,C. T. Keane,0,M. D. O'Callaghan,1st,N/A,2,9-5,-,True,22,3
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Donbass (IRE),L. T. McAteer,3,Paul W. Flynn,22nd,19 l,3,9-8,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Witch of the Wood (IRE),A. J. Slattery,0,J. A. Stack,21st,Short Head,3,9-3,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Fairy Love (IRE),G. M. Ryan,0,M. C. Grassick,20th,2 l,3,9-3,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Bright Moment (IRE),S. B. Kelly,0,J. J. Feane,19th,1 1/4 l,4,9-5,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Navarra Pace (IRE),S. M. Crosse,0,Edward Lynam,18th,Head,3,9-8,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,West Bay Duchess (IRE),N. M. Crosse,3,Kieran Patrick Cotter,17th,2 3/4 l,3,9-3,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Fanore (IRE),C. T. Keane,0,Mrs Denise Foster,16th,1/2 l,3,9-8h,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Rules of Atraction (IRE),J. Coen,5,P. J. F. Murphy,15th,1/2 l,3,9-3tp1,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Squeezebox (IRE),R. C. Colgan,0,J. J. Feane,14th,3/4 l,3,9-8,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Vocal Studies (IRE),K. J. Manning,0,J. S. Bolger,13th,1/2 l,3,9-8,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Redbud (IRE),W. M. Lordan,0,J. A. Stack,12th,Head,3,9-3,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Fascinating Secret (IRE),M. P. Sheehy,0,Aidan Anthony Howard,11th,Head,4,9-5,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Poetikel Piece,D. B. McMonagle,0,Kieran Patrick Cotter,10th,1 1/4 l,3,9-3,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Magical Vision (IRE),J. A. Powell,7,Aidan Anthony Howard,9th,3/4 l,5,9-5,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Lokada (FR),L. F. Roche,0,M. D. O'Callaghan,8th,Short Head,3,9-3,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Bobby Dassler (IRE),C. D. Hayes,0,Eddie & Patrick Harty,7th,Head,3,9-8,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Karakoul (IRE),Ben Martin Coen,0,John Patrick Murtagh,6th,2 l,3,9-8p1,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Lalechko,Declan McDonogh,0,Padraig Roche,5th,Neck,4,9-10,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Coolree (IRE),M. A. Enright,0,Miss Jennifer Anne Lynch,4th,2 l,3,9-8,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Mickey The Steel,James J. Doyle,0,Joseph Anthony Murray,3rd,2 1/4 l,4,9-10t,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Daisy Jones (USA),C. J. MacRedmond,5,Takashi Kodama,2nd,Nose,4,9-5,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Life In Colour,R. P. Cleary,0,W. McCreery,1st,N/A,3,9-3v1,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Donbass (IRE),L. T. McAteer,3,Paul W. Flynn,22nd,19 l,3,9-8,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Witch of the Wood (IRE),A. J. Slattery,0,J. A. Stack,21st,Short Head,3,9-3,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Fairy Love (IRE),G. M. Ryan,0,M. C. Grassick,20th,2 l,3,9-3,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Bright Moment (IRE),S. B. Kelly,0,J. J. Feane,19th,1 1/4 l,4,9-5,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Navarra Pace (IRE),S. M. Crosse,0,Edward Lynam,18th,Head,3,9-8,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,West Bay Duchess (IRE),N. M. Crosse,3,Kieran Patrick Cotter,17th,2 3/4 l,3,9-3,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Fanore (IRE),C. T. Keane,0,Mrs Denise Foster,16th,1/2 l,3,9-8h,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Rules of Atraction (IRE),J. Coen,5,P. J. F. Murphy,15th,1/2 l,3,9-3tp1,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Squeezebox (IRE),R. C. Colgan,0,J. J. Feane,14th,3/4 l,3,9-8,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Vocal Studies (IRE),K. J. Manning,0,J. S. Bolger,13th,1/2 l,3,9-8,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Redbud (IRE),W. M. Lordan,0,J. A. Stack,12th,Head,3,9-3,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Fascinating Secret (IRE),M. P. Sheehy,0,Aidan Anthony Howard,11th,Head,4,9-5,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Poetikel Piece,D. B. McMonagle,0,Kieran Patrick Cotter,10th,1 1/4 l,3,9-3,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Magical Vision (IRE),J. A. Powell,7,Aidan Anthony Howard,9th,3/4 l,5,9-5,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Lokada (FR),L. F. Roche,0,M. D. O'Callaghan,8th,Short Head,3,9-3,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Bobby Dassler (IRE),C. D. Hayes,0,Eddie & Patrick Harty,7th,Head,3,9-8,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Karakoul (IRE),Ben Martin Coen,0,John Patrick Murtagh,6th,2 l,3,9-8p1,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Lalechko,Declan McDonogh,0,Padraig Roche,5th,Neck,4,9-10,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Coolree (IRE),M. A. Enright,0,Miss Jennifer Anne Lynch,4th,2 l,3,9-8,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Mickey The Steel,James J. Doyle,0,Joseph Anthony Murray,3rd,2 1/4 l,4,9-10t,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Daisy Jones (USA),C. J. MacRedmond,5,Takashi Kodama,2nd,Nose,4,9-5,-,True,22,4
+N/A,N/A,14:10,Soft (Yielding To Soft In Places),6f,Life In Colour,R. P. Cleary,0,W. McCreery,1st,N/A,3,9-3v1,-,True,22,4
+N/A,N/A,14:45,Soft (Yielding To Soft In Places),6f,Mucky Mulconry (IRE),C. T. Keane,0,G. M. Lyons,7th,1 1/4 l,2,8-13,57,True,22,5
+N/A,N/A,14:45,Soft (Yielding To Soft In Places),6f,Giselles Romance (IRE),G. F. Carroll,0,Gavin Patrick Cromwell,6th,3/4 l,2,9-7h,65,True,22,5
+N/A,N/A,14:45,Soft (Yielding To Soft In Places),6f,Sam's Xpress (IRE),N. M. Crosse,3,Kieran Patrick Cotter,5th,4 1/2 l,2,8-9t,53,True,22,5
+N/A,N/A,14:45,Soft (Yielding To Soft In Places),6f,Distillate,Adam Caffrey,7,Adrian McGuinness,4th,Head,2,9-12,70,True,22,5
+N/A,N/A,14:45,Soft (Yielding To Soft In Places),6f,Tic Tac Toe (IRE),K. J. Manning,0,Darren Bunyan,3rd,5 1/2 l,2,9-7,65,True,22,5
+N/A,N/A,14:45,Soft (Yielding To Soft In Places),6f,Biggerthanbigtime (IRE),L. F. Roche,0,Padraig Roche,2nd,3/4 l,2,9-12h1,70,True,22,5
+N/A,N/A,14:45,Soft (Yielding To Soft In Places),6f,Mile End,Ben Martin Coen,0,John Patrick Murtagh,1st,N/A,2,9-4b1,62,True,22,5
+N/A,N/A,14:45,Soft (Yielding To Soft In Places),6f,Mucky Mulconry (IRE),C. T. Keane,0,G. M. Lyons,7th,1 1/4 l,2,8-13,57,True,22,5
+N/A,N/A,14:45,Soft (Yielding To Soft In Places),6f,Giselles Romance (IRE),G. F. Carroll,0,Gavin Patrick Cromwell,6th,3/4 l,2,9-7h,65,True,22,5
+N/A,N/A,14:45,Soft (Yielding To Soft In Places),6f,Sam's Xpress (IRE),N. M. Crosse,3,Kieran Patrick Cotter,5th,4 1/2 l,2,8-9t,53,True,22,5
+N/A,N/A,14:45,Soft (Yielding To Soft In Places),6f,Distillate,Adam Caffrey,7,Adrian McGuinness,4th,Head,2,9-12,70,True,22,5
+N/A,N/A,14:45,Soft (Yielding To Soft In Places),6f,Tic Tac Toe (IRE),K. J. Manning,0,Darren Bunyan,3rd,5 1/2 l,2,9-7,65,True,22,5
+N/A,N/A,14:45,Soft (Yielding To Soft In Places),6f,Biggerthanbigtime (IRE),L. F. Roche,0,Padraig Roche,2nd,3/4 l,2,9-12h1,70,True,22,5
+N/A,N/A,14:45,Soft (Yielding To Soft In Places),6f,Mile End,Ben Martin Coen,0,John Patrick Murtagh,1st,N/A,2,9-4b1,62,True,22,5
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,Expressova (IRE),R. C. Colgan,0,Ms Sheila Lavery,19th,14 l,2,9-0v1,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,He's A Monster (IRE),Hollie Doyle,0,Archie Watson,18th,Nose,2,9-5,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,Queen of Ours (IRE),N. M. Crosse,0,W. McCreery,17th,1/2 l,2,9-0,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,Creatively (IRE),G. F. Carroll,0,Ralph Beckett,16th,1 3/4 l,2,9-0,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,Frequent Flyer (IRE),G. P. Halpin,0,Andrew Balding,15th,2 1/2 l,2,9-5,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,Lashes (IRE),N. G. McCullagh,0,M. Halford,14th,1 1/4 l,2,9-0b1,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,Zoinnocent (IRE),D. B. McMonagle,0,Joseph Patrick O'Brien,13th,1 3/4 l,2,9-0,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,The Franchise (IRE),Declan McDonogh,0,Joseph Patrick O'Brien,12th,1 1/4 l,2,9-5,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,Hiawatha (IRE),W. M. Lordan,0,Aidan O'Brien,11th,2 1/2 l,2,9-5,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,Oviedo (IRE),Kevin Stott,0,Edward Bethell,10th,Nose,2,9-5,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,Gifted Angel (IRE),M. A. Enright,0,Tom Dascombe,9th,1 l,2,9-5p,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,Bossy Parker (IRE),Ben Martin Coen,0,John Patrick Murtagh,8th,Short Head,2,9-5,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,Killybegs Warrior (IRE),R. P. Whelan,0,Charlie & Mark Johnston,7th,Head,2,9-5,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,Wahaaj (IRE),Louis Steward,0,Patrick Owens,6th,1 1/4 l,2,9-5,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,New Endeavour (IRE),J. Mitchell,0,Roger Varian,5th,2 l,2,9-5,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,Magical Sunset (IRE),C. D. Hayes,0,Richard Hannon,4th,2 l,2,9-0,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,Ramazan (IRE),Oisin James Orr,0,Richard Fahey,3rd,1/2 l,2,9-5,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,Hellsing (IRE),C. T. Keane,0,G. M. Lyons,2nd,1/2 l,2,9-5,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,Galeron (IRE),Shane Foley,0,Charles Hills,1st,N/A,2,9-5,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,Expressova (IRE),R. C. Colgan,0,Ms Sheila Lavery,19th,14 l,2,9-0v1,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,He's A Monster (IRE),Hollie Doyle,0,Archie Watson,18th,Nose,2,9-5,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,Queen of Ours (IRE),N. M. Crosse,0,W. McCreery,17th,1/2 l,2,9-0,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,Creatively (IRE),G. F. Carroll,0,Ralph Beckett,16th,1 3/4 l,2,9-0,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,Frequent Flyer (IRE),G. P. Halpin,0,Andrew Balding,15th,2 1/2 l,2,9-5,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,Lashes (IRE),N. G. McCullagh,0,M. Halford,14th,1 1/4 l,2,9-0b1,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,Zoinnocent (IRE),D. B. McMonagle,0,Joseph Patrick O'Brien,13th,1 3/4 l,2,9-0,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,The Franchise (IRE),Declan McDonogh,0,Joseph Patrick O'Brien,12th,1 1/4 l,2,9-5,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,Hiawatha (IRE),W. M. Lordan,0,Aidan O'Brien,11th,2 1/2 l,2,9-5,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,Oviedo (IRE),Kevin Stott,0,Edward Bethell,10th,Nose,2,9-5,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,Gifted Angel (IRE),M. A. Enright,0,Tom Dascombe,9th,1 l,2,9-5p,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,Bossy Parker (IRE),Ben Martin Coen,0,John Patrick Murtagh,8th,Short Head,2,9-5,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,Killybegs Warrior (IRE),R. P. Whelan,0,Charlie & Mark Johnston,7th,Head,2,9-5,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,Wahaaj (IRE),Louis Steward,0,Patrick Owens,6th,1 1/4 l,2,9-5,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,New Endeavour (IRE),J. Mitchell,0,Roger Varian,5th,2 l,2,9-5,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,Magical Sunset (IRE),C. D. Hayes,0,Richard Hannon,4th,2 l,2,9-0,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,Ramazan (IRE),Oisin James Orr,0,Richard Fahey,3rd,1/2 l,2,9-5,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,Hellsing (IRE),C. T. Keane,0,G. M. Lyons,2nd,1/2 l,2,9-5,-,True,22,6
+N/A,N/A,15:20,Soft (Yielding To Soft In Places),7f,Galeron (IRE),Shane Foley,0,Charles Hills,1st,N/A,2,9-5,-,True,22,6
+N/A,N/A,15:55,Soft (Yielding To Soft In Places),5f,Pretty Boy Floyd (IRE),D. B. McMonagle,0,Mrs Sarah Dawson,16th,3/4 l,7,8-13v,80,True,22,7
+N/A,N/A,15:55,Soft (Yielding To Soft In Places),5f,Master Matt,S. M. Crosse,0,Matthew J. Smith,15th,2 1/4 l,6,9-11tb,92,True,22,7
+N/A,N/A,15:55,Soft (Yielding To Soft In Places),5f,Iva Batt (IRE),W. M. Lordan,0,Joseph G. Murphy,14th,1 1/4 l,4,8-8p,75,True,22,7
+N/A,N/A,15:55,Soft (Yielding To Soft In Places),5f,Only Spoofing (IRE),J. M. Sheridan,3,Kevin Thomas Coleman,13th,3/4 l,8,9-9,90,True,22,7
+N/A,N/A,15:55,Soft (Yielding To Soft In Places),5f,Chocquinto (IRE),A. J. Slattery,0,Miss Hilary McLoughlin,12th,Neck,5,9-7,88,True,22,7
+N/A,N/A,15:55,Soft (Yielding To Soft In Places),5f,Shelly Banks (IRE),L. F. Roche,0,Eamonn O'Connell,11th,Short Head,4,9-0t,81,True,22,7
+N/A,N/A,15:55,Soft (Yielding To Soft In Places),5f,Thunder Eclipse (IRE),M. A. Enright,0,J. A. Stack,10th,Neck,3,9-10p,92,True,22,7
+N/A,N/A,15:55,Soft (Yielding To Soft In Places),5f,Screen Siren (IRE),M. P. Sheehy,0,Sarah Lynam,9th,Head,4,8-7p,74,True,22,7
+N/A,N/A,15:55,Soft (Yielding To Soft In Places),5f,Livingston Range (IRE),D. E. Sheehy,3,Leanne Breen,8th,1 l,4,8-7tp1,74,True,22,7
+N/A,N/A,15:55,Soft (Yielding To Soft In Places),5f,Shabaaby,C. D. Hayes,0,J. F. Levins,7th,1/2 l,7,8-7b,74,True,22,7
+N/A,N/A,15:55,Soft (Yielding To Soft In Places),5f,Strong Johnson (IRE),C. T. Keane,0,Denis W. Cullen,6th,Short Head,6,9-12t,93,True,22,7
+N/A,N/A,15:55,Soft (Yielding To Soft In Places),5f,Urban Beat (IRE),Ben Martin Coen,0,John Patrick Murtagh,5th,Short Head,7,10-0v,95,True,22,7
+N/A,N/A,15:55,Soft (Yielding To Soft In Places),5f,Dream Today (IRE),C. J. MacRedmond,5,Adrian McGuinness,4th,Head,7,9-7tp,88,True,22,7
+N/A,N/A,15:55,Soft (Yielding To Soft In Places),5f,Laugh A Minute,R. P. Whelan,0,Adrian McGuinness,3rd,1 1/4 l,7,9-11,92,True,22,7
+N/A,N/A,15:55,Soft (Yielding To Soft In Places),5f,Curraheen Princess (IRE),James J. Doyle,0,N. Stokes,2nd,1 1/4 l,4,9-3,84,True,22,7
+N/A,N/A,15:55,Soft (Yielding To Soft In Places),5f,Gordon Bennett (IRE),G. F. Carroll,0,Richard Brabazon,1st,N/A,4,9-9,90,True,22,7
+N/A,N/A,15:55,Soft (Yielding To Soft In Places),5f,Pretty Boy Floyd (IRE),D. B. McMonagle,0,Mrs Sarah Dawson,16th,3/4 l,7,8-13v,80,True,22,7
+N/A,N/A,15:55,Soft (Yielding To Soft In Places),5f,Master Matt,S. M. Crosse,0,Matthew J. Smith,15th,2 1/4 l,6,9-11tb,92,True,22,7
+N/A,N/A,15:55,Soft (Yielding To Soft In Places),5f,Iva Batt (IRE),W. M. Lordan,0,Joseph G. Murphy,14th,1 1/4 l,4,8-8p,75,True,22,7
+N/A,N/A,15:55,Soft (Yielding To Soft In Places),5f,Only Spoofing (IRE),J. M. Sheridan,3,Kevin Thomas Coleman,13th,3/4 l,8,9-9,90,True,22,7
+N/A,N/A,15:55,Soft (Yielding To Soft In Places),5f,Chocquinto (IRE),A. J. Slattery,0,Miss Hilary McLoughlin,12th,Neck,5,9-7,88,True,22,7
+N/A,N/A,15:55,Soft (Yielding To Soft In Places),5f,Shelly Banks (IRE),L. F. Roche,0,Eamonn O'Connell,11th,Short Head,4,9-0t,81,True,22,7
+N/A,N/A,15:55,Soft (Yielding To Soft In Places),5f,Thunder Eclipse (IRE),M. A. Enright,0,J. A. Stack,10th,Neck,3,9-10p,92,True,22,7
+N/A,N/A,15:55,Soft (Yielding To Soft In Places),5f,Screen Siren (IRE),M. P. Sheehy,0,Sarah Lynam,9th,Head,4,8-7p,74,True,22,7
+N/A,N/A,15:55,Soft (Yielding To Soft In Places),5f,Livingston Range (IRE),D. E. Sheehy,3,Leanne Breen,8th,1 l,4,8-7tp1,74,True,22,7
+N/A,N/A,15:55,Soft (Yielding To Soft In Places),5f,Shabaaby,C. D. Hayes,0,J. F. Levins,7th,1/2 l,7,8-7b,74,True,22,7
+N/A,N/A,15:55,Soft (Yielding To Soft In Places),5f,Strong Johnson (IRE),C. T. Keane,0,Denis W. Cullen,6th,Short Head,6,9-12t,93,True,22,7
+N/A,N/A,15:55,Soft (Yielding To Soft In Places),5f,Urban Beat (IRE),Ben Martin Coen,0,John Patrick Murtagh,5th,Short Head,7,10-0v,95,True,22,7
+N/A,N/A,15:55,Soft (Yielding To Soft In Places),5f,Dream Today (IRE),C. J. MacRedmond,5,Adrian McGuinness,4th,Head,7,9-7tp,88,True,22,7
+N/A,N/A,15:55,Soft (Yielding To Soft In Places),5f,Laugh A Minute,R. P. Whelan,0,Adrian McGuinness,3rd,1 1/4 l,7,9-11,92,True,22,7
+N/A,N/A,15:55,Soft (Yielding To Soft In Places),5f,Curraheen Princess (IRE),James J. Doyle,0,N. Stokes,2nd,1 1/4 l,4,9-3,84,True,22,7
+N/A,N/A,15:55,Soft (Yielding To Soft In Places),5f,Gordon Bennett (IRE),G. F. Carroll,0,Richard Brabazon,1st,N/A,4,9-9,90,True,22,7
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Galactic Grey (IRE),H. J. Horgan,2,C. P. Donoghue,NR,N/A,5,9-5t1,59,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Glamourista (IRE),K. T. Brophy,7,J. S. Bolger,23rd,1 1/4 l,3,9-6,64,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Supreme Law (USA),Neve Bennett,2,Sabrina J. Harty,22nd,16 l,3,8-13p1,57,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Numoor,Cillian McConnell,2,John McConnell,21st,4 3/4 l,4,9-13t,67,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Pessoa,S. D. Bowen,2,John Joseph Murphy,20th,1/2 l,3,8-10,54,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Casino Queen (USA),D. N. Curran,2,Eddie & Patrick Harty,19th,1 3/4 l,3,9-5,63,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Dazzling Spirit (IRE),J. A. Powell,0,Thomas Mullins,18th,2 l,4,9-1,55,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Satono Chevalier (IRE),P. A. Harnett,0,Richard John O'Brien,17th,2 1/2 l,4,9-7,61,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Lovesome Dove (IRE),C. Horgan,2,Peter Lawlor,16th,1 l,3,9-4h1,62,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Susies Sapphire (IRE),S. P. Bird,4,J. J. Feane,15th,Nose,3,9-1,59,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Munfallet (IRE),C. Stone-Walsh,7,D. P. Coakley,14th,3 1/2 l,11,9-5,59,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Morning Approach (IRE),Jessica Maye,4,W. McCreery,13th,3/4 l,4,10-1,69,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Ribtide,O. Enright,4,Kieran Patrick Cotter,12th,3/4 l,3,9-2,60,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Magic Charm (IRE),M. W. Hassett,7,Miss Natalia Lupini,11th,2 1/2 l,6,9-1,55,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Mads Black Eights (IRE),R. Whearty,2,Matthew J. Smith,10th,Nose,6,9-9,63,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Men Of Dreams (IRE),J. Kearney,2,J. F. Levins,9th,Short Head,4,9-6,60,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Miss Cunning (IRE),Jessica O'Gorman,4,Aengus King,8th,2 l,5,9-1v,55,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Satin Snake,D. J. Gilligan,2,G. O'Leary,7th,Head,3,9-7b,65,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,No Patience (IRE),Kyanna Van Buuren,4,John McConnell,6th,1/2 l,4,10-0,68,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Notforalongtime,J. J. G. Ryan,2,Laura Hourigan,5th,1/2 l,5,9-9,63,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Knocknakilla (IRE),D. King,2,G. O'Leary,4th,1/2 l,4,10-0p,68,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Trueba (IRE),Michael Beresford,7,John Patrick Murtagh,3rd,Neck,6,9-13p,67,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Star of Cashel (IRE),Adam Caffrey,2,Adrian McGuinness,2nd,1 1/4 l,5,9-13p,67,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,French Rescue (IRE),Tom Kiely Marshall,2,John Geoghegan,1st,N/A,3,9-0t,58,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Galactic Grey (IRE),H. J. Horgan,2,C. P. Donoghue,NR,N/A,5,9-5t1,59,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Glamourista (IRE),K. T. Brophy,7,J. S. Bolger,23rd,1 1/4 l,3,9-6,64,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Supreme Law (USA),Neve Bennett,2,Sabrina J. Harty,22nd,16 l,3,8-13p1,57,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Numoor,Cillian McConnell,2,John McConnell,21st,4 3/4 l,4,9-13t,67,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Pessoa,S. D. Bowen,2,John Joseph Murphy,20th,1/2 l,3,8-10,54,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Casino Queen (USA),D. N. Curran,2,Eddie & Patrick Harty,19th,1 3/4 l,3,9-5,63,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Dazzling Spirit (IRE),J. A. Powell,0,Thomas Mullins,18th,2 l,4,9-1,55,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Satono Chevalier (IRE),P. A. Harnett,0,Richard John O'Brien,17th,2 1/2 l,4,9-7,61,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Lovesome Dove (IRE),C. Horgan,2,Peter Lawlor,16th,1 l,3,9-4h1,62,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Susies Sapphire (IRE),S. P. Bird,4,J. J. Feane,15th,Nose,3,9-1,59,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Munfallet (IRE),C. Stone-Walsh,7,D. P. Coakley,14th,3 1/2 l,11,9-5,59,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Morning Approach (IRE),Jessica Maye,4,W. McCreery,13th,3/4 l,4,10-1,69,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Ribtide,O. Enright,4,Kieran Patrick Cotter,12th,3/4 l,3,9-2,60,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Magic Charm (IRE),M. W. Hassett,7,Miss Natalia Lupini,11th,2 1/2 l,6,9-1,55,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Mads Black Eights (IRE),R. Whearty,2,Matthew J. Smith,10th,Nose,6,9-9,63,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Men Of Dreams (IRE),J. Kearney,2,J. F. Levins,9th,Short Head,4,9-6,60,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Miss Cunning (IRE),Jessica O'Gorman,4,Aengus King,8th,2 l,5,9-1v,55,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Satin Snake,D. J. Gilligan,2,G. O'Leary,7th,Head,3,9-7b,65,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,No Patience (IRE),Kyanna Van Buuren,4,John McConnell,6th,1/2 l,4,10-0,68,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Notforalongtime,J. J. G. Ryan,2,Laura Hourigan,5th,1/2 l,5,9-9,63,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Knocknakilla (IRE),D. King,2,G. O'Leary,4th,1/2 l,4,10-0p,68,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Trueba (IRE),Michael Beresford,7,John Patrick Murtagh,3rd,Neck,6,9-13p,67,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,Star of Cashel (IRE),Adam Caffrey,2,Adrian McGuinness,2nd,1 1/4 l,5,9-13p,67,True,22,8
+N/A,N/A,16:30,Soft (Yielding To Soft In Places),1m,French Rescue (IRE),Tom Kiely Marshall,2,John Geoghegan,1st,N/A,3,9-0t,58,True,22,8
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Patsy Fagan (IRE),G. P. Halpin,0,Peter Cluskey,22nd,3 l,4,9-5t1,78,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Missing Matron (IRE),K. J. Manning,0,J. S. Bolger,21st,1 1/4 l,3,8-12,74,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Ezine,C. D. Hayes,0,D. K. Weld,20th,4 3/4 l,3,9-5,81,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,J J Jumbo (SWE),R. Whearty,7,Darren Bunyan,19th,5 l,3,9-13b,89,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Iva Feeling,R. C. Colgan,0,Shane Crawley,18th,2 l,5,9-0t,73,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Whatharm (IRE),C. P. Hoban,0,Patrick J. Flynn,17th,1/2 l,7,9-7,80,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Carlton Banks (IRE),C. T. Keane,0,J. F. Levins,16th,Head,4,8-13,72,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Navagio (IRE),Ben Martin Coen,0,John Patrick Murtagh,15th,3/4 l,3,9-3h,79,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Adelaise (IRE),S. M. Crosse,0,Joseph Patrick O'Brien,14th,1/2 l,3,9-9,85,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Shawaamekh,D. W. O'Connor,0,J. F. Levins,13th,Short Head,8,9-8t,81,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Yermanthere (IRE),L. T. McAteer,3,Patrick T. Foley,12th,Head,4,10-0,87,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Ampeson,K. J. Leonard,0,P. J. McKenna,11th,1/2 l,5,9-7p,80,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Heavenly Power (IRE),Declan McDonogh,0,Edward Lynam,10th,1 3/4 l,4,8-11,70,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Dairerin (IRE),Shane Foley,0,Mrs J. Harrington,9th,1/2 l,3,9-8p,84,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,San Aer (IRE),N. M. Crosse,3,Thomas Mullins,8th,Neck,4,9-2h,75,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Cosmic Vega (IRE),R. P. Whelan,0,M. Halford,7th,Short Head,4,9-8,81,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Is That Love (IRE),C. J. MacRedmond,5,Adrian McGuinness,6th,Head,5,9-6,79,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Mary Salome (IRE),J. Coen,5,Andrew Kinirons,5th,3/4 l,6,9-10,83,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Pale Iris (IRE),G. F. Carroll,0,Joseph G. Murphy,4th,Head,4,9-11p,84,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Secret Magician (IRE),R. P. Cleary,0,Martin Hassett,3rd,Neck,3,9-0,76,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Dunum (IRE),W. M. Lordan,0,Miss Natalia Lupini,2nd,1 1/4 l,4,9-8,81,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Half Nutz (IRE),J. A. Powell,7,John Patrick Murtagh,1st,N/A,5,9-3,76,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Patsy Fagan (IRE),G. P. Halpin,0,Peter Cluskey,22nd,3 l,4,9-5t1,78,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Missing Matron (IRE),K. J. Manning,0,J. S. Bolger,21st,1 1/4 l,3,8-12,74,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Ezine,C. D. Hayes,0,D. K. Weld,20th,4 3/4 l,3,9-5,81,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,J J Jumbo (SWE),R. Whearty,7,Darren Bunyan,19th,5 l,3,9-13b,89,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Iva Feeling,R. C. Colgan,0,Shane Crawley,18th,2 l,5,9-0t,73,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Whatharm (IRE),C. P. Hoban,0,Patrick J. Flynn,17th,1/2 l,7,9-7,80,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Carlton Banks (IRE),C. T. Keane,0,J. F. Levins,16th,Head,4,8-13,72,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Navagio (IRE),Ben Martin Coen,0,John Patrick Murtagh,15th,3/4 l,3,9-3h,79,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Adelaise (IRE),S. M. Crosse,0,Joseph Patrick O'Brien,14th,1/2 l,3,9-9,85,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Shawaamekh,D. W. O'Connor,0,J. F. Levins,13th,Short Head,8,9-8t,81,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Yermanthere (IRE),L. T. McAteer,3,Patrick T. Foley,12th,Head,4,10-0,87,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Ampeson,K. J. Leonard,0,P. J. McKenna,11th,1/2 l,5,9-7p,80,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Heavenly Power (IRE),Declan McDonogh,0,Edward Lynam,10th,1 3/4 l,4,8-11,70,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Dairerin (IRE),Shane Foley,0,Mrs J. Harrington,9th,1/2 l,3,9-8p,84,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,San Aer (IRE),N. M. Crosse,3,Thomas Mullins,8th,Neck,4,9-2h,75,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Cosmic Vega (IRE),R. P. Whelan,0,M. Halford,7th,Short Head,4,9-8,81,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Is That Love (IRE),C. J. MacRedmond,5,Adrian McGuinness,6th,Head,5,9-6,79,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Mary Salome (IRE),J. Coen,5,Andrew Kinirons,5th,3/4 l,6,9-10,83,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Pale Iris (IRE),G. F. Carroll,0,Joseph G. Murphy,4th,Head,4,9-11p,84,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Secret Magician (IRE),R. P. Cleary,0,Martin Hassett,3rd,Neck,3,9-0,76,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Dunum (IRE),W. M. Lordan,0,Miss Natalia Lupini,2nd,1 1/4 l,4,9-8,81,True,22,9
+N/A,N/A,17:05,Soft (Yielding To Soft In Places),7f,Half Nutz (IRE),J. A. Powell,7,John Patrick Murtagh,1st,N/A,5,9-3,76,True,22,9
+N/A,N/A,13:20,Yielding,2m,Art of Silence (IRE),R. A. Doyle,0,Gerard Keane,UR,N/A,4,11-7,-,True,22,10
+N/A,N/A,13:20,Yielding,2m,Erin's Storm (IRE),Mr S. Cavanagh,7,John J. Walsh,16th,6 l,4,11-7,-,True,22,10
+N/A,N/A,13:20,Yielding,2m,Zahina (IRE),C. Brassil,5,J. P. Broderick,15th,46 l,4,11-0,-,True,22,10
+N/A,N/A,13:20,Yielding,2m,Mid Life Crisis (IRE),S. D. Torrens,0,Michael Winters,14th,2 l,4,11-7,-,True,22,10
+N/A,N/A,13:20,Yielding,2m,Storm Mahler (IRE),C. P. McNamara,0,Eric McNamara,13th,15 l,4,11-7,-,True,22,10
+N/A,N/A,13:20,Yielding,2m,Prayer Moon (FR),Patrick O'Hanlon,5,P. J. Rothwell,12th,7 1/2 l,4,11-7b1,-,True,22,10
+N/A,N/A,13:20,Yielding,2m,Ace Aussie (IRE),Jordan Colin Gainford,0,John Joseph Hanlon,11th,15 l,4,11-7t,-,True,22,10
+N/A,N/A,13:20,Yielding,2m,Cloudy Fountain (IRE),Sean Flanagan,0,W. J. Burke,10th,Head,4,11-0,-,True,22,10
+N/A,N/A,13:20,Yielding,2m,Superior Risk (IRE),P. Byrnes,7,Charles Byrnes,9th,1 l,4,11-7,-,True,22,10
+N/A,N/A,13:20,Yielding,2m,Putemunderpressure (IRE),M. P. Walsh,0,Enda Bolger,8th,1/2 l,4,11-7,-,True,22,10
+N/A,N/A,13:20,Yielding,2m,Forge Road (IRE),G. B. Noonan,7,Eoin Christopher McCarthy,7th,2 1/4 l,4,11-0,-,True,22,10
+N/A,N/A,13:20,Yielding,2m,How Decc (IRE),Mr E. Dwan,7,E. Seymour,6th,Short Head,4,11-7,-,True,22,10
+N/A,N/A,13:20,Yielding,2m,Deep Pockets (FR),Richard Deegan,0,Eoin Christopher McCarthy,17th,7 1/2 l,4,11-7,-,True,22,10
+N/A,N/A,13:20,Yielding,2m,Ferrybridge (IRE),D. E. Mullins,0,M. Hourigan,5th,7 l,4,11-7,-,True,22,10
+N/A,N/A,13:20,Yielding,2m,Laser Focus (IRE),D. J. O'Keeffe,0,Henry de Bromhead,4th,3 1/4 l,4,11-7t,-,True,22,10
+N/A,N/A,13:20,Yielding,2m,Boyzohboyz (IRE),Keith Donoghue,0,Gavin Patrick Cromwell,3rd,3 l,4,11-7,-,True,22,10
+N/A,N/A,13:20,Yielding,2m,Rock On Pedro (IRE),Donagh Meyler,0,Eoin Doyle,2nd,8 l,4,11-7,-,True,22,10
+N/A,N/A,13:20,Yielding,2m,Rumi,Rachael Blackmore,0,E. J. O'Grady,1st,N/A,4,11-7h1,-,True,22,10
+N/A,N/A,13:20,Yielding,2m,Art of Silence (IRE),R. A. Doyle,0,Gerard Keane,UR,N/A,4,11-7,-,True,22,10
+N/A,N/A,13:20,Yielding,2m,Erin's Storm (IRE),Mr S. Cavanagh,7,John J. Walsh,16th,6 l,4,11-7,-,True,22,10
+N/A,N/A,13:20,Yielding,2m,Zahina (IRE),C. Brassil,5,J. P. Broderick,15th,46 l,4,11-0,-,True,22,10
+N/A,N/A,13:20,Yielding,2m,Mid Life Crisis (IRE),S. D. Torrens,0,Michael Winters,14th,2 l,4,11-7,-,True,22,10
+N/A,N/A,13:20,Yielding,2m,Storm Mahler (IRE),C. P. McNamara,0,Eric McNamara,13th,15 l,4,11-7,-,True,22,10
+N/A,N/A,13:20,Yielding,2m,Prayer Moon (FR),Patrick O'Hanlon,5,P. J. Rothwell,12th,7 1/2 l,4,11-7b1,-,True,22,10
+N/A,N/A,13:20,Yielding,2m,Ace Aussie (IRE),Jordan Colin Gainford,0,John Joseph Hanlon,11th,15 l,4,11-7t,-,True,22,10
+N/A,N/A,13:20,Yielding,2m,Cloudy Fountain (IRE),Sean Flanagan,0,W. J. Burke,10th,Head,4,11-0,-,True,22,10
+N/A,N/A,13:20,Yielding,2m,Superior Risk (IRE),P. Byrnes,7,Charles Byrnes,9th,1 l,4,11-7,-,True,22,10
+N/A,N/A,13:20,Yielding,2m,Putemunderpressure (IRE),M. P. Walsh,0,Enda Bolger,8th,1/2 l,4,11-7,-,True,22,10
+N/A,N/A,13:20,Yielding,2m,Forge Road (IRE),G. B. Noonan,7,Eoin Christopher McCarthy,7th,2 1/4 l,4,11-0,-,True,22,10
+N/A,N/A,13:20,Yielding,2m,How Decc (IRE),Mr E. Dwan,7,E. Seymour,6th,Short Head,4,11-7,-,True,22,10
+N/A,N/A,13:20,Yielding,2m,Deep Pockets (FR),Richard Deegan,0,Eoin Christopher McCarthy,17th,7 1/2 l,4,11-7,-,True,22,10
+N/A,N/A,13:20,Yielding,2m,Ferrybridge (IRE),D. E. Mullins,0,M. Hourigan,5th,7 l,4,11-7,-,True,22,10
+N/A,N/A,13:20,Yielding,2m,Laser Focus (IRE),D. J. O'Keeffe,0,Henry de Bromhead,4th,3 1/4 l,4,11-7t,-,True,22,10
+N/A,N/A,13:20,Yielding,2m,Boyzohboyz (IRE),Keith Donoghue,0,Gavin Patrick Cromwell,3rd,3 l,4,11-7,-,True,22,10
+N/A,N/A,13:20,Yielding,2m,Rock On Pedro (IRE),Donagh Meyler,0,Eoin Doyle,2nd,8 l,4,11-7,-,True,22,10
+N/A,N/A,13:20,Yielding,2m,Rumi,Rachael Blackmore,0,E. J. O'Grady,1st,N/A,4,11-7h1,-,True,22,10
+N/A,N/A,13:55,Yielding,2m 4f,Senecia (IRE),I. J. Power,0,Vincent Laurence Halley,F,N/A,5,11-5,-,True,22,11
+N/A,N/A,13:55,Yielding,2m 4f,Ella Rose (IRE),Richard Deegan,0,Eoin Christopher McCarthy,10th,2 1/2 l,5,10-7,-,True,22,11
+N/A,N/A,13:55,Yielding,2m 4f,As Na Scamaill (IRE),T. Joseph Kelly,0,Leonard Paul Flynn,9th,Nose,6,11-0t1,-,True,22,11
+N/A,N/A,13:55,Yielding,2m 4f,Smallcraftwarning (IRE),J. J. Slevin,0,Miss Evanna McCutcheon,8th,67 l,5,11-0t,-,True,22,11
+N/A,N/A,13:55,Yielding,2m 4f,Suain Na Draoicht (IRE),P. Byrnes,7,Charles Byrnes,7th,22 l,5,11-0,-,True,22,11
+N/A,N/A,13:55,Yielding,2m 4f,Benny The Duke (IRE),Donagh Meyler,0,R. P. Cody,6th,1 3/4 l,5,11-5,-,True,22,11
+N/A,N/A,13:55,Yielding,2m 4f,Starzov (IRE),Jack Foley,3,P. J. Rothwell,5th,1 3/4 l,5,11-5,-,True,22,11
+N/A,N/A,13:55,Yielding,2m 4f,Typical Thomas (IRE),A. P. Kelly,7,James Andrew Fahey,4th,4 1/2 l,5,11-5,-,True,22,11
+N/A,N/A,13:55,Yielding,2m 4f,Lieutenant Highway (IRE),K. E. Buckley,5,Gordon Elliott,3rd,5 1/2 l,5,11-10p,-,True,22,11
+N/A,N/A,13:55,Yielding,2m 4f,Nos Na Gaoithe (IRE),D. E. Mullins,0,W. P. Mullins,2nd,Head,5,10-12t,-,True,22,11
+N/A,N/A,13:55,Yielding,2m 4f,Ambitious Fellow (IRE),Sam Ewing,0,Peter Fahey,1st,N/A,6,11-10,-,True,22,11
+N/A,N/A,13:55,Yielding,2m 4f,Senecia (IRE),I. J. Power,0,Vincent Laurence Halley,F,N/A,5,11-5,-,True,22,11
+N/A,N/A,13:55,Yielding,2m 4f,Ella Rose (IRE),Richard Deegan,0,Eoin Christopher McCarthy,10th,2 1/2 l,5,10-7,-,True,22,11
+N/A,N/A,13:55,Yielding,2m 4f,As Na Scamaill (IRE),T. Joseph Kelly,0,Leonard Paul Flynn,9th,Nose,6,11-0t1,-,True,22,11
+N/A,N/A,13:55,Yielding,2m 4f,Smallcraftwarning (IRE),J. J. Slevin,0,Miss Evanna McCutcheon,8th,67 l,5,11-0t,-,True,22,11
+N/A,N/A,13:55,Yielding,2m 4f,Suain Na Draoicht (IRE),P. Byrnes,7,Charles Byrnes,7th,22 l,5,11-0,-,True,22,11
+N/A,N/A,13:55,Yielding,2m 4f,Benny The Duke (IRE),Donagh Meyler,0,R. P. Cody,6th,1 3/4 l,5,11-5,-,True,22,11
+N/A,N/A,13:55,Yielding,2m 4f,Starzov (IRE),Jack Foley,3,P. J. Rothwell,5th,1 3/4 l,5,11-5,-,True,22,11
+N/A,N/A,13:55,Yielding,2m 4f,Typical Thomas (IRE),A. P. Kelly,7,James Andrew Fahey,4th,4 1/2 l,5,11-5,-,True,22,11
+N/A,N/A,13:55,Yielding,2m 4f,Lieutenant Highway (IRE),K. E. Buckley,5,Gordon Elliott,3rd,5 1/2 l,5,11-10p,-,True,22,11
+N/A,N/A,13:55,Yielding,2m 4f,Nos Na Gaoithe (IRE),D. E. Mullins,0,W. P. Mullins,2nd,Head,5,10-12t,-,True,22,11
+N/A,N/A,13:55,Yielding,2m 4f,Ambitious Fellow (IRE),Sam Ewing,0,Peter Fahey,1st,N/A,6,11-10,-,True,22,11
+N/A,N/A,14:30,Yielding,2m 4f,Downtown Queen (IRE),C. P. McNamara,0,Henry de Bromhead,S,N/A,5,10-5t,116,True,22,12
+N/A,N/A,14:30,Yielding,2m 4f,Watch The Weather,Rachael Blackmore,0,R. P. Cody,PU,N/A,6,10-5t,116,True,22,12
+N/A,N/A,14:30,Yielding,2m 4f,Young Dev (IRE),Donagh Meyler,0,Denis Hogan,13th,15 l,8,10-11,122,True,22,12
+N/A,N/A,14:30,Yielding,2m 4f,Auckland (GER),D. E. Mullins,0,Anthony Mullins,12th,24 l,5,10-9p,120,True,22,12
+N/A,N/A,14:30,Yielding,2m 4f,Ballyadam Destiny,D. G. Hogan,0,Denis Hogan,11th,3/4 l,8,10-0tp,111,True,22,12
+N/A,N/A,14:30,Yielding,2m 4f,Bread And Butter (IRE),A. P. Kelly,0,Ms Helen P. Markham,10th,4 1/2 l,7,11-0,125,True,22,12
+N/A,N/A,14:30,Yielding,2m 4f,Dorans Boy (IRE),Richard Deegan,0,Eoin Christopher McCarthy,9th,4 3/4 l,6,10-2,113,True,22,12
+N/A,N/A,14:30,Yielding,2m 4f,Ballybaun Star (IRE),C. Halpin,7,T. Gibney,8th,3 1/2 l,5,10-3t,114,True,22,12
+N/A,N/A,14:30,Yielding,2m 4f,Unexpected Depth (IRE),K. E. Buckley,5,Oliver McKiernan,7th,1 3/4 l,8,11-12p,137,True,22,12
+N/A,N/A,14:30,Yielding,2m 4f,Son Of Hypnos (IRE),S. O'Callaghan,7,Kevin Michael Smith,6th,Short Head,5,10-0p,111,True,22,12
+N/A,N/A,14:30,Yielding,2m 4f,Nibblers Charm (IRE),S. D. Torrens,0,Ray Hackett,5th,1/2 l,9,11-6,131,True,22,12
+N/A,N/A,14:30,Yielding,2m 4f,Alvaro,Sean Flanagan,0,Eric McNamara,4th,1/2 l,6,10-3,114,True,22,12
+N/A,N/A,14:30,Yielding,2m 4f,Blanketontheground (IRE),G. B. Noonan,7,Eoin Christopher McCarthy,3rd,1 1/2 l,9,10-7,118,True,22,12
+N/A,N/A,14:30,Yielding,2m 4f,Listentillitellyea (IRE),D. J. O'Keeffe,0,T. Gibney,2nd,1 3/4 l,6,10-0,111,True,22,12
+N/A,N/A,14:30,Yielding,2m 4f,Skippin Court (IRE),K. C. Sexton,0,Peter Fahey,1st,N/A,5,10-5,116,True,22,12
+N/A,N/A,14:30,Yielding,2m 4f,Downtown Queen (IRE),C. P. McNamara,0,Henry de Bromhead,S,N/A,5,10-5t,116,True,22,12
+N/A,N/A,14:30,Yielding,2m 4f,Watch The Weather,Rachael Blackmore,0,R. P. Cody,PU,N/A,6,10-5t,116,True,22,12
+N/A,N/A,14:30,Yielding,2m 4f,Young Dev (IRE),Donagh Meyler,0,Denis Hogan,13th,15 l,8,10-11,122,True,22,12
+N/A,N/A,14:30,Yielding,2m 4f,Auckland (GER),D. E. Mullins,0,Anthony Mullins,12th,24 l,5,10-9p,120,True,22,12
+N/A,N/A,14:30,Yielding,2m 4f,Ballyadam Destiny,D. G. Hogan,0,Denis Hogan,11th,3/4 l,8,10-0tp,111,True,22,12
+N/A,N/A,14:30,Yielding,2m 4f,Bread And Butter (IRE),A. P. Kelly,0,Ms Helen P. Markham,10th,4 1/2 l,7,11-0,125,True,22,12
+N/A,N/A,14:30,Yielding,2m 4f,Dorans Boy (IRE),Richard Deegan,0,Eoin Christopher McCarthy,9th,4 3/4 l,6,10-2,113,True,22,12
+N/A,N/A,14:30,Yielding,2m 4f,Ballybaun Star (IRE),C. Halpin,7,T. Gibney,8th,3 1/2 l,5,10-3t,114,True,22,12
+N/A,N/A,14:30,Yielding,2m 4f,Unexpected Depth (IRE),K. E. Buckley,5,Oliver McKiernan,7th,1 3/4 l,8,11-12p,137,True,22,12
+N/A,N/A,14:30,Yielding,2m 4f,Son Of Hypnos (IRE),S. O'Callaghan,7,Kevin Michael Smith,6th,Short Head,5,10-0p,111,True,22,12
+N/A,N/A,14:30,Yielding,2m 4f,Nibblers Charm (IRE),S. D. Torrens,0,Ray Hackett,5th,1/2 l,9,11-6,131,True,22,12
+N/A,N/A,14:30,Yielding,2m 4f,Alvaro,Sean Flanagan,0,Eric McNamara,4th,1/2 l,6,10-3,114,True,22,12
+N/A,N/A,14:30,Yielding,2m 4f,Blanketontheground (IRE),G. B. Noonan,7,Eoin Christopher McCarthy,3rd,1 1/2 l,9,10-7,118,True,22,12
+N/A,N/A,14:30,Yielding,2m 4f,Listentillitellyea (IRE),D. J. O'Keeffe,0,T. Gibney,2nd,1 3/4 l,6,10-0,111,True,22,12
+N/A,N/A,14:30,Yielding,2m 4f,Skippin Court (IRE),K. C. Sexton,0,Peter Fahey,1st,N/A,5,10-5,116,True,22,12
+N/A,N/A,15:05,Yielding,2m 4f,Sekifi (IRE),D. J. O'Keeffe,0,Matthew J. Smith,PU,N/A,4,10-12,89,True,22,13
+N/A,N/A,15:05,Yielding,2m 4f,Miss Laura (IRE),A. M. McCurtin,3,John J. Walsh,PU,N/A,7,10-13tp1,87,True,22,13
+N/A,N/A,15:05,Yielding,2m 4f,Harry Do Brasil (FR),Gearoid Patrick Brouder,5,Eamon Courtney,PU,N/A,6,11-4tp,92,True,22,13
+N/A,N/A,15:05,Yielding,2m 4f,Der Mc (IRE),D. E. Mullins,0,Michael John O'Connor,PU,N/A,6,10-13,87,True,22,13
+N/A,N/A,15:05,Yielding,2m 4f,Indie Belle (IRE),J. J. Slevin,0,Robert Widger,12th,2 3/4 l,5,11-6,94,True,22,13
+N/A,N/A,15:05,Yielding,2m 4f,Smash the Lamp (IRE),S. D. Torrens,0,Liam G. O'Brien,11th,2 1/4 l,8,11-6,94,True,22,13
+N/A,N/A,15:05,Yielding,2m 4f,Tomjackwilliam (IRE),Richard Deegan,0,Eoin Christopher McCarthy,10th,2 1/2 l,5,11-1,89,True,22,13
+N/A,N/A,15:05,Yielding,2m 4f,Merry Moves (IRE),R. P. Geoghegan,7,Mrs Grainne M. O'Connor,9th,8 l,7,11-7,95,True,22,13
+N/A,N/A,15:05,Yielding,2m 4f,Glenabo Bridge (IRE),J. I. Duggan,7,Oliver McKiernan,8th,2 l,11,11-6t,94,True,22,13
+N/A,N/A,15:05,Yielding,2m 4f,Silver Planeur (FR),Corey McGivern,7,Eric McNamara,7th,6 l,10,11-5tp,93,True,22,13
+N/A,N/A,15:05,Yielding,2m 4f,Toms Courage (IRE),Niall Moore,0,John Michael Burke,6th,5 l,8,12-0h,102,True,22,13
+N/A,N/A,15:05,Yielding,2m 4f,Simpatico (IRE),R. J. Condon,5,Colm A. Murphy,5th,1 3/4 l,6,11-10,98,True,22,13
+N/A,N/A,15:05,Yielding,2m 4f,Alfieri (IRE),Mr J. W. Reilly,7,Ross O'Sullivan,4th,5 1/2 l,5,12-0,102,True,22,13
+N/A,N/A,15:05,Yielding,2m 4f,Gaius (FR),Sam Ewing,0,Noel C. Kelly,3rd,2 1/2 l,6,11-12t,100,True,22,13
+N/A,N/A,15:05,Yielding,2m 4f,Jakie Mac (IRE),Sean Flanagan,0,Damian Murphy,2nd,Neck,6,11-9h,97,True,22,13
+N/A,N/A,15:05,Yielding,2m 4f,Penny Jar (IRE),C. P. McNamara,0,Patrick Downey,1st,N/A,6,11-0tp,88,True,22,13
+N/A,N/A,15:05,Yielding,2m 4f,Sekifi (IRE),D. J. O'Keeffe,0,Matthew J. Smith,PU,N/A,4,10-12,89,True,22,13
+N/A,N/A,15:05,Yielding,2m 4f,Miss Laura (IRE),A. M. McCurtin,3,John J. Walsh,PU,N/A,7,10-13tp1,87,True,22,13
+N/A,N/A,15:05,Yielding,2m 4f,Harry Do Brasil (FR),Gearoid Patrick Brouder,5,Eamon Courtney,PU,N/A,6,11-4tp,92,True,22,13
+N/A,N/A,15:05,Yielding,2m 4f,Der Mc (IRE),D. E. Mullins,0,Michael John O'Connor,PU,N/A,6,10-13,87,True,22,13
+N/A,N/A,15:05,Yielding,2m 4f,Indie Belle (IRE),J. J. Slevin,0,Robert Widger,12th,2 3/4 l,5,11-6,94,True,22,13
+N/A,N/A,15:05,Yielding,2m 4f,Smash the Lamp (IRE),S. D. Torrens,0,Liam G. O'Brien,11th,2 1/4 l,8,11-6,94,True,22,13
+N/A,N/A,15:05,Yielding,2m 4f,Tomjackwilliam (IRE),Richard Deegan,0,Eoin Christopher McCarthy,10th,2 1/2 l,5,11-1,89,True,22,13
+N/A,N/A,15:05,Yielding,2m 4f,Merry Moves (IRE),R. P. Geoghegan,7,Mrs Grainne M. O'Connor,9th,8 l,7,11-7,95,True,22,13
+N/A,N/A,15:05,Yielding,2m 4f,Glenabo Bridge (IRE),J. I. Duggan,7,Oliver McKiernan,8th,2 l,11,11-6t,94,True,22,13
+N/A,N/A,15:05,Yielding,2m 4f,Silver Planeur (FR),Corey McGivern,7,Eric McNamara,7th,6 l,10,11-5tp,93,True,22,13
+N/A,N/A,15:05,Yielding,2m 4f,Toms Courage (IRE),Niall Moore,0,John Michael Burke,6th,5 l,8,12-0h,102,True,22,13
+N/A,N/A,15:05,Yielding,2m 4f,Simpatico (IRE),R. J. Condon,5,Colm A. Murphy,5th,1 3/4 l,6,11-10,98,True,22,13
+N/A,N/A,15:05,Yielding,2m 4f,Alfieri (IRE),Mr J. W. Reilly,7,Ross O'Sullivan,4th,5 1/2 l,5,12-0,102,True,22,13
+N/A,N/A,15:05,Yielding,2m 4f,Gaius (FR),Sam Ewing,0,Noel C. Kelly,3rd,2 1/2 l,6,11-12t,100,True,22,13
+N/A,N/A,15:05,Yielding,2m 4f,Jakie Mac (IRE),Sean Flanagan,0,Damian Murphy,2nd,Neck,6,11-9h,97,True,22,13
+N/A,N/A,15:05,Yielding,2m 4f,Penny Jar (IRE),C. P. McNamara,0,Patrick Downey,1st,N/A,6,11-0tp,88,True,22,13
+N/A,N/A,15:43,Yielding,2m 4f,Kilashee (IRE),J. P. Kirwan,7,John Patrick Ryan,RR,N/A,7,11-2,90,True,22,14
+N/A,N/A,15:43,Yielding,2m 4f,Alice O'byrne (IRE),Jordan Colin Gainford,0,David Christie,PU,N/A,8,11-9,97,True,22,14
+N/A,N/A,15:43,Yielding,2m 4f,Applejack Poet (IRE),Keith Donoghue,0,Matthew J. Smith,16th,8 1/2 l,5,11-12,100,True,22,14
+N/A,N/A,15:43,Yielding,2m 4f,Borntobeyours (IRE),D. J. O'Keeffe,0,T. Gibney,15th,24 l,7,11-1t,89,True,22,14
+N/A,N/A,15:43,Yielding,2m 4f,Bal Kauto (FR),Mr Turlough O'Connor,7,Turlough O'Connor,14th,9 l,5,11-4t1,92,True,22,14
+N/A,N/A,15:43,Yielding,2m 4f,Pretorius (GER),I. J. Power,0,John Queally,13th,1 1/2 l,5,11-9,97,True,22,14
+N/A,N/A,15:43,Yielding,2m 4f,Winding River (IRE),R. J. Condon,5,Oliver McKiernan,12th,2 l,5,12-0tp1,102,True,22,14
+N/A,N/A,15:43,Yielding,2m 4f,Well Joey (IRE),Patrick O'Hanlon,5,Paul Stafford,11th,1 l,11,11-4t,92,True,22,14
+N/A,N/A,15:43,Yielding,2m 4f,Mr Macphisto (IRE),Donagh Meyler,0,Eoin Griffin,10th,3 l,6,11-1,89,True,22,14
+N/A,N/A,15:43,Yielding,2m 4f,Caoimhes Pet (IRE),Richard Deegan,0,Eoin Christopher McCarthy,9th,1 3/4 l,5,10-13,87,True,22,14
+N/A,N/A,15:43,Yielding,2m 4f,Citizen's Army (IRE),Mr Alan O'Sullivan,7,Eugene M. O'Sullivan,8th,5 1/2 l,7,11-0,88,True,22,14
+N/A,N/A,15:43,Yielding,2m 4f,We'llgowats (IRE),C. P. McNamara,0,Liam G. O'Brien,7th,2 l,7,11-2,90,True,22,14
+N/A,N/A,15:43,Yielding,2m 4f,Naturally Blond (IRE),Jack Foley,3,Patrick Cronin,6th,1 1/2 l,12,11-4tp,92,True,22,14
+N/A,N/A,15:43,Yielding,2m 4f,Florey Spud (IRE),Rachael Blackmore,0,P. F. O'Donnell,5th,1 l,7,11-12,100,True,22,14
+N/A,N/A,15:43,Yielding,2m 4f,Whiskey Lady (IRE),C. M. Quirke,7,Gillian Scott,4th,1 3/4 l,5,11-3,91,True,22,14
+N/A,N/A,15:43,Yielding,2m 4f,Lily Of Dromard (IRE),D. E. Mullins,0,Michael John O'Connor,3rd,2 l,8,11-7,95,True,22,14
+N/A,N/A,15:43,Yielding,2m 4f,Marelly (IRE),G. B. Noonan,7,Eoin Christopher McCarthy,2nd,1 1/4 l,5,11-7,95,True,22,14
+N/A,N/A,15:43,Yielding,2m 4f,Hurricane Darwin (IRE),Mr S. Cavanagh,7,C. W. J. Farrell,1st,N/A,12,12-0t,102,True,22,14
+N/A,N/A,15:43,Yielding,2m 4f,Kilashee (IRE),J. P. Kirwan,7,John Patrick Ryan,RR,N/A,7,11-2,90,True,22,14
+N/A,N/A,15:43,Yielding,2m 4f,Alice O'byrne (IRE),Jordan Colin Gainford,0,David Christie,PU,N/A,8,11-9,97,True,22,14
+N/A,N/A,15:43,Yielding,2m 4f,Applejack Poet (IRE),Keith Donoghue,0,Matthew J. Smith,16th,8 1/2 l,5,11-12,100,True,22,14
+N/A,N/A,15:43,Yielding,2m 4f,Borntobeyours (IRE),D. J. O'Keeffe,0,T. Gibney,15th,24 l,7,11-1t,89,True,22,14
+N/A,N/A,15:43,Yielding,2m 4f,Bal Kauto (FR),Mr Turlough O'Connor,7,Turlough O'Connor,14th,9 l,5,11-4t1,92,True,22,14
+N/A,N/A,15:43,Yielding,2m 4f,Pretorius (GER),I. J. Power,0,John Queally,13th,1 1/2 l,5,11-9,97,True,22,14
+N/A,N/A,15:43,Yielding,2m 4f,Winding River (IRE),R. J. Condon,5,Oliver McKiernan,12th,2 l,5,12-0tp1,102,True,22,14
+N/A,N/A,15:43,Yielding,2m 4f,Well Joey (IRE),Patrick O'Hanlon,5,Paul Stafford,11th,1 l,11,11-4t,92,True,22,14
+N/A,N/A,15:43,Yielding,2m 4f,Mr Macphisto (IRE),Donagh Meyler,0,Eoin Griffin,10th,3 l,6,11-1,89,True,22,14
+N/A,N/A,15:43,Yielding,2m 4f,Caoimhes Pet (IRE),Richard Deegan,0,Eoin Christopher McCarthy,9th,1 3/4 l,5,10-13,87,True,22,14
+N/A,N/A,15:43,Yielding,2m 4f,Citizen's Army (IRE),Mr Alan O'Sullivan,7,Eugene M. O'Sullivan,8th,5 1/2 l,7,11-0,88,True,22,14
+N/A,N/A,15:43,Yielding,2m 4f,We'llgowats (IRE),C. P. McNamara,0,Liam G. O'Brien,7th,2 l,7,11-2,90,True,22,14
+N/A,N/A,15:43,Yielding,2m 4f,Naturally Blond (IRE),Jack Foley,3,Patrick Cronin,6th,1 1/2 l,12,11-4tp,92,True,22,14
+N/A,N/A,15:43,Yielding,2m 4f,Florey Spud (IRE),Rachael Blackmore,0,P. F. O'Donnell,5th,1 l,7,11-12,100,True,22,14
+N/A,N/A,15:43,Yielding,2m 4f,Whiskey Lady (IRE),C. M. Quirke,7,Gillian Scott,4th,1 3/4 l,5,11-3,91,True,22,14
+N/A,N/A,15:43,Yielding,2m 4f,Lily Of Dromard (IRE),D. E. Mullins,0,Michael John O'Connor,3rd,2 l,8,11-7,95,True,22,14
+N/A,N/A,15:43,Yielding,2m 4f,Marelly (IRE),G. B. Noonan,7,Eoin Christopher McCarthy,2nd,1 1/4 l,5,11-7,95,True,22,14
+N/A,N/A,15:43,Yielding,2m 4f,Hurricane Darwin (IRE),Mr S. Cavanagh,7,C. W. J. Farrell,1st,N/A,12,12-0t,102,True,22,14
+N/A,N/A,16:18,Yielding,2m 1f,Jack Holiday (IRE),D. J. O'Keeffe,0,John F. Gleeson,6th,9 l,8,10-0tp1,110,True,22,15
+N/A,N/A,16:18,Yielding,2m 1f,The Dara Man (IRE),D. E. Mullins,0,John Patrick Ryan,5th,3 l,7,11-5,129,True,22,15
+N/A,N/A,16:18,Yielding,2m 1f,Falco Blitz (IRE),C. P. McNamara,0,Eric McNamara,4th,12 l,8,11-12,136,True,22,15
+N/A,N/A,16:18,Yielding,2m 1f,Bythesametoken (IRE),Jack Foley,3,Ross O'Sullivan,3rd,3 1/2 l,8,10-13t,123,True,22,15
+N/A,N/A,16:18,Yielding,2m 1f,Mattie's Mountain (IRE),M. J. M. O'Sullivan,7,Eoin Christopher McCarthy,2nd,2 l,7,10-9,119,True,22,15
+N/A,N/A,16:18,Yielding,2m 1f,Sil Ver Klass (FR),Peter Carberry,0,A. J. Martin,1st,N/A,8,10-8t,118,True,22,15
+N/A,N/A,16:18,Yielding,2m 1f,Jack Holiday (IRE),D. J. O'Keeffe,0,John F. Gleeson,6th,9 l,8,10-0tp1,110,True,22,15
+N/A,N/A,16:18,Yielding,2m 1f,The Dara Man (IRE),D. E. Mullins,0,John Patrick Ryan,5th,3 l,7,11-5,129,True,22,15
+N/A,N/A,16:18,Yielding,2m 1f,Falco Blitz (IRE),C. P. McNamara,0,Eric McNamara,4th,12 l,8,11-12,136,True,22,15
+N/A,N/A,16:18,Yielding,2m 1f,Bythesametoken (IRE),Jack Foley,3,Ross O'Sullivan,3rd,3 1/2 l,8,10-13t,123,True,22,15
+N/A,N/A,16:18,Yielding,2m 1f,Mattie's Mountain (IRE),M. J. M. O'Sullivan,7,Eoin Christopher McCarthy,2nd,2 l,7,10-9,119,True,22,15
+N/A,N/A,16:18,Yielding,2m 1f,Sil Ver Klass (FR),Peter Carberry,0,A. J. Martin,1st,N/A,8,10-8t,118,True,22,15
+N/A,N/A,16:53,Yielding ap Chase (Turf),3m,Goodnightngodbless (USA),Miss A. B. O'Connor,5,J. D. Motherway,UR,N/A,9,11-6tb,104,True,22,16
+N/A,N/A,16:53,Yielding ap Chase (Turf),3m,Crobally Boy (IRE),Mr T. Hamilton,0,John Joseph Hanlon,PU,N/A,7,10-7,91,True,22,16
+N/A,N/A,16:53,Yielding ap Chase (Turf),3m,Outside The Door (IRE),Mr J. J. Codd,0,Padraig Roche,F,N/A,6,11-12p1,110,True,22,16
+N/A,N/A,16:53,Yielding ap Chase (Turf),3m,Brideswell Lad (IRE),Mr R. James,7,Seamus Neville,F,N/A,6,12-5,117,True,22,16
+N/A,N/A,16:53,Yielding ap Chase (Turf),3m,Owl Creek Bridge (IRE),Mr R. W. Barron,7,Eric McNamara,13th,Neck,9,11-11,109,True,22,16
+N/A,N/A,16:53,Yielding ap Chase (Turf),3m,Highland Sting (IRE),Mr B. Barry,7,John Patrick Ryan,12th,1 1/4 l,6,10-9,93,True,22,16
+N/A,N/A,16:53,Yielding ap Chase (Turf),3m,It Could Be You (IRE),Mr C. Mullins,7,Thomas Mullins,11th,4 l,8,12-3t,115,True,22,16
+N/A,N/A,16:53,Yielding ap Chase (Turf),3m,Avec Espoir,Mr Tommie M. O'Brien,3,V. T. O'Brien,10th,3 3/4 l,9,11-4,102,True,22,16
+N/A,N/A,16:53,Yielding ap Chase (Turf),3m,Cluan Dara (IRE),Mr A. P. Ryan,7,John Patrick Ryan,9th,6 1/2 l,10,10-7,91,True,22,16
+N/A,N/A,16:53,Yielding ap Chase (Turf),3m,Ardaghs Choice (IRE),Mr T. Power Roche,7,E. Sheehy,8th,1 l,7,11-8b,106,True,22,16
+N/A,N/A,16:53,Yielding ap Chase (Turf),3m,Father Jed (IRE),Mr H. C. Swan,7,John Patrick Ryan,7th,1 1/4 l,11,11-1,99,True,22,16
+N/A,N/A,16:53,Yielding ap Chase (Turf),3m,Touch of Oscar (IRE),Mr E. P. O'Brien,5,M. Hourigan,6th,5 l,8,11-2,100,True,22,16
+N/A,N/A,16:53,Yielding ap Chase (Turf),3m,Super Citizen,Mr Alan O'Sullivan,7,Eugene M. O'Sullivan,5th,1/2 l,8,12-1,113,True,22,16
+N/A,N/A,16:53,Yielding ap Chase (Turf),3m,Centurion Steel (IRE),Mr Finian Maguire,0,Henry de Bromhead,4th,3/4 l,7,12-5tp,117,True,22,16
+N/A,N/A,16:53,Yielding ap Chase (Turf),3m,Kavanaghs Corner (IRE),Mr R. A. Berry,7,Henry de Bromhead,3rd,6 1/2 l,13,12-4,116,True,22,16
+N/A,N/A,16:53,Yielding ap Chase (Turf),3m,Hoke Colburn (IRE),Mr E. Mahon,7,Brian M. McMahon,2nd,7 l,10,11-8,106,True,22,16
+N/A,N/A,16:53,Yielding ap Chase (Turf),3m,Mica Malpic (FR),Mr D. O'Connor,0,Enda Bolger,1st,N/A,5,11-10p,108,True,22,16
+N/A,N/A,16:53,Yielding ap Chase (Turf),3m,Goodnightngodbless (USA),Miss A. B. O'Connor,5,J. D. Motherway,UR,N/A,9,11-6tb,104,True,22,16
+N/A,N/A,16:53,Yielding ap Chase (Turf),3m,Crobally Boy (IRE),Mr T. Hamilton,0,John Joseph Hanlon,PU,N/A,7,10-7,91,True,22,16
+N/A,N/A,16:53,Yielding ap Chase (Turf),3m,Outside The Door (IRE),Mr J. J. Codd,0,Padraig Roche,F,N/A,6,11-12p1,110,True,22,16
+N/A,N/A,16:53,Yielding ap Chase (Turf),3m,Brideswell Lad (IRE),Mr R. James,7,Seamus Neville,F,N/A,6,12-5,117,True,22,16
+N/A,N/A,16:53,Yielding ap Chase (Turf),3m,Owl Creek Bridge (IRE),Mr R. W. Barron,7,Eric McNamara,13th,Neck,9,11-11,109,True,22,16
+N/A,N/A,16:53,Yielding ap Chase (Turf),3m,Highland Sting (IRE),Mr B. Barry,7,John Patrick Ryan,12th,1 1/4 l,6,10-9,93,True,22,16
+N/A,N/A,16:53,Yielding ap Chase (Turf),3m,It Could Be You (IRE),Mr C. Mullins,7,Thomas Mullins,11th,4 l,8,12-3t,115,True,22,16
+N/A,N/A,16:53,Yielding ap Chase (Turf),3m,Avec Espoir,Mr Tommie M. O'Brien,3,V. T. O'Brien,10th,3 3/4 l,9,11-4,102,True,22,16
+N/A,N/A,16:53,Yielding ap Chase (Turf),3m,Cluan Dara (IRE),Mr A. P. Ryan,7,John Patrick Ryan,9th,6 1/2 l,10,10-7,91,True,22,16
+N/A,N/A,16:53,Yielding ap Chase (Turf),3m,Ardaghs Choice (IRE),Mr T. Power Roche,7,E. Sheehy,8th,1 l,7,11-8b,106,True,22,16
+N/A,N/A,16:53,Yielding ap Chase (Turf),3m,Father Jed (IRE),Mr H. C. Swan,7,John Patrick Ryan,7th,1 1/4 l,11,11-1,99,True,22,16
+N/A,N/A,16:53,Yielding ap Chase (Turf),3m,Touch of Oscar (IRE),Mr E. P. O'Brien,5,M. Hourigan,6th,5 l,8,11-2,100,True,22,16
+N/A,N/A,16:53,Yielding ap Chase (Turf),3m,Super Citizen,Mr Alan O'Sullivan,7,Eugene M. O'Sullivan,5th,1/2 l,8,12-1,113,True,22,16
+N/A,N/A,16:53,Yielding ap Chase (Turf),3m,Centurion Steel (IRE),Mr Finian Maguire,0,Henry de Bromhead,4th,3/4 l,7,12-5tp,117,True,22,16
+N/A,N/A,16:53,Yielding ap Chase (Turf),3m,Kavanaghs Corner (IRE),Mr R. A. Berry,7,Henry de Bromhead,3rd,6 1/2 l,13,12-4,116,True,22,16
+N/A,N/A,16:53,Yielding ap Chase (Turf),3m,Hoke Colburn (IRE),Mr E. Mahon,7,Brian M. McMahon,2nd,7 l,10,11-8,106,True,22,16
+N/A,N/A,16:53,Yielding ap Chase (Turf),3m,Mica Malpic (FR),Mr D. O'Connor,0,Enda Bolger,1st,N/A,5,11-10p,108,True,22,16
+N/A,N/A,17:28,Yielding  Flat (Turf),2m,Smig Suas (IRE),Mr Tommie M. O'Brien,3,V. T. O'Brien,8th,45 l,9,11-7,-,True,22,17
+N/A,N/A,17:28,Yielding  Flat (Turf),2m,Leading The Way (IRE),C. M. Quirke,7,Gillian Scott,7th,17 l,6,11-7,-,True,22,17
+N/A,N/A,17:28,Yielding  Flat (Turf),2m,Galmar (IRE),Mr W. T. Cronin,7,John J. Walsh,6th,3 l,6,11-7,-,True,22,17
+N/A,N/A,17:28,Yielding  Flat (Turf),2m,Watergrangedreamer (IRE),Mr D. A. McCarthy,7,Eoin Christopher McCarthy,5th,Head,5,11-7,-,True,22,17
+N/A,N/A,17:28,Yielding  Flat (Turf),2m,Our Uncle Jack (IRE),,0,Martin Paul Fitzgerald,4th,2 1/2 l,6,11-7,-,True,22,17
+N/A,N/A,17:28,Yielding  Flat (Turf),2m,Dark Image,M. J. M. O'Sullivan,7,Eoin Christopher McCarthy,3rd,3 1/4 l,4,11-5,-,True,22,17
+N/A,N/A,17:28,Yielding  Flat (Turf),2m,Realistic Optimism (IRE),Mr T. P. Harney,7,Ross O'Sullivan,2nd,1/2 l,5,12-0,-,True,22,17
+N/A,N/A,17:28,Yielding  Flat (Turf),2m,Thecompanysergeant,Mr J. L. Gleeson,7,Denis Hogan,1st,N/A,5,12-0,-,True,22,17
+N/A,N/A,17:28,Yielding  Flat (Turf),2m,Smig Suas (IRE),Mr Tommie M. O'Brien,3,V. T. O'Brien,8th,45 l,9,11-7,-,True,22,17
+N/A,N/A,17:28,Yielding  Flat (Turf),2m,Leading The Way (IRE),C. M. Quirke,7,Gillian Scott,7th,17 l,6,11-7,-,True,22,17
+N/A,N/A,17:28,Yielding  Flat (Turf),2m,Galmar (IRE),Mr W. T. Cronin,7,John J. Walsh,6th,3 l,6,11-7,-,True,22,17
+N/A,N/A,17:28,Yielding  Flat (Turf),2m,Watergrangedreamer (IRE),Mr D. A. McCarthy,7,Eoin Christopher McCarthy,5th,Head,5,11-7,-,True,22,17
+N/A,N/A,17:28,Yielding  Flat (Turf),2m,Our Uncle Jack (IRE),,0,Martin Paul Fitzgerald,4th,2 1/2 l,6,11-7,-,True,22,17
+N/A,N/A,17:28,Yielding  Flat (Turf),2m,Dark Image,M. J. M. O'Sullivan,7,Eoin Christopher McCarthy,3rd,3 1/4 l,4,11-5,-,True,22,17
+N/A,N/A,17:28,Yielding  Flat (Turf),2m,Realistic Optimism (IRE),Mr T. P. Harney,7,Ross O'Sullivan,2nd,1/2 l,5,12-0,-,True,22,17
+N/A,N/A,17:28,Yielding  Flat (Turf),2m,Thecompanysergeant,Mr J. L. Gleeson,7,Denis Hogan,1st,N/A,5,12-0,-,True,22,17
+N/A,N/A,13:25,Yielding To Soft,7f,Asgard's Captain (IRE),D. E. Sheehy,3,Shane Donohoe,16th,4 1/2 l,2,9-7,-,True,22,18
+N/A,N/A,13:25,Yielding To Soft,7f,Barney Hyland (IRE),S. B. Kelly,0,W. J. Martin,15th,9 1/2 l,2,9-7,-,True,22,18
+N/A,N/A,13:25,Yielding To Soft,7f,Walsingham (IRE),C. D. Hayes,0,D. K. Weld,14th,Neck,2,9-7,-,True,22,18
+N/A,N/A,13:25,Yielding To Soft,7f,Fancy Gloves (IRE),R. P. Cleary,0,J. S. Bolger,13th,1 l,2,9-2,-,True,22,18
+N/A,N/A,13:25,Yielding To Soft,7f,Marco Monaco (IRE),R. C. Colgan,0,Ms Sheila Lavery,12th,Head,2,9-7,-,True,22,18
+N/A,N/A,13:25,Yielding To Soft,7f,Quar Shamar (GER),Shane Foley,0,Mrs J. Harrington,11th,1 l,2,9-7,-,True,22,18
+N/A,N/A,13:25,Yielding To Soft,7f,Shot Of Love,C. T. Keane,0,G. M. Lyons,10th,1 1/2 l,2,9-7,-,True,22,18
+N/A,N/A,13:25,Yielding To Soft,7f,Narmar (IRE),G. F. Carroll,0,Henry de Bromhead,9th,2 1/2 l,2,9-7,-,True,22,18
+N/A,N/A,13:25,Yielding To Soft,7f,Alexander John (IRE),N. M. Crosse,3,Luke Comer,8th,1/2 l,2,9-7,-,True,22,18
+N/A,N/A,13:25,Yielding To Soft,7f,New Variant (IRE),K. J. Manning,0,J. S. Bolger,7th,Short Head,2,9-7,-,True,22,18
+N/A,N/A,13:25,Yielding To Soft,7f,Dark Side (IRE),S. M. Crosse,0,Joseph Patrick O'Brien,6th,1 1/2 l,2,9-7,-,True,22,18
+N/A,N/A,13:25,Yielding To Soft,7f,Engeline (IRE),R. P. Whelan,0,Andrew Kinirons,5th,1 1/4 l,2,9-2,-,True,22,18
+N/A,N/A,13:25,Yielding To Soft,7f,Thalara (IRE),William James Lee,0,K. J. Condon,4th,1/2 l,2,9-2,-,True,22,18
+N/A,N/A,13:25,Yielding To Soft,7f,Djockovic (IRE),L. F. Roche,0,M. D. O'Callaghan,3rd,1/2 l,2,9-7,-,True,22,18
+N/A,N/A,13:25,Yielding To Soft,7f,Sierra Blanca (USA),W. M. Lordan,0,Aidan O'Brien,2nd,1 3/4 l,2,9-7,-,True,22,18
+N/A,N/A,13:25,Yielding To Soft,7f,Espionage (IRE),Ryan Moore,0,Aidan O'Brien,1st,N/A,2,9-7t,-,True,22,18
+N/A,N/A,13:25,Yielding To Soft,7f,Asgard's Captain (IRE),D. E. Sheehy,3,Shane Donohoe,16th,4 1/2 l,2,9-7,-,True,22,18
+N/A,N/A,13:25,Yielding To Soft,7f,Barney Hyland (IRE),S. B. Kelly,0,W. J. Martin,15th,9 1/2 l,2,9-7,-,True,22,18
+N/A,N/A,13:25,Yielding To Soft,7f,Walsingham (IRE),C. D. Hayes,0,D. K. Weld,14th,Neck,2,9-7,-,True,22,18
+N/A,N/A,13:25,Yielding To Soft,7f,Fancy Gloves (IRE),R. P. Cleary,0,J. S. Bolger,13th,1 l,2,9-2,-,True,22,18
+N/A,N/A,13:25,Yielding To Soft,7f,Marco Monaco (IRE),R. C. Colgan,0,Ms Sheila Lavery,12th,Head,2,9-7,-,True,22,18
+N/A,N/A,13:25,Yielding To Soft,7f,Quar Shamar (GER),Shane Foley,0,Mrs J. Harrington,11th,1 l,2,9-7,-,True,22,18
+N/A,N/A,13:25,Yielding To Soft,7f,Shot Of Love,C. T. Keane,0,G. M. Lyons,10th,1 1/2 l,2,9-7,-,True,22,18
+N/A,N/A,13:25,Yielding To Soft,7f,Narmar (IRE),G. F. Carroll,0,Henry de Bromhead,9th,2 1/2 l,2,9-7,-,True,22,18
+N/A,N/A,13:25,Yielding To Soft,7f,Alexander John (IRE),N. M. Crosse,3,Luke Comer,8th,1/2 l,2,9-7,-,True,22,18
+N/A,N/A,13:25,Yielding To Soft,7f,New Variant (IRE),K. J. Manning,0,J. S. Bolger,7th,Short Head,2,9-7,-,True,22,18
+N/A,N/A,13:25,Yielding To Soft,7f,Dark Side (IRE),S. M. Crosse,0,Joseph Patrick O'Brien,6th,1 1/2 l,2,9-7,-,True,22,18
+N/A,N/A,13:25,Yielding To Soft,7f,Engeline (IRE),R. P. Whelan,0,Andrew Kinirons,5th,1 1/4 l,2,9-2,-,True,22,18
+N/A,N/A,13:25,Yielding To Soft,7f,Thalara (IRE),William James Lee,0,K. J. Condon,4th,1/2 l,2,9-2,-,True,22,18
+N/A,N/A,13:25,Yielding To Soft,7f,Djockovic (IRE),L. F. Roche,0,M. D. O'Callaghan,3rd,1/2 l,2,9-7,-,True,22,18
+N/A,N/A,13:25,Yielding To Soft,7f,Sierra Blanca (USA),W. M. Lordan,0,Aidan O'Brien,2nd,1 3/4 l,2,9-7,-,True,22,18
+N/A,N/A,13:25,Yielding To Soft,7f,Espionage (IRE),Ryan Moore,0,Aidan O'Brien,1st,N/A,2,9-7t,-,True,22,18
+N/A,N/A,13:55,Yielding To Soft,1m,Omar Navarro (IRE),J. M. Sheridan,3,Ross O'Sullivan,14th,1/2 l,2,9-0,-,True,22,19
+N/A,N/A,13:55,Yielding To Soft,1m,Happenstance (IRE),A. C. Persse,7,Patrick J. Flynn,13th,7 1/2 l,2,9-2,-,True,22,19
+N/A,N/A,13:55,Yielding To Soft,1m,Saoibh (IRE),K. J. Manning,0,J. S. Bolger,12th,2 3/4 l,2,8-9,-,True,22,19
+N/A,N/A,13:55,Yielding To Soft,1m,Portmagee (IRE),L. F. Roche,0,Richard Brabazon,11th,3/4 l,2,8-9,-,True,22,19
+N/A,N/A,13:55,Yielding To Soft,1m,Cape Bridgewater (IRE),Ryan Moore,0,Aidan O'Brien,10th,3/4 l,2,9-6,-,True,22,19
+N/A,N/A,13:55,Yielding To Soft,1m,Thats Jet (IRE),T. P. Madden,0,Ross O'Sullivan,9th,3 l,2,9-6,-,True,22,19
+N/A,N/A,13:55,Yielding To Soft,1m,Hasiyna (IRE),C. D. Hayes,0,D. K. Weld,8th,Neck,2,8-11,-,True,22,19
+N/A,N/A,13:55,Yielding To Soft,1m,Union Flag (IRE),C. T. Keane,0,Noel Meade,7th,3/4 l,2,9-6t,-,True,22,19
+N/A,N/A,13:55,Yielding To Soft,1m,Nurburgring (IRE),M. P. Sheehy,0,Joseph Patrick O'Brien,6th,2 l,2,9-4t1,-,True,22,19
+N/A,N/A,13:55,Yielding To Soft,1m,You Send Me (IRE),M. A. Enright,0,J. A. Stack,5th,1 1/2 l,2,9-1,-,True,22,19
+N/A,N/A,13:55,Yielding To Soft,1m,Picture of a City,William James Lee,0,Andrew Oliver,4th,1 1/4 l,2,9-0,-,True,22,19
+N/A,N/A,13:55,Yielding To Soft,1m,Rubio Draco (IRE),Declan McDonogh,0,Joseph Patrick O'Brien,3rd,3 l,2,9-2,-,True,22,19
+N/A,N/A,13:55,Yielding To Soft,1m,Mount King (IRE),D. B. McMonagle,0,Joseph Patrick O'Brien,2nd,4 1/4 l,2,9-0,-,True,22,19
+N/A,N/A,13:55,Yielding To Soft,1m,Starry Heavens (IRE),Shane Foley,0,Mrs J. Harrington,1st,N/A,2,8-11,-,True,22,19
+N/A,N/A,13:55,Yielding To Soft,1m,Omar Navarro (IRE),J. M. Sheridan,3,Ross O'Sullivan,14th,1/2 l,2,9-0,-,True,22,19
+N/A,N/A,13:55,Yielding To Soft,1m,Happenstance (IRE),A. C. Persse,7,Patrick J. Flynn,13th,7 1/2 l,2,9-2,-,True,22,19
+N/A,N/A,13:55,Yielding To Soft,1m,Saoibh (IRE),K. J. Manning,0,J. S. Bolger,12th,2 3/4 l,2,8-9,-,True,22,19
+N/A,N/A,13:55,Yielding To Soft,1m,Portmagee (IRE),L. F. Roche,0,Richard Brabazon,11th,3/4 l,2,8-9,-,True,22,19
+N/A,N/A,13:55,Yielding To Soft,1m,Cape Bridgewater (IRE),Ryan Moore,0,Aidan O'Brien,10th,3/4 l,2,9-6,-,True,22,19
+N/A,N/A,13:55,Yielding To Soft,1m,Thats Jet (IRE),T. P. Madden,0,Ross O'Sullivan,9th,3 l,2,9-6,-,True,22,19
+N/A,N/A,13:55,Yielding To Soft,1m,Hasiyna (IRE),C. D. Hayes,0,D. K. Weld,8th,Neck,2,8-11,-,True,22,19
+N/A,N/A,13:55,Yielding To Soft,1m,Union Flag (IRE),C. T. Keane,0,Noel Meade,7th,3/4 l,2,9-6t,-,True,22,19
+N/A,N/A,13:55,Yielding To Soft,1m,Nurburgring (IRE),M. P. Sheehy,0,Joseph Patrick O'Brien,6th,2 l,2,9-4t1,-,True,22,19
+N/A,N/A,13:55,Yielding To Soft,1m,You Send Me (IRE),M. A. Enright,0,J. A. Stack,5th,1 1/2 l,2,9-1,-,True,22,19
+N/A,N/A,13:55,Yielding To Soft,1m,Picture of a City,William James Lee,0,Andrew Oliver,4th,1 1/4 l,2,9-0,-,True,22,19
+N/A,N/A,13:55,Yielding To Soft,1m,Rubio Draco (IRE),Declan McDonogh,0,Joseph Patrick O'Brien,3rd,3 l,2,9-2,-,True,22,19
+N/A,N/A,13:55,Yielding To Soft,1m,Mount King (IRE),D. B. McMonagle,0,Joseph Patrick O'Brien,2nd,4 1/4 l,2,9-0,-,True,22,19
+N/A,N/A,13:55,Yielding To Soft,1m,Starry Heavens (IRE),Shane Foley,0,Mrs J. Harrington,1st,N/A,2,8-11,-,True,22,19
+N/A,N/A,14:30,Yielding To Soft,6f,Nation Of Stars,J. A. Powell,7,Kieran Patrick Cotter,8th,7 1/2 l,2,8-12,-,True,22,20
+N/A,N/A,14:30,Yielding To Soft,6f,L'immortale (IRE),William James Lee,0,M. C. Grassick,7th,1 3/4 l,2,8-13,-,True,22,20
+N/A,N/A,14:30,Yielding To Soft,6f,Tooprofitable (IRE),W. M. Lordan,0,M. C. Grassick,6th,1/2 l,2,8-10,-,True,22,20
+N/A,N/A,14:30,Yielding To Soft,6f,Winemaker (FR),G. M. Ryan,0,J. G. Coogan,5th,2 3/4 l,2,9-4,-,True,22,20
+N/A,N/A,14:30,Yielding To Soft,6f,Charming Lady (IRE),J. J. G. Ryan,7,T. G. McCourt,4th,1/2 l,2,8-13,-,True,22,20
+N/A,N/A,14:30,Yielding To Soft,6f,Net A Porter Queen (IRE),Shane Foley,0,Mrs J. Harrington,3rd,2 1/2 l,2,8-8,-,True,22,20
+N/A,N/A,14:30,Yielding To Soft,6f,Freedom Falls (IRE),R. P. Whelan,0,Jack W. Davison,2nd,1 1/2 l,2,8-10,-,True,22,20
+N/A,N/A,14:30,Yielding To Soft,6f,Lord Massusus (IRE),G. F. Carroll,0,Joseph G. Murphy,1st,N/A,2,9-4,-,True,22,20
+N/A,N/A,14:30,Yielding To Soft,6f,Nation Of Stars,J. A. Powell,7,Kieran Patrick Cotter,8th,7 1/2 l,2,8-12,-,True,22,20
+N/A,N/A,14:30,Yielding To Soft,6f,L'immortale (IRE),William James Lee,0,M. C. Grassick,7th,1 3/4 l,2,8-13,-,True,22,20
+N/A,N/A,14:30,Yielding To Soft,6f,Tooprofitable (IRE),W. M. Lordan,0,M. C. Grassick,6th,1/2 l,2,8-10,-,True,22,20
+N/A,N/A,14:30,Yielding To Soft,6f,Winemaker (FR),G. M. Ryan,0,J. G. Coogan,5th,2 3/4 l,2,9-4,-,True,22,20
+N/A,N/A,14:30,Yielding To Soft,6f,Charming Lady (IRE),J. J. G. Ryan,7,T. G. McCourt,4th,1/2 l,2,8-13,-,True,22,20
+N/A,N/A,14:30,Yielding To Soft,6f,Net A Porter Queen (IRE),Shane Foley,0,Mrs J. Harrington,3rd,2 1/2 l,2,8-8,-,True,22,20
+N/A,N/A,14:30,Yielding To Soft,6f,Freedom Falls (IRE),R. P. Whelan,0,Jack W. Davison,2nd,1 1/2 l,2,8-10,-,True,22,20
+N/A,N/A,14:30,Yielding To Soft,6f,Lord Massusus (IRE),G. F. Carroll,0,Joseph G. Murphy,1st,N/A,2,9-4,-,True,22,20
+N/A,N/A,15:05,Yielding To Soft,6f,Dexter Belle (IRE),Daniel Tudhope,0,Edward Lynam,7th,1/2 l,4,9-4,-,True,22,21
+N/A,N/A,15:05,Yielding To Soft,6f,King Of Bavaria (IRE),Ryan Moore,0,Aidan O'Brien,6th,Short Head,3,9-5,-,True,22,21
+N/A,N/A,15:05,Yielding To Soft,6f,Power Under Me (IRE),C. T. Keane,0,G. M. Lyons,5th,1 1/4 l,4,9-7b1,-,True,22,21
+N/A,N/A,15:05,Yielding To Soft,6f,Ano Syra (IRE),K. J. Manning,0,J. J. Feane,4th,4 1/2 l,3,9-2,-,True,22,21
+N/A,N/A,15:05,Yielding To Soft,6f,Just Beautiful,William James Lee,0,P. Twomey,3rd,Neck,4,9-4,-,True,22,21
+N/A,N/A,15:05,Yielding To Soft,6f,Sam Maximus,P. J. McDonald,0,James Horton,2nd,3 l,3,9-5v1,-,True,22,21
+N/A,N/A,15:05,Yielding To Soft,6f,Art Power (IRE),David Allan,0,Tim Easterby,1st,N/A,5,9-7,-,True,22,21
+N/A,N/A,15:05,Yielding To Soft,6f,Dexter Belle (IRE),Daniel Tudhope,0,Edward Lynam,7th,1/2 l,4,9-4,-,True,22,21
+N/A,N/A,15:05,Yielding To Soft,6f,King Of Bavaria (IRE),Ryan Moore,0,Aidan O'Brien,6th,Short Head,3,9-5,-,True,22,21
+N/A,N/A,15:05,Yielding To Soft,6f,Power Under Me (IRE),C. T. Keane,0,G. M. Lyons,5th,1 1/4 l,4,9-7b1,-,True,22,21
+N/A,N/A,15:05,Yielding To Soft,6f,Ano Syra (IRE),K. J. Manning,0,J. J. Feane,4th,4 1/2 l,3,9-2,-,True,22,21
+N/A,N/A,15:05,Yielding To Soft,6f,Just Beautiful,William James Lee,0,P. Twomey,3rd,Neck,4,9-4,-,True,22,21
+N/A,N/A,15:05,Yielding To Soft,6f,Sam Maximus,P. J. McDonald,0,James Horton,2nd,3 l,3,9-5v1,-,True,22,21
+N/A,N/A,15:05,Yielding To Soft,6f,Art Power (IRE),David Allan,0,Tim Easterby,1st,N/A,5,9-7,-,True,22,21
+N/A,N/A,15:40,Yielding To Soft,7f,Pandora Lovegood (IRE),G. F. Carroll,0,Joseph G. Murphy,10th,1 1/4 l,2,9-2,-,True,22,22
+N/A,N/A,15:40,Yielding To Soft,7f,Decorated My Life (IRE),A. J. Slattery,0,J. A. Stack,9th,1 l,2,9-2t,-,True,22,22
+N/A,N/A,15:40,Yielding To Soft,7f,Maybe Just Maybe (JPN),W. M. Lordan,0,Aidan O'Brien,8th,2 l,2,9-2,-,True,22,22
+N/A,N/A,15:40,Yielding To Soft,7f,Sioux Spirit (IRE),William James Lee,0,K. J. Condon,7th,3 1/4 l,2,9-2b1,-,True,22,22
+N/A,N/A,15:40,Yielding To Soft,7f,Caroline Street (USA),D. B. McMonagle,0,Joseph Patrick O'Brien,6th,1 1/4 l,2,9-2,-,True,22,22
+N/A,N/A,15:40,Yielding To Soft,7f,Dower House (IRE),Ryan Moore,0,Aidan O'Brien,5th,3/4 l,2,9-2,-,True,22,22
+N/A,N/A,15:40,Yielding To Soft,7f,Clever and Cool (IRE),K. J. Manning,0,J. S. Bolger,4th,Neck,2,9-2,-,True,22,22
+N/A,N/A,15:40,Yielding To Soft,7f,Keep In Touch (IRE),C. D. Hayes,0,D. K. Weld,3rd,Neck,2,9-2,-,True,22,22
+N/A,N/A,15:40,Yielding To Soft,7f,Gan Teorainn (IRE),R. P. Cleary,0,J. S. Bolger,2nd,1/2 l,2,9-2b,-,True,22,22
+N/A,N/A,15:40,Yielding To Soft,7f,Basil Martini (IRE),Declan McDonogh,0,Joseph Patrick O'Brien,1st,N/A,2,9-2,-,True,22,22
+N/A,N/A,15:40,Yielding To Soft,7f,Pandora Lovegood (IRE),G. F. Carroll,0,Joseph G. Murphy,10th,1 1/4 l,2,9-2,-,True,22,22
+N/A,N/A,15:40,Yielding To Soft,7f,Decorated My Life (IRE),A. J. Slattery,0,J. A. Stack,9th,1 l,2,9-2t,-,True,22,22
+N/A,N/A,15:40,Yielding To Soft,7f,Maybe Just Maybe (JPN),W. M. Lordan,0,Aidan O'Brien,8th,2 l,2,9-2,-,True,22,22
+N/A,N/A,15:40,Yielding To Soft,7f,Sioux Spirit (IRE),William James Lee,0,K. J. Condon,7th,3 1/4 l,2,9-2b1,-,True,22,22
+N/A,N/A,15:40,Yielding To Soft,7f,Caroline Street (USA),D. B. McMonagle,0,Joseph Patrick O'Brien,6th,1 1/4 l,2,9-2,-,True,22,22
+N/A,N/A,15:40,Yielding To Soft,7f,Dower House (IRE),Ryan Moore,0,Aidan O'Brien,5th,3/4 l,2,9-2,-,True,22,22
+N/A,N/A,15:40,Yielding To Soft,7f,Clever and Cool (IRE),K. J. Manning,0,J. S. Bolger,4th,Neck,2,9-2,-,True,22,22
+N/A,N/A,15:40,Yielding To Soft,7f,Keep In Touch (IRE),C. D. Hayes,0,D. K. Weld,3rd,Neck,2,9-2,-,True,22,22
+N/A,N/A,15:40,Yielding To Soft,7f,Gan Teorainn (IRE),R. P. Cleary,0,J. S. Bolger,2nd,1/2 l,2,9-2b,-,True,22,22
+N/A,N/A,15:40,Yielding To Soft,7f,Basil Martini (IRE),Declan McDonogh,0,Joseph Patrick O'Brien,1st,N/A,2,9-2,-,True,22,22
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Classic Lord (GER),D. E. Sheehy,3,Henry de Bromhead,30th,6 l,4,9-0,94,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Dame Rapide (IRE),L. T. McAteer,3,Barry Fitzgerald,29th,5 l,5,9-0,94,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Golden Flame (IRE),P. J. McDonald,0,Charlie & Mark Johnston,28th,6 l,4,8-11,91,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Tax For Max (GER),K. J. Manning,0,W. P. Mullins,27th,9 1/2 l,5,10-2,110,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Merroir (IRE),G. P. Halpin,0,Joseph Patrick O'Brien,26th,1 3/4 l,5,9-0,94,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Azallya (IRE),C. D. Hayes,0,D. K. Weld,25th,1/2 l,4,9-3,97,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Maze Runner (IRE),R. P. Whelan,0,W. P. Mullins,24th,7 l,7,9-0,94,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Jerandme (IRE),C. J. MacRedmond,5,Noel Meade,23rd,5 1/2 l,8,8-11p,91,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Phoenix Cowboy (USA),G. F. Carroll,0,G. M. Lyons,22nd,1 3/4 l,5,9-6,100,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Okita Soushi (IRE),M. P. Sheehy,0,Joseph Patrick O'Brien,21st,1 1/2 l,4,9-13t,107,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,French Claim (FR),William James Lee,0,P. Twomey,20th,Nose,3,9-4,108,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Hms Seahorse (IRE),Ben Martin Coen,0,Paul Nolan,19th,1 3/4 l,4,9-7,101,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Earl of Tyrone (IRE),D. King,7,P. Twomey,18th,Short Head,4,9-10t,104,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Whiskey Sour (IRE),J. M. Sheridan,3,W. P. Mullins,17th,1/2 l,9,8-13t,93,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Shanroe,R. C. Colgan,0,Karl Thornton,16th,2 1/2 l,8,9-7t,101,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Yaxeni (FR),C. T. Keane,0,G. M. Lyons,15th,2 3/4 l,5,9-10,104,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Inuit (FR),D. B. McMonagle,0,Joseph Patrick O'Brien,14th,Short Head,3,8-11,101,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Wordsworth (IRE),Ryan Moore,0,Aidan O'Brien,13th,Neck,4,9-13,107,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Calling The Wind (IRE),Pat Dobbs,0,Richard Hughes,12th,1 1/4 l,6,9-9p,103,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Master of Reality (IRE),H. J. Horgan,7,Joseph Patrick O'Brien,11th,3/4 l,7,9-11,105,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Powerful Aggie (FR),G. M. Ryan,0,Joseph Patrick O'Brien,10th,1/2 l,4,8-11p1,91,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Benaud (IRE),Declan McDonogh,0,Joseph Patrick O'Brien,9th,Neck,4,9-8t,102,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Mighty Blue (FR),J. Coen,5,Joseph Patrick O'Brien,8th,Head,6,9-5t,99,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Taipan (FR),Shane Foley,0,Mrs J. Harrington,7th,1/2 l,4,9-3p,97,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Cleveland (IRE),S. M. Crosse,0,Joseph Patrick O'Brien,6th,3/4 l,4,9-13,107,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Falcon Eight (IRE),J. A. Powell,7,D. K. Weld,5th,Head,7,9-13b,107,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Ruling (GER),S. McCullagh,3,Joseph Patrick O'Brien,4th,2 l,4,9-7t,101,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Lot of Joy (IRE),Daniel Tudhope,0,W. P. Mullins,3rd,3/4 l,4,8-13,93,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Echoes In Rain (FR),Rachael Blackmore,0,W. P. Mullins,2nd,Neck,6,9-3t,97,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Waterville (IRE),W. M. Lordan,0,Aidan O'Brien,1st,N/A,3,8-9,99,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Classic Lord (GER),D. E. Sheehy,3,Henry de Bromhead,30th,6 l,4,9-0,94,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Dame Rapide (IRE),L. T. McAteer,3,Barry Fitzgerald,29th,5 l,5,9-0,94,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Golden Flame (IRE),P. J. McDonald,0,Charlie & Mark Johnston,28th,6 l,4,8-11,91,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Tax For Max (GER),K. J. Manning,0,W. P. Mullins,27th,9 1/2 l,5,10-2,110,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Merroir (IRE),G. P. Halpin,0,Joseph Patrick O'Brien,26th,1 3/4 l,5,9-0,94,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Azallya (IRE),C. D. Hayes,0,D. K. Weld,25th,1/2 l,4,9-3,97,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Maze Runner (IRE),R. P. Whelan,0,W. P. Mullins,24th,7 l,7,9-0,94,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Jerandme (IRE),C. J. MacRedmond,5,Noel Meade,23rd,5 1/2 l,8,8-11p,91,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Phoenix Cowboy (USA),G. F. Carroll,0,G. M. Lyons,22nd,1 3/4 l,5,9-6,100,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Okita Soushi (IRE),M. P. Sheehy,0,Joseph Patrick O'Brien,21st,1 1/2 l,4,9-13t,107,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,French Claim (FR),William James Lee,0,P. Twomey,20th,Nose,3,9-4,108,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Hms Seahorse (IRE),Ben Martin Coen,0,Paul Nolan,19th,1 3/4 l,4,9-7,101,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Earl of Tyrone (IRE),D. King,7,P. Twomey,18th,Short Head,4,9-10t,104,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Whiskey Sour (IRE),J. M. Sheridan,3,W. P. Mullins,17th,1/2 l,9,8-13t,93,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Shanroe,R. C. Colgan,0,Karl Thornton,16th,2 1/2 l,8,9-7t,101,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Yaxeni (FR),C. T. Keane,0,G. M. Lyons,15th,2 3/4 l,5,9-10,104,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Inuit (FR),D. B. McMonagle,0,Joseph Patrick O'Brien,14th,Short Head,3,8-11,101,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Wordsworth (IRE),Ryan Moore,0,Aidan O'Brien,13th,Neck,4,9-13,107,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Calling The Wind (IRE),Pat Dobbs,0,Richard Hughes,12th,1 1/4 l,6,9-9p,103,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Master of Reality (IRE),H. J. Horgan,7,Joseph Patrick O'Brien,11th,3/4 l,7,9-11,105,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Powerful Aggie (FR),G. M. Ryan,0,Joseph Patrick O'Brien,10th,1/2 l,4,8-11p1,91,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Benaud (IRE),Declan McDonogh,0,Joseph Patrick O'Brien,9th,Neck,4,9-8t,102,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Mighty Blue (FR),J. Coen,5,Joseph Patrick O'Brien,8th,Head,6,9-5t,99,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Taipan (FR),Shane Foley,0,Mrs J. Harrington,7th,1/2 l,4,9-3p,97,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Cleveland (IRE),S. M. Crosse,0,Joseph Patrick O'Brien,6th,3/4 l,4,9-13,107,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Falcon Eight (IRE),J. A. Powell,7,D. K. Weld,5th,Head,7,9-13b,107,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Ruling (GER),S. McCullagh,3,Joseph Patrick O'Brien,4th,2 l,4,9-7t,101,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Lot of Joy (IRE),Daniel Tudhope,0,W. P. Mullins,3rd,3/4 l,4,8-13,93,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Echoes In Rain (FR),Rachael Blackmore,0,W. P. Mullins,2nd,Neck,6,9-3t,97,True,22,23
+N/A,N/A,16:15,Yielding (Good To Yielding In Places),2m 124y,Waterville (IRE),W. M. Lordan,0,Aidan O'Brien,1st,N/A,3,8-9,99,True,22,23
+N/A,N/A,16:45,Yielding To Soft,7f,Allesnick (IRE),L. F. Roche,0,Eddie & Patrick Harty,11th,19 l,2,9-4tb,72,True,22,24
+N/A,N/A,16:45,Yielding To Soft,7f,She's Local (IRE),C. T. Keane,0,Noel Meade,10th,Head,2,9-4,72,True,22,24
+N/A,N/A,16:45,Yielding To Soft,7f,Hialeah (IRE),M. A. Enright,0,Charles Weld,9th,Neck,2,9-0,68,True,22,24
+N/A,N/A,16:45,Yielding To Soft,7f,Slaney Tide (IRE),K. J. Manning,0,J. S. Bolger,8th,2 3/4 l,2,8-9tb1,63,True,22,24
+N/A,N/A,16:45,Yielding To Soft,7f,Belissimo,A. J. Slattery,0,A. Slattery,7th,2 l,2,9-1,69,True,22,24
+N/A,N/A,16:45,Yielding To Soft,7f,Semblance Of Order (IRE),William James Lee,0,Andrew Oliver,6th,1/2 l,2,9-13v1,81,True,22,24
+N/A,N/A,16:45,Yielding To Soft,7f,Aurifodina (IRE),L. T. McAteer,3,J. S. Bolger,5th,4 1/4 l,2,9-12,80,True,22,24
+N/A,N/A,16:45,Yielding To Soft,7f,Amusement (IRE),P. A. Harnett,7,Donnacha Aidan O'Brien,4th,2 l,2,9-11b1,79,True,22,24
+N/A,N/A,16:45,Yielding To Soft,7f,Man Of Eden,R. P. Whelan,0,John Stephen O'Donoghue,3rd,3/4 l,2,9-13p1,81,True,22,24
+N/A,N/A,16:45,Yielding To Soft,7f,American Sonja,G. P. Halpin,0,Joseph Patrick O'Brien,2nd,Neck,2,10-0,82,True,22,24
+N/A,N/A,16:45,Yielding To Soft,7f,Devore (IRE),Ben Martin Coen,0,John Patrick Murtagh,1st,N/A,2,9-3,71,True,22,24
+N/A,N/A,16:45,Yielding To Soft,7f,Allesnick (IRE),L. F. Roche,0,Eddie & Patrick Harty,11th,19 l,2,9-4tb,72,True,22,24
+N/A,N/A,16:45,Yielding To Soft,7f,She's Local (IRE),C. T. Keane,0,Noel Meade,10th,Head,2,9-4,72,True,22,24
+N/A,N/A,16:45,Yielding To Soft,7f,Hialeah (IRE),M. A. Enright,0,Charles Weld,9th,Neck,2,9-0,68,True,22,24
+N/A,N/A,16:45,Yielding To Soft,7f,Slaney Tide (IRE),K. J. Manning,0,J. S. Bolger,8th,2 3/4 l,2,8-9tb1,63,True,22,24
+N/A,N/A,16:45,Yielding To Soft,7f,Belissimo,A. J. Slattery,0,A. Slattery,7th,2 l,2,9-1,69,True,22,24
+N/A,N/A,16:45,Yielding To Soft,7f,Semblance Of Order (IRE),William James Lee,0,Andrew Oliver,6th,1/2 l,2,9-13v1,81,True,22,24
+N/A,N/A,16:45,Yielding To Soft,7f,Aurifodina (IRE),L. T. McAteer,3,J. S. Bolger,5th,4 1/4 l,2,9-12,80,True,22,24
+N/A,N/A,16:45,Yielding To Soft,7f,Amusement (IRE),P. A. Harnett,7,Donnacha Aidan O'Brien,4th,2 l,2,9-11b1,79,True,22,24
+N/A,N/A,16:45,Yielding To Soft,7f,Man Of Eden,R. P. Whelan,0,John Stephen O'Donoghue,3rd,3/4 l,2,9-13p1,81,True,22,24
+N/A,N/A,16:45,Yielding To Soft,7f,American Sonja,G. P. Halpin,0,Joseph Patrick O'Brien,2nd,Neck,2,10-0,82,True,22,24
+N/A,N/A,16:45,Yielding To Soft,7f,Devore (IRE),Ben Martin Coen,0,John Patrick Murtagh,1st,N/A,2,9-3,71,True,22,24
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Layla Grace (IRE),A. J. Slattery,0,Thomas Dowling,24th,15 l,4,9-8,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Twilight Chorus (IRE),C. Horgan,7,Patrick Tallis,23rd,3 3/4 l,3,9-3,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Dreams Fled Away (IRE),R. C. Colgan,0,Shane Crawley,22nd,2 1/4 l,3,9-8,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Xchanger (IRE),L. F. Roche,0,Miss Natalia Lupini,21st,1/2 l,4,9-13,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Daylight Dancer (IRE),S. B. Kelly,0,John Patrick Murtagh,20th,3 3/4 l,3,9-3,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Indigo Five (IRE),L. T. McAteer,3,Patrick T. Foley,19th,3/4 l,3,9-3,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,James Alexander (IRE),William James Lee,0,W. McCreery,18th,2 l,3,9-8v1,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Meet Me There (IRE),R. P. Whelan,0,Andrew Oliver,17th,1 1/2 l,3,9-3,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Near Far,M. P. Sheehy,0,Andrew Oliver,16th,1/2 l,3,9-3,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Coushty (IRE),J. Kearney,7,Andrew McNamara,15th,3/4 l,3,9-8,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Carslake,Jessica O'Gorman,10,Aengus King,14th,Short Head,3,9-8h,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Faded Fantasy (IRE),C. T. Keane,0,G. M. Lyons,13th,Head,3,9-8,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Princess Wannabe (IRE),W. M. Lordan,0,J. A. Stack,12th,3/4 l,3,9-3p1,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Paradise Lost (IRE),N. G. McCullagh,0,Charles O'Brien,11th,3 1/2 l,3,9-8,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Nemean (USA),Ben Martin Coen,0,John Patrick Murtagh,10th,3/4 l,3,9-8v1,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Nostringsattached (IRE),G. M. Ryan,0,Andrew Kinirons,9th,3/4 l,3,9-3,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,John Alexander (IRE),N. M. Crosse,3,Luke Comer,8th,3/4 l,3,9-8,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Dream Escape,J. A. Powell,7,Thomas Mullins,7th,2 l,3,9-8,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Harley Street (IRE),Ryan Moore,0,Aidan O'Brien,6th,1/2 l,3,9-8,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Astelia (IRE),Shane Foley,0,Mrs J. Harrington,5th,2 1/2 l,3,9-3,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Painters Palette (IRE),C. D. Hayes,0,D. K. Weld,4th,3/4 l,3,9-8t,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Hibernia Oppositus (IRE),S. M. Crosse,0,Joseph Patrick O'Brien,3rd,1 1/2 l,3,9-8,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Rare Middleton,Declan McDonogh,0,Andrew Oliver,2nd,1/2 l,3,9-8,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Zoffman (IRE),D. B. McMonagle,0,Noel Meade,1st,N/A,3,9-8p,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Layla Grace (IRE),A. J. Slattery,0,Thomas Dowling,24th,15 l,4,9-8,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Twilight Chorus (IRE),C. Horgan,7,Patrick Tallis,23rd,3 3/4 l,3,9-3,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Dreams Fled Away (IRE),R. C. Colgan,0,Shane Crawley,22nd,2 1/4 l,3,9-8,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Xchanger (IRE),L. F. Roche,0,Miss Natalia Lupini,21st,1/2 l,4,9-13,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Daylight Dancer (IRE),S. B. Kelly,0,John Patrick Murtagh,20th,3 3/4 l,3,9-3,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Indigo Five (IRE),L. T. McAteer,3,Patrick T. Foley,19th,3/4 l,3,9-3,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,James Alexander (IRE),William James Lee,0,W. McCreery,18th,2 l,3,9-8v1,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Meet Me There (IRE),R. P. Whelan,0,Andrew Oliver,17th,1 1/2 l,3,9-3,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Near Far,M. P. Sheehy,0,Andrew Oliver,16th,1/2 l,3,9-3,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Coushty (IRE),J. Kearney,7,Andrew McNamara,15th,3/4 l,3,9-8,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Carslake,Jessica O'Gorman,10,Aengus King,14th,Short Head,3,9-8h,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Faded Fantasy (IRE),C. T. Keane,0,G. M. Lyons,13th,Head,3,9-8,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Princess Wannabe (IRE),W. M. Lordan,0,J. A. Stack,12th,3/4 l,3,9-3p1,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Paradise Lost (IRE),N. G. McCullagh,0,Charles O'Brien,11th,3 1/2 l,3,9-8,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Nemean (USA),Ben Martin Coen,0,John Patrick Murtagh,10th,3/4 l,3,9-8v1,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Nostringsattached (IRE),G. M. Ryan,0,Andrew Kinirons,9th,3/4 l,3,9-3,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,John Alexander (IRE),N. M. Crosse,3,Luke Comer,8th,3/4 l,3,9-8,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Dream Escape,J. A. Powell,7,Thomas Mullins,7th,2 l,3,9-8,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Harley Street (IRE),Ryan Moore,0,Aidan O'Brien,6th,1/2 l,3,9-8,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Astelia (IRE),Shane Foley,0,Mrs J. Harrington,5th,2 1/2 l,3,9-3,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Painters Palette (IRE),C. D. Hayes,0,D. K. Weld,4th,3/4 l,3,9-8t,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Hibernia Oppositus (IRE),S. M. Crosse,0,Joseph Patrick O'Brien,3rd,1 1/2 l,3,9-8,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Rare Middleton,Declan McDonogh,0,Andrew Oliver,2nd,1/2 l,3,9-8,-,True,22,25
+N/A,N/A,17:20,Yielding (Good To Yielding In Places),1m 2f,Zoffman (IRE),D. B. McMonagle,0,Noel Meade,1st,N/A,3,9-8p,-,True,22,25
+N/A,N/A,13:30,Yielding To Soft,5f,Lucy's Max (IRE),Shane Foley,0,Andrew Kinirons,8th,7 l,4,9-4,-,True,22,26
+N/A,N/A,13:30,Yielding To Soft,5f,Wild Eyed Girl (IRE),Ben Martin Coen,0,Brian Nolan,7th,Neck,3,9-3h,-,True,22,26
+N/A,N/A,13:30,Yielding To Soft,5f,Echoing (IRE),William James Lee,0,W. McCreery,6th,2 l,3,9-3,-,True,22,26
+N/A,N/A,13:30,Yielding To Soft,5f,Hector Berlioz,C. T. Keane,0,Ciaran Murphy,5th,3/4 l,3,9-8p1,-,True,22,26
+N/A,N/A,13:30,Yielding To Soft,5f,Cavallo Pazzo (IRE),D. B. McMonagle,0,Eoin Doyle,4th,Neck,3,9-8t,-,True,22,26
+N/A,N/A,13:30,Yielding To Soft,5f,Greek Flower (IRE),K. J. Manning,0,J. J. Feane,3rd,1 3/4 l,3,9-3,-,True,22,26
+N/A,N/A,13:30,Yielding To Soft,5f,Aurora Nova (IRE),R. C. Colgan,0,Ms Sheila Lavery,2nd,1/2 l,3,9-3,-,True,22,26
+N/A,N/A,13:30,Yielding To Soft,5f,Gobi Star (IRE),C. D. Hayes,0,Edward Lynam,1st,N/A,4,9-9,-,True,22,26
+N/A,N/A,13:30,Yielding To Soft,5f,Lucy's Max (IRE),Shane Foley,0,Andrew Kinirons,8th,7 l,4,9-4,-,True,22,26
+N/A,N/A,13:30,Yielding To Soft,5f,Wild Eyed Girl (IRE),Ben Martin Coen,0,Brian Nolan,7th,Neck,3,9-3h,-,True,22,26
+N/A,N/A,13:30,Yielding To Soft,5f,Echoing (IRE),William James Lee,0,W. McCreery,6th,2 l,3,9-3,-,True,22,26
+N/A,N/A,13:30,Yielding To Soft,5f,Hector Berlioz,C. T. Keane,0,Ciaran Murphy,5th,3/4 l,3,9-8p1,-,True,22,26
+N/A,N/A,13:30,Yielding To Soft,5f,Cavallo Pazzo (IRE),D. B. McMonagle,0,Eoin Doyle,4th,Neck,3,9-8t,-,True,22,26
+N/A,N/A,13:30,Yielding To Soft,5f,Greek Flower (IRE),K. J. Manning,0,J. J. Feane,3rd,1 3/4 l,3,9-3,-,True,22,26
+N/A,N/A,13:30,Yielding To Soft,5f,Aurora Nova (IRE),R. C. Colgan,0,Ms Sheila Lavery,2nd,1/2 l,3,9-3,-,True,22,26
+N/A,N/A,13:30,Yielding To Soft,5f,Gobi Star (IRE),C. D. Hayes,0,Edward Lynam,1st,N/A,4,9-9,-,True,22,26
+N/A,N/A,14:05,Yielding To Soft,5f,Laranjal (IRE),G. M. Ryan,0,M. C. Grassick,6th,3 l,2,8-11p1,58,True,22,27
+N/A,N/A,14:05,Yielding To Soft,5f,Distillate,Adam Caffrey,7,Adrian McGuinness,5th,Nose,2,9-9,70,True,22,27
+N/A,N/A,14:05,Yielding To Soft,5f,Hilltop's Bear (IRE),J. J. G. Ryan,7,James McAuley,4th,1 l,2,8-11,58,True,22,27
+N/A,N/A,14:05,Yielding To Soft,5f,Drunk In Love (IRE),C. T. Keane,0,Adrian Murray,3rd,1 1/4 l,2,9-12,73,True,22,27
+N/A,N/A,14:05,Yielding To Soft,5f,Wakai Umi (IRE),Shane Foley,0,Ciaran Murphy,2nd,3 3/4 l,2,9-6,67,True,22,27
+N/A,N/A,14:05,Yielding To Soft,5f,All In The Hips (IRE),C. D. Hayes,0,Jack W. Davison,1st,N/A,2,8-8,55,True,22,27
+N/A,N/A,14:05,Yielding To Soft,5f,Laranjal (IRE),G. M. Ryan,0,M. C. Grassick,6th,3 l,2,8-11p1,58,True,22,27
+N/A,N/A,14:05,Yielding To Soft,5f,Distillate,Adam Caffrey,7,Adrian McGuinness,5th,Nose,2,9-9,70,True,22,27
+N/A,N/A,14:05,Yielding To Soft,5f,Hilltop's Bear (IRE),J. J. G. Ryan,7,James McAuley,4th,1 l,2,8-11,58,True,22,27
+N/A,N/A,14:05,Yielding To Soft,5f,Drunk In Love (IRE),C. T. Keane,0,Adrian Murray,3rd,1 1/4 l,2,9-12,73,True,22,27
+N/A,N/A,14:05,Yielding To Soft,5f,Wakai Umi (IRE),Shane Foley,0,Ciaran Murphy,2nd,3 3/4 l,2,9-6,67,True,22,27
+N/A,N/A,14:05,Yielding To Soft,5f,All In The Hips (IRE),C. D. Hayes,0,Jack W. Davison,1st,N/A,2,8-8,55,True,22,27
+N/A,N/A,14:40,Yielding To Soft,5f,Mehman,Shane Foley,0,G. O'Leary,7th,Neck,3,8-10t,72,True,22,28
+N/A,N/A,14:40,Yielding To Soft,5f,Loveday (IRE),William James Lee,0,W. McCreery,6th,1/2 l,3,10-0,90,True,22,28
+N/A,N/A,14:40,Yielding To Soft,5f,Magniffico,Ben Martin Coen,0,John Patrick Murtagh,5th,1 1/4 l,3,9-1,77,True,22,28
+N/A,N/A,14:40,Yielding To Soft,5f,Scarlet Dancer (IRE),J. A. Powell,7,James McAuley,4th,Neck,3,8-8,70,True,22,28
+N/A,N/A,14:40,Yielding To Soft,5f,Neo Soul (IRE),C. T. Keane,0,G. M. Lyons,3rd,Neck,3,9-11b,87,True,22,28
+N/A,N/A,14:40,Yielding To Soft,5f,Harmony Rose,J. M. Sheridan,3,K. J. Condon,2nd,Head,3,9-6,82,True,22,28
+N/A,N/A,14:40,Yielding To Soft,5f,Shoebox King (IRE),James J. Doyle,0,Kevin Thomas Coleman,1st,N/A,3,8-9,71,True,22,28
+N/A,N/A,14:40,Yielding To Soft,5f,Mehman,Shane Foley,0,G. O'Leary,7th,Neck,3,8-10t,72,True,22,28
+N/A,N/A,14:40,Yielding To Soft,5f,Loveday (IRE),William James Lee,0,W. McCreery,6th,1/2 l,3,10-0,90,True,22,28
+N/A,N/A,14:40,Yielding To Soft,5f,Magniffico,Ben Martin Coen,0,John Patrick Murtagh,5th,1 1/4 l,3,9-1,77,True,22,28
+N/A,N/A,14:40,Yielding To Soft,5f,Scarlet Dancer (IRE),J. A. Powell,7,James McAuley,4th,Neck,3,8-8,70,True,22,28
+N/A,N/A,14:40,Yielding To Soft,5f,Neo Soul (IRE),C. T. Keane,0,G. M. Lyons,3rd,Neck,3,9-11b,87,True,22,28
+N/A,N/A,14:40,Yielding To Soft,5f,Harmony Rose,J. M. Sheridan,3,K. J. Condon,2nd,Head,3,9-6,82,True,22,28
+N/A,N/A,14:40,Yielding To Soft,5f,Shoebox King (IRE),James J. Doyle,0,Kevin Thomas Coleman,1st,N/A,3,8-9,71,True,22,28
+N/A,N/A,15:15,Yielding To Soft,7f,Kami (IRE),J. A. Powell,7,Mark McNiff,10th,Neck,2,8-8,-,True,22,29
+N/A,N/A,15:15,Yielding To Soft,7f,Ciorcal (IRE),M. P. Sheehy,0,Joseph Patrick O'Brien,9th,4 1/4 l,2,8-8,-,True,22,29
+N/A,N/A,15:15,Yielding To Soft,7f,Drop The Dip (IRE),L. F. Roche,0,T. Gibney,8th,1 1/4 l,2,8-8,-,True,22,29
+N/A,N/A,15:15,Yielding To Soft,7f,Grange Lady,N. M. Crosse,3,Noel Meade,7th,2 l,2,8-8,-,True,22,29
+N/A,N/A,15:15,Yielding To Soft,7f,Perfect Poise (IRE),C. T. Keane,0,G. M. Lyons,6th,Head,2,8-8,-,True,22,29
+N/A,N/A,15:15,Yielding To Soft,7f,Operatic Artist (IRE),Declan McDonogh,0,Joseph Patrick O'Brien,5th,1/2 l,2,9-4,-,True,22,29
+N/A,N/A,15:15,Yielding To Soft,7f,Shangrilama (IRE),R. P. Cleary,0,Noel Meade,4th,Short Head,2,8-8,-,True,22,29
+N/A,N/A,15:15,Yielding To Soft,7f,La Tulipe Noire (IRE),Siobhan Rutledge,5,Ciaran Murphy,3rd,3/4 l,2,8-8,-,True,22,29
+N/A,N/A,15:15,Yielding To Soft,7f,Alabama Pearl (IRE),Ben Martin Coen,0,John Patrick Murtagh,2nd,2 1/4 l,2,9-0,-,True,22,29
+N/A,N/A,15:15,Yielding To Soft,7f,Encosta (IRE),C. D. Hayes,0,Noel Meade,1st,N/A,2,8-10,-,True,22,29
+N/A,N/A,15:15,Yielding To Soft,7f,Kami (IRE),J. A. Powell,7,Mark McNiff,10th,Neck,2,8-8,-,True,22,29
+N/A,N/A,15:15,Yielding To Soft,7f,Ciorcal (IRE),M. P. Sheehy,0,Joseph Patrick O'Brien,9th,4 1/4 l,2,8-8,-,True,22,29
+N/A,N/A,15:15,Yielding To Soft,7f,Drop The Dip (IRE),L. F. Roche,0,T. Gibney,8th,1 1/4 l,2,8-8,-,True,22,29
+N/A,N/A,15:15,Yielding To Soft,7f,Grange Lady,N. M. Crosse,3,Noel Meade,7th,2 l,2,8-8,-,True,22,29
+N/A,N/A,15:15,Yielding To Soft,7f,Perfect Poise (IRE),C. T. Keane,0,G. M. Lyons,6th,Head,2,8-8,-,True,22,29
+N/A,N/A,15:15,Yielding To Soft,7f,Operatic Artist (IRE),Declan McDonogh,0,Joseph Patrick O'Brien,5th,1/2 l,2,9-4,-,True,22,29
+N/A,N/A,15:15,Yielding To Soft,7f,Shangrilama (IRE),R. P. Cleary,0,Noel Meade,4th,Short Head,2,8-8,-,True,22,29
+N/A,N/A,15:15,Yielding To Soft,7f,La Tulipe Noire (IRE),Siobhan Rutledge,5,Ciaran Murphy,3rd,3/4 l,2,8-8,-,True,22,29
+N/A,N/A,15:15,Yielding To Soft,7f,Alabama Pearl (IRE),Ben Martin Coen,0,John Patrick Murtagh,2nd,2 1/4 l,2,9-0,-,True,22,29
+N/A,N/A,15:15,Yielding To Soft,7f,Encosta (IRE),C. D. Hayes,0,Noel Meade,1st,N/A,2,8-10,-,True,22,29
+N/A,N/A,15:50,Yielding To Soft,7f,Linus Larrabee (IRE),Ben Martin Coen,0,Edward Lynam,13th,3 l,5,9-4tb,58,True,22,30
+N/A,N/A,15:50,Yielding To Soft,7f,Soyounique (IRE),Siobhan Rutledge,5,Ciaran Murphy,12th,1 1/2 l,5,9-12tv1,66,True,22,30
+N/A,N/A,15:50,Yielding To Soft,7f,Higher Kingdom,D. W. O'Connor,0,John McConnell,11th,Neck,5,10-0,68,True,22,30
+N/A,N/A,15:50,Yielding To Soft,7f,Secret Road (IRE),C. T. Keane,0,Gerard Keane,10th,1/2 l,4,9-10,64,True,22,30
+N/A,N/A,15:50,Yielding To Soft,7f,Salt Whistle Bay (IRE),K. Bailey,10,J. F. Levins,9th,1/2 l,8,8-13v1,53,True,22,30
+N/A,N/A,15:50,Yielding To Soft,7f,Praying Mantis (IRE),C. J. MacRedmond,5,John Larkin,8th,2 3/4 l,5,9-6t,60,True,22,30
+N/A,N/A,15:50,Yielding To Soft,7f,Ginsburg (IRE),R. M. Mulligan,10,P. Mulligan,7th,1/2 l,4,10-2p,70,True,22,30
+N/A,N/A,15:50,Yielding To Soft,7f,Eastern Racer (IRE),William James Lee,0,James McAuley,6th,1 1/4 l,10,9-12b,66,True,22,30
+N/A,N/A,15:50,Yielding To Soft,7f,Wee Pablo (IRE),J. Coen,5,Patrick Martin,5th,Short Head,5,9-9t,63,True,22,30
+N/A,N/A,15:50,Yielding To Soft,7f,Pulse Of Shanghai (IRE),Adam Caffrey,7,Adrian McGuinness,4th,Nose,6,9-10,64,True,22,30
+N/A,N/A,15:50,Yielding To Soft,7f,Sister Lola (IRE),Shane Foley,0,James McAuley,3rd,3/4 l,5,10-2tp,70,True,22,30
+N/A,N/A,15:50,Yielding To Soft,7f,Fastman (IRE),D. B. McMonagle,0,John McConnell,2nd,3/4 l,6,9-8tp1,62,True,22,30
+N/A,N/A,15:50,Yielding To Soft,7f,Gegenpressing,C. D. Hayes,0,Eddie & Patrick Harty,1st,N/A,4,9-13t,67,True,22,30
+N/A,N/A,15:50,Yielding To Soft,7f,Linus Larrabee (IRE),Ben Martin Coen,0,Edward Lynam,13th,3 l,5,9-4tb,58,True,22,30
+N/A,N/A,15:50,Yielding To Soft,7f,Soyounique (IRE),Siobhan Rutledge,5,Ciaran Murphy,12th,1 1/2 l,5,9-12tv1,66,True,22,30
+N/A,N/A,15:50,Yielding To Soft,7f,Higher Kingdom,D. W. O'Connor,0,John McConnell,11th,Neck,5,10-0,68,True,22,30
+N/A,N/A,15:50,Yielding To Soft,7f,Secret Road (IRE),C. T. Keane,0,Gerard Keane,10th,1/2 l,4,9-10,64,True,22,30
+N/A,N/A,15:50,Yielding To Soft,7f,Salt Whistle Bay (IRE),K. Bailey,10,J. F. Levins,9th,1/2 l,8,8-13v1,53,True,22,30
+N/A,N/A,15:50,Yielding To Soft,7f,Praying Mantis (IRE),C. J. MacRedmond,5,John Larkin,8th,2 3/4 l,5,9-6t,60,True,22,30
+N/A,N/A,15:50,Yielding To Soft,7f,Ginsburg (IRE),R. M. Mulligan,10,P. Mulligan,7th,1/2 l,4,10-2p,70,True,22,30
+N/A,N/A,15:50,Yielding To Soft,7f,Eastern Racer (IRE),William James Lee,0,James McAuley,6th,1 1/4 l,10,9-12b,66,True,22,30
+N/A,N/A,15:50,Yielding To Soft,7f,Wee Pablo (IRE),J. Coen,5,Patrick Martin,5th,Short Head,5,9-9t,63,True,22,30
+N/A,N/A,15:50,Yielding To Soft,7f,Pulse Of Shanghai (IRE),Adam Caffrey,7,Adrian McGuinness,4th,Nose,6,9-10,64,True,22,30
+N/A,N/A,15:50,Yielding To Soft,7f,Sister Lola (IRE),Shane Foley,0,James McAuley,3rd,3/4 l,5,10-2tp,70,True,22,30
+N/A,N/A,15:50,Yielding To Soft,7f,Fastman (IRE),D. B. McMonagle,0,John McConnell,2nd,3/4 l,6,9-8tp1,62,True,22,30
+N/A,N/A,15:50,Yielding To Soft,7f,Gegenpressing,C. D. Hayes,0,Eddie & Patrick Harty,1st,N/A,4,9-13t,67,True,22,30
+N/A,N/A,16:25,Yielding To Soft (Soft In Places),1m 2f 75y,Golden Ticket (IRE),D. W. O'Connor,0,John McConnell,14th,28 l,3,9-2h,56,True,22,31
+N/A,N/A,16:25,Yielding To Soft (Soft In Places),1m 2f 75y,Odd Venture (IRE),Sorcha Woods,7,R. K. Watson,13th,20 l,5,8-12p,47,True,22,31
+N/A,N/A,16:25,Yielding To Soft (Soft In Places),1m 2f 75y,Indy System (IRE),William James Lee,0,M. C. Grassick,12th,Neck,6,9-11,60,True,22,31
+N/A,N/A,16:25,Yielding To Soft (Soft In Places),1m 2f 75y,Must B Art (IRE),C. T. Keane,0,Patrick Martin,11th,3/4 l,5,9-5t,54,True,22,31
+N/A,N/A,16:25,Yielding To Soft (Soft In Places),1m 2f 75y,Eagles Perch (IRE),M. P. Sheehy,0,John McConnell,10th,Head,3,8-10,50,True,22,31
+N/A,N/A,16:25,Yielding To Soft (Soft In Places),1m 2f 75y,Ta Na La (USA),J. A. Powell,7,T. M. Walsh,9th,2 1/2 l,3,9-8,62,True,22,31
+N/A,N/A,16:25,Yielding To Soft (Soft In Places),1m 2f 75y,Chutzpal (IRE),M. A. Enright,0,Miss Jennifer Anne Lynch,8th,1 1/2 l,3,9-6p1,60,True,22,31
+N/A,N/A,16:25,Yielding To Soft (Soft In Places),1m 2f 75y,Cursory Exam,D. King,7,G. O'Leary,7th,3/4 l,4,10-1,64,True,22,31
+N/A,N/A,16:25,Yielding To Soft (Soft In Places),1m 2f 75y,Magi Gal (IRE),Siobhan Rutledge,5,John McConnell,6th,1 1/2 l,6,9-0t,49,True,22,31
+N/A,N/A,16:25,Yielding To Soft (Soft In Places),1m 2f 75y,Forgetmenotblue (IRE),C. D. Hayes,0,D. K. Weld,5th,3/4 l,3,9-3b,57,True,22,31
+N/A,N/A,16:25,Yielding To Soft (Soft In Places),1m 2f 75y,Numidia (IRE),A. C. Persse,7,Peter Lawlor,4th,1/2 l,4,8-12h1,47,True,22,31
+N/A,N/A,16:25,Yielding To Soft (Soft In Places),1m 2f 75y,Angel On Fire (USA),C. Horgan,7,P. F. McEnery,3rd,1/2 l,4,8-12ht,47,True,22,31
+N/A,N/A,16:25,Yielding To Soft (Soft In Places),1m 2f 75y,Firstman (FR),Ben Martin Coen,0,A. J. Martin,2nd,Neck,5,10-2t,65,True,22,31
+N/A,N/A,16:25,Yielding To Soft (Soft In Places),1m 2f 75y,Red Trail (IRE),J. Kearney,7,Andrew McNamara,1st,N/A,3,9-1,55,True,22,31
+N/A,N/A,16:25,Yielding To Soft (Soft In Places),1m 2f 75y,Golden Ticket (IRE),D. W. O'Connor,0,John McConnell,14th,28 l,3,9-2h,56,True,22,31
+N/A,N/A,16:25,Yielding To Soft (Soft In Places),1m 2f 75y,Odd Venture (IRE),Sorcha Woods,7,R. K. Watson,13th,20 l,5,8-12p,47,True,22,31
+N/A,N/A,16:25,Yielding To Soft (Soft In Places),1m 2f 75y,Indy System (IRE),William James Lee,0,M. C. Grassick,12th,Neck,6,9-11,60,True,22,31
+N/A,N/A,16:25,Yielding To Soft (Soft In Places),1m 2f 75y,Must B Art (IRE),C. T. Keane,0,Patrick Martin,11th,3/4 l,5,9-5t,54,True,22,31
+N/A,N/A,16:25,Yielding To Soft (Soft In Places),1m 2f 75y,Eagles Perch (IRE),M. P. Sheehy,0,John McConnell,10th,Head,3,8-10,50,True,22,31
+N/A,N/A,16:25,Yielding To Soft (Soft In Places),1m 2f 75y,Ta Na La (USA),J. A. Powell,7,T. M. Walsh,9th,2 1/2 l,3,9-8,62,True,22,31
+N/A,N/A,16:25,Yielding To Soft (Soft In Places),1m 2f 75y,Chutzpal (IRE),M. A. Enright,0,Miss Jennifer Anne Lynch,8th,1 1/2 l,3,9-6p1,60,True,22,31
+N/A,N/A,16:25,Yielding To Soft (Soft In Places),1m 2f 75y,Cursory Exam,D. King,7,G. O'Leary,7th,3/4 l,4,10-1,64,True,22,31
+N/A,N/A,16:25,Yielding To Soft (Soft In Places),1m 2f 75y,Magi Gal (IRE),Siobhan Rutledge,5,John McConnell,6th,1 1/2 l,6,9-0t,49,True,22,31
+N/A,N/A,16:25,Yielding To Soft (Soft In Places),1m 2f 75y,Forgetmenotblue (IRE),C. D. Hayes,0,D. K. Weld,5th,3/4 l,3,9-3b,57,True,22,31
+N/A,N/A,16:25,Yielding To Soft (Soft In Places),1m 2f 75y,Numidia (IRE),A. C. Persse,7,Peter Lawlor,4th,1/2 l,4,8-12h1,47,True,22,31
+N/A,N/A,16:25,Yielding To Soft (Soft In Places),1m 2f 75y,Angel On Fire (USA),C. Horgan,7,P. F. McEnery,3rd,1/2 l,4,8-12ht,47,True,22,31
+N/A,N/A,16:25,Yielding To Soft (Soft In Places),1m 2f 75y,Firstman (FR),Ben Martin Coen,0,A. J. Martin,2nd,Neck,5,10-2t,65,True,22,31
+N/A,N/A,16:25,Yielding To Soft (Soft In Places),1m 2f 75y,Red Trail (IRE),J. Kearney,7,Andrew McNamara,1st,N/A,3,9-1,55,True,22,31
+N/A,N/A,17:00,Yielding To Soft (Soft In Places),1m 2f 75y,Short N Sweet (IRE),Shane Foley,0,James McAuley,13th,38 l,3,8-12p1,49,True,22,32
+N/A,N/A,17:00,Yielding To Soft (Soft In Places),1m 2f 75y,Tynan (IRE),Sorcha Woods,7,R. K. Watson,12th,4 3/4 l,4,9-1,47,True,22,32
+N/A,N/A,17:00,Yielding To Soft (Soft In Places),1m 2f 75y,Astrophysicist,L. F. Roche,0,James A. Nash,11th,1 3/4 l,4,9-12tb,58,True,22,32
+N/A,N/A,17:00,Yielding To Soft (Soft In Places),1m 2f 75y,Big Belief (IRE),B. P. Kennedy,10,Seamus Fahey,10th,1/2 l,4,10-0b1,60,True,22,32
+N/A,N/A,17:00,Yielding To Soft (Soft In Places),1m 2f 75y,The Dazzer (IRE),C. T. Keane,0,Patrick Martin,9th,2 1/2 l,3,9-7,58,True,22,32
+N/A,N/A,17:00,Yielding To Soft (Soft In Places),1m 2f 75y,Thegooseiscooked (IRE),William James Lee,0,Anthony Mullins,8th,4 1/2 l,5,9-11,57,True,22,32
+N/A,N/A,17:00,Yielding To Soft (Soft In Places),1m 2f 75y,Kampala Beach (IRE),R. P. Whelan,0,M. Halford,7th,7 1/2 l,3,9-0,51,True,22,32
+N/A,N/A,17:00,Yielding To Soft (Soft In Places),1m 2f 75y,Reverberation,G. M. Ryan,0,J. J. Lambe,6th,Nose,7,9-9,55,True,22,32
+N/A,N/A,17:00,Yielding To Soft (Soft In Places),1m 2f 75y,Red Ball Of Fire (IRE),Siobhan Rutledge,5,Mark McNiff,5th,1 1/4 l,5,9-10p,56,True,22,32
+N/A,N/A,17:00,Yielding To Soft (Soft In Places),1m 2f 75y,Hello Power (IRE),D. King,7,G. O'Leary,4th,2 1/4 l,3,9-11,62,True,22,32
+N/A,N/A,17:00,Yielding To Soft (Soft In Places),1m 2f 75y,St Cianans Fire (IRE),D. B. McMonagle,0,John McConnell,3rd,3 l,4,9-10t,56,True,22,32
+N/A,N/A,17:00,Yielding To Soft (Soft In Places),1m 2f 75y,Complete Fiction (IRE),R. P. Cleary,0,Jarlath P. Fahey,2nd,1/2 l,5,9-10p,56,True,22,32
+N/A,N/A,17:00,Yielding To Soft (Soft In Places),1m 2f 75y,Kartayaz (IRE),Kyanna Van Buuren,10,John McConnell,1st,N/A,5,9-1,47,True,22,32
+N/A,N/A,17:00,Yielding To Soft (Soft In Places),1m 2f 75y,Short N Sweet (IRE),Shane Foley,0,James McAuley,13th,38 l,3,8-12p1,49,True,22,32
+N/A,N/A,17:00,Yielding To Soft (Soft In Places),1m 2f 75y,Tynan (IRE),Sorcha Woods,7,R. K. Watson,12th,4 3/4 l,4,9-1,47,True,22,32
+N/A,N/A,17:00,Yielding To Soft (Soft In Places),1m 2f 75y,Astrophysicist,L. F. Roche,0,James A. Nash,11th,1 3/4 l,4,9-12tb,58,True,22,32
+N/A,N/A,17:00,Yielding To Soft (Soft In Places),1m 2f 75y,Big Belief (IRE),B. P. Kennedy,10,Seamus Fahey,10th,1/2 l,4,10-0b1,60,True,22,32
+N/A,N/A,17:00,Yielding To Soft (Soft In Places),1m 2f 75y,The Dazzer (IRE),C. T. Keane,0,Patrick Martin,9th,2 1/2 l,3,9-7,58,True,22,32
+N/A,N/A,17:00,Yielding To Soft (Soft In Places),1m 2f 75y,Thegooseiscooked (IRE),William James Lee,0,Anthony Mullins,8th,4 1/2 l,5,9-11,57,True,22,32
+N/A,N/A,17:00,Yielding To Soft (Soft In Places),1m 2f 75y,Kampala Beach (IRE),R. P. Whelan,0,M. Halford,7th,7 1/2 l,3,9-0,51,True,22,32
+N/A,N/A,17:00,Yielding To Soft (Soft In Places),1m 2f 75y,Reverberation,G. M. Ryan,0,J. J. Lambe,6th,Nose,7,9-9,55,True,22,32
+N/A,N/A,17:00,Yielding To Soft (Soft In Places),1m 2f 75y,Red Ball Of Fire (IRE),Siobhan Rutledge,5,Mark McNiff,5th,1 1/4 l,5,9-10p,56,True,22,32
+N/A,N/A,17:00,Yielding To Soft (Soft In Places),1m 2f 75y,Hello Power (IRE),D. King,7,G. O'Leary,4th,2 1/4 l,3,9-11,62,True,22,32
+N/A,N/A,17:00,Yielding To Soft (Soft In Places),1m 2f 75y,St Cianans Fire (IRE),D. B. McMonagle,0,John McConnell,3rd,3 l,4,9-10t,56,True,22,32
+N/A,N/A,17:00,Yielding To Soft (Soft In Places),1m 2f 75y,Complete Fiction (IRE),R. P. Cleary,0,Jarlath P. Fahey,2nd,1/2 l,5,9-10p,56,True,22,32
+N/A,N/A,17:00,Yielding To Soft (Soft In Places),1m 2f 75y,Kartayaz (IRE),Kyanna Van Buuren,10,John McConnell,1st,N/A,5,9-1,47,True,22,32
+N/A,N/A,17:30,Yielding To Soft (Soft In Places),1m 4f 175y,Global Energy,R. C. Colgan,0,Ms Sheila Lavery,13th,5 1/2 l,3,9-3,75,True,22,33
+N/A,N/A,17:30,Yielding To Soft (Soft In Places),1m 4f 175y,Gonetomillgrove (IRE),L. T. McAteer,3,Jack W. Davison,12th,20 l,4,9-7,72,True,22,33
+N/A,N/A,17:30,Yielding To Soft (Soft In Places),1m 4f 175y,No Trouble (IRE),Siobhan Rutledge,5,John McConnell,11th,1 1/2 l,6,10-0t,79,True,22,33
+N/A,N/A,17:30,Yielding To Soft (Soft In Places),1m 4f 175y,Gatito Rapido (USA),R. P. Whelan,0,Andrew Oliver,10th,1 l,3,8-11,69,True,22,33
+N/A,N/A,17:30,Yielding To Soft (Soft In Places),1m 4f 175y,Darraby,C. T. Keane,0,Brendan Duke,9th,1/2 l,3,9-2,74,True,22,33
+N/A,N/A,17:30,Yielding To Soft (Soft In Places),1m 4f 175y,Palace Rock (IRE),C. D. Maxwell,0,Francis Casey,8th,3 1/4 l,5,9-12,77,True,22,33
+N/A,N/A,17:30,Yielding To Soft (Soft In Places),1m 4f 175y,Free to Party (IRE),Ben Martin Coen,0,John Patrick Murtagh,7th,1 1/4 l,3,9-11,83,True,22,33
+N/A,N/A,17:30,Yielding To Soft (Soft In Places),1m 4f 175y,Melnik (IRE),G. F. Carroll,0,Gavin Patrick Cromwell,6th,4 1/2 l,3,9-3,75,True,22,33
+N/A,N/A,17:30,Yielding To Soft (Soft In Places),1m 4f 175y,Believe In Science (IRE),K. J. Manning,0,J. S. Bolger,5th,2 l,3,9-0,72,True,22,33
+N/A,N/A,17:30,Yielding To Soft (Soft In Places),1m 4f 175y,Adonis (IRE),Shane Foley,0,Mrs J. Harrington,4th,3 1/2 l,3,9-8b,80,True,22,33
+N/A,N/A,17:30,Yielding To Soft (Soft In Places),1m 4f 175y,Fennor Cross (IRE),D. W. O'Connor,0,John McConnell,3rd,1/2 l,5,10-0,79,True,22,33
+N/A,N/A,17:30,Yielding To Soft (Soft In Places),1m 4f 175y,Regally Blonde,William James Lee,0,Andrew Oliver,2nd,1 1/4 l,3,8-12,70,True,22,33
+N/A,N/A,17:30,Yielding To Soft (Soft In Places),1m 4f 175y,Como Park (IRE),Declan McDonogh,0,Joseph Patrick O'Brien,1st,N/A,3,9-10b1,82,True,22,33
+N/A,N/A,17:30,Yielding To Soft (Soft In Places),1m 4f 175y,Global Energy,R. C. Colgan,0,Ms Sheila Lavery,13th,5 1/2 l,3,9-3,75,True,22,33
+N/A,N/A,17:30,Yielding To Soft (Soft In Places),1m 4f 175y,Gonetomillgrove (IRE),L. T. McAteer,3,Jack W. Davison,12th,20 l,4,9-7,72,True,22,33
+N/A,N/A,17:30,Yielding To Soft (Soft In Places),1m 4f 175y,No Trouble (IRE),Siobhan Rutledge,5,John McConnell,11th,1 1/2 l,6,10-0t,79,True,22,33
+N/A,N/A,17:30,Yielding To Soft (Soft In Places),1m 4f 175y,Gatito Rapido (USA),R. P. Whelan,0,Andrew Oliver,10th,1 l,3,8-11,69,True,22,33
+N/A,N/A,17:30,Yielding To Soft (Soft In Places),1m 4f 175y,Darraby,C. T. Keane,0,Brendan Duke,9th,1/2 l,3,9-2,74,True,22,33
+N/A,N/A,17:30,Yielding To Soft (Soft In Places),1m 4f 175y,Palace Rock (IRE),C. D. Maxwell,0,Francis Casey,8th,3 1/4 l,5,9-12,77,True,22,33
+N/A,N/A,17:30,Yielding To Soft (Soft In Places),1m 4f 175y,Free to Party (IRE),Ben Martin Coen,0,John Patrick Murtagh,7th,1 1/4 l,3,9-11,83,True,22,33
+N/A,N/A,17:30,Yielding To Soft (Soft In Places),1m 4f 175y,Melnik (IRE),G. F. Carroll,0,Gavin Patrick Cromwell,6th,4 1/2 l,3,9-3,75,True,22,33
+N/A,N/A,17:30,Yielding To Soft (Soft In Places),1m 4f 175y,Believe In Science (IRE),K. J. Manning,0,J. S. Bolger,5th,2 l,3,9-0,72,True,22,33
+N/A,N/A,17:30,Yielding To Soft (Soft In Places),1m 4f 175y,Adonis (IRE),Shane Foley,0,Mrs J. Harrington,4th,3 1/2 l,3,9-8b,80,True,22,33
+N/A,N/A,17:30,Yielding To Soft (Soft In Places),1m 4f 175y,Fennor Cross (IRE),D. W. O'Connor,0,John McConnell,3rd,1/2 l,5,10-0,79,True,22,33
+N/A,N/A,17:30,Yielding To Soft (Soft In Places),1m 4f 175y,Regally Blonde,William James Lee,0,Andrew Oliver,2nd,1 1/4 l,3,8-12,70,True,22,33
+N/A,N/A,17:30,Yielding To Soft (Soft In Places),1m 4f 175y,Como Park (IRE),Declan McDonogh,0,Joseph Patrick O'Brien,1st,N/A,3,9-10b1,82,True,22,33
+N/A,N/A,13:50,Good,1m 7f 78y,Ages Of Man (IRE),J. J. Slevin,0,Anthony McCann,F,N/A,4,11-7,-,True,22,34
+N/A,N/A,13:50,Good,1m 7f 78y,Mount Bounty (IRE),Sam Ewing,0,D. Broad,12th,7 l,4,11-7,-,True,22,34
+N/A,N/A,13:50,Good,1m 7f 78y,Therailwayman (IRE),K. C. Sexton,0,E. Sheehy,11th,2 1/4 l,4,11-7h,-,True,22,34
+N/A,N/A,13:50,Good,1m 7f 78y,Essential Part (IRE),A. P. Kelly,7,Padraig Roche,10th,11 l,4,11-0t,-,True,22,34
+N/A,N/A,13:50,Good,1m 7f 78y,Shaylee (IRE),S. O'Callaghan,0,N. Madden,9th,2 1/2 l,4,11-0,-,True,22,34
+N/A,N/A,13:50,Good,1m 7f 78y,Whose a Diva (IRE),C. M. Quirke,7,A. Slattery,8th,Nose,4,11-0,-,True,22,34
+N/A,N/A,13:50,Good,1m 7f 78y,Just Another Day (IRE),E. Walsh,5,Ciaran Murphy,7th,1 3/4 l,4,11-7h1,-,True,22,34
+N/A,N/A,13:50,Good,1m 7f 78y,Aide De Camp (IRE),Aidan Coleman,0,Denis Hogan,6th,1 3/4 l,4,11-7,-,True,22,34
+N/A,N/A,13:50,Good,1m 7f 78y,Sheephaven Flyer (IRE),Rachael Blackmore,0,Henry de Bromhead,5th,17 l,4,11-7,-,True,22,34
+N/A,N/A,13:50,Good,1m 7f 78y,Western Comandor (IRE),M. J. M. O'Sullivan,7,John Patrick Ryan,4th,3 3/4 l,4,11-7,-,True,22,34
+N/A,N/A,13:50,Good,1m 7f 78y,Up And Out (IRE),Jordan Colin Gainford,0,Gordon Elliott,3rd,9 1/2 l,4,11-0,-,True,22,34
+N/A,N/A,13:50,Good,1m 7f 78y,Solitary Man (IRE),D. J. O'Keeffe,0,Enda Bolger,2nd,4 3/4 l,4,11-7,-,True,22,34
+N/A,N/A,13:50,Good,1m 7f 78y,Black Hawk Eagle (IRE),S. D. Torrens,0,Noel Meade,1st,N/A,4,11-7,-,True,22,34
+N/A,N/A,13:50,Good,1m 7f 78y,Ages Of Man (IRE),J. J. Slevin,0,Anthony McCann,F,N/A,4,11-7,-,True,22,34
+N/A,N/A,13:50,Good,1m 7f 78y,Mount Bounty (IRE),Sam Ewing,0,D. Broad,12th,7 l,4,11-7,-,True,22,34
+N/A,N/A,13:50,Good,1m 7f 78y,Therailwayman (IRE),K. C. Sexton,0,E. Sheehy,11th,2 1/4 l,4,11-7h,-,True,22,34
+N/A,N/A,13:50,Good,1m 7f 78y,Essential Part (IRE),A. P. Kelly,7,Padraig Roche,10th,11 l,4,11-0t,-,True,22,34
+N/A,N/A,13:50,Good,1m 7f 78y,Shaylee (IRE),S. O'Callaghan,0,N. Madden,9th,2 1/2 l,4,11-0,-,True,22,34
+N/A,N/A,13:50,Good,1m 7f 78y,Whose a Diva (IRE),C. M. Quirke,7,A. Slattery,8th,Nose,4,11-0,-,True,22,34
+N/A,N/A,13:50,Good,1m 7f 78y,Just Another Day (IRE),E. Walsh,5,Ciaran Murphy,7th,1 3/4 l,4,11-7h1,-,True,22,34
+N/A,N/A,13:50,Good,1m 7f 78y,Aide De Camp (IRE),Aidan Coleman,0,Denis Hogan,6th,1 3/4 l,4,11-7,-,True,22,34
+N/A,N/A,13:50,Good,1m 7f 78y,Sheephaven Flyer (IRE),Rachael Blackmore,0,Henry de Bromhead,5th,17 l,4,11-7,-,True,22,34
+N/A,N/A,13:50,Good,1m 7f 78y,Western Comandor (IRE),M. J. M. O'Sullivan,7,John Patrick Ryan,4th,3 3/4 l,4,11-7,-,True,22,34
+N/A,N/A,13:50,Good,1m 7f 78y,Up And Out (IRE),Jordan Colin Gainford,0,Gordon Elliott,3rd,9 1/2 l,4,11-0,-,True,22,34
+N/A,N/A,13:50,Good,1m 7f 78y,Solitary Man (IRE),D. J. O'Keeffe,0,Enda Bolger,2nd,4 3/4 l,4,11-7,-,True,22,34
+N/A,N/A,13:50,Good,1m 7f 78y,Black Hawk Eagle (IRE),S. D. Torrens,0,Noel Meade,1st,N/A,4,11-7,-,True,22,34
+N/A,N/A,14:25,Good,1m 7f 78y,Red Striker (IRE),Patrick O'Hanlon,5,Andrew McNamara,PU,N/A,7,11-10tp,95,True,22,35
+N/A,N/A,14:25,Good,1m 7f 78y,Canteeny Benny (IRE),Eoin G. Kelly,0,Paul W. Flynn,F,N/A,6,11-9,94,True,22,35
+N/A,N/A,14:25,Good,1m 7f 78y,Brown Monday (FR),Jordan Colin Gainford,0,John Joseph Hanlon,F,N/A,5,11-6,91,True,22,35
+N/A,N/A,14:25,Good,1m 7f 78y,Happaugue (IRE),S. D. Torrens,0,John McConnell,BD,N/A,6,11-5,90,True,22,35
+N/A,N/A,14:25,Good,1m 7f 78y,Ghumama (IRE),S. A. Mulcahy,7,Denis Hogan,12th,24 l,4,11-8t,95,True,22,35
+N/A,N/A,14:25,Good,1m 7f 78y,The Hogan Stand (FR),Shane Fenelon,7,John Joseph Hanlon,11th,24 l,5,11-9,94,True,22,35
+N/A,N/A,14:25,Good,1m 7f 78y,The Alpha Man (IRE),S. F. O'Keeffe,0,Seamus G. O'Donnell,10th,18 l,6,11-12t,97,True,22,35
+N/A,N/A,14:25,Good,1m 7f 78y,Barbaha Queen (IRE),D. E. Mullins,0,John Patrick Ryan,9th,Short Head,6,11-10,95,True,22,35
+N/A,N/A,14:25,Good,1m 7f 78y,Massons Castle,D. J. O'Keeffe,0,Dermot Anthony McLoughlin,8th,16 l,7,11-7p1,92,True,22,35
+N/A,N/A,14:25,Good,1m 7f 78y,Peace Party (IRE),E. Walsh,0,Desmond McDonogh,7th,5 1/2 l,10,12-0ht,99,True,22,35
+N/A,N/A,14:25,Good,1m 7f 78y,Edge Of My Seat (IRE),A. P. Kelly,7,Aidan Anthony Howard,6th,Neck,4,11-7t,94,True,22,35
+N/A,N/A,14:25,Good,1m 7f 78y,No Conscience (IRE),J. P. Shinnick,7,Enda Bolger,5th,2 3/4 l,4,11-8,95,True,22,35
+N/A,N/A,14:25,Good,1m 7f 78y,Downthecellar (IRE),Rachael Blackmore,0,E. J. O'Grady,4th,8 l,8,11-11tp,96,True,22,35
+N/A,N/A,14:25,Good,1m 7f 78y,Golden Sandbanks,Sean Flanagan,0,Paul W. Flynn,3rd,Head,5,11-11tp,96,True,22,35
+N/A,N/A,14:25,Good,1m 7f 78y,Well Funded (IRE),T. B. Lyons,7,Eoin Christopher McCarthy,2nd,6 1/2 l,6,11-13t,98,True,22,35
+N/A,N/A,14:25,Good,1m 7f 78y,Low Style (FR),M. J. M. O'Sullivan,7,Barry Connell,1st,N/A,5,11-5,90,True,22,35
+N/A,N/A,14:25,Good,1m 7f 78y,Red Striker (IRE),Patrick O'Hanlon,5,Andrew McNamara,PU,N/A,7,11-10tp,95,True,22,35
+N/A,N/A,14:25,Good,1m 7f 78y,Canteeny Benny (IRE),Eoin G. Kelly,0,Paul W. Flynn,F,N/A,6,11-9,94,True,22,35
+N/A,N/A,14:25,Good,1m 7f 78y,Brown Monday (FR),Jordan Colin Gainford,0,John Joseph Hanlon,F,N/A,5,11-6,91,True,22,35
+N/A,N/A,14:25,Good,1m 7f 78y,Happaugue (IRE),S. D. Torrens,0,John McConnell,BD,N/A,6,11-5,90,True,22,35
+N/A,N/A,14:25,Good,1m 7f 78y,Ghumama (IRE),S. A. Mulcahy,7,Denis Hogan,12th,24 l,4,11-8t,95,True,22,35
+N/A,N/A,14:25,Good,1m 7f 78y,The Hogan Stand (FR),Shane Fenelon,7,John Joseph Hanlon,11th,24 l,5,11-9,94,True,22,35
+N/A,N/A,14:25,Good,1m 7f 78y,The Alpha Man (IRE),S. F. O'Keeffe,0,Seamus G. O'Donnell,10th,18 l,6,11-12t,97,True,22,35
+N/A,N/A,14:25,Good,1m 7f 78y,Barbaha Queen (IRE),D. E. Mullins,0,John Patrick Ryan,9th,Short Head,6,11-10,95,True,22,35
+N/A,N/A,14:25,Good,1m 7f 78y,Massons Castle,D. J. O'Keeffe,0,Dermot Anthony McLoughlin,8th,16 l,7,11-7p1,92,True,22,35
+N/A,N/A,14:25,Good,1m 7f 78y,Peace Party (IRE),E. Walsh,0,Desmond McDonogh,7th,5 1/2 l,10,12-0ht,99,True,22,35
+N/A,N/A,14:25,Good,1m 7f 78y,Edge Of My Seat (IRE),A. P. Kelly,7,Aidan Anthony Howard,6th,Neck,4,11-7t,94,True,22,35
+N/A,N/A,14:25,Good,1m 7f 78y,No Conscience (IRE),J. P. Shinnick,7,Enda Bolger,5th,2 3/4 l,4,11-8,95,True,22,35
+N/A,N/A,14:25,Good,1m 7f 78y,Downthecellar (IRE),Rachael Blackmore,0,E. J. O'Grady,4th,8 l,8,11-11tp,96,True,22,35
+N/A,N/A,14:25,Good,1m 7f 78y,Golden Sandbanks,Sean Flanagan,0,Paul W. Flynn,3rd,Head,5,11-11tp,96,True,22,35
+N/A,N/A,14:25,Good,1m 7f 78y,Well Funded (IRE),T. B. Lyons,7,Eoin Christopher McCarthy,2nd,6 1/2 l,6,11-13t,98,True,22,35
+N/A,N/A,14:25,Good,1m 7f 78y,Low Style (FR),M. J. M. O'Sullivan,7,Barry Connell,1st,N/A,5,11-5,90,True,22,35
+N/A,N/A,15:00,Good,2m 4f,Dinero Falso,R. J. Condon,0,Peter Croke,PU,N/A,6,10-13p,-,True,22,36
+N/A,N/A,15:00,Good,2m 4f,Elusive Nicole (IRE),L. P. Dempsey,0,M. C. Grassick,15th,20 l,5,10-13,-,True,22,36
+N/A,N/A,15:00,Good,2m 4f,Wee Valerie (IRE),S. F. O'Keeffe,0,Hugh P. Finegan,14th,2 1/2 l,5,10-13t1,-,True,22,36
+N/A,N/A,15:00,Good,2m 4f,Elusive Sea (IRE),Jordan Colin Gainford,0,Gordon Elliott,13th,6 1/2 l,5,10-13t,-,True,22,36
+N/A,N/A,15:00,Good,2m 4f,Truckers Angel (IRE),M. P. O'Connor,5,W. J. Burke,12th,19 l,8,10-13,-,True,22,36
+N/A,N/A,15:00,Good,2m 4f,Ramble on Muller (IRE),S. D. Torrens,0,P. A. Fahy,11th,15 l,6,10-13,-,True,22,36
+N/A,N/A,15:00,Good,2m 4f,Set My Love Free (IRE),Sam Ewing,0,Gordon Elliott,10th,11 l,5,10-13,-,True,22,36
+N/A,N/A,15:00,Good,2m 4f,Coco Lightning (IRE),Gearoid Patrick Brouder,5,Thomas P. O'Connor,9th,3/4 l,5,10-13h,-,True,22,36
+N/A,N/A,15:00,Good,2m 4f,In A Nice Way (IRE),D. E. Mullins,0,Stephen Ryan,8th,2 1/4 l,6,10-13,-,True,22,36
+N/A,N/A,15:00,Good,2m 4f,Gaudriole (FR),Kevin A. Murphy,7,Nigel Slevin,7th,Neck,6,10-13p1,-,True,22,36
+N/A,N/A,15:00,Good,2m 4f,Drumderry Harlem (IRE),J. J. Slevin,0,Mark John Scallan,6th,34 l,6,10-13t,-,True,22,36
+N/A,N/A,15:00,Good,2m 4f,Magic Conqueror (IRE),M. J. M. O'Sullivan,7,Michael G. Kennedy,5th,Nose,5,10-13t1,-,True,22,36
+N/A,N/A,15:00,Good,2m 4f,Beyond Ambitious (IRE),Mr B. W. Harvey,7,D. Harvey,4th,6 1/2 l,5,11-7,-,True,22,36
+N/A,N/A,15:00,Good,2m 4f,Howaya C D And E (IRE),Keith Donoghue,0,Gerard Keane,3rd,14 l,7,11-7,-,True,22,36
+N/A,N/A,15:00,Good,2m 4f,She's Tobias (IRE),Sean Flanagan,0,Adrian Murray,2nd,1 1/2 l,6,10-13t,-,True,22,36
+N/A,N/A,15:00,Good,2m 4f,Betty Dutton (IRE),D. J. O'Keeffe,0,E. J. O'Grady,1st,N/A,4,10-11,-,True,22,36
+N/A,N/A,15:00,Good,2m 4f,Dinero Falso,R. J. Condon,0,Peter Croke,PU,N/A,6,10-13p,-,True,22,36
+N/A,N/A,15:00,Good,2m 4f,Elusive Nicole (IRE),L. P. Dempsey,0,M. C. Grassick,15th,20 l,5,10-13,-,True,22,36
+N/A,N/A,15:00,Good,2m 4f,Wee Valerie (IRE),S. F. O'Keeffe,0,Hugh P. Finegan,14th,2 1/2 l,5,10-13t1,-,True,22,36
+N/A,N/A,15:00,Good,2m 4f,Elusive Sea (IRE),Jordan Colin Gainford,0,Gordon Elliott,13th,6 1/2 l,5,10-13t,-,True,22,36
+N/A,N/A,15:00,Good,2m 4f,Truckers Angel (IRE),M. P. O'Connor,5,W. J. Burke,12th,19 l,8,10-13,-,True,22,36
+N/A,N/A,15:00,Good,2m 4f,Ramble on Muller (IRE),S. D. Torrens,0,P. A. Fahy,11th,15 l,6,10-13,-,True,22,36
+N/A,N/A,15:00,Good,2m 4f,Set My Love Free (IRE),Sam Ewing,0,Gordon Elliott,10th,11 l,5,10-13,-,True,22,36
+N/A,N/A,15:00,Good,2m 4f,Coco Lightning (IRE),Gearoid Patrick Brouder,5,Thomas P. O'Connor,9th,3/4 l,5,10-13h,-,True,22,36
+N/A,N/A,15:00,Good,2m 4f,In A Nice Way (IRE),D. E. Mullins,0,Stephen Ryan,8th,2 1/4 l,6,10-13,-,True,22,36
+N/A,N/A,15:00,Good,2m 4f,Gaudriole (FR),Kevin A. Murphy,7,Nigel Slevin,7th,Neck,6,10-13p1,-,True,22,36
+N/A,N/A,15:00,Good,2m 4f,Drumderry Harlem (IRE),J. J. Slevin,0,Mark John Scallan,6th,34 l,6,10-13t,-,True,22,36
+N/A,N/A,15:00,Good,2m 4f,Magic Conqueror (IRE),M. J. M. O'Sullivan,7,Michael G. Kennedy,5th,Nose,5,10-13t1,-,True,22,36
+N/A,N/A,15:00,Good,2m 4f,Beyond Ambitious (IRE),Mr B. W. Harvey,7,D. Harvey,4th,6 1/2 l,5,11-7,-,True,22,36
+N/A,N/A,15:00,Good,2m 4f,Howaya C D And E (IRE),Keith Donoghue,0,Gerard Keane,3rd,14 l,7,11-7,-,True,22,36
+N/A,N/A,15:00,Good,2m 4f,She's Tobias (IRE),Sean Flanagan,0,Adrian Murray,2nd,1 1/2 l,6,10-13t,-,True,22,36
+N/A,N/A,15:00,Good,2m 4f,Betty Dutton (IRE),D. J. O'Keeffe,0,E. J. O'Grady,1st,N/A,4,10-11,-,True,22,36
+N/A,N/A,15:35,Good,2m 7f 170y,Abraham (IRE),C. Brassil,5,Martin Brassil,PU,N/A,10,11-11tp,109,True,22,37
+N/A,N/A,15:35,Good,2m 7f 170y,The Holmeister (IRE),Jack Foley,3,Michael P. Hourigan,11th,10 l,8,10-12,96,True,22,37
+N/A,N/A,15:35,Good,2m 7f 170y,My Ladeen (IRE),G. B. Noonan,7,James Andrew Fahey,10th,26 l,7,10-1,85,True,22,37
+N/A,N/A,15:35,Good,2m 7f 170y,Fill The Tank (IRE),D. J. O'Keeffe,0,Aengus King,9th,2 1/2 l,8,11-4p,102,True,22,37
+N/A,N/A,15:35,Good,2m 7f 170y,Siberian Star,J. P. O'Sullivan,5,P. J. Rothwell,8th,9 l,7,10-13p,97,True,22,37
+N/A,N/A,15:35,Good,2m 7f 170y,Yenillik (IRE),Keith Donoghue,0,Harry Rogers,7th,2 l,6,11-4,102,True,22,37
+N/A,N/A,15:35,Good,2m 7f 170y,Oskar High (IRE),S. O'Callaghan,0,Norman Lee,6th,12 l,10,10-13p,97,True,22,37
+N/A,N/A,15:35,Good,2m 7f 170y,Paddy Wickla,Patrick O'Hanlon,5,P. J. Rothwell,5th,Neck,6,11-2,100,True,22,37
+N/A,N/A,15:35,Good,2m 7f 170y,Shannon Gray (IRE),Richard Deegan,0,Eoin Christopher McCarthy,4th,7 1/2 l,7,10-11tp,95,True,22,37
+N/A,N/A,15:35,Good,2m 7f 170y,Benkei (IRE),Rachael Blackmore,0,Harry Rogers,3rd,Nose,12,11-8,106,True,22,37
+N/A,N/A,15:35,Good,2m 7f 170y,Hascoeur Clermont (FR),K. E. Buckley,5,Gavin Patrick Cromwell,2nd,7 l,5,12-0,112,True,22,37
+N/A,N/A,15:35,Good,2m 7f 170y,Lily Light Foot (IRE),Sean Flanagan,0,Eddie & Patrick Harty,1st,N/A,6,11-6p,104,True,22,37
+N/A,N/A,15:35,Good,2m 7f 170y,Abraham (IRE),C. Brassil,5,Martin Brassil,PU,N/A,10,11-11tp,109,True,22,37
+N/A,N/A,15:35,Good,2m 7f 170y,The Holmeister (IRE),Jack Foley,3,Michael P. Hourigan,11th,10 l,8,10-12,96,True,22,37
+N/A,N/A,15:35,Good,2m 7f 170y,My Ladeen (IRE),G. B. Noonan,7,James Andrew Fahey,10th,26 l,7,10-1,85,True,22,37
+N/A,N/A,15:35,Good,2m 7f 170y,Fill The Tank (IRE),D. J. O'Keeffe,0,Aengus King,9th,2 1/2 l,8,11-4p,102,True,22,37
+N/A,N/A,15:35,Good,2m 7f 170y,Siberian Star,J. P. O'Sullivan,5,P. J. Rothwell,8th,9 l,7,10-13p,97,True,22,37
+N/A,N/A,15:35,Good,2m 7f 170y,Yenillik (IRE),Keith Donoghue,0,Harry Rogers,7th,2 l,6,11-4,102,True,22,37
+N/A,N/A,15:35,Good,2m 7f 170y,Oskar High (IRE),S. O'Callaghan,0,Norman Lee,6th,12 l,10,10-13p,97,True,22,37
+N/A,N/A,15:35,Good,2m 7f 170y,Paddy Wickla,Patrick O'Hanlon,5,P. J. Rothwell,5th,Neck,6,11-2,100,True,22,37
+N/A,N/A,15:35,Good,2m 7f 170y,Shannon Gray (IRE),Richard Deegan,0,Eoin Christopher McCarthy,4th,7 1/2 l,7,10-11tp,95,True,22,37
+N/A,N/A,15:35,Good,2m 7f 170y,Benkei (IRE),Rachael Blackmore,0,Harry Rogers,3rd,Nose,12,11-8,106,True,22,37
+N/A,N/A,15:35,Good,2m 7f 170y,Hascoeur Clermont (FR),K. E. Buckley,5,Gavin Patrick Cromwell,2nd,7 l,5,12-0,112,True,22,37
+N/A,N/A,15:35,Good,2m 7f 170y,Lily Light Foot (IRE),Sean Flanagan,0,Eddie & Patrick Harty,1st,N/A,6,11-6p,104,True,22,37
+N/A,N/A,16:10,Good,2m 25y,Hidden Land (USA),L. P. Dempsey,0,Andrew Kinirons,7th,8 1/2 l,5,10-8,-,True,22,38
+N/A,N/A,16:10,Good,2m 25y,Barnacullia (IRE),Corey McGivern,0,Michael Mulvany,6th,24 l,5,11-1,-,True,22,38
+N/A,N/A,16:10,Good,2m 25y,Whosgotyanow (IRE),C. M. Quirke,0,A. Slattery,5th,18 l,6,10-8,-,True,22,38
+N/A,N/A,16:10,Good,2m 25y,Sit Down Lucy (IRE),Sean Flanagan,0,Peter Fahey,4th,12 l,8,10-8,-,True,22,38
+N/A,N/A,16:10,Good,2m 25y,Sole Pretender (IRE),S. D. Torrens,0,Norman Lee,3rd,1 3/4 l,8,11-5h,-,True,22,38
+N/A,N/A,16:10,Good,2m 25y,Midnight Run (IRE),Rachael Blackmore,0,Joseph Patrick O'Brien,2nd,4 3/4 l,8,11-1,-,True,22,38
+N/A,N/A,16:10,Good,2m 25y,Enniskerry (IRE),M. J. M. O'Sullivan,0,Barry Connell,1st,N/A,8,11-1t,-,True,22,38
+N/A,N/A,16:10,Good,2m 25y,Hidden Land (USA),L. P. Dempsey,0,Andrew Kinirons,7th,8 1/2 l,5,10-8,-,True,22,38
+N/A,N/A,16:10,Good,2m 25y,Barnacullia (IRE),Corey McGivern,0,Michael Mulvany,6th,24 l,5,11-1,-,True,22,38
+N/A,N/A,16:10,Good,2m 25y,Whosgotyanow (IRE),C. M. Quirke,0,A. Slattery,5th,18 l,6,10-8,-,True,22,38
+N/A,N/A,16:10,Good,2m 25y,Sit Down Lucy (IRE),Sean Flanagan,0,Peter Fahey,4th,12 l,8,10-8,-,True,22,38
+N/A,N/A,16:10,Good,2m 25y,Sole Pretender (IRE),S. D. Torrens,0,Norman Lee,3rd,1 3/4 l,8,11-5h,-,True,22,38
+N/A,N/A,16:10,Good,2m 25y,Midnight Run (IRE),Rachael Blackmore,0,Joseph Patrick O'Brien,2nd,4 3/4 l,8,11-1,-,True,22,38
+N/A,N/A,16:10,Good,2m 25y,Enniskerry (IRE),M. J. M. O'Sullivan,0,Barry Connell,1st,N/A,8,11-1t,-,True,22,38
+N/A,N/A,16:45,Good,2m 5f,Iluvyounow (IRE),S. O'Callaghan,7,Ross O'Sullivan,PU,N/A,7,11-7p,-,True,22,39
+N/A,N/A,16:45,Good,2m 5f,Wicklow Flyer (IRE),D. E. Mullins,0,John Joseph Hanlon,PU,N/A,5,11-7p,-,True,22,39
+N/A,N/A,16:45,Good,2m 5f,Loughaneala Og (IRE),D. J. O'Keeffe,0,W. J. Burke,7th,2 1/4 l,7,11-7b1,-,True,22,39
+N/A,N/A,16:45,Good,2m 5f,Miss Polly Shelby (IRE),K. C. Sexton,0,Ronan M. P. McNally,6th,8 l,5,11-7,-,True,22,39
+N/A,N/A,16:45,Good,2m 5f,North Of Nashville (IRE),Jordan Colin Gainford,0,Colin Bowe,5th,15 l,5,11-7,-,True,22,39
+N/A,N/A,16:45,Good,2m 5f,Wild Caprice (IRE),S. F. O'Keeffe,0,John Patrick Ryan,4th,3/4 l,8,11-7,-,True,22,39
+N/A,N/A,16:45,Good,2m 5f,Lizrona (IRE),J. J. Slevin,0,Eric Larkin,3rd,16 l,6,11-7,-,True,22,39
+N/A,N/A,16:45,Good,2m 5f,Paidi's Passion (IRE),Sam Ewing,0,David Christie,2nd,14 l,6,11-7,-,True,22,39
+N/A,N/A,16:45,Good,2m 5f,Malina Girl (IRE),Keith Donoghue,0,Gavin Patrick Cromwell,1st,N/A,5,11-7,-,True,22,39
+N/A,N/A,16:45,Good,2m 5f,Iluvyounow (IRE),S. O'Callaghan,7,Ross O'Sullivan,PU,N/A,7,11-7p,-,True,22,39
+N/A,N/A,16:45,Good,2m 5f,Wicklow Flyer (IRE),D. E. Mullins,0,John Joseph Hanlon,PU,N/A,5,11-7p,-,True,22,39
+N/A,N/A,16:45,Good,2m 5f,Loughaneala Og (IRE),D. J. O'Keeffe,0,W. J. Burke,7th,2 1/4 l,7,11-7b1,-,True,22,39
+N/A,N/A,16:45,Good,2m 5f,Miss Polly Shelby (IRE),K. C. Sexton,0,Ronan M. P. McNally,6th,8 l,5,11-7,-,True,22,39
+N/A,N/A,16:45,Good,2m 5f,North Of Nashville (IRE),Jordan Colin Gainford,0,Colin Bowe,5th,15 l,5,11-7,-,True,22,39
+N/A,N/A,16:45,Good,2m 5f,Wild Caprice (IRE),S. F. O'Keeffe,0,John Patrick Ryan,4th,3/4 l,8,11-7,-,True,22,39
+N/A,N/A,16:45,Good,2m 5f,Lizrona (IRE),J. J. Slevin,0,Eric Larkin,3rd,16 l,6,11-7,-,True,22,39
+N/A,N/A,16:45,Good,2m 5f,Paidi's Passion (IRE),Sam Ewing,0,David Christie,2nd,14 l,6,11-7,-,True,22,39
+N/A,N/A,16:45,Good,2m 5f,Malina Girl (IRE),Keith Donoghue,0,Gavin Patrick Cromwell,1st,N/A,5,11-7,-,True,22,39
+N/A,N/A,17:20,Good,1m 7f 78y,Dugort Bay (IRE),Mr N. McParlan,0,Paul Stafford,10th,1 l,4,11-0,-,True,22,40
+N/A,N/A,17:20,Good,1m 7f 78y,Kippers Company (IRE),Mr D. O'Connor,0,Muredach Kelly,9th,37 l,4,11-7,-,True,22,40
+N/A,N/A,17:20,Good,1m 7f 78y,Leading Flame (IRE),Mr J. Kelly Smith,7,Matthew J. Smith,8th,2 1/2 l,4,11-7,-,True,22,40
+N/A,N/A,17:20,Good,1m 7f 78y,Mister Vic (IRE),Mr L. T. Turner,7,Mervyn Torrens,7th,8 l,4,11-7,-,True,22,40
+N/A,N/A,17:20,Good,1m 7f 78y,Village Lady (IRE),Mr A. P. Ryan,7,A. Slattery,6th,1 l,4,11-0t1,-,True,22,40
+N/A,N/A,17:20,Good,1m 7f 78y,Unbridled Power (IRE),Mr P. W. Mullins,0,W. P. Mullins,5th,3 1/4 l,4,11-7p1,-,True,22,40
+N/A,N/A,17:20,Good,1m 7f 78y,Never Seen Again (IRE),Mr Finian Maguire,0,Darren Bunyan,4th,1 1/2 l,4,11-7,-,True,22,40
+N/A,N/A,17:20,Good,1m 7f 78y,Liberty Flame (IRE),Miss Georgie Benson,7,Peter John Flood,3rd,1/2 l,4,11-7h1,-,True,22,40
+N/A,N/A,17:20,Good,1m 7f 78y,Locorotondo (IRE),Mr J. J. Codd,0,Martin Brassil,2nd,3/4 l,4,11-7t,-,True,22,40
+N/A,N/A,17:20,Good,1m 7f 78y,Quaresome (IRE),Mr P. J. Cody,7,Kieran Purcell,1st,N/A,4,11-7h1,-,True,22,40
+N/A,N/A,17:20,Good,1m 7f 78y,Dugort Bay (IRE),Mr N. McParlan,0,Paul Stafford,10th,1 l,4,11-0,-,True,22,40
+N/A,N/A,17:20,Good,1m 7f 78y,Kippers Company (IRE),Mr D. O'Connor,0,Muredach Kelly,9th,37 l,4,11-7,-,True,22,40
+N/A,N/A,17:20,Good,1m 7f 78y,Leading Flame (IRE),Mr J. Kelly Smith,7,Matthew J. Smith,8th,2 1/2 l,4,11-7,-,True,22,40
+N/A,N/A,17:20,Good,1m 7f 78y,Mister Vic (IRE),Mr L. T. Turner,7,Mervyn Torrens,7th,8 l,4,11-7,-,True,22,40
+N/A,N/A,17:20,Good,1m 7f 78y,Village Lady (IRE),Mr A. P. Ryan,7,A. Slattery,6th,1 l,4,11-0t1,-,True,22,40
+N/A,N/A,17:20,Good,1m 7f 78y,Unbridled Power (IRE),Mr P. W. Mullins,0,W. P. Mullins,5th,3 1/4 l,4,11-7p1,-,True,22,40
+N/A,N/A,17:20,Good,1m 7f 78y,Never Seen Again (IRE),Mr Finian Maguire,0,Darren Bunyan,4th,1 1/2 l,4,11-7,-,True,22,40
+N/A,N/A,17:20,Good,1m 7f 78y,Liberty Flame (IRE),Miss Georgie Benson,7,Peter John Flood,3rd,1/2 l,4,11-7h1,-,True,22,40
+N/A,N/A,17:20,Good,1m 7f 78y,Locorotondo (IRE),Mr J. J. Codd,0,Martin Brassil,2nd,3/4 l,4,11-7t,-,True,22,40
+N/A,N/A,17:20,Good,1m 7f 78y,Quaresome (IRE),Mr P. J. Cody,7,Kieran Purcell,1st,N/A,4,11-7h1,-,True,22,40
+Cork Racing Results | 27th September 2022 13:25,N/A,13:25,Good (Good To Yielding In Places),5f,Aurum Sky (IRE),Seamie Heffernan,0,A. J. Martin,12th,16 l,2,9-7,-,True,22,41
+Cork Racing Results | 27th September 2022 13:25,N/A,13:25,Good (Good To Yielding In Places),5f,Secret Sauce (IRE),D. J. Gilligan,7,J. A. Stack,11th,1 3/4 l,2,9-7,-,True,22,41
+Cork Racing Results | 27th September 2022 13:25,N/A,13:25,Good (Good To Yielding In Places),5f,Ocean Leader (IRE),C. T. Keane,0,Denis W. Cullen,10th,Neck,2,9-7,-,True,22,41
+Cork Racing Results | 27th September 2022 13:25,N/A,13:25,Good (Good To Yielding In Places),5f,Orchis (IRE),G. F. Carroll,0,Joseph G. Murphy,9th,1 1/4 l,2,9-2,-,True,22,41
+Cork Racing Results | 27th September 2022 13:25,N/A,13:25,Good (Good To Yielding In Places),5f,Jackie Brown (IRE),Ben Martin Coen,0,A. J. Martin,8th,1 l,2,9-2,-,True,22,41
+Cork Racing Results | 27th September 2022 13:25,N/A,13:25,Good (Good To Yielding In Places),5f,Irish Dessert (IRE),C. Martins,0,Michael J. Browne,7th,Neck,2,9-7,-,True,22,41
+Cork Racing Results | 27th September 2022 13:25,N/A,13:25,Good (Good To Yielding In Places),5f,Press Play (IRE),J. A. Powell,7,C. W. J. Farrell,6th,3 1/4 l,2,9-2,-,True,22,41
+Cork Racing Results | 27th September 2022 13:25,N/A,13:25,Good (Good To Yielding In Places),5f,Thai Legacy (IRE),N. M. Crosse,3,Kieran Patrick Cotter,5th,2 3/4 l,2,9-21,-,True,22,41
+Cork Racing Results | 27th September 2022 13:25,N/A,13:25,Good (Good To Yielding In Places),5f,Red Sky at Night (IRE),M. A. Enright,0,J. A. Stack,4th,Short Head,2,9-2h,-,True,22,41
+Cork Racing Results | 27th September 2022 13:25,N/A,13:25,Good (Good To Yielding In Places),5f,Charles Bianconi (IRE),W. M. Lordan,0,Aidan O'Brien,3rd,2 1/4 l,2,9-7b,-,True,22,41
+Cork Racing Results | 27th September 2022 13:25,N/A,13:25,Good (Good To Yielding In Places),5f,Maggie Mcgrath (IRE),R. P. Whelan,0,Kieran Patrick Cotter,2nd,3/4 l,2,9-2,-,True,22,41
+Cork Racing Results | 27th September 2022 13:25,N/A,13:25,Good (Good To Yielding In Places),5f,Mount Ruapehu (IRE),A. J. Slattery,0,John F. Grogan,1st,N/A,2,9-7,-,True,22,41
+Cork Racing Results | 27th September 2022 13:25,N/A,13:25,Good (Good To Yielding In Places),5f,Aurum Sky (IRE),Seamie Heffernan,0,A. J. Martin,12th,16 l,2,9-7,-,True,22,41
+Cork Racing Results | 27th September 2022 13:25,N/A,13:25,Good (Good To Yielding In Places),5f,Secret Sauce (IRE),D. J. Gilligan,7,J. A. Stack,11th,1 3/4 l,2,9-7,-,True,22,41
+Cork Racing Results | 27th September 2022 13:25,N/A,13:25,Good (Good To Yielding In Places),5f,Ocean Leader (IRE),C. T. Keane,0,Denis W. Cullen,10th,Neck,2,9-7,-,True,22,41
+Cork Racing Results | 27th September 2022 13:25,N/A,13:25,Good (Good To Yielding In Places),5f,Orchis (IRE),G. F. Carroll,0,Joseph G. Murphy,9th,1 1/4 l,2,9-2,-,True,22,41
+Cork Racing Results | 27th September 2022 13:25,N/A,13:25,Good (Good To Yielding In Places),5f,Jackie Brown (IRE),Ben Martin Coen,0,A. J. Martin,8th,1 l,2,9-2,-,True,22,41
+Cork Racing Results | 27th September 2022 13:25,N/A,13:25,Good (Good To Yielding In Places),5f,Irish Dessert (IRE),C. Martins,0,Michael J. Browne,7th,Neck,2,9-7,-,True,22,41
+Cork Racing Results | 27th September 2022 13:25,N/A,13:25,Good (Good To Yielding In Places),5f,Press Play (IRE),J. A. Powell,7,C. W. J. Farrell,6th,3 1/4 l,2,9-2,-,True,22,41
+Cork Racing Results | 27th September 2022 13:25,N/A,13:25,Good (Good To Yielding In Places),5f,Thai Legacy (IRE),N. M. Crosse,3,Kieran Patrick Cotter,5th,2 3/4 l,2,9-21,-,True,22,41
+Cork Racing Results | 27th September 2022 13:25,N/A,13:25,Good (Good To Yielding In Places),5f,Red Sky at Night (IRE),M. A. Enright,0,J. A. Stack,4th,Short Head,2,9-2h,-,True,22,41
+Cork Racing Results | 27th September 2022 13:25,N/A,13:25,Good (Good To Yielding In Places),5f,Charles Bianconi (IRE),W. M. Lordan,0,Aidan O'Brien,3rd,2 1/4 l,2,9-7b,-,True,22,41
+Cork Racing Results | 27th September 2022 13:25,N/A,13:25,Good (Good To Yielding In Places),5f,Maggie Mcgrath (IRE),R. P. Whelan,0,Kieran Patrick Cotter,2nd,3/4 l,2,9-2,-,True,22,41
+Cork Racing Results | 27th September 2022 13:25,N/A,13:25,Good (Good To Yielding In Places),5f,Mount Ruapehu (IRE),A. J. Slattery,0,John F. Grogan,1st,N/A,2,9-7,-,True,22,41
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,Seven Worlds (IRE),C. D. Hayes,0,Darren Bunyan,18th,6 1/2 l,5,8-13tb,47,True,22,42
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,Messa Concertata (IRE),G. F. Carroll,0,Joseph G. Murphy,17th,4 1/2 l,3,10-1,65,True,22,42
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,Macho Time (IRE),S. B. Kelly,0,Eamonn O'Connell,16th,1 3/4 l,5,10-1t,63,True,22,42
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,Greek Opera (IRE),L. F. Roche,0,James A. Nash,15th,2 l,4,8-13tb1,47,True,22,42
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,Wiggle Room (IRE),K. J. Manning,0,W. T. Farrell,14th,7 l,3,9-5h,55,True,22,42
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,Bella Rosetta,James J. Doyle,0,Tom McGuinness,13th,1/2 l,3,8-11p1,47,True,22,42
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,Mymomentintime (USA),William James Lee,0,Susan A. Finn,12th,1/2 l,3,9-8t,58,True,22,42
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,Run Silver Run (IRE),C. T. Keane,0,Denis W. Cullen,11th,Head,3,9-1t1,51,True,22,42
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,Lexington Liberty (IRE),J. M. Sheridan,3,Denis Hogan,10th,Neck,4,9-13tp1,61,True,22,42
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,Coffeemeanscoffee (IRE),L. T. McAteer,3,Tom McGuinness,9th,Head,7,8-13p,47,True,22,42
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,Derrinlaur Spender (IRE),K. J. Leonard,0,Eoin Joseph McDonagh,8th,3/4 l,3,8-13p,49,True,22,42
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,Plezantlysurprised,D. E. Sheehy,3,Mrs Jessica Magnier,7th,2 l,4,10-0p,62,True,22,42
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,El Maga (IRE),G. M. Ryan,0,Tom McGuinness,6th,Short Head,3,9-12,62,True,22,42
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,We're on the Way (IRE),Shane Foley,0,Ross O'Sullivan,5th,Nose,4,8-13tp,47,True,22,42
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,Born Invincible (IRE),D. B. McMonagle,0,G. O'Leary,4th,3 1/4 l,6,9-7t,55,True,22,42
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,Florence Thompson (IRE),Seamie Heffernan,0,Denis Hogan,3rd,1/2 l,5,9-0p,48,True,22,42
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,Dragons Call (IRE),J. A. Powell,7,J. J. Feane,2nd,Short Head,6,9-11,59,True,22,42
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,The Cola Brasil,C. Martins,0,Michael J. Browne,1st,N/A,6,9-5tb,53,True,22,42
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,Seven Worlds (IRE),C. D. Hayes,0,Darren Bunyan,18th,6 1/2 l,5,8-13tb,47,True,22,42
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,Messa Concertata (IRE),G. F. Carroll,0,Joseph G. Murphy,17th,4 1/2 l,3,10-1,65,True,22,42
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,Macho Time (IRE),S. B. Kelly,0,Eamonn O'Connell,16th,1 3/4 l,5,10-1t,63,True,22,42
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,Greek Opera (IRE),L. F. Roche,0,James A. Nash,15th,2 l,4,8-13tb1,47,True,22,42
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,Wiggle Room (IRE),K. J. Manning,0,W. T. Farrell,14th,7 l,3,9-5h,55,True,22,42
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,Bella Rosetta,James J. Doyle,0,Tom McGuinness,13th,1/2 l,3,8-11p1,47,True,22,42
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,Mymomentintime (USA),William James Lee,0,Susan A. Finn,12th,1/2 l,3,9-8t,58,True,22,42
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,Run Silver Run (IRE),C. T. Keane,0,Denis W. Cullen,11th,Head,3,9-1t1,51,True,22,42
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,Lexington Liberty (IRE),J. M. Sheridan,3,Denis Hogan,10th,Neck,4,9-13tp1,61,True,22,42
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,Coffeemeanscoffee (IRE),L. T. McAteer,3,Tom McGuinness,9th,Head,7,8-13p,47,True,22,42
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,Derrinlaur Spender (IRE),K. J. Leonard,0,Eoin Joseph McDonagh,8th,3/4 l,3,8-13p,49,True,22,42
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,Plezantlysurprised,D. E. Sheehy,3,Mrs Jessica Magnier,7th,2 l,4,10-0p,62,True,22,42
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,El Maga (IRE),G. M. Ryan,0,Tom McGuinness,6th,Short Head,3,9-12,62,True,22,42
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,We're on the Way (IRE),Shane Foley,0,Ross O'Sullivan,5th,Nose,4,8-13tp,47,True,22,42
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,Born Invincible (IRE),D. B. McMonagle,0,G. O'Leary,4th,3 1/4 l,6,9-7t,55,True,22,42
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,Florence Thompson (IRE),Seamie Heffernan,0,Denis Hogan,3rd,1/2 l,5,9-0p,48,True,22,42
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,Dragons Call (IRE),J. A. Powell,7,J. J. Feane,2nd,Short Head,6,9-11,59,True,22,42
+Cork Racing Results | 27th September 2022 14:00,N/A,14:00,Good (Good To Yielding In Places),6f,The Cola Brasil,C. Martins,0,Michael J. Browne,1st,N/A,6,9-5tb,53,True,22,42
+Cork Racing Results | 27th September 2022 14:35,N/A,14:35,Good To Yielding (Good To Yielding In Places),6f,Tellthemi'mhere (IRE),G. P. Halpin,0,P. O'Rourke,UR,N/A,4,9-6,72,True,22,43
+Cork Racing Results | 27th September 2022 14:35,N/A,14:35,Good To Yielding (Good To Yielding In Places),6f,Amanirenas (IRE),William James Lee,0,M. C. Grassick,9th,2 l,3,9-2,70,True,22,43
+Cork Racing Results | 27th September 2022 14:35,N/A,14:35,Good To Yielding (Good To Yielding In Places),6f,Silken Ladder (IRE),G. F. Carroll,0,Joseph G. Murphy,8th,1/2 l,3,10-1,83,True,22,43
+Cork Racing Results | 27th September 2022 14:35,N/A,14:35,Good To Yielding (Good To Yielding In Places),6f,Pretty Smart (IRE),M. P. Sheehy,0,Patrick Martin,7th,2 l,6,9-6,72,True,22,43
+Cork Racing Results | 27th September 2022 14:35,N/A,14:35,Good To Yielding (Good To Yielding In Places),6f,Goodnight Girl (IRE),S. M. Crosse,0,Sarah Lynam,6th,Short Head,7,10-2b,82,True,22,43
+Cork Racing Results | 27th September 2022 14:35,N/A,14:35,Good To Yielding (Good To Yielding In Places),6f,Coumshingaun (IRE),W. M. Lordan,0,Kevin Thomas Coleman,5th,3 l,3,10-2,84,True,22,43
+Cork Racing Results | 27th September 2022 14:35,N/A,14:35,Good To Yielding (Good To Yielding In Places),6f,Cnodian (IRE),N. M. Crosse,3,W. McCreery,4th,Nose,4,8-11,63,True,22,43
+Cork Racing Results | 27th September 2022 14:35,N/A,14:35,Good To Yielding (Good To Yielding In Places),6f,Affable (USA),Nicole Weir,10,K. J. Condon,3rd,1 3/4 l,5,9-7t,73,True,22,43
+Cork Racing Results | 27th September 2022 14:35,N/A,14:35,Good To Yielding (Good To Yielding In Places),6f,Princess Sela (IRE),Shane Foley,0,G. O'Leary,2nd,1/2 l,4,9-5p,71,True,22,43
+Cork Racing Results | 27th September 2022 14:35,N/A,14:35,Good To Yielding (Good To Yielding In Places),6f,Craft Irish (IRE),J. Coen,5,P. J. F. Murphy,1st,N/A,4,9-10,76,True,22,43
+Cork Racing Results | 27th September 2022 14:35,N/A,14:35,Good To Yielding (Good To Yielding In Places),6f,Tellthemi'mhere (IRE),G. P. Halpin,0,P. O'Rourke,UR,N/A,4,9-6,72,True,22,43
+Cork Racing Results | 27th September 2022 14:35,N/A,14:35,Good To Yielding (Good To Yielding In Places),6f,Amanirenas (IRE),William James Lee,0,M. C. Grassick,9th,2 l,3,9-2,70,True,22,43
+Cork Racing Results | 27th September 2022 14:35,N/A,14:35,Good To Yielding (Good To Yielding In Places),6f,Silken Ladder (IRE),G. F. Carroll,0,Joseph G. Murphy,8th,1/2 l,3,10-1,83,True,22,43
+Cork Racing Results | 27th September 2022 14:35,N/A,14:35,Good To Yielding (Good To Yielding In Places),6f,Pretty Smart (IRE),M. P. Sheehy,0,Patrick Martin,7th,2 l,6,9-6,72,True,22,43
+Cork Racing Results | 27th September 2022 14:35,N/A,14:35,Good To Yielding (Good To Yielding In Places),6f,Goodnight Girl (IRE),S. M. Crosse,0,Sarah Lynam,6th,Short Head,7,10-2b,82,True,22,43
+Cork Racing Results | 27th September 2022 14:35,N/A,14:35,Good To Yielding (Good To Yielding In Places),6f,Coumshingaun (IRE),W. M. Lordan,0,Kevin Thomas Coleman,5th,3 l,3,10-2,84,True,22,43
+Cork Racing Results | 27th September 2022 14:35,N/A,14:35,Good To Yielding (Good To Yielding In Places),6f,Cnodian (IRE),N. M. Crosse,3,W. McCreery,4th,Nose,4,8-11,63,True,22,43
+Cork Racing Results | 27th September 2022 14:35,N/A,14:35,Good To Yielding (Good To Yielding In Places),6f,Affable (USA),Nicole Weir,10,K. J. Condon,3rd,1 3/4 l,5,9-7t,73,True,22,43
+Cork Racing Results | 27th September 2022 14:35,N/A,14:35,Good To Yielding (Good To Yielding In Places),6f,Princess Sela (IRE),Shane Foley,0,G. O'Leary,2nd,1/2 l,4,9-5p,71,True,22,43
+Cork Racing Results | 27th September 2022 14:35,N/A,14:35,Good To Yielding (Good To Yielding In Places),6f,Craft Irish (IRE),J. Coen,5,P. J. F. Murphy,1st,N/A,4,9-10,76,True,22,43
+Cork Racing Results | 27th September 2022 15:10,N/A,15:10,Good To Yielding (Yielding In Places),7f,Bodean (IRE),R. P. Whelan,0,Jarlath P. Fahey,8th,2 3/4 l,3,9-8t,-,True,22,44
+Cork Racing Results | 27th September 2022 15:10,N/A,15:10,Good To Yielding (Yielding In Places),7f,Muhtady (IRE),K. J. Leonard,0,Tom McGuinness,7th,Neck,3,9-8,-,True,22,44
+Cork Racing Results | 27th September 2022 15:10,N/A,15:10,Good To Yielding (Yielding In Places),7f,Encore De Mer (IRE),Declan McDonogh,0,Kieran Patrick Cotter,6th,5 l,3,9-3p1,-,True,22,44
+Cork Racing Results | 27th September 2022 15:10,N/A,15:10,Good To Yielding (Yielding In Places),7f,Maid To Shine (IRE),G. M. Ryan,0,P. J. Hassett,5th,2 3/4 l,3,9-3,-,True,22,44
+Cork Racing Results | 27th September 2022 15:10,N/A,15:10,Good To Yielding (Yielding In Places),7f,Pollanassa (IRE),Emmet McNamara,0,Kevin Thomas Coleman,4th,2 3/4 l,3,9-8,-,True,22,44
+Cork Racing Results | 27th September 2022 15:10,N/A,15:10,Good To Yielding (Yielding In Places),7f,Thefullbackline,J. M. Sheridan,3,Patrick T. Foley,3rd,3 1/4 l,3,9-8,-,True,22,44
+Cork Racing Results | 27th September 2022 15:10,N/A,15:10,Good To Yielding (Yielding In Places),7f,Tango Flare (IRE),L. T. McAteer,3,Patrick T. Foley,2nd,2 1/4 l,3,9-8t1,-,True,22,44
+Cork Racing Results | 27th September 2022 15:10,N/A,15:10,Good To Yielding (Yielding In Places),7f,Accomplished (IRE),William James Lee,0,K. J. Condon,1st,N/A,3,9-3,-,True,22,44
+Cork Racing Results | 27th September 2022 15:10,N/A,15:10,Good To Yielding (Yielding In Places),7f,Bodean (IRE),R. P. Whelan,0,Jarlath P. Fahey,8th,2 3/4 l,3,9-8t,-,True,22,44
+Cork Racing Results | 27th September 2022 15:10,N/A,15:10,Good To Yielding (Yielding In Places),7f,Muhtady (IRE),K. J. Leonard,0,Tom McGuinness,7th,Neck,3,9-8,-,True,22,44
+Cork Racing Results | 27th September 2022 15:10,N/A,15:10,Good To Yielding (Yielding In Places),7f,Encore De Mer (IRE),Declan McDonogh,0,Kieran Patrick Cotter,6th,5 l,3,9-3p1,-,True,22,44
+Cork Racing Results | 27th September 2022 15:10,N/A,15:10,Good To Yielding (Yielding In Places),7f,Maid To Shine (IRE),G. M. Ryan,0,P. J. Hassett,5th,2 3/4 l,3,9-3,-,True,22,44
+Cork Racing Results | 27th September 2022 15:10,N/A,15:10,Good To Yielding (Yielding In Places),7f,Pollanassa (IRE),Emmet McNamara,0,Kevin Thomas Coleman,4th,2 3/4 l,3,9-8,-,True,22,44
+Cork Racing Results | 27th September 2022 15:10,N/A,15:10,Good To Yielding (Yielding In Places),7f,Thefullbackline,J. M. Sheridan,3,Patrick T. Foley,3rd,3 1/4 l,3,9-8,-,True,22,44
+Cork Racing Results | 27th September 2022 15:10,N/A,15:10,Good To Yielding (Yielding In Places),7f,Tango Flare (IRE),L. T. McAteer,3,Patrick T. Foley,2nd,2 1/4 l,3,9-8t1,-,True,22,44
+Cork Racing Results | 27th September 2022 15:10,N/A,15:10,Good To Yielding (Yielding In Places),7f,Accomplished (IRE),William James Lee,0,K. J. Condon,1st,N/A,3,9-3,-,True,22,44
+Cork Racing Results | 27th September 2022 15:45,N/A,15:45,Yielding,1m,Celtic Crown (IRE),W. M. Lordan,0,Joseph G. Murphy,11th,2 1/2 l,5,9-2,-,True,22,45
+Cork Racing Results | 27th September 2022 15:45,N/A,15:45,Yielding,1m,Himalayan Beauty (IRE),Shane Foley,0,Mrs J. Harrington,10th,3 1/2 l,4,9-2p,-,True,22,45
+Cork Racing Results | 27th September 2022 15:45,N/A,15:45,Yielding,1m,Great Max (IRE),William James Lee,0,M. D. O'Callaghan,9th,1 l,3,9-3,-,True,22,45
+Cork Racing Results | 27th September 2022 15:45,N/A,15:45,Yielding,1m,Voice Of Angels,Declan McDonogh,0,Joseph Patrick O'Brien,8th,1/2 l,3,8-12p,-,True,22,45
+Cork Racing Results | 27th September 2022 15:45,N/A,15:45,Yielding,1m,Prettiest (USA),Seamie Heffernan,0,Aidan O'Brien,7th,Neck,3,8-12t,-,True,22,45
+Cork Racing Results | 27th September 2022 15:45,N/A,15:45,Yielding,1m,Affogato (IRE),C. T. Keane,0,G. M. Lyons,6th,3 1/4 l,3,8-12,-,True,22,45
+Cork Racing Results | 27th September 2022 15:45,N/A,15:45,Yielding,1m,Emporio (IRE),G. M. Ryan,0,Donnacha Aidan O'Brien,5th,Short Head,4,9-7,-,True,22,45
+Cork Racing Results | 27th September 2022 15:45,N/A,15:45,Yielding,1m,Fastnet Crown (IRE),L. F. Roche,0,M. D. O'Callaghan,4th,Head,5,9-7tb,-,True,22,45
+Cork Racing Results | 27th September 2022 15:45,N/A,15:45,Yielding,1m,Georgeville,G. F. Carroll,0,G. M. Lyons,3rd,2 l,6,9-7t,-,True,22,45
+Cork Racing Results | 27th September 2022 15:45,N/A,15:45,Yielding,1m,Monaasib (USA),C. D. Hayes,0,Kevin Prendergast,2nd,Neck,4,9-7t,-,True,22,45
+Cork Racing Results | 27th September 2022 15:45,N/A,15:45,Yielding,1m,Statement (IRE),D. B. McMonagle,0,Joseph Patrick O'Brien,1st,N/A,4,9-2,-,True,22,45
+Cork Racing Results | 27th September 2022 15:45,N/A,15:45,Yielding,1m,Celtic Crown (IRE),W. M. Lordan,0,Joseph G. Murphy,11th,2 1/2 l,5,9-2,-,True,22,45
+Cork Racing Results | 27th September 2022 15:45,N/A,15:45,Yielding,1m,Himalayan Beauty (IRE),Shane Foley,0,Mrs J. Harrington,10th,3 1/2 l,4,9-2p,-,True,22,45
+Cork Racing Results | 27th September 2022 15:45,N/A,15:45,Yielding,1m,Great Max (IRE),William James Lee,0,M. D. O'Callaghan,9th,1 l,3,9-3,-,True,22,45
+Cork Racing Results | 27th September 2022 15:45,N/A,15:45,Yielding,1m,Voice Of Angels,Declan McDonogh,0,Joseph Patrick O'Brien,8th,1/2 l,3,8-12p,-,True,22,45
+Cork Racing Results | 27th September 2022 15:45,N/A,15:45,Yielding,1m,Prettiest (USA),Seamie Heffernan,0,Aidan O'Brien,7th,Neck,3,8-12t,-,True,22,45
+Cork Racing Results | 27th September 2022 15:45,N/A,15:45,Yielding,1m,Affogato (IRE),C. T. Keane,0,G. M. Lyons,6th,3 1/4 l,3,8-12,-,True,22,45
+Cork Racing Results | 27th September 2022 15:45,N/A,15:45,Yielding,1m,Emporio (IRE),G. M. Ryan,0,Donnacha Aidan O'Brien,5th,Short Head,4,9-7,-,True,22,45
+Cork Racing Results | 27th September 2022 15:45,N/A,15:45,Yielding,1m,Fastnet Crown (IRE),L. F. Roche,0,M. D. O'Callaghan,4th,Head,5,9-7tb,-,True,22,45
+Cork Racing Results | 27th September 2022 15:45,N/A,15:45,Yielding,1m,Georgeville,G. F. Carroll,0,G. M. Lyons,3rd,2 l,6,9-7t,-,True,22,45
+Cork Racing Results | 27th September 2022 15:45,N/A,15:45,Yielding,1m,Monaasib (USA),C. D. Hayes,0,Kevin Prendergast,2nd,Neck,4,9-7t,-,True,22,45
+Cork Racing Results | 27th September 2022 15:45,N/A,15:45,Yielding,1m,Statement (IRE),D. B. McMonagle,0,Joseph Patrick O'Brien,1st,N/A,4,9-2,-,True,22,45
+Cork Racing Results | 27th September 2022 16:20,N/A,16:20,Yielding,1m,Dedillon (IRE),A. J. Slattery,0,A. Slattery,11th,1 3/4 l,6,9-4,80,True,22,46
+Cork Racing Results | 27th September 2022 16:20,N/A,16:20,Yielding,1m,Mudamer (IRE),G. P. Halpin,0,Kevin Prendergast,10th,Head,3,9-8tv,88,True,22,46
+Cork Racing Results | 27th September 2022 16:20,N/A,16:20,Yielding,1m,Monzoon,T. P. Madden,0,Ross O'Sullivan,9th,1 3/4 l,5,9-0,76,True,22,46
+Cork Racing Results | 27th September 2022 16:20,N/A,16:20,Yielding,1m,Hale Bopp (IRE),G. F. Carroll,0,G. M. Lyons,8th,1 1/2 l,4,10-0,90,True,22,46
+Cork Racing Results | 27th September 2022 16:20,N/A,16:20,Yielding,1m,Pierre Lapin (IRE),Adam Caffrey,7,Adrian McGuinness,7th,1 l,5,9-11v,87,True,22,46
+Cork Racing Results | 27th September 2022 16:20,N/A,16:20,Yielding,1m,Bucky Larson (IRE),C. T. Keane,0,G. M. Lyons,6th,3 1/4 l,7,9-5,81,True,22,46
+Cork Racing Results | 27th September 2022 16:20,N/A,16:20,Yielding,1m,Massaman (IRE),R. P. Whelan,0,Jack W. Davison,5th,Neck,4,9-11p,87,True,22,46
+Cork Racing Results | 27th September 2022 16:20,N/A,16:20,Yielding,1m,Imposing Supreme (IRE),William James Lee,0,T. Gibney,4th,Head,6,8-13,75,True,22,46
+Cork Racing Results | 27th September 2022 16:20,N/A,16:20,Yielding,1m,Ha Ha Ha (IRE),Shane Foley,0,Mrs J. Harrington,3rd,1/2 l,3,9-6,86,True,22,46
+Cork Racing Results | 27th September 2022 16:20,N/A,16:20,Yielding,1m,Band Width (IRE),Declan McDonogh,0,Andrew Oliver,2nd,Short Head,3,9-3v,83,True,22,46
+Cork Racing Results | 27th September 2022 16:20,N/A,16:20,Yielding,1m,Giladah (IRE),C. D. Hayes,0,D. K. Weld,1st,N/A,3,9-0h,80,True,22,46
+Cork Racing Results | 27th September 2022 16:20,N/A,16:20,Yielding,1m,Dedillon (IRE),A. J. Slattery,0,A. Slattery,11th,1 3/4 l,6,9-4,80,True,22,46
+Cork Racing Results | 27th September 2022 16:20,N/A,16:20,Yielding,1m,Mudamer (IRE),G. P. Halpin,0,Kevin Prendergast,10th,Head,3,9-8tv,88,True,22,46
+Cork Racing Results | 27th September 2022 16:20,N/A,16:20,Yielding,1m,Monzoon,T. P. Madden,0,Ross O'Sullivan,9th,1 3/4 l,5,9-0,76,True,22,46
+Cork Racing Results | 27th September 2022 16:20,N/A,16:20,Yielding,1m,Hale Bopp (IRE),G. F. Carroll,0,G. M. Lyons,8th,1 1/2 l,4,10-0,90,True,22,46
+Cork Racing Results | 27th September 2022 16:20,N/A,16:20,Yielding,1m,Pierre Lapin (IRE),Adam Caffrey,7,Adrian McGuinness,7th,1 l,5,9-11v,87,True,22,46
+Cork Racing Results | 27th September 2022 16:20,N/A,16:20,Yielding,1m,Bucky Larson (IRE),C. T. Keane,0,G. M. Lyons,6th,3 1/4 l,7,9-5,81,True,22,46
+Cork Racing Results | 27th September 2022 16:20,N/A,16:20,Yielding,1m,Massaman (IRE),R. P. Whelan,0,Jack W. Davison,5th,Neck,4,9-11p,87,True,22,46
+Cork Racing Results | 27th September 2022 16:20,N/A,16:20,Yielding,1m,Imposing Supreme (IRE),William James Lee,0,T. Gibney,4th,Head,6,8-13,75,True,22,46
+Cork Racing Results | 27th September 2022 16:20,N/A,16:20,Yielding,1m,Ha Ha Ha (IRE),Shane Foley,0,Mrs J. Harrington,3rd,1/2 l,3,9-6,86,True,22,46
+Cork Racing Results | 27th September 2022 16:20,N/A,16:20,Yielding,1m,Band Width (IRE),Declan McDonogh,0,Andrew Oliver,2nd,Short Head,3,9-3v,83,True,22,46
+Cork Racing Results | 27th September 2022 16:20,N/A,16:20,Yielding,1m,Giladah (IRE),C. D. Hayes,0,D. K. Weld,1st,N/A,3,9-0h,80,True,22,46
+Cork Racing Results | 27th September 2022 16:55,N/A,16:55,Yielding,1m,Crimson Flag (IRE),M. P. Sheehy,0,M. C. Grassick,15th,20 l,3,8-8,47,True,22,47
+Cork Racing Results | 27th September 2022 16:55,N/A,16:55,Yielding,1m,Swiss Army Officer (IRE),Adam Caffrey,7,Kevin Thomas Coleman,14th,2 l,7,9-13,62,True,22,47
+Cork Racing Results | 27th September 2022 16:55,N/A,16:55,Yielding,1m,Asisaid (IRE),G. M. Ryan,0,P. J. F. Murphy,13th,2 l,3,9-8,61,True,22,47
+Cork Racing Results | 27th September 2022 16:55,N/A,16:55,Yielding,1m,Retro Flame (IRE),Jack Cleary,7,Thomas Dowling,12th,1 l,4,8-12b1,47,True,22,47
+Cork Racing Results | 27th September 2022 16:55,N/A,16:55,Yielding,1m,Ju Ju Gabor (IRE),G. F. Carroll,0,Joseph G. Murphy,11th,Head,3,9-10,63,True,22,47
+Cork Racing Results | 27th September 2022 16:55,N/A,16:55,Yielding,1m,Princess Plumeria (IRE),R. P. Cleary,0,Thomas Cleary,10th,2 1/4 l,4,9-10t,59,True,22,47
+Cork Racing Results | 27th September 2022 16:55,N/A,16:55,Yielding,1m,Ballysax (IRE),K. J. Manning,0,W. T. Farrell,9th,5 1/2 l,4,9-1,50,True,22,47
+Cork Racing Results | 27th September 2022 16:55,N/A,16:55,Yielding,1m,Cheeky Peek (IRE),J. J. G. Ryan,7,John P. O'Callaghan,8th,1/2 l,3,9-0,53,True,22,47
+Cork Racing Results | 27th September 2022 16:55,N/A,16:55,Yielding,1m,Dreams Delivered (IRE),C. D. Hayes,0,Darren Bunyan,7th,1 3/4 l,4,9-5b,54,True,22,47
+Cork Racing Results | 27th September 2022 16:55,N/A,16:55,Yielding,1m,Scarriff (IRE),C. T. Keane,0,John Joseph Murphy,6th,2 l,4,8-12,47,True,22,47
+Cork Racing Results | 27th September 2022 16:55,N/A,16:55,Yielding,1m,Dragon Roll (IRE),Seamie Heffernan,0,Eamonn O'Connell,5th,Head,6,8-12,47,True,22,47
+Cork Racing Results | 27th September 2022 16:55,N/A,16:55,Yielding,1m,Gemini Man (IRE),N. G. McCullagh,0,C. P. Donoghue,4th,1/2 l,4,8-12,47,True,22,47
+Cork Racing Results | 27th September 2022 16:55,N/A,16:55,Yielding,1m,Han Solo,O. Enright,10,Augustine Leahy,3rd,2 1/4 l,6,8-13,48,True,22,47
+Cork Racing Results | 27th September 2022 16:55,N/A,16:55,Yielding,1m,Skontonovski,R. P. Whelan,0,Adrian McGuinness,2nd,1/2 l,5,9-9v,58,True,22,47
+Cork Racing Results | 27th September 2022 16:55,N/A,16:55,Yielding,1m,Indiana Grey (IRE),D. B. McMonagle,0,Patrick Martin,1st,N/A,6,8-12tv,47,True,22,47
+Cork Racing Results | 27th September 2022 16:55,N/A,16:55,Yielding,1m,Crimson Flag (IRE),M. P. Sheehy,0,M. C. Grassick,15th,20 l,3,8-8,47,True,22,47
+Cork Racing Results | 27th September 2022 16:55,N/A,16:55,Yielding,1m,Swiss Army Officer (IRE),Adam Caffrey,7,Kevin Thomas Coleman,14th,2 l,7,9-13,62,True,22,47
+Cork Racing Results | 27th September 2022 16:55,N/A,16:55,Yielding,1m,Asisaid (IRE),G. M. Ryan,0,P. J. F. Murphy,13th,2 l,3,9-8,61,True,22,47
+Cork Racing Results | 27th September 2022 16:55,N/A,16:55,Yielding,1m,Retro Flame (IRE),Jack Cleary,7,Thomas Dowling,12th,1 l,4,8-12b1,47,True,22,47
+Cork Racing Results | 27th September 2022 16:55,N/A,16:55,Yielding,1m,Ju Ju Gabor (IRE),G. F. Carroll,0,Joseph G. Murphy,11th,Head,3,9-10,63,True,22,47
+Cork Racing Results | 27th September 2022 16:55,N/A,16:55,Yielding,1m,Princess Plumeria (IRE),R. P. Cleary,0,Thomas Cleary,10th,2 1/4 l,4,9-10t,59,True,22,47
+Cork Racing Results | 27th September 2022 16:55,N/A,16:55,Yielding,1m,Ballysax (IRE),K. J. Manning,0,W. T. Farrell,9th,5 1/2 l,4,9-1,50,True,22,47
+Cork Racing Results | 27th September 2022 16:55,N/A,16:55,Yielding,1m,Cheeky Peek (IRE),J. J. G. Ryan,7,John P. O'Callaghan,8th,1/2 l,3,9-0,53,True,22,47
+Cork Racing Results | 27th September 2022 16:55,N/A,16:55,Yielding,1m,Dreams Delivered (IRE),C. D. Hayes,0,Darren Bunyan,7th,1 3/4 l,4,9-5b,54,True,22,47
+Cork Racing Results | 27th September 2022 16:55,N/A,16:55,Yielding,1m,Scarriff (IRE),C. T. Keane,0,John Joseph Murphy,6th,2 l,4,8-12,47,True,22,47
+Cork Racing Results | 27th September 2022 16:55,N/A,16:55,Yielding,1m,Dragon Roll (IRE),Seamie Heffernan,0,Eamonn O'Connell,5th,Head,6,8-12,47,True,22,47
+Cork Racing Results | 27th September 2022 16:55,N/A,16:55,Yielding,1m,Gemini Man (IRE),N. G. McCullagh,0,C. P. Donoghue,4th,1/2 l,4,8-12,47,True,22,47
+Cork Racing Results | 27th September 2022 16:55,N/A,16:55,Yielding,1m,Han Solo,O. Enright,10,Augustine Leahy,3rd,2 1/4 l,6,8-13,48,True,22,47
+Cork Racing Results | 27th September 2022 16:55,N/A,16:55,Yielding,1m,Skontonovski,R. P. Whelan,0,Adrian McGuinness,2nd,1/2 l,5,9-9v,58,True,22,47
+Cork Racing Results | 27th September 2022 16:55,N/A,16:55,Yielding,1m,Indiana Grey (IRE),D. B. McMonagle,0,Patrick Martin,1st,N/A,6,8-12tv,47,True,22,47
+Cork Racing Results | 27th September 2022 17:25,N/A,17:25,Yielding,1m,Harrison Green (IRE),A. J. Slattery,0,Patrick Tallis,16th,3/4 l,4,9-9,58,True,22,48
+Cork Racing Results | 27th September 2022 17:25,N/A,17:25,Yielding,1m,Tyrion's Dream (IRE),C. T. Keane,0,Aidan Anthony Howard,15th,1/2 l,5,9-1tb,50,True,22,48
+Cork Racing Results | 27th September 2022 17:25,N/A,17:25,Yielding,1m,Rock Dandy (IRE),C. Horgan,7,A. Slattery,14th,1 l,4,9-2,51,True,22,48
+Cork Racing Results | 27th September 2022 17:25,N/A,17:25,Yielding,1m,Corballis Flyer (IRE),R. P. Cleary,0,James M. Barrett,13th,2 l,4,8-12b,47,True,22,48
+Cork Racing Results | 27th September 2022 17:25,N/A,17:25,Yielding,1m,Classy Kate (IRE),Julie Burke,0,Kevin Thomas Coleman,12th,3/4 l,4,9-2,51,True,22,48
+Cork Racing Results | 27th September 2022 17:25,N/A,17:25,Yielding,1m,Peppermint Bay (IRE),J. A. Powell,7,J. J. Feane,11th,1 1/4 l,4,9-2,51,True,22,48
+Cork Racing Results | 27th September 2022 17:25,N/A,17:25,Yielding,1m,David Garrick (IRE),C. D. Hayes,0,Eddie & Patrick Harty,10th,Short Head,5,9-12t,61,True,22,48
+Cork Racing Results | 27th September 2022 17:25,N/A,17:25,Yielding,1m,Broken Silence (IRE),Seamie Heffernan,0,R. R. Roberts,9th,Nose,6,9-4p,53,True,22,48
+Cork Racing Results | 27th September 2022 17:25,N/A,17:25,Yielding,1m,Tall Story (IRE),G. F. Carroll,0,Ross O'Sullivan,8th,Head,4,9-13p,62,True,22,48
+Cork Racing Results | 27th September 2022 17:25,N/A,17:25,Yielding,1m,Improving (IRE),O. Enright,10,Augustine Leahy,7th,1 l,6,10-1,64,True,22,48
+Cork Racing Results | 27th September 2022 17:25,N/A,17:25,Yielding,1m,Manhattan Dandy (IRE),J. J. G. Ryan,7,Thomas Coyle,6th,1/2 l,5,8-13,48,True,22,48
+Cork Racing Results | 27th September 2022 17:25,N/A,17:25,Yielding,1m,Fond Farewell (IRE),Shane Foley,0,John Joseph Murphy,5th,1/2 l,3,8-10,49,True,22,48
+Cork Racing Results | 27th September 2022 17:25,N/A,17:25,Yielding,1m,Pallasmore Lass (IRE),William James Lee,0,Paul W. Flynn,4th,Short Head,4,9-3tp1,52,True,22,48
+Cork Racing Results | 27th September 2022 17:25,N/A,17:25,Yielding,1m,Facethepuckout (IRE),L. F. Roche,0,M. D. O'Callaghan,3rd,Neck,6,9-4,53,True,22,48
+Cork Racing Results | 27th September 2022 17:25,N/A,17:25,Yielding,1m,Miracles In May (IRE),Ben Martin Coen,0,Mark Cahill,2nd,1/2 l,7,9-6,55,True,22,48
+Cork Racing Results | 27th September 2022 17:25,N/A,17:25,Yielding,1m,Lucky Queen (IRE),L. T. McAteer,3,P. J. F. Murphy,1st,N/A,3,9-0tp,53,True,22,48
+Cork Racing Results | 27th September 2022 17:25,N/A,17:25,Yielding,1m,Harrison Green (IRE),A. J. Slattery,0,Patrick Tallis,16th,3/4 l,4,9-9,58,True,22,48
+Cork Racing Results | 27th September 2022 17:25,N/A,17:25,Yielding,1m,Tyrion's Dream (IRE),C. T. Keane,0,Aidan Anthony Howard,15th,1/2 l,5,9-1tb,50,True,22,48
+Cork Racing Results | 27th September 2022 17:25,N/A,17:25,Yielding,1m,Rock Dandy (IRE),C. Horgan,7,A. Slattery,14th,1 l,4,9-2,51,True,22,48
+Cork Racing Results | 27th September 2022 17:25,N/A,17:25,Yielding,1m,Corballis Flyer (IRE),R. P. Cleary,0,James M. Barrett,13th,2 l,4,8-12b,47,True,22,48
+Cork Racing Results | 27th September 2022 17:25,N/A,17:25,Yielding,1m,Classy Kate (IRE),Julie Burke,0,Kevin Thomas Coleman,12th,3/4 l,4,9-2,51,True,22,48
+Cork Racing Results | 27th September 2022 17:25,N/A,17:25,Yielding,1m,Peppermint Bay (IRE),J. A. Powell,7,J. J. Feane,11th,1 1/4 l,4,9-2,51,True,22,48
+Cork Racing Results | 27th September 2022 17:25,N/A,17:25,Yielding,1m,David Garrick (IRE),C. D. Hayes,0,Eddie & Patrick Harty,10th,Short Head,5,9-12t,61,True,22,48
+Cork Racing Results | 27th September 2022 17:25,N/A,17:25,Yielding,1m,Broken Silence (IRE),Seamie Heffernan,0,R. R. Roberts,9th,Nose,6,9-4p,53,True,22,48
+Cork Racing Results | 27th September 2022 17:25,N/A,17:25,Yielding,1m,Tall Story (IRE),G. F. Carroll,0,Ross O'Sullivan,8th,Head,4,9-13p,62,True,22,48
+Cork Racing Results | 27th September 2022 17:25,N/A,17:25,Yielding,1m,Improving (IRE),O. Enright,10,Augustine Leahy,7th,1 l,6,10-1,64,True,22,48
+Cork Racing Results | 27th September 2022 17:25,N/A,17:25,Yielding,1m,Manhattan Dandy (IRE),J. J. G. Ryan,7,Thomas Coyle,6th,1/2 l,5,8-13,48,True,22,48
+Cork Racing Results | 27th September 2022 17:25,N/A,17:25,Yielding,1m,Fond Farewell (IRE),Shane Foley,0,John Joseph Murphy,5th,1/2 l,3,8-10,49,True,22,48
+Cork Racing Results | 27th September 2022 17:25,N/A,17:25,Yielding,1m,Pallasmore Lass (IRE),William James Lee,0,Paul W. Flynn,4th,Short Head,4,9-3tp1,52,True,22,48
+Cork Racing Results | 27th September 2022 17:25,N/A,17:25,Yielding,1m,Facethepuckout (IRE),L. F. Roche,0,M. D. O'Callaghan,3rd,Neck,6,9-4,53,True,22,48
+Cork Racing Results | 27th September 2022 17:25,N/A,17:25,Yielding,1m,Miracles In May (IRE),Ben Martin Coen,0,Mark Cahill,2nd,1/2 l,7,9-6,55,True,22,48
+Cork Racing Results | 27th September 2022 17:25,N/A,17:25,Yielding,1m,Lucky Queen (IRE),L. T. McAteer,3,P. J. F. Murphy,1st,N/A,3,9-0tp,53,True,22,48
+N/A,N/A,14:00,Good (Good To Yielding In Places),7f 176y,Poetic Girl (IRE),R. P. Cleary,0,Luke W. Comer,14th,1 1/4 l,5,9-11,-,True,22,49
+N/A,N/A,14:00,Good (Good To Yielding In Places),7f 176y,Strip Light (IRE),James J. Doyle,0,R. K. Watson,13th,16 l,5,9-3,-,True,22,49
+N/A,N/A,14:00,Good (Good To Yielding In Places),7f 176y,Palais D'elysee,Ben Martin Coen,0,John Patrick Murtagh,12th,Head,3,9-2p,-,True,22,49
+N/A,N/A,14:00,Good (Good To Yielding In Places),7f 176y,Battle Manoueuvre (IRE),J. J. G. Ryan,7,James McAuley,11th,5 l,3,9-4t1,-,True,22,49
+N/A,N/A,14:00,Good (Good To Yielding In Places),7f 176y,Ruby Jules,D. J. Gilligan,7,Paul John Gilligan,10th,1 3/4 l,3,9-6,-,True,22,49
+N/A,N/A,14:00,Good (Good To Yielding In Places),7f 176y,Approach The Land,G. F. Carroll,0,James McAuley,9th,2 3/4 l,4,9-7t1,-,True,22,49
+N/A,N/A,14:00,Good (Good To Yielding In Places),7f 176y,Papa Carlo (IRE),R. P. Whelan,0,Mark Fahey,8th,2 1/4 l,3,9-2,-,True,22,49
+N/A,N/A,14:00,Good (Good To Yielding In Places),7f 176y,The Rebel Breen,C. D. Hayes,0,Noel Meade,7th,Head,3,9-2,-,True,22,49
+N/A,N/A,14:00,Good (Good To Yielding In Places),7f 176y,Irish Act (IRE),William James Lee,0,James McAuley,6th,1 1/4 l,3,9-4t,-,True,22,49
+N/A,N/A,14:00,Good (Good To Yielding In Places),7f 176y,Cometh the Man (IRE),Adam Caffrey,7,Adrian McGuinness,5th,1/2 l,4,9-3,-,True,22,49
+N/A,N/A,14:00,Good (Good To Yielding In Places),7f 176y,Atbay (IRE),M. A. Enright,0,Gerard Keane,4th,1/2 l,3,9-2p1,-,True,22,49
+N/A,N/A,14:00,Good (Good To Yielding In Places),7f 176y,Santa Catarina,Seamie Heffernan,0,W. P. Browne,3rd,4 1/2 l,3,9-2p1,-,True,22,49
+N/A,N/A,14:00,Good (Good To Yielding In Places),7f 176y,James Henry (IRE),C. T. Keane,0,Noel Meade,2nd,1/2 l,3,9-4p,-,True,22,49
+N/A,N/A,14:00,Good (Good To Yielding In Places),7f 176y,Sweeping Statement (IRE),Shane Foley,0,James McAuley,1st,N/A,4,9-5p1,-,True,22,49
+N/A,N/A,14:00,Good (Good To Yielding In Places),7f 176y,Poetic Girl (IRE),R. P. Cleary,0,Luke W. Comer,14th,1 1/4 l,5,9-11,-,True,22,49
+N/A,N/A,14:00,Good (Good To Yielding In Places),7f 176y,Strip Light (IRE),James J. Doyle,0,R. K. Watson,13th,16 l,5,9-3,-,True,22,49
+N/A,N/A,14:00,Good (Good To Yielding In Places),7f 176y,Palais D'elysee,Ben Martin Coen,0,John Patrick Murtagh,12th,Head,3,9-2p,-,True,22,49
+N/A,N/A,14:00,Good (Good To Yielding In Places),7f 176y,Battle Manoueuvre (IRE),J. J. G. Ryan,7,James McAuley,11th,5 l,3,9-4t1,-,True,22,49
+N/A,N/A,14:00,Good (Good To Yielding In Places),7f 176y,Ruby Jules,D. J. Gilligan,7,Paul John Gilligan,10th,1 3/4 l,3,9-6,-,True,22,49
+N/A,N/A,14:00,Good (Good To Yielding In Places),7f 176y,Approach The Land,G. F. Carroll,0,James McAuley,9th,2 3/4 l,4,9-7t1,-,True,22,49
+N/A,N/A,14:00,Good (Good To Yielding In Places),7f 176y,Papa Carlo (IRE),R. P. Whelan,0,Mark Fahey,8th,2 1/4 l,3,9-2,-,True,22,49
+N/A,N/A,14:00,Good (Good To Yielding In Places),7f 176y,The Rebel Breen,C. D. Hayes,0,Noel Meade,7th,Head,3,9-2,-,True,22,49
+N/A,N/A,14:00,Good (Good To Yielding In Places),7f 176y,Irish Act (IRE),William James Lee,0,James McAuley,6th,1 1/4 l,3,9-4t,-,True,22,49
+N/A,N/A,14:00,Good (Good To Yielding In Places),7f 176y,Cometh the Man (IRE),Adam Caffrey,7,Adrian McGuinness,5th,1/2 l,4,9-3,-,True,22,49
+N/A,N/A,14:00,Good (Good To Yielding In Places),7f 176y,Atbay (IRE),M. A. Enright,0,Gerard Keane,4th,1/2 l,3,9-2p1,-,True,22,49
+N/A,N/A,14:00,Good (Good To Yielding In Places),7f 176y,Santa Catarina,Seamie Heffernan,0,W. P. Browne,3rd,4 1/2 l,3,9-2p1,-,True,22,49
+N/A,N/A,14:00,Good (Good To Yielding In Places),7f 176y,James Henry (IRE),C. T. Keane,0,Noel Meade,2nd,1/2 l,3,9-4p,-,True,22,49
+N/A,N/A,14:00,Good (Good To Yielding In Places),7f 176y,Sweeping Statement (IRE),Shane Foley,0,James McAuley,1st,N/A,4,9-5p1,-,True,22,49
+N/A,N/A,14:35,Good (Good To Yielding In Places),7f 176y,Almost An Angel,Kyle Faulkner,10,John Larkin,15th,2 3/4 l,4,9-9tp,57,True,22,50
+N/A,N/A,14:35,Good (Good To Yielding In Places),7f 176y,Laurens Company (IRE),Seamie Heffernan,0,Muredach Kelly,14th,15 l,4,9-4t,52,True,22,50
+N/A,N/A,14:35,Good (Good To Yielding In Places),7f 176y,Leclerc,C. J. MacRedmond,5,Adrian McGuinness,13th,1 3/4 l,4,9-4,52,True,22,50
+N/A,N/A,14:35,Good (Good To Yielding In Places),7f 176y,Ellabella (IRE),J. Kearney,7,Andrew McNamara,12th,Neck,4,9-7tp,55,True,22,50
+N/A,N/A,14:35,Good (Good To Yielding In Places),7f 176y,Sod's Law,C. D. Hayes,0,Luke Comer,11th,9 1/2 l,7,9-0p,48,True,22,50
+N/A,N/A,14:35,Good (Good To Yielding In Places),7f 176y,Capla Knight (IRE),L. T. McAteer,3,P. J. McKenna,10th,1 3/4 l,4,9-1p,49,True,22,50
+N/A,N/A,14:35,Good (Good To Yielding In Places),7f 176y,Stormy Jenn (IRE),Cillian McConnell,7,Peter Cluskey,9th,Neck,5,10-0,62,True,22,50
+N/A,N/A,14:35,Good (Good To Yielding In Places),7f 176y,Plugged In (IRE),N. M. Crosse,3,J. T. Gorman,8th,2 1/2 l,5,8-13h,43,True,22,50
+N/A,N/A,14:35,Good (Good To Yielding In Places),7f 176y,Heer at Dawn,R. Whearty,7,Gavin Patrick Cromwell,7th,Nose,4,8-13,47,True,22,50
+N/A,N/A,14:35,Good (Good To Yielding In Places),7f 176y,Colonel Slade (IRE),William James Lee,0,Gillian Scott,6th,Neck,6,8-13tp,42,True,22,50
+N/A,N/A,14:35,Good (Good To Yielding In Places),7f 176y,Shawaf,D. B. McMonagle,0,John McConnell,5th,1 l,6,8-13t,45,True,22,50
+N/A,N/A,14:35,Good (Good To Yielding In Places),7f 176y,Navorrosse (IRE),R. P. Cleary,0,P. A. Fahy,4th,3/4 l,5,9-7,55,True,22,50
+N/A,N/A,14:35,Good (Good To Yielding In Places),7f 176y,Bellick,Siobhan Rutledge,5,John McConnell,3rd,Head,7,8-13,43,True,22,50
+N/A,N/A,14:35,Good (Good To Yielding In Places),7f 176y,What Adaay,C. T. Keane,0,Patrick Martin,2nd,1 1/2 l,4,8-13t1,46,True,22,50
+N/A,N/A,14:35,Good (Good To Yielding In Places),7f 176y,The Bog Bank (IRE),J. J. G. Ryan,7,T. G. McCourt,1st,N/A,5,9-12p,60,True,22,50
+N/A,N/A,14:35,Good (Good To Yielding In Places),7f 176y,Almost An Angel,Kyle Faulkner,10,John Larkin,15th,2 3/4 l,4,9-9tp,57,True,22,50
+N/A,N/A,14:35,Good (Good To Yielding In Places),7f 176y,Laurens Company (IRE),Seamie Heffernan,0,Muredach Kelly,14th,15 l,4,9-4t,52,True,22,50
+N/A,N/A,14:35,Good (Good To Yielding In Places),7f 176y,Leclerc,C. J. MacRedmond,5,Adrian McGuinness,13th,1 3/4 l,4,9-4,52,True,22,50
+N/A,N/A,14:35,Good (Good To Yielding In Places),7f 176y,Ellabella (IRE),J. Kearney,7,Andrew McNamara,12th,Neck,4,9-7tp,55,True,22,50
+N/A,N/A,14:35,Good (Good To Yielding In Places),7f 176y,Sod's Law,C. D. Hayes,0,Luke Comer,11th,9 1/2 l,7,9-0p,48,True,22,50
+N/A,N/A,14:35,Good (Good To Yielding In Places),7f 176y,Capla Knight (IRE),L. T. McAteer,3,P. J. McKenna,10th,1 3/4 l,4,9-1p,49,True,22,50
+N/A,N/A,14:35,Good (Good To Yielding In Places),7f 176y,Stormy Jenn (IRE),Cillian McConnell,7,Peter Cluskey,9th,Neck,5,10-0,62,True,22,50
+N/A,N/A,14:35,Good (Good To Yielding In Places),7f 176y,Plugged In (IRE),N. M. Crosse,3,J. T. Gorman,8th,2 1/2 l,5,8-13h,43,True,22,50
+N/A,N/A,14:35,Good (Good To Yielding In Places),7f 176y,Heer at Dawn,R. Whearty,7,Gavin Patrick Cromwell,7th,Nose,4,8-13,47,True,22,50
+N/A,N/A,14:35,Good (Good To Yielding In Places),7f 176y,Colonel Slade (IRE),William James Lee,0,Gillian Scott,6th,Neck,6,8-13tp,42,True,22,50
+N/A,N/A,14:35,Good (Good To Yielding In Places),7f 176y,Shawaf,D. B. McMonagle,0,John McConnell,5th,1 l,6,8-13t,45,True,22,50
+N/A,N/A,14:35,Good (Good To Yielding In Places),7f 176y,Navorrosse (IRE),R. P. Cleary,0,P. A. Fahy,4th,3/4 l,5,9-7,55,True,22,50
+N/A,N/A,14:35,Good (Good To Yielding In Places),7f 176y,Bellick,Siobhan Rutledge,5,John McConnell,3rd,Head,7,8-13,43,True,22,50
+N/A,N/A,14:35,Good (Good To Yielding In Places),7f 176y,What Adaay,C. T. Keane,0,Patrick Martin,2nd,1 1/2 l,4,8-13t1,46,True,22,50
+N/A,N/A,14:35,Good (Good To Yielding In Places),7f 176y,The Bog Bank (IRE),J. J. G. Ryan,7,T. G. McCourt,1st,N/A,5,9-12p,60,True,22,50

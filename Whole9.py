@@ -144,7 +144,7 @@ class CSVLinkScraper:
             self.driver.get(url)
             
             # Wait for page to load - wait a bit longer for racing pages
-            time.sleep(3)  # Increased from 2 to 3 seconds for racing pages
+            time.sleep(5)  # Increased from 2 to 3 seconds for racing pages
             
             # Optional: Wait for specific racing elements to load
             try:
@@ -349,9 +349,9 @@ class CSVLinkScraper:
         )
         
         if first_place_found:
-            self.logger.info("✓ First place horse found successfully")
+            self.logger.info(":) First place horse found successfully")
         else:
-            self.logger.warning("⚠ First place horse NOT found in the extracted data")
+            self.logger.warning("!! First place horse NOT found in the extracted data")
         
         return first_place_found
     
@@ -1261,4 +1261,5 @@ def main():
 if __name__ == "__main__":
     main()
 
-    #python3 Whole9.py --csv urls.csv --batch-size 50 --output Part2.csv --headless
+    #python3 Whole9.py --csv Csv\DATA_STACK\irishFull.csv --batch-size 50 --output Part2.csv --headless
+    #batch from 11 - 30 is not SCRAPED 2025-06-12 -JC

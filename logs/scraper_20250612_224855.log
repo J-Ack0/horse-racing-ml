@@ -1,0 +1,332 @@
+2025-06-12 22:48:57,877 - INFO - Loaded 8985 rows from Csv\DATA_STACK\irishFull.csv
+2025-06-12 22:48:57,882 - INFO - Found 8985 valid URLs to scrape
+2025-06-12 22:48:57,883 - INFO - Total URLs: 8985, Batch size: 50, Total batches: 180
+2025-06-12 22:48:57,883 - INFO - Previous progress found: Last completed batch 30
+2025-06-12 22:48:57,884 - INFO - Resuming from batch 31
+2025-06-12 22:48:57,884 - INFO - 
+============================================================
+2025-06-12 22:48:57,884 - INFO - STARTING BATCH 31/180 (50 URLs)
+2025-06-12 22:48:57,885 - INFO - ============================================================
+
+2025-06-12 22:48:58,405 - INFO - Batch 31 - URL 1/50: https://www.racingtv.com/results/2022-11-12/naas/1550
+2025-06-12 22:48:58,406 - INFO - Loading page with Selenium: https://www.racingtv.com/results/2022-11-12/naas/1550
+2025-06-12 22:49:10,884 - INFO - Racing main block detected for: https://www.racingtv.com/results/2022-11-12/naas/1550
+2025-06-12 22:49:10,937 - INFO - Successfully loaded page: https://www.racingtv.com/results/2022-11-12/naas/1550
+2025-06-12 22:49:11,070 - INFO - Extracted race info - Track: Naas Racing Results | 12th November 2022 15:50, Date: N/A, Time: 15:50
+2025-06-12 22:49:11,071 - INFO - Found 2nd h3 tag: Yielding To Soft (Soft In Places)  Flat (Turf) 4YO+ 2m Winner: €11,000 (10 runners)
+2025-06-12 22:49:11,071 - INFO - Extracted - Going: Yielding To Soft (Soft In Places)  Flat (Turf), Distance: 2m
+2025-06-12 22:49:11,072 - INFO - Extracting racing data from: https://www.racingtv.com/results/2022-11-12/naas/1550
+2025-06-12 22:49:11,082 - INFO - Processing main block #1 for https://www.racingtv.com/results/2022-11-12/naas/1550
+2025-06-12 22:49:11,088 - INFO - Checking 2nd child of main block for first place horse...
+2025-06-12 22:49:11,093 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 22:49:11,093 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 22:49:11,093 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 22:49:11,094 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 22:49:11,094 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 22:49:11,094 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 22:49:11,095 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 22:49:11,095 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 22:49:11,096 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 22:49:11,096 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 22:49:11,118 - INFO - Found likely first place horse via structure analysis: Halka Du Tabert (FR)
+2025-06-12 22:49:11,120 - INFO - Found potential first place horse with background styling
+2025-06-12 22:49:11,121 - INFO - Found potential first place horse with background styling
+2025-06-12 22:49:11,121 - INFO - Found potential first place horse with background styling
+2025-06-12 22:49:11,121 - INFO - Found potential first place horse with background styling
+2025-06-12 22:49:11,122 - INFO - Found potential first place horse with background styling
+2025-06-12 22:49:11,122 - INFO - Found potential first place horse with background styling
+2025-06-12 22:49:11,123 - INFO - Found potential first place horse with background styling
+2025-06-12 22:49:11,123 - INFO - Found potential first place horse with background styling
+2025-06-12 22:49:11,123 - INFO - Found potential first place horse with background styling
+2025-06-12 22:49:11,123 - INFO - Found 20 horse entries for https://www.racingtv.com/results/2022-11-12/naas/1550 using multiple detection methods
+2025-06-12 22:49:11,124 - INFO - Processing sub block #1 for https://www.racingtv.com/results/2022-11-12/naas/1550
+2025-06-12 22:49:11,124 - INFO - Found 3 <a> tags - Horse: We Will Rock You (FR), Jockey: Mr E. P. O'Brien (claim: 5), Trainer: Alan Donoghue
+2025-06-12 22:49:11,126 - INFO - Position/Length - Found 2 children: Position: 10th, Lost by: 59 l
+2025-06-12 22:49:11,126 - INFO - Extracted: We Will Rock You (FR) - Position: 10th, Lost by: 59 l, Jockey: Mr E. P. O'Brien (claim: 5), Trainer: Alan Donoghue, Age: 4, Weight: 11-11, Rating: -
+2025-06-12 22:49:11,127 - INFO - Processing sub block #2 for https://www.racingtv.com/results/2022-11-12/naas/1550
+2025-06-12 22:49:11,128 - INFO - Found 3 <a> tags - Horse: C'est Rien (IRE), Jockey: Mr Charlie Mullins (claim: 7), Trainer: Thomas Mullins
+2025-06-12 22:49:11,129 - INFO - Position/Length - Found 2 children: Position: 9th, Lost by: 1/2 l
+2025-06-12 22:49:11,129 - INFO - Extracted: C'est Rien (IRE) - Position: 9th, Lost by: 1/2 l, Jockey: Mr Charlie Mullins (claim: 7), Trainer: Thomas Mullins, Age: 5, Weight: 11-11, Rating: -
+2025-06-12 22:49:11,129 - INFO - Processing sub block #3 for https://www.racingtv.com/results/2022-11-12/naas/1550
+2025-06-12 22:49:11,130 - INFO - Found 3 <a> tags - Horse: Getabelle (IRE), Jockey: Adam Ellis (claim: 7), Trainer: Liam P. Cusack
+2025-06-12 22:49:11,131 - INFO - Position/Length - Found 2 children: Position: 8th, Lost by: 5 l
+2025-06-12 22:49:11,131 - INFO - Extracted: Getabelle (IRE) - Position: 8th, Lost by: 5 l, Jockey: Adam Ellis (claim: 7), Trainer: Liam P. Cusack, Age: 5, Weight: 11-11t1, Rating: -
+2025-06-12 22:49:11,131 - INFO - Processing sub block #4 for https://www.racingtv.com/results/2022-11-12/naas/1550
+2025-06-12 22:49:11,132 - INFO - Found 3 <a> tags - Horse: Kilbarry Lilac (IRE), Jockey: Mr Pat Taaffe (claim: 7), Trainer: Con O'Keeffe
+2025-06-12 22:49:11,133 - INFO - Position/Length - Found 2 children: Position: 7th, Lost by: 6 1/2 l
+2025-06-12 22:49:11,133 - INFO - Extracted: Kilbarry Lilac (IRE) - Position: 7th, Lost by: 6 1/2 l, Jockey: Mr Pat Taaffe (claim: 7), Trainer: Con O'Keeffe, Age: 6, Weight: 11-11, Rating: -
+2025-06-12 22:49:11,133 - INFO - Processing sub block #5 for https://www.racingtv.com/results/2022-11-12/naas/1550
+2025-06-12 22:49:11,134 - INFO - Found 3 <a> tags - Horse: Moving on Swiftly (IRE), Jockey: Mr D. Allen (claim: 7), Trainer: David Kenneth Budds
+2025-06-12 22:49:11,135 - INFO - Position/Length - Found 2 children: Position: 6th, Lost by: 12 l
+2025-06-12 22:49:11,135 - INFO - Extracted: Moving on Swiftly (IRE) - Position: 6th, Lost by: 12 l, Jockey: Mr D. Allen (claim: 7), Trainer: David Kenneth Budds, Age: 5, Weight: 11-11t1, Rating: -
+2025-06-12 22:49:11,135 - INFO - Processing sub block #6 for https://www.racingtv.com/results/2022-11-12/naas/1550
+2025-06-12 22:49:11,136 - INFO - Found 3 <a> tags - Horse: Parkrunner (IRE), Jockey: Mr P. C. Bannon (claim: 7), Trainer: Peter John Flood
+2025-06-12 22:49:11,138 - INFO - Position/Length - Found 2 children: Position: 5th, Lost by: 11 l
+2025-06-12 22:49:11,138 - INFO - Extracted: Parkrunner (IRE) - Position: 5th, Lost by: 11 l, Jockey: Mr P. C. Bannon (claim: 7), Trainer: Peter John Flood, Age: 4, Weight: 11-11h1, Rating: -
+2025-06-12 22:49:11,139 - INFO - Processing sub block #7 for https://www.racingtv.com/results/2022-11-12/naas/1550
+2025-06-12 22:49:11,139 - INFO - Found 3 <a> tags - Horse: Bohemian Summer (IRE), Jockey: Kieran Callaghan (claim: 7), Trainer: J. G. Cosgrave
+2025-06-12 22:49:11,140 - INFO - Position/Length - Found 2 children: Position: 4th, Lost by: 8 l
+2025-06-12 22:49:11,140 - INFO - Extracted: Bohemian Summer (IRE) - Position: 4th, Lost by: 8 l, Jockey: Kieran Callaghan (claim: 7), Trainer: J. G. Cosgrave, Age: 5, Weight: 11-11, Rating: -
+2025-06-12 22:49:11,140 - INFO - Processing sub block #8 for https://www.racingtv.com/results/2022-11-12/naas/1550
+2025-06-12 22:49:11,141 - INFO - Found 3 <a> tags - Horse: Gaillimh A Run (IRE), Jockey: Mr J. L. Gleeson (claim: 7), Trainer: John Queally
+2025-06-12 22:49:11,142 - INFO - Position/Length - Found 2 children: Position: 3rd, Lost by: 3 1/2 l
+2025-06-12 22:49:11,142 - INFO - Extracted: Gaillimh A Run (IRE) - Position: 3rd, Lost by: 3 1/2 l, Jockey: Mr J. L. Gleeson (claim: 7), Trainer: John Queally, Age: 5, Weight: 11-11, Rating: -
+2025-06-12 22:49:11,142 - INFO - Processing sub block #9 for https://www.racingtv.com/results/2022-11-12/naas/1550
+2025-06-12 22:49:11,143 - INFO - Found 3 <a> tags - Horse: Coole Cherry (IRE), Jockey: Miss J. Townend (claim: 3), Trainer: W. P. Mullins
+2025-06-12 22:49:11,144 - INFO - Position/Length - Found 2 children: Position: 2nd, Lost by: Neck
+2025-06-12 22:49:11,144 - INFO - Extracted: Coole Cherry (IRE) - Position: 2nd, Lost by: Neck, Jockey: Miss J. Townend (claim: 3), Trainer: W. P. Mullins, Age: 4, Weight: 11-11, Rating: -
+2025-06-12 22:49:11,144 - INFO - Processing sub block #10 for https://www.racingtv.com/results/2022-11-12/naas/1550
+2025-06-12 22:49:11,145 - INFO - Found 3 <a> tags - Horse: Halka Du Tabert (FR), Jockey: Mr J. J. Codd (claim: 0), Trainer: Gordon Elliott
+2025-06-12 22:49:11,145 - INFO - Position/Length - Found 1 children: Position: 1st, Lost by: N/A
+2025-06-12 22:49:11,146 - INFO - Confirmed winner: Halka Du Tabert (FR)
+2025-06-12 22:49:11,146 - INFO - Extracted: Halka Du Tabert (FR) - Position: 1st, Lost by: N/A, Jockey: Mr J. J. Codd (claim: 0), Trainer: Gordon Elliott, Age: 5, Weight: 11-11, Rating: -
+2025-06-12 22:49:11,146 - INFO - Processing sub block #11 for https://www.racingtv.com/results/2022-11-12/naas/1550
+2025-06-12 22:49:11,147 - INFO - Found 3 <a> tags - Horse: We Will Rock You (FR), Jockey: Mr E. P. O'Brien (claim: 5), Trainer: Alan Donoghue
+2025-06-12 22:49:11,147 - INFO - Position/Length - Found 2 children: Position: 10th, Lost by: 59 l
+2025-06-12 22:49:11,147 - INFO - Extracted: We Will Rock You (FR) - Position: 10th, Lost by: 59 l, Jockey: Mr E. P. O'Brien (claim: 5), Trainer: Alan Donoghue, Age: 4, Weight: 11-11, Rating: -
+2025-06-12 22:49:11,148 - INFO - Processing sub block #12 for https://www.racingtv.com/results/2022-11-12/naas/1550
+2025-06-12 22:49:11,148 - INFO - Found 3 <a> tags - Horse: C'est Rien (IRE), Jockey: Mr Charlie Mullins (claim: 7), Trainer: Thomas Mullins
+2025-06-12 22:49:11,149 - INFO - Position/Length - Found 2 children: Position: 9th, Lost by: 1/2 l
+2025-06-12 22:49:11,149 - INFO - Extracted: C'est Rien (IRE) - Position: 9th, Lost by: 1/2 l, Jockey: Mr Charlie Mullins (claim: 7), Trainer: Thomas Mullins, Age: 5, Weight: 11-11, Rating: -
+2025-06-12 22:49:11,149 - INFO - Processing sub block #13 for https://www.racingtv.com/results/2022-11-12/naas/1550
+2025-06-12 22:49:11,150 - INFO - Found 3 <a> tags - Horse: Getabelle (IRE), Jockey: Adam Ellis (claim: 7), Trainer: Liam P. Cusack
+2025-06-12 22:49:11,150 - INFO - Position/Length - Found 2 children: Position: 8th, Lost by: 5 l
+2025-06-12 22:49:11,150 - INFO - Extracted: Getabelle (IRE) - Position: 8th, Lost by: 5 l, Jockey: Adam Ellis (claim: 7), Trainer: Liam P. Cusack, Age: 5, Weight: 11-11t1, Rating: -
+2025-06-12 22:49:11,151 - INFO - Processing sub block #14 for https://www.racingtv.com/results/2022-11-12/naas/1550
+2025-06-12 22:49:11,151 - INFO - Found 3 <a> tags - Horse: Kilbarry Lilac (IRE), Jockey: Mr Pat Taaffe (claim: 7), Trainer: Con O'Keeffe
+2025-06-12 22:49:11,152 - INFO - Position/Length - Found 2 children: Position: 7th, Lost by: 6 1/2 l
+2025-06-12 22:49:11,152 - INFO - Extracted: Kilbarry Lilac (IRE) - Position: 7th, Lost by: 6 1/2 l, Jockey: Mr Pat Taaffe (claim: 7), Trainer: Con O'Keeffe, Age: 6, Weight: 11-11, Rating: -
+2025-06-12 22:49:11,152 - INFO - Processing sub block #15 for https://www.racingtv.com/results/2022-11-12/naas/1550
+2025-06-12 22:49:11,153 - INFO - Found 3 <a> tags - Horse: Moving on Swiftly (IRE), Jockey: Mr D. Allen (claim: 7), Trainer: David Kenneth Budds
+2025-06-12 22:49:11,154 - INFO - Position/Length - Found 2 children: Position: 6th, Lost by: 12 l
+2025-06-12 22:49:11,154 - INFO - Extracted: Moving on Swiftly (IRE) - Position: 6th, Lost by: 12 l, Jockey: Mr D. Allen (claim: 7), Trainer: David Kenneth Budds, Age: 5, Weight: 11-11t1, Rating: -
+2025-06-12 22:49:11,154 - INFO - Processing sub block #16 for https://www.racingtv.com/results/2022-11-12/naas/1550
+2025-06-12 22:49:11,155 - INFO - Found 3 <a> tags - Horse: Parkrunner (IRE), Jockey: Mr P. C. Bannon (claim: 7), Trainer: Peter John Flood
+2025-06-12 22:49:11,156 - INFO - Position/Length - Found 2 children: Position: 5th, Lost by: 11 l
+2025-06-12 22:49:11,156 - INFO - Extracted: Parkrunner (IRE) - Position: 5th, Lost by: 11 l, Jockey: Mr P. C. Bannon (claim: 7), Trainer: Peter John Flood, Age: 4, Weight: 11-11h1, Rating: -
+2025-06-12 22:49:11,156 - INFO - Processing sub block #17 for https://www.racingtv.com/results/2022-11-12/naas/1550
+2025-06-12 22:49:11,157 - INFO - Found 3 <a> tags - Horse: Bohemian Summer (IRE), Jockey: Kieran Callaghan (claim: 7), Trainer: J. G. Cosgrave
+2025-06-12 22:49:11,158 - INFO - Position/Length - Found 2 children: Position: 4th, Lost by: 8 l
+2025-06-12 22:49:11,158 - INFO - Extracted: Bohemian Summer (IRE) - Position: 4th, Lost by: 8 l, Jockey: Kieran Callaghan (claim: 7), Trainer: J. G. Cosgrave, Age: 5, Weight: 11-11, Rating: -
+2025-06-12 22:49:11,158 - INFO - Processing sub block #18 for https://www.racingtv.com/results/2022-11-12/naas/1550
+2025-06-12 22:49:11,159 - INFO - Found 3 <a> tags - Horse: Gaillimh A Run (IRE), Jockey: Mr J. L. Gleeson (claim: 7), Trainer: John Queally
+2025-06-12 22:49:11,160 - INFO - Position/Length - Found 2 children: Position: 3rd, Lost by: 3 1/2 l
+2025-06-12 22:49:11,160 - INFO - Extracted: Gaillimh A Run (IRE) - Position: 3rd, Lost by: 3 1/2 l, Jockey: Mr J. L. Gleeson (claim: 7), Trainer: John Queally, Age: 5, Weight: 11-11, Rating: -
+2025-06-12 22:49:11,160 - INFO - Processing sub block #19 for https://www.racingtv.com/results/2022-11-12/naas/1550
+2025-06-12 22:49:11,161 - INFO - Found 3 <a> tags - Horse: Coole Cherry (IRE), Jockey: Miss J. Townend (claim: 3), Trainer: W. P. Mullins
+2025-06-12 22:49:11,162 - INFO - Position/Length - Found 2 children: Position: 2nd, Lost by: Neck
+2025-06-12 22:49:11,162 - INFO - Extracted: Coole Cherry (IRE) - Position: 2nd, Lost by: Neck, Jockey: Miss J. Townend (claim: 3), Trainer: W. P. Mullins, Age: 4, Weight: 11-11, Rating: -
+2025-06-12 22:49:11,162 - INFO - Processing sub block #20 for https://www.racingtv.com/results/2022-11-12/naas/1550
+2025-06-12 22:49:11,163 - INFO - Found 3 <a> tags - Horse: Halka Du Tabert (FR), Jockey: Mr J. J. Codd (claim: 0), Trainer: Gordon Elliott
+2025-06-12 22:49:11,163 - INFO - Position/Length - Found 1 children: Position: 1st, Lost by: N/A
+2025-06-12 22:49:11,163 - INFO - Extracted: Halka Du Tabert (FR) - Position: 1st, Lost by: N/A, Jockey: Mr J. J. Codd (claim: 0), Trainer: Gordon Elliott, Age: 5, Weight: 11-11, Rating: -
+2025-06-12 22:49:11,164 - INFO - Successfully extracted 20/20 horse records from https://www.racingtv.com/results/2022-11-12/naas/1550
+2025-06-12 22:49:11,228 - INFO - Successfully parsed 20 horse records from: https://www.racingtv.com/results/2022-11-12/naas/1550
+2025-06-12 22:49:11,228 - INFO - Waiting 2 seconds before next request...
+2025-06-12 22:49:13,230 - INFO - Batch 31 - URL 2/50: https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:13,232 - INFO - Loading page with Selenium: https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,609 - INFO - Racing main block detected for: https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,652 - INFO - Successfully loaded page: https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,789 - INFO - Extracted race info - Track: Navan Racing Results | 13th November 2022 11:45, Date: N/A, Time: 11:45
+2025-06-12 22:49:17,790 - INFO - Found 2nd h3 tag: Yielding  4YO+ 2m 4f Winner: €12,500 (19 runners)
+2025-06-12 22:49:17,791 - INFO - Extracted - Going: Yielding, Distance: 2m 4f
+2025-06-12 22:49:17,791 - INFO - Extracting racing data from: https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,804 - INFO - Processing main block #1 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,816 - INFO - Checking 2nd child of main block for first place horse...
+2025-06-12 22:49:17,825 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 22:49:17,825 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 22:49:17,826 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 22:49:17,826 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 22:49:17,826 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 22:49:17,827 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 22:49:17,827 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 22:49:17,827 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 22:49:17,828 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 22:49:17,828 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 22:49:17,828 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 22:49:17,829 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 22:49:17,829 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 22:49:17,829 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 22:49:17,830 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 22:49:17,830 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 22:49:17,830 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 22:49:17,831 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 22:49:17,831 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 22:49:17,869 - INFO - Found likely first place horse via structure analysis: Spirit Of Legend (FR)
+2025-06-12 22:49:17,875 - INFO - Found potential first place horse with background styling
+2025-06-12 22:49:17,876 - INFO - Found potential first place horse with background styling
+2025-06-12 22:49:17,876 - INFO - Found potential first place horse with background styling
+2025-06-12 22:49:17,876 - INFO - Found potential first place horse with background styling
+2025-06-12 22:49:17,877 - INFO - Found potential first place horse with background styling
+2025-06-12 22:49:17,877 - INFO - Found potential first place horse with background styling
+2025-06-12 22:49:17,877 - INFO - Found potential first place horse with background styling
+2025-06-12 22:49:17,878 - INFO - Found potential first place horse with background styling
+2025-06-12 22:49:17,878 - INFO - Found potential first place horse with background styling
+2025-06-12 22:49:17,879 - INFO - Found potential first place horse with background styling
+2025-06-12 22:49:17,879 - INFO - Found potential first place horse with background styling
+2025-06-12 22:49:17,879 - INFO - Found potential first place horse with background styling
+2025-06-12 22:49:17,880 - INFO - Found potential first place horse with background styling
+2025-06-12 22:49:17,880 - INFO - Found potential first place horse with background styling
+2025-06-12 22:49:17,881 - INFO - Found potential first place horse with background styling
+2025-06-12 22:49:17,881 - INFO - Found potential first place horse with background styling
+2025-06-12 22:49:17,881 - INFO - Found potential first place horse with background styling
+2025-06-12 22:49:17,881 - INFO - Found potential first place horse with background styling
+2025-06-12 22:49:17,881 - INFO - Found 38 horse entries for https://www.racingtv.com/results/2022-11-13/navan/1145 using multiple detection methods
+2025-06-12 22:49:17,881 - INFO - Processing sub block #1 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,881 - INFO - Found 3 <a> tags - Horse: Maymullen (IRE), Jockey: Sam Ewing (claim: 0), Trainer: Noel C. Kelly
+2025-06-12 22:49:17,884 - INFO - Position/Length - Found 1 children: Position: PU, Lost by: N/A
+2025-06-12 22:49:17,884 - INFO - Extracted: Maymullen (IRE) - Position: PU, Lost by: N/A, Jockey: Sam Ewing (claim: 0), Trainer: Noel C. Kelly, Age: 4, Weight: 11-11t1, Rating: -
+2025-06-12 22:49:17,884 - INFO - Processing sub block #2 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,885 - INFO - Found 3 <a> tags - Horse: No Never Again (IRE), Jockey: Keith Donoghue (claim: 0), Trainer: Matthew J. Smith
+2025-06-12 22:49:17,886 - INFO - Position/Length - Found 1 children: Position: PU, Lost by: N/A
+2025-06-12 22:49:17,886 - INFO - Extracted: No Never Again (IRE) - Position: PU, Lost by: N/A, Jockey: Keith Donoghue (claim: 0), Trainer: Matthew J. Smith, Age: 4, Weight: 11-11, Rating: -
+2025-06-12 22:49:17,886 - INFO - Processing sub block #3 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,887 - INFO - Found 3 <a> tags - Horse: Superdermo (IRE), Jockey: Patrick Michael O'Brien (claim: 7), Trainer: Gavin Patrick Cromwell
+2025-06-12 22:49:17,888 - INFO - Position/Length - Found 2 children: Position: 17th, Lost by: 37 l
+2025-06-12 22:49:17,888 - INFO - Extracted: Superdermo (IRE) - Position: 17th, Lost by: 37 l, Jockey: Patrick Michael O'Brien (claim: 7), Trainer: Gavin Patrick Cromwell, Age: 4, Weight: 11-11t, Rating: -
+2025-06-12 22:49:17,888 - INFO - Processing sub block #4 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,888 - INFO - Found 3 <a> tags - Horse: Ideal Vert (FR), Jockey: Denis O'Regan (claim: 0), Trainer: Gordon Elliott
+2025-06-12 22:49:17,891 - INFO - Position/Length - Found 2 children: Position: 16th, Lost by: 1 1/2 l
+2025-06-12 22:49:17,891 - INFO - Extracted: Ideal Vert (FR) - Position: 16th, Lost by: 1 1/2 l, Jockey: Denis O'Regan (claim: 0), Trainer: Gordon Elliott, Age: 4, Weight: 11-11, Rating: -
+2025-06-12 22:49:17,891 - INFO - Processing sub block #5 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,892 - INFO - Found 3 <a> tags - Horse: Wee Jerry (IRE), Jockey: M. J. Molloy (claim: 7), Trainer: Neill McCluskey
+2025-06-12 22:49:17,893 - INFO - Position/Length - Found 2 children: Position: 15th, Lost by: 16 l
+2025-06-12 22:49:17,893 - INFO - Extracted: Wee Jerry (IRE) - Position: 15th, Lost by: 16 l, Jockey: M. J. Molloy (claim: 7), Trainer: Neill McCluskey, Age: 6, Weight: 11-12, Rating: -
+2025-06-12 22:49:17,893 - INFO - Processing sub block #6 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,893 - INFO - Found 3 <a> tags - Horse: Gigantamax Eevee (IRE), Jockey: Peter Carberry (claim: 0), Trainer: Matthew J. Smith
+2025-06-12 22:49:17,894 - INFO - Position/Length - Found 2 children: Position: 14th, Lost by: 4 1/4 l
+2025-06-12 22:49:17,895 - INFO - Extracted: Gigantamax Eevee (IRE) - Position: 14th, Lost by: 4 1/4 l, Jockey: Peter Carberry (claim: 0), Trainer: Matthew J. Smith, Age: 4, Weight: 11-4, Rating: -
+2025-06-12 22:49:17,895 - INFO - Processing sub block #7 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,895 - INFO - Found 3 <a> tags - Horse: Use Your Illusion (IRE), Jockey: C. Brassil (claim: 5), Trainer: N. Carolan
+2025-06-12 22:49:17,896 - INFO - Position/Length - Found 2 children: Position: 13th, Lost by: 1 3/4 l
+2025-06-12 22:49:17,896 - INFO - Extracted: Use Your Illusion (IRE) - Position: 13th, Lost by: 1 3/4 l, Jockey: C. Brassil (claim: 5), Trainer: N. Carolan, Age: 5, Weight: 11-12, Rating: -
+2025-06-12 22:49:17,896 - INFO - Processing sub block #8 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,897 - INFO - Found 3 <a> tags - Horse: Fairy Tree (IRE), Jockey: B. J. Cooper (claim: 0), Trainer: Matthew J. Smith
+2025-06-12 22:49:17,897 - INFO - Position/Length - Found 2 children: Position: 12th, Lost by: 23 l
+2025-06-12 22:49:17,898 - INFO - Extracted: Fairy Tree (IRE) - Position: 12th, Lost by: 23 l, Jockey: B. J. Cooper (claim: 0), Trainer: Matthew J. Smith, Age: 5, Weight: 11-5, Rating: -
+2025-06-12 22:49:17,898 - INFO - Processing sub block #9 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,898 - INFO - Found 3 <a> tags - Horse: Ivane (FR), Jockey: E. Walsh (claim: 5), Trainer: Ciaran Murphy
+2025-06-12 22:49:17,899 - INFO - Position/Length - Found 2 children: Position: 11th, Lost by: 2 3/4 l
+2025-06-12 22:49:17,899 - INFO - Extracted: Ivane (FR) - Position: 11th, Lost by: 2 3/4 l, Jockey: E. Walsh (claim: 5), Trainer: Ciaran Murphy, Age: 4, Weight: 11-11, Rating: -
+2025-06-12 22:49:17,899 - INFO - Processing sub block #10 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,900 - INFO - Found 3 <a> tags - Horse: Mac's Xpress (IRE), Jockey: C. Smithers (claim: 7), Trainer: Mrs J. Harrington
+2025-06-12 22:49:17,902 - INFO - Position/Length - Found 2 children: Position: 10th, Lost by: 13 l
+2025-06-12 22:49:17,902 - INFO - Extracted: Mac's Xpress (IRE) - Position: 10th, Lost by: 13 l, Jockey: C. Smithers (claim: 7), Trainer: Mrs J. Harrington, Age: 4, Weight: 11-11, Rating: -
+2025-06-12 22:49:17,902 - INFO - Processing sub block #11 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,903 - INFO - Found 3 <a> tags - Horse: Wrecking Ball Paul (IRE), Jockey: Corey McGivern (claim: 7), Trainer: P. Mulligan
+2025-06-12 22:49:17,904 - INFO - Position/Length - Found 2 children: Position: 9th, Lost by: 45 l
+2025-06-12 22:49:17,904 - INFO - Extracted: Wrecking Ball Paul (IRE) - Position: 9th, Lost by: 45 l, Jockey: Corey McGivern (claim: 7), Trainer: P. Mulligan, Age: 4, Weight: 11-11, Rating: -
+2025-06-12 22:49:17,904 - INFO - Processing sub block #12 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,904 - INFO - Found 3 <a> tags - Horse: Neigh Botha (IRE), Jockey: Davy Russell (claim: 0), Trainer: Gordon Elliott
+2025-06-12 22:49:17,905 - INFO - Position/Length - Found 2 children: Position: 8th, Lost by: 1 1/2 l
+2025-06-12 22:49:17,905 - INFO - Extracted: Neigh Botha (IRE) - Position: 8th, Lost by: 1 1/2 l, Jockey: Davy Russell (claim: 0), Trainer: Gordon Elliott, Age: 5, Weight: 11-12, Rating: -
+2025-06-12 22:49:17,906 - INFO - Processing sub block #13 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,906 - INFO - Found 3 <a> tags - Horse: Got To Fly (IRE), Jockey: L. P. Dempsey (claim: 0), Trainer: J. P. Dempsey
+2025-06-12 22:49:17,908 - INFO - Position/Length - Found 2 children: Position: 7th, Lost by: 1 1/4 l
+2025-06-12 22:49:17,909 - INFO - Extracted: Got To Fly (IRE) - Position: 7th, Lost by: 1 1/4 l, Jockey: L. P. Dempsey (claim: 0), Trainer: J. P. Dempsey, Age: 4, Weight: 11-4h1, Rating: -
+2025-06-12 22:49:17,909 - INFO - Processing sub block #14 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,909 - INFO - Found 3 <a> tags - Horse: Quite Incredible (IRE), Jockey: Patrick O'Hanlon (claim: 5), Trainer: Dermot Anthony McLoughlin
+2025-06-12 22:49:17,910 - INFO - Position/Length - Found 2 children: Position: 6th, Lost by: 5 1/2 l
+2025-06-12 22:49:17,910 - INFO - Extracted: Quite Incredible (IRE) - Position: 6th, Lost by: 5 1/2 l, Jockey: Patrick O'Hanlon (claim: 5), Trainer: Dermot Anthony McLoughlin, Age: 6, Weight: 11-12, Rating: -
+2025-06-12 22:49:17,911 - INFO - Processing sub block #15 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,911 - INFO - Found 3 <a> tags - Horse: Heyjoe De Kerser (FR), Jockey: S. F. O'Keeffe (claim: 0), Trainer: Paul Nolan
+2025-06-12 22:49:17,912 - INFO - Position/Length - Found 2 children: Position: 5th, Lost by: 2 1/2 l
+2025-06-12 22:49:17,912 - INFO - Extracted: Heyjoe De Kerser (FR) - Position: 5th, Lost by: 2 1/2 l, Jockey: S. F. O'Keeffe (claim: 0), Trainer: Paul Nolan, Age: 5, Weight: 11-12, Rating: -
+2025-06-12 22:49:17,913 - INFO - Processing sub block #16 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,913 - INFO - Found 3 <a> tags - Horse: Firefox (IRE), Jockey: J. W. Kennedy (claim: 0), Trainer: Gordon Elliott
+2025-06-12 22:49:17,913 - INFO - Position/Length - Found 2 children: Position: 4th, Lost by: 2 1/2 l
+2025-06-12 22:49:17,913 - INFO - Extracted: Firefox (IRE) - Position: 4th, Lost by: 2 1/2 l, Jockey: J. W. Kennedy (claim: 0), Trainer: Gordon Elliott, Age: 4, Weight: 11-11, Rating: -
+2025-06-12 22:49:17,913 - INFO - Processing sub block #17 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,913 - INFO - Found 3 <a> tags - Horse: Hartur D'arc (FR), Jockey: D. J. O'Keeffe (claim: 0), Trainer: T. Gibney
+2025-06-12 22:49:17,913 - INFO - Position/Length - Found 2 children: Position: 3rd, Lost by: Neck
+2025-06-12 22:49:17,913 - INFO - Extracted: Hartur D'arc (FR) - Position: 3rd, Lost by: Neck, Jockey: D. J. O'Keeffe (claim: 0), Trainer: T. Gibney, Age: 5, Weight: 11-12, Rating: -
+2025-06-12 22:49:17,913 - INFO - Processing sub block #18 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,913 - INFO - Found 3 <a> tags - Horse: Kilbree Warrior (IRE), Jockey: R. J. Condon (claim: 5), Trainer: Oliver McKiernan
+2025-06-12 22:49:17,913 - INFO - Position/Length - Found 2 children: Position: 2nd, Lost by: 1 1/4 l
+2025-06-12 22:49:17,913 - INFO - Extracted: Kilbree Warrior (IRE) - Position: 2nd, Lost by: 1 1/4 l, Jockey: R. J. Condon (claim: 5), Trainer: Oliver McKiernan, Age: 7, Weight: 11-5tb, Rating: -
+2025-06-12 22:49:17,913 - INFO - Processing sub block #19 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,913 - INFO - Found 3 <a> tags - Horse: Spirit Of Legend (FR), Jockey: Rachael Blackmore (claim: 0), Trainer: Henry de Bromhead
+2025-06-12 22:49:17,918 - INFO - Position/Length - Found 1 children: Position: 1st, Lost by: N/A
+2025-06-12 22:49:17,918 - INFO - Confirmed winner: Spirit Of Legend (FR)
+2025-06-12 22:49:17,919 - INFO - Extracted: Spirit Of Legend (FR) - Position: 1st, Lost by: N/A, Jockey: Rachael Blackmore (claim: 0), Trainer: Henry de Bromhead, Age: 5, Weight: 11-12, Rating: -
+2025-06-12 22:49:17,919 - INFO - Processing sub block #20 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,919 - INFO - Found 3 <a> tags - Horse: Maymullen (IRE), Jockey: Sam Ewing (claim: 0), Trainer: Noel C. Kelly
+2025-06-12 22:49:17,920 - INFO - Position/Length - Found 1 children: Position: PU, Lost by: N/A
+2025-06-12 22:49:17,920 - INFO - Extracted: Maymullen (IRE) - Position: PU, Lost by: N/A, Jockey: Sam Ewing (claim: 0), Trainer: Noel C. Kelly, Age: 4, Weight: 11-11t1, Rating: -
+2025-06-12 22:49:17,920 - INFO - Processing sub block #21 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,921 - INFO - Found 3 <a> tags - Horse: No Never Again (IRE), Jockey: Keith Donoghue (claim: 0), Trainer: Matthew J. Smith
+2025-06-12 22:49:17,921 - INFO - Position/Length - Found 1 children: Position: PU, Lost by: N/A
+2025-06-12 22:49:17,922 - INFO - Extracted: No Never Again (IRE) - Position: PU, Lost by: N/A, Jockey: Keith Donoghue (claim: 0), Trainer: Matthew J. Smith, Age: 4, Weight: 11-11, Rating: -
+2025-06-12 22:49:17,923 - INFO - Processing sub block #22 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,923 - INFO - Found 3 <a> tags - Horse: Superdermo (IRE), Jockey: Patrick Michael O'Brien (claim: 7), Trainer: Gavin Patrick Cromwell
+2025-06-12 22:49:17,924 - INFO - Position/Length - Found 2 children: Position: 17th, Lost by: 37 l
+2025-06-12 22:49:17,924 - INFO - Extracted: Superdermo (IRE) - Position: 17th, Lost by: 37 l, Jockey: Patrick Michael O'Brien (claim: 7), Trainer: Gavin Patrick Cromwell, Age: 4, Weight: 11-11t, Rating: -
+2025-06-12 22:49:17,925 - INFO - Processing sub block #23 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,925 - INFO - Found 3 <a> tags - Horse: Ideal Vert (FR), Jockey: Denis O'Regan (claim: 0), Trainer: Gordon Elliott
+2025-06-12 22:49:17,926 - INFO - Position/Length - Found 2 children: Position: 16th, Lost by: 1 1/2 l
+2025-06-12 22:49:17,926 - INFO - Extracted: Ideal Vert (FR) - Position: 16th, Lost by: 1 1/2 l, Jockey: Denis O'Regan (claim: 0), Trainer: Gordon Elliott, Age: 4, Weight: 11-11, Rating: -
+2025-06-12 22:49:17,926 - INFO - Processing sub block #24 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,927 - INFO - Found 3 <a> tags - Horse: Wee Jerry (IRE), Jockey: M. J. Molloy (claim: 7), Trainer: Neill McCluskey
+2025-06-12 22:49:17,927 - INFO - Position/Length - Found 2 children: Position: 15th, Lost by: 16 l
+2025-06-12 22:49:17,927 - INFO - Extracted: Wee Jerry (IRE) - Position: 15th, Lost by: 16 l, Jockey: M. J. Molloy (claim: 7), Trainer: Neill McCluskey, Age: 6, Weight: 11-12, Rating: -
+2025-06-12 22:49:17,928 - INFO - Processing sub block #25 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,928 - INFO - Found 3 <a> tags - Horse: Gigantamax Eevee (IRE), Jockey: Peter Carberry (claim: 0), Trainer: Matthew J. Smith
+2025-06-12 22:49:17,929 - INFO - Position/Length - Found 2 children: Position: 14th, Lost by: 4 1/4 l
+2025-06-12 22:49:17,929 - INFO - Extracted: Gigantamax Eevee (IRE) - Position: 14th, Lost by: 4 1/4 l, Jockey: Peter Carberry (claim: 0), Trainer: Matthew J. Smith, Age: 4, Weight: 11-4, Rating: -
+2025-06-12 22:49:17,929 - INFO - Processing sub block #26 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,930 - INFO - Found 3 <a> tags - Horse: Use Your Illusion (IRE), Jockey: C. Brassil (claim: 5), Trainer: N. Carolan
+2025-06-12 22:49:17,930 - INFO - Position/Length - Found 2 children: Position: 13th, Lost by: 1 3/4 l
+2025-06-12 22:49:17,931 - INFO - Extracted: Use Your Illusion (IRE) - Position: 13th, Lost by: 1 3/4 l, Jockey: C. Brassil (claim: 5), Trainer: N. Carolan, Age: 5, Weight: 11-12, Rating: -
+2025-06-12 22:49:17,931 - INFO - Processing sub block #27 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,931 - INFO - Found 3 <a> tags - Horse: Fairy Tree (IRE), Jockey: B. J. Cooper (claim: 0), Trainer: Matthew J. Smith
+2025-06-12 22:49:17,932 - INFO - Position/Length - Found 2 children: Position: 12th, Lost by: 23 l
+2025-06-12 22:49:17,932 - INFO - Extracted: Fairy Tree (IRE) - Position: 12th, Lost by: 23 l, Jockey: B. J. Cooper (claim: 0), Trainer: Matthew J. Smith, Age: 5, Weight: 11-5, Rating: -
+2025-06-12 22:49:17,932 - INFO - Processing sub block #28 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,933 - INFO - Found 3 <a> tags - Horse: Ivane (FR), Jockey: E. Walsh (claim: 5), Trainer: Ciaran Murphy
+2025-06-12 22:49:17,933 - INFO - Position/Length - Found 2 children: Position: 11th, Lost by: 2 3/4 l
+2025-06-12 22:49:17,933 - INFO - Extracted: Ivane (FR) - Position: 11th, Lost by: 2 3/4 l, Jockey: E. Walsh (claim: 5), Trainer: Ciaran Murphy, Age: 4, Weight: 11-11, Rating: -
+2025-06-12 22:49:17,933 - INFO - Processing sub block #29 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,934 - INFO - Found 3 <a> tags - Horse: Mac's Xpress (IRE), Jockey: C. Smithers (claim: 7), Trainer: Mrs J. Harrington
+2025-06-12 22:49:17,934 - INFO - Position/Length - Found 2 children: Position: 10th, Lost by: 13 l
+2025-06-12 22:49:17,935 - INFO - Extracted: Mac's Xpress (IRE) - Position: 10th, Lost by: 13 l, Jockey: C. Smithers (claim: 7), Trainer: Mrs J. Harrington, Age: 4, Weight: 11-11, Rating: -
+2025-06-12 22:49:17,935 - INFO - Processing sub block #30 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,935 - INFO - Found 3 <a> tags - Horse: Wrecking Ball Paul (IRE), Jockey: Corey McGivern (claim: 7), Trainer: P. Mulligan
+2025-06-12 22:49:17,936 - INFO - Position/Length - Found 2 children: Position: 9th, Lost by: 45 l
+2025-06-12 22:49:17,936 - INFO - Extracted: Wrecking Ball Paul (IRE) - Position: 9th, Lost by: 45 l, Jockey: Corey McGivern (claim: 7), Trainer: P. Mulligan, Age: 4, Weight: 11-11, Rating: -
+2025-06-12 22:49:17,936 - INFO - Processing sub block #31 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,937 - INFO - Found 3 <a> tags - Horse: Neigh Botha (IRE), Jockey: Davy Russell (claim: 0), Trainer: Gordon Elliott
+2025-06-12 22:49:17,937 - INFO - Position/Length - Found 2 children: Position: 8th, Lost by: 1 1/2 l
+2025-06-12 22:49:17,938 - INFO - Extracted: Neigh Botha (IRE) - Position: 8th, Lost by: 1 1/2 l, Jockey: Davy Russell (claim: 0), Trainer: Gordon Elliott, Age: 5, Weight: 11-12, Rating: -
+2025-06-12 22:49:17,938 - INFO - Processing sub block #32 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,939 - INFO - Found 3 <a> tags - Horse: Got To Fly (IRE), Jockey: L. P. Dempsey (claim: 0), Trainer: J. P. Dempsey
+2025-06-12 22:49:17,939 - INFO - Position/Length - Found 2 children: Position: 7th, Lost by: 1 1/4 l
+2025-06-12 22:49:17,939 - INFO - Extracted: Got To Fly (IRE) - Position: 7th, Lost by: 1 1/4 l, Jockey: L. P. Dempsey (claim: 0), Trainer: J. P. Dempsey, Age: 4, Weight: 11-4h1, Rating: -
+2025-06-12 22:49:17,940 - INFO - Processing sub block #33 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,940 - INFO - Found 3 <a> tags - Horse: Quite Incredible (IRE), Jockey: Patrick O'Hanlon (claim: 5), Trainer: Dermot Anthony McLoughlin
+2025-06-12 22:49:17,941 - INFO - Position/Length - Found 2 children: Position: 6th, Lost by: 5 1/2 l
+2025-06-12 22:49:17,941 - INFO - Extracted: Quite Incredible (IRE) - Position: 6th, Lost by: 5 1/2 l, Jockey: Patrick O'Hanlon (claim: 5), Trainer: Dermot Anthony McLoughlin, Age: 6, Weight: 11-12, Rating: -
+2025-06-12 22:49:17,941 - INFO - Processing sub block #34 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,942 - INFO - Found 3 <a> tags - Horse: Heyjoe De Kerser (FR), Jockey: S. F. O'Keeffe (claim: 0), Trainer: Paul Nolan
+2025-06-12 22:49:17,943 - INFO - Position/Length - Found 2 children: Position: 5th, Lost by: 2 1/2 l
+2025-06-12 22:49:17,943 - INFO - Extracted: Heyjoe De Kerser (FR) - Position: 5th, Lost by: 2 1/2 l, Jockey: S. F. O'Keeffe (claim: 0), Trainer: Paul Nolan, Age: 5, Weight: 11-12, Rating: -
+2025-06-12 22:49:17,943 - INFO - Processing sub block #35 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,943 - INFO - Found 3 <a> tags - Horse: Firefox (IRE), Jockey: J. W. Kennedy (claim: 0), Trainer: Gordon Elliott
+2025-06-12 22:49:17,944 - INFO - Position/Length - Found 2 children: Position: 4th, Lost by: 2 1/2 l
+2025-06-12 22:49:17,944 - INFO - Extracted: Firefox (IRE) - Position: 4th, Lost by: 2 1/2 l, Jockey: J. W. Kennedy (claim: 0), Trainer: Gordon Elliott, Age: 4, Weight: 11-11, Rating: -
+2025-06-12 22:49:17,944 - INFO - Processing sub block #36 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,945 - INFO - Found 3 <a> tags - Horse: Hartur D'arc (FR), Jockey: D. J. O'Keeffe (claim: 0), Trainer: T. Gibney
+2025-06-12 22:49:17,945 - INFO - Position/Length - Found 2 children: Position: 3rd, Lost by: Neck
+2025-06-12 22:49:17,945 - INFO - Extracted: Hartur D'arc (FR) - Position: 3rd, Lost by: Neck, Jockey: D. J. O'Keeffe (claim: 0), Trainer: T. Gibney, Age: 5, Weight: 11-12, Rating: -
+2025-06-12 22:49:17,945 - INFO - Processing sub block #37 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,945 - INFO - Found 3 <a> tags - Horse: Kilbree Warrior (IRE), Jockey: R. J. Condon (claim: 5), Trainer: Oliver McKiernan
+2025-06-12 22:49:17,945 - INFO - Position/Length - Found 2 children: Position: 2nd, Lost by: 1 1/4 l
+2025-06-12 22:49:17,945 - INFO - Extracted: Kilbree Warrior (IRE) - Position: 2nd, Lost by: 1 1/4 l, Jockey: R. J. Condon (claim: 5), Trainer: Oliver McKiernan, Age: 7, Weight: 11-5tb, Rating: -
+2025-06-12 22:49:17,945 - INFO - Processing sub block #38 for https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:17,948 - INFO - Found 3 <a> tags - Horse: Spirit Of Legend (FR), Jockey: Rachael Blackmore (claim: 0), Trainer: Henry de Bromhead
+2025-06-12 22:49:17,948 - INFO - Position/Length - Found 1 children: Position: 1st, Lost by: N/A
+2025-06-12 22:49:17,948 - INFO - Extracted: Spirit Of Legend (FR) - Position: 1st, Lost by: N/A, Jockey: Rachael Blackmore (claim: 0), Trainer: Henry de Bromhead, Age: 5, Weight: 11-12, Rating: -
+2025-06-12 22:49:17,949 - INFO - Successfully extracted 38/38 horse records from https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:18,058 - INFO - Successfully parsed 38 horse records from: https://www.racingtv.com/results/2022-11-13/navan/1145
+2025-06-12 22:49:18,059 - INFO - Waiting 2 seconds before next request...
+2025-06-12 22:49:20,060 - INFO - Batch 31 - URL 3/50: https://www.racingtv.com/results/2022-11-13/navan/1215
+2025-06-12 22:49:20,061 - INFO - Loading page with Selenium: https://www.racingtv.com/results/2022-11-13/navan/1215

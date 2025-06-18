@@ -1,0 +1,13 @@
+2025-06-12 22:34:46,921 - INFO - Loaded 8985 rows from Csv\DATA_STACK\irishFull.csv
+2025-06-12 22:34:46,929 - INFO - Found 8985 valid URLs to scrape
+2025-06-12 22:34:46,929 - INFO - Total URLs: 8985, Batch size: 50, Total batches: 180
+2025-06-12 22:34:46,937 - INFO - Previous progress found: Last completed batch 30
+2025-06-12 22:34:46,938 - INFO - Resuming from batch 31
+2025-06-12 22:34:46,938 - INFO - 
+============================================================
+2025-06-12 22:34:46,939 - INFO - STARTING BATCH 31/180 (50 URLs)
+2025-06-12 22:34:46,939 - INFO - ============================================================
+
+2025-06-12 22:34:46,945 - INFO - Batch 31 - URL 1/50: https://www.racingtv.com/results/2022-11-12/naas/1550
+2025-06-12 22:34:46,945 - INFO - Loading page with Selenium: https://www.racingtv.com/results/2022-11-12/naas/1550
+2025-06-12 22:34:54,890 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026DBAA8D340>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/94f17b4b6458425028fb20e5cc7efa18

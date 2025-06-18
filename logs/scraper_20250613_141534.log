@@ -1,0 +1,282 @@
+2025-06-13 14:15:36,149 - INFO - Loaded 8985 rows from Csv\DATA_STACK\irishFull.csv
+2025-06-13 14:15:36,159 - INFO - Found 8985 valid URLs to scrape
+2025-06-13 14:15:36,159 - INFO - Total URLs: 8985, Batch size: 50, Total batches: 180
+2025-06-13 14:15:36,168 - INFO - Previous progress found: Last completed batch 70
+2025-06-13 14:15:36,168 - INFO - Resuming from batch 71
+2025-06-13 14:15:36,169 - INFO - 
+============================================================
+2025-06-13 14:15:36,169 - INFO - STARTING BATCH 71/180 (50 URLs)
+2025-06-13 14:15:36,169 - INFO - ============================================================
+
+2025-06-13 14:15:36,204 - INFO - Batch 71 - URL 1/50: https://www.racingtv.com/results/2023-07-29/gowran-park/1502
+2025-06-13 14:15:36,204 - INFO - Loading page with Selenium: https://www.racingtv.com/results/2023-07-29/gowran-park/1502
+2025-06-13 14:16:00,343 - INFO - Racing main block detected for: https://www.racingtv.com/results/2023-07-29/gowran-park/1502
+2025-06-13 14:16:00,380 - INFO - Successfully loaded page: https://www.racingtv.com/results/2023-07-29/gowran-park/1502
+2025-06-13 14:16:00,489 - INFO - Extracted race info - Track: Gowran Park Racing Results | 29th July 2023 15:02, Date: N/A, Time: 15:02
+2025-06-13 14:16:00,490 - INFO - Found 2nd h3 tag: Soft  3YO+ 1m Winner: €15,000 (10 runners)
+2025-06-13 14:16:00,490 - INFO - Extracted - Going: Soft, Distance: 1m
+2025-06-13 14:16:00,491 - INFO - Extracting racing data from: https://www.racingtv.com/results/2023-07-29/gowran-park/1502
+2025-06-13 14:16:00,501 - INFO - Processing main block #1 for https://www.racingtv.com/results/2023-07-29/gowran-park/1502
+2025-06-13 14:16:00,507 - INFO - Checking 2nd child of main block for first place horse...
+2025-06-13 14:16:00,512 - INFO - Found alternative horse block structure with 3 links
+2025-06-13 14:16:00,512 - INFO - Found alternative horse block structure with 3 links
+2025-06-13 14:16:00,513 - INFO - Found alternative horse block structure with 3 links
+2025-06-13 14:16:00,513 - INFO - Found alternative horse block structure with 3 links
+2025-06-13 14:16:00,513 - INFO - Found alternative horse block structure with 3 links
+2025-06-13 14:16:00,514 - INFO - Found alternative horse block structure with 3 links
+2025-06-13 14:16:00,514 - INFO - Found alternative horse block structure with 3 links
+2025-06-13 14:16:00,514 - INFO - Found alternative horse block structure with 3 links
+2025-06-13 14:16:00,514 - INFO - Found alternative horse block structure with 3 links
+2025-06-13 14:16:00,515 - INFO - Found alternative horse block structure with 3 links
+2025-06-13 14:16:00,533 - INFO - Found likely first place horse via structure analysis: Lady Lunette (IRE)
+2025-06-13 14:16:00,535 - INFO - Found potential first place horse with background styling
+2025-06-13 14:16:00,535 - INFO - Found potential first place horse with background styling
+2025-06-13 14:16:00,536 - INFO - Found potential first place horse with background styling
+2025-06-13 14:16:00,536 - INFO - Found potential first place horse with background styling
+2025-06-13 14:16:00,537 - INFO - Found potential first place horse with background styling
+2025-06-13 14:16:00,537 - INFO - Found potential first place horse with background styling
+2025-06-13 14:16:00,537 - INFO - Found potential first place horse with background styling
+2025-06-13 14:16:00,538 - INFO - Found potential first place horse with background styling
+2025-06-13 14:16:00,538 - INFO - Found potential first place horse with background styling
+2025-06-13 14:16:00,539 - INFO - Found 20 horse entries for https://www.racingtv.com/results/2023-07-29/gowran-park/1502 using multiple detection methods
+2025-06-13 14:16:00,539 - INFO - Processing sub block #1 for https://www.racingtv.com/results/2023-07-29/gowran-park/1502
+2025-06-13 14:16:00,540 - INFO - Found 3 <a> tags - Horse: Just Another Eagle (IRE), Jockey: A. C. Persse (claim: 7), Trainer: Patrick J. Flynn
+2025-06-13 14:16:00,541 - INFO - Position/Length - Found 2 children: Position: 10th, Lost by: 1 1/2 l
+2025-06-13 14:16:00,541 - INFO - Extracted: Just Another Eagle (IRE) - Position: 10th, Lost by: 1 1/2 l, Jockey: A. C. Persse (claim: 7), Trainer: Patrick J. Flynn, Age: 3, Weight: 9-3, Rating: -
+2025-06-13 14:16:00,542 - INFO - Processing sub block #2 for https://www.racingtv.com/results/2023-07-29/gowran-park/1502
+2025-06-13 14:16:00,542 - INFO - Found 3 <a> tags - Horse: Helens Delight (IRE), Jockey: M. P. Sheehy (claim: 0), Trainer: J. F. O'Shea
+2025-06-13 14:16:00,543 - INFO - Position/Length - Found 2 children: Position: 9th, Lost by: 2 l
+2025-06-13 14:16:00,543 - INFO - Extracted: Helens Delight (IRE) - Position: 9th, Lost by: 2 l, Jockey: M. P. Sheehy (claim: 0), Trainer: J. F. O'Shea, Age: 4, Weight: 9-11h, Rating: -
+2025-06-13 14:16:00,543 - INFO - Processing sub block #3 for https://www.racingtv.com/results/2023-07-29/gowran-park/1502
+2025-06-13 14:16:00,544 - INFO - Found 3 <a> tags - Horse: Jessi (IRE), Jockey: K. S. McHugh (claim: 10), Trainer: Denis Hogan
+2025-06-13 14:16:00,545 - INFO - Position/Length - Found 2 children: Position: 8th, Lost by: 8 l
+2025-06-13 14:16:00,545 - INFO - Extracted: Jessi (IRE) - Position: 8th, Lost by: 8 l, Jockey: K. S. McHugh (claim: 10), Trainer: Denis Hogan, Age: 3, Weight: 9-3, Rating: -
+2025-06-13 14:16:00,545 - INFO - Processing sub block #4 for https://www.racingtv.com/results/2023-07-29/gowran-park/1502
+2025-06-13 14:16:00,546 - INFO - Found 3 <a> tags - Horse: Jeaniemacaroney (IRE), Jockey: Declan McDonogh (claim: 0), Trainer: Joseph Patrick O'Brien
+2025-06-13 14:16:00,546 - INFO - Position/Length - Found 2 children: Position: 7th, Lost by: 4 l
+2025-06-13 14:16:00,547 - INFO - Extracted: Jeaniemacaroney (IRE) - Position: 7th, Lost by: 4 l, Jockey: Declan McDonogh (claim: 0), Trainer: Joseph Patrick O'Brien, Age: 3, Weight: 9-3, Rating: -
+2025-06-13 14:16:00,547 - INFO - Processing sub block #5 for https://www.racingtv.com/results/2023-07-29/gowran-park/1502
+2025-06-13 14:16:00,547 - INFO - Found 3 <a> tags - Horse: Eloxi (IRE), Jockey: R. C. Colgan (claim: 0), Trainer: Ms Sheila Lavery
+2025-06-13 14:16:00,548 - INFO - Position/Length - Found 2 children: Position: 6th, Lost by: Neck
+2025-06-13 14:16:00,548 - INFO - Extracted: Eloxi (IRE) - Position: 6th, Lost by: Neck, Jockey: R. C. Colgan (claim: 0), Trainer: Ms Sheila Lavery, Age: 3, Weight: 9-3, Rating: -
+2025-06-13 14:16:00,548 - INFO - Processing sub block #6 for https://www.racingtv.com/results/2023-07-29/gowran-park/1502
+2025-06-13 14:16:00,549 - INFO - Found 3 <a> tags - Horse: Beauty Bella (IRE), Jockey: J. M. Sheridan (claim: 0), Trainer: Adrian Murray
+2025-06-13 14:16:00,550 - INFO - Position/Length - Found 2 children: Position: 5th, Lost by: 1/2 l
+2025-06-13 14:16:00,550 - INFO - Extracted: Beauty Bella (IRE) - Position: 5th, Lost by: 1/2 l, Jockey: J. M. Sheridan (claim: 0), Trainer: Adrian Murray, Age: 3, Weight: 9-3b1, Rating: -
+2025-06-13 14:16:00,550 - INFO - Processing sub block #7 for https://www.racingtv.com/results/2023-07-29/gowran-park/1502
+2025-06-13 14:16:00,551 - INFO - Found 3 <a> tags - Horse: Dumb Love (IRE), Jockey: C. T. Keane (claim: 0), Trainer: G. M. Lyons
+2025-06-13 14:16:00,551 - INFO - Position/Length - Found 2 children: Position: 4th, Lost by: Neck
+2025-06-13 14:16:00,551 - INFO - Extracted: Dumb Love (IRE) - Position: 4th, Lost by: Neck, Jockey: C. T. Keane (claim: 0), Trainer: G. M. Lyons, Age: 3, Weight: 9-3, Rating: -
+2025-06-13 14:16:00,552 - INFO - Processing sub block #8 for https://www.racingtv.com/results/2023-07-29/gowran-park/1502
+2025-06-13 14:16:00,552 - INFO - Found 3 <a> tags - Horse: Sarah Purser (IRE), Jockey: L. T. McAteer (claim: 0), Trainer: Jack W. Davison
+2025-06-13 14:16:00,553 - INFO - Position/Length - Found 2 children: Position: 3rd, Lost by: 5 1/2 l
+2025-06-13 14:16:00,553 - INFO - Extracted: Sarah Purser (IRE) - Position: 3rd, Lost by: 5 1/2 l, Jockey: L. T. McAteer (claim: 0), Trainer: Jack W. Davison, Age: 3, Weight: 9-3, Rating: -
+2025-06-13 14:16:00,553 - INFO - Processing sub block #9 for https://www.racingtv.com/results/2023-07-29/gowran-park/1502
+2025-06-13 14:16:00,554 - INFO - Found 3 <a> tags - Horse: Muhaarar's Girl (IRE), Jockey: William James Lee (claim: 0), Trainer: K. J. Condon
+2025-06-13 14:16:00,555 - INFO - Position/Length - Found 2 children: Position: 2nd, Lost by: 4 3/4 l
+2025-06-13 14:16:00,555 - INFO - Extracted: Muhaarar's Girl (IRE) - Position: 2nd, Lost by: 4 3/4 l, Jockey: William James Lee (claim: 0), Trainer: K. J. Condon, Age: 3, Weight: 9-3t, Rating: -
+2025-06-13 14:16:00,555 - INFO - Processing sub block #10 for https://www.racingtv.com/results/2023-07-29/gowran-park/1502
+2025-06-13 14:16:00,556 - INFO - Found 3 <a> tags - Horse: Lady Lunette (IRE), Jockey: D. B. McMonagle (claim: 0), Trainer: R. P. Cody
+2025-06-13 14:16:00,557 - INFO - Position/Length - Found 1 children: Position: 1st, Lost by: N/A
+2025-06-13 14:16:00,557 - INFO - Confirmed winner: Lady Lunette (IRE)
+2025-06-13 14:16:00,557 - INFO - Extracted: Lady Lunette (IRE) - Position: 1st, Lost by: N/A, Jockey: D. B. McMonagle (claim: 0), Trainer: R. P. Cody, Age: 3, Weight: 9-3, Rating: -
+2025-06-13 14:16:00,558 - INFO - Processing sub block #11 for https://www.racingtv.com/results/2023-07-29/gowran-park/1502
+2025-06-13 14:16:00,558 - INFO - Found 3 <a> tags - Horse: Just Another Eagle (IRE), Jockey: A. C. Persse (claim: 7), Trainer: Patrick J. Flynn
+2025-06-13 14:16:00,559 - INFO - Position/Length - Found 2 children: Position: 10th, Lost by: 1 1/2 l
+2025-06-13 14:16:00,559 - INFO - Extracted: Just Another Eagle (IRE) - Position: 10th, Lost by: 1 1/2 l, Jockey: A. C. Persse (claim: 7), Trainer: Patrick J. Flynn, Age: 3, Weight: 9-3, Rating: -
+2025-06-13 14:16:00,559 - INFO - Processing sub block #12 for https://www.racingtv.com/results/2023-07-29/gowran-park/1502
+2025-06-13 14:16:00,560 - INFO - Found 3 <a> tags - Horse: Helens Delight (IRE), Jockey: M. P. Sheehy (claim: 0), Trainer: J. F. O'Shea
+2025-06-13 14:16:00,560 - INFO - Position/Length - Found 2 children: Position: 9th, Lost by: 2 l
+2025-06-13 14:16:00,560 - INFO - Extracted: Helens Delight (IRE) - Position: 9th, Lost by: 2 l, Jockey: M. P. Sheehy (claim: 0), Trainer: J. F. O'Shea, Age: 4, Weight: 9-11h, Rating: -
+2025-06-13 14:16:00,561 - INFO - Processing sub block #13 for https://www.racingtv.com/results/2023-07-29/gowran-park/1502
+2025-06-13 14:16:00,561 - INFO - Found 3 <a> tags - Horse: Jessi (IRE), Jockey: K. S. McHugh (claim: 10), Trainer: Denis Hogan
+2025-06-13 14:16:00,562 - INFO - Position/Length - Found 2 children: Position: 8th, Lost by: 8 l
+2025-06-13 14:16:00,562 - INFO - Extracted: Jessi (IRE) - Position: 8th, Lost by: 8 l, Jockey: K. S. McHugh (claim: 10), Trainer: Denis Hogan, Age: 3, Weight: 9-3, Rating: -
+2025-06-13 14:16:00,563 - INFO - Processing sub block #14 for https://www.racingtv.com/results/2023-07-29/gowran-park/1502
+2025-06-13 14:16:00,563 - INFO - Found 3 <a> tags - Horse: Jeaniemacaroney (IRE), Jockey: Declan McDonogh (claim: 0), Trainer: Joseph Patrick O'Brien
+2025-06-13 14:16:00,564 - INFO - Position/Length - Found 2 children: Position: 7th, Lost by: 4 l
+2025-06-13 14:16:00,564 - INFO - Extracted: Jeaniemacaroney (IRE) - Position: 7th, Lost by: 4 l, Jockey: Declan McDonogh (claim: 0), Trainer: Joseph Patrick O'Brien, Age: 3, Weight: 9-3, Rating: -
+2025-06-13 14:16:00,564 - INFO - Processing sub block #15 for https://www.racingtv.com/results/2023-07-29/gowran-park/1502
+2025-06-13 14:16:00,565 - INFO - Found 3 <a> tags - Horse: Eloxi (IRE), Jockey: R. C. Colgan (claim: 0), Trainer: Ms Sheila Lavery
+2025-06-13 14:16:00,565 - INFO - Position/Length - Found 2 children: Position: 6th, Lost by: Neck
+2025-06-13 14:16:00,565 - INFO - Extracted: Eloxi (IRE) - Position: 6th, Lost by: Neck, Jockey: R. C. Colgan (claim: 0), Trainer: Ms Sheila Lavery, Age: 3, Weight: 9-3, Rating: -
+2025-06-13 14:16:00,566 - INFO - Processing sub block #16 for https://www.racingtv.com/results/2023-07-29/gowran-park/1502
+2025-06-13 14:16:00,566 - INFO - Found 3 <a> tags - Horse: Beauty Bella (IRE), Jockey: J. M. Sheridan (claim: 0), Trainer: Adrian Murray
+2025-06-13 14:16:00,567 - INFO - Position/Length - Found 2 children: Position: 5th, Lost by: 1/2 l
+2025-06-13 14:16:00,567 - INFO - Extracted: Beauty Bella (IRE) - Position: 5th, Lost by: 1/2 l, Jockey: J. M. Sheridan (claim: 0), Trainer: Adrian Murray, Age: 3, Weight: 9-3b1, Rating: -
+2025-06-13 14:16:00,567 - INFO - Processing sub block #17 for https://www.racingtv.com/results/2023-07-29/gowran-park/1502
+2025-06-13 14:16:00,567 - INFO - Found 3 <a> tags - Horse: Dumb Love (IRE), Jockey: C. T. Keane (claim: 0), Trainer: G. M. Lyons
+2025-06-13 14:16:00,568 - INFO - Position/Length - Found 2 children: Position: 4th, Lost by: Neck
+2025-06-13 14:16:00,568 - INFO - Extracted: Dumb Love (IRE) - Position: 4th, Lost by: Neck, Jockey: C. T. Keane (claim: 0), Trainer: G. M. Lyons, Age: 3, Weight: 9-3, Rating: -
+2025-06-13 14:16:00,568 - INFO - Processing sub block #18 for https://www.racingtv.com/results/2023-07-29/gowran-park/1502
+2025-06-13 14:16:00,569 - INFO - Found 3 <a> tags - Horse: Sarah Purser (IRE), Jockey: L. T. McAteer (claim: 0), Trainer: Jack W. Davison
+2025-06-13 14:16:00,569 - INFO - Position/Length - Found 2 children: Position: 3rd, Lost by: 5 1/2 l
+2025-06-13 14:16:00,570 - INFO - Extracted: Sarah Purser (IRE) - Position: 3rd, Lost by: 5 1/2 l, Jockey: L. T. McAteer (claim: 0), Trainer: Jack W. Davison, Age: 3, Weight: 9-3, Rating: -
+2025-06-13 14:16:00,570 - INFO - Processing sub block #19 for https://www.racingtv.com/results/2023-07-29/gowran-park/1502
+2025-06-13 14:16:00,571 - INFO - Found 3 <a> tags - Horse: Muhaarar's Girl (IRE), Jockey: William James Lee (claim: 0), Trainer: K. J. Condon
+2025-06-13 14:16:00,572 - INFO - Position/Length - Found 2 children: Position: 2nd, Lost by: 4 3/4 l
+2025-06-13 14:16:00,572 - INFO - Extracted: Muhaarar's Girl (IRE) - Position: 2nd, Lost by: 4 3/4 l, Jockey: William James Lee (claim: 0), Trainer: K. J. Condon, Age: 3, Weight: 9-3t, Rating: -
+2025-06-13 14:16:00,572 - INFO - Processing sub block #20 for https://www.racingtv.com/results/2023-07-29/gowran-park/1502
+2025-06-13 14:16:00,573 - INFO - Found 3 <a> tags - Horse: Lady Lunette (IRE), Jockey: D. B. McMonagle (claim: 0), Trainer: R. P. Cody
+2025-06-13 14:16:00,574 - INFO - Position/Length - Found 1 children: Position: 1st, Lost by: N/A
+2025-06-13 14:16:00,574 - INFO - Extracted: Lady Lunette (IRE) - Position: 1st, Lost by: N/A, Jockey: D. B. McMonagle (claim: 0), Trainer: R. P. Cody, Age: 3, Weight: 9-3, Rating: -
+2025-06-13 14:16:00,574 - INFO - Successfully extracted 20/20 horse records from https://www.racingtv.com/results/2023-07-29/gowran-park/1502
+2025-06-13 14:16:00,574 - INFO - :) First place horse found successfully
+2025-06-13 14:16:00,575 - INFO - :) First place horse found successfully
+2025-06-13 14:16:00,575 - INFO - :) First place horse found successfully
+2025-06-13 14:16:00,575 - INFO - :) First place horse found successfully
+2025-06-13 14:16:00,575 - INFO - :) First place horse found successfully
+2025-06-13 14:16:00,576 - INFO - :) First place horse found successfully
+2025-06-13 14:16:00,576 - INFO - :) First place horse found successfully
+2025-06-13 14:16:00,576 - INFO - :) First place horse found successfully
+2025-06-13 14:16:00,576 - INFO - :) First place horse found successfully
+2025-06-13 14:16:00,576 - INFO - :) First place horse found successfully
+2025-06-13 14:16:00,576 - INFO - :) First place horse found successfully
+2025-06-13 14:16:00,577 - INFO - :) First place horse found successfully
+2025-06-13 14:16:00,577 - INFO - :) First place horse found successfully
+2025-06-13 14:16:00,577 - INFO - :) First place horse found successfully
+2025-06-13 14:16:00,577 - INFO - :) First place horse found successfully
+2025-06-13 14:16:00,578 - INFO - :) First place horse found successfully
+2025-06-13 14:16:00,578 - INFO - :) First place horse found successfully
+2025-06-13 14:16:00,578 - INFO - :) First place horse found successfully
+2025-06-13 14:16:00,578 - INFO - :) First place horse found successfully
+2025-06-13 14:16:00,578 - INFO - :) First place horse found successfully
+2025-06-13 14:16:00,579 - INFO - :) First place horse found successfully
+2025-06-13 14:16:00,579 - INFO - Successfully parsed 20 horse records from: https://www.racingtv.com/results/2023-07-29/gowran-park/1502
+2025-06-13 14:16:00,579 - INFO - Waiting 2 seconds before next request...
+2025-06-13 14:16:02,580 - INFO - Batch 71 - URL 2/50: https://www.racingtv.com/results/2023-07-29/gowran-park/1532
+2025-06-13 14:16:02,580 - INFO - Loading page with Selenium: https://www.racingtv.com/results/2023-07-29/gowran-park/1532
+2025-06-13 14:16:12,626 - INFO - Racing main block detected for: https://www.racingtv.com/results/2023-07-29/gowran-park/1532
+2025-06-13 14:16:12,639 - INFO - Successfully loaded page: https://www.racingtv.com/results/2023-07-29/gowran-park/1532
+2025-06-13 14:16:12,724 - INFO - Extracted race info - Track: Racing TV, Date: N/A, Time: N/A
+2025-06-13 14:16:12,725 - INFO - Found 2nd h3 tag: Manage Consent Preferences
+2025-06-13 14:16:12,725 - INFO - Extracted - Going: Manage Consent Preferences, Distance: N/A
+2025-06-13 14:16:12,725 - INFO - Extracting racing data from: https://www.racingtv.com/results/2023-07-29/gowran-park/1532
+2025-06-13 14:16:12,736 - INFO - Processing main block #1 for https://www.racingtv.com/results/2023-07-29/gowran-park/1532
+2025-06-13 14:16:12,746 - INFO - Found 0 horse entries for https://www.racingtv.com/results/2023-07-29/gowran-park/1532 using multiple detection methods
+2025-06-13 14:16:12,746 - INFO - Successfully extracted 0/0 horse records from https://www.racingtv.com/results/2023-07-29/gowran-park/1532
+2025-06-13 14:16:12,746 - WARNING - !! First place horse NOT found in the extracted data
+2025-06-13 14:16:12,746 - INFO - Successfully parsed 0 horse records from: https://www.racingtv.com/results/2023-07-29/gowran-park/1532
+2025-06-13 14:16:12,747 - INFO - Waiting 2 seconds before next request...
+2025-06-13 14:16:14,748 - INFO - Batch 71 - URL 3/50: https://www.racingtv.com/results/2023-07-29/gowran-park/1605
+2025-06-13 14:16:14,750 - INFO - Loading page with Selenium: https://www.racingtv.com/results/2023-07-29/gowran-park/1605
+2025-06-13 14:16:25,091 - INFO - Racing main block detected for: https://www.racingtv.com/results/2023-07-29/gowran-park/1605
+2025-06-13 14:16:25,123 - INFO - Successfully loaded page: https://www.racingtv.com/results/2023-07-29/gowran-park/1605
+2025-06-13 14:16:25,225 - INFO - Extracted race info - Track: Gowran Park Racing Results | 29th July 2023 16:05, Date: N/A, Time: 16:05
+2025-06-13 14:16:25,225 - INFO - Found 2nd h3 tag: Soft  4YO+ 1m 1f 110y Winner: €11,000 (16 runners)
+2025-06-13 14:16:25,226 - INFO - Extracted - Going: Soft, Distance: 1m 1f 110y
+2025-06-13 14:16:25,226 - INFO - Extracting racing data from: https://www.racingtv.com/results/2023-07-29/gowran-park/1605
+2025-06-13 14:16:25,232 - INFO - Processing main block #1 for https://www.racingtv.com/results/2023-07-29/gowran-park/1605
+2025-06-13 14:16:25,234 - INFO - Checking 2nd child of main block for first place horse...
+2025-06-13 14:16:25,235 - INFO - Found 0 horse entries for https://www.racingtv.com/results/2023-07-29/gowran-park/1605 using multiple detection methods
+2025-06-13 14:16:25,236 - INFO - Successfully extracted 0/0 horse records from https://www.racingtv.com/results/2023-07-29/gowran-park/1605
+2025-06-13 14:16:25,236 - WARNING - !! First place horse NOT found in the extracted data
+2025-06-13 14:16:25,236 - INFO - Successfully parsed 0 horse records from: https://www.racingtv.com/results/2023-07-29/gowran-park/1605
+2025-06-13 14:16:25,237 - INFO - Waiting 2 seconds before next request...
+2025-06-13 14:16:27,237 - INFO - Batch 71 - URL 4/50: https://www.racingtv.com/results/2023-07-29/gowran-park/1640
+2025-06-13 14:16:27,239 - INFO - Loading page with Selenium: https://www.racingtv.com/results/2023-07-29/gowran-park/1640
+2025-06-13 14:16:37,092 - INFO - Racing main block detected for: https://www.racingtv.com/results/2023-07-29/gowran-park/1640
+2025-06-13 14:16:37,123 - INFO - Successfully loaded page: https://www.racingtv.com/results/2023-07-29/gowran-park/1640
+2025-06-13 14:16:37,208 - INFO - Extracted race info - Track: Gowran Park Racing Results | 29th July 2023 16:40, Date: N/A, Time: 16:40
+2025-06-13 14:16:37,209 - INFO - Found 2nd h3 tag: Soft  3YO+ 1m 1f 110y Winner: €18,000 (5 runners)
+2025-06-13 14:16:37,209 - INFO - Extracted - Going: Soft, Distance: 1m 1f 110y
+2025-06-13 14:16:37,209 - INFO - Extracting racing data from: https://www.racingtv.com/results/2023-07-29/gowran-park/1640
+2025-06-13 14:16:37,216 - INFO - Processing main block #1 for https://www.racingtv.com/results/2023-07-29/gowran-park/1640
+2025-06-13 14:16:37,217 - INFO - Checking 2nd child of main block for first place horse...
+2025-06-13 14:16:37,220 - INFO - Found 0 horse entries for https://www.racingtv.com/results/2023-07-29/gowran-park/1640 using multiple detection methods
+2025-06-13 14:16:37,220 - INFO - Successfully extracted 0/0 horse records from https://www.racingtv.com/results/2023-07-29/gowran-park/1640
+2025-06-13 14:16:37,220 - WARNING - !! First place horse NOT found in the extracted data
+2025-06-13 14:16:37,221 - INFO - Successfully parsed 0 horse records from: https://www.racingtv.com/results/2023-07-29/gowran-park/1640
+2025-06-13 14:16:37,221 - INFO - Waiting 2 seconds before next request...
+2025-06-13 14:16:39,222 - INFO - Batch 71 - URL 5/50: https://www.racingtv.com/results/2023-07-31/galway/1710
+2025-06-13 14:16:39,224 - INFO - Loading page with Selenium: https://www.racingtv.com/results/2023-07-31/galway/1710
+2025-06-13 14:16:49,181 - INFO - Racing main block detected for: https://www.racingtv.com/results/2023-07-31/galway/1710
+2025-06-13 14:16:49,212 - INFO - Successfully loaded page: https://www.racingtv.com/results/2023-07-31/galway/1710
+2025-06-13 14:16:49,284 - INFO - Extracted race info - Track: Galway Racing Results | 31st July 2023 17:10, Date: N/A, Time: 17:10
+2025-06-13 14:16:49,285 - INFO - Found 2nd h3 tag: Soft  4YO only 2m 130y Winner: €21,000 (12 runners)
+2025-06-13 14:16:49,285 - INFO - Extracted - Going: Soft, Distance: 2m 130y
+2025-06-13 14:16:49,286 - INFO - Extracting racing data from: https://www.racingtv.com/results/2023-07-31/galway/1710
+2025-06-13 14:16:49,292 - INFO - Processing main block #1 for https://www.racingtv.com/results/2023-07-31/galway/1710
+2025-06-13 14:16:49,293 - INFO - Checking 2nd child of main block for first place horse...
+2025-06-13 14:16:49,295 - INFO - Found 0 horse entries for https://www.racingtv.com/results/2023-07-31/galway/1710 using multiple detection methods
+2025-06-13 14:16:49,295 - INFO - Successfully extracted 0/0 horse records from https://www.racingtv.com/results/2023-07-31/galway/1710
+2025-06-13 14:16:49,295 - WARNING - !! First place horse NOT found in the extracted data
+2025-06-13 14:16:49,295 - INFO - Successfully parsed 0 horse records from: https://www.racingtv.com/results/2023-07-31/galway/1710
+2025-06-13 14:16:49,296 - INFO - Waiting 2 seconds before next request...
+2025-06-13 14:16:51,296 - INFO - Batch 71 - URL 6/50: https://www.racingtv.com/results/2023-07-31/galway/1740
+2025-06-13 14:16:51,298 - INFO - Loading page with Selenium: https://www.racingtv.com/results/2023-07-31/galway/1740
+2025-06-13 14:17:01,858 - INFO - Racing main block detected for: https://www.racingtv.com/results/2023-07-31/galway/1740
+2025-06-13 14:17:01,876 - INFO - Successfully loaded page: https://www.racingtv.com/results/2023-07-31/galway/1740
+2025-06-13 14:17:01,952 - INFO - Extracted race info - Track: Galway Racing Results | 31st July 2023 17:40, Date: N/A, Time: 17:40
+2025-06-13 14:17:01,952 - INFO - Found 2nd h3 tag: Soft  4YO+ 2m 130y Winner: €17,000 (19 runners)
+2025-06-13 14:17:01,953 - INFO - Extracted - Going: Soft, Distance: 2m 130y
+2025-06-13 14:17:01,953 - INFO - Extracting racing data from: https://www.racingtv.com/results/2023-07-31/galway/1740
+2025-06-13 14:17:01,959 - INFO - Processing main block #1 for https://www.racingtv.com/results/2023-07-31/galway/1740
+2025-06-13 14:17:01,960 - INFO - Checking 2nd child of main block for first place horse...
+2025-06-13 14:17:01,962 - INFO - Found 0 horse entries for https://www.racingtv.com/results/2023-07-31/galway/1740 using multiple detection methods
+2025-06-13 14:17:01,962 - INFO - Successfully extracted 0/0 horse records from https://www.racingtv.com/results/2023-07-31/galway/1740
+2025-06-13 14:17:01,963 - WARNING - !! First place horse NOT found in the extracted data
+2025-06-13 14:17:01,963 - INFO - Successfully parsed 0 horse records from: https://www.racingtv.com/results/2023-07-31/galway/1740
+2025-06-13 14:17:01,963 - INFO - Waiting 2 seconds before next request...
+2025-06-13 14:17:03,965 - INFO - Batch 71 - URL 7/50: https://www.racingtv.com/results/2023-07-31/galway/1810
+2025-06-13 14:17:03,965 - INFO - Loading page with Selenium: https://www.racingtv.com/results/2023-07-31/galway/1810
+2025-06-13 14:17:13,737 - INFO - Racing main block detected for: https://www.racingtv.com/results/2023-07-31/galway/1810
+2025-06-13 14:17:13,773 - INFO - Successfully loaded page: https://www.racingtv.com/results/2023-07-31/galway/1810
+2025-06-13 14:17:13,859 - INFO - Extracted race info - Track: Galway Racing Results | 31st July 2023 18:10, Date: N/A, Time: 18:10
+2025-06-13 14:17:13,860 - INFO - Found 2nd h3 tag: Heavy  (Turf) 2YO only 7f Winner: €20,000 (7 runners)
+2025-06-13 14:17:13,860 - INFO - Extracted - Going: Heavy  (Turf), Distance: 7f
+2025-06-13 14:17:13,860 - INFO - Extracting racing data from: https://www.racingtv.com/results/2023-07-31/galway/1810
+2025-06-13 14:17:13,867 - INFO - Processing main block #1 for https://www.racingtv.com/results/2023-07-31/galway/1810
+2025-06-13 14:17:13,868 - INFO - Checking 2nd child of main block for first place horse...
+2025-06-13 14:17:13,869 - INFO - Found 0 horse entries for https://www.racingtv.com/results/2023-07-31/galway/1810 using multiple detection methods
+2025-06-13 14:17:13,869 - INFO - Successfully extracted 0/0 horse records from https://www.racingtv.com/results/2023-07-31/galway/1810
+2025-06-13 14:17:13,870 - WARNING - !! First place horse NOT found in the extracted data
+2025-06-13 14:17:13,870 - INFO - Successfully parsed 0 horse records from: https://www.racingtv.com/results/2023-07-31/galway/1810
+2025-06-13 14:17:13,870 - INFO - Waiting 2 seconds before next request...
+2025-06-13 14:17:15,871 - INFO - Batch 71 - URL 8/50: https://www.racingtv.com/results/2023-07-31/galway/1840
+2025-06-13 14:17:15,873 - INFO - Loading page with Selenium: https://www.racingtv.com/results/2023-07-31/galway/1840
+2025-06-13 14:17:25,359 - INFO - Racing main block detected for: https://www.racingtv.com/results/2023-07-31/galway/1840
+2025-06-13 14:17:25,373 - INFO - Successfully loaded page: https://www.racingtv.com/results/2023-07-31/galway/1840
+2025-06-13 14:17:25,445 - INFO - Extracted race info - Track: Racing TV, Date: N/A, Time: N/A
+2025-06-13 14:17:25,446 - INFO - Found 2nd h3 tag: Manage Consent Preferences
+2025-06-13 14:17:25,446 - INFO - Extracted - Going: Manage Consent Preferences, Distance: N/A
+2025-06-13 14:17:25,447 - INFO - Extracting racing data from: https://www.racingtv.com/results/2023-07-31/galway/1840
+2025-06-13 14:17:25,454 - INFO - Processing main block #1 for https://www.racingtv.com/results/2023-07-31/galway/1840
+2025-06-13 14:17:25,463 - INFO - Found 0 horse entries for https://www.racingtv.com/results/2023-07-31/galway/1840 using multiple detection methods
+2025-06-13 14:17:25,463 - INFO - Successfully extracted 0/0 horse records from https://www.racingtv.com/results/2023-07-31/galway/1840
+2025-06-13 14:17:25,463 - WARNING - !! First place horse NOT found in the extracted data
+2025-06-13 14:17:25,464 - INFO - Successfully parsed 0 horse records from: https://www.racingtv.com/results/2023-07-31/galway/1840
+2025-06-13 14:17:25,464 - INFO - Waiting 2 seconds before next request...
+2025-06-13 14:17:27,464 - INFO - Batch 71 - URL 9/50: https://www.racingtv.com/results/2023-07-31/galway/1915
+2025-06-13 14:17:27,464 - INFO - Loading page with Selenium: https://www.racingtv.com/results/2023-07-31/galway/1915
+2025-06-13 14:17:37,406 - INFO - Racing main block detected for: https://www.racingtv.com/results/2023-07-31/galway/1915
+2025-06-13 14:17:37,467 - INFO - Successfully loaded page: https://www.racingtv.com/results/2023-07-31/galway/1915
+2025-06-13 14:17:37,599 - INFO - Extracted race info - Track: Racing TV, Date: N/A, Time: N/A
+2025-06-13 14:17:37,600 - INFO - Found 2nd h3 tag: Manage Consent Preferences
+2025-06-13 14:17:37,600 - INFO - Extracted - Going: Manage Consent Preferences, Distance: N/A
+2025-06-13 14:17:37,601 - INFO - Extracting racing data from: https://www.racingtv.com/results/2023-07-31/galway/1915
+2025-06-13 14:17:37,610 - INFO - Processing main block #1 for https://www.racingtv.com/results/2023-07-31/galway/1915
+2025-06-13 14:17:37,620 - INFO - Found 0 horse entries for https://www.racingtv.com/results/2023-07-31/galway/1915 using multiple detection methods
+2025-06-13 14:17:37,621 - INFO - Successfully extracted 0/0 horse records from https://www.racingtv.com/results/2023-07-31/galway/1915
+2025-06-13 14:17:37,621 - WARNING - !! First place horse NOT found in the extracted data
+2025-06-13 14:17:37,621 - INFO - Successfully parsed 0 horse records from: https://www.racingtv.com/results/2023-07-31/galway/1915
+2025-06-13 14:17:37,622 - INFO - Waiting 2 seconds before next request...
+2025-06-13 14:17:39,622 - INFO - Batch 71 - URL 10/50: https://www.racingtv.com/results/2023-07-31/galway/1950
+2025-06-13 14:17:39,624 - INFO - Loading page with Selenium: https://www.racingtv.com/results/2023-07-31/galway/1950
+2025-06-13 14:17:50,658 - INFO - Racing main block detected for: https://www.racingtv.com/results/2023-07-31/galway/1950
+2025-06-13 14:17:50,692 - INFO - Successfully loaded page: https://www.racingtv.com/results/2023-07-31/galway/1950
+2025-06-13 14:17:50,762 - INFO - Extracted race info - Track: Galway Racing Results | 31st July 2023 19:50, Date: N/A, Time: 19:50
+2025-06-13 14:17:50,763 - INFO - Found 2nd h3 tag: Heavy  3YO only 1m 4f 84y Winner: €19,500 (13 runners)
+2025-06-13 14:17:50,763 - INFO - Extracted - Going: Heavy, Distance: 1m 4f 84y
+2025-06-13 14:17:50,763 - INFO - Extracting racing data from: https://www.racingtv.com/results/2023-07-31/galway/1950
+2025-06-13 14:17:50,770 - INFO - Processing main block #1 for https://www.racingtv.com/results/2023-07-31/galway/1950
+2025-06-13 14:17:50,771 - INFO - Checking 2nd child of main block for first place horse...
+2025-06-13 14:17:50,773 - INFO - Found 0 horse entries for https://www.racingtv.com/results/2023-07-31/galway/1950 using multiple detection methods
+2025-06-13 14:17:50,773 - INFO - Successfully extracted 0/0 horse records from https://www.racingtv.com/results/2023-07-31/galway/1950
+2025-06-13 14:17:50,774 - WARNING - !! First place horse NOT found in the extracted data
+2025-06-13 14:17:50,774 - INFO - Successfully parsed 0 horse records from: https://www.racingtv.com/results/2023-07-31/galway/1950
+2025-06-13 14:17:50,774 - INFO - Waiting 2 seconds before next request...
+2025-06-13 14:17:52,776 - INFO - Batch 71 - URL 11/50: https://www.racingtv.com/results/2023-07-31/galway/2020
+2025-06-13 14:17:52,776 - INFO - Loading page with Selenium: https://www.racingtv.com/results/2023-07-31/galway/2020
+2025-06-13 14:18:01,470 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/6432faeb357bed6e36324cb0e2b8d2a7
+2025-06-13 14:18:05,541 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AB869EAC90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6432faeb357bed6e36324cb0e2b8d2a7

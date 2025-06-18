@@ -1,0 +1,392 @@
+2025-06-12 18:04:15,781 - INFO - Loaded 8985 rows from Csv/DATA_STACK/irishFull.csv
+2025-06-12 18:04:15,819 - INFO - Found 8985 valid URLs to scrape
+2025-06-12 18:04:15,820 - INFO - Starting to scrape 8985 URLs
+2025-06-12 18:04:15,822 - INFO - Processing URL 1/8985: https://www.racingtv.com/results/2022-06-01/curragh/1710
+2025-06-12 18:04:15,822 - INFO - Loading page with Selenium: https://www.racingtv.com/results/2022-06-01/curragh/1710
+2025-06-12 18:04:21,340 - INFO - Racing main block detected for: https://www.racingtv.com/results/2022-06-01/curragh/1710
+2025-06-12 18:04:21,388 - INFO - Successfully loaded page: https://www.racingtv.com/results/2022-06-01/curragh/1710
+2025-06-12 18:04:21,583 - INFO - Extracted race info - Track: Curragh Racing Results | 1st June 2022 17:10, Date: N/A, Time: 17:10
+2025-06-12 18:04:21,584 - INFO - Found 2nd h3 tag: Good  (Turf) 2YO only 7f Winner: €16,500 (9 runners)
+2025-06-12 18:04:21,585 - INFO - Extracted - Going: Good  (Turf), Distance: 7f
+2025-06-12 18:04:21,586 - INFO - Extracting racing data from: https://www.racingtv.com/results/2022-06-01/curragh/1710
+2025-06-12 18:04:21,610 - INFO - Processing main block #1 for https://www.racingtv.com/results/2022-06-01/curragh/1710
+2025-06-12 18:04:21,621 - INFO - Checking 2nd child of main block for first place horse...
+2025-06-12 18:04:21,628 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 18:04:21,629 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 18:04:21,630 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 18:04:21,633 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 18:04:21,633 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 18:04:21,638 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 18:04:21,639 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 18:04:21,639 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 18:04:21,640 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 18:04:21,700 - INFO - Found likely first place horse via structure analysis: Crypto Force
+2025-06-12 18:04:21,706 - INFO - Found potential first place horse with background styling
+2025-06-12 18:04:21,706 - INFO - Found potential first place horse with background styling
+2025-06-12 18:04:21,707 - INFO - Found potential first place horse with background styling
+2025-06-12 18:04:21,707 - INFO - Found potential first place horse with background styling
+2025-06-12 18:04:21,708 - INFO - Found potential first place horse with background styling
+2025-06-12 18:04:21,708 - INFO - Found potential first place horse with background styling
+2025-06-12 18:04:21,708 - INFO - Found potential first place horse with background styling
+2025-06-12 18:04:21,709 - INFO - Found potential first place horse with background styling
+2025-06-12 18:04:21,709 - INFO - Found 18 horse entries for https://www.racingtv.com/results/2022-06-01/curragh/1710 using multiple detection methods
+2025-06-12 18:04:21,709 - INFO - Processing sub block #1 for https://www.racingtv.com/results/2022-06-01/curragh/1710
+2025-06-12 18:04:21,710 - INFO - Found 3 <a> tags - Horse: Monnow Valley, Jockey: D. W. O'Connor (claim: 0), Trainer: Damian Joseph English
+2025-06-12 18:04:21,715 - INFO - Position/Length - Found 2 children: Position: 9th, Lost by: 2 3/4 l
+2025-06-12 18:04:21,715 - INFO - Extracted: Monnow Valley - Position: 9th, Lost by: 2 3/4 l, Jockey: D. W. O'Connor (claim: 0), Trainer: Damian Joseph English, Age: 2, Weight: 9-5, Rating: -
+2025-06-12 18:04:21,715 - INFO - Processing sub block #2 for https://www.racingtv.com/results/2022-06-01/curragh/1710
+2025-06-12 18:04:21,716 - INFO - Found 3 <a> tags - Horse: Segomo (IRE), Jockey: G. M. Ryan (claim: 0), Trainer: Donnacha Aidan O'Brien
+2025-06-12 18:04:21,719 - INFO - Position/Length - Found 2 children: Position: 8th, Lost by: 1 3/4 l
+2025-06-12 18:04:21,720 - INFO - Extracted: Segomo (IRE) - Position: 8th, Lost by: 1 3/4 l, Jockey: G. M. Ryan (claim: 0), Trainer: Donnacha Aidan O'Brien, Age: 2, Weight: 9-5, Rating: -
+2025-06-12 18:04:21,720 - INFO - Processing sub block #3 for https://www.racingtv.com/results/2022-06-01/curragh/1710
+2025-06-12 18:04:21,721 - INFO - Found 3 <a> tags - Horse: He's Justagent (IRE), Jockey: William James Lee (claim: 0), Trainer: A. McIntyre
+2025-06-12 18:04:21,723 - INFO - Position/Length - Found 2 children: Position: 7th, Lost by: 3/4 l
+2025-06-12 18:04:21,723 - INFO - Extracted: He's Justagent (IRE) - Position: 7th, Lost by: 3/4 l, Jockey: William James Lee (claim: 0), Trainer: A. McIntyre, Age: 2, Weight: 9-5, Rating: -
+2025-06-12 18:04:21,723 - INFO - Processing sub block #4 for https://www.racingtv.com/results/2022-06-01/curragh/1710
+2025-06-12 18:04:21,723 - INFO - Found 3 <a> tags - Horse: Arabian Legend (IRE), Jockey: A. J. Slattery (claim: 0), Trainer: J. A. Stack
+2025-06-12 18:04:21,725 - INFO - Position/Length - Found 2 children: Position: 6th, Lost by: 1/2 l
+2025-06-12 18:04:21,725 - INFO - Extracted: Arabian Legend (IRE) - Position: 6th, Lost by: 1/2 l, Jockey: A. J. Slattery (claim: 0), Trainer: J. A. Stack, Age: 2, Weight: 9-5, Rating: -
+2025-06-12 18:04:21,725 - INFO - Processing sub block #5 for https://www.racingtv.com/results/2022-06-01/curragh/1710
+2025-06-12 18:04:21,726 - INFO - Found 3 <a> tags - Horse: Grey Fable (IRE), Jockey: R. C. Colgan (claim: 0), Trainer: Ms Sheila Lavery
+2025-06-12 18:04:21,728 - INFO - Position/Length - Found 2 children: Position: 5th, Lost by: 1 3/4 l
+2025-06-12 18:04:21,729 - INFO - Extracted: Grey Fable (IRE) - Position: 5th, Lost by: 1 3/4 l, Jockey: R. C. Colgan (claim: 0), Trainer: Ms Sheila Lavery, Age: 2, Weight: 9-5, Rating: -
+2025-06-12 18:04:21,730 - INFO - Processing sub block #6 for https://www.racingtv.com/results/2022-06-01/curragh/1710
+2025-06-12 18:04:21,732 - INFO - Found 3 <a> tags - Horse: Dubawi Spectre, Jockey: Shane Foley (claim: 0), Trainer: Mrs J. Harrington
+2025-06-12 18:04:21,734 - INFO - Position/Length - Found 2 children: Position: 4th, Lost by: Short Head
+2025-06-12 18:04:21,734 - INFO - Extracted: Dubawi Spectre - Position: 4th, Lost by: Short Head, Jockey: Shane Foley (claim: 0), Trainer: Mrs J. Harrington, Age: 2, Weight: 9-5, Rating: -
+2025-06-12 18:04:21,734 - INFO - Processing sub block #7 for https://www.racingtv.com/results/2022-06-01/curragh/1710
+2025-06-12 18:04:21,735 - INFO - Found 3 <a> tags - Horse: Shadowed (IRE), Jockey: S. M. Crosse (claim: 0), Trainer: Joseph Patrick O'Brien
+2025-06-12 18:04:21,737 - INFO - Position/Length - Found 2 children: Position: 3rd, Lost by: 1 3/4 l
+2025-06-12 18:04:21,737 - INFO - Extracted: Shadowed (IRE) - Position: 3rd, Lost by: 1 3/4 l, Jockey: S. M. Crosse (claim: 0), Trainer: Joseph Patrick O'Brien, Age: 2, Weight: 9-5, Rating: -
+2025-06-12 18:04:21,737 - INFO - Processing sub block #8 for https://www.racingtv.com/results/2022-06-01/curragh/1710
+2025-06-12 18:04:21,738 - INFO - Found 3 <a> tags - Horse: Auguste Rodin (IRE), Jockey: Ryan Moore (claim: 0), Trainer: Aidan O'Brien
+2025-06-12 18:04:21,740 - INFO - Position/Length - Found 2 children: Position: 2nd, Lost by: 2 1/4 l
+2025-06-12 18:04:21,740 - INFO - Extracted: Auguste Rodin (IRE) - Position: 2nd, Lost by: 2 1/4 l, Jockey: Ryan Moore (claim: 0), Trainer: Aidan O'Brien, Age: 2, Weight: 9-5, Rating: -
+2025-06-12 18:04:21,740 - INFO - Processing sub block #9 for https://www.racingtv.com/results/2022-06-01/curragh/1710
+2025-06-12 18:04:21,741 - INFO - Found 3 <a> tags - Horse: Crypto Force, Jockey: C. T. Keane (claim: 0), Trainer: M. D. O'Callaghan
+2025-06-12 18:04:21,742 - INFO - Position/Length - Found 1 children: Position: 1st, Lost by: N/A
+2025-06-12 18:04:21,742 - INFO - Confirmed winner: Crypto Force
+2025-06-12 18:04:21,742 - INFO - Extracted: Crypto Force - Position: 1st, Lost by: N/A, Jockey: C. T. Keane (claim: 0), Trainer: M. D. O'Callaghan, Age: 2, Weight: 9-5, Rating: -
+2025-06-12 18:04:21,742 - INFO - Processing sub block #10 for https://www.racingtv.com/results/2022-06-01/curragh/1710
+2025-06-12 18:04:21,743 - INFO - Found 3 <a> tags - Horse: Monnow Valley, Jockey: D. W. O'Connor (claim: 0), Trainer: Damian Joseph English
+2025-06-12 18:04:21,744 - INFO - Position/Length - Found 2 children: Position: 9th, Lost by: 2 3/4 l
+2025-06-12 18:04:21,744 - INFO - Extracted: Monnow Valley - Position: 9th, Lost by: 2 3/4 l, Jockey: D. W. O'Connor (claim: 0), Trainer: Damian Joseph English, Age: 2, Weight: 9-5, Rating: -
+2025-06-12 18:04:21,744 - INFO - Processing sub block #11 for https://www.racingtv.com/results/2022-06-01/curragh/1710
+2025-06-12 18:04:21,749 - INFO - Found 3 <a> tags - Horse: Segomo (IRE), Jockey: G. M. Ryan (claim: 0), Trainer: Donnacha Aidan O'Brien
+2025-06-12 18:04:21,750 - INFO - Position/Length - Found 2 children: Position: 8th, Lost by: 1 3/4 l
+2025-06-12 18:04:21,751 - INFO - Extracted: Segomo (IRE) - Position: 8th, Lost by: 1 3/4 l, Jockey: G. M. Ryan (claim: 0), Trainer: Donnacha Aidan O'Brien, Age: 2, Weight: 9-5, Rating: -
+2025-06-12 18:04:21,751 - INFO - Processing sub block #12 for https://www.racingtv.com/results/2022-06-01/curragh/1710
+2025-06-12 18:04:21,752 - INFO - Found 3 <a> tags - Horse: He's Justagent (IRE), Jockey: William James Lee (claim: 0), Trainer: A. McIntyre
+2025-06-12 18:04:21,754 - INFO - Position/Length - Found 2 children: Position: 7th, Lost by: 3/4 l
+2025-06-12 18:04:21,754 - INFO - Extracted: He's Justagent (IRE) - Position: 7th, Lost by: 3/4 l, Jockey: William James Lee (claim: 0), Trainer: A. McIntyre, Age: 2, Weight: 9-5, Rating: -
+2025-06-12 18:04:21,754 - INFO - Processing sub block #13 for https://www.racingtv.com/results/2022-06-01/curragh/1710
+2025-06-12 18:04:21,756 - INFO - Found 3 <a> tags - Horse: Arabian Legend (IRE), Jockey: A. J. Slattery (claim: 0), Trainer: J. A. Stack
+2025-06-12 18:04:21,757 - INFO - Position/Length - Found 2 children: Position: 6th, Lost by: 1/2 l
+2025-06-12 18:04:21,757 - INFO - Extracted: Arabian Legend (IRE) - Position: 6th, Lost by: 1/2 l, Jockey: A. J. Slattery (claim: 0), Trainer: J. A. Stack, Age: 2, Weight: 9-5, Rating: -
+2025-06-12 18:04:21,757 - INFO - Processing sub block #14 for https://www.racingtv.com/results/2022-06-01/curragh/1710
+2025-06-12 18:04:21,758 - INFO - Found 3 <a> tags - Horse: Grey Fable (IRE), Jockey: R. C. Colgan (claim: 0), Trainer: Ms Sheila Lavery
+2025-06-12 18:04:21,759 - INFO - Position/Length - Found 2 children: Position: 5th, Lost by: 1 3/4 l
+2025-06-12 18:04:21,760 - INFO - Extracted: Grey Fable (IRE) - Position: 5th, Lost by: 1 3/4 l, Jockey: R. C. Colgan (claim: 0), Trainer: Ms Sheila Lavery, Age: 2, Weight: 9-5, Rating: -
+2025-06-12 18:04:21,765 - INFO - Processing sub block #15 for https://www.racingtv.com/results/2022-06-01/curragh/1710
+2025-06-12 18:04:21,767 - INFO - Found 3 <a> tags - Horse: Dubawi Spectre, Jockey: Shane Foley (claim: 0), Trainer: Mrs J. Harrington
+2025-06-12 18:04:21,768 - INFO - Position/Length - Found 2 children: Position: 4th, Lost by: Short Head
+2025-06-12 18:04:21,769 - INFO - Extracted: Dubawi Spectre - Position: 4th, Lost by: Short Head, Jockey: Shane Foley (claim: 0), Trainer: Mrs J. Harrington, Age: 2, Weight: 9-5, Rating: -
+2025-06-12 18:04:21,769 - INFO - Processing sub block #16 for https://www.racingtv.com/results/2022-06-01/curragh/1710
+2025-06-12 18:04:21,771 - INFO - Found 3 <a> tags - Horse: Shadowed (IRE), Jockey: S. M. Crosse (claim: 0), Trainer: Joseph Patrick O'Brien
+2025-06-12 18:04:21,772 - INFO - Position/Length - Found 2 children: Position: 3rd, Lost by: 1 3/4 l
+2025-06-12 18:04:21,772 - INFO - Extracted: Shadowed (IRE) - Position: 3rd, Lost by: 1 3/4 l, Jockey: S. M. Crosse (claim: 0), Trainer: Joseph Patrick O'Brien, Age: 2, Weight: 9-5, Rating: -
+2025-06-12 18:04:21,772 - INFO - Processing sub block #17 for https://www.racingtv.com/results/2022-06-01/curragh/1710
+2025-06-12 18:04:21,773 - INFO - Found 3 <a> tags - Horse: Auguste Rodin (IRE), Jockey: Ryan Moore (claim: 0), Trainer: Aidan O'Brien
+2025-06-12 18:04:21,774 - INFO - Position/Length - Found 2 children: Position: 2nd, Lost by: 2 1/4 l
+2025-06-12 18:04:21,774 - INFO - Extracted: Auguste Rodin (IRE) - Position: 2nd, Lost by: 2 1/4 l, Jockey: Ryan Moore (claim: 0), Trainer: Aidan O'Brien, Age: 2, Weight: 9-5, Rating: -
+2025-06-12 18:04:21,774 - INFO - Processing sub block #18 for https://www.racingtv.com/results/2022-06-01/curragh/1710
+2025-06-12 18:04:21,774 - INFO - Found 3 <a> tags - Horse: Crypto Force, Jockey: C. T. Keane (claim: 0), Trainer: M. D. O'Callaghan
+2025-06-12 18:04:21,776 - INFO - Position/Length - Found 1 children: Position: 1st, Lost by: N/A
+2025-06-12 18:04:21,776 - INFO - Extracted: Crypto Force - Position: 1st, Lost by: N/A, Jockey: C. T. Keane (claim: 0), Trainer: M. D. O'Callaghan, Age: 2, Weight: 9-5, Rating: -
+2025-06-12 18:04:21,776 - INFO - Successfully extracted 18/18 horse records from https://www.racingtv.com/results/2022-06-01/curragh/1710
+2025-06-12 18:04:21,776 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:21,776 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:21,777 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:21,777 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:21,779 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:21,779 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:21,782 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:21,782 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:21,782 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:21,782 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:21,782 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:21,782 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:21,783 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:21,783 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:21,783 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:21,784 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:21,784 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:21,784 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:21,784 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:21,784 - INFO - Successfully parsed 18 horse records from: https://www.racingtv.com/results/2022-06-01/curragh/1710
+2025-06-12 18:04:21,784 - INFO - Waiting 2 seconds before next request...
+2025-06-12 18:04:23,789 - INFO - Processing URL 2/8985: https://www.racingtv.com/results/2022-06-01/curragh/1745
+2025-06-12 18:04:23,790 - INFO - Loading page with Selenium: https://www.racingtv.com/results/2022-06-01/curragh/1745
+2025-06-12 18:04:28,800 - INFO - Racing main block detected for: https://www.racingtv.com/results/2022-06-01/curragh/1745
+2025-06-12 18:04:28,835 - INFO - Successfully loaded page: https://www.racingtv.com/results/2022-06-01/curragh/1745
+2025-06-12 18:04:28,999 - INFO - Extracted race info - Track: Curragh Racing Results | 1st June 2022 17:45, Date: N/A, Time: 17:45
+2025-06-12 18:04:29,000 - INFO - Found 2nd h3 tag: Good  2YO only 6f Winner: €23,000 (5 runners)
+2025-06-12 18:04:29,000 - INFO - Extracted - Going: Good, Distance: 6f
+2025-06-12 18:04:29,000 - INFO - Extracting racing data from: https://www.racingtv.com/results/2022-06-01/curragh/1745
+2025-06-12 18:04:29,017 - INFO - Processing main block #1 for https://www.racingtv.com/results/2022-06-01/curragh/1745
+2025-06-12 18:04:29,021 - INFO - Checking 2nd child of main block for first place horse...
+2025-06-12 18:04:29,030 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 18:04:29,030 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 18:04:29,030 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 18:04:29,030 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 18:04:29,031 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 18:04:29,055 - INFO - Found likely first place horse via structure analysis: Age of Kings (IRE)
+2025-06-12 18:04:29,058 - INFO - Found potential first place horse with background styling
+2025-06-12 18:04:29,060 - INFO - Found potential first place horse with background styling
+2025-06-12 18:04:29,060 - INFO - Found potential first place horse with background styling
+2025-06-12 18:04:29,061 - INFO - Found potential first place horse with background styling
+2025-06-12 18:04:29,061 - INFO - Found 10 horse entries for https://www.racingtv.com/results/2022-06-01/curragh/1745 using multiple detection methods
+2025-06-12 18:04:29,061 - INFO - Processing sub block #1 for https://www.racingtv.com/results/2022-06-01/curragh/1745
+2025-06-12 18:04:29,061 - INFO - Found 3 <a> tags - Horse: Kodi Noir (IRE), Jockey: J. M. Sheridan (claim: 3), Trainer: Adrian Murray
+2025-06-12 18:04:29,062 - INFO - Position/Length - Found 2 children: Position: 5th, Lost by: 2 l
+2025-06-12 18:04:29,062 - INFO - Extracted: Kodi Noir (IRE) - Position: 5th, Lost by: 2 l, Jockey: J. M. Sheridan (claim: 3), Trainer: Adrian Murray, Age: 2, Weight: 9-5, Rating: -
+2025-06-12 18:04:29,062 - INFO - Processing sub block #2 for https://www.racingtv.com/results/2022-06-01/curragh/1745
+2025-06-12 18:04:29,063 - INFO - Found 3 <a> tags - Horse: Vega Raider, Jockey: Shane Foley (claim: 0), Trainer: Mrs J. Harrington
+2025-06-12 18:04:29,064 - INFO - Position/Length - Found 2 children: Position: 4th, Lost by: 3 1/4 l
+2025-06-12 18:04:29,064 - INFO - Extracted: Vega Raider - Position: 4th, Lost by: 3 1/4 l, Jockey: Shane Foley (claim: 0), Trainer: Mrs J. Harrington, Age: 2, Weight: 9-5, Rating: -
+2025-06-12 18:04:29,064 - INFO - Processing sub block #3 for https://www.racingtv.com/results/2022-06-01/curragh/1745
+2025-06-12 18:04:29,065 - INFO - Found 3 <a> tags - Horse: News At Ten, Jockey: R. P. Cleary (claim: 0), Trainer: M. D. O'Callaghan
+2025-06-12 18:04:29,067 - INFO - Position/Length - Found 2 children: Position: 3rd, Lost by: 4 1/2 l
+2025-06-12 18:04:29,068 - INFO - Extracted: News At Ten - Position: 3rd, Lost by: 4 1/2 l, Jockey: R. P. Cleary (claim: 0), Trainer: M. D. O'Callaghan, Age: 2, Weight: 9-5, Rating: -
+2025-06-12 18:04:29,068 - INFO - Processing sub block #4 for https://www.racingtv.com/results/2022-06-01/curragh/1745
+2025-06-12 18:04:29,068 - INFO - Found 3 <a> tags - Horse: New Image, Jockey: C. T. Keane (claim: 0), Trainer: G. M. Lyons
+2025-06-12 18:04:29,069 - INFO - Position/Length - Found 2 children: Position: 2nd, Lost by: 4 l
+2025-06-12 18:04:29,069 - INFO - Extracted: New Image - Position: 2nd, Lost by: 4 l, Jockey: C. T. Keane (claim: 0), Trainer: G. M. Lyons, Age: 2, Weight: 9-5, Rating: -
+2025-06-12 18:04:29,069 - INFO - Processing sub block #5 for https://www.racingtv.com/results/2022-06-01/curragh/1745
+2025-06-12 18:04:29,070 - INFO - Found 3 <a> tags - Horse: Age of Kings (IRE), Jockey: Ryan Moore (claim: 0), Trainer: Aidan O'Brien
+2025-06-12 18:04:29,071 - INFO - Position/Length - Found 1 children: Position: 1st, Lost by: N/A
+2025-06-12 18:04:29,071 - INFO - Confirmed winner: Age of Kings (IRE)
+2025-06-12 18:04:29,071 - INFO - Extracted: Age of Kings (IRE) - Position: 1st, Lost by: N/A, Jockey: Ryan Moore (claim: 0), Trainer: Aidan O'Brien, Age: 2, Weight: 9-5, Rating: -
+2025-06-12 18:04:29,071 - INFO - Processing sub block #6 for https://www.racingtv.com/results/2022-06-01/curragh/1745
+2025-06-12 18:04:29,071 - INFO - Found 3 <a> tags - Horse: Kodi Noir (IRE), Jockey: J. M. Sheridan (claim: 3), Trainer: Adrian Murray
+2025-06-12 18:04:29,072 - INFO - Position/Length - Found 2 children: Position: 5th, Lost by: 2 l
+2025-06-12 18:04:29,072 - INFO - Extracted: Kodi Noir (IRE) - Position: 5th, Lost by: 2 l, Jockey: J. M. Sheridan (claim: 3), Trainer: Adrian Murray, Age: 2, Weight: 9-5, Rating: -
+2025-06-12 18:04:29,072 - INFO - Processing sub block #7 for https://www.racingtv.com/results/2022-06-01/curragh/1745
+2025-06-12 18:04:29,074 - INFO - Found 3 <a> tags - Horse: Vega Raider, Jockey: Shane Foley (claim: 0), Trainer: Mrs J. Harrington
+2025-06-12 18:04:29,077 - INFO - Position/Length - Found 2 children: Position: 4th, Lost by: 3 1/4 l
+2025-06-12 18:04:29,077 - INFO - Extracted: Vega Raider - Position: 4th, Lost by: 3 1/4 l, Jockey: Shane Foley (claim: 0), Trainer: Mrs J. Harrington, Age: 2, Weight: 9-5, Rating: -
+2025-06-12 18:04:29,077 - INFO - Processing sub block #8 for https://www.racingtv.com/results/2022-06-01/curragh/1745
+2025-06-12 18:04:29,078 - INFO - Found 3 <a> tags - Horse: News At Ten, Jockey: R. P. Cleary (claim: 0), Trainer: M. D. O'Callaghan
+2025-06-12 18:04:29,078 - INFO - Position/Length - Found 2 children: Position: 3rd, Lost by: 4 1/2 l
+2025-06-12 18:04:29,079 - INFO - Extracted: News At Ten - Position: 3rd, Lost by: 4 1/2 l, Jockey: R. P. Cleary (claim: 0), Trainer: M. D. O'Callaghan, Age: 2, Weight: 9-5, Rating: -
+2025-06-12 18:04:29,079 - INFO - Processing sub block #9 for https://www.racingtv.com/results/2022-06-01/curragh/1745
+2025-06-12 18:04:29,079 - INFO - Found 3 <a> tags - Horse: New Image, Jockey: C. T. Keane (claim: 0), Trainer: G. M. Lyons
+2025-06-12 18:04:29,081 - INFO - Position/Length - Found 2 children: Position: 2nd, Lost by: 4 l
+2025-06-12 18:04:29,081 - INFO - Extracted: New Image - Position: 2nd, Lost by: 4 l, Jockey: C. T. Keane (claim: 0), Trainer: G. M. Lyons, Age: 2, Weight: 9-5, Rating: -
+2025-06-12 18:04:29,081 - INFO - Processing sub block #10 for https://www.racingtv.com/results/2022-06-01/curragh/1745
+2025-06-12 18:04:29,082 - INFO - Found 3 <a> tags - Horse: Age of Kings (IRE), Jockey: Ryan Moore (claim: 0), Trainer: Aidan O'Brien
+2025-06-12 18:04:29,084 - INFO - Position/Length - Found 1 children: Position: 1st, Lost by: N/A
+2025-06-12 18:04:29,084 - INFO - Extracted: Age of Kings (IRE) - Position: 1st, Lost by: N/A, Jockey: Ryan Moore (claim: 0), Trainer: Aidan O'Brien, Age: 2, Weight: 9-5, Rating: -
+2025-06-12 18:04:29,084 - INFO - Successfully extracted 10/10 horse records from https://www.racingtv.com/results/2022-06-01/curragh/1745
+2025-06-12 18:04:29,084 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:29,084 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:29,085 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:29,085 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:29,085 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:29,085 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:29,085 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:29,085 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:29,085 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:29,085 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:29,085 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:29,086 - INFO - Successfully parsed 10 horse records from: https://www.racingtv.com/results/2022-06-01/curragh/1745
+2025-06-12 18:04:29,086 - INFO - Waiting 2 seconds before next request...
+2025-06-12 18:04:31,092 - INFO - Processing URL 3/8985: https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:31,093 - INFO - Loading page with Selenium: https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:35,527 - INFO - Racing main block detected for: https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:35,580 - INFO - Successfully loaded page: https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:35,897 - INFO - Extracted race info - Track: Curragh Racing Results | 1st June 2022 18:15, Date: N/A, Time: 18:15
+2025-06-12 18:04:35,898 - INFO - Found 2nd h3 tag: Good (Good To Firm In Places)  3YO+ 1m 4f Winner: €13,000 (14 runners)
+2025-06-12 18:04:35,898 - INFO - Extracted - Going: Good (Good To Firm In Places), Distance: 1m 4f
+2025-06-12 18:04:35,899 - INFO - Extracting racing data from: https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:35,924 - INFO - Processing main block #1 for https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:35,942 - INFO - Checking 2nd child of main block for first place horse...
+2025-06-12 18:04:35,958 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 18:04:35,958 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 18:04:35,959 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 18:04:35,960 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 18:04:35,961 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 18:04:35,961 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 18:04:35,962 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 18:04:35,962 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 18:04:35,962 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 18:04:35,963 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 18:04:35,963 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 18:04:35,964 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 18:04:35,964 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 18:04:35,964 - INFO - Found alternative horse block structure with 3 links
+2025-06-12 18:04:36,026 - INFO - Found likely first place horse via structure analysis: Fennela (IRE)
+2025-06-12 18:04:36,030 - INFO - Found potential first place horse with background styling
+2025-06-12 18:04:36,031 - INFO - Found potential first place horse with background styling
+2025-06-12 18:04:36,032 - INFO - Found potential first place horse with background styling
+2025-06-12 18:04:36,032 - INFO - Found potential first place horse with background styling
+2025-06-12 18:04:36,033 - INFO - Found potential first place horse with background styling
+2025-06-12 18:04:36,033 - INFO - Found potential first place horse with background styling
+2025-06-12 18:04:36,033 - INFO - Found potential first place horse with background styling
+2025-06-12 18:04:36,034 - INFO - Found potential first place horse with background styling
+2025-06-12 18:04:36,034 - INFO - Found potential first place horse with background styling
+2025-06-12 18:04:36,034 - INFO - Found potential first place horse with background styling
+2025-06-12 18:04:36,036 - INFO - Found potential first place horse with background styling
+2025-06-12 18:04:36,039 - INFO - Found potential first place horse with background styling
+2025-06-12 18:04:36,040 - INFO - Found potential first place horse with background styling
+2025-06-12 18:04:36,041 - INFO - Found 28 horse entries for https://www.racingtv.com/results/2022-06-01/curragh/1815 using multiple detection methods
+2025-06-12 18:04:36,041 - INFO - Processing sub block #1 for https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:36,041 - INFO - Found 3 <a> tags - Horse: Kayleigh Grace (IRE), Jockey: C. Horgan (claim: 7), Trainer: Ronald O'Neill
+2025-06-12 18:04:36,042 - INFO - Position/Length - Found 2 children: Position: 14th, Lost by: 21 l
+2025-06-12 18:04:36,042 - INFO - Extracted: Kayleigh Grace (IRE) - Position: 14th, Lost by: 21 l, Jockey: C. Horgan (claim: 7), Trainer: Ronald O'Neill, Age: 3, Weight: 9-3, Rating: -
+2025-06-12 18:04:36,043 - INFO - Processing sub block #2 for https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:36,043 - INFO - Found 3 <a> tags - Horse: Butterfly Rose (IRE), Jockey: Seamie Heffernan (claim: 0), Trainer: Aidan O'Brien
+2025-06-12 18:04:36,045 - INFO - Position/Length - Found 2 children: Position: 13th, Lost by: 19 l
+2025-06-12 18:04:36,045 - INFO - Extracted: Butterfly Rose (IRE) - Position: 13th, Lost by: 19 l, Jockey: Seamie Heffernan (claim: 0), Trainer: Aidan O'Brien, Age: 3, Weight: 9-3t1, Rating: -
+2025-06-12 18:04:36,045 - INFO - Processing sub block #3 for https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:36,047 - INFO - Found 3 <a> tags - Horse: Rockabill Angel, Jockey: D. B. McMonagle (claim: 0), Trainer: Joseph Patrick O'Brien
+2025-06-12 18:04:36,048 - INFO - Position/Length - Found 2 children: Position: 12th, Lost by: 1 3/4 l
+2025-06-12 18:04:36,048 - INFO - Extracted: Rockabill Angel - Position: 12th, Lost by: 1 3/4 l, Jockey: D. B. McMonagle (claim: 0), Trainer: Joseph Patrick O'Brien, Age: 3, Weight: 9-3, Rating: -
+2025-06-12 18:04:36,048 - INFO - Processing sub block #4 for https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:36,049 - INFO - Found 3 <a> tags - Horse: Circus Act (IRE), Jockey: N. P. O'Sullivan (claim: 10), Trainer: James A. Nash
+2025-06-12 18:04:36,050 - INFO - Position/Length - Found 2 children: Position: 11th, Lost by: 2 1/2 l
+2025-06-12 18:04:36,050 - INFO - Extracted: Circus Act (IRE) - Position: 11th, Lost by: 2 1/2 l, Jockey: N. P. O'Sullivan (claim: 10), Trainer: James A. Nash, Age: 3, Weight: 9-3, Rating: -
+2025-06-12 18:04:36,050 - INFO - Processing sub block #5 for https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:36,051 - INFO - Found 3 <a> tags - Horse: Ysobel (IRE), Jockey: K. J. Manning (claim: 0), Trainer: Eddie & Patrick Harty
+2025-06-12 18:04:36,057 - INFO - Position/Length - Found 2 children: Position: 10th, Lost by: 4 3/4 l
+2025-06-12 18:04:36,057 - INFO - Extracted: Ysobel (IRE) - Position: 10th, Lost by: 4 3/4 l, Jockey: K. J. Manning (claim: 0), Trainer: Eddie & Patrick Harty, Age: 3, Weight: 9-3, Rating: -
+2025-06-12 18:04:36,057 - INFO - Processing sub block #6 for https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:36,058 - INFO - Found 3 <a> tags - Horse: Regally Blonde, Jockey: R. P. Whelan (claim: 0), Trainer: Andrew Oliver
+2025-06-12 18:04:36,059 - INFO - Position/Length - Found 2 children: Position: 9th, Lost by: 1/2 l
+2025-06-12 18:04:36,059 - INFO - Extracted: Regally Blonde - Position: 9th, Lost by: 1/2 l, Jockey: R. P. Whelan (claim: 0), Trainer: Andrew Oliver, Age: 3, Weight: 9-3, Rating: -
+2025-06-12 18:04:36,059 - INFO - Processing sub block #7 for https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:36,060 - INFO - Found 3 <a> tags - Horse: Cherub (IRE), Jockey: W. M. Lordan (claim: 0), Trainer: Aidan O'Brien
+2025-06-12 18:04:36,061 - INFO - Position/Length - Found 2 children: Position: 8th, Lost by: 1 l
+2025-06-12 18:04:36,061 - INFO - Extracted: Cherub (IRE) - Position: 8th, Lost by: 1 l, Jockey: W. M. Lordan (claim: 0), Trainer: Aidan O'Brien, Age: 3, Weight: 9-3t1, Rating: -
+2025-06-12 18:04:36,061 - INFO - Processing sub block #8 for https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:36,063 - INFO - Found 3 <a> tags - Horse: Corky (IRE), Jockey: Declan McDonogh (claim: 0), Trainer: Joseph Patrick O'Brien
+2025-06-12 18:04:36,065 - INFO - Position/Length - Found 2 children: Position: 7th, Lost by: Neck
+2025-06-12 18:04:36,065 - INFO - Extracted: Corky (IRE) - Position: 7th, Lost by: Neck, Jockey: Declan McDonogh (claim: 0), Trainer: Joseph Patrick O'Brien, Age: 3, Weight: 9-3, Rating: -
+2025-06-12 18:04:36,065 - INFO - Processing sub block #9 for https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:36,066 - INFO - Found 3 <a> tags - Horse: Scenic Look (IRE), Jockey: J. Coen (claim: 7), Trainer: Adrian Murray
+2025-06-12 18:04:36,067 - INFO - Position/Length - Found 2 children: Position: 6th, Lost by: 2 1/4 l
+2025-06-12 18:04:36,067 - INFO - Extracted: Scenic Look (IRE) - Position: 6th, Lost by: 2 1/4 l, Jockey: J. Coen (claim: 7), Trainer: Adrian Murray, Age: 4, Weight: 10-2, Rating: -
+2025-06-12 18:04:36,067 - INFO - Processing sub block #10 for https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:36,069 - INFO - Found 3 <a> tags - Horse: Isotta (IRE), Jockey: C. T. Keane (claim: 0), Trainer: G. M. Lyons
+2025-06-12 18:04:36,073 - INFO - Position/Length - Found 2 children: Position: 5th, Lost by: 1/2 l
+2025-06-12 18:04:36,073 - INFO - Extracted: Isotta (IRE) - Position: 5th, Lost by: 1/2 l, Jockey: C. T. Keane (claim: 0), Trainer: G. M. Lyons, Age: 3, Weight: 9-3, Rating: -
+2025-06-12 18:04:36,074 - INFO - Processing sub block #11 for https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:36,074 - INFO - Found 3 <a> tags - Horse: Marvelosa (IRE), Jockey: Ben Martin Coen (claim: 0), Trainer: Richard John O'Brien
+2025-06-12 18:04:36,075 - INFO - Position/Length - Found 2 children: Position: 4th, Lost by: 2 1/4 l
+2025-06-12 18:04:36,075 - INFO - Extracted: Marvelosa (IRE) - Position: 4th, Lost by: 2 1/4 l, Jockey: Ben Martin Coen (claim: 0), Trainer: Richard John O'Brien, Age: 3, Weight: 9-3, Rating: -
+2025-06-12 18:04:36,075 - INFO - Processing sub block #12 for https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:36,077 - INFO - Found 3 <a> tags - Horse: Zaniyka (IRE), Jockey: C. D. Hayes (claim: 0), Trainer: D. K. Weld
+2025-06-12 18:04:36,078 - INFO - Position/Length - Found 2 children: Position: 3rd, Lost by: Nose
+2025-06-12 18:04:36,079 - INFO - Extracted: Zaniyka (IRE) - Position: 3rd, Lost by: Nose, Jockey: C. D. Hayes (claim: 0), Trainer: D. K. Weld, Age: 3, Weight: 9-3, Rating: -
+2025-06-12 18:04:36,079 - INFO - Processing sub block #13 for https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:36,080 - INFO - Found 3 <a> tags - Horse: Over the Rainbow (IRE), Jockey: Ryan Moore (claim: 0), Trainer: Aidan O'Brien
+2025-06-12 18:04:36,082 - INFO - Position/Length - Found 2 children: Position: 2nd, Lost by: 2 1/4 l
+2025-06-12 18:04:36,082 - INFO - Extracted: Over the Rainbow (IRE) - Position: 2nd, Lost by: 2 1/4 l, Jockey: Ryan Moore (claim: 0), Trainer: Aidan O'Brien, Age: 3, Weight: 9-3, Rating: -
+2025-06-12 18:04:36,082 - INFO - Processing sub block #14 for https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:36,083 - INFO - Found 3 <a> tags - Horse: Fennela (IRE), Jockey: Shane Foley (claim: 0), Trainer: Mrs J. Harrington
+2025-06-12 18:04:36,085 - INFO - Position/Length - Found 1 children: Position: 1st, Lost by: N/A
+2025-06-12 18:04:36,086 - INFO - Confirmed winner: Fennela (IRE)
+2025-06-12 18:04:36,088 - INFO - Extracted: Fennela (IRE) - Position: 1st, Lost by: N/A, Jockey: Shane Foley (claim: 0), Trainer: Mrs J. Harrington, Age: 3, Weight: 9-3p1, Rating: -
+2025-06-12 18:04:36,088 - INFO - Processing sub block #15 for https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:36,091 - INFO - Found 3 <a> tags - Horse: Kayleigh Grace (IRE), Jockey: C. Horgan (claim: 7), Trainer: Ronald O'Neill
+2025-06-12 18:04:36,093 - INFO - Position/Length - Found 2 children: Position: 14th, Lost by: 21 l
+2025-06-12 18:04:36,093 - INFO - Extracted: Kayleigh Grace (IRE) - Position: 14th, Lost by: 21 l, Jockey: C. Horgan (claim: 7), Trainer: Ronald O'Neill, Age: 3, Weight: 9-3, Rating: -
+2025-06-12 18:04:36,093 - INFO - Processing sub block #16 for https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:36,094 - INFO - Found 3 <a> tags - Horse: Butterfly Rose (IRE), Jockey: Seamie Heffernan (claim: 0), Trainer: Aidan O'Brien
+2025-06-12 18:04:36,097 - INFO - Position/Length - Found 2 children: Position: 13th, Lost by: 19 l
+2025-06-12 18:04:36,097 - INFO - Extracted: Butterfly Rose (IRE) - Position: 13th, Lost by: 19 l, Jockey: Seamie Heffernan (claim: 0), Trainer: Aidan O'Brien, Age: 3, Weight: 9-3t1, Rating: -
+2025-06-12 18:04:36,097 - INFO - Processing sub block #17 for https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:36,098 - INFO - Found 3 <a> tags - Horse: Rockabill Angel, Jockey: D. B. McMonagle (claim: 0), Trainer: Joseph Patrick O'Brien
+2025-06-12 18:04:36,098 - INFO - Position/Length - Found 2 children: Position: 12th, Lost by: 1 3/4 l
+2025-06-12 18:04:36,098 - INFO - Extracted: Rockabill Angel - Position: 12th, Lost by: 1 3/4 l, Jockey: D. B. McMonagle (claim: 0), Trainer: Joseph Patrick O'Brien, Age: 3, Weight: 9-3, Rating: -
+2025-06-12 18:04:36,099 - INFO - Processing sub block #18 for https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:36,100 - INFO - Found 3 <a> tags - Horse: Circus Act (IRE), Jockey: N. P. O'Sullivan (claim: 10), Trainer: James A. Nash
+2025-06-12 18:04:36,101 - INFO - Position/Length - Found 2 children: Position: 11th, Lost by: 2 1/2 l
+2025-06-12 18:04:36,101 - INFO - Extracted: Circus Act (IRE) - Position: 11th, Lost by: 2 1/2 l, Jockey: N. P. O'Sullivan (claim: 10), Trainer: James A. Nash, Age: 3, Weight: 9-3, Rating: -
+2025-06-12 18:04:36,101 - INFO - Processing sub block #19 for https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:36,103 - INFO - Found 3 <a> tags - Horse: Ysobel (IRE), Jockey: K. J. Manning (claim: 0), Trainer: Eddie & Patrick Harty
+2025-06-12 18:04:36,107 - INFO - Position/Length - Found 2 children: Position: 10th, Lost by: 4 3/4 l
+2025-06-12 18:04:36,107 - INFO - Extracted: Ysobel (IRE) - Position: 10th, Lost by: 4 3/4 l, Jockey: K. J. Manning (claim: 0), Trainer: Eddie & Patrick Harty, Age: 3, Weight: 9-3, Rating: -
+2025-06-12 18:04:36,107 - INFO - Processing sub block #20 for https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:36,107 - INFO - Found 3 <a> tags - Horse: Regally Blonde, Jockey: R. P. Whelan (claim: 0), Trainer: Andrew Oliver
+2025-06-12 18:04:36,108 - INFO - Position/Length - Found 2 children: Position: 9th, Lost by: 1/2 l
+2025-06-12 18:04:36,109 - INFO - Extracted: Regally Blonde - Position: 9th, Lost by: 1/2 l, Jockey: R. P. Whelan (claim: 0), Trainer: Andrew Oliver, Age: 3, Weight: 9-3, Rating: -
+2025-06-12 18:04:36,109 - INFO - Processing sub block #21 for https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:36,109 - INFO - Found 3 <a> tags - Horse: Cherub (IRE), Jockey: W. M. Lordan (claim: 0), Trainer: Aidan O'Brien
+2025-06-12 18:04:36,110 - INFO - Position/Length - Found 2 children: Position: 8th, Lost by: 1 l
+2025-06-12 18:04:36,110 - INFO - Extracted: Cherub (IRE) - Position: 8th, Lost by: 1 l, Jockey: W. M. Lordan (claim: 0), Trainer: Aidan O'Brien, Age: 3, Weight: 9-3t1, Rating: -
+2025-06-12 18:04:36,110 - INFO - Processing sub block #22 for https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:36,111 - INFO - Found 3 <a> tags - Horse: Corky (IRE), Jockey: Declan McDonogh (claim: 0), Trainer: Joseph Patrick O'Brien
+2025-06-12 18:04:36,113 - INFO - Position/Length - Found 2 children: Position: 7th, Lost by: Neck
+2025-06-12 18:04:36,113 - INFO - Extracted: Corky (IRE) - Position: 7th, Lost by: Neck, Jockey: Declan McDonogh (claim: 0), Trainer: Joseph Patrick O'Brien, Age: 3, Weight: 9-3, Rating: -
+2025-06-12 18:04:36,114 - INFO - Processing sub block #23 for https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:36,114 - INFO - Found 3 <a> tags - Horse: Scenic Look (IRE), Jockey: J. Coen (claim: 7), Trainer: Adrian Murray
+2025-06-12 18:04:36,115 - INFO - Position/Length - Found 2 children: Position: 6th, Lost by: 2 1/4 l
+2025-06-12 18:04:36,115 - INFO - Extracted: Scenic Look (IRE) - Position: 6th, Lost by: 2 1/4 l, Jockey: J. Coen (claim: 7), Trainer: Adrian Murray, Age: 4, Weight: 10-2, Rating: -
+2025-06-12 18:04:36,115 - INFO - Processing sub block #24 for https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:36,116 - INFO - Found 3 <a> tags - Horse: Isotta (IRE), Jockey: C. T. Keane (claim: 0), Trainer: G. M. Lyons
+2025-06-12 18:04:36,117 - INFO - Position/Length - Found 2 children: Position: 5th, Lost by: 1/2 l
+2025-06-12 18:04:36,117 - INFO - Extracted: Isotta (IRE) - Position: 5th, Lost by: 1/2 l, Jockey: C. T. Keane (claim: 0), Trainer: G. M. Lyons, Age: 3, Weight: 9-3, Rating: -
+2025-06-12 18:04:36,117 - INFO - Processing sub block #25 for https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:36,119 - INFO - Found 3 <a> tags - Horse: Marvelosa (IRE), Jockey: Ben Martin Coen (claim: 0), Trainer: Richard John O'Brien
+2025-06-12 18:04:36,125 - INFO - Position/Length - Found 2 children: Position: 4th, Lost by: 2 1/4 l
+2025-06-12 18:04:36,125 - INFO - Extracted: Marvelosa (IRE) - Position: 4th, Lost by: 2 1/4 l, Jockey: Ben Martin Coen (claim: 0), Trainer: Richard John O'Brien, Age: 3, Weight: 9-3, Rating: -
+2025-06-12 18:04:36,125 - INFO - Processing sub block #26 for https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:36,126 - INFO - Found 3 <a> tags - Horse: Zaniyka (IRE), Jockey: C. D. Hayes (claim: 0), Trainer: D. K. Weld
+2025-06-12 18:04:36,128 - INFO - Position/Length - Found 2 children: Position: 3rd, Lost by: Nose
+2025-06-12 18:04:36,128 - INFO - Extracted: Zaniyka (IRE) - Position: 3rd, Lost by: Nose, Jockey: C. D. Hayes (claim: 0), Trainer: D. K. Weld, Age: 3, Weight: 9-3, Rating: -
+2025-06-12 18:04:36,128 - INFO - Processing sub block #27 for https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:36,129 - INFO - Found 3 <a> tags - Horse: Over the Rainbow (IRE), Jockey: Ryan Moore (claim: 0), Trainer: Aidan O'Brien
+2025-06-12 18:04:36,131 - INFO - Position/Length - Found 2 children: Position: 2nd, Lost by: 2 1/4 l
+2025-06-12 18:04:36,131 - INFO - Extracted: Over the Rainbow (IRE) - Position: 2nd, Lost by: 2 1/4 l, Jockey: Ryan Moore (claim: 0), Trainer: Aidan O'Brien, Age: 3, Weight: 9-3, Rating: -
+2025-06-12 18:04:36,131 - INFO - Processing sub block #28 for https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:36,132 - INFO - Found 3 <a> tags - Horse: Fennela (IRE), Jockey: Shane Foley (claim: 0), Trainer: Mrs J. Harrington
+2025-06-12 18:04:36,133 - INFO - Position/Length - Found 1 children: Position: 1st, Lost by: N/A
+2025-06-12 18:04:36,133 - INFO - Extracted: Fennela (IRE) - Position: 1st, Lost by: N/A, Jockey: Shane Foley (claim: 0), Trainer: Mrs J. Harrington, Age: 3, Weight: 9-3p1, Rating: -
+2025-06-12 18:04:36,133 - INFO - Successfully extracted 28/28 horse records from https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:36,134 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:36,134 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:36,134 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:36,134 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:36,134 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:36,134 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:36,134 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:36,135 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:36,135 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:36,135 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:36,136 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:36,136 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:36,136 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:36,136 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:36,136 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:36,139 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:36,139 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:36,139 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:36,139 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:36,139 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:36,140 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:36,140 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:36,140 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:36,140 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:36,140 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:36,140 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:36,140 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:36,140 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:36,140 - INFO - ✓ First place horse found successfully
+2025-06-12 18:04:36,140 - INFO - Successfully parsed 28 horse records from: https://www.racingtv.com/results/2022-06-01/curragh/1815
+2025-06-12 18:04:36,140 - INFO - Waiting 2 seconds before next request...
+2025-06-12 18:04:38,145 - INFO - Processing URL 4/8985: https://www.racingtv.com/results/2022-06-01/curragh/1845
+2025-06-12 18:04:38,146 - INFO - Loading page with Selenium: https://www.racingtv.com/results/2022-06-01/curragh/1845
+2025-06-12 18:04:38,507 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x119babc70>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/bc2c9cf18d5ed1896aeba87cdd8f9521
+2025-06-12 18:04:38,509 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x119bae730>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/bc2c9cf18d5ed1896aeba87cdd8f9521
+2025-06-12 18:04:38,511 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x119bae580>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/bc2c9cf18d5ed1896aeba87cdd8f9521

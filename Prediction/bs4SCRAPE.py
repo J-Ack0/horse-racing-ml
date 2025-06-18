@@ -338,13 +338,15 @@ def process_race_urls(urls):
     return results
 
 # Save race data to CSV - function remains the same as the original script
+# Save race data to CSV - updated with remapped column names
 def save_results_to_csv(results, filename):
+    # Updated fieldnames using the rename mapping
     fieldnames = [
-        "url", "time", "header", "date", "going", "distance", "class",
-        "runner_name", "horse_url", "runner_ts", "runner_rpr", "price",
-        "runner_age", "jockey_name", "jockey_url",
-        "trainer_name", "trainer_url",
-        "runner_weight", "jockey_claim"
+        "url", "race_time", "track_name", "race_date", "going", "distance", "class",
+        "horse_name", "horse_url", "runner_ts", "rating", "price",
+        "age", "jockey", "jockey_url",
+        "trainer", "trainer_url",
+        "weight", "claims"
     ]
 
     # Create a list to hold all rows before deduplication
@@ -356,24 +358,24 @@ def save_results_to_csv(results, filename):
             for runner in race["runners"]:
                 row = {
                     "url": race.get("url"),
-                    "time": race.get("time"),
-                    "header": race.get("header"),
-                    "date": race.get("date"),
+                    "race_time": race.get("time"),  # time -> race_time
+                    "track_name": race.get("header"),  # header -> track_name
+                    "race_date": race.get("date"),  # date -> race_date
                     "going": race.get("going"),
                     "distance": race.get("distance"),
                     "class": race.get("class"),
-                    "runner_name": runner.get("name"),
+                    "horse_name": runner.get("name"),  # runner_name -> horse_name
                     "horse_url": runner.get("horse_url"),
                     "runner_ts": runner.get("ts"),
-                    "runner_rpr": runner.get("rpr"),
+                    "rating": runner.get("rpr"),  # runner_rpr -> rating
                     "price": runner.get("price"),
-                    "runner_age": runner.get("age"),
-                    "jockey_name": runner.get("jockey_name"),
+                    "age": runner.get("age"),  # runner_age -> age
+                    "jockey": runner.get("jockey_name"),  # jockey_name -> jockey
                     "jockey_url": runner.get("jockey_url"),
-                    "trainer_name": runner.get("trainer_name"),
+                    "trainer": runner.get("trainer_name"),  # trainer_name -> trainer
                     "trainer_url": runner.get("trainer_url"),
-                    "runner_weight": runner.get("weight"),
-                    "jockey_claim": runner.get("claim"),
+                    "weight": runner.get("weight"),  # runner_weight -> weight
+                    "claims": runner.get("claim"),  # jockey_claim -> claims
                 }
                 all_rows.append(row)
     
@@ -383,8 +385,8 @@ def save_results_to_csv(results, filename):
     
     for row in all_rows:
         # Create a tuple of values that we want to check for uniqueness
-        # Using runner_name, horse_url, and url as keys for uniqueness
-        key = (row["runner_name"], row["horse_url"], row["url"])
+        # Using horse_name, horse_url, and url as keys for uniqueness
+        key = (row["horse_name"], row["horse_url"], row["url"])
         
         if key not in seen:
             seen.add(key)

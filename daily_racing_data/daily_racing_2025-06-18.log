@@ -1,0 +1,65 @@
+2025-06-18 21:08:32,742 - INFO - === Starting Daily Racing Collection for 2025-06-15 ===
+2025-06-18 21:08:32,743 - INFO - Step 1: Collecting race URLs...
+2025-06-18 21:08:32,743 - INFO - Starting URL collection for 2025-06-15
+2025-06-18 21:08:32,743 - INFO - Executing: C:\Users\jackc\AppData\Local\Programs\Python\Python312\python.exe racing_url_collector.py --start-date 2025-06-15 --end-date 2025-06-15 --headless --irish-output daily_racing_data\irish_races_2025-06-15.csv --uk-output daily_racing_data\uk_races_2025-06-15.csv
+2025-06-18 21:08:52,713 - INFO - URL collection completed successfully
+2025-06-18 21:08:52,714 - INFO - STDOUT: Collecting race URLs from 2025-06-15 to 2025-06-15
+Total days to process: 1
+
+Progress: 1/1 days
+
+Collecting race URLs for 2025-06-15
+  Found 14 Irish races and 22 UK races
+
+Saved 14 Irish race URLs to daily_racing_data\irish_races_2025-06-15.csv
+Saved 22 UK race URLs to daily_racing_data\uk_races_2025-06-15.csv
+
+=== Collection Summary ===
+Date range: 2025-06-15 to 2025-06-15
+Total Irish races: 14
+Total UK races: 22
+Total races: 36
+
+2025-06-18 21:08:52,714 - INFO - Step 2: Combining URL files...
+2025-06-18 21:08:52,731 - INFO - Loaded 14 Irish races
+2025-06-18 21:08:52,745 - INFO - Loaded 22 UK races
+2025-06-18 21:08:52,749 - INFO - Combined CSV saved: daily_racing_data\all_races_2025-06-15.csv (36 total races)
+2025-06-18 21:08:52,749 - INFO - Step 3: Scraping Irish horse data...
+2025-06-18 21:08:52,750 - INFO - Starting horse scraping for daily_racing_data\irish_races_2025-06-15.csv
+2025-06-18 21:08:52,750 - INFO - Executing: C:\Users\jackc\AppData\Local\Programs\Python\Python312\python.exe Whole9.py --csv daily_racing_data\irish_races_2025-06-15.csv --output daily_racing_data\irish_horses_2025-06-15.csv --headless --delay 3
+2025-06-18 21:11:14,902 - INFO - Horse scraping completed successfully for daily_racing_data\irish_races_2025-06-15.csv
+2025-06-18 21:11:14,903 - INFO - STDOUT: 
+==================================================
+SCRAPING COMPLETE:
+==================================================
+Total records combined: 266
+Failed URLs: 0
+Final output saved to: daily_racing_data\irish_horses_2025-06-15.csv
+Batch files created: 1
+
+Progress file cleaned up
+
+2025-06-18 21:11:14,904 - INFO - Step 4: Scraping UK horse data...
+2025-06-18 21:11:14,904 - INFO - Starting horse scraping for daily_racing_data\uk_races_2025-06-15.csv
+2025-06-18 21:11:14,904 - INFO - Executing: C:\Users\jackc\AppData\Local\Programs\Python\Python312\python.exe Whole9.py --csv daily_racing_data\uk_races_2025-06-15.csv --output daily_racing_data\uk_horses_2025-06-15.csv --headless --delay 3
+2025-06-18 21:14:51,370 - INFO - Horse scraping completed successfully for daily_racing_data\uk_races_2025-06-15.csv
+2025-06-18 21:14:51,371 - INFO - STDOUT: 
+==================================================
+SCRAPING COMPLETE:
+==================================================
+Total records combined: 410
+Failed URLs: 0
+Final output saved to: daily_racing_data\uk_horses_2025-06-15.csv
+Batch files created: 1
+
+Progress file cleaned up
+
+2025-06-18 21:14:51,371 - INFO - Step 5: Combining horse results...
+2025-06-18 21:14:51,385 - INFO - Loaded 266 Irish horse records
+2025-06-18 21:14:51,400 - INFO - Loaded 410 UK horse records
+2025-06-18 21:14:51,406 - INFO - Combined horse results saved: daily_racing_data\all_horses_2025-06-15.csv (676 total horses)
+2025-06-18 21:14:51,416 - INFO - === Daily Collection Complete ===
+2025-06-18 21:14:51,416 - INFO - Success Rate: 5/5 steps completed
+2025-06-18 21:14:51,417 - INFO - Irish Races: 14, UK Races: 22
+2025-06-18 21:14:51,417 - INFO - Irish Horses: 266, UK Horses: 410
+2025-06-18 21:14:51,417 - INFO - Files Created: 6
