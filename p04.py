@@ -174,37 +174,58 @@ def normalize_weight(w_str: str) -> float:
     return np.nan
 
 def process_features(df):
-    """Main feature processing pipeline"""
+    """Main feature processing pipeline - Rewritten for point-in-time (non-leaky) features"""
     print("Starting feature engineering...")
+
+    def _extract_race_date(track_name):
+        """Extract race date from track_name column"""
+        if not isinstance(track_name, str):
+            return None
+        
+        # Isolate the date part of the string
+        new = track_name.split('|', 1)[-1]
+        
+        # Clean string: "22nd June 2024 16:05" -> "22 June 2024 16:05"
+        cleaned_string = re.sub(r'(\d+)(st|nd|rd|th)', r'\1', new).strip()
+
+        try:
+            # Try parsing with time
+            date_object = datetime.strptime(cleaned_string, "%d %B %Y %H:%M")
+            return date_object
+        except ValueError:
+            try:
+                # Try parsing without time (if format is "22 June 2024")
+                date_object = datetime.strptime(cleaned_string, "%d %B %Y")
+                return date_object
+            except ValueError:
+                # Handle other potential formats or return None
+                return None
+
+    print("Parsing and sorting by race date...")
+    # Use your new parser
+    df['race_date_clean'] = df['track_name'].apply(_extract_race_date)
     
-    # Normalize distance column if it exists
+    # Drop rows where date couldn't be parsed
+    df = df.dropna(subset=['race_date_clean'])
+    
+    # CRITICAL: Sort by date and reset the index
+    # All future calculations depend on this temporal order.
+    df = df.sort_values('race_date_clean').reset_index(drop=True)
+    print(f"Sorted {len(df)} rows by date.")
+
+    # ============================================================
+    # 1. ROW-WISE FEATURES (NO LEAKAGE)
+    # These operations only look at the current row.
+    # ============================================================
+
     if 'distance' in df.columns:
         print("Normalizing distance values...")
         df['distance'] = df['distance'].apply(normalize_distance)
-        valid_distances = df['distance'].dropna()
-        print(f"  Normalized {len(valid_distances)} valid distances out of {len(df)} total")
-        if len(valid_distances) > 0:
-            print(f"  Distance range: {valid_distances.min():.0f} - {valid_distances.max():.0f} yards")
     
-    # Normalize weight column if it exists
     if 'weight' in df.columns:
         print("Normalizing weight values...")
-        # Show example of weight conversion for debugging
-        sample_weights = df['weight'].dropna().head(3)
-        if len(sample_weights) > 0:
-            print(f"  Sample weight conversions: {list(sample_weights.values)} → ", end="")
-        
         df['weight'] = df['weight'].apply(normalize_weight)
-        valid_weights = df['weight'].dropna()
-        
-        if len(sample_weights) > 0:
-            print(f"{list(df['weight'].iloc[sample_weights.index].values)}")
-        
-        print(f"  Normalized {len(valid_weights)} valid weights out of {len(df)} total")
-        if len(valid_weights) > 0:
-            print(f"  Weight range: {valid_weights.min():.0f} - {valid_weights.max():.0f} pounds")
 
-    # Ensure numeric columns are properly typed
     numeric_columns = ['age', 'claims']
     if 'rating_clean' in df.columns:
         numeric_columns.append('rating_clean')
@@ -213,86 +234,98 @@ def process_features(df):
     
     for col in numeric_columns:
         if col in df.columns:
-            # Convert to numeric, coercing errors to NaN
             df[col] = pd.to_numeric(df[col], errors='coerce')
-            print(f"  Converted {col} to numeric: {df[col].notna().sum()} valid values")
     
-    ## NEW: Register tqdm with pandas ##
     print("Applying slow .apply() operations (tracking progress)...")
     tqdm.pandas(desc="Cleaning Names") 
-    
-    ## NEW: Use .progress_apply() instead of .apply() ##
     df['J_Name'] = df['jockey'].progress_apply(clean_names).str.replace('.','', regex=False)
     df['T_Name'] = df['trainer'].progress_apply(clean_names).str.replace('.','', regex=False)
     
-    # This operation is vectorized and should be fast
     df['track_stripped'] = df['track_name'].str.split('|').str[0].str.strip()
-    
-    # Jockey-Trainer combinations
-    print("Creating feature combinations...")
     df['j_t'] = df['J_Name'].astype(str) + " | " + df['T_Name'].astype(str)
     
     # Create label
     df['label'] = (df['race_position_clean'] == 1).astype(int)
     
-    # Calculate JT wins and runs
-    print("Calculating jockey-trainer stats...")
-    jt_wins = df[df['label'] == 1].groupby('j_t').size().reset_index(name='jt_wins')
-    df = df.merge(jt_wins, on='j_t', how='left')
-    df['jt_wins'] = df['jt_wins'].fillna(0).astype(int)
+    tqdm.pandas(desc="Clean Going")
+    df['going'] = df['going'].str.split('(').str[0].str.strip()
+    df['going'] = df['going'].progress_apply(extract_clean_going)
+
+    # ============================================================
+    # 2. POINT-IN-TIME (NON-LEAKY) AGGREGATE FEATURES
+    # These use groupby() + cumsum() / cumcount() on the sorted df.
+    # This calculates stats using ONLY data from rows *before* the current one.
+    # ============================================================
+
+    print("Calculating point-in-time jockey-trainer stats...")
+    # 'cumcount()' is the number of *previous* runs (0 for the first run)
+    df['jt_runs'] = df.groupby('j_t').cumcount()
     
-    jt_runs = df['j_t'].value_counts().reset_index()
-    jt_runs.columns = ['j_t', 'jt_runs']
-    df = df.merge(jt_runs, on='j_t', how='left')
+    # 'cumsum() - df['label']' is the sum of wins *before* the current race
+    df['jt_wins'] = df.groupby('j_t')['label'].cumsum() - df['label']
     
-    # Wilson score
-    print("Calculating wilson score...")
-    ## NEW: Register a new description for this apply ##
-    tqdm.pandas(desc="Wilson Score")
+    print("Calculating point-in-time wilson score...")
+    tqdm.pandas(desc="Wilson Score (Non-Leaky)")
     df['wilson_score'] = df.progress_apply(
         lambda row: wilson_score(row['jt_wins'], row['jt_runs']),
         axis=1
     )
     
-    # Clean going conditions
-    print("Cleaning going conditions...")
-    df['going'] = df['going'].str.split('(').str[0].str.strip()
-    ## NEW: Register a new description for this apply ##
-    tqdm.pandas(desc="Clean Going")
-    df['going'] = df['going'].progress_apply(extract_clean_going)
+    print("Calculating point-in-time performance on going...")
+    # Calculate wins/runs for each horse on each specific going type
+    df['horse_going_runs'] = df.groupby(['horse_name', 'going']).cumcount()
+    df['horse_going_wins'] = df.groupby(['horse_name', 'going'])['label'].cumsum() - df['label']
     
-    # Performance on going
-    print("Calculating performance on going...")
-    for going_type in df['going'].dropna().unique():
-        going_mask = df['going'] == going_type
-        perf = df.loc[going_mask].groupby('horse_name')['label'].mean()
-        df[f'performance_on_{going_type}'] = df['horse_name'].map(perf).fillna(0)
+    # Calculate the horse's *past* win rate on the *current* going
+    df['performance_on_going'] = (df['horse_going_wins'] / df['horse_going_runs']).fillna(0)
     
-    # Calculate EMA Form
+    print("Calculating point-in-time track-specific features...")
+    # Total past runs at this track
+    df['track_total_runs'] = df.groupby('track_stripped').cumcount()
+    
+    # Total past wins at this track
+    df['track_total_wins'] = df.groupby('track_stripped')['label'].cumsum() - df['label']
+    
+    # Past win rate at this track (using a safe 0 for the first race)
+    df['track_win_rate'] = (df['track_total_wins'] / df['track_total_runs']).fillna(0)
+    
+    # Past average distance at this track
+    # .cumsum() - df['distance'] gives cumulative *past* distance
+    df['track_cum_distance'] = df.groupby('track_stripped')['distance'].cumsum() - df['distance']
+    df['track_avg_distance'] = (df['track_cum_distance'] / df['track_total_runs']).fillna(df['distance'].median()) # fillna with median
+
+
+    # ============================================================
+    # 3. CORRECTLY IMPLEMENTED ROLLING FEATURES (YOURS)
+    # These loops were already correct and non-leaky.
+    # ============================================================
+    
     print("Calculating EMA Form...")
     df['EMA_Form'] = 0.5  # Default value
-    ## NEW: Use tqdm for the loop ##
+    # This loop is correct because it passes temporally-sorted data
+    # to calculate_form_features, which then calculates a rolling EMA.
     for horse in tqdm(df['horse_name'].unique(), desc="EMA Form"):
+        # The main df is already sorted, so horse_races will be too
         horse_races = df[df['horse_name'] == horse].copy()
         if len(horse_races) >= 2:
             form_features = calculate_form_features(horse_races)
             if 'EMA_Form' in form_features:
                 df.loc[df['horse_name'] == horse, 'EMA_Form'] = form_features['EMA_Form']
     
-    # Historical performance features
     print("Calculating historical performance features...")
-    df = df.sort_values('race_date_clean') if 'race_date_clean' in df.columns else df.sort_index()
+    # df is already sorted by 'race_date_clean'
     
     df['recent_win_rate'] = 0.0
     df['career_wins'] = 0
     df['career_races'] = 0
     df['career_win_rate'] = 0.0
-    df['days_since_last'] = 0
+    df['days_since_last'] = 0 # Note: This feature is not calculated in your loop
     
-    ## NEW: Use tqdm for the loop ##
+    # This loop is perfectly non-leaky. It iterates through each horse's
+    # sorted races and only looks at 'prior_indices'.
     for horse in tqdm(df['horse_name'].unique(), desc="Career Stats"):
         horse_mask = df['horse_name'] == horse
-        horse_indices = df[horse_mask].index.tolist()
+        horse_indices = df[horse_mask].index.tolist() # Indices are already sorted
         
         for i, idx in enumerate(horse_indices):
             if i > 0:
@@ -303,59 +336,31 @@ def process_features(df):
                 career_races = len(prior_labels)
                 career_win_rate = career_wins / career_races if career_races > 0 else 0
                 
-                recent_labels = prior_labels.tail(5) if len(prior_labels) >= 5 else prior_labels
+                recent_labels = prior_labels.tail(5)
                 recent_win_rate = recent_labels.mean() if len(recent_labels) > 0 else 0
                 
                 df.loc[idx, 'recent_win_rate'] = recent_win_rate
                 df.loc[idx, 'career_wins'] = career_wins
                 df.loc[idx, 'career_races'] = career_races
                 df.loc[idx, 'career_win_rate'] = career_win_rate
+
+    # ============================================================
+    # 4. ROW-WISE FEATURES (POST-CALCULATION)
+    # ============================================================
     
-    # Track-specific features
-    print("Calculating track-specific features...")
-    track_stats = []
-    ## NEW: Use tqdm for the loop ##
-    for idx in tqdm(df.index, desc="Track Stats"):
-        track = df.loc[idx, 'track_stripped']
-        other_races = df[(df['track_stripped'] == track) & (df.index != idx)]
-        
-        if len(other_races) >= 10:
-            track_win_rate = other_races['label'].mean()
-            if 'distance' in df.columns:
-                # Use nanmean to handle NaN values properly
-                track_avg_distance = other_races['distance'].dropna().mean() if len(other_races['distance'].dropna()) > 0 else df['distance'].dropna().mean()
-            else:
-                track_avg_distance = 0
-        else:
-            track_win_rate = df['label'].mean()
-            if 'distance' in df.columns:
-                track_avg_distance = df['distance'].dropna().mean() if len(df['distance'].dropna()) > 0 else 0
-            else:
-                track_avg_distance = 0
-        
-        track_stats.append({
-            'index': idx,
-            'track_win_rate': track_win_rate,
-            'track_avg_distance': track_avg_distance
-        })
+    # Removed leaky 'weight_percentile'. The raw 'weight' feature
+    # is already included in 'raw_features' by prepare_data_for_tabnet
     
-    stats_df = pd.DataFrame(track_stats).set_index('index')
-    df['track_win_rate'] = stats_df['track_win_rate']
-    df['track_avg_distance'] = stats_df['track_avg_distance']
-    
-    # Weight-related features
-    if 'weight' in df.columns:
-        # Only calculate percentile if we have valid weight values
-        if df['weight'].notna().sum() > 0:
-            df['weight_percentile'] = df['weight'].rank(pct=True)
-        else:
-            df['weight_percentile'] = 0.5  # Default to middle if no valid weights
-    
-    # Age-related features
     if 'age' in df.columns:
         df['is_young_horse'] = (df['age'] <= 3).astype(int)
         df['is_prime_age'] = ((df['age'] >= 4) & (df['age'] <= 6)).astype(int)
         df['is_veteran'] = (df['age'] >= 7).astype(int)
+    
+    # Drop any rows that still have NaNs in critical columns (post-processing)
+    final_cols = numeric_columns + ['distance', 'weight', 'wilson_score', 'recent_win_rate', 'career_win_rate']
+    final_cols = [c for c in final_cols if c in df.columns]
+    df = df.dropna(subset=final_cols)
+    print(f"Final dataset size after feature engineering and NaN removal: {len(df)}")
     
     print("Feature engineering complete!")
     return df
@@ -408,6 +413,7 @@ def prepare_data_for_tabnet(df): # Renamed function, was prepare_data_for_tabnet
                 df[col] = df[col].fillna(0)
     
     # Prepare feature matrix
+    df = df.sort_values('race_date_clean')
     X = df[all_features].values
     y = df['label'].values
     
@@ -466,14 +472,17 @@ def train_xgboost(X_train, y_train, X_val, y_val, feature_names):
     model.fit(
         X_train_scaled, y_train,
         eval_set=[(X_val_scaled, y_val)],
-        early_stopping_rounds=50,   # Stop if no improvement on validation set after 50 rounds
-        verbose=100                 # Print metrics every 100 boosting rounds
+        verbose=10                 # Print metrics every 100 boosting rounds
     )
     
-    print(f"\nXGBoost training finished in {model.best_iteration} boosting rounds.")
-    print(f"Best Validation AUC: {model.best_score:.4f}")
+    print(f"\nXGBoost training finished in sum boosting rounds.")
+    print(f"Best Validation AUC: {model.score}")
     
     return model, scaler
+
+# ============================================================
+#                    UPDATED MAIN PIPELINE
+# ============================================================
 
 # ============================================================
 #                    UPDATED MAIN PIPELINE
@@ -523,7 +532,94 @@ def main_xgboost():
         print(f"\nSaving engineered features to '{engineered_features_path}'...")
         df.to_csv(engineered_features_path, index=False)
         print("✓ Features saved!")
-        # ============================================================
+    
+    # ============================================================
+    #                    THRESHOLD TESTING & ANALYSIS
+    # ============================================================
+    # (All your threshold testing functions: test_thresholds, 
+    # plot_precision_recall_curve, find_optimal_threshold, 
+    # and print_threshold_analysis remain here, unchanged)
+    #
+    # --- START OF THE FIX ---
+    # The code below was missing. It needs to run *after* 'df' is loaded/created.
+    
+    print("\nPreparing data for modeling...")
+    # XGBoost doesn't use the attention_mask, so we can ignore it with '_'
+    X, y, feature_names, _ = prepare_data_for_tabnet(df) 
+
+    print(f"Data shape: X={X.shape}, y={y.shape}")
+    print(f"Positive class (wins) rate: {y.mean():.2%}")
+
+    # 1. Split into Train+Val and Test sets (e.g., 80% Train+Val, 20% Test)
+    try:
+        X_train_val, X_test, y_train_val, y_test = train_test_split(
+            X, y, test_size=0.2, random_state=42, stratify=y
+        )
+        
+        # 2. Split Train+Val into Train and Validation sets (e.g., 80/20 split of the 80%)
+        # This makes the validation set 20% of 80% = 16% of the total data
+        X_train, X_val, y_train, y_val = train_test_split(
+            X_train_val, y_train_val, test_size=0.2, random_state=42, stratify=y_train_val
+        )
+    except ValueError as e:
+        print(f"\nWarning: Stratification failed (likely too few samples of one class): {e}")
+        print("Splitting data without stratification...")
+        X_train_val, X_test, y_train_val, y_test = train_test_split(
+            X, y, test_size=0.2, random_state=42
+        )
+        X_train, X_val, y_train, y_val = train_test_split(
+            X_train_val, y_train_val, test_size=0.2, random_state=42
+        )
+
+    print(f"Training set size: {len(X_train)}")
+    print(f"Validation set size: {len(X_val)}")
+    print(f"Test set size: {len(X_test)}")
+
+    # 3. Train the XGBoost model
+    model, scaler = train_xgboost(X_train, y_train, X_val, y_val, feature_names)
+
+    # 4. Save the model and scaler
+    print("\nSaving model and scaler...")
+    os.makedirs("Pt2/models", exist_ok=True)
+    joblib.dump(model, "Pt2/models/xgb_model.joblib")
+    joblib.dump(scaler, "Pt2/models/xgb_scaler.joblib")
+    print("✓ Model and scaler saved to 'Pt2/models/'")
+
+    # 5. Evaluate on the Test set
+    print("\nEvaluating model on hold-out test set...")
+    X_test_scaled = scaler.transform(X_test)
+    y_proba = model.predict_proba(X_test_scaled)[:, 1] # Probabilities for the positive class (1)
+    
+    # 6. Analyze Thresholds
+    threshold_results = test_thresholds(y_test, y_proba)
+    
+    # Plot Precision-Recall Curve
+    plot_precision_recall_curve(y_test, y_proba, save_path='Pt2/xgb_precision_recall.png')
+    print("✓ Precision-Recall curve saved to 'Pt2/xgb_precision_recall.png'")
+    
+    # Print detailed threshold analysis
+    optimal_thresholds = print_threshold_analysis(threshold_results, y_test, y_proba)
+
+    # 7. Get Feature Importance
+    importance_df = pd.DataFrame({
+        'feature': feature_names,
+        'importance': model.feature_importances_
+    }).sort_values(by='importance', ascending=False)
+    
+    print("\nTOP 20 FEATURES:")
+    print(importance_df.head(20).to_string())
+    importance_df.to_csv("Pt2/xgb_feature_importance.csv", index=False)
+    print("\n✓ Feature importance saved to 'Pt2/xgb_feature_importance.csv'")
+
+    # 8. Return all the expected components
+    # This now matches what the __main__ block expects
+    return model, feature_names, importance_df, threshold_results, optimal_thresholds
+    
+    # --- END OF THE FIX ---
+
+
+
+# ============================================================
 #                    THRESHOLD TESTING & ANALYSIS
 # ============================================================
 # (All your threshold testing functions: test_thresholds, 
@@ -712,10 +808,10 @@ if __name__ == "__main__":
 
     # --- FIX APPLIED HERE ---
     # Check if results is None (indicating a failure/early exit in main_xgboost)
-    if results is None:
-        print("\nPipeline execution failed, likely due to missing data file or an error in main_xgboost.")
-    # If results is not None, proceed to check if all its components are not None
-    elif all(r is not None for r in results):
+    # if results is None:
+    #     print("\nPipeline execution failed, likely due to missing data file or an error in main_xgboost.")
+    # # If results is not None, proceed to check if all its components are not None
+    if all(r is not None for r in results):
         model, features, importance, threshold_results, optimal_thresholds = results
         print("\nPipeline execution successful.")
     else:

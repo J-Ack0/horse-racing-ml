@@ -1,0 +1,30 @@
+feature,importance
+wilson_score,0.21259625
+track_win_rate,0.10557452
+jt_wins,0.085024185
+performance_on_Good,0.07137049
+performance_on_Soft,0.059149265
+performance_on_Standard,0.052998792
+performance_on_Good to Yielding,0.05197653
+performance_on_Yielding,0.047906432
+jt_runs,0.03908453
+performance_on_Heavy,0.03694572
+performance_on_Soft to Heavy,0.03188639
+performance_on_Yielding to Soft,0.030469358
+track_avg_distance,0.023978105
+career_win_rate,0.021434428
+career_wins,0.017930744
+performance_on_Good to Firm,0.016552752
+EMA_Form,0.015553666
+rating_clean,0.012879978
+is_veteran,0.008906947
+recent_win_rate,0.008760344
+career_races,0.007897426
+is_young_horse,0.00706562
+age,0.006564129
+weight_percentile,0.006019979
+claims,0.005771921
+weight,0.005719214
+distance,0.0056756185
+is_prime_age,0.004306487
+days_since_last,0.0
