@@ -4,8 +4,8 @@ import re
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.metrics import roc_auc_score, classification_report, precision_recall_curve, average_precision_score
-from pytorch_tabnet.tab_model import TabNetClassifier
-import torch
+# from pytorch_tabnet.tab_model import TabNetClassifier
+# import torch
 import scipy.stats as stats
 from datetime import datetime
 import warnings
@@ -388,50 +388,167 @@ def prepare_data_for_tabnet(df):
             attention_mask[i] = 1
     
     return X, y, all_features, attention_mask
+# Insert these imports at the top of your script if not already there
+from xgboost import XGBClassifier
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import roc_auc_score
 
-def train_tabnet(X_train, y_train, X_val, y_val, attention_mask):
-    """Train TabNet model"""
+# ============================================================
+#                    XGBOOST TRAINING
+# ============================================================
+
+def train_xgboost(X_train, y_train, X_val, y_val, feature_names):
+    """
+    Train XGBoost model and use validation set for early stopping.
     
-    # TabNet parameters
-    tabnet_params = {
-        'n_d': 64,                    # Width of decision prediction layer
-        'n_a': 64,                    # Width of attention embedding
-        'n_steps': 5,                 # Number of decision steps
-        'gamma': 1.5,                 # Relaxation parameter
-        'n_independent': 2,           # Number of independent GLU layers
-        'n_shared': 2,                # Number of shared GLU layers
-        'epsilon': 1e-15,
-        'momentum': 0.02,
-        'lambda_sparse': 1e-4,        # Sparsity loss weight
-        'optimizer_fn': torch.optim.Adam,
-        'optimizer_params': dict(lr=2e-2),
-        'scheduler_fn': torch.optim.lr_scheduler.StepLR,
-        'scheduler_params': {"step_size": 50, "gamma": 0.9},
-        'mask_type': 'sparsemax',
-        'verbose': 1,
-        'device_name': 'cuda' if torch.cuda.is_available() else 'cpu',
-        'seed': 42
+    Args:
+        X_train, y_train: Training data and labels.
+        X_val, y_val: Validation data and labels for early stopping.
+        feature_names: List of feature names (for verbose output).
+        
+    Returns:
+        Trained XGBClassifier model.
+    """
+    
+    print("\nStarting XGBoost training...")
+    
+    # 1. Scaling Numeric Features
+    # While tree-based models like XGBoost don't strictly require scaling,
+    # it can sometimes help with performance and is generally good practice.
+    # We will fit the scaler on the training data and transform all sets.
+    scaler = StandardScaler()
+    X_train_scaled = scaler.fit_transform(X_train)
+    X_val_scaled = scaler.transform(X_val)
+    
+    # 2. XGBoost Parameters
+    # A set of optimized parameters for classification tasks.
+    # Note: Using `tree_method='hist'` for faster training on large datasets.
+    xgb_params = {
+        'objective': 'binary:logistic',
+        'eval_metric': 'auc',
+        'use_label_encoder': False, # Suppress warning, as per new versions
+        'n_estimators': 2000,       # Max number of boosting rounds
+        'learning_rate': 0.01,      # Step size shrinkage
+        'max_depth': 5,             # Max depth of a tree
+        'subsample': 0.8,           # Subsample ratio of the training instance
+        'colsample_bytree': 0.8,    # Subsample ratio of columns when constructing each tree
+        'random_state': 42,
+        'tree_method': 'hist',      # Use histogram-based algorithm for speed
+        'n_jobs': -1                # Use all available cores
     }
     
-    # Initialize TabNet
-    clf = TabNetClassifier(**tabnet_params)
+    # 3. Model Initialization
+    model = XGBClassifier(**xgb_params)
     
-    # Train the model
-    clf.fit(
-        X_train, y_train,
-        eval_set=[(X_val, y_val)],
-        eval_name=['val'],
-        eval_metric=['auc', 'accuracy'],
-        max_epochs=200,
-        patience=20,
-        batch_size=1024,
-        virtual_batch_size=128,
-        num_workers=0,
-        drop_last=False,
-        augmentations=None  # No augmentation for tabular data
+    # 4. Model Training with Early Stopping
+    model.fit(
+        X_train_scaled, y_train,
+        eval_set=[(X_val_scaled, y_val)],
+        early_stopping_rounds=50,   # Stop if no improvement on validation set after 50 rounds
+        verbose=100                 # Print metrics every 100 boosting rounds
     )
     
-    return clf
+    print(f"\nXGBoost training finished in {model.best_iteration} boosting rounds.")
+    print(f"Best Validation AUC: {model.best_score:.4f}")
+    
+    return model, scaler
+
+# ============================================================
+#                    UPDATED MAIN PIPELINE
+# ============================================================
+
+def main_xgboost():
+    """Main training pipeline with XGBoost and threshold testing"""
+    
+    # Load data
+    print("Loading data...")
+    df = pd.read_csv("Pt2/merged_horse_racing_data.csv")
+    
+    # Process features
+    df = process_features(df)
+    
+    # Prepare data for model
+    # Note: TabNet's 'attention_mask' is not used by XGBoost.
+    X, y, feature_names, _ = prepare_data_for_tabnet(df) 
+    
+    # Split data
+    X_train, X_test, y_train, y_test = train_test_split(
+        X, y, test_size=0.2, random_state=42, stratify=y
+    )
+    
+    X_train, X_val, y_train, y_val = train_test_split(
+        X_train, y_train, test_size=0.2, random_state=42, stratify=y_train
+    )
+    
+    print(f"Training set size: {X_train.shape}")
+    print(f"Validation set size: {X_val.shape}")
+    print(f"Test set size: {X_test.shape}")
+    print(f"Class distribution - Train: {np.mean(y_train):.3f}, Val: {np.mean(y_val):.3f}, Test: {np.mean(y_test):.3f}")
+    
+    # Train XGBoost
+    model, scaler = train_xgboost(X_train, y_train, X_val, y_val, feature_names)
+    
+    # Evaluate on test set
+    print("\nEvaluating on test set...")
+    
+    # Scale test data using the fitted scaler
+    X_test_scaled = scaler.transform(X_test)
+    
+    # Predict probabilities (for AUC and threshold testing)
+    test_preds = model.predict_proba(X_test_scaled)[:, 1]
+    
+    # Standard evaluation metrics
+    test_accuracy = np.mean((test_preds > 0.5) == y_test)
+    test_auc = roc_auc_score(y_test, test_preds)
+    
+    print(f"\nBasic Test Results:")
+    print(f"Test Accuracy (0.5 threshold): {test_accuracy:.4f}")
+    print(f"Test AUC: {test_auc:.4f}")
+    
+    # Threshold Testing
+    print("\nPerforming threshold analysis...")
+    threshold_results = test_thresholds(y_test, test_preds)
+    
+    # Print comprehensive threshold analysis
+    optimal_thresholds = print_threshold_analysis(threshold_results, y_test, test_preds)
+    
+    # Plot precision-recall curve
+    print("\nGenerating precision-recall curve...")
+    avg_precision = plot_precision_recall_curve(y_test, test_preds, save_path='precision_recall_curve_xgb.png')
+    
+    # Feature importance
+    print("\nFeature Importance (Top 20):")
+    print("-" * 50)
+    # XGBoost uses the 'gain' type importance by default (sum of a feature's split gains)
+    importances = model.feature_importances_
+    importance_df = pd.DataFrame({
+        'feature': feature_names,
+        'importance': importances
+    }).sort_values('importance', ascending=False)
+    
+    print(importance_df.head(20))
+    
+    # Save results
+    # XGBoost models are typically saved using the joblib or pickle library
+    # You can also save the scaler for future use
+    import joblib
+    joblib.dump(model, 'xgboost_horse_racing_model.joblib')
+    joblib.dump(scaler, 'xgboost_scaler.joblib')
+    importance_df.to_csv('feature_importance_xgb.csv', index=False)
+    threshold_results.to_csv('threshold_analysis_xgb.csv', index=False)
+    
+    print(f"\nFiles saved:")
+    print(f"• Model: xgboost_horse_racing_model.joblib")
+    print(f"• Scaler: xgboost_scaler.joblib")
+    print(f"• Feature importance: feature_importance_xgb.csv")
+    print(f"• Threshold analysis: threshold_analysis_xgb.csv")
+    print(f"• Precision-recall curve: precision_recall_curve_xgb.png")
+    
+    return model, features, importance_df, threshold_results, optimal_thresholds
+
+if __name__ == "__main__":
+    # Change the call to main_xgboost to run the new pipeline
+    model, features, importance, threshold_results, optimal_thresholds = main_xgboost()
 
 # ============================================================
 #                    THRESHOLD TESTING & ANALYSIS
@@ -611,82 +728,6 @@ def print_threshold_analysis(threshold_results, y_true, y_proba):
 # ============================================================
 #                    MAIN PIPELINE
 # ============================================================
-
-def main():
-    """Main training pipeline with threshold testing"""
-    
-    # Load data
-    print("Loading data...")
-    df = pd.read_csv("merged_horse_racing_data.csv")
-    
-    # Process features
-    df = process_features(df)
-    
-    # Prepare data for TabNet
-    X, y, feature_names, attention_mask = prepare_data_for_tabnet(df)
-    
-    # Split data
-    X_train, X_test, y_train, y_test = train_test_split(
-        X, y, test_size=0.2, random_state=42, stratify=y
-    )
-    
-    X_train, X_val, y_train, y_val = train_test_split(
-        X_train, y_train, test_size=0.2, random_state=42, stratify=y_train
-    )
-    
-    print(f"Training set size: {X_train.shape}")
-    print(f"Validation set size: {X_val.shape}")
-    print(f"Test set size: {X_test.shape}")
-    print(f"Class distribution - Train: {np.mean(y_train):.3f}, Val: {np.mean(y_val):.3f}, Test: {np.mean(y_test):.3f}")
-    
-    # Train TabNet
-    print("\nTraining TabNet...")
-    model = train_tabnet(X_train, y_train, X_val, y_val, attention_mask)
-    
-    # Evaluate on test set
-    print("\nEvaluating on test set...")
-    test_preds = model.predict_proba(X_test)[:, 1]
-    test_accuracy = np.mean((test_preds > 0.5) == y_test)
-    test_auc = roc_auc_score(y_test, test_preds)
-    
-    print(f"\nBasic Test Results:")
-    print(f"Test Accuracy (0.5 threshold): {test_accuracy:.4f}")
-    print(f"Test AUC: {test_auc:.4f}")
-    
-    # Threshold Testing
-    print("\nPerforming threshold analysis...")
-    threshold_results = test_thresholds(y_test, test_preds)
-    
-    # Print comprehensive threshold analysis
-    optimal_thresholds = print_threshold_analysis(threshold_results, y_test, test_preds)
-    
-    # Plot precision-recall curve
-    print("\nGenerating precision-recall curve...")
-    avg_precision = plot_precision_recall_curve(y_test, test_preds)
-    
-    # Feature importance
-    print("\nFeature Importance (Top 20):")
-    print("-" * 50)
-    importances = model.feature_importances_
-    importance_df = pd.DataFrame({
-        'feature': feature_names,
-        'importance': importances
-    }).sort_values('importance', ascending=False)
-    
-    print(importance_df.head(20))
-    
-    # Save results
-    model.save_model('tabnet_horse_racing_model')
-    importance_df.to_csv('feature_importance.csv', index=False)
-    threshold_results.to_csv('threshold_analysis.csv', index=False)
-    
-    print(f"\nFiles saved:")
-    print(f"• Model: tabnet_horse_racing_model.zip")
-    print(f"• Feature importance: feature_importance.csv")
-    print(f"• Threshold analysis: threshold_analysis.csv")
-    print(f"• Precision-recall curve: precision_recall_curve.png")
-    
-    return model, feature_names, importance_df, threshold_results, optimal_thresholds
-
 if __name__ == "__main__":
-    model, features, importance, threshold_results, optimal_thresholds = main()
+    # Change the call to main_xgboost to run the new pipeline
+    model, features, importance, threshold_results, optimal_thresholds = main_xgboost()
