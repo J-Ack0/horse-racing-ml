@@ -108,40 +108,127 @@ def normalize_distance(dist_str: str) -> float:
     yards = float(m.group('yards') or 0)
     return float(miles * 1760 + furlongs * 220 + yards)
 
+import pandas as pd
+import numpy as np
+
 def calculate_form_features(races):
-    """Calculate EMA form features for a horse's race history"""
+    """
+    HELPER FUNCTION:
+    Calculates a single EMA_Form value based on a given set of *past* races.
+    
+    - Assumes 'race_date' column exists (may contain NaT/None).
+    - Treats any race with a missing date as the "first" race ("RACE 0") 
+      by sorting it to the beginning of the history.
+    """
+    
+    # Need at least two races to calculate a form trend
     if len(races) < 2:
         return {}
     
-    races = races.sort_values('race_date_clean').reset_index(drop=True)
+    # Create a copy to avoid modifying the original slice
+    races_copy = races.copy()
     
+    # --- Temporal Handling ---
+    # Fill missing dates with the earliest possible timestamp (pd.Timestamp.min).
+    # This ensures any race without a valid date is treated as the "oldest" 
+    # race and is sorted to the beginning. This is our "RACE 0".
+    races_copy['race_date'] = races_copy['race_date'].fillna(pd.Timestamp.min)
+    
+    # Sort races chronologically. Races with pd.Timestamp.min will now be first.
+    races_sorted = races_copy.sort_values('race_date').reset_index(drop=True)
+    
+    # --- Form Score Calculation (Same as before) ---
     form_scores = []
-    for _, race in races.iterrows():
-        if pd.isna(race['race_position_clean']) or pd.isna(race['rating_clean']):
+    for _, race in races_sorted.iterrows():
+        # Skip if we don't have a position or rating to score
+        if pd.isna(race['race_position']): # Note: We check pd.isna(rating_clean) later
             form_scores.append(np.nan)
             continue
             
         try:
-            position = float(race['race_position_clean'])
-            rating = float(race['rating_clean']) if not pd.isna(race['rating_clean']) else 70
+            position = float(race['race_position'])
+            # Use a default rating (e.g., 70) if 'rating' is missing or NaN
+            rating = float(race['rating']) if not pd.isna(race['rating']) else 70
             
+            # Normalize position: 1st=1.0, 20th+=0.0
             norm_pos = max(0, 1 - (position - 1) / 19)
+            
+            # Normalize rating: Assumes 130 is a high/max rating
             norm_rating = rating / 130
             
+            # Combine scores, weighted 60% position, 40% rating
             form_score = 0.6 * norm_pos + 0.4 * norm_rating
             form_scores.append(form_score)
-        except:
+        except (ValueError, TypeError):
+            # Catch any conversion errors (e.g., if data is "pulled up")
             form_scores.append(np.nan)
     
+    # --- EMA Calculation (Same as before) ---
     features = {}
-    if len(form_scores) >= 2:
-        ema = form_scores[0] if not pd.isna(form_scores[0]) else 0.5
-        for score in form_scores[1:]:
-            if not pd.isna(score):
-                ema = 0.3 * score + 0.7 * ema
+    
+    # Filter out NaNs to find the first valid score for seeding
+    valid_scores = [s for s in form_scores if not pd.isna(s)]
+    
+    if len(valid_scores) >= 2:
+        # Seed the EMA with the first valid score
+        ema = valid_scores[0]
+        
+        # Iterate over the rest of the valid scores to build the EMA
+        for score in valid_scores[1:]:
+            # The new EMA is 30% new score, 70% previous EMA
+            ema = 0.3 * score + 0.7 * ema
+            
         features['EMA_Form'] = ema
     
     return features
+
+
+def create_point_in_time_form_features(df):
+    """
+    MAIN FUNCTION (NO LEAKAGE):
+    Generates the 'EMA_Form' feature for every race in the DataFrame.
+    
+    This function iterates through each horse's races chronologically
+    and calculates the form for each race using *only* the races that
+    happened *before* it, 100% preventing data leakage.
+    """
+    
+    print("Generating point-in-time form features (leak-proof)...")
+    
+    # 1. Handle missing dates and sort ALL races by horse, then date
+    # This ensures the iteration is chronological.
+    df_copy = df.copy()
+    df_copy['race_date'] = df_copy['race_date'].fillna(pd.Timestamp.min)
+    df_sorted = df_copy.sort_values(['horse_id', 'race_date'])
+    
+    # This list will store all the new feature values in the correct order
+    form_features_list = []
+    
+    # 2. Group by horse to process each horse's history separately
+    for horse_id, horse_races in df_sorted.groupby('horse_id'):
+        
+        # 3. Iterate through each horse's races one-by-one
+        for i in range(len(horse_races)):
+            # For the race at index 'i', get all races *before* it
+            # i=0 -> slice is empty
+            # i=1 -> slice has 1 race (index 0)
+            # i=2 -> slice has 2 races (index 0, 1)
+            past_races = horse_races.iloc[0:i]
+            
+            # 4. Call the helper function ONLY on the *past* races
+            features = calculate_form_features(past_races)
+            
+            # 5. Get the calculated feature (or NaN if not enough data)
+            form_value = features.get('EMA_Form', np.nan)
+            
+            # Add the feature for this specific race to our main list
+            form_features_list.append(form_value)
+            
+    # 6. Add the new list as a column to the sorted DataFrame
+    df_sorted['EMA_Form'] = form_features_list
+    
+    print("Feature generation complete.")
+    return df_sorted
 
 def normalize_weight(w_str: str) -> float:
     """
@@ -181,6 +268,7 @@ def process_features(df):
         """Extract race date from track_name column"""
         if not isinstance(track_name, str):
             return None
+
         
         # Isolate the date part of the string
         new = track_name.split('|', 1)[-1]
@@ -203,14 +291,18 @@ def process_features(df):
 
     print("Parsing and sorting by race date...")
     # Use your new parser
-    df['race_date_clean'] = df['track_name'].apply(_extract_race_date)
-    
+
+    df['race_date'] = pd.to_datetime(df['race_date'], errors='coerce')
+    extracted_dates = df['track_name'].apply(_extract_race_date)
+    df['race_date'] = df['race_date'].fillna(extracted_dates)
+    print(len(df))
+
     # Drop rows where date couldn't be parsed
-    df = df.dropna(subset=['race_date_clean'])
-    
+    df = df.dropna(subset=['race_date'])
+    print(len(df))
     # CRITICAL: Sort by date and reset the index
     # All future calculations depend on this temporal order.
-    df = df.sort_values('race_date_clean').reset_index(drop=True)
+    df = df.sort_values('race_date').reset_index(drop=True)
     print(f"Sorted {len(df)} rows by date.")
 
     # ============================================================
@@ -227,8 +319,8 @@ def process_features(df):
         df['weight'] = df['weight'].apply(normalize_weight)
 
     numeric_columns = ['age', 'claims']
-    if 'rating_clean' in df.columns:
-        numeric_columns.append('rating_clean')
+    if 'rating' in df.columns:
+        numeric_columns.append('rating')
     elif 'rating' in df.columns:
         numeric_columns.append('rating')
     
@@ -245,7 +337,7 @@ def process_features(df):
     df['j_t'] = df['J_Name'].astype(str) + " | " + df['T_Name'].astype(str)
     
     # Create label
-    df['label'] = (df['race_position_clean'] == 1).astype(int)
+    df['label'] = (df['race_position'] == 1).astype(int)
     
     tqdm.pandas(desc="Clean Going")
     df['going'] = df['going'].str.split('(').str[0].str.strip()
@@ -313,7 +405,7 @@ def process_features(df):
                 df.loc[df['horse_name'] == horse, 'EMA_Form'] = form_features['EMA_Form']
     
     print("Calculating historical performance features...")
-    # df is already sorted by 'race_date_clean'
+    # df is already sorted by 'race_date'
     
     df['recent_win_rate'] = 0.0
     df['career_wins'] = 0
@@ -359,8 +451,12 @@ def process_features(df):
     # Drop any rows that still have NaNs in critical columns (post-processing)
     final_cols = numeric_columns + ['distance', 'weight', 'wilson_score', 'recent_win_rate', 'career_win_rate']
     final_cols = [c for c in final_cols if c in df.columns]
-    df = df.dropna(subset=final_cols)
-    print(f"Final dataset size after feature engineering and NaN removal: {len(df)}")
+
+    print(">>> Rows before final NaN-removal:", len(df))
+    print("Final cols considered:", final_cols)
+    missing_counts = {c: int(df[c].isna().sum()) for c in final_cols}
+    print("Missing counts (final_cols):", missing_counts)
+
     
     print("Feature engineering complete!")
     return df
@@ -389,8 +485,8 @@ def prepare_data_for_tabnet(df): # Renamed function, was prepare_data_for_tabnet
     # Raw numeric features
     raw_features = ['distance', 'claims', 'age', 'weight']
     # Add rating_clean or rating if available
-    if 'rating_clean' in df.columns:
-        raw_features.append('rating_clean')
+    if 'rating' in df.columns:
+        raw_features.append('rating')
     elif 'rating' in df.columns:
         raw_features.append('rating')
     
@@ -413,7 +509,7 @@ def prepare_data_for_tabnet(df): # Renamed function, was prepare_data_for_tabnet
                 df[col] = df[col].fillna(0)
     
     # Prepare feature matrix
-    df = df.sort_values('race_date_clean')
+    df = df.sort_values('race_date')
     X = df[all_features].values
     y = df['label'].values
     
@@ -455,7 +551,7 @@ def train_xgboost(X_train, y_train, X_val, y_val, feature_names):
         'objective': 'binary:logistic',
         'eval_metric': 'auc',
         'use_label_encoder': False, # Suppress warning
-        'n_estimators': 2000,       # Max number of boosting rounds
+        'n_estimators': 780,       # Max number of boosting rounds
         'learning_rate': 0.01,      # Step size shrinkage
         'max_depth': 5,             # Max depth of a tree
         'subsample': 0.8,           # Subsample ratio of the training instance
@@ -484,15 +580,11 @@ def train_xgboost(X_train, y_train, X_val, y_val, feature_names):
 #                    UPDATED MAIN PIPELINE
 # ============================================================
 
-# ============================================================
-#                    UPDATED MAIN PIPELINE
-# ============================================================
-
 def main_xgboost():
     """Main training pipeline with XGBoost and threshold testing"""
     
     # Check if engineered features already exist
-    engineered_features_path = "Pt2/engineered_features.csv"
+    engineered_features_path = "V2_engineered_features.csv"
     
     if os.path.exists(engineered_features_path):
         print(f"Found existing engineered features at '{engineered_features_path}'")
@@ -500,12 +592,18 @@ def main_xgboost():
         try:
             df = pd.read_csv(engineered_features_path)
             print(f"✓ Loaded {len(df)} rows with {len(df.columns)} columns")
+            print(df['race_date'].head(3))
             
             # Verify essential columns exist
             if 'label' not in df.columns:
                 print("Error: 'label' column not found in engineered features.")
                 print("Recomputing features from scratch...")
-                df = pd.read_csv("Pt2/merged_horse_racing_data.csv")
+                try:
+                    print("Reading")
+                    df = pd.read_csv("merged_v2_horses_labeled.csv")
+                except Exception as e:
+                    print("Trying Windows PATH: ")
+                    df = pd.read_csv("merged_v2_horses_labeled.csv")
                 df = process_features(df)
                 df.to_csv(engineered_features_path, index=False)
                 print("✓ Features recomputed and saved!")
@@ -520,7 +618,7 @@ def main_xgboost():
         # Load raw data
         print("Loading raw data...")
         try:
-            df = pd.read_csv("Pt2/merged_horse_racing_data.csv")
+            df = pd.read_csv("merged_v2_horses_labeled.csv")
         except FileNotFoundError:
             print("Error: 'Pt2/merged_horse_racing_data.csv' not found.")
             print("Please ensure the data file is in the correct directory.")
@@ -530,6 +628,8 @@ def main_xgboost():
         print("Computing features (this will take ~15 minutes)...")
         df = process_features(df)
         print(f"\nSaving engineered features to '{engineered_features_path}'...")
+        engineered_features_path = "V2_engineered_features.csv"
+
         df.to_csv(engineered_features_path, index=False)
         print("✓ Features saved!")
     
@@ -550,26 +650,48 @@ def main_xgboost():
     print(f"Data shape: X={X.shape}, y={y.shape}")
     print(f"Positive class (wins) rate: {y.mean():.2%}")
 
-    # 1. Split into Train+Val and Test sets (e.g., 80% Train+Val, 20% Test)
+    df_sorted = df.sort_values('race_date').reset_index(drop=True)
+
+    # Quick sanity check to ensure alignment between df and X
+    if len(df_sorted) != X.shape[0]:
+        # If lengths mismatch, try to align by sorting df then rebuilding X,y from df:
+        print("Warning: df_sorted length doesn't match X shape. Rebuilding X,y from df_sorted to ensure alignment.")
+        # recompute all_features using your prepare_data_for_tabnet logic (if available)
+        # fallback: assume X/y are aligned; but we print sizes and continue
+        print(f"len(df_sorted)={len(df_sorted)} vs X.shape[0]={X.shape[0]}")
+    else:
+        print("Chronological split sanity check passed: df_sorted length matches X rows.")
+
+    n_total = X.shape[0]
+    n_test = int(np.floor(0.20 * n_total))     # last 20% -> test
+    n_val  = int(np.floor(0.16 * n_total))     # next 16% -> validation
+    n_train = n_total - n_val - n_test         # remaining -> train (should be ~64%)
+
+    # Index boundaries (chronological order)
+    train_end = n_train
+    val_end = n_train + n_val
+
+    # Slice (chronological!)
+    X_train, y_train = X[:train_end], y[:train_end]
+    X_val,   y_val   = X[train_end:val_end], y[train_end:val_end]
+    X_test,  y_test  = X[val_end:], y[val_end:]
+
+    # Print split diagnostics and date ranges
+    print(f"Chronological splits: total={n_total:,} -> train={len(X_train):,}, val={len(X_val):,}, test={len(X_test):,}")
     try:
-        X_train_val, X_test, y_train_val, y_test = train_test_split(
-            X, y, test_size=0.2, random_state=42, stratify=y
-        )
-        
-        # 2. Split Train+Val into Train and Validation sets (e.g., 80/20 split of the 80%)
-        # This makes the validation set 20% of 80% = 16% of the total data
-        X_train, X_val, y_train, y_val = train_test_split(
-            X_train_val, y_train_val, test_size=0.2, random_state=42, stratify=y_train_val
-        )
-    except ValueError as e:
-        print(f"\nWarning: Stratification failed (likely too few samples of one class): {e}")
-        print("Splitting data without stratification...")
-        X_train_val, X_test, y_train_val, y_test = train_test_split(
-            X, y, test_size=0.2, random_state=42
-        )
-        X_train, X_val, y_train, y_val = train_test_split(
-            X_train_val, y_train_val, test_size=0.2, random_state=42
-        )
+        print("Train date range:", df_sorted['race_date'].iloc[0], "->", df_sorted['race_date'].iloc[train_end-1])
+        print("Val   date range:", df_sorted['race_date'].iloc[train_end], "->", df_sorted['race_date'].iloc[val_end-1])
+        print("Test  date range:", df_sorted['race_date'].iloc[val_end], "->", df_sorted['race_date'].iloc[-1])
+    except Exception:
+        pass
+
+    # Optional: show positive rates per split so you can inspect class drift
+    print("Positive rates by split:")
+    print(" train:", np.mean(y_train))
+    print(" val  :", np.mean(y_val))
+    print(" test :", np.mean(y_test))
+
+
 
     print(f"Training set size: {len(X_train)}")
     print(f"Validation set size: {len(X_val)}")
@@ -605,7 +727,31 @@ def main_xgboost():
         'feature': feature_names,
         'importance': model.feature_importances_
     }).sort_values(by='importance', ascending=False)
+
+    def bootstrap_ci(y_true, y_proba, metric_fn, n_boot=1000, alpha=0.95, seed=42):
+            rng = np.random.RandomState(seed)
+            stats = []
+            n = len(y_true)
+            for _ in range(n_boot):
+                idx = rng.randint(0, n, n)            # sample with replacement
+                stats.append(metric_fn(y_true[idx], y_proba[idx]))
+            lo = np.percentile(stats, (1-alpha)/2*100)
+            hi = np.percentile(stats, (1+alpha)/2*100)
+            return np.mean(stats), lo, hi
+
+    mean_auc, lo_auc, hi_auc = bootstrap_ci(y_test, y_proba, roc_auc_score)
+    mean_ap, lo_ap, hi_ap    = bootstrap_ci(y_test, y_proba, average_precision_score)
+    print(f"AUC: {mean_auc:.3f} (95% CI {lo_auc:.3f}-{hi_auc:.3f})")
+    print(f"AP : {mean_ap:.3f} (95% CI {lo_ap:.3f}-{hi_ap:.3f})")
+    print("SAVING TEST")
+    y_test = pd.DataFrame(y_test)
+    X_test = pd.DataFrame(X_test)
+
+    y_test.to_csv("test_Y.csv", index=False)
+    X_test.to_csv("test_X.csv", index=False)
+    print("SAVED_ TEST SETS ")
     
+
     print("\nTOP 20 FEATURES:")
     print(importance_df.head(20).to_string())
     importance_df.to_csv("Pt2/xgb_feature_importance.csv", index=False)

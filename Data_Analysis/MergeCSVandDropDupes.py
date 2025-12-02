@@ -4,7 +4,7 @@ import os
 
 # Set the path to your directory containing the batch CSV files
 csv_folder_path = "Batch"
-output_file_path = "merged_horses.csv"
+output_file_path = "merged_V2_horses.csv"
 
 # Use glob to find all relevant CSV files
 csv_files = glob.glob(os.path.join(csv_folder_path, "batch_horses_batch_*.csv"))

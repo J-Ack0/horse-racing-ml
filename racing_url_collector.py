@@ -19,6 +19,9 @@ from bs4 import BeautifulSoup
 import pandas as pd
 from urllib.parse import urljoin
 
+from selenium.webdriver.chrome.service import Service
+
+
 # Irish racecourses list
 IRISH_RACECOURSES = [
     'punchestown', 'curragh', 'leopardstown', 'fairyhouse', 'naas',
@@ -65,7 +68,21 @@ class RacingTVURLCollector:
         options.add_experimental_option("excludeSwitches", ["enable-automation"])
         options.add_experimental_option('useAutomationExtension', False)
         
-        self.driver = webdriver.Chrome(options=options)
+        # === FIX 1: ADD OPTIONS TO SUPPRESS LOG SPAM ===
+        options.add_argument('--log-level=3') # Suppresses most console output
+        options.add_experimental_option('excludeSwitches', ['enable-logging'])
+        # ===============================================
+
+        # === FIX 2: EXPLICITLY CREATE AND STORE THE SERVICE ===
+        self.service = Service()
+        self.driver = webdriver.Chrome(service=self.service, options=options)
+        # ======================================================
+        
+        # === FIX 3: ADD PAGE LOAD TIMEOUT TO PREVENT HANGS ===
+        # Give up on a page if it doesn't load in 60 seconds
+        self.driver.set_page_load_timeout(60) 
+        # =====================================================
+        
         self.wait = WebDriverWait(self.driver, 15)
         
     def debug_print(self, message):
@@ -191,6 +208,30 @@ class RacingTVURLCollector:
         
         print(f"  Found {irish_count} Irish races and {uk_count} UK races")
     
+
+    def close(self):
+        """Close the WebDriver and service"""
+        self.debug_print("Closing WebDriver and stopping service...")
+        if self.driver:
+            try:
+                self.driver.quit()
+            except Exception as e:
+                print(f"[ERROR] Error during driver.quit(): {e}")
+        
+        # === FIX 4: EXPLICITLY STOP THE SERVICE ===
+        if hasattr(self, 'service') and self.service and self.service.process:
+            try:
+                self.service.stop()
+                self.debug_print("ChromeDriver service stopped.")
+            except Exception as e:
+                print(f"[ERROR] Error during service.stop(): {e}")
+        # ==========================================
+        
+        self.driver = None
+        self.service = None
+
+
+
     def collect_urls_date_range(self, start_date, end_date):
         """Main collection method for date range"""
         dates = self.generate_date_range(start_date, end_date)
@@ -225,9 +266,7 @@ class RacingTVURLCollector:
         else:
             print("No UK races found")
     
-    def close(self):
-        """Close the WebDriver"""
-        self.driver.quit()
+
 
 
 def main():

@@ -16,6 +16,10 @@ import os
 import logging
 import json
 import gc  # For garbage collection
+from selenium.webdriver.chrome.service import Service
+from selenium.common.exceptions import TimeoutException
+#
+NULL_DEVICE = 'NUL'
 
 class CSVLinkScraper:
     def __init__(self, headless=True, delay=2, batch_size=100):
@@ -256,12 +260,17 @@ class CSVLinkScraper:
         
         return result
     
-    def extract_race_info(self, soup):
+    # Add this to the extract_race_info method in Whole9.py
+    # Replace the existing extract_race_info method with this updated version
+
+    def extract_race_info(self, soup, csv_date=None):
         """
         Extract track name, date, and time from the page
+        Falls back to CSV date if page date is not found
         
         Args:
             soup (BeautifulSoup): Parsed HTML
+            csv_date (str): Date from the CSV file (fallback)
             
         Returns:
             dict: Dictionary with track_name, race_date, and race_time
@@ -274,14 +283,10 @@ class CSVLinkScraper:
         
         try:
             # Try to find race header information
-            # This will depend on the actual page structure
-            # Common patterns to look for:
-            
-            # Pattern 1: Look for header elements that might contain track/date/time
             header_elements = soup.select('h1, h2, h3, .race-header, .race-title')
             for header in header_elements:
                 text = header.get_text(strip=True)
-                # Look for date patterns (e.g., "12 Jun 2024", "12/06/2024")
+                # Look for date patterns
                 date_patterns = [
                     r'\d{1,2}\s+\w+\s+\d{4}',  # "12 Jun 2024"
                     r'\d{1,2}/\d{1,2}/\d{4}',   # "12/06/2024"
@@ -293,9 +298,9 @@ class CSVLinkScraper:
                         race_info['race_date'] = date_match.group()
                         break
                 
-                # Look for time patterns (e.g., "14:30", "2:30 PM")
+                # Look for time patterns
                 time_patterns = [
-                    r'\d{1,2}:\d{2}(?:\s*[AP]M)?',  # "14:30" or "2:30 PM"
+                    r'\d{1,2}:\d{2}(?:\s*[AP]M)?',
                 ]
                 for pattern in time_patterns:
                     time_match = re.search(pattern, text, re.IGNORECASE)
@@ -304,11 +309,10 @@ class CSVLinkScraper:
                         break
             
             # Pattern 2: Look for specific divs/spans with race info
-            # Look for elements that might contain track name
             track_candidates = soup.select('[class*="track"], [class*="venue"], [class*="course"]')
             for elem in track_candidates:
                 text = elem.get_text(strip=True)
-                if text and len(text) > 2 and len(text) < 50:  # Reasonable track name length
+                if text and len(text) > 2 and len(text) < 50:
                     race_info['track_name'] = text
                     break
             
@@ -316,20 +320,138 @@ class CSVLinkScraper:
             title_tag = soup.find('title')
             if title_tag and race_info['track_name'] == 'N/A':
                 title_text = title_tag.get_text(strip=True)
-                # Often racing pages have titles like "Ascot - 14:30 - 12 Jun 2024"
-                # Try to extract track name (first part before dash)
                 parts = title_text.split('-')
                 if parts:
                     potential_track = parts[0].strip()
                     if len(potential_track) > 2 and len(potential_track) < 50:
                         race_info['track_name'] = potential_track
             
+            # FALLBACK: If race_date is still N/A, use CSV date
+            if race_info['race_date'] == 'N/A' and csv_date:
+                race_info['race_date'] = csv_date
+                self.logger.info(f"Using CSV date as fallback: {csv_date}")
+            
             self.logger.info(f"Extracted race info - Track: {race_info['track_name']}, Date: {race_info['race_date']}, Time: {race_info['race_time']}")
             
         except Exception as e:
             self.logger.error(f"Error extracting race info: {e}")
+            # Even on error, try to use CSV date
+            if csv_date:
+                race_info['race_date'] = csv_date
+                self.logger.info(f"Using CSV date due to error: {csv_date}")
         
         return race_info
+
+
+    # Also update the parse_with_bs4 method to pass csv_date
+    def parse_with_bs4(self, html_content, url, row_data=None):
+        """
+        Parse HTML content with BeautifulSoup and return individual horse records
+        
+        Args:
+            html_content (str): HTML content to parse
+            url (str): Original URL for context
+            row_data (dict): Original CSV row data
+            
+        Returns:
+            list: List of individual horse records
+        """
+        try:
+            soup = BeautifulSoup(html_content, 'html.parser')
+            
+            # Extract CSV date for fallback (if available)
+            csv_date = None
+            if row_data and 'date' in row_data:
+                csv_date = row_data['date']
+            
+            # Extract race information (track, date, time) with CSV date fallback
+            race_info = self.extract_race_info(soup, csv_date)
+            
+            # Extract going and distance
+            going_distance_info = self.extract_going_and_distance(soup)
+            
+            # Extract basic page information
+            page_info = {
+                'url': url,
+                'title': self.extract_title(soup),
+                'scraped_at': datetime.now().isoformat(),
+                'status': 'success',
+                'track_name': race_info['track_name'],
+                'race_date': race_info['race_date'],
+                'race_time': race_info['race_time'],
+                'going': going_distance_info['going'],
+                'distance': going_distance_info['distance']
+            }
+            
+            # Add original CSV data if provided
+            if row_data:
+                for key, value in row_data.items():
+                    if key != 'url':
+                        page_info[f'original_{key}'] = value
+            
+            # Extract individual horse records
+            horse_records = self.extract_horse_records(soup, url, page_info)
+            
+            # Check if we found the first place horse
+            first_place_found = self.check_for_first_place(horse_records)
+            
+            # If first place not found, try alternative methods
+            if not first_place_found and horse_records:
+                self.logger.warning(f"First place horse missing for {url}, attempting alternative search...")
+                winner_record = self.find_missing_first_place(soup, horse_records)
+                
+                if winner_record:
+                    winner_record.update(page_info)
+                    horse_records.insert(0, winner_record)
+                    self.logger.info("✓ Successfully found and added first place horse via alternative method")
+                else:
+                    self.logger.error(f"✗ Could not find first place horse for {url} despite alternative search")
+            
+            # Add first_place_found flag to all records
+            for record in horse_records:
+                record['first_place_found'] = self.check_for_first_place(horse_records)
+            
+            self.logger.info(f"Successfully parsed {len(horse_records)} horse records from: {url}")
+            return horse_records
+            
+        except Exception as e:
+            self.logger.error(f"Error parsing HTML for {url}: {e}")
+            
+            # Create error record with CSV date fallback
+            csv_date = None
+            if row_data and 'date' in row_data:
+                csv_date = row_data['date']
+            
+            error_record = {
+                'url': url,
+                'title': None,
+                'scraped_at': datetime.now().isoformat(),
+                'status': 'parse_error',
+                'error': str(e),
+                'horse_name': 'N/A',
+                'race_position': 'N/A',
+                'lost_by_length': 'N/A',
+                'jockey': 'N/A',
+                'claims': 0,
+                'trainer': 'N/A',
+                'age': 'N/A',
+                'weight': 'N/A',
+                'rating': 'N/A',
+                'track_name': 'N/A',
+                'race_date': csv_date if csv_date else 'N/A',  # Use CSV date if available
+                'race_time': 'N/A',
+                'going': 'N/A',
+                'distance': 'N/A',
+                'first_place_found': False
+            }
+            
+            # Add original CSV data if provided
+            if row_data:
+                for key, value in row_data.items():
+                    if key != 'url':
+                        error_record[f'original_{key}'] = value
+            
+            return [error_record]
     
     def check_for_first_place(self, horse_records):
         """
@@ -458,106 +580,6 @@ class CSVLinkScraper:
         
         return None
     
-    def parse_with_bs4(self, html_content, url, row_data=None):
-        """
-        Parse HTML content with BeautifulSoup and return individual horse records
-        
-        Args:
-            html_content (str): HTML content to parse
-            url (str): Original URL for context
-            row_data (dict): Original CSV row data
-            
-        Returns:
-            list: List of individual horse records
-        """
-        try:
-            soup = BeautifulSoup(html_content, 'html.parser')
-            
-            # Extract race information (track, date, time)
-            race_info = self.extract_race_info(soup)
-            
-            # Extract going and distance
-            going_distance_info = self.extract_going_and_distance(soup)
-            
-            # Extract basic page information
-            page_info = {
-                'url': url,
-                'title': self.extract_title(soup),
-                'scraped_at': datetime.now().isoformat(),
-                'status': 'success',
-                'track_name': race_info['track_name'],
-                'race_date': race_info['race_date'],
-                'race_time': race_info['race_time'],
-                'going': going_distance_info['going'],
-                'distance': going_distance_info['distance']
-            }
-            
-            # Add original CSV data if provided
-            if row_data:
-                for key, value in row_data.items():
-                    if key != 'url':  # Don't override the URL
-                        page_info[f'original_{key}'] = value
-            
-            # Extract individual horse records
-            horse_records = self.extract_horse_records(soup, url, page_info)
-            
-            # Check if we found the first place horse
-            first_place_found = self.check_for_first_place(horse_records)
-            
-            # If first place not found, try alternative methods
-            if not first_place_found and horse_records:
-                self.logger.warning(f"First place horse missing for {url}, attempting alternative search...")
-                winner_record = self.find_missing_first_place(soup, horse_records)
-                
-                if winner_record:
-                    # Add page info to winner record
-                    winner_record.update(page_info)
-                    # Insert at the beginning of the list
-                    horse_records.insert(0, winner_record)
-                    self.logger.info("✓ Successfully found and added first place horse via alternative method")
-                else:
-                    self.logger.error(f"❌ Could not find first place horse for {url} despite alternative search")
-            
-            # Add first_place_found flag to all records
-            for record in horse_records:
-                record['first_place_found'] = self.check_for_first_place(horse_records)
-            
-            self.logger.info(f"Successfully parsed {len(horse_records)} horse records from: {url}")
-            return horse_records
-            
-        except Exception as e:
-            self.logger.error(f"Error parsing HTML for {url}: {e}")
-            # Return a single error record instead of individual horses
-            error_record = {
-                'url': url,
-                'title': None,
-                'scraped_at': datetime.now().isoformat(),
-                'status': 'parse_error',
-                'error': str(e),
-                'horse_name': 'N/A',
-                'race_position': 'N/A',
-                'lost_by_length': 'N/A',
-                'jockey': 'N/A',
-                'claims': 0,
-                'trainer': 'N/A',
-                'age': 'N/A',
-                'weight': 'N/A',
-                'rating': 'N/A',
-                'track_name': 'N/A',
-                'race_date': 'N/A',
-                'race_time': 'N/A',
-                'going': 'N/A',
-                'distance': 'N/A',
-                'first_place_found': False
-            }
-            
-            # Add original CSV data if provided
-            if row_data:
-                for key, value in row_data.items():
-                    if key != 'url':
-                        error_record[f'original_{key}'] = value
-            
-            return [error_record]
     
     def extract_title(self, soup):
         """Extract page title"""
