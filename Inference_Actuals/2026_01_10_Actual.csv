@@ -1,0 +1,475 @@
+track_name,race_date,distance,going,time,horse_name,rating,jockey,trainer,weight,age,claims,is_new,win_probability,actual_position,Race_id,inferred_position
+Fairyhouse,10 Jan 2026,2m,Yielding,12:00,Berto Ramirez,110,Brian Hayes,Andrew McNamara,11- 0,4,0,True,0.05357089,,Fairyhouse_2026-01-10_12:00,1
+Fairyhouse,10 Jan 2026,2m,Yielding,12:00,It's Bobsled Time,118,Michael Kenneally,Richard Morrissey,11- 0,4,7,True,0.028140433,,Fairyhouse_2026-01-10_12:00,2
+Fairyhouse,10 Jan 2026,2m,Yielding,12:00,Macho Man,122,Paul Townend,W P Mullins,11- 5,4,0,True,0.013340943,,Fairyhouse_2026-01-10_12:00,3
+Fairyhouse,10 Jan 2026,2m,Yielding,12:00,Munsif,116,Philip Byrnes,C Byrnes,11- 0,4,0,True,0.012956847,,Fairyhouse_2026-01-10_12:00,4
+Fairyhouse,10 Jan 2026,2m,Yielding,12:00,Proactif,103,Mark Walsh,W P Mullins,11- 5,4,0,True,0.009989827,,Fairyhouse_2026-01-10_12:00,5
+Fairyhouse,10 Jan 2026,2m,Yielding,12:00,Quinta Do Lago,119,Jack Kennedy,Mrs John Harrington,11- 5,4,0,True,0.009972134,,Fairyhouse_2026-01-10_12:00,6
+Fairyhouse,10 Jan 2026,2m,Yielding,12:00,In My Teens,120,Simon Torrens,Gavin Cromwell,10- 7,4,0,True,0.009972134,,Fairyhouse_2026-01-10_12:00,7
+Fairyhouse,10 Jan 2026,2m,Yielding,12:00,Far Eclipse,93,Kieren Buckley,Gavin Cromwell,11- 0,4,0,True,0.009395972,,Fairyhouse_2026-01-10_12:00,8
+Fairyhouse,10 Jan 2026,2m,Yielding,12:00,Combs,122,Kevin Healy,Gordon Elliott,11- 0,4,7,True,0.009036645,,Fairyhouse_2026-01-10_12:00,9
+Fairyhouse,10 Jan 2026,2m2½f,Yielding,12:30,Tellmemamema,94,Kieren Buckley,Edward Buckley,11- 7,6,0,True,0.060041197,,Fairyhouse_2026-01-10_12:30,1
+Fairyhouse,10 Jan 2026,2m2½f,Yielding,12:30,Castlerock Lady,-,Alix Balfe,Patrick Downey,11- 7,7,7,True,0.052317046,,Fairyhouse_2026-01-10_12:30,2
+Fairyhouse,10 Jan 2026,2m2½f,Yielding,12:30,Family Getaway,69,Jack Kennedy,Gordon Elliott,11- 7,5,0,True,0.048650723,,Fairyhouse_2026-01-10_12:30,3
+Fairyhouse,10 Jan 2026,2m2½f,Yielding,12:30,Talas Kera,98,Patrick M O'Brien,John G Carr,11- 7,5,5,True,0.044589125,,Fairyhouse_2026-01-10_12:30,4
+Fairyhouse,10 Jan 2026,2m2½f,Yielding,12:30,Susie Lenglen,107,Sam Ewing,Noel Meade,11- 7,5,0,True,0.03827002,,Fairyhouse_2026-01-10_12:30,5
+Fairyhouse,10 Jan 2026,2m2½f,Yielding,12:30,Whispering Hopes,117,Mr E P Powell,Liam Lennon,11- 7,6,7,True,0.03637302,,Fairyhouse_2026-01-10_12:30,6
+Fairyhouse,10 Jan 2026,2m2½f,Yielding,12:30,Alliteration,-,Keith Donoghue,J P Dempsey,11- 7,5,0,True,0.034501288,,Fairyhouse_2026-01-10_12:30,7
+Fairyhouse,10 Jan 2026,2m2½f,Yielding,12:30,Miss Doyenne,119,Darragh O'Keeffe,Henry De Bromhead,11- 7,6,0,True,0.03266933,,Fairyhouse_2026-01-10_12:30,8
+Fairyhouse,10 Jan 2026,2m2½f,Yielding,12:30,Ode To Joy,-,Liam McKenna,William J McLernon,11- 7,6,5,True,0.028105505,,Fairyhouse_2026-01-10_12:30,9
+Fairyhouse,10 Jan 2026,2m2½f,Yielding,12:30,Little Ivy,92,Danny Gilligan,Peter Fahey,11- 7,6,0,True,0.024505917,,Fairyhouse_2026-01-10_12:30,10
+Fairyhouse,10 Jan 2026,2m2½f,Yielding,12:30,Bambino Fever,132,Paul Townend,W P Mullins,11- 7,6,0,True,0.02314666,,Fairyhouse_2026-01-10_12:30,11
+Fairyhouse,10 Jan 2026,2m2½f,Yielding,12:30,Miss Georgina,103,John Shinnick,Andrew Lee,11- 7,6,3,True,0.021507654,,Fairyhouse_2026-01-10_12:30,12
+Fairyhouse,10 Jan 2026,2m2½f,Yielding,12:30,Annie's Belle,-,James Smith,Ms Claire O'Connell,11- 7,5,5,True,0.017773172,,Fairyhouse_2026-01-10_12:30,13
+Fairyhouse,10 Jan 2026,2m2½f,Yielding,12:30,Cornelienne,121,Mark Walsh,Joseph Patrick O'Brien,11- 7,5,0,True,0.017530669,,Fairyhouse_2026-01-10_12:30,14
+Fairyhouse,10 Jan 2026,3m,Yielding,1:05,Noble Birth,135,Keith Donoghue,Gavin Cromwell,11- 7,9,0,True,0.053745903,,Fairyhouse_2026-01-10_1:05,1
+Fairyhouse,10 Jan 2026,3m,Yielding,1:05,Minella Sixo,133,Paddy Cleary,Gordon Elliott,12- 1,7,7,True,0.03203579,,Fairyhouse_2026-01-10_1:05,2
+Fairyhouse,10 Jan 2026,3m,Yielding,1:05,Bal Kauto,131,Mr D L Queally,Declan Queally,11- 2,9,0,True,0.029505825,,Fairyhouse_2026-01-10_1:05,3
+Fairyhouse,10 Jan 2026,3m,Yielding,1:05,Find A Fortune,133,Jack Kennedy,Gordon Elliott,11- 0,9,0,True,0.02030459,,Fairyhouse_2026-01-10_1:05,4
+Fairyhouse,10 Jan 2026,3m,Yielding,1:05,Verdant Place,135,Simon Torrens,Patrick T Foley,10 -12,8,0,True,0.018463496,,Fairyhouse_2026-01-10_1:05,5
+Fairyhouse,10 Jan 2026,3m,Yielding,1:05,From The Ashes,133,Philip Byrnes,C Byrnes,10- 6,9,0,True,0.018045036,,Fairyhouse_2026-01-10_1:05,6
+Fairyhouse,10 Jan 2026,3m,Yielding,1:05,Found A Diamond,134,Shane Markey,Ross O'Sullivan,10 -10,6,7,True,0.012868526,,Fairyhouse_2026-01-10_1:05,7
+Fairyhouse,10 Jan 2026,3m,Yielding,1:05,Dippedinmoonlight,124,Danny Mullins,Emmet Mullins,10- 9,6,0,True,0.01247598,,Fairyhouse_2026-01-10_1:05,8
+Fairyhouse,10 Jan 2026,3m,Yielding,1:05,Your Honor,133,Danny Gilligan,J A Nash,10- 6,7,0,True,0.011156026,,Fairyhouse_2026-01-10_1:05,9
+Fairyhouse,10 Jan 2026 ITV4,2m1f,Yielding,1:40,Midnight It Is,152,Sean Flanagan,Gavin Cromwell,10- 9,10,0,True,0.08861514,,Fairyhouse_2026-01-10_1:40,1
+Fairyhouse,10 Jan 2026 ITV4,2m1f,Yielding,1:40,Inthepocket,157,Mark Walsh,Henry De Bromhead,11- 9,9,0,True,0.07778214,,Fairyhouse_2026-01-10_1:40,2
+Fairyhouse,10 Jan 2026 ITV4,2m1f,Yielding,1:40,Blood Destiny,162,Paul Townend,W P Mullins,11 -12,7,0,True,0.02081601,,Fairyhouse_2026-01-10_1:40,3
+Fairyhouse,10 Jan 2026 ITV4,2m1f,Yielding,1:40,St Faz,153,Sam Ewing,Gordon Elliott,10- 0,6,0,True,0.019179523,,Fairyhouse_2026-01-10_1:40,4
+Fairyhouse,10 Jan 2026 ITV4,2m1f,Yielding,1:40,Touch Me Not,156,James Smith,Gordon Elliott,11 -11,7,5,True,0.018091245,,Fairyhouse_2026-01-10_1:40,5
+Fairyhouse,10 Jan 2026 ITV4,2m1f,Yielding,1:40,More Coko,150,Sean Cleary-Farrell,W P Mullins,10- 0,6,7,True,0.01750699,,Fairyhouse_2026-01-10_1:40,6
+Fairyhouse,10 Jan 2026 ITV4,2m1f,Yielding,1:40,Drumgill,154,Michael Kenneally,John Patrick Ryan,10 -11,7,7,True,0.017072478,,Fairyhouse_2026-01-10_1:40,7
+Fairyhouse,10 Jan 2026 ITV4,2m1f,Yielding,1:40,Western Diego,158,Brian Hayes,W P Mullins,10- 4,9,0,True,0.016024448,,Fairyhouse_2026-01-10_1:40,8
+Fairyhouse,10 Jan 2026 ITV4,2m1f,Yielding,1:40,Tullyhill,157,Danny Mullins,W P Mullins,11- 3,8,0,True,0.012880003,,Fairyhouse_2026-01-10_1:40,9
+Fairyhouse,10 Jan 2026 ITV4,2m1f,Yielding,1:40,Path d'Oroux,156,Kieren Buckley,Gavin Cromwell,11- 2,9,0,True,0.011995896,,Fairyhouse_2026-01-10_1:40,10
+Fairyhouse,10 Jan 2026 ITV4,2m1f,Yielding,1:40,The Other Mozzie,158,Conor Stone-Walsh,Gavin Cromwell,11- 2,7,0,True,0.0109299645,,Fairyhouse_2026-01-10_1:40,11
+Fairyhouse,10 Jan 2026 ITV4,2m1f,Yielding,1:40,The King Of Prs,157,Eoin Staples,Gavin Cromwell,10- 8,8,5,True,0.009949956,,Fairyhouse_2026-01-10_1:40,12
+Fairyhouse,10 Jan 2026,2m1f,Yielding,2:15,Stuntman Steve,-,Keith Donoghue,Gavin Cromwell,11 -12,7,0,True,0.025030682,,Fairyhouse_2026-01-10_2:15,1
+Fairyhouse,10 Jan 2026,2m1f,Yielding,2:15,Reliable Prince,-,Charlie O'Dwyer,E Bolger,11 -12,6,5,True,0.019961761,,Fairyhouse_2026-01-10_2:15,2
+Fairyhouse,10 Jan 2026,2m1f,Yielding,2:15,Jinxs Link,-,James Smith,M M Rice,11 -12,10,5,True,0.018569749,,Fairyhouse_2026-01-10_2:15,3
+Fairyhouse,10 Jan 2026,2m1f,Yielding,2:15,Port Joulain,132,Paul Townend,W P Mullins,11 -12,7,0,True,0.01614538,,Fairyhouse_2026-01-10_2:15,4
+Fairyhouse,10 Jan 2026,2m1f,Yielding,2:15,Park Of Kings,130,Conor Stone-Walsh,Paul Nolan,11 -12,8,0,True,0.01536237,,Fairyhouse_2026-01-10_2:15,5
+Fairyhouse,10 Jan 2026,2m1f,Yielding,2:15,Dr Eggman,130,Danny Mullins,W P Mullins,11 -12,8,0,True,0.013075664,,Fairyhouse_2026-01-10_2:15,6
+Fairyhouse,10 Jan 2026,2m1f,Yielding,2:15,Koori Star,116,Danny Gilligan,Peter Fahey,11 -12,8,0,True,0.012878749,,Fairyhouse_2026-01-10_2:15,7
+Fairyhouse,10 Jan 2026,2m1f,Yielding,2:15,Karoline Banbou,139,Mark Walsh,W P Mullins,11- 5,6,0,True,0.011797628,,Fairyhouse_2026-01-10_2:15,8
+Fairyhouse,10 Jan 2026,2m5½f,Yielding,2:49,Jacovec Cavern,122,Richard Condon,Paul Hennessy,12- 0,7,5,True,0.13666423,,Fairyhouse_2026-01-10_2:49,1
+Fairyhouse,10 Jan 2026,2m5½f,Yielding,2:49,Nelson County,118,Danny Gilligan,Ross O'Sullivan,11- 9,6,0,True,0.032002073,,Fairyhouse_2026-01-10_2:49,2
+Fairyhouse,10 Jan 2026,2m5½f,Yielding,2:49,Attaboyarchie,121,Miss E J Sweeney,Karl Thornton,10 -13,9,7,True,0.031839345,,Fairyhouse_2026-01-10_2:49,3
+Fairyhouse,10 Jan 2026,2m5½f,Yielding,2:49,Choccabloc,128,Brian Hayes,Andrew McNamara,12- 0,8,0,True,0.02623749,,Fairyhouse_2026-01-10_2:49,4
+Fairyhouse,10 Jan 2026,2m5½f,Yielding,2:49,Miss Pronunciation,119,Mark Walsh,Padraig Roche,11 -13,9,0,True,0.021711214,,Fairyhouse_2026-01-10_2:49,5
+Fairyhouse,10 Jan 2026,2m5½f,Yielding,2:49,Me Wee Bonnie Lass,127,Keith Donoghue,Gavin Cromwell,11 -10,7,0,True,0.021684522,,Fairyhouse_2026-01-10_2:49,6
+Fairyhouse,10 Jan 2026,2m5½f,Yielding,2:49,Castle Field Boy,124,Eoin Staples,Patrick T Foley,11 -12,10,5,True,0.017877517,,Fairyhouse_2026-01-10_2:49,7
+Fairyhouse,10 Jan 2026,2m5½f,Yielding,2:49,Beggars Rock,124,Kevin Sexton,Gordon Elliott,11- 9,7,0,True,0.016768288,,Fairyhouse_2026-01-10_2:49,8
+Fairyhouse,10 Jan 2026,2m,Yielding,3:24,Silver Salute,-,Mr J Dunne,Ian Patrick Donoghue,12- 0,7,7,True,0.03303738,,Fairyhouse_2026-01-10_3:24,1
+Fairyhouse,10 Jan 2026,2m,Yielding,3:24,Doctor Elvis,-,Mr J M Halford,Gordon Elliott,12- 0,7,7,True,0.031535402,,Fairyhouse_2026-01-10_3:24,2
+Fairyhouse,10 Jan 2026,2m,Yielding,3:24,Clonsast,-,Miss Georgie Benson,Peter John Flood,12- 0,6,7,True,0.031257097,,Fairyhouse_2026-01-10_3:24,3
+Fairyhouse,10 Jan 2026,2m,Yielding,3:24,Detroit Maverick,-,Mr H C Swan,Gordon Elliott,12- 0,6,0,True,0.030886535,,Fairyhouse_2026-01-10_3:24,4
+Fairyhouse,10 Jan 2026,2m,Yielding,3:24,Pinndar,-,Mr Derek O'Connor,Thomas Cooper,12- 0,5,0,True,0.023571858,,Fairyhouse_2026-01-10_3:24,5
+Fairyhouse,10 Jan 2026,2m,Yielding,3:24,Lake Isle,-,Mr J P O'Rourke,C A Murphy,11- 7,5,7,True,0.021911364,,Fairyhouse_2026-01-10_3:24,6
+Fairyhouse,10 Jan 2026,2m,Yielding,3:24,The Wager,110,Mr P W Mullins,W P Mullins,12- 0,5,0,True,0.017685382,,Fairyhouse_2026-01-10_3:24,7
+Fairyhouse,10 Jan 2026,2m,Yielding,3:24,Moments Away,95,Mr A P Ryan,David Harry Kelly,12- 0,5,5,True,0.017653756,,Fairyhouse_2026-01-10_3:24,8
+Fairyhouse,10 Jan 2026,2m,Yielding,3:24,Layenda,-,Mr P A Murphy,C A Murphy,11- 7,5,7,True,0.016767824,,Fairyhouse_2026-01-10_3:24,9
+Fairyhouse,10 Jan 2026,2m,Yielding,3:24,Orinoco Walk,81,Brian Barry,Riceal Dunne,11- 7,8,7,True,0.014036149,,Fairyhouse_2026-01-10_3:24,10
+Fairyhouse,10 Jan 2026,2m,Yielding,3:24,Dorie Miller,90,Mr J H Williamson,Noel Meade,12- 0,5,5,True,0.011455717,,Fairyhouse_2026-01-10_3:24,11
+Fairyhouse,10 Jan 2026,2m,Yielding,3:24,Martymill,107,Mr D McGill,Anthony McCann,12- 0,5,7,True,0.011133231,,Fairyhouse_2026-01-10_3:24,12
+Jebel Ali,10 Jan 2026 Dirt,7f,,10:00,Olzhakhan,-,Mikey Sheehy,Doug Watson,9 -10,8,0,True,0.040911008,7,Jebel Ali_2026-01-10_10:00,1
+Jebel Ali,10 Jan 2026 Dirt,7f,,10:00,Onight,-,Ray Dawson,Marwan Al Baidhaei,8 -13,6,0,True,0.038352095,10,Jebel Ali_2026-01-10_10:00,2
+Jebel Ali,10 Jan 2026 Dirt,7f,,10:00,Houb Al Wattan,-,Victor Salgado,Rashed Bouresly,8- 5,6,0,True,0.038352095,11,Jebel Ali_2026-01-10_10:00,3
+Jebel Ali,10 Jan 2026 Dirt,7f,,10:00,Inner City,-,Tadhg O'Shea,Musabbeh Al Mheiri,9- 0,5,0,True,0.03156562,4,Jebel Ali_2026-01-10_10:00,4
+Jebel Ali,10 Jan 2026 Dirt,7f,,10:00,Don Vaccaro,-,Hamed Al Busaidi,Antonio Cintra & Julio Olascoaga,9 -10,4,6,True,0.030164551,6,Jebel Ali_2026-01-10_10:00,5
+Jebel Ali,10 Jan 2026 Dirt,7f,,10:00,Munyah,-,Richard Mullen,Musabbeh Al Mheiri,9- 6,4,0,True,0.029915025,9,Jebel Ali_2026-01-10_10:00,6
+Jebel Ali,10 Jan 2026 Dirt,7f,,10:00,Jolly Roger,-,Daniel Tudhope,Simon & Ed Crisford,9- 5,4,0,True,0.029915025,2,Jebel Ali_2026-01-10_10:00,7
+Jebel Ali,10 Jan 2026 Dirt,7f,,10:00,African Candy,-,Silvestre De Sousa,Musabbeh Al Mheiri,9- 4,4,0,True,0.029915025,3,Jebel Ali_2026-01-10_10:00,8
+Jebel Ali,10 Jan 2026 Dirt,7f,,10:00,Nam Phrik,-,Francisco Goncalves,Antonio Cintra & Julio Olascoaga,9- 3,4,0,True,0.029915025,1,Jebel Ali_2026-01-10_10:00,9
+Jebel Ali,10 Jan 2026 Dirt,7f,,10:00,Amjaad,-,Pat Dobbs,Doug Watson,9- 2,4,0,True,0.029915025,8,Jebel Ali_2026-01-10_10:00,10
+Jebel Ali,10 Jan 2026 Dirt,7f,,10:00,On The Way,-,Bernardo Pinheiro,Salem bin Ghadayer,9- 0,4,0,True,0.029915025,5,Jebel Ali_2026-01-10_10:00,11
+Jebel Ali,10 Jan 2026 Dirt,7f,,10:00,Secret State,-,Marcelino Rodrigues,Musabbeh Al Mheiri,9 -11,7,6,True,0.028241204,12,Jebel Ali_2026-01-10_10:00,12
+Jebel Ali,10 Jan 2026 Dirt,6f,,10:30,High Everest,-,Victor Salgado,Rashed Bouresly,9 -11,6,0,True,0.052043058,11,Jebel Ali_2026-01-10_10:30,1
+Jebel Ali,10 Jan 2026 Dirt,6f,,10:30,Pipes And Drums,-,Bernardo Pinheiro,Salem bin Ghadayer,9 -11,5,0,True,0.03859328,,Jebel Ali_2026-01-10_10:30,2
+Jebel Ali,10 Jan 2026 Dirt,6f,,10:30,Halucinogenie,-,Qais Bin Saif Al Busaidi,Salem bin Ghadayer,9 -11,6,0,True,0.037896562,6,Jebel Ali_2026-01-10_10:30,3
+Jebel Ali,10 Jan 2026 Dirt,6f,,10:30,Hobalsalam,-,Daniel Tudhope,Osama Refai,9 -11,5,0,True,0.030600015,5,Jebel Ali_2026-01-10_10:30,4
+Jebel Ali,10 Jan 2026 Dirt,6f,,10:30,Aegean Star,-,Jules Mobian,Abubakar Daud,9 -11,4,0,True,0.029583713,9,Jebel Ali_2026-01-10_10:30,5
+Jebel Ali,10 Jan 2026 Dirt,6f,,10:30,Alnayazek,-,Richard Mullen,Salman Al Sabri,9 -11,4,0,True,0.029583713,8,Jebel Ali_2026-01-10_10:30,6
+Jebel Ali,10 Jan 2026 Dirt,6f,,10:30,Masubi,-,Tadhg O'Shea,Bhupat Seemar,9 -11,4,0,True,0.028984765,10,Jebel Ali_2026-01-10_10:30,7
+Jebel Ali,10 Jan 2026 Dirt,6f,,10:30,Mnawish,-,Ray Dawson,Michael Costa,9 -11,4,0,True,0.028984765,3,Jebel Ali_2026-01-10_10:30,8
+Jebel Ali,10 Jan 2026 Dirt,6f,,10:30,New Gem,-,Sandro Paiva,Ahmed Al Shemaili,9 -11,4,0,True,0.028984765,12,Jebel Ali_2026-01-10_10:30,9
+Jebel Ali,10 Jan 2026 Dirt,6f,,10:30,Tufaan E Dubai,-,Marcelino Rodrigues,Elise Jeanne,9 -11,5,6,True,0.026576504,4,Jebel Ali_2026-01-10_10:30,10
+Jebel Ali,10 Jan 2026 Dirt,6f,,10:30,Saleell,-,Andrew Slattery,Michael Costa,8 -10,3,0,True,0.021537555,,Jebel Ali_2026-01-10_10:30,11
+Jebel Ali,10 Jan 2026 Dirt,6f,,10:30,Samhan,-,Adel Alqeeyadi,Mohammad Mardood,8 -10,3,0,True,0.021537555,7,Jebel Ali_2026-01-10_10:30,12
+Jebel Ali,10 Jan 2026 Dirt,6f,,10:30,Yasup,-,Sam Hitchcott,A bin Harmash,8 -10,3,0,True,0.021537555,1,Jebel Ali_2026-01-10_10:30,13
+Jebel Ali,10 Jan 2026 Dirt,6f,,10:30,Youheeb,-,Silvestre De Sousa,Michael Costa,8 -10,3,0,True,0.021537555,2,Jebel Ali_2026-01-10_10:30,14
+Jebel Ali,10 Jan 2026 Dirt,6f,,11:00,Whitegate,-,Khalid Al Balushi,A bin Harmash,9- 6,4,6,True,0.06851517,1,Jebel Ali_2026-01-10_11:00,1
+Jebel Ali,10 Jan 2026 Dirt,6f,,11:00,Dukedom,-,Francisco Goncalves,Antonio Cintra & Julio Olascoaga,9- 7,7,0,True,0.048986673,6,Jebel Ali_2026-01-10_11:00,2
+Jebel Ali,10 Jan 2026 Dirt,6f,,11:00,Chosen Mark,-,Sandro Paiva,Ahmed Al Shemaili,8 -13,8,0,True,0.04833084,11,Jebel Ali_2026-01-10_11:00,3
+Jebel Ali,10 Jan 2026 Dirt,6f,,11:00,Shanaghai City,-,Victor Salgado,Rashed Bouresly,9- 3,10,0,True,0.047962304,14,Jebel Ali_2026-01-10_11:00,4
+Jebel Ali,10 Jan 2026 Dirt,6f,,11:00,Hopefully Yes,-,Bernardo Pinheiro,Salem bin Ghadayer,9- 4,5,0,True,0.03910008,3,Jebel Ali_2026-01-10_11:00,5
+Jebel Ali,10 Jan 2026 Dirt,6f,,11:00,Saarim,-,Pat Dobbs,Doug Watson,9 -11,5,0,True,0.03859328,4,Jebel Ali_2026-01-10_11:00,6
+Jebel Ali,10 Jan 2026 Dirt,6f,,11:00,Shuf Dubai,-,Sam Hitchcott,A bin Harmash,9- 4,5,0,True,0.03859328,7,Jebel Ali_2026-01-10_11:00,7
+Jebel Ali,10 Jan 2026 Dirt,6f,,11:00,Barq Al Emarat,-,Richard Mullen,Ismail Mohammed,9 -10,7,0,True,0.036628775,13,Jebel Ali_2026-01-10_11:00,8
+Jebel Ali,10 Jan 2026 Dirt,6f,,11:00,Benzema,-,Jose Santiago,Salem bin Ghadayer,8- 7,7,0,True,0.036628775,10,Jebel Ali_2026-01-10_11:00,9
+Jebel Ali,10 Jan 2026 Dirt,6f,,11:00,Davy Lamp,-,Elione Chaves,Rashed Bouresly,8 -10,11,0,True,0.035531357,,Jebel Ali_2026-01-10_11:00,10
+Jebel Ali,10 Jan 2026 Dirt,6f,,11:00,Al Muzn,-,Silvestre De Sousa,Salman Al Sabri,9- 8,6,0,True,0.03403352,5,Jebel Ali_2026-01-10_11:00,11
+Jebel Ali,10 Jan 2026 Dirt,6f,,11:00,Trip To Rome,-,Qais Bin Saif Al Busaidi,Osama Refai,8 -10,6,0,True,0.03403352,2,Jebel Ali_2026-01-10_11:00,12
+Jebel Ali,10 Jan 2026 Dirt,6f,,11:00,Split The Profit,-,Ray Dawson,Salman Al Sabri,9- 3,5,0,True,0.028007448,9,Jebel Ali_2026-01-10_11:00,13
+Jebel Ali,10 Jan 2026 Dirt,6f,,11:00,Charming Life,-,Kieran Shoemark,Musabbeh Al Mheiri,9- 8,4,0,True,0.026525304,12,Jebel Ali_2026-01-10_11:00,14
+Jebel Ali,10 Jan 2026 Dirt,6f,,11:00,Odai,-,Charlie Bennett,Osama Refai,9- 1,4,0,True,0.026525304,8,Jebel Ali_2026-01-10_11:00,15
+Jebel Ali,10 Jan 2026 Dirt,5f,,11:30,Rawy,-,Pat Dobbs,Doug Watson,9- 2,7,0,True,0.052997913,2,Jebel Ali_2026-01-10_11:30,1
+Jebel Ali,10 Jan 2026 Dirt,5f,,11:30,Sirdin,-,Jules Mobian,Abubakar Daud,8- 5,7,0,True,0.052085627,,Jebel Ali_2026-01-10_11:30,2
+Jebel Ali,10 Jan 2026 Dirt,5f,,11:30,Indicate,-,Bernardo Pinheiro,Salem bin Ghadayer,8- 8,5,0,True,0.0471562,1,Jebel Ali_2026-01-10_11:30,3
+Jebel Ali,10 Jan 2026 Dirt,5f,,11:30,Turjman,-,Silvestre De Sousa,Michael Costa,9- 5,5,0,True,0.043425947,3,Jebel Ali_2026-01-10_11:30,4
+Jebel Ali,10 Jan 2026 Dirt,5f,,11:30,Tawalla,-,NON-RUNNER,Michael Costa,9 -11,6,0,True,0.038235784,,Jebel Ali_2026-01-10_11:30,5
+Jebel Ali,10 Jan 2026 Dirt,5f,,11:30,Major Cinnamon,-,Tadhg O'Shea,Marwan Al Baidhaei,9- 0,9,0,True,0.03811272,4,Jebel Ali_2026-01-10_11:30,6
+Jebel Ali,10 Jan 2026 Dirt,5f,,11:30,Second Name,-,Sandro Paiva,Salman Al Sabri,8- 5,5,0,True,0.030772286,5,Jebel Ali_2026-01-10_11:30,7
+Jebel Ali,10 Jan 2026 Dirt,1m1f,,12:00,Excel Power,-,Bernardo Pinheiro,Salem bin Ghadayer,9- 8,8,0,True,0.051601708,1,Jebel Ali_2026-01-10_12:00,1
+Jebel Ali,10 Jan 2026 Dirt,1m1f,,12:00,Poster Paint,-,Tadhg O'Shea,Bhupat Seemar,9- 6,7,0,True,0.04918175,7,Jebel Ali_2026-01-10_12:00,2
+Jebel Ali,10 Jan 2026 Dirt,1m1f,,12:00,Vocalizer,-,Jose Santiago,Salem bin Ghadayer,8- 7,4,0,True,0.04137038,9,Jebel Ali_2026-01-10_12:00,3
+Jebel Ali,10 Jan 2026 Dirt,1m1f,,12:00,Daneyan,-,Jesus Rosales,Ahmed Al Neyadi,8- 5,11,0,True,0.040748276,11,Jebel Ali_2026-01-10_12:00,4
+Jebel Ali,10 Jan 2026 Dirt,1m1f,,12:00,Goldspur,-,Hamed Al Busaidi,Qaiss Aboud,9- 8,7,6,True,0.039738342,4,Jebel Ali_2026-01-10_12:00,5
+Jebel Ali,10 Jan 2026 Dirt,1m1f,,12:00,Kibo Misaki,-,Qais Bin Saif Al Busaidi,Salem bin Ghadayer,9- 5,5,0,True,0.039005265,10,Jebel Ali_2026-01-10_12:00,6
+Jebel Ali,10 Jan 2026 Dirt,1m1f,,12:00,Muntasir,-,Sam Hitchcott,A bin Harmash,8 -13,5,0,True,0.038918044,3,Jebel Ali_2026-01-10_12:00,7
+Jebel Ali,10 Jan 2026 Dirt,1m1f,,12:00,Dubai Welcome,-,Saif Al Balushi,Mohammed Al Mahrooqi,8 -11,9,0,True,0.038747918,12,Jebel Ali_2026-01-10_12:00,8
+Jebel Ali,10 Jan 2026 Dirt,1m1f,,12:00,Magic Petition,-,Connor Beasley,A bin Harmash,9 -11,6,0,True,0.035749625,6,Jebel Ali_2026-01-10_12:00,9
+Jebel Ali,10 Jan 2026 Dirt,1m1f,,12:00,Frostfire,-,Kieran Shoemark,Musabbeh Al Mheiri,9 -10,4,0,True,0.035464004,,Jebel Ali_2026-01-10_12:00,10
+Jebel Ali,10 Jan 2026 Dirt,1m1f,,12:00,Don Pelicano,-,Francisco Goncalves,Antonio Cintra & Julio Olascoaga,9- 1,3,0,True,0.03139868,2,Jebel Ali_2026-01-10_12:00,11
+Jebel Ali,10 Jan 2026 Dirt,1m1f,,12:00,Moonshiner,-,Richard Mullen,Antonio Cintra & Julio Olascoaga,9- 6,4,0,True,0.03005585,5,Jebel Ali_2026-01-10_12:00,12
+Jebel Ali,10 Jan 2026 Dirt,1m1f,,12:00,Hot Property,-,Silvestre De Sousa,Doug Watson,9- 4,4,0,True,0.03005585,8,Jebel Ali_2026-01-10_12:00,13
+Jebel Ali,10 Jan 2026 Dirt,1m,,12:30,Wraithy,-,Bernardo Pinheiro,Salem bin Ghadayer,9- 0,4,0,True,0.059829984,10,Jebel Ali_2026-01-10_12:30,1
+Jebel Ali,10 Jan 2026 Dirt,1m,,12:30,Pizarro,-,Tadhg O'Shea,Bhupat Seemar,9- 0,5,0,True,0.046991207,8,Jebel Ali_2026-01-10_12:30,2
+Jebel Ali,10 Jan 2026 Dirt,1m,,12:30,Velvet Cactus,-,Jose Santiago,Salem bin Ghadayer,9- 0,5,0,True,0.046991207,13,Jebel Ali_2026-01-10_12:30,3
+Jebel Ali,10 Jan 2026 Dirt,1m,,12:30,Algheed,-,Jules Mobian,Abubakar Daud,8- 9,5,0,True,0.046991207,,Jebel Ali_2026-01-10_12:30,4
+Jebel Ali,10 Jan 2026 Dirt,1m,,12:30,Nukanan,-,Charlie Bennett,Osama Refai,9- 0,5,0,True,0.04467204,9,Jebel Ali_2026-01-10_12:30,5
+Jebel Ali,10 Jan 2026 Dirt,1m,,12:30,Mawhoob,-,Silvestre De Sousa,Michael Costa,9- 0,4,0,True,0.04457111,1,Jebel Ali_2026-01-10_12:30,6
+Jebel Ali,10 Jan 2026 Dirt,1m,,12:30,Political Truth,-,Qais Bin Saif Al Busaidi,Salem bin Ghadayer,9- 0,4,0,True,0.04457111,7,Jebel Ali_2026-01-10_12:30,7
+Jebel Ali,10 Jan 2026 Dirt,1m,,12:30,Fayadh,-,Hamed Al Busaidi,Qaiss Aboud,9- 0,5,6,True,0.04327931,2,Jebel Ali_2026-01-10_12:30,8
+Jebel Ali,10 Jan 2026 Dirt,1m,,12:30,Klimt Street,-,Reserve,Salman Al Sabri,9- 0,7,0,True,0.04316468,12,Jebel Ali_2026-01-10_12:30,9
+Jebel Ali,10 Jan 2026 Dirt,1m,,12:30,Serve To Lead,-,Daniel Tudhope,Simon & Ed Crisford,9- 0,4,0,True,0.042366087,4,Jebel Ali_2026-01-10_12:30,10
+Jebel Ali,10 Jan 2026 Dirt,1m,,12:30,Al Fareeq,-,Connor Beasley,A bin Harmash,9- 0,4,0,True,0.04151941,6,Jebel Ali_2026-01-10_12:30,11
+Jebel Ali,10 Jan 2026 Dirt,1m,,12:30,La Yetal,-,Ray Dawson,Michael Costa,9- 0,4,0,True,0.04151941,3,Jebel Ali_2026-01-10_12:30,12
+Jebel Ali,10 Jan 2026 Dirt,1m,,12:30,Questor,-,Kieran Shoemark,Doug Watson,9- 0,4,0,True,0.03156829,11,Jebel Ali_2026-01-10_12:30,13
+Jebel Ali,10 Jan 2026 Dirt,1m,,12:30,Daayyem,-,Allaia Tiar,Khalifa Al Neyadi,9- 0,4,6,True,0.0314674,5,Jebel Ali_2026-01-10_12:30,14
+Jebel Ali,10 Jan 2026 Dirt,1m,,12:30,Global View,-,Richard Mullen,Bhupat Seemar,9- 0,4,0,True,0.030930439,,Jebel Ali_2026-01-10_12:30,15
+Kempton,10 Jan 2026,2m,Good,12:20,Gambino,-,Harry Skelton,Dan Skelton,11- 0,5,0,True,0.01586408,,Kempton_2026-01-10_12:20,1
+Kempton,10 Jan 2026,2m,Good,12:20,My Fortune,90,Ben Jones,Ben Pauling,11- 0,6,0,True,0.0138455555,4,Kempton_2026-01-10_12:20,2
+Kempton,10 Jan 2026,2m,Good,12:20,Shabalko d'Herm,121,Sam Twiston-Davies,Nigel & Willy Twiston-Davies,11 -10,6,0,True,0.011615665,6,Kempton_2026-01-10_12:20,3
+Kempton,10 Jan 2026,2m,Good,12:20,Kocktail Bleu,124,Freddie Gordon,Chris Gordon,11- 6,6,0,True,0.01135214,2,Kempton_2026-01-10_12:20,4
+Kempton,10 Jan 2026,2m,Good,12:20,Swingin Safari,130,Harry Cobden,Paul Nicholls,11- 6,6,0,True,0.010689173,3,Kempton_2026-01-10_12:20,5
+Kempton,10 Jan 2026,2m,Good,12:20,Baron Noir,133,Tom Bellamy,Alan King,11- 6,6,0,True,0.010552355,1,Kempton_2026-01-10_12:20,6
+Kempton,10 Jan 2026,2m,Good,12:20,The Egyptian Ginge,129,Mr Jamie Neild,Nigel & Willy Twiston-Davies,11- 0,5,7,True,0.009325453,5,Kempton_2026-01-10_12:20,7
+Kempton,10 Jan 2026,2m,Good,12:20,Can U Feel It,103,Toby McCain-Mitchell,Christian Williams,11- 0,5,5,True,0.008716397,7,Kempton_2026-01-10_12:20,8
+Kempton,10 Jan 2026,2m4½f,Good,12:55,Leader In The Park,141,Ben Jones,Ben Pauling,11- 9,8,0,True,0.022936502,2,Kempton_2026-01-10_12:55,1
+Kempton,10 Jan 2026,2m4½f,Good,12:55,Old Cowboy,144,Freddie Mitchell,Gary & Josh Moore,11- 3,6,3,True,0.018469062,F,Kempton_2026-01-10_12:55,2
+Kempton,10 Jan 2026,2m4½f,Good,12:55,Outlaw Peter,142,Freddie Gingell,Paul Nicholls,12- 0,10,0,True,0.017900035,,Kempton_2026-01-10_12:55,3
+Kempton,10 Jan 2026,2m4½f,Good,12:55,Peso,139,Jonjo O'Neill Jr,Jonjo & A J O'Neill,11- 1,7,0,True,0.017503291,PU,Kempton_2026-01-10_12:55,4
+Kempton,10 Jan 2026,2m4½f,Good,12:55,Lookaway,143,Jack Quinlan,Neil King,11 -12,9,0,True,0.015429145,1,Kempton_2026-01-10_12:55,5
+Kempton,10 Jan 2026,2m4½f,Good,12:55,Go West,141,Harry Cobden,Paul Nicholls,11 -12,8,0,True,0.015165402,3,Kempton_2026-01-10_12:55,6
+Kempton,10 Jan 2026 ITV4,2m,Good,1:30,Senator,-,Joe Anderson,Jamie Snowden,11- 0,4,3,True,0.01952565,3,Kempton_2026-01-10_1:30,1
+Kempton,10 Jan 2026 ITV4,2m,Good,1:30,Wise Counsellor,-,Jack Quinlan,Daniel Steele,11- 0,4,0,True,0.019366397,6,Kempton_2026-01-10_1:30,2
+Kempton,10 Jan 2026 ITV4,2m,Good,1:30,Precious Man,127,Harry Skelton,Dan Skelton,11 -10,4,0,True,0.015809396,1,Kempton_2026-01-10_1:30,3
+Kempton,10 Jan 2026 ITV4,2m,Good,1:30,Frank Stamper,93,James Bowen,Warren Greatrex,11- 0,4,0,True,0.015210312,4,Kempton_2026-01-10_1:30,4
+Kempton,10 Jan 2026 ITV4,2m,Good,1:30,King Al,115,Tom Bellamy,Alan King,11- 0,4,0,True,0.015056433,2,Kempton_2026-01-10_1:30,5
+Kempton,10 Jan 2026 ITV4,2m,Good,1:30,Chartwell Jock,92,Daniel Sansom,Seamus Mullins,11- 0,4,3,True,0.014634182,F,Kempton_2026-01-10_1:30,6
+Kempton,10 Jan 2026 ITV4,2m,Good,1:30,Dissident,109,Conor O'Farrell,Gary & Josh Moore,11- 0,4,0,True,0.012765863,5,Kempton_2026-01-10_1:30,7
+Kempton,10 Jan 2026 ITV4,2m,Good,1:30,Pourquoi Pas Papa,120,NON-RUNNER,Paul Nicholls,11- 0,4,0,True,0.012399313,,Kempton_2026-01-10_1:30,8
+Kempton,10 Jan 2026 ITV4,2m,Good,1:30,Wertpol,114,Paul O'Brien,Harry Derham,11- 0,4,0,True,0.012357952,F,Kempton_2026-01-10_1:30,9
+Kempton,10 Jan 2026 ITV4,3m,Good,2:05,Your Darling,143,Ben Jones,Ben Pauling,11- 9,11,0,True,0.014814038,2,Kempton_2026-01-10_2:05,1
+Kempton,10 Jan 2026 ITV4,3m,Good,2:05,The Doyen Chief,146,Tom Bellamy,Alan King,11- 9,9,0,True,0.011622089,1,Kempton_2026-01-10_2:05,2
+Kempton,10 Jan 2026 ITV4,3m,Good,2:05,Welcom To Cartries,146,Harry Cobden,Paul Nicholls,11- 5,8,0,True,0.01143741,,Kempton_2026-01-10_2:05,3
+Kempton,10 Jan 2026 ITV4,3m,Good,2:05,Beachcomber,144,Jonjo O'Neill Jr,Jonjo & A J O'Neill,11- 5,8,0,True,0.0107100895,5,Kempton_2026-01-10_2:05,4
+Kempton,10 Jan 2026 ITV4,3m,Good,2:05,Soul Icon,145,Sam Twiston-Davies,Keiran Burke,12- 0,9,0,True,0.01000245,4,Kempton_2026-01-10_2:05,5
+Kempton,10 Jan 2026 ITV4,3m,Good,2:05,Sea Invasion,144,Ben Godfrey,Anthony Honeyball,10- 2,8,0,True,0.009587373,3,Kempton_2026-01-10_2:05,6
+Kempton,10 Jan 2026 ITV4,2m4½f,Good,2:40,Kalif Du Berlais,163,Harry Cobden,Paul Nicholls,11- 5,6,0,True,0.020184468,UR,Kempton_2026-01-10_2:40,1
+Kempton,10 Jan 2026 ITV4,2m4½f,Good,2:40,Boombawn,167,Harry Skelton,Dan Skelton,11- 5,9,0,True,0.018515969,3,Kempton_2026-01-10_2:40,2
+Kempton,10 Jan 2026 ITV4,2m4½f,Good,2:40,Edwardstone,170,Tom Cannon,Alan King,11- 2,12,0,True,0.015434071,1,Kempton_2026-01-10_2:40,3
+Kempton,10 Jan 2026 ITV4,2m4½f,Good,2:40,Master Chewy,168,Sam Twiston-Davies,Nigel & Willy Twiston-Davies,11- 8,9,0,True,0.0147316735,2,Kempton_2026-01-10_2:40,4
+Kempton,10 Jan 2026 ITV4,2m5f,Good,3:17,Lanesborough,150,Ben Jones,Ben Pauling,10 -12,7,0,True,0.016429573,5,Kempton_2026-01-10_3:17,1
+Kempton,10 Jan 2026 ITV4,2m5f,Good,3:17,French Ship,151,Callum Pritchard,Philip Hobbs & Johnson White,12- 0,6,3,True,0.012976425,7,Kempton_2026-01-10_3:17,2
+Kempton,10 Jan 2026 ITV4,2m5f,Good,3:17,Beat The Bat,148,Bryan Carver,Harry Fry,11- 2,8,0,True,0.011488627,8,Kempton_2026-01-10_3:17,3
+Kempton,10 Jan 2026 ITV4,2m5f,Good,3:17,Captain Teague,147,NON-RUNNER,Paul Nicholls,11- 7,8,0,True,0.011371139,,Kempton_2026-01-10_3:17,4
+Kempton,10 Jan 2026 ITV4,2m5f,Good,3:17,Double Powerful,142,Conor O'Farrell,Neil Mulholland,11- 4,7,0,True,0.010915828,2,Kempton_2026-01-10_3:17,5
+Kempton,10 Jan 2026 ITV4,2m5f,Good,3:17,Wreckless Eric,149,Kielan Woods,Jonjo & A J O'Neill,10 -10,6,0,True,0.010588427,9,Kempton_2026-01-10_3:17,6
+Kempton,10 Jan 2026 ITV4,2m5f,Good,3:17,Just A Rose,147,Freddie Gingell,Paul Nicholls,10- 3,7,0,True,0.010386123,PU,Kempton_2026-01-10_3:17,7
+Kempton,10 Jan 2026 ITV4,2m5f,Good,3:17,Iberico Lord,148,James Bowen,Nicky Henderson,11- 4,8,0,True,0.01027327,1,Kempton_2026-01-10_3:17,8
+Kempton,10 Jan 2026 ITV4,2m5f,Good,3:17,A Pai De Nom,148,Harry Skelton,Dan Skelton,10- 6,6,0,True,0.009933886,3,Kempton_2026-01-10_3:17,9
+Kempton,10 Jan 2026 ITV4,2m5f,Good,3:17,Came From Nowhere,147,Lorcan Williams,Jeremy Scott,10- 6,7,0,True,0.009895993,,Kempton_2026-01-10_3:17,10
+Kempton,10 Jan 2026 ITV4,2m5f,Good,3:17,Just Ennemi,143,Paul O'Brien,Harry Derham,10- 6,6,0,True,0.009826056,12,Kempton_2026-01-10_3:17,11
+Kempton,10 Jan 2026 ITV4,2m5f,Good,3:17,Krak,145,J J Slevin,Nigel & Willy Twiston-Davies,10- 7,6,0,True,0.00977315,10,Kempton_2026-01-10_3:17,12
+Kempton,10 Jan 2026 ITV4,2m5f,Good,3:17,Yellow Star,148,Freddie Mitchell,Gary & Josh Moore,10- 3,6,3,True,0.009374231,11,Kempton_2026-01-10_3:17,13
+Kempton,10 Jan 2026 ITV4,2m5f,Good,3:17,Fasol,148,Miss Olive Nicholls,Paul Nicholls,10- 5,7,5,True,0.009276262,4,Kempton_2026-01-10_3:17,14
+Kempton,10 Jan 2026 ITV4,2m5f,Good,3:17,King Of The Lake,146,Chad Bament,Jeremy Scott,10 -10,8,7,True,0.009227789,F,Kempton_2026-01-10_3:17,15
+Kempton,10 Jan 2026 ITV4,2m5f,Good,3:17,Ike Sport,147,Sam Twiston-Davies,Neil Mulholland,10- 9,8,0,True,0.009042185,6,Kempton_2026-01-10_3:17,16
+Kempton,10 Jan 2026 ITV4,2m5f,Good,3:17,Goodwin,151,Rian Corcoran,Chris Gordon,10- 7,8,7,True,0.008433065,13,Kempton_2026-01-10_3:17,17
+Kempton,10 Jan 2026,2m,Good,3:53,Courageous Strike,127,Harry Cobden,Paul Nicholls,10 -11,5,0,True,0.06086519,3,Kempton_2026-01-10_3:53,1
+Kempton,10 Jan 2026,2m,Good,3:53,We're Red And Blue,130,Jonjo O'Neill Jr,Jonjo & A J O'Neill,11- 6,6,0,True,0.03751752,2,Kempton_2026-01-10_3:53,2
+Kempton,10 Jan 2026,2m,Good,3:53,Washington,132,Megan Fox,Harry Derham,11 -13,10,7,True,0.024637202,8,Kempton_2026-01-10_3:53,3
+Kempton,10 Jan 2026,2m,Good,3:53,Quaviste,127,Harry Skelton,Dan Skelton,10 -11,6,0,True,0.011652616,5,Kempton_2026-01-10_3:53,4
+Kempton,10 Jan 2026,2m,Good,3:53,Oakley's Way,130,Ben Godfrey,Anthony Honeyball,10- 2,6,0,True,0.010721063,6,Kempton_2026-01-10_3:53,5
+Kempton,10 Jan 2026,2m,Good,3:53,King William Rufus,131,Freddie Gordon,Chris Gordon,11- 5,9,0,True,0.010156059,4,Kempton_2026-01-10_3:53,6
+Kempton,10 Jan 2026,2m,Good,3:53,Rare Edition,131,Daire McConville,Charlie Longsdon,11 -13,9,7,True,0.009227636,7,Kempton_2026-01-10_3:53,7
+Kempton,10 Jan 2026,2m,Good,3:53,Williethebuilder,133,Toby McCain-Mitchell,Christian Williams,12- 2,7,5,True,0.009070639,1,Kempton_2026-01-10_3:53,8
+Kenilworth,10 Jan 2026,1m1f,Good,1:25,Sukhumvit,-,P Mxoli,Alec Laird,9- 6,5,0,True,0.028583469,10,Kenilworth_2026-01-10_1:25,1
+Kenilworth,10 Jan 2026,1m1f,Good,1:25,Give Me Everything,-,Juan Paul V'D Merwe,Dean Kannemeyer,9- 5,4,0,True,0.028149087,6,Kenilworth_2026-01-10_1:25,2
+Kenilworth,10 Jan 2026,1m1f,Good,1:25,Red Palace,116,Craig Zackey,Dean Kannemeyer,9- 6,5,0,True,0.017268574,9,Kenilworth_2026-01-10_1:25,3
+Kenilworth,10 Jan 2026,1m1f,Good,1:25,Rainbow Lorikeet,103,A Domeyer,Candice Bass,9- 6,5,0,True,0.016925804,3,Kenilworth_2026-01-10_1:25,4
+Kenilworth,10 Jan 2026,1m1f,Good,1:25,Minogue,107,M Yeni,Candice & Tammy Dawson,9- 6,5,0,True,0.016827226,5,Kenilworth_2026-01-10_1:25,5
+Kenilworth,10 Jan 2026,1m1f,Good,1:25,Double Grand Slam,123,Oisin Murphy,Justin Snaith,9- 6,5,0,True,0.016795905,4,Kenilworth_2026-01-10_1:25,6
+Kenilworth,10 Jan 2026,1m1f,Good,1:25,Little Suzie,108,S Veale,Justin Snaith,9- 5,4,0,True,0.016706115,8,Kenilworth_2026-01-10_1:25,7
+Kenilworth,10 Jan 2026,1m1f,Good,1:25,Keukenhof,123,Callan Murray,Dean Kannemeyer,8- 7,3,0,True,0.014642127,7,Kenilworth_2026-01-10_1:25,8
+Kenilworth,10 Jan 2026,1m1f,Good,1:25,Wish List,127,A Fortune,Justin Snaith,8- 7,3,0,True,0.014533107,1,Kenilworth_2026-01-10_1:25,9
+Kenilworth,10 Jan 2026,1m1f,Good,1:25,Reet Petite,130,R Fourie,James Crawford,8- 7,3,0,True,0.012676714,2,Kenilworth_2026-01-10_1:25,10
+Kenilworth,10 Jan 2026,5f,Good,2:00,Dance Variety,-,,A N Marcus,9- 6,6,0,True,0.038235784,,Kenilworth_2026-01-10_2:00,1
+Kenilworth,10 Jan 2026,5f,Good,2:00,Outlaw King,110,Craig Zackey,Dean Kannemeyer,9- 6,5,0,True,0.03490577,3,Kenilworth_2026-01-10_2:00,2
+Kenilworth,10 Jan 2026,5f,Good,2:00,Kingdundee,-,Calvin Habib,Dean Smith,9- 6,4,0,True,0.03235654,1,Kenilworth_2026-01-10_2:00,3
+Kenilworth,10 Jan 2026,5f,Good,2:00,Meu Capitano,-,,Piet & Elbert Steyn,9- 6,5,0,True,0.031794857,,Kenilworth_2026-01-10_2:00,4
+Kenilworth,10 Jan 2026,5f,Good,2:00,Arctic Wizard,-,,G W Ennion,9- 6,4,0,True,0.029619703,,Kenilworth_2026-01-10_2:00,5
+Kenilworth,10 Jan 2026,5f,Good,2:00,Surjay,112,Luyolo Mxothwa,James Crawford,9- 6,7,0,True,0.029566696,5,Kenilworth_2026-01-10_2:00,6
+Kenilworth,10 Jan 2026,5f,Good,2:00,Quantum Theory,102,K De Melo,Sean Tarry,9- 6,6,0,True,0.026951954,13,Kenilworth_2026-01-10_2:00,7
+Kenilworth,10 Jan 2026,5f,Good,2:00,Constellation,-,Callan Murray,Mike & Mathew De Kock,8 -13,3,0,True,0.026846971,9,Kenilworth_2026-01-10_2:00,8
+Kenilworth,10 Jan 2026,5f,Good,2:00,Truth,98,Ryan Munger,Candice & Tammy Dawson,9- 6,4,0,True,0.025733383,12,Kenilworth_2026-01-10_2:00,9
+Kenilworth,10 Jan 2026,5f,Good,2:00,Asiye Phambili,118,S Veale,Lucinda Woodruff,9- 1,6,0,True,0.025668526,4,Kenilworth_2026-01-10_2:00,10
+Kenilworth,10 Jan 2026,5f,Good,2:00,Cafe Culture,116,C Little,Lucinda Woodruff,9- 6,6,0,True,0.025668526,6,Kenilworth_2026-01-10_2:00,11
+Kenilworth,10 Jan 2026,5f,Good,2:00,Tenango,117,A Domeyer,Candice Bass,9- 6,5,0,True,0.025496222,11,Kenilworth_2026-01-10_2:00,12
+Kenilworth,10 Jan 2026,5f,Good,2:00,Snow Pilot,115,Rene Piechulek,Justin Snaith,9- 6,5,0,True,0.024514602,14,Kenilworth_2026-01-10_2:00,13
+Kenilworth,10 Jan 2026,5f,Good,2:00,Buffalo Storm Cody,121,Gavin Lerena,Tony Peter,9- 6,4,0,True,0.022913583,7,Kenilworth_2026-01-10_2:00,14
+Kenilworth,10 Jan 2026,5f,Good,2:00,I Am Giant,110,Oisin Murphy,Stuart Ferrie,9- 6,6,0,True,0.021034352,2,Kenilworth_2026-01-10_2:00,15
+Kenilworth,10 Jan 2026,5f,Good,2:00,Direct Hit,126,NON-RUNNER,Alan Greeff,8- 7,3,0,True,0.019917592,,Kenilworth_2026-01-10_2:00,16
+Kenilworth,10 Jan 2026,5f,Good,2:00,Lucky Lad,121,S'manga Khumalo,Sean Tarry,9- 6,5,0,True,0.018943245,10,Kenilworth_2026-01-10_2:00,17
+Kenilworth,10 Jan 2026,5f,Good,2:00,O'Tenikwa,102,C Orffer,Andre Nel,9- 6,4,0,True,0.016343141,8,Kenilworth_2026-01-10_2:00,18
+Kenilworth,10 Jan 2026,1m,Good,2:45,Legal Counsel,-,C Little,Justin Snaith,9- 6,4,0,True,0.03156829,9,Kenilworth_2026-01-10_2:45,1
+Kenilworth,10 Jan 2026,1m,Good,2:45,Jet Force,-,Grant Van Niekerk,Des A McLachlan,9- 6,4,0,True,0.03156829,11,Kenilworth_2026-01-10_2:45,2
+Kenilworth,10 Jan 2026,1m,Good,2:45,See It Again,123,A Fortune,Justin Snaith,9- 6,6,0,True,0.029929504,3,Kenilworth_2026-01-10_2:45,3
+Kenilworth,10 Jan 2026,1m,Good,2:45,The Real Prince,125,Craig Zackey,Dean Kannemeyer,9- 6,5,0,True,0.028802276,1,Kenilworth_2026-01-10_2:45,4
+Kenilworth,10 Jan 2026,1m,Good,2:45,Sugar Mountain,123,A Domeyer,Candice Bass,9- 6,7,0,True,0.028531348,6,Kenilworth_2026-01-10_2:45,5
+Kenilworth,10 Jan 2026,1m,Good,2:45,Eight On Eighteen,124,Oisin Murphy,Justin Snaith,9- 6,4,0,True,0.02590296,8,Kenilworth_2026-01-10_2:45,6
+Kenilworth,10 Jan 2026,1m,Good,2:45,Gladatorian,126,S Veale,Stuart Ferrie,9- 6,6,0,True,0.022825588,7,Kenilworth_2026-01-10_2:45,7
+Kenilworth,10 Jan 2026,1m,Good,2:45,Dave The King,120,Ryan Munger,Mike & Mathew De Kock,9- 6,6,0,True,0.022349518,13,Kenilworth_2026-01-10_2:45,8
+Kenilworth,10 Jan 2026,1m,Good,2:45,Questioning,110,R Fourie,Vaughan Marshall,9- 6,5,0,True,0.020592123,2,Kenilworth_2026-01-10_2:45,9
+Kenilworth,10 Jan 2026,1m,Good,2:45,Fire Attack,119,Calvin Habib,Alec Laird,9- 6,4,0,True,0.020245386,14,Kenilworth_2026-01-10_2:45,10
+Kenilworth,10 Jan 2026,1m,Good,2:45,Garrix,112,S'manga Khumalo,Piet & Elbert Steyn,9- 6,4,0,True,0.020167578,10,Kenilworth_2026-01-10_2:45,11
+Kenilworth,10 Jan 2026,1m,Good,2:45,Cosmic Speed,123,Gavin Lerena,Sean Tarry,9- 6,4,0,True,0.020161336,5,Kenilworth_2026-01-10_2:45,12
+Kenilworth,10 Jan 2026,1m,Good,2:45,Sail The Seas,117,M Yeni,Justin Snaith,9- 6,4,0,True,0.020028828,4,Kenilworth_2026-01-10_2:45,13
+Kenilworth,10 Jan 2026,1m,Good,2:45,Jan Van Goyen,131,Callan Murray,Mike & Mathew De Kock,8- 9,3,0,True,0.01986343,12,Kenilworth_2026-01-10_2:45,14
+Lingfield (AW),10 Jan 2026 SKY Polytrack,1m,Standard,11:40,Poetic Force,72,Matthew Lloyd Slater,Tony Carroll,9- 8,12,7,True,0.03324626,4,Lingfield (AW)_2026-01-10_11:40,1
+Lingfield (AW),10 Jan 2026 SKY Polytrack,1m,Standard,11:40,City Of York,71,Luke Morris,David Simcock,9- 3,6,0,True,0.030762864,,Lingfield (AW)_2026-01-10_11:40,2
+Lingfield (AW),10 Jan 2026 SKY Polytrack,1m,Standard,11:40,Reddeef,72,Darragh Keenan,Michael Keady,9- 9,4,0,True,0.02567574,8,Lingfield (AW)_2026-01-10_11:40,3
+Lingfield (AW),10 Jan 2026 SKY Polytrack,1m,Standard,11:40,Francesi,77,Myla Coppins,Tony Carroll,9- 9,7,7,True,0.02530493,1,Lingfield (AW)_2026-01-10_11:40,4
+Lingfield (AW),10 Jan 2026 SKY Polytrack,1m,Standard,11:40,Super Hit,75,Rob Hornby,Darryll Holland,9- 8,5,0,True,0.023215592,2,Lingfield (AW)_2026-01-10_11:40,5
+Lingfield (AW),10 Jan 2026 SKY Polytrack,1m,Standard,11:40,Stacey Racey,75,Josephine Gordon,Keiran Burke,8- 8,5,0,True,0.023215592,7,Lingfield (AW)_2026-01-10_11:40,6
+Lingfield (AW),10 Jan 2026 SKY Polytrack,1m,Standard,11:40,Amber Honey,77,Harry Davies,Ed Dunlop,9- 5,4,0,True,0.022128932,6,Lingfield (AW)_2026-01-10_11:40,7
+Lingfield (AW),10 Jan 2026 SKY Polytrack,1m,Standard,11:40,Three On Thursday,75,Neil Callan,Tony Carroll,9- 5,4,0,True,0.021902382,3,Lingfield (AW)_2026-01-10_11:40,8
+Lingfield (AW),10 Jan 2026 SKY Polytrack,1m,Standard,11:40,Dandy Khan,78,Hector Crouch,Jim Boyle,9- 7,4,0,True,0.020480651,5,Lingfield (AW)_2026-01-10_11:40,9
+Lingfield (AW),10 Jan 2026 SKY Polytrack,7f,Standard,12:10,Tilsworth Max,54,Jonny Peate,J R Jenkins,9- 9,6,0,True,0.05166728,1,Lingfield (AW)_2026-01-10_12:10,1
+Lingfield (AW),10 Jan 2026 SKY Polytrack,7f,Standard,12:10,Voodoo Ray,51,Tom Queally,Gary & Josh Moore,9- 9,7,0,True,0.05133552,7,Lingfield (AW)_2026-01-10_12:10,2
+Lingfield (AW),10 Jan 2026 SKY Polytrack,7f,Standard,12:10,Headshot,60,Myla Coppins,Tony Carroll,9- 9,8,7,True,0.050171323,5,Lingfield (AW)_2026-01-10_12:10,3
+Lingfield (AW),10 Jan 2026 SKY Polytrack,7f,Standard,12:10,Porfin,52,Grace McEntee,Phil McEntee,9- 9,8,0,True,0.047858085,3,Lingfield (AW)_2026-01-10_12:10,4
+Lingfield (AW),10 Jan 2026 SKY Polytrack,7f,Standard,12:10,Musaytir,46,Gina Mangan,Joe Ponting,9- 9,8,0,True,0.04451941,8,Lingfield (AW)_2026-01-10_12:10,5
+Lingfield (AW),10 Jan 2026 SKY Polytrack,7f,Standard,12:10,Spirit Charmer,54,William Cox,Patrick Chamings,9- 9,5,0,True,0.04354279,6,Lingfield (AW)_2026-01-10_12:10,6
+Lingfield (AW),10 Jan 2026 SKY Polytrack,7f,Standard,12:10,Zaltalla,59,Neil Callan,Michael Attwater,9- 9,5,0,True,0.041427445,4,Lingfield (AW)_2026-01-10_12:10,7
+Lingfield (AW),10 Jan 2026 SKY Polytrack,7f,Standard,12:10,Call Glory,59,Ryan Kavanagh,Ian Williams,10- 0,5,5,True,0.03791011,2,Lingfield (AW)_2026-01-10_12:10,8
+Lingfield (AW),10 Jan 2026 SKY Polytrack,7f,Standard,12:10,Hannahs Story,43,Jack Dace,Daniel Steele,9- 9,5,5,True,0.037800703,9,Lingfield (AW)_2026-01-10_12:10,9
+Lingfield (AW),10 Jan 2026 SKY Polytrack,7f,Standard,12:40,Invincible Storm,51,Luke Morris,Ed de Giles,9- 9,4,0,True,0.06891764,6,Lingfield (AW)_2026-01-10_12:40,1
+Lingfield (AW),10 Jan 2026 SKY Polytrack,7f,Standard,12:40,Vitalline,60,Josephine Gordon,Keiran Burke,9- 9,8,0,True,0.06024133,2,Lingfield (AW)_2026-01-10_12:40,2
+Lingfield (AW),10 Jan 2026 SKY Polytrack,7f,Standard,12:40,Dr Ali,59,Jonny Peate,J R Jenkins,9- 9,4,0,True,0.054541282,4,Lingfield (AW)_2026-01-10_12:40,3
+Lingfield (AW),10 Jan 2026 SKY Polytrack,7f,Standard,12:40,Alyara,50,Dylan Hogan,Joe Ponting,9- 9,8,0,True,0.05243383,5,Lingfield (AW)_2026-01-10_12:40,4
+Lingfield (AW),10 Jan 2026 SKY Polytrack,7f,Standard,12:40,Under Curfew,53,Gina Mangan,Tony Carroll,9- 9,10,0,True,0.052049562,3,Lingfield (AW)_2026-01-10_12:40,5
+Lingfield (AW),10 Jan 2026 SKY Polytrack,7f,Standard,12:40,Miraflores,53,Kieran O'Neill,Rachel Cook & John Bridger,9- 9,4,0,True,0.046596944,8,Lingfield (AW)_2026-01-10_12:40,6
+Lingfield (AW),10 Jan 2026 SKY Polytrack,7f,Standard,12:40,Secret Road,60,Pat Cosgrave,James Owen,9 -13,8,0,True,0.043982837,1,Lingfield (AW)_2026-01-10_12:40,7
+Lingfield (AW),10 Jan 2026 SKY Polytrack,7f,Standard,12:40,Valadero,61,Sean D Bowen,Brian Toomey,9- 9,5,0,True,0.03898744,7,Lingfield (AW)_2026-01-10_12:40,8
+Lingfield (AW),10 Jan 2026 SKY Polytrack,1m2f,Standard,1:10,Imperial Decision,23,Josephine Gordon,Keiran Burke,10- 2,4,0,True,0.056150272,,Lingfield (AW)_2026-01-10_1:10,1
+Lingfield (AW),10 Jan 2026 SKY Polytrack,1m2f,Standard,1:10,Genuine Warrior,50,Callum Shepherd,Harry Charlton,8- 8,3,0,True,0.04440412,,Lingfield (AW)_2026-01-10_1:10,2
+Lingfield (AW),10 Jan 2026 SKY Polytrack,1m2f,Standard,1:10,Al Bowlly,55,Harry Davies,Richard Hannon,8- 8,3,0,True,0.03650544,,Lingfield (AW)_2026-01-10_1:10,3
+Lingfield (AW),10 Jan 2026 SKY Polytrack,1m2f,Standard,1:10,Klammer Express,51,Sorin Moldoveanu,Jane Chapple-Hyam,8- 8,3,7,True,0.03415128,,Lingfield (AW)_2026-01-10_1:10,4
+Lingfield (AW),10 Jan 2026 SKY Polytrack,1m2f,Standard,1:10,Siam Ruby,75,Edward Greatrex,Ralph Beckett,8- 3,3,0,True,0.022685422,,Lingfield (AW)_2026-01-10_1:10,5
+Lingfield (AW),10 Jan 2026 SKY Polytrack,1m2f,Standard,1:47,Woodstock City,82,Ryan Kavanagh,Ian Williams,9 -10,6,5,True,0.038286727,2,Lingfield (AW)_2026-01-10_1:47,1
+Lingfield (AW),10 Jan 2026 SKY Polytrack,1m2f,Standard,1:47,Johnjay,81,Josephine Gordon,Keiran Burke,8 -11,6,0,True,0.031161482,8,Lingfield (AW)_2026-01-10_1:47,2
+Lingfield (AW),10 Jan 2026 SKY Polytrack,1m2f,Standard,1:47,Annexation,81,Jack Doughty,Tony Carroll,9 -10,10,0,True,0.03071154,9,Lingfield (AW)_2026-01-10_1:47,3
+Lingfield (AW),10 Jan 2026 SKY Polytrack,1m2f,Standard,1:47,Lenny's Spirit,80,William Carson,Denis Quinn,9- 7,8,0,True,0.025930239,6,Lingfield (AW)_2026-01-10_1:47,4
+Lingfield (AW),10 Jan 2026 SKY Polytrack,1m2f,Standard,1:47,Dream Pirate,83,George Wood,T J Kent,9- 4,6,0,True,0.024291163,1,Lingfield (AW)_2026-01-10_1:47,5
+Lingfield (AW),10 Jan 2026 SKY Polytrack,1m2f,Standard,1:47,Meet Me In Meraki,83,Pat Cosgrave,David Evans,9- 8,5,0,True,0.023112357,4,Lingfield (AW)_2026-01-10_1:47,6
+Lingfield (AW),10 Jan 2026 SKY Polytrack,1m2f,Standard,1:47,Dark Rosa,80,Rob Hornby,Georgina Nicholls,9 -10,4,0,True,0.02210763,5,Lingfield (AW)_2026-01-10_1:47,7
+Lingfield (AW),10 Jan 2026 SKY Polytrack,1m2f,Standard,1:47,King Of Charm,79,Darragh Keenan,Martin Dunne,9- 3,5,0,True,0.020551084,10,Lingfield (AW)_2026-01-10_1:47,8
+Lingfield (AW),10 Jan 2026 SKY Polytrack,1m2f,Standard,1:47,Alta Rica,79,Harry Davies,Marcus Tregoning,9- 7,4,0,True,0.020456191,3,Lingfield (AW)_2026-01-10_1:47,9
+Lingfield (AW),10 Jan 2026 SKY Polytrack,1m2f,Standard,1:47,Flightofthephoenix,84,Ben Sanderson,Charles Hills,9- 7,4,0,True,0.017636184,7,Lingfield (AW)_2026-01-10_1:47,10
+Lingfield (AW),10 Jan 2026 SKY Polytrack,5f,Standard,2:20,Faustus,80,Kieran O'Neill,Rachel Cook & John Bridger,9- 7,8,0,True,0.03839224,5,Lingfield (AW)_2026-01-10_2:20,1
+Lingfield (AW),10 Jan 2026 SKY Polytrack,5f,Standard,2:20,Diamond Dreamer,77,Callum Hutchinson,Patrick Chamings,9- 6,6,0,True,0.028654274,,Lingfield (AW)_2026-01-10_2:20,2
+Lingfield (AW),10 Jan 2026 SKY Polytrack,5f,Standard,2:20,Mick's Spirit,81,Darragh Keenan,Conrad Allen,9- 3,8,0,True,0.028045462,4,Lingfield (AW)_2026-01-10_2:20,3
+Lingfield (AW),10 Jan 2026 SKY Polytrack,5f,Standard,2:20,Desdemona,76,Luke Morris,Michael Attwater,8 -11,4,0,True,0.0266598,6,Lingfield (AW)_2026-01-10_2:20,4
+Lingfield (AW),10 Jan 2026 SKY Polytrack,5f,Standard,2:20,Manhattan Chute,78,Sean Levey,Jim & Suzi Best,9- 1,4,0,True,0.025450397,7,Lingfield (AW)_2026-01-10_2:20,5
+Lingfield (AW),10 Jan 2026 SKY Polytrack,5f,Standard,2:20,Gogo Yubari,82,Harry Vigors,Tony Carroll,8 -13,5,7,True,0.02528474,1,Lingfield (AW)_2026-01-10_2:20,6
+Lingfield (AW),10 Jan 2026 SKY Polytrack,5f,Standard,2:20,Level Up,79,Ryan Kavanagh,David Evans,9- 3,7,5,True,0.024925735,3,Lingfield (AW)_2026-01-10_2:20,7
+Lingfield (AW),10 Jan 2026 SKY Polytrack,5f,Standard,2:20,Hint Of Humour,81,William Carson,Tony Carroll,9- 9,4,0,True,0.022002416,2,Lingfield (AW)_2026-01-10_2:20,8
+Lingfield (AW),10 Jan 2026 SKY Polytrack,5f,Standard,3:00,Twilight Jet,101,Sean Levey,Jim & Suzi Best,9- 3,7,0,True,0.034555845,5,Lingfield (AW)_2026-01-10_3:00,1
+Lingfield (AW),10 Jan 2026 SKY Polytrack,5f,Standard,3:00,The Thames Boatman,100,Finley Marsh,Richard Hughes,9- 0,6,0,True,0.02593746,1,Lingfield (AW)_2026-01-10_3:00,2
+Lingfield (AW),10 Jan 2026 SKY Polytrack,5f,Standard,3:00,Baldomero,102,Harry Davies,Michael Appleby,9 -11,8,0,True,0.024903864,4,Lingfield (AW)_2026-01-10_3:00,3
+Lingfield (AW),10 Jan 2026 SKY Polytrack,5f,Standard,3:00,Accrual,100,Harry Vigors,David Loughnane,9- 7,5,7,True,0.024346914,2,Lingfield (AW)_2026-01-10_3:00,4
+Lingfield (AW),10 Jan 2026 SKY Polytrack,5f,Standard,3:00,Star Chorus,101,Rob Hornby,Mike Murphy,8 -11,4,0,True,0.021329237,3,Lingfield (AW)_2026-01-10_3:00,5
+Lingfield (AW),10 Jan 2026 SKY Polytrack,1m4f,Standard,3:38,Tortured Soul,80,Jack Doughty,Tony Carroll,9 -11,6,0,True,0.064117864,5,Lingfield (AW)_2026-01-10_3:38,1
+Lingfield (AW),10 Jan 2026 SKY Polytrack,1m4f,Standard,3:38,Damascus Steel,80,William Carson,Denis Quinn,9- 9,6,0,True,0.037215374,1,Lingfield (AW)_2026-01-10_3:38,2
+Lingfield (AW),10 Jan 2026 SKY Polytrack,1m4f,Standard,3:38,Blue Universe,82,Luke Morris,Michael Attwater,9- 6,6,0,True,0.034698527,8,Lingfield (AW)_2026-01-10_3:38,3
+Lingfield (AW),10 Jan 2026 SKY Polytrack,1m4f,Standard,3:38,Naasma,80,Paddy Bradley,Pat Phelan,9 -13,7,0,True,0.033190563,4,Lingfield (AW)_2026-01-10_3:38,4
+Lingfield (AW),10 Jan 2026 SKY Polytrack,1m4f,Standard,3:38,Charlie's Choice,81,Taryn Langley,David Simcock,10- 2,6,5,True,0.03082779,3,Lingfield (AW)_2026-01-10_3:38,5
+Lingfield (AW),10 Jan 2026 SKY Polytrack,1m4f,Standard,3:38,Raintown,82,Taylor Fisher,J S Moore,9- 7,6,3,True,0.03081864,7,Lingfield (AW)_2026-01-10_3:38,6
+Lingfield (AW),10 Jan 2026 SKY Polytrack,1m4f,Standard,3:38,Wonder,81,Jonny Peate,James Fanshawe,10- 0,5,0,True,0.024220556,2,Lingfield (AW)_2026-01-10_3:38,7
+Lingfield (AW),10 Jan 2026 SKY Polytrack,1m4f,Standard,3:38,Connie Moon,79,Rob Hornby,Denis Coakley,9- 3,4,0,True,0.019835139,6,Lingfield (AW)_2026-01-10_3:38,8
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m2f,Standard,3:10,Hackney Diamonds,51,Mr Jack Lander,Ian Williams,11- 1,4,5,True,0.07395696,4,Newcastle (AW)_2026-01-10_3:10,1
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m2f,Standard,3:10,Storm Asset,49,Miss Becky Smith,Micky Hammond,10- 4,7,0,True,0.0395517,,Newcastle (AW)_2026-01-10_3:10,2
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m2f,Standard,3:10,Alpine Sierra,52,Mr Eireann Cagney,Jim Goldie,10 -10,8,0,True,0.037632037,3,Newcastle (AW)_2026-01-10_3:10,3
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m2f,Standard,3:10,Time Turner,51,Mr Simon Walker,Edward Bethell,11- 1,4,0,True,0.035504885,2,Newcastle (AW)_2026-01-10_3:10,4
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m2f,Standard,3:10,Star Cast,50,Miss Amy Collier,Gemma Tutty,10 -12,4,0,True,0.03499368,1,Newcastle (AW)_2026-01-10_3:10,5
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m2f,Standard,3:10,Quintus Arrius,48,Mr Joshua Brown,Peter Niven,11- 0,6,5,True,0.03391249,8,Newcastle (AW)_2026-01-10_3:10,6
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m2f,Standard,3:10,Sir Maxi,50,Miss Rebecca Hitchen,Sam England,10- 6,8,5,True,0.03227628,7,Newcastle (AW)_2026-01-10_3:10,7
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m2f,Standard,3:10,Busby,49,Miss Natasha Cookson,Philip Kirby,10- 3,11,5,True,0.029878302,5,Newcastle (AW)_2026-01-10_3:10,8
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m2f,Standard,3:10,Woodshaw,45,Miss Hannah Crawford,Iain Jardine,10 -10,4,5,True,0.029032718,9,Newcastle (AW)_2026-01-10_3:10,9
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m2f,Standard,3:10,He's Our Cracker,45,Mr Freddie Robson,Jennie Candlish,11- 2,4,7,True,0.025079515,6,Newcastle (AW)_2026-01-10_3:10,10
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,3:47,Second Fiddle,83,Mohammed Tabti,Iain Jardine,9- 9,7,5,True,0.027882876,7,Newcastle (AW)_2026-01-10_3:47,1
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,3:47,Eligible,85,Joanna Mason,Michael & David Easterby,9 -13,10,0,True,0.025895497,1,Newcastle (AW)_2026-01-10_3:47,2
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,3:47,Tasever,81,Jason Hart,Patrick Morris,9- 3,6,0,True,0.025079643,6,Newcastle (AW)_2026-01-10_3:47,3
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,3:47,Sea Legend,80,Paul Mulrennan,Jim Goldie,9- 5,6,0,True,0.024920415,4,Newcastle (AW)_2026-01-10_3:47,4
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,3:47,Book Of Life,82,James Sullivan,Patrick Morris,8 -13,6,0,True,0.024896378,2,Newcastle (AW)_2026-01-10_3:47,5
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,3:47,Maui Breeze,83,Paula Muir,Wilf Storey,9- 7,4,3,True,0.024138732,9,Newcastle (AW)_2026-01-10_3:47,6
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,3:47,The English Rogue,79,Jason Watson,Edward Bethell,9- 7,4,0,True,0.022846267,10,Newcastle (AW)_2026-01-10_3:47,7
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,3:47,Far Ahead,78,Jack Garritty,Richard Fahey,9- 9,4,0,True,0.022163762,11,Newcastle (AW)_2026-01-10_3:47,8
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,3:47,Starliner,83,Kaiya Fraser,Linda Perratt,9- 7,5,0,True,0.020958673,3,Newcastle (AW)_2026-01-10_3:47,9
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,3:47,Just Typical,84,Billy Loughnane,Ian Williams,9- 6,5,0,True,0.019991428,5,Newcastle (AW)_2026-01-10_3:47,10
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,3:47,Mao Shang Wong,80,David Nolan,David O'Meara,9- 9,4,0,True,0.019430965,8,Newcastle (AW)_2026-01-10_3:47,11
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,4:20,Yorkstone,61,Joanna Mason,Michael & David Easterby,9- 9,6,0,True,0.048488557,9,Newcastle (AW)_2026-01-10_4:20,1
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,4:20,Catherine Chroi,57,Mohammed Tabti,Iain Jardine,9- 9,8,5,True,0.044319376,4,Newcastle (AW)_2026-01-10_4:20,2
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,4:20,Eagles Whistle,47,Jason Hart,Daragh Bourke,10- 0,6,0,True,0.04217521,1,Newcastle (AW)_2026-01-10_4:20,3
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,4:20,Barney's Bay,53,Cam Hardie,Derek Shaw,9- 9,8,0,True,0.039798286,7,Newcastle (AW)_2026-01-10_4:20,4
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,4:20,Galileo's Compass,60,Amie Waugh,Simon Waugh,9- 9,6,3,True,0.03874858,8,Newcastle (AW)_2026-01-10_4:20,5
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,4:20,Annalee Lass,60,David Nolan,Peter Niven,9- 9,6,0,True,0.038574096,3,Newcastle (AW)_2026-01-10_4:20,6
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,4:20,Miss Raincloud,54,Barry McHugh,Tracy Waggott,9- 9,4,0,True,0.03724706,6,Newcastle (AW)_2026-01-10_4:20,7
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,4:20,Relevant Range,64,Jordan Nason,Ivan Furtado,9- 9,7,3,True,0.03592717,2,Newcastle (AW)_2026-01-10_4:20,8
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,4:20,Wheres The Crumpet,59,Aiden Brookes,David Thompson,9- 9,8,3,True,0.03443681,,Newcastle (AW)_2026-01-10_4:20,9
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,4:20,Crownthorpe,63,Sean Kirrane,Alan Brown,9- 9,11,0,True,0.03306622,5,Newcastle (AW)_2026-01-10_4:20,10
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,4:20,One More Bottle,62,Paul Mulrennan,Lizzie Quinlan,9- 9,5,0,True,0.03138624,10,Newcastle (AW)_2026-01-10_4:20,11
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,4:50,Top Gun Tina,61,Mark Winn,David Thompson,9- 9,6,0,True,0.047637094,4,Newcastle (AW)_2026-01-10_4:50,1
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,4:50,Pink Socks,64,Billy Loughnane,Ian Williams,9- 9,7,0,True,0.04418843,1,Newcastle (AW)_2026-01-10_4:50,2
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,4:50,Madame Plaintiff,60,Sean Kirrane,Alan Brown,9- 9,5,0,True,0.042993795,6,Newcastle (AW)_2026-01-10_4:50,3
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,4:50,Anificas Beauty,59,Joanna Mason,Peter Winks,9- 9,7,0,True,0.038760386,8,Newcastle (AW)_2026-01-10_4:50,4
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,4:50,Freak Encounter,54,Jason Hart,Donald Whillans,9- 9,4,0,True,0.038292743,9,Newcastle (AW)_2026-01-10_4:50,5
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,4:50,Pop Favorite,58,Joey Haynes,Scott Dixon,9- 9,8,0,True,0.037817296,7,Newcastle (AW)_2026-01-10_4:50,6
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,4:50,Aye Up Tom,33,Tom Eaves,Sam England,9- 9,4,0,True,0.037289824,10,Newcastle (AW)_2026-01-10_4:50,7
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,4:50,Lady Sonata,43,David Nolan,Ivan Furtado,9- 9,4,0,True,0.037289824,5,Newcastle (AW)_2026-01-10_4:50,8
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,4:50,Al Baahy,68,Cieren Fallon,Kevin Frost,9- 9,7,0,True,0.03570908,3,Newcastle (AW)_2026-01-10_4:50,9
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,4:50,That Lucas Fella,63,Andrew Mullen,Iain Jardine,9- 9,4,0,True,0.03175309,2,Newcastle (AW)_2026-01-10_4:50,10
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,5:20,Al Muddy,73,Alex Jary,Seb Spencer,9- 4,6,3,True,0.036375605,4,Newcastle (AW)_2026-01-10_5:20,1
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,5:20,Multaneighttothree,-,Oliver Stammers,Grant Tuer,9- 4,4,0,True,0.03530331,3,Newcastle (AW)_2026-01-10_5:20,2
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,5:20,Rajstar,59,Paul Mulrennan,Ben Haslam,9- 4,4,0,True,0.03421035,5,Newcastle (AW)_2026-01-10_5:20,3
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,5:20,Ted Le Saux,88,Jason Watson,Andrew Balding,9- 4,4,0,True,0.020090329,1,Newcastle (AW)_2026-01-10_5:20,4
+Newcastle (AW),10 Jan 2026 SKY Tapeta,1m,Standard,5:20,Inspired,89,Pierre-Louis Jamin,K R Burke,9 -11,4,0,True,0.019927805,2,Newcastle (AW)_2026-01-10_5:20,5
+Newcastle (AW),10 Jan 2026 SKY Tapeta,7f,Standard,5:50,Bonito Cavalo,72,Paul Mulrennan,Jim Goldie,9- 5,7,0,True,0.04467798,11,Newcastle (AW)_2026-01-10_5:50,1
+Newcastle (AW),10 Jan 2026 SKY Tapeta,7f,Standard,5:50,Siviez,72,Oliver Stammers,Grant Tuer,9- 5,4,0,True,0.03696056,,Newcastle (AW)_2026-01-10_5:50,2
+Newcastle (AW),10 Jan 2026 SKY Tapeta,7f,Standard,5:50,Concert Boy,78,Jason Hart,Katie Scott,9- 7,6,0,True,0.03571893,3,Newcastle (AW)_2026-01-10_5:50,3
+Newcastle (AW),10 Jan 2026 SKY Tapeta,7f,Standard,5:50,Goldmoyne,78,Cieren Fallon,James Owen,9- 9,6,0,True,0.0344827,2,Newcastle (AW)_2026-01-10_5:50,4
+Newcastle (AW),10 Jan 2026 SKY Tapeta,7f,Standard,5:50,Angel Of England,77,Sean Kirrane,Alan Brown,9- 5,5,0,True,0.033451077,10,Newcastle (AW)_2026-01-10_5:50,5
+Newcastle (AW),10 Jan 2026 SKY Tapeta,7f,Standard,5:50,Beelzebub,74,Kaiya Fraser,Gemma Tutty,9- 9,6,0,True,0.031966064,7,Newcastle (AW)_2026-01-10_5:50,6
+Newcastle (AW),10 Jan 2026 SKY Tapeta,7f,Standard,5:50,Ridgemaster,75,Amie Waugh,Simon Waugh,8 -11,4,3,True,0.029449865,8,Newcastle (AW)_2026-01-10_5:50,7
+Newcastle (AW),10 Jan 2026 SKY Tapeta,7f,Standard,5:50,Trais Fluors,77,Alex Jary,Linda Perratt,9- 2,12,3,True,0.02919045,4,Newcastle (AW)_2026-01-10_5:50,8
+Newcastle (AW),10 Jan 2026 SKY Tapeta,7f,Standard,5:50,Carida,74,Aiden Brookes,Simon West,8 -13,4,3,True,0.02497898,9,Newcastle (AW)_2026-01-10_5:50,9
+Newcastle (AW),10 Jan 2026 SKY Tapeta,7f,Standard,5:50,Storm The Dug,76,David Nolan,Lucinda Russell & Michael Scudamore,9- 9,4,0,True,0.024280926,6,Newcastle (AW)_2026-01-10_5:50,10
+Newcastle (AW),10 Jan 2026 SKY Tapeta,7f,Standard,5:50,Front Gunner,76,Billy Loughnane,Stephen Hanlon,9- 7,5,0,True,0.023283502,5,Newcastle (AW)_2026-01-10_5:50,11
+Newcastle (AW),10 Jan 2026 SKY Tapeta,7f,Standard,5:50,Lord Capulet,75,Tom Eaves,Kevin Ryan,9- 1,4,0,True,0.021217737,1,Newcastle (AW)_2026-01-10_5:50,12
+Newcastle (AW),10 Jan 2026 SKY Tapeta,5f,Standard,6:20,See That Spark,71,Callum Rodriguez,Edward Bethell,9- 5,3,0,True,0.028670765,2,Newcastle (AW)_2026-01-10_6:20,1
+Newcastle (AW),10 Jan 2026 SKY Tapeta,5f,Standard,6:20,Mereside Spark,73,Lewis Edmunds,David & Nicola Barron,8 -13,3,0,True,0.027737645,6,Newcastle (AW)_2026-01-10_6:20,2
+Newcastle (AW),10 Jan 2026 SKY Tapeta,5f,Standard,6:20,Mad Unicorn,75,Jason Watson,Michael Keady,8 -13,3,0,True,0.022086702,3,Newcastle (AW)_2026-01-10_6:20,3
+Newcastle (AW),10 Jan 2026 SKY Tapeta,5f,Standard,6:20,King Of Chaos,75,Cieren Fallon,Dylan Cunha,9- 9,3,0,True,0.018492684,4,Newcastle (AW)_2026-01-10_6:20,4
+Newcastle (AW),10 Jan 2026 SKY Tapeta,5f,Standard,6:20,Justmyluck,76,Paul Mulrennan,Linda Perratt,9- 8,3,0,True,0.01800541,1,Newcastle (AW)_2026-01-10_6:20,5
+Newcastle (AW),10 Jan 2026 SKY Tapeta,5f,Standard,6:20,Sound And Vision,82,Billy Loughnane,Ed Walker,9- 7,3,0,True,0.01620306,5,Newcastle (AW)_2026-01-10_6:20,6
+Newcastle (AW),10 Jan 2026 SKY Tapeta,6f,Standard,6:50,Court Of Session,65,Billy Loughnane,Phil McEntee,9- 9,7,0,True,0.037879433,,Newcastle (AW)_2026-01-10_6:50,1
+Newcastle (AW),10 Jan 2026 SKY Tapeta,6f,Standard,6:50,Flash The Dash,64,Tom Kiely-Marshall,Julie Camacho,9- 8,7,5,True,0.037339468,5,Newcastle (AW)_2026-01-10_6:50,2
+Newcastle (AW),10 Jan 2026 SKY Tapeta,6f,Standard,6:50,Spartan Fighter,67,Cam Hardie,Antony Brittain,9- 4,9,0,True,0.034420006,1,Newcastle (AW)_2026-01-10_6:50,3
+Newcastle (AW),10 Jan 2026 SKY Tapeta,6f,Standard,6:50,Fircombe Hall,66,Rhys Elliott,Philip Kirby,9- 1,8,5,True,0.03387499,2,Newcastle (AW)_2026-01-10_6:50,4
+Newcastle (AW),10 Jan 2026 SKY Tapeta,6f,Standard,6:50,Pinpoint,61,Greg Fairley,Ewan Whillans,9- 2,5,0,True,0.033524387,6,Newcastle (AW)_2026-01-10_6:50,5
+Newcastle (AW),10 Jan 2026 SKY Tapeta,6f,Standard,6:50,She'sashambles,62,Shane Gray,Phillip Makin,9- 0,5,0,True,0.033082712,7,Newcastle (AW)_2026-01-10_6:50,6
+Newcastle (AW),10 Jan 2026 SKY Tapeta,6f,Standard,6:50,Penny Mountain,66,Kaiya Fraser,Gary Rutherford,9- 9,5,0,True,0.030828342,3,Newcastle (AW)_2026-01-10_6:50,7
+Newcastle (AW),10 Jan 2026 SKY Tapeta,6f,Standard,6:50,Yorkshire Glory,66,Andrew Mullen,Ben Haslam,9- 6,5,0,True,0.030828342,4,Newcastle (AW)_2026-01-10_6:50,8
+Newcastle (AW),10 Jan 2026 SKY Tapeta,6f,Standard,7:20,Poet,62,Joey Haynes,Scott Dixon,9- 0,7,0,True,0.061505772,8,Newcastle (AW)_2026-01-10_7:20,1
+Newcastle (AW),10 Jan 2026 SKY Tapeta,6f,Standard,7:20,Athollblair Boy,65,Faye McManoman,Nigel Tinkler,9- 2,13,0,True,0.055872634,1,Newcastle (AW)_2026-01-10_7:20,2
+Newcastle (AW),10 Jan 2026 SKY Tapeta,6f,Standard,7:20,Asadjumeirah,64,Cam Hardie,Antony Brittain,9- 9,8,0,True,0.052657116,4,Newcastle (AW)_2026-01-10_7:20,3
+Newcastle (AW),10 Jan 2026 SKY Tapeta,6f,Standard,7:20,Bella Love,63,Jordan Nason,Ivan Furtado,9- 6,4,3,True,0.042607345,6,Newcastle (AW)_2026-01-10_7:20,4
+Newcastle (AW),10 Jan 2026 SKY Tapeta,6f,Standard,7:20,Ramon Di Loria,65,Jason Hart,Ewan Whillans,9- 7,8,0,True,0.03730428,3,Newcastle (AW)_2026-01-10_7:20,5
+Newcastle (AW),10 Jan 2026 SKY Tapeta,6f,Standard,7:20,Queen For Adaay,66,Lewis Edmunds,Derek Shaw,9- 0,5,0,True,0.035636716,7,Newcastle (AW)_2026-01-10_7:20,6
+Newcastle (AW),10 Jan 2026 SKY Tapeta,6f,Standard,7:20,Superior Council,67,Cara Tuke,Iain Jardine,9- 4,7,7,True,0.03526923,2,Newcastle (AW)_2026-01-10_7:20,7
+Newcastle (AW),10 Jan 2026 SKY Tapeta,6f,Standard,7:20,Instant Bond,67,Paul Mulrennan,Michael Wigham,9- 9,5,0,True,0.030643178,5,Newcastle (AW)_2026-01-10_7:20,8
+Warwick,10 Jan 2026,2m3f,Soft,12:45,Blazing Saint,52,Jack Tudor,Christian Williams,11- 7,5,0,True,0.033975102,,Warwick_2026-01-10_12:45,1
+Warwick,10 Jan 2026,2m3f,Soft,12:45,Mondoui'boy,-,Brendan Powell,Ben Pauling,11- 7,6,0,True,0.026796265,,Warwick_2026-01-10_12:45,2
+Warwick,10 Jan 2026,2m3f,Soft,12:45,Georgemani,-,Charlie Todd,David Dennis,11- 7,5,0,True,0.02087147,,Warwick_2026-01-10_12:45,3
+Warwick,10 Jan 2026,2m3f,Soft,12:45,So Proud,-,Kevin Brogan,Jonjo & A J O'Neill,11- 7,5,0,True,0.02087147,,Warwick_2026-01-10_12:45,4
+Warwick,10 Jan 2026,2m3f,Soft,12:45,Blazing Gaden,-,Finn Lambert,D J Jeffreys,11- 7,5,3,True,0.019679371,,Warwick_2026-01-10_12:45,5
+Warwick,10 Jan 2026,2m3f,Soft,12:45,A King Of Magic,-,NON-RUNNER,Paul Nicholls,11- 7,5,0,True,0.017217012,,Warwick_2026-01-10_12:45,6
+Warwick,10 Jan 2026,2m3f,Soft,12:45,Ciao Bellisima,84,Nick Slatter,Henry Oliver,11- 0,6,3,True,0.016097987,,Warwick_2026-01-10_12:45,7
+Warwick,10 Jan 2026,2m3f,Soft,12:45,Collanisi,81,Beau Morgan,Ben Pauling,11- 7,6,5,True,0.015624233,,Warwick_2026-01-10_12:45,8
+Warwick,10 Jan 2026,2m3f,Soft,12:45,My Own Lovely Lee,107,James Best,Philip Hobbs & Johnson White,11- 7,6,0,True,0.014991699,,Warwick_2026-01-10_12:45,9
+Warwick,10 Jan 2026,2m3f,Soft,12:45,Tao Enki,106,Jonathan Burke,Alastair Ralph,11- 7,6,0,True,0.014991699,,Warwick_2026-01-10_12:45,10
+Warwick,10 Jan 2026,2m3f,Soft,12:45,Kilwaughter,111,Sean Houlihan,Philip Hobbs & Johnson White,11- 7,6,0,True,0.014985518,,Warwick_2026-01-10_12:45,11
+Warwick,10 Jan 2026,2m3f,Soft,12:45,Gee Force Flyer,119,Sean Bowen,Olly Murphy,11- 7,6,0,True,0.014750816,,Warwick_2026-01-10_12:45,12
+Warwick,10 Jan 2026,2m3f,Soft,12:45,Sutherland,115,Jack Andrews,T Ellis,11- 7,6,3,True,0.014574721,,Warwick_2026-01-10_12:45,13
+Warwick,10 Jan 2026,2m3f,Soft,12:45,Johnny's Jury,123,NON-RUNNER,Jamie Snowden,11- 7,6,0,True,0.01448476,,Warwick_2026-01-10_12:45,14
+Warwick,10 Jan 2026,2m3f,Soft,12:45,Yeld To Call,107,Ciaran Gethings,Jane Williams,11- 0,5,0,True,0.013141731,,Warwick_2026-01-10_12:45,15
+Warwick,10 Jan 2026,2m3f,Soft,12:45,Shotgun Rider,112,James Turner,Nigel & Willy Twiston-Davies,11- 7,5,5,True,0.011732823,,Warwick_2026-01-10_12:45,16
+Warwick,10 Jan 2026 ITV4,2m4f,Soft,1:15,Gold For Alec,-,Ben Poste,Tom Symonds,12- 2,6,0,True,0.026984314,,Warwick_2026-01-10_1:15,1
+Warwick,10 Jan 2026 ITV4,2m4f,Soft,1:15,Rule Me In,106,Jack Tudor,Christian Williams,11- 6,7,0,True,0.015706267,,Warwick_2026-01-10_1:15,2
+Warwick,10 Jan 2026 ITV4,2m4f,Soft,1:15,Dj Pete,118,James Best,Sarah-Jayne Davies,10 -13,8,0,True,0.014635111,,Warwick_2026-01-10_1:15,3
+Warwick,10 Jan 2026 ITV4,2m4f,Soft,1:15,Jack Black,100,Tristan Durrell,Dan Skelton,11 -11,7,0,True,0.014560257,,Warwick_2026-01-10_1:15,4
+Warwick,10 Jan 2026 ITV4,2m4f,Soft,1:15,Ideallko,118,Isabel Williams,Evan Williams,10 -13,8,0,True,0.014555251,,Warwick_2026-01-10_1:15,5
+Warwick,10 Jan 2026 ITV4,2m4f,Soft,1:15,Moon Phases,116,Derek Fox,Lucinda Russell & Michael Scudamore,12- 0,7,0,True,0.014548488,,Warwick_2026-01-10_1:15,6
+Warwick,10 Jan 2026 ITV4,2m4f,Soft,1:15,Pepe Le Moko,119,Ciaran Gethings,Jane Williams,12- 2,8,0,True,0.013979576,,Warwick_2026-01-10_1:15,7
+Warwick,10 Jan 2026 ITV4,2m4f,Soft,1:15,Atreides,114,Bradley Harris,Neil Mulholland,11- 6,8,3,True,0.0137994075,,Warwick_2026-01-10_1:15,8
+Warwick,10 Jan 2026 ITV4,2m4f,Soft,1:15,A Great Excuse,115,Jamie Brace,Max Comley,11- 6,6,5,True,0.013482372,,Warwick_2026-01-10_1:15,9
+Warwick,10 Jan 2026 ITV4,2m4f,Soft,1:15,Le Galli Bier,108,Caoilin Quinn,Gary & Josh Moore,11- 3,5,0,True,0.013345595,,Warwick_2026-01-10_1:15,10
+Warwick,10 Jan 2026 ITV4,2m4f,Soft,1:15,Always Busy,114,Mr J J Murphy-Knight,Christian Williams,11 -13,8,7,True,0.012722492,,Warwick_2026-01-10_1:15,11
+Warwick,10 Jan 2026 ITV4,2m4f,Soft,1:15,Carrigmoorna Rowan,116,Tom Broughton,Ryan Potter,11- 6,9,5,True,0.012648009,,Warwick_2026-01-10_1:15,12
+Warwick,10 Jan 2026 ITV4,2m4f,Soft,1:15,Bank On Frank,116,Beau Morgan,Ben Pauling,11- 4,8,5,True,0.012527979,,Warwick_2026-01-10_1:15,13
+Warwick,10 Jan 2026 ITV4,3m,Soft,1:52,Hollygrove Cha Cha,152,Gavin Sheehan,Jamie Snowden,10 -11,6,0,True,0.01389159,,Warwick_2026-01-10_1:52,1
+Warwick,10 Jan 2026 ITV4,3m,Soft,1:52,Moon Rocket,151,Ciaran Gethings,Kim Bailey & Mat Nicholls,11- 4,6,0,True,0.013490989,,Warwick_2026-01-10_1:52,2
+Warwick,10 Jan 2026 ITV4,3m,Soft,1:52,The Jukebox Kid,146,David Bass,Ben Pauling,11- 4,7,0,True,0.013355713,,Warwick_2026-01-10_1:52,3
+Warwick,10 Jan 2026 ITV4,3m,Soft,1:52,Laurens Bay,148,Jonathan Burke,Jamie Snowden,11- 4,7,0,True,0.012834227,,Warwick_2026-01-10_1:52,4
+Warwick,10 Jan 2026 ITV4,3m,Soft,1:52,Wade Out,150,Sean Bowen,Olly Murphy,11- 9,7,0,True,0.012463093,,Warwick_2026-01-10_1:52,5
+Warwick,10 Jan 2026 ITV4,3m,Soft,1:52,Doyen Quest,153,Tristan Durrell,Dan Skelton,11- 7,8,0,True,0.012082489,,Warwick_2026-01-10_1:52,6
+Warwick,10 Jan 2026 ITV4,2m,Soft,2:25,Jiair Madrik,-,Theo Gillard,Donald McCain,11 -10,7,0,True,0.0268355,,Warwick_2026-01-10_2:25,1
+Warwick,10 Jan 2026 ITV4,2m,Soft,2:25,Dr Waksman,97,Sean Bowen,Chris Gordon,11 -12,5,0,True,0.01822627,,Warwick_2026-01-10_2:25,2
+Warwick,10 Jan 2026 ITV4,2m,Soft,2:25,Sea Warrior,97,Brendan Powell,Joe Tizzard,11 -12,7,0,True,0.014628483,,Warwick_2026-01-10_2:25,3
+Warwick,10 Jan 2026 ITV4,2m,Soft,2:25,Mexican Stan,101,Lee Edwards,Alastair Ralph,11- 0,6,0,True,0.014598978,,Warwick_2026-01-10_2:25,4
+Warwick,10 Jan 2026 ITV4,2m,Soft,2:25,Soldier's Leap,115,Jack Andrews,T Ellis,11 -13,6,3,True,0.014543777,,Warwick_2026-01-10_2:25,5
+Warwick,10 Jan 2026 ITV4,2m,Soft,2:25,Kelijoe,111,Charlie Hammond,Stuart Edmunds,11- 7,6,0,True,0.014420718,,Warwick_2026-01-10_2:25,6
+Warwick,10 Jan 2026 ITV4,2m,Soft,2:25,Tara Iti,108,NON-RUNNER,Barry Brennan,11 -11,8,0,True,0.013990913,,Warwick_2026-01-10_2:25,7
+Warwick,10 Jan 2026 ITV4,2m,Soft,2:25,Best Women,100,Jack Hogan,Alex Hales,11- 8,7,0,True,0.013948002,,Warwick_2026-01-10_2:25,8
+Warwick,10 Jan 2026 ITV4,2m,Soft,2:25,Ukantango,111,Robert Dunne,Olly Murphy,11 -13,9,0,True,0.013798739,,Warwick_2026-01-10_2:25,9
+Warwick,10 Jan 2026 ITV4,2m,Soft,2:25,Snapius,111,Alex Chadwick,James Owen,11- 6,7,3,True,0.0134802805,,Warwick_2026-01-10_2:25,10
+Warwick,10 Jan 2026 ITV4,2m,Soft,2:25,Three Pikes,112,Freddie Keighley,Henry Oliver,11 -10,6,7,True,0.013112691,,Warwick_2026-01-10_2:25,11
+Warwick,10 Jan 2026 ITV4,2m,Soft,2:25,Run Away Joe,112,Tom Broughton,Fergal O'Brien,11- 5,6,5,True,0.012996558,,Warwick_2026-01-10_2:25,12
+Warwick,10 Jan 2026 ITV4,2m,Soft,2:25,Time Interval,113,Charlie Maggs,David Dennis,11 -13,8,5,True,0.012750709,,Warwick_2026-01-10_2:25,13
+Warwick,10 Jan 2026 ITV4,2m,Soft,2:25,Oakley,106,Ellis Collier,Evan Williams,12- 0,8,5,True,0.012722492,,Warwick_2026-01-10_2:25,14
+Warwick,10 Jan 2026 ITV4,2m,Soft,2:25,Knight Templar,108,Sean Houlihan,Robert Stephens,11 -12,5,0,True,0.012539417,,Warwick_2026-01-10_2:25,15
+Warwick,10 Jan 2026 ITV4,2m,Soft,2:25,Maple,106,Jamie Hamilton,Ruth Jefferson,11- 8,5,0,True,0.012529419,,Warwick_2026-01-10_2:25,16
+Warwick,10 Jan 2026 ITV4,2m,Soft,2:25,Premier,105,Caoilin Quinn,Warren Greatrex,11- 0,4,0,True,0.012409033,,Warwick_2026-01-10_2:25,17
+Warwick,10 Jan 2026 ITV4,2m,Soft,2:25,At The Oche,113,James Turner,Nigel & Willy Twiston-Davies,11- 9,5,5,True,0.0114218965,,Warwick_2026-01-10_2:25,18
+Warwick,10 Jan 2026 ITV4,3m5f,Soft,2:55,Nassalam,-,Caoilin Quinn,Gary & Josh Moore,10 -11,9,0,True,0.026211808,,Warwick_2026-01-10_2:55,1
+Warwick,10 Jan 2026 ITV4,3m5f,Soft,2:55,Resplendent Grey,163,Sean Bowen,Olly Murphy,11- 4,8,0,True,0.01243044,,Warwick_2026-01-10_2:55,2
+Warwick,10 Jan 2026 ITV4,3m5f,Soft,2:55,Val Dancer,162,Charlie Hammond,Mel Rowley,10- 2,9,0,True,0.012383196,,Warwick_2026-01-10_2:55,3
+Warwick,10 Jan 2026 ITV4,3m5f,Soft,2:55,Torn And Frayed,164,NON-RUNNER,Nigel & Willy Twiston-Davies,10- 2,12,0,True,0.012320802,,Warwick_2026-01-10_2:55,4
+Warwick,10 Jan 2026 ITV4,3m5f,Soft,2:55,Destroytheevidence,169,Ciaran Gethings,Kim Bailey & Mat Nicholls,10- 2,8,0,True,0.012174981,,Warwick_2026-01-10_2:55,5
+Warwick,10 Jan 2026 ITV4,3m5f,Soft,2:55,Myretown,165,Derek Fox,Lucinda Russell & Michael Scudamore,10- 8,9,0,True,0.011900362,,Warwick_2026-01-10_2:55,6
+Warwick,10 Jan 2026 ITV4,3m5f,Soft,2:55,Mr Vango,168,Jack Tudor,Mrs Sara V Bradstock,11- 7,10,0,True,0.0118908,,Warwick_2026-01-10_2:55,7
+Warwick,10 Jan 2026 ITV4,3m5f,Soft,2:55,L'Homme Presse,165,Charlie Deutsch,Venetia Williams,12- 0,11,0,True,0.011758284,,Warwick_2026-01-10_2:55,8
+Warwick,10 Jan 2026 ITV4,3m5f,Soft,2:55,Joyeux Machin,166,Harry Atkins,Dan Skelton,10- 2,9,7,True,0.011389675,,Warwick_2026-01-10_2:55,9
+Warwick,10 Jan 2026 ITV4,3m1f,Soft,3:32,Green Book,-,Charlie Deutsch,Venetia Williams,11- 3,9,0,True,0.026016384,,Warwick_2026-01-10_3:32,1
+Warwick,10 Jan 2026 ITV4,3m1f,Soft,3:32,Long Draw,146,Sean Bowen,Olly Murphy,11- 6,7,0,True,0.01410574,,Warwick_2026-01-10_3:32,2
+Warwick,10 Jan 2026 ITV4,3m1f,Soft,3:32,Tranquil Sea,147,Tristan Durrell,Dan Skelton,10- 7,6,0,True,0.014050429,,Warwick_2026-01-10_3:32,3
+Warwick,10 Jan 2026 ITV4,3m1f,Soft,3:32,Lud'or,145,Caoilin Quinn,Tom Symonds,11- 9,6,0,True,0.013914405,,Warwick_2026-01-10_3:32,4
+Warwick,10 Jan 2026 ITV4,3m1f,Soft,3:32,Rubber Ball,148,Brendan Powell,Neil King,10- 5,6,0,True,0.013914405,,Warwick_2026-01-10_3:32,5
+Warwick,10 Jan 2026 ITV4,3m1f,Soft,3:32,Lord Snootie,145,Jack Tudor,Christian Williams,10- 7,9,0,True,0.0138283465,,Warwick_2026-01-10_3:32,6
+Warwick,10 Jan 2026 ITV4,3m1f,Soft,3:32,Doughmore Bay,143,Jonathan Burke,Emma Lavelle,10 -12,8,0,True,0.012795416,,Warwick_2026-01-10_3:32,7
+Warwick,10 Jan 2026 ITV4,3m1f,Soft,3:32,Spike Jones,143,Benjamin Macey,Samuel Drinkwater,10- 2,9,7,True,0.011694867,,Warwick_2026-01-10_3:32,8
+Warwick,10 Jan 2026 ITV4,3m1f,Soft,3:32,Red Risk,144,Freddie Keighley,Paul Nicholls,11- 8,11,7,True,0.011563189,,Warwick_2026-01-10_3:32,9
+Warwick,10 Jan 2026 ITV4,3m1f,Soft,3:32,Felicie Du Maquis,148,Miss Clara Brewitt,Clive Boultbee-Brooks,10- 5,11,7,True,0.011563189,,Warwick_2026-01-10_3:32,10
+Warwick,10 Jan 2026 ITV4,3m1f,Soft,3:32,Botox Has,148,Jude Fernandes,Gary & Josh Moore,12- 0,10,10,True,0.0108809415,,Warwick_2026-01-10_3:32,11
+Warwick,10 Jan 2026,2m,Soft,4:02,Diamond Street,-,Tristan Durrell,Dan Skelton,11- 4,5,0,True,0.020831224,,Warwick_2026-01-10_4:02,1
+Warwick,10 Jan 2026,2m,Soft,4:02,All Good To Go,-,Jack Hogan,Alex Hales,11- 4,5,0,True,0.020046238,,Warwick_2026-01-10_4:02,2
+Warwick,10 Jan 2026,2m,Soft,4:02,Arizona Moon,-,Charlie Hammond,Stuart Edmunds,11- 4,5,0,True,0.020046238,,Warwick_2026-01-10_4:02,3
+Warwick,10 Jan 2026,2m,Soft,4:02,McElhattan,-,Theo Gillard,Donald McCain,11- 4,5,0,True,0.020046238,,Warwick_2026-01-10_4:02,4
+Warwick,10 Jan 2026,2m,Soft,4:02,Scaredofnothing,-,Joshua Bryan,Tom Weston,10- 5,4,0,True,0.01983773,,Warwick_2026-01-10_4:02,5
+Warwick,10 Jan 2026,2m,Soft,4:02,Country Pursuits,-,Robert Dunne,Ian Williams,11- 4,5,0,True,0.01974342,,Warwick_2026-01-10_4:02,6
+Warwick,10 Jan 2026,2m,Soft,4:02,Loch Ness Pineau,-,Beau Morgan,Ben Pauling,11- 4,5,5,True,0.018038334,,Warwick_2026-01-10_4:02,7
+Warwick,10 Jan 2026,2m,Soft,4:02,Britway Belle,-,Ned Fox,Henry Oliver,10 -11,5,5,True,0.01776604,,Warwick_2026-01-10_4:02,8
+Warwick,10 Jan 2026,2m,Soft,4:02,Sassella Storm,114,Dylan Johnston,Jim Boyle,11- 4,5,0,True,0.0128522245,,Warwick_2026-01-10_4:02,9
+Warwick,10 Jan 2026,2m,Soft,4:02,Current Edition,113,Jamie Brace,Nigel & Willy Twiston-Davies,11- 4,5,5,True,0.011784882,,Warwick_2026-01-10_4:02,10

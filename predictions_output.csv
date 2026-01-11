@@ -1,0 +1,569 @@
+race_date,track_name,horse_name,jockey,trainer,win_probability
+,Naas,Future Prospect,Paul Townend,W P Mullins,0.41821674
+,Naas,Quiryn,Mr P W Mullins,W P Mullins,0.38294822
+,Dundalk (AW),Clonmacash,Rory Cleary,Adrian McGuinness,0.31494707
+,Dundalk (AW),Billboa,Adam Browne-Souza,W P Browne,0.30430934
+,Meydan,Tourist,Pat Dobbs,Doug Watson,0.28809413
+,Naas,Karamoja,Paul Townend,W P Mullins,0.2819341
+,Naas,Saint Baco,Paul Townend,W P Mullins,0.2729107
+,Naas,Sortudo,Mr P W Mullins,W P Mullins,0.26352015
+,Meydan,Itsatenfromlen,Pat Dobbs,Doug Watson,0.24821886
+,Newcastle (AW),Auntie Jo,Mark Winn,David O'Meara,0.24805184
+,Newcastle (AW),What What What,Billy Garritty,Michael & David Easterby,0.23692122
+,Meydan,Flight Plan,Sam James,K R Burke,0.2194695
+,Meydan,Fairy Oak,Adrie de Vries,Mohammad Mardood,0.20932423
+,Meydan,Arabian Angel,Tadhg O'Shea,Bhupat Seemar,0.20314988
+,Meydan,Mister Saint Paul,Bernardo Pinheiro,Salem bin Ghadayer,0.2006932
+,Newcastle (AW),Laurens Dream,Billy Garritty,Michael & David Easterby,0.19592005
+,Dundalk (AW),Morning Approach,Nathan Crosse,W McCreery,0.19487646
+,Dundalk (AW),Glitter And Glory,Nathan Crosse,Mrs John Harrington,0.18557097
+,Dundalk (AW),Musical Act,Patrick McGettigan,Ciaran Murphy,0.18241759
+,Meydan,Monaadah,Tadhg O'Shea,Bhupat Seemar,0.17545435
+,Wolverhampton (AW),Bajan Bandit,David Nolan,Patrick Morris,0.17495395
+,Wolverhampton (AW),He's A Gentleman,Jason Hart,Hugo Palmer,0.17453082
+,Naas,Neon Diamond,Sam Ewing,Gordon Elliott,0.17413895
+,Dundalk (AW),Boyne Valley,Terry Casey,Michael Mulvany,0.16402818
+,Dundalk (AW),Cinammon Coco,Julian Pietropaolo,Joseph Patrick O'Brien,0.16359612
+,Dundalk (AW),Pollenca,Jimmy Dalton,Andrew Slattery,0.16317807
+,Wolverhampton (AW),Bint Al Daar,Jack Mitchell,Kevin Frost,0.16287418
+,Naas,Jerpoint Abbey,Mr Alan O'Sullivan,Emmet Mullins,0.16241698
+,Dundalk (AW),Royal Sapphire,Julian Pietropaolo,Joseph Patrick O'Brien,0.16069983
+,Dundalk (AW),Brains,Patrick McGettigan,R Donohoe,0.16032618
+,Dundalk (AW),Woolridge,Julian Pietropaolo,A Oliver,0.1595061
+,Dundalk (AW),Personified,Julian Pietropaolo,Joseph Patrick O'Brien,0.15887673
+,Dundalk (AW),Giselles Defence,Sean Davis,Sean Davis,0.15805268
+,Dundalk (AW),Flanker Jet,Donagh O'Connor,Robson De Aguiar,0.15560488
+,Meydan,Sound Money,Tadhg O'Shea,Bhupat Seemar,0.15523352
+,Naas,Hartford,Mr H C Swan,Gordon Elliott,0.15204033
+,Dundalk (AW),Coilins Girl,Patrick McGettigan,J P Murtagh,0.15188657
+,Dundalk (AW),Benavente,Reese Holohan,Denis Gerard Hogan,0.15009353
+,Dundalk (AW),Arrietty,Scott McCullagh,Joseph Patrick O'Brien,0.14860776
+,Wolverhampton (AW),The Caribbean,Cieren Fallon,Heather Main,0.14723682
+,Wolverhampton (AW),Ash Wednesday,Jack Mitchell,Heather Main,0.14723682
+,Meydan,Desperate Hero,Bernardo Pinheiro,Salem bin Ghadayer,0.14520137
+,Wolverhampton (AW),Bella Bisbee,Kieran O'Neill,Scott Dixon,0.14477468
+,Dundalk (AW),Old Peculier,Joseph Harnett,Mark Fahey,0.14401762
+,Meydan,Sahalat,Andrew Slattery,Bhupat Seemar,0.14209953
+,Dundalk (AW),Imperial Fighter,Rory Mulligan,Patrick J McKenna,0.14205194
+,Meydan,King Of Time,Mikey Sheehy,Osama Refai,0.14134428
+,Dundalk (AW),Diamond Exchange,Keithen Kennedy,Mrs John Harrington,0.14011441
+,Dundalk (AW),Goldinthesea,Scott McCullagh,Joseph Patrick O'Brien,0.13926233
+,Wolverhampton (AW),Cast No Shadow,Jason Hart,Hugo Palmer,0.13799965
+,Meydan,Markakol,Andrew Slattery,Bhupat Seemar,0.13753167
+,Meydan,Dark Stream,Maikel Narvaez Bravo,Veronika Jandova,0.13662264
+,Newcastle (AW),Rory,Paul Mulrennan,Jim Goldie,0.13653013
+,Wolverhampton (AW),Monsieur Kodi,Warren Fentiman,Richard Fahey,0.13574378
+,Meydan,Miss Yechance,Francisco Goncalves,Antonio Cintra & Julio Olascoaga,0.13505037
+,Newcastle (AW),Desert Master,Cam Hardie,Antony Brittain,0.13417287
+,Dundalk (AW),Oiche Rua,Scott McCullagh,Adrian McGuinness,0.13415068
+,Newcastle (AW),Brunello Breeze,Jason Watson,Liam Bailey,0.13358578
+,Dundalk (AW),Nermal,Adam Browne-Souza,Andrew Slattery,0.13222289
+,Wolverhampton (AW),Oman,Cieren Fallon,Tony Carroll,0.13196246
+,Dundalk (AW),He's Holding Court,Adam Browne-Souza,Andrew Slattery,0.13171509
+,Dundalk (AW),La Campanella,Mark Crehan,Gerard Keane,0.13007875
+,Dundalk (AW),Inishmot Prince,Sadhbh Tormey,T G McCourt,0.1300325
+,Dundalk (AW),Voice Of Reason,Hugh Horgan,William Delahunty,0.12998337
+,Wolverhampton (AW),Market House,Sean D Bowen,James Owen,0.12994324
+,Dundalk (AW),Curious Jane,,Ciaran Murphy,0.1297883
+,Dundalk (AW),Haeret In Pectore,,A J Martin,0.12966959
+,Meydan,L'Karama,,Michael Costa,0.12698881
+,Meydan,Danyah,Richard Mullen,Musabbeh Al Mheiri,0.12687758
+,Wolverhampton (AW),Monotone,Alex Jary,Antony Brittain,0.1263182
+,Meydan,Mr Pirelli,Carlos Lopez,Niels Petersen,0.12586598
+,Dundalk (AW),Hell Left Loose,Nicola Burns,Denis Gerard Hogan,0.12570296
+,Newcastle (AW),Eagles Whistle,Shane Gray,Daragh Bourke,0.12554936
+,Exeter,Devon Paige,Ben Godfrey,Jimmy Frost,0.12490149
+,Exeter,Moonlight Stride,Sean Houlihan,Philip Hobbs & Johnson White,0.12490149
+,Exeter,Love Me,Gavin Sheehan,Jo Davis,0.12490149
+,Exeter,W B Easy,Ciaran Gethings,Robert Stephens,0.12490149
+,Exeter,Bold Step,James Bowen,Nicky Henderson,0.12490149
+,Exeter,Fountains Gala,James Best,Claire Hitch,0.12490149
+,Newcastle (AW),Natzor,Andrew Mullen,Lizzie Quinlan,0.12490149
+,Dundalk (AW),Caoilte,Rebecca Parsons,David Marnane,0.124476075
+,Dundalk (AW),Cleopatra Dream,Killian Leonard,Diego Dias,0.12410558
+,Dundalk (AW),Eclat,Leigh Roche,D K Weld,0.12410558
+,Dundalk (AW),Anchors Away,Leigh Roche,M G Quinn,0.123662874
+,Newcastle (AW),Bishop's Glory,Paul Mulrennan,Joey Ramsden,0.12328147
+,Wolverhampton (AW),Bill Plumb,Luke Morris,Phil McEntee,0.12264636
+,Wolverhampton (AW),Vince Lombardi,Dale Swift,Seb Spencer,0.12264636
+,Newcastle (AW),Annandale,Paul Mulrennan,Jim Goldie,0.12215159
+,Exeter,Quickkick,Sean Houlihan,Philip Hobbs & Johnson White,0.12178688
+,Dundalk (AW),Alto Sax,Leigh Roche,Peter Fahey,0.12112273
+,Dundalk (AW),Georg Zhukov,Killian Leonard,Eamonn O'Connell,0.12027426
+,Newcastle (AW),Okami,Oisin McSweeney,Paul Midgley,0.120255
+,Wolverhampton (AW),Annexation,Jack Doughty,Tony Carroll,0.11896702
+,Meydan,Monumental,Connor Beasley,A bin Harmash,0.11855912
+,Dundalk (AW),Blanc De Blanc,Donagh O'Connor,Robson De Aguiar,0.11826216
+,Newcastle (AW),Shifter,Paula Muir,Wilf Storey,0.11810858
+,Wolverhampton (AW),Aiming High,Callum Shepherd,David Simcock,0.11769129
+,Exeter,Blackswan d'Oroux,Ben Jones,Ben Pauling,0.117535524
+,Exeter,Le Cold Grey,Harry Cobden,Paul Nicholls,0.117535524
+,Meydan,Remaadd,Silvestre De Sousa,Michael Costa,0.117190115
+,Wolverhampton (AW),Revolutionise,Jack Dace,Stuart Williams,0.117069125
+,Naas,Thiscouldbetheone,J J Slevin,Martin Brassil,0.11687421
+,Newcastle (AW),Henery Hawk,Kaiya Fraser,Linda Perratt,0.11640534
+,Dundalk (AW),Venetian,Reese Holohan,Denis Gerard Hogan,0.11622761
+,Wolverhampton (AW),Haziym,Jack Doughty,Tony Carroll,0.11607625
+,Dundalk (AW),So Must I,Gary Halpin,Joseph Patrick O'Brien,0.1159298
+,Meydan,Dubai Beach,Oisin Orr,Saeed bin Suroor,0.11587356
+,Wolverhampton (AW),Court Of Session,Grace McEntee,Phil McEntee,0.11559532
+,Wolverhampton (AW),Abduction,Luke Morris,Jim Goldie,0.11524335
+,Dundalk (AW),Nelliestar,Patrick McGettigan,Thomas Patrick McGettigan,0.11513769
+,Exeter,Governors Island,Bryan Carver,Harry Fry,0.11491765
+,Wolverhampton (AW),Nivelle's Magic,Warren Fentiman,Dan Horsford,0.11483277
+,Meydan,Al Shibli,Connor Beasley,Musabbeh Al Mheiri,0.11482443
+,Newcastle (AW),Evoluir,Aiden Brookes,Micky Hammond,0.114626646
+,Naas,Thankyouforthedays,Donagh Meyler,J P Dempsey,0.11415259
+,Wolverhampton (AW),Light Speed,Joanna Mason,Gemma Tutty,0.11409215
+,Meydan,Wanees,Pat Dobbs,Doug Watson,0.113853455
+,Meydan,Spacetown,Daniel Tudhope,Musabbeh Al Mheiri,0.11381812
+,Dundalk (AW),Clonbun,Yudish Geerdharry,J P Murtagh,0.11355093
+,Newcastle (AW),The Gay Blade,Andrew Mullen,Iain Jardine,0.11329018
+,Wolverhampton (AW),Harbour Vision,Kieran O'Neill,Scott Dixon,0.113230646
+,Naas,Lord Rouge,Sam Ewing,Gordon Elliott,0.113147356
+,Meydan,Cats By Five,Pat Dobbs,Doug Watson,0.11306737
+,Meydan,Made In Mexico,Jules Mobian,Hussain Al Marzooqi,0.11306171
+,Wolverhampton (AW),Jodhpur Blue,Edward Greatrex,Ian Williams,0.11299553
+,Exeter,Limerick Star,Callum Pritchard,Philip Hobbs & Johnson White,0.112794206
+,Naas,Mister Killeens,Mr A P Ryan,Andrew Slattery,0.11276945
+,Meydan,Big Meeting,Daniel Tudhope,Saeed bin Suroor,0.11220681
+,Meydan,Reservardo,James Doyle,Simon & Ed Crisford,0.111985035
+,Exeter,Malinaero,Isabel Williams,Evan Williams,0.11155009
+,Newcastle (AW),King Chaos,Kaiya Fraser,Rebecca Menzies,0.111467324
+,Wolverhampton (AW),Gustav Graves,Joanna Mason,Derek Shaw,0.11137514
+,Newcastle (AW),Bunker Bay,Aiden Brookes,Micky Hammond,0.11126296
+,Dundalk (AW),Wandering Rocks,Jamie Orr,William Durkan,0.110971764
+,Naas,The Rock Factor,Mr Derek O'Connor,Emmet Mullins,0.110928915
+,Dundalk (AW),Lady Crossing,Gary Halpin,William J Fitzpatrick,0.11083269
+,Meydan,Vino Sauro,Saffie Osborne,Jamie Osborne,0.11062734
+,Wolverhampton (AW),Bystander,Jack Dace,Stuart Williams,0.11047242
+,Dundalk (AW),Outlaw Man,Leigh Roche,M D O'Callaghan,0.11046078
+,Meydan,Fiction Maker,NON-RUNNER,Ahmed Al Shemaili,0.109730065
+,Newcastle (AW),Little Mi Mi,Mohammed Tabti,Iain Jardine,0.109549716
+,Meydan,Ghisa,Kieran Shoemark,Charlie Fellowes,0.10927198
+,Dundalk (AW),One For Teigan,Killian Leonard,P Sweeney,0.109176874
+,Meydan,Blue Trail,Bernardo Pinheiro,Kareem Ramadan,0.10914576
+,Dundalk (AW),Never Shout Never,Gary Halpin,Andrew McNamara,0.10841976
+,Meydan,Heart Of Libya,Francisco Goncalves,Antonio Cintra & Julio Olascoaga,0.10829788
+,Dundalk (AW),Trishuli River,Patrick McGettigan,Shane Crawley,0.10814054
+,Meydan,Laman Edelveys,Chantal Sutherland,Bhupat Seemar,0.107976146
+,Dundalk (AW),Heart Of Eternity,Leigh Roche,Denis Gerard Hogan,0.10795154
+,Dundalk (AW),Storm Eric,Scott McCullagh,Jamie Flynn,0.10714434
+,Naas,I'll Sort That,Mr D L Queally,Declan Queally,0.107116394
+,Meydan,Do Or Do Not,Saffie Osborne,Jamie Osborne,0.10706478
+,Newcastle (AW),Royal Blaze,Shane Gray,Ewan Whillans,0.10683565
+,Wolverhampton (AW),Some Nightmare,Gina Mangan,John O'Shea,0.10682405
+,Wolverhampton (AW),Punchbowl Flyer,William Carson,John O'Shea,0.10652855
+,Wolverhampton (AW),Brian The Snail,David Nolan,Patrick Morris,0.10647265
+,Meydan,Injazati,Sandro Paiva,Maitha Alsuwaidi,0.10590913
+,Wolverhampton (AW),Gemmari,Sean Levey,Richard Hannon,0.10570952
+,Meydan,Straight And Level,Tadhg O'Shea,Bhupat Seemar,0.10554508
+,Wolverhampton (AW),Arantes Nascimento,Sean Levey,Michael Attwater,0.10554235
+,Newcastle (AW),Mostar Dreams,Oisin McSweeney,Adrian Paul Keatley,0.10545568
+,Newcastle (AW),Sogannie,James Sullivan,Ruth Carr,0.10530642
+,Dundalk (AW),Incredible Army,Killian Leonard,Jack Foley,0.10516436
+,Naas,Sainte Tartare,Brian Hayes,W P Mullins,0.10508538
+,Dundalk (AW),Satisfy My Soul,Nathan Crosse,John S O'Donoghue,0.104972385
+,Meydan,Zandvoort,Richard Mullen,Bhupat Seemar,0.10491791
+,Dundalk (AW),Kitty Bear,Orla Tynan,Andrew Slattery,0.104305305
+,Newcastle (AW),Bossy Parker,Zak Wheatley,Tony Culhane & Stella Barclay,0.10410323
+,Dundalk (AW),Edge Of Darkness,Darragh O'Sullivan,Daniel John Howard,0.10364266
+,Newcastle (AW),Electric Avenue,Cam Hardie,Ivan Furtado,0.10359417
+,Newcastle (AW),Tommytwohoots,Alistair Rawlinson,Shaun Harris,0.10339162
+,Meydan,San Sebastian,Vaclav Janacek,G Arizkorreta Elosegui,0.10323873
+,Naas,Boston Bobby,Tiernan Power Roche,P J Rothwell,0.10314699
+,Meydan,Arigatou Gozaimasu,Bernardo Pinheiro,Salem bin Ghadayer,0.10299973
+,Naas,Fruit De Mer,Darragh O'Keeffe,Henry De Bromhead,0.102994956
+,Meydan,Molaqab,Silvestre De Sousa,Michael Costa,0.10270817
+,Dundalk (AW),Powerful Rosie,Mark Crehan,Liz Doyle,0.10239967
+,Meydan,Made In Dubai,Bernardo Pinheiro,Salem bin Ghadayer,0.10220154
+,Meydan,Abshrek,Victor Salgado,Rashed Bouresly,0.10188683
+,Meydan,Gray Boss,Tadhg O'Shea,Bhupat Seemar,0.10122852
+,Newcastle (AW),Elettaria,Cam Hardie,John Wainwright,0.10118158
+,Meydan,Words Of Truth,William Buick,Charlie Appleby,0.10053963
+,Dundalk (AW),Sarfarcat,,Thomas Coyle,0.10048217
+,Dundalk (AW),Lady Luck,Gary Halpin,Rodger Sweeney,0.100375615
+,Wolverhampton (AW),Simply Blue,Harry Davies,James Owen,0.10017991
+,Meydan,Rashwan,Tadhg O'Shea,Bhupat Seemar,0.10013971
+,Meydan,Hilitany,Billy Loughnane,George Boughey,0.09993807
+,Naas,Rathbawn Soldier,Alex Harvey,Patrick T Foley,0.09974839
+,Dundalk (AW),Si Senior,Julian Pietropaolo,M K Flannery,0.09959259
+,Dundalk (AW),Lady In Gold,Shay Wallace,Joseph Patrick O'Brien,0.099337496
+,Wolverhampton (AW),Star Of Mali,Rob Hornby,James Tate,0.099152625
+,Dundalk (AW),Buddy Batt,Hugh Horgan,Tracey Collins,0.09895088
+,Meydan,Vercors,Daniel Tudhope,Antonio Cintra & Julio Olascoaga,0.09895088
+,Exeter,Devilsrollthedice,Rian Corcoran,Gordon Treacy,0.09846538
+,Wolverhampton (AW),Kit Gabriel,Tyler Heard,Simon Pearce,0.09811429
+,Naas,Honey Come Quick,Tiernan Power Roche,P J Rothwell,0.097897656
+,Naas,Newbrook Diamond,Jack Kennedy,Gordon Elliott,0.097592935
+,Dundalk (AW),Sinbad My Dad,Paddy Harnett,Seamus Fahey,0.097582676
+,Dundalk (AW),Lovewhatyoudo,Sean Davis,Sean Davis,0.09757175
+,Dundalk (AW),Picadilly Reserve,Gary Halpin,Joseph Patrick O'Brien,0.09757175
+,Exeter,A King Of Magic,Liam Harrison,Paul Nicholls,0.09742813
+,Exeter,Best Trump,Jonjo O'Neill Jr,Jonjo & A J O'Neill,0.09742813
+,Exeter,Like A Dancer,Conor Ring,Evan Williams,0.09742813
+,Exeter,Sailing By,Brendan Powell,Joe Tizzard,0.09742813
+,Exeter,Valiant Soldier,Freddie Gingell,Joe Tizzard,0.09742813
+,Naas,Champagne Mahler,Darragh O'Keeffe,Henry De Bromhead,0.09739291
+,Wolverhampton (AW),Best Rate,Sean Levey,Richard Hannon,0.09736967
+,Meydan,Second Name,,Salman Al Sabri,0.09720417
+,Meydan,Fire D'Oro,Sam Hitchcott,A bin Harmash,0.09702727
+,Meydan,Yamdeek,Connor Beasley,A bin Harmash,0.09702727
+,Dundalk (AW),Rock Etoile,Leigh Roche,Patrick J McKenna,0.0969374
+,Dundalk (AW),Merciless,Rory Cleary,Josh Halley,0.096888825
+,Wolverhampton (AW),Waistcoat,Jack Mitchell,Ross Burdon,0.0965214
+,Wolverhampton (AW),Carbine Harvester,Cieren Fallon,William Haggas,0.09646634
+,Exeter,Keepsoldieringon,Paul O'Brien,Helen Nelmes,0.09607319
+,Dundalk (AW),Stay In The Game,Rory Cleary,John Joseph Hanlon,0.09604637
+,Newcastle (AW),Our Nicola,Kaiya Fraser,David & Nicola Barron,0.095601484
+,Naas,Kovanis,Danny Gilligan,Gordon Elliott,0.0955211
+,Exeter,Mortal Coil,Joshua Bryan,Tom Weston,0.095511295
+,Meydan,Nibras Passion,Bernardo Pinheiro,Ahmed Al Shemaili,0.09531311
+,Meydan,Valdivia,Connor Beasley,A bin Harmash,0.09523376
+,Wolverhampton (AW),Brave Empire,Darragh Keenan,Ivan Furtado,0.0946963
+,Dundalk (AW),Salah Belle,Nathan Crosse,Ms Sheila Lavery,0.09457451
+,Dundalk (AW),Sand Art,,Kevin Thomas Coleman,0.09420288
+,Dundalk (AW),Bella Colombia,Donagh O'Connor,W McCreery,0.09417117
+,Dundalk (AW),Queen Earthlight,,D K Weld,0.094165176
+,Meydan,Laasudood,Sandro Paiva,Bhupat Seemar,0.09400199
+,Meydan,Daamiss,Silvestre De Sousa,Michael Costa,0.093896955
+,Dundalk (AW),Dontspoilasale,Adam Grant,Denis Gerard Hogan,0.093864925
+,Exeter,Weseekherthere,Sean Houlihan,Philip Hobbs & Johnson White,0.09346031
+,Wolverhampton (AW),Mr Baloo,Sean Levey,Richard Hannon,0.09323743
+,Wolverhampton (AW),Phone Tag,Jack Mitchell,Kevin Frost,0.09323743
+,Dundalk (AW),Zezuru,,Ciaran Murphy,0.0931802
+,Dundalk (AW),Beat The Devil,Donagh O'Connor,Patrick Magee,0.093125716
+,Dundalk (AW),Porsche Lad,Nicola Burns,Denis Gerard Hogan,0.09307431
+,Dundalk (AW),Surf On Jamie,,Paul Mulligan,0.09280797
+,Wolverhampton (AW),The Sweet Escape,Finley Marsh,David Loughnane,0.09242769
+,Dundalk (AW),Riyami,Mel Sheridan,Denis Gerard Hogan,0.09203362
+,Meydan,Brotherly Love,Saffie Osborne,Jamie Osborne,0.09188898
+,Dundalk (AW),Gold Dublooms,Killian Leonard,Eamonn O'Connell,0.0918582
+,Exeter,Victory Shout,Harry Kimber,Syd Hosie,0.091822594
+,Wolverhampton (AW),Zoulu Warrior,Cieren Fallon,Heather Main,0.0918075
+,Naas,Healys Pub,Phillip Enright,Oliver McKiernan,0.09141951
+,Meydan,Hallasan,William Buick,Charlie Appleby,0.09127777
+,Wolverhampton (AW),Addarella,Marco Ghiani,Marco Botti,0.091273464
+,Meydan,Arabian Story,Oisin Orr,Saeed bin Suroor,0.09119751
+,Newcastle (AW),Riddikulus,Oliver Stammers,Grant Tuer,0.091180734
+,Meydan,Jeff Koons,James Doyle,Hamad Al Jehani,0.09113155
+,Meydan,Carron,Billy Loughnane,George Boughey,0.090979554
+,Meydan,Giustino,Francisco Goncalves,Antonio Cintra & Julio Olascoaga,0.090974666
+,Meydan,The Fingal Raven,Saffie Osborne,Jamie Osborne,0.090974666
+,Dundalk (AW),Killyclogher Rose,Nathan Crosse,A Oliver,0.09094713
+,Meydan,Gorak,Kieran Shoemark,Charlie Fellowes,0.09090706
+,Wolverhampton (AW),Cargin Bhui,Lewis Edmunds,David & Nicola Barron,0.09075451
+,Dundalk (AW),Man Is King,Jimmy Dalton,Thomas Dowling,0.090639405
+,Dundalk (AW),Lunigiana,Nicola Burns,W McCreery,0.09043742
+,Wolverhampton (AW),Eminency,Jack Dace,Stuart Williams,0.09030311
+,Dundalk (AW),Vibrato,Killian Leonard,Cian Collins,0.09024744
+,Meydan,Inspired Idea,Pat Dobbs,Doug Watson,0.09000504
+,Meydan,Comet Chaser,NON-RUNNER,Antonio Cintra & Julio Olascoaga,0.08999623
+,Wolverhampton (AW),Al Rufaa,Callum Rodriguez,Daniel & Claire Kubler,0.089887746
+,Wolverhampton (AW),Mollie Foster,Cieren Fallon,Mark Loughnane,0.08983013
+,Exeter,Tom Taggle,Isabel Williams,Evan Williams,0.08973034
+,Dundalk (AW),No Bother Aoife,,Gavin Cromwell,0.089682795
+,Meydan,Eye On The Prize,Francisco Goncalves,Antonio Cintra & Julio Olascoaga,0.0896123
+,Meydan,Sudden Ambush,Bernardo Pinheiro,Salem bin Ghadayer,0.0896123
+,Naas,Takemebacktodakota,Harry Sexton,Adrian Sexton,0.089497335
+,Wolverhampton (AW),Amerjeet,Rob Hornby,Michael Herrington,0.08948813
+,Meydan,Sword Maker,Oisin Orr,Saeed bin Suroor,0.0891008
+,Wolverhampton (AW),Paladin,Jack Mitchell,Kevin Frost,0.08836545
+,Exeter,I'm Wide Awake,Lucy Gardner,Sue Gardner,0.08827436
+,Wolverhampton (AW),San Juanito,Robert Havlin,Mike Murphy,0.08821133
+,Meydan,Jenilat Bright,Kieran Shoemark,Miroslav Nieslanik,0.08821133
+,Meydan,Ocean Viking,James Doyle,Simon & Ed Crisford,0.08782304
+,Newcastle (AW),Viking Glory,Oisin McSweeney,Adrian Paul Keatley,0.08758456
+,Naas,Anodandawink,E Walsh,Ciaran Murphy,0.087530695
+,Dundalk (AW),Palmezzano,Nicola Burns,Denis Gerard Hogan,0.08725321
+,Wolverhampton (AW),Benacre,Jason Hart,Charlie Johnston,0.08721322
+,Wolverhampton (AW),Rajapour,David Nolan,David O'Meara,0.08721322
+,Wolverhampton (AW),Hitched,Luke Morris,David Simcock,0.08721322
+,Exeter,Locked Down Lad,Taylor Fisher,Joe Tickle,0.08721322
+,Exeter,Miss Tiara,Lorcan Williams,Jeremy Scott,0.08717675
+,Wolverhampton (AW),North View,Marco Ghiani,Stuart Williams,0.086668715
+,Wolverhampton (AW),Intinso,Tom Eaves,Craig Lidster,0.08664365
+,Meydan,Kathab,Myrzabek Kappushev,Ali Al Badwawi,0.08664365
+,Meydan,Silver Sword,George Wood,Dylan Cunha,0.08664365
+,Wolverhampton (AW),Stellenbosch,Sean Levey,Richard Hannon,0.0866098
+,Exeter,Paddy In The Caddy,Sean Houlihan,Philip Hobbs & Johnson White,0.086587556
+,Exeter,Eastern Fire,Harry Skelton,Dan Skelton,0.08611096
+,Wolverhampton (AW),Dragon Leader,NON-RUNNER,Clive Cox,0.08582637
+,Wolverhampton (AW),Purest Time,Joanna Mason,Ian Williams,0.08579399
+,Meydan,Destructive,Andrew Slattery,Bhupat Seemar,0.08560846
+,Meydan,Apotheosis,James Doyle,Simon & Ed Crisford,0.08560846
+,Meydan,See Hector,Pat Dobbs,Doug Watson,0.08557379
+,Newcastle (AW),New Bay Star,Oliver Stammers,Charlie Johnston,0.08547425
+,Meydan,Deep Hope,Adel Alqeeyadi,Bhupat Seemar,0.08537389
+,Wolverhampton (AW),Advancing,Marco Ghiani,Marco Botti,0.08524703
+,Wolverhampton (AW),Towerlands,Jack Doughty,Tony Carroll,0.08494364
+,Meydan,Olympic Candle,Daniel Tudhope,Saeed bin Suroor,0.08474875
+,Naas,Magic McColgan,Danny Mullins,W P Mullins,0.08455005
+,Meydan,Spy Kingdom,Connor Beasley,A bin Harmash,0.08441767
+,Naas,Golden Joy,Jack Kennedy,Gordon Elliott,0.08431655
+,Dundalk (AW),Battle Borne,Paddy Harnett,Patrick J McKenna,0.08417643
+,Meydan,Awesome Fleet,Bernardo Pinheiro,Salem bin Ghadayer,0.08406545
+,Dundalk (AW),Thirsty Owl,Brandon Wilkie,Gavin Cromwell,0.0836388
+,Meydan,National Bank,Jamie Powell,Doug Watson,0.08356353
+,Meydan,Brnytshe,Kieran Shoemark,Musabbeh Al Mheiri,0.083334915
+,Meydan,Tai Hang Pegasus,Ray Dawson,Charlie Fellowes,0.083334915
+,Naas,Barley Lane,Kieren Buckley,Eddie & Patrick Harty,0.083152674
+,Wolverhampton (AW),Francesco Baracca,Jack Nicholls,Eve Johnson Houghton,0.08314186
+,Newcastle (AW),Marcello Si,Rhys Elliott,Michael Dods,0.083080485
+,Dundalk (AW),Jazz Dreamers,Yudish Geerdharry,Seamus Fahey,0.083065525
+,Newcastle (AW),Red House,Cam Hardie,Ann Duffield,0.08288634
+,Newcastle (AW),Freezing Havana,Duran Fentiman,Adrian Nicholls,0.08288634
+,Meydan,Petit,Andrew Slattery,Bhupat Seemar,0.08288634
+,Wolverhampton (AW),Flaine,Connor Planas,David Loughnane,0.082803294
+,Meydan,Rapper's Delight,Saffie Osborne,Richard Spencer,0.08277906
+,Naas,Kurasso Blue,Jack Kennedy,Gordon Elliott,0.082603976
+,Meydan,Fort George,Kieran Shoemark,Ed Walker,0.08257397
+,Dundalk (AW),Prairie Girl,Patrick McGettigan,Daniel James Murphy,0.08244896
+,Newcastle (AW),Enola Grey,Kaiya Fraser,Gemma Tutty,0.08234337
+,Meydan,Mothecombe,Richard Mullen,Charlie Appleby,0.0822308
+,Wolverhampton (AW),Metaverse,Robert Havlin,David Menuisier,0.082047015
+,Dundalk (AW),Hale Bopp,Patrick McGettigan,R Donohoe,0.082020886
+,Dundalk (AW),Mount Eden,Paddy Harnett,Donnacha Aidan O'Brien,0.081810616
+,Dundalk (AW),Equilux,Shay Wallace,Joseph Patrick O'Brien,0.081802234
+,Exeter,Into The Park,Ben Jones,Philip Hobbs & Johnson White,0.081640564
+,Naas,Eye On The Ball,Simon Torrens,J A Nash,0.08160732
+,Wolverhampton (AW),I Need Your Love,NON-RUNNER,Michael & David Easterby,0.08158762
+,Newcastle (AW),Sunday Sinatra,Andrew Mullen,Ollie Sangster,0.08157811
+,Wolverhampton (AW),Arcadian Nights,Edward Greatrex,Mark Loughnane,0.081543036
+,Meydan,Al Salt,Myrzabek Kappushev,Ali Al Badwawi,0.08122731
+,Newcastle (AW),Invincible Annice,Amie Waugh,Tracy Waggott,0.08109864
+,Wolverhampton (AW),Little Empire,Callum Shepherd,Anthony McCann,0.080893464
+,Exeter,Crystal Orchard,Brendan Powell,Joe Tizzard,0.080823556
+,Wolverhampton (AW),Borgi,Kieran O'Neill,S Woods,0.08075227
+,Dundalk (AW),Mehman,Reese Holohan,Denis Gerard Hogan,0.08063327
+,Dundalk (AW),Rough Diamond,Jimmy Dalton,John G Carr,0.0806303
+,Exeter,Johnny's Jury,Gavin Sheehan,Jamie Snowden,0.080490135
+,Wolverhampton (AW),Urban Road,Jason Hart,Alan Brown,0.08046348
+,Meydan,Eljenob,Ray Dawson,Michael Costa,0.08046348
+,Meydan,Gun Carriage,Adrie de Vries,Dylan Cunha,0.08042688
+,Meydan,Nyaar,Mikey Sheehy,Doug Watson,0.08038681
+,Dundalk (AW),Gobi Star,Shay Wallace,James M Barcoe,0.08038485
+,Meydan,Acacus,Silvestre De Sousa,A bin Harmash,0.08035821
+,Dundalk (AW),My Vonnie,Rory Mulligan,M M Rice,0.08028708
+,Meydan,Delorean,Connor Beasley,A bin Harmash,0.0799341
+,Meydan,Cosmic Desert,Sam Hitchcott,A bin Harmash,0.0799341
+,Exeter,Eton Mes,Jack Tudor,David Pipe,0.07941852
+,Exeter,Lirone Du Seuil,Harry Skelton,Dan Skelton,0.07941852
+,Meydan,Kalidasa,Tadhg O'Shea,Bhupat Seemar,0.07941852
+,Meydan,Changing Colours,Sandro Paiva,Bhupat Seemar,0.07913796
+,Dundalk (AW),Endless Dawn,Rory Cleary,Adrian McGuinness,0.07901287
+,Wolverhampton (AW),I Still Have Faith,Marco Ghiani,Stuart Williams,0.0789684
+,Newcastle (AW),Arlington,Matthew Lloyd Slater,Bryan Smart,0.07889359
+,Naas,Shadys Lady,Michael Kenneally,Declan Queally,0.07870037
+,Exeter,Directly,Ben Jones,Samuel Drinkwater,0.078661196
+,Exeter,Olivia Kate,Stan Sheppard,Matt Sheppard,0.078661196
+,Newcastle (AW),Soho Square,Shane Gray,Edward Bethell,0.078624226
+,Dundalk (AW),Neo Smart,Nicola Burns,J S Bolger,0.078497835
+,Dundalk (AW),Pavilion End,Keithen Kennedy,Charles O'Brien,0.07842082
+,Newcastle (AW),Esque Elegance,Lauren Young,Ann Duffield,0.07818711
+,Exeter,Bonza Boy,Lorcan Williams,Jeremy Scott,0.07794511
+,Dundalk (AW),Astronomically,Paddy Harnett,Donnacha Aidan O'Brien,0.07790038
+,Newcastle (AW),Great Mates,Paul Mulrennan,Michael Wigham,0.0776875
+,Meydan,Rebaatt,Silvestre De Sousa,Michael Costa,0.0775475
+,Newcastle (AW),Asia Force,Pierre-Louis Jamin,K R Burke,0.077490926
+,Dundalk (AW),Qamari,Adam Grant,John C McConnell,0.07739772
+,Meydan,Kahrman,NON-RUNNER,Rashed Bouresly,0.07736277
+,Dundalk (AW),Alfred Tennyson,Hugh Horgan,Denis Gerard Hogan,0.07731417
+,Dundalk (AW),Jered Maddox,Rebecca Parsons,David Marnane,0.077270724
+,Wolverhampton (AW),Commander Of Life,Lewis Edmunds,Jessica Macey,0.07726919
+,Wolverhampton (AW),Bubbles Wonky,Thomas Greatrex,Mark Pattinson,0.07726919
+,Wolverhampton (AW),Robbo,Robert Havlin,Thomas Faulkner,0.07726919
+,Meydan,Motadarrek,Ben Coen,John Hyde,0.07726919
+,Meydan,Wesam,Oisin Orr,Saeed bin Suroor,0.07726919
+,Wolverhampton (AW),Toomuchforme,Alex Jary,Antony Brittain,0.07722409
+,Dundalk (AW),Methgal,Conor Cusack,P J F Murphy,0.07713484
+,Newcastle (AW),Alba Gu Brath,Andrew Mullen,Charlie Johnston,0.07682756
+,Naas,Park That,Simon Torrens,E Bolger,0.07676649
+,Dundalk (AW),Brosna Green,Jessica O'Gorman,Patrick J McKenna,0.07668917
+,Naas,Can't Catch Molly,Patrick M O'Brien,Patrick Downey,0.07604143
+,Exeter,Lord Virginia,Beau Morgan,Martin Keighley,0.07576003
+,Exeter,Pourquoi Pas Papa,Harry Cobden,Paul Nicholls,0.07572945
+,Wolverhampton (AW),Sea Founder,Finley Marsh,Richard Hughes,0.0757157
+,Wolverhampton (AW),My Fermoy,Rob Hornby,Denis Coakley,0.0757157
+,Meydan,Pantani,Jamie Powell,Doug Watson,0.0757157
+,Meydan,Volcanic Rock,Ray Dawson,Saeed bin Suroor,0.0757157
+,Exeter,Storming Nelson,Lucy Gardner,Sue Gardner,0.0757089
+,Newcastle (AW),Wee Nan,Taryn Langley,Alan Brown,0.0753716
+,Exeter,Gospel Moon,Ciaran O'Shea,Sue Gardner,0.075322
+,Meydan,Doc Holliday,Carlos Lopez,Niels Petersen,0.0752807
+,Meydan,Honest Desert,Saif Al Balushi,A bin Harmash,0.0752807
+,Meydan,Klinja,Adrie de Vries,A bin Harmash,0.0752807
+,Newcastle (AW),Choir Boy,Cam Hardie,Antony Brittain,0.07498473
+,Newcastle (AW),Level Look,Jason Watson,Andrew Balding,0.07498473
+,Meydan,Gold Index,Vaclav Janacek,G Arizkorreta Elosegui,0.07493848
+,Wolverhampton (AW),Tonal,Ryan Kavanagh,Ian Williams,0.07476742
+,Naas,Letos,Danny Mullins,Anthony Mullins,0.074725114
+,Meydan,Military Artist,,Musabbeh Al Mheiri,0.074677505
+,Meydan,Street Mood,Daniel Tudhope,Musabbeh Al Mheiri,0.07452566
+,Dundalk (AW),Picture This,Paddy Harnett,G T Hourigan,0.07423443
+,Dundalk (AW),Charm Of Venice,Nicola Burns,A Oliver,0.074005775
+,Newcastle (AW),Cardinal Point,Joe Bradnam,Michael Bell,0.073926166
+,Wolverhampton (AW),Zoulu Chief,Jack Mitchell,Heather Main,0.07388118
+,Wolverhampton (AW),Dyrholaey,Luke Morris,Archie Watson,0.073869094
+,Exeter,Wewillgowithplanb,Conor Ring,Evan Williams,0.073807165
+,Meydan,Silent Defense,Victor Salgado,Rashed Bouresly,0.07371668
+,Wolverhampton (AW),The Caltonian,Jason Hart,Linda Perratt,0.07365199
+,Wolverhampton (AW),Justcallmepete,Dougie Costello,Tony Carroll,0.07363993
+,Wolverhampton (AW),Dosman,Jonny Peate,Oli Rix,0.07363098
+,Meydan,Chaldero,Ray Dawson,Miroslav Nieslanik,0.07346718
+,Meydan,Impressive Act,,Bhupat Seemar,0.07315128
+,Meydan,Nocutsnobuts,Sandro Paiva,Oscar Berneklint,0.07312194
+,Meydan,Surpreme Shine,Rebecca Stalhandske,Oscar Berneklint,0.07312194
+,Meydan,Road Bloc,Richard Mullen,Osama Refai,0.0730914
+,Newcastle (AW),Onyeisi,Jason Watson,Charlie Johnston,0.073005855
+,Newcastle (AW),Donna Nook,Jason Watson,David O'Meara,0.07279561
+,Wolverhampton (AW),Bell Shot,Harry Davies,Michael Appleby,0.07268031
+,Exeter,Royal Mer,Jack Tudor,David Pipe,0.07263403
+,Meydan,Furioso,Vaclav Janacek,G Arizkorreta Elosegui,0.072591476
+,Newcastle (AW),Petes Diamond,Alistair Rawlinson,Joey Ramsden,0.07237776
+,Wolverhampton (AW),Invincible Melody,Jack Dace,Stuart Williams,0.07211538
+,Wolverhampton (AW),Brunel Nation,Donagh Murphy,Richard Hughes,0.07203289
+,Exeter,Tommy The Tank,Charlie Hammond,Dr Richard Newland & Jamie Insole,0.07199838
+,Meydan,Expert Choice,,Antonio Cintra & Julio Olascoaga,0.07197795
+,Meydan,Great Wish,Kieran Shoemark,Bent Olsen,0.07173471
+,Exeter,Final Surprise,Ciaran Gethings,Alastair Ralph,0.07168476
+,Meydan,Na Eem,Richard Mullen,Bhupat Seemar,0.07161396
+,Exeter,Kingcormac,Taylor Fisher,Joe Tickle,0.0715479
+,Wolverhampton (AW),Ziggy's Condor,Warren Fentiman,Richard Fahey,0.07127889
+,Exeter,Passing Kate,Stan Sheppard,Matt Sheppard,0.07118956
+,Exeter,Iamcelestialgift,Kielan Woods,David Killahena & Graeme McPherson,0.07109058
+,Naas,Moudan,E Walsh,Ciaran Murphy,0.07094013
+,Naas,Akako,Conor Stone-Walsh,Gavin Cromwell,0.07093357
+,Meydan,Moon Blade,Ray Dawson,Marwan Al Baidhaei,0.07072166
+,Newcastle (AW),Five Cay,Taryn Langley,Jack Morland,0.07071657
+,Dundalk (AW),Nakasero,Adam Grant,Henry De Bromhead,0.07061673
+,Exeter,Lady Dapple Rose,James Best,Harriet Dickin,0.07060101
+,Naas,Time Is A Thief,NON-RUNNER,Henry De Bromhead,0.07026461
+,Meydan,Irish Fighter,Silvestre De Sousa,Salman Al Sabri,0.06972971
+,Wolverhampton (AW),Coachello,Edward Greatrex,Mark Loughnane,0.06918082
+,Exeter,Iris Des Issards,Harry Cobden,Kayley Woollacott,0.06905589
+,Exeter,Moorland Rambler,Ciaran Gethings,Jane Williams,0.06904453
+,Meydan,Manshod,,Michael Costa,0.06897932
+,Naas,Orlando Spirit,Sean O'Keeffe,Paul Power,0.068657205
+,Meydan,Awab,Richard Mullen,Musabbeh Al Mheiri,0.06840288
+,Meydan,Native American,Daniel Tudhope,Hamad Al Jehani,0.06818397
+,Meydan,Force And Valour,Billy Loughnane,George Scott,0.06816298
+,Wolverhampton (AW),Kullazain,Callum Shepherd,James Tate,0.06814007
+,Exeter,Largy Panic,Toby McCain-Mitchell,Ben Clarke,0.06794104
+,Wolverhampton (AW),Tennessee Gold,Cieren Fallon,Joseph Parr,0.067815185
+,Meydan,Caramelito,Adrie de Vries,N Caullery,0.06768576
+,Naas,Felix Unger,Cian Cullinan,P G Fahey,0.067607366
+,Wolverhampton (AW),Diamondonthehill,Luke Morris,Dr Richard Newland & Jamie Insole,0.06757795
+,Meydan,Sean,Saffie Osborne,Jamie Osborne,0.06744729
+,Exeter,Robber's Bridge,Brendan Powell,Dan Horsford,0.06704732
+,Meydan,Transcending Glory,Adrie de Vries,Mohammad Mardood,0.0670115
+,Meydan,Crown Estate,Qais Bin Saif Al Busaidi,Salem bin Ghadayer,0.06677613
+,Meydan,Million Doro,,A bin Harmash,0.06677613
+,Meydan,Flying Comet,Silvestre De Sousa,Simon & Ed Crisford,0.06634567
+,Exeter,Alto Alto,Freddie Gordon,Chris Gordon,0.06610128
+,Wolverhampton (AW),Shiplake,Darragh Keenan,Kevin Philippart De Foy,0.06605393
+,Exeter,Haas Boy,Harry Cobden,Chester Williams,0.0656365
+,Meydan,Beccali,,Charlie Appleby,0.06558825
+,Dundalk (AW),Amemri,Darragh O'Sullivan,David Marnane,0.06546337
+,Naas,Takenasred,Sam Ewing,S R B Crawford,0.06526063
+,Meydan,Dioptase,Ray Dawson,Helal & Tahnon Alalawi,0.065177344
+,Naas,Apache Peak,Mr L P Shanahan,Ross O'Sullivan,0.065073274
+,Naas,Major Wells,Sean Flanagan,Gerard Edmund O'Leary,0.064705394
+,Wolverhampton (AW),Badri,Lewis Edmunds,Michael Herrington,0.064554006
+,Wolverhampton (AW),Many A Star,Rob Hornby,Jamie Osborne,0.064554006
+,Meydan,Echo Point,Connor Beasley,Musabbeh Al Mheiri,0.06417321
+,Dundalk (AW),Yutori,Scott McCullagh,Daniel McLoughlin,0.06346888
+,Exeter,Risk De Pluie,Toby McCain-Mitchell,Ben Clarke,0.063347936
+,Exeter,Alidam,Conor Rabbitt,Sophie Leech,0.06305121
+,Wolverhampton (AW),Bela Sonata,Callum Rodriguez,Oliver Cole,0.062302988
+,Meydan,Postmodern,James Doyle,Hamad Al Jehani,0.06182683
+,Meydan,Maximized,Richard Mullen,Charlie Appleby,0.061741985
+,Exeter,Prairie Diamond,Freddie Keighley,Martin Keighley,0.060718108
+,Exeter,Whatmakes Honey B,Chad Bament,Harriet Brown,0.060718108
+,Naas,Mount Frisco,Daniel King,John Patrick Ryan,0.060705554
+,Exeter,It's A Breeze,Jay Tidball,Paul Nicholls,0.06042963
+,Exeter,Benignitas,Rian Corcoran,Gordon Treacy,0.06005426
+,Wolverhampton (AW),Gaiety Musical,Jack Dace,David Evans,0.060049847
+,Newcastle (AW),Family Values,Tom Kiely-Marshall,Dylan Cunha,0.05991719
+,Dundalk (AW),Marbush,Nicola Burns,Denis Gerard Hogan,0.05968084
+,Newcastle (AW),Trust No One,Taryn Langley,Lemos De Souza,0.059292085
+,Naas,The Dancen Kid,Shane Fitzgerald,Ross O'Sullivan,0.05795275
+,Wolverhampton (AW),Mythical Composer,Jack Nicholls,Clive Cox,0.057781383
+,Naas,Classical Creek,Jack Kennedy,Gordon Elliott,0.057118937
+,Exeter,Shuil Ceoil,Bradley Harris,Neil Mulholland,0.057099566
+,Exeter,Getaway With You,Nick Slatter,David Killahena & Graeme McPherson,0.057099566
+,Naas,Mr Devlin,Jordan Gainford,Conor David Maxwell,0.055684507
+,Naas,Max Meridius,NON-RUNNER,Thomas Mullins,0.055211473
+,Naas,Leonards Choice,Benjamin P Kennedy,Francis J Flood,0.05416429
+,Wolverhampton (AW),Follow Your Heart,Warren Fentiman,Mark Loughnane,0.05392875
+,Newcastle (AW),Clansman,Billy Garritty,Liam Bailey,0.053853836
+,Naas,Coole Cafe,Mr D G Lavery,Gavin Cromwell,0.05378911
+,Naas,Survivors Sister,Jack G Gilligan,Paul John Gilligan,0.053359583
+,Naas,Run For Cover,Conor Brassil,Martin Brassil,0.053294588
+,Naas,Daws Cross,Conor Lamon,Adrian Sexton,0.05270321
+,Wolverhampton (AW),Betsen,Tom Eaves,Tony Carroll,0.05138329
+,Dundalk (AW),Heart Of Darkness,Rory Cleary,Adrian McGuinness,0.051230658
+,Naas,Coppola,Brian Barry,C A McBratney,0.05099365
+,Naas,Gaoth Chuil,Shane O'Callaghan,T M Walsh,0.05046636
+,Exeter,Wicked Thoughts,Harry Cobden,Paul Nicholls,0.050033648
+,Exeter,Call Me Legend,Murray Dodd,Philip Hobbs & Johnson White,0.04916955
+,Exeter,First Confession,Brendan Powell,Joe Tizzard,0.04899887
+,Exeter,Crossgales King,Harry Atkins,Syd Hosie,0.048647292
+,Naas,Rockbrook,Shane O'Callaghan,P J Rothwell,0.047687363
+,Exeter,Boyles Hill,Conor Ring,Evan Williams,0.047476523
+,Exeter,Saint Anapolino,Sean Houlihan,Philip Hobbs & Johnson White,0.04713053
+,Dundalk (AW),Smaoineamh Sile,Darragh O'Sullivan,Conor David Maxwell,0.045023065
+,Dundalk (AW),Sporting Hero,Darragh O'Sullivan,Denis Gerard Hogan,0.044744387
+,Dundalk (AW),Carrickfinn,Julian Pietropaolo,Shane Gallagher,0.04437027
+,Naas,Good Option,Keith Donoghue,Gavin Cromwell,0.044313975
+,Naas,Lyreen Og,,A J Martin,0.044313975
+,Exeter,Gillespie,Freddie Keighley,Paul Nicholls,0.044258494
+,Naas,Ballyedward,,S R B Crawford,0.043430183
+,Naas,Gangster Granny,Shane O'Callaghan,C A McBratney,0.041097824
+,Exeter,Silver Thorn,Ben Jones,Emma Lavelle,0.04070077
+,Naas,Blow Wind Blow,Mark Walsh,E Bolger,0.040532507
+,Naas,Ballygorey Ruby,Michael Kenneally,E Sheehy,0.04026819
+,Naas,Saunton Surf,Philip Donovan,Gary McGill,0.040037222
+,Exeter,Followcato,Kielan Woods,Ben Pauling,0.039884657
+,Naas,Jetstream Jeff,Mr A O Harrington,Peter McCreery,0.039517887
+,Exeter,Tzarmix,Toby McCain-Mitchell,Alastair Ralph,0.039447527
+,Naas,The Great Nudie,Sean Flanagan,Colin Bowe,0.039352734
+,Exeter,Pilsdon Pen,Lorcan Williams,Jeremy Scott,0.039265048
+,Exeter,Laganhill,David Bass,Henry Daly,0.03901415
+,Naas,Teenage Kiss,Charlie O'Dwyer,Conor O'Dwyer,0.038252942
+,Naas,Frankie John,D G Hogan,Denis Gerard Hogan,0.037510168
+,Exeter,Mount Tempest,Conor Rabbitt,Sophie Leech,0.03749967
+,Exeter,Good Friday Fairy,Sam Twiston-Davies,Ben Clarke,0.03734866
+,Exeter,Braganza Bay,Will Featherstone,Henry Daly,0.03690603
+,Naas,Prends Garde A Toi,James Smith,Gordon Elliott,0.036759265
+,Exeter,Bampton Star,Chad Bament,Jeremy Scott,0.036482636
+,Exeter,Denemethy,Jack Hogan,Fergal O'Brien,0.036278926
+,Exeter,Looking For Larry,Oscar Palmer,Tim Dennis,0.036160212
+,Exeter,Big City Roller,Lilly Pinchin,Charlie Longsdon,0.035825167
+,Naas,Creative Dancer,Aidan Kelly,Ian Patrick Donoghue,0.03567851
+,Naas,Party President,Adam Leahy,Anthony Mullins,0.035673317
+,Naas,The Besty Woman,Mike O'Connor,Henry De Bromhead,0.03564944
+,Exeter,El Granjero,Ned Fox,Clive Boultbee-Brooks,0.035201363
+,Exeter,Toss Of A Coin,Jay Tidball,Alan Jones,0.034961287
+,Naas,McLaurey,Mark Walsh,Emmet Mullins,0.034794066
+,Naas,Couldntmakeitup,Peter Smithers,J A Nash,0.034658916
+,Exeter,Flash Gorcombe,Harry Kimber,Robert Walford,0.034540385
+,Naas,Switch From Diesel,Daniel King,Ross O'Sullivan,0.034423247
+,Naas,Keiths Boy,Benjamin P Kennedy,Seamus Fahey,0.034259196
+,Naas,Bossofthebrownies,Darragh O'Keeffe,M F Morris,0.034246877
+,Exeter,Diamatiste,Rian Corcoran,Kayley Woollacott,0.03331428
+,Naas,Flicker Of Hope,Donagh Meyler,Mark Fahey,0.03323627
+,Naas,Win Some Lose Some,Aidan Kelly,Padraig Roche,0.03268039
+,Naas,Je T'Ai Porte,Keith Donoghue,Gavin Cromwell,0.032534827
+,Exeter,Spirits Bay,Toby McCain-Mitchell,Nigel & Willy Twiston-Davies,0.032493614
+,Naas,Cumberland River,Carl Millar,Gordon Elliott,0.032159407
+,Naas,Take Stock,Eoin Staples,Gavin Cromwell,0.031239163
+,Naas,Artic Chief,Patrick M O'Brien,Liam Lennon,0.031209398
+,Naas,Harpy Eagle,Paddy Cody,R P Cody,0.030750029
+,Exeter,Pipers Cross,Cameron Johnstone-Baker,Emma Lavelle,0.030087674
+,Naas,Hesasmoothoperator,Harry Sexton,Thomas Gibney,0.029939523
+,Naas,Zefiro Dodville,Michael Kenneally,Adrian Sexton,0.028932871
+,Wolverhampton (AW),This Farh,Finley Marsh,David Loughnane,0.027805103
+,Naas,Ferdia,Brian Barry,John Patrick Ryan,0.027149482
+,Naas,Battle Of Ridgeway,Liam McKenna,Martin Hassett,0.026044412
+,Meydan,Fiction Maker,Qais Bin Saif Al Busaidi,Ahmed Al Shemaili,0.019995816
