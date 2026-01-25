@@ -883,39 +883,67 @@ def find_optimal_threshold(threshold_results, metric='f1_score'):
     
     return optimal_row['threshold'], optimal_row
 
-def print_threshold_analysis(threshold_results, y_true, y_proba):
-    """Print comprehensive threshold analysis"""
+
+def print_threshold_analysis(threshold_results, y_true, y_proba, output_dir="Model_Thresholds"):
+    """Print comprehensive threshold analysis and save threshold table to CSV"""
+
+    # ------------------------------------------------------------------
+    # SAVE THRESHOLD RESULTS TO CSV
+    # ------------------------------------------------------------------
+    os.makedirs(output_dir, exist_ok=True)
+    today = datetime.now().strftime("%Y-%m-%d")
+
+    output_path = os.path.join(output_dir, f"xgb_model_t_{today}.csv")
+
+    # Ensure clean column order (defensive, avoids silent drift)
+    ordered_cols = [
+        'threshold',
+        'precision',
+        'recall',
+        'f1_score',
+        'accuracy',
+        'specificity',
+        'tp',
+        'fp',
+        'tn',
+        'fn',
+        'predicted_positive'
+    ]
+
+    existing_cols = [c for c in ordered_cols if c in threshold_results.columns]
+    threshold_results[existing_cols].to_csv(output_path, index=False)
+
+    # ------------------------------------------------------------------
+    # PRINT ANALYSIS
+    # ------------------------------------------------------------------
     print("\n" + "="*80)
     print("                    THRESHOLD ANALYSIS RESULTS")
     print("="*80)
-    
-    # Find optimal thresholds for different metrics
+
     metrics = ['f1_score', 'precision', 'recall', 'accuracy']
     optimal_thresholds = {}
-    
+
     for metric in metrics:
         threshold, row = find_optimal_threshold(threshold_results, metric)
         optimal_thresholds[metric] = (threshold, row)
-    
-    # Print optimal thresholds summary
+
     print("\nOPTIMAL THRESHOLDS BY METRIC:")
     print("-" * 50)
     for metric, (threshold, row) in optimal_thresholds.items():
         print(f"{metric.upper():12}: {threshold:.3f} "
               f"(P={row['precision']:.3f}, R={row['recall']:.3f}, "
               f"F1={row['f1_score']:.3f}, Acc={row['accuracy']:.3f})")
-    
-    # Print detailed results for key thresholds
+
     print(f"\nDETAILED THRESHOLD ANALYSIS:")
     print("-" * 50)
+
     key_thresholds = [0.3, 0.4, 0.5, 0.6, 0.7]
-    
+
     print(f"{'Thresh':>6} {'Prec':>6} {'Rec':>6} {'F1':>6} {'Acc':>6} "
           f"{'Spec':>6} {'TP':>4} {'FP':>4} {'TN':>4} {'FN':>4} {'Pred+':>5}")
     print("-" * 80)
-    
+
     for threshold in key_thresholds:
-        # Rounding to handle floating point inaccuracies
         row = threshold_results[np.isclose(threshold_results['threshold'], threshold)]
         if not row.empty:
             row = row.iloc[0]
@@ -923,27 +951,24 @@ def print_threshold_analysis(threshold_results, y_true, y_proba):
                   f"{row['f1_score']:6.3f} {row['accuracy']:6.3f} {row['specificity']:6.3f} "
                   f"{int(row['tp']):4d} {int(row['fp']):4d} {int(row['tn']):4d} {int(row['fn']):4d} "
                   f"{int(row['predicted_positive']):5d}")
-    
-    # Calculate baseline metrics
-    baseline_precision = np.mean(y_true)  # Random precision would be proportion of positives
+
+    baseline_precision = np.mean(y_true)
     print(f"\nBASELINE METRICS:")
     print("-" * 50)
     print(f"Random Baseline Precision: {baseline_precision:.3f}")
     print(f"Average Precision Score: {average_precision_score(y_true, y_proba):.3f}")
     print(f"AUC-ROC Score: {roc_auc_score(y_true, y_proba):.3f}")
-    
-    # Recommendations
-    print(f"\nRECOMMENDations:")
+
+    print(f"\nRECOMMENDATIONS:")
     print("-" * 50)
-    f1_threshold = optimal_thresholds['f1_score'][0]
-    precision_threshold = optimal_thresholds['precision'][0]
-    recall_threshold = optimal_thresholds['recall'][0]
-    
-    print(f"• For balanced performance: Use threshold {f1_threshold:.3f} (optimizes F1-score)")
-    print(f"• For high precision (fewer false positives): Use threshold {precision_threshold:.3f}")
-    print(f"• For high recall (catch more winners): Use threshold {recall_threshold:.3f}")
-    
+    print(f"• Balanced (F1): threshold {optimal_thresholds['f1_score'][0]:.3f}")
+    print(f"• Precision-first: threshold {optimal_thresholds['precision'][0]:.3f}")
+    print(f"• Recall-first: threshold {optimal_thresholds['recall'][0]:.3f}")
+
+    print(f"\n💾 Threshold table saved to: {output_path}")
+
     return optimal_thresholds
+
 
 # ============================================================
 #                    SCRIPT EXECUTION

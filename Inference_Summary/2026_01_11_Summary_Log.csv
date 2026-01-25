@@ -1,30 +1,32 @@
-Race_id,Predicted_Winner,Actual_Winner,Hit
-Chelmsford (AW)_2026-01-11_1:42,What What What,Gogo Yubari,0
-Chelmsford (AW)_2026-01-11_2:12,Man On A Mission,Waistcoat,0
-Chelmsford (AW)_2026-01-11_2:42,Three On Thursday,Seraphic,0
-Chelmsford (AW)_2026-01-11_3:12,Come To Pass,Marinakis,0
-Chelmsford (AW)_2026-01-11_4:12,Diligent Henry,Campani,0
-Chelmsford (AW)_2026-01-11_4:42,Miners Gamble,Al Waqidi,0
-Fontwell_2026-01-11_1:00,Roi Lion,Legendary Luke,0
-Fontwell_2026-01-11_2:00,Aj's Diamond,Limerick Lass,0
-Fontwell_2026-01-11_2:30,Khutulun Khan,Park Princess,0
-Fontwell_2026-01-11_3:00,Smith,Mr Griffiths,0
-Fontwell_2026-01-11_3:30,Alright Dai,Alright Dai,1
-Fontwell_2026-01-11_4:00,I Play County,Bradman,0
-Punchestown_2026-01-11_12:20,Banter At The Bar,Banter At The Bar,1
-Punchestown_2026-01-11_12:50,Predators Gold,Kappa Jy Pyke,0
-Punchestown_2026-01-11_1:20,Tullabrack Lad,Diamond Dollar,0
-Punchestown_2026-01-11_1:50,Nine Graces,Showurappreciation,0
-Punchestown_2026-01-11_2:20,Sober,Sober,1
-Punchestown_2026-01-11_3:20,Moon Mission,Powerful,0
-Sha Tin_2026-01-11_4:30,I P O Bros,Snowthorn,0
-Sha Tin_2026-01-11_5:00,Circuit Happy,Majestic Valour,0
-Sha Tin_2026-01-11_5:30,Ka Ying Warrior,Elite Golf,0
-Sha Tin_2026-01-11_6:00,Rainbow Warrior,Rezeki,0
-Sha Tin_2026-01-11_6:30,Manaphy,Robot Star,0
-Sha Tin_2026-01-11_7:00,Our Lucky Glory,China Win,0
-Sha Tin_2026-01-11_7:35,Let's Have Fun,Young Emperor,0
-Sha Tin_2026-01-11_8:05,Beauty Crescent,Little Paradise,0
-Sha Tin_2026-01-11_8:40,Joy Of Spring,Money Catcher,0
-Sha Tin_2026-01-11_9:15,Natural Numbers,Invincible Ibis,0
-Sha Tin_2026-01-11_9:50,Golden Empire,Lucky Sam Gor,0
+Race_id,Predicted_Winner,Actual_Winner,Prediction_Hit,Bet_Placed,Bet_Won,Total_Staked,Money_Made
+Chelmsford (AW)_2026-01-11_1:42,What What What,Gogo Yubari,0,0,0,0.0,0.0
+Chelmsford (AW)_2026-01-11_2:12,Man On A Mission,Waistcoat,0,1,0,0.9748251305833333,-0.9748251305833333
+Chelmsford (AW)_2026-01-11_2:42,Three On Thursday,Seraphic,0,1,0,1.1388653924999999,-1.1388653924999999
+Chelmsford (AW)_2026-01-11_3:12,Come To Pass,Marinakis,0,1,0,4.216633383439394,-4.216633383439394
+Chelmsford (AW)_2026-01-11_3:42,Tolstoy,North View,0,1,0,2.2499209187727276,-2.2499209187727276
+Chelmsford (AW)_2026-01-11_4:12,Diligent Henry,Campani,0,1,0,4.9446259521250004,-4.9446259521250004
+Chelmsford (AW)_2026-01-11_4:42,Miners Gamble,Al Waqidi,0,1,0,2.7231892486363636,-2.7231892486363636
+Fontwell_2026-01-11_1:00,Roi Lion,Legendary Luke,0,1,0,0.43829507718124994,-0.43829507718124994
+Fontwell_2026-01-11_2:00,Aj's Diamond,Limerick Lass,0,1,0,1.6534925281666666,-1.6534925281666666
+Fontwell_2026-01-11_2:30,Khutulun Khan,Park Princess,0,1,0,2.852073721468687,-2.852073721468687
+Fontwell_2026-01-11_3:00,Smith,Mr Griffiths,0,0,0,0.0,0.0
+Fontwell_2026-01-11_3:30,Alright Dai,Alright Dai,1,1,0,0.0094872473484848,-0.0094872473484848
+Fontwell_2026-01-11_4:00,I Play County,Bradman,0,1,0,0.3314579492291666,-0.3314579492291666
+Punchestown_2026-01-11_12:20,Banter At The Bar,Banter At The Bar,1,1,1,11.360727850336364,62.80031798299696
+Punchestown_2026-01-11_12:50,Predators Gold,Kappa Jy Pyke,0,0,0,0.0,0.0
+Punchestown_2026-01-11_1:20,Tullabrack Lad,Diamond Dollar,0,1,0,3.080075974125,-3.080075974125
+Punchestown_2026-01-11_1:50,Nine Graces,Showurappreciation,0,0,0,0.0,0.0
+Punchestown_2026-01-11_2:20,Sober,Sober,1,0,0,0.0,0.0
+Punchestown_2026-01-11_2:50,Tyson Fury,I Started A Joke,0,0,0,0.0,0.0
+Punchestown_2026-01-11_3:20,Moon Mission,Powerful,0,1,0,2.3507690218181816,-2.3507690218181816
+Sha Tin_2026-01-11_4:30,I P O Bros,Snowthorn,0,0,0,0.0,0.0
+Sha Tin_2026-01-11_5:00,Circuit Happy,Majestic Valour,0,0,0,0.0,0.0
+Sha Tin_2026-01-11_5:30,Ka Ying Warrior,Elite Golf,0,0,0,0.0,0.0
+Sha Tin_2026-01-11_6:00,Rainbow Warrior,Rezeki,0,0,0,0.0,0.0
+Sha Tin_2026-01-11_6:30,Manaphy,Robot Star,0,0,0,0.0,0.0
+Sha Tin_2026-01-11_7:00,Our Lucky Glory,China Win,0,0,0,0.0,0.0
+Sha Tin_2026-01-11_7:35,Let's Have Fun,Young Emperor,0,0,0,0.0,0.0
+Sha Tin_2026-01-11_8:05,Beauty Crescent,Little Paradise,0,0,0,0.0,0.0
+Sha Tin_2026-01-11_8:40,Joy Of Spring,Money Catcher,0,0,0,0.0,0.0
+Sha Tin_2026-01-11_9:15,Natural Numbers,Invincible Ibis,0,0,0,0.0,0.0
+Sha Tin_2026-01-11_9:50,Golden Empire,Lucky Sam Gor,0,0,0,0.0,0.0

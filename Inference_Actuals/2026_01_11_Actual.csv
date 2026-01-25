@@ -1,393 +1,393 @@
-track_name,race_date,distance,going,time,horse_name,rating,jockey,trainer,weight,age,claims,is_new,label,win_probability,actual_position,Race_id,inferred_position
-Chelmsford (AW),11 Jan 2026Polytrack,5f,Standard,1:42,What What What,65,Lewis Chalkley,Michael & David Easterby,9- 8,4,7,True,0,0.0413435,3,Chelmsford (AW)_2026-01-11_1:42,1
-Chelmsford (AW),11 Jan 2026Polytrack,5f,Standard,1:42,Master Dandy,65,Taylor Fisher,Michael Keady,9- 8,6,3,True,0,0.04042849,4,Chelmsford (AW)_2026-01-11_1:42,2
-Chelmsford (AW),11 Jan 2026Polytrack,5f,Standard,1:42,Forest Gunner,64,J F Egan,David Evans,9- 3,5,0,True,0,0.03551501,5,Chelmsford (AW)_2026-01-11_1:42,3
-Chelmsford (AW),11 Jan 2026Polytrack,5f,Standard,1:42,Sir Rodneyredblood,66,Liam Wright,J R Jenkins,9 -11,9,5,True,0,0.035263635,2,Chelmsford (AW)_2026-01-11_1:42,4
-Chelmsford (AW),11 Jan 2026Polytrack,5f,Standard,1:42,Second Collection,63,Matthew Lloyd Slater,Tony Carroll,9- 0,10,7,True,0,0.033055086,,Chelmsford (AW)_2026-01-11_1:42,5
-Chelmsford (AW),11 Jan 2026Polytrack,5f,Standard,1:42,Inconspicuous,63,Kyle McHugh,Stuart Edmunds,9- 0,4,7,True,0,0.028126001,6,Chelmsford (AW)_2026-01-11_1:42,6
-Chelmsford (AW),11 Jan 2026Polytrack,5f,Standard,1:42,Gogo Yubari,67,Harry Vigors,Tony Carroll,10- 5,5,7,True,0,0.021267895,1,Chelmsford (AW)_2026-01-11_1:42,7
-Chelmsford (AW),11 Jan 2026Polytrack,6f,Standard,2:12,Man On A Mission,83,Tyler Heard,P Charalambous & J Clutterbuck,8- 5,7,0,True,0,0.02730723,10,Chelmsford (AW)_2026-01-11_2:12,1
-Chelmsford (AW),11 Jan 2026Polytrack,6f,Standard,2:12,Bill Plumb,84,Grace McEntee,Phil McEntee,9- 5,7,0,True,0,0.02665349,6,Chelmsford (AW)_2026-01-11_2:12,2
-Chelmsford (AW),11 Jan 2026Polytrack,6f,Standard,2:12,Lady Wingalong,87,Ryan Kavanagh,David Evans,9- 9,7,5,True,0,0.025200656,4,Chelmsford (AW)_2026-01-11_2:12,3
-Chelmsford (AW),11 Jan 2026Polytrack,6f,Standard,2:12,Ziggy's Condor,86,Harry Russell,Richard Fahey,9- 8,5,0,True,0,0.020475952,3,Chelmsford (AW)_2026-01-11_2:12,4
-Chelmsford (AW),11 Jan 2026Polytrack,6f,Standard,2:12,Waistcoat,85,Rhys Clutterbuck,Ross Burdon,9- 3,5,0,True,0,0.020329453,1,Chelmsford (AW)_2026-01-11_2:12,5
-Chelmsford (AW),11 Jan 2026Polytrack,6f,Standard,2:12,Ziggy's Queen,84,Ethan Tindall,Richard Fahey,9- 5,5,7,True,0,0.020195426,2,Chelmsford (AW)_2026-01-11_2:12,6
-Chelmsford (AW),11 Jan 2026Polytrack,6f,Standard,2:12,Correspondence,82,Gina Mangan,Tony Carroll,9- 2,4,0,True,0,0.019353705,8,Chelmsford (AW)_2026-01-11_2:12,7
-Chelmsford (AW),11 Jan 2026Polytrack,6f,Standard,2:12,Atomic Mass,84,Tom Kiely-Marshall,Michael & David Easterby,8- 6,4,5,True,0,0.019128425,7,Chelmsford (AW)_2026-01-11_2:12,8
-Chelmsford (AW),11 Jan 2026Polytrack,6f,Standard,2:12,Middleton View,85,Harry Vigors,Stuart Williams,9- 8,4,7,True,0,0.018438764,9,Chelmsford (AW)_2026-01-11_2:12,9
-Chelmsford (AW),11 Jan 2026Polytrack,6f,Standard,2:12,Em Four,86,Conor Whiteley,Jamie Osborne,9- 8,4,7,True,0,0.018438764,5,Chelmsford (AW)_2026-01-11_2:12,10
-Chelmsford (AW),11 Jan 2026Polytrack,1m2f,Standard,2:42,Three On Thursday,72,Gina Mangan,Tony Carroll,9- 7,4,0,True,0,0.03817095,3,Chelmsford (AW)_2026-01-11_2:42,1
-Chelmsford (AW),11 Jan 2026Polytrack,1m2f,Standard,2:42,Twilight Guest,71,Harry Vigors,George Margarson,9- 4,6,7,True,0,0.03625767,5,Chelmsford (AW)_2026-01-11_2:42,2
-Chelmsford (AW),11 Jan 2026Polytrack,1m2f,Standard,2:42,Enthused,76,Jonny Peate,James Owen,9- 9,9,0,True,0,0.03286171,2,Chelmsford (AW)_2026-01-11_2:42,3
-Chelmsford (AW),11 Jan 2026Polytrack,1m2f,Standard,2:42,Seraphic,75,Callum Hutchinson,David Killahena & Graeme McPherson,9- 8,6,0,True,0,0.03093603,1,Chelmsford (AW)_2026-01-11_2:42,4
-Chelmsford (AW),11 Jan 2026Polytrack,1m2f,Standard,2:42,Age Of Time,74,Nicola Currie,Ian Williams,9- 9,5,0,True,0,0.028883122,4,Chelmsford (AW)_2026-01-11_2:42,5
-Chelmsford (AW),11 Jan 2026Polytrack,1m2f,Standard,3:12,Come To Pass,47,Gina Mangan,Tony Carroll,9- 9,7,0,True,0,0.075164534,4,Chelmsford (AW)_2026-01-11_3:12,1
-Chelmsford (AW),11 Jan 2026Polytrack,1m2f,Standard,3:12,Mary Rose,49,Tyler Heard,Stephanie Cassidy,9- 8,4,0,True,0,0.05911324,7,Chelmsford (AW)_2026-01-11_3:12,2
-Chelmsford (AW),11 Jan 2026Polytrack,1m2f,Standard,3:12,Marinakis,60,Ryan Kavanagh,Ian Williams,9- 9,6,5,True,0,0.05755553,1,Chelmsford (AW)_2026-01-11_3:12,3
-Chelmsford (AW),11 Jan 2026Polytrack,1m2f,Standard,3:12,Sun Festival,53,Zacharia Clarke,Joseph Parr,9- 9,8,7,True,0,0.05734102,8,Chelmsford (AW)_2026-01-11_3:12,4
-Chelmsford (AW),11 Jan 2026Polytrack,1m2f,Standard,3:12,Spaceage Love Song,54,Joe Bradnam,Michael Bell,9- 8,4,7,True,0,0.056684263,3,Chelmsford (AW)_2026-01-11_3:12,5
-Chelmsford (AW),11 Jan 2026Polytrack,1m2f,Standard,3:12,Prince Hector,57,Tom Kiely-Marshall,Jessica Bedi,9- 9,8,5,True,0,0.048850037,2,Chelmsford (AW)_2026-01-11_3:12,6
-Chelmsford (AW),11 Jan 2026Polytrack,1m2f,Standard,3:12,Al Shabab,64,J F Egan,David Evans,9- 9,5,0,True,0,0.047002338,5,Chelmsford (AW)_2026-01-11_3:12,7
-Chelmsford (AW),11 Jan 2026Polytrack,1m2f,Standard,3:12,Knight Of Magic,60,Rhys Clutterbuck,James Owen,9 -13,7,0,True,0,0.045458615,6,Chelmsford (AW)_2026-01-11_3:12,8
-Chelmsford (AW),11 Jan 2026Polytrack,1m2f,Standard,3:12,Sunset In Paris,60,Jonny Peate,J R Jenkins,9- 9,8,0,True,0,0.042881444,9,Chelmsford (AW)_2026-01-11_3:12,9
-Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,3:42,Tolstoy,89,Ben Robinson,Brian Ellison,9- 6,7,0,True,0,0.04962362,,Chelmsford (AW)_2026-01-11_3:42,1
-Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,3:42,Monsieur Kodi,90,Ethan Tindall,Richard Fahey,9- 3,7,7,True,0,0.04287129,,Chelmsford (AW)_2026-01-11_3:42,2
-Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,3:42,Revolutionise,90,Harry Vigors,Stuart Williams,9- 5,10,7,True,0,0.042155586,,Chelmsford (AW)_2026-01-11_3:42,3
-Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,3:42,Gaiety Musical,91,Ryan Kavanagh,David Evans,9- 7,5,5,True,0,0.035214644,,Chelmsford (AW)_2026-01-11_3:42,4
-Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,3:42,Kit Gabriel,90,Tyler Heard,Simon Pearce,9- 2,7,0,True,0,0.030145278,,Chelmsford (AW)_2026-01-11_3:42,5
-Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,3:42,Chola Empire,90,Joey Haynes,David Simcock,9- 0,7,0,True,0,0.028104795,,Chelmsford (AW)_2026-01-11_3:42,6
-Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,3:42,Diamondonthehill,91,Charlie Bell,Dr Richard Newland & Jamie Insole,9 -11,8,7,True,0,0.027638825,,Chelmsford (AW)_2026-01-11_3:42,7
-Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,3:42,North View,92,Gina Mangan,Stuart Williams,9- 7,5,0,True,0,0.025059912,,Chelmsford (AW)_2026-01-11_3:42,8
-Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,3:42,Benacre,93,Oliver Stammers,Charlie Johnston,9- 8,6,0,True,0,0.024906058,,Chelmsford (AW)_2026-01-11_3:42,9
-Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,3:42,Cherry Cobbler,92,Callum Hutchinson,Stuart Williams,9- 3,4,0,True,0,0.023447486,,Chelmsford (AW)_2026-01-11_3:42,10
-Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,3:42,Commander Of Life,91,Dougie Costello,Jessica Macey,9- 9,5,0,True,0,0.021263333,,Chelmsford (AW)_2026-01-11_3:42,11
-Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,3:42,Rochelle,87,J F Egan,George Margarson,9- 9,5,0,True,0,0.02115548,,Chelmsford (AW)_2026-01-11_3:42,12
-Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,4:12,Diligent Henry,66,Dougie Costello,Jessica Macey,9- 7,5,0,True,0,0.18737,10,Chelmsford (AW)_2026-01-11_4:12,1
-Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,4:12,Kondratiev Wave,67,Gina Mangan,Tony Carroll,9- 8,9,0,True,0,0.06682583,6,Chelmsford (AW)_2026-01-11_4:12,2
-Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,4:12,Secret Road,66,Rhys Clutterbuck,James Owen,9 -10,8,0,True,0,0.06198018,2,Chelmsford (AW)_2026-01-11_4:12,3
-Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,4:12,Last Outlaw,66,Taylor Fisher,Michael Keady,9- 9,5,3,True,0,0.054033168,5,Chelmsford (AW)_2026-01-11_4:12,4
-Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,4:12,Campani,64,Joey Haynes,David Simcock,9- 5,4,0,True,0,0.053973746,1,Chelmsford (AW)_2026-01-11_4:12,5
-Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,4:12,Blueandtangerine,64,Lewis Chalkley,Michael & David Easterby,9- 8,4,7,True,0,0.052679006,9,Chelmsford (AW)_2026-01-11_4:12,6
-Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,4:12,Fidget Lady,62,Ethan Tindall,Richard Fahey,9- 0,4,7,True,0,0.04519126,8,Chelmsford (AW)_2026-01-11_4:12,7
-Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,4:12,Global Warning,65,Jonny Peate,John Butler,9- 8,10,0,True,0,0.043659203,7,Chelmsford (AW)_2026-01-11_4:12,8
-Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,4:12,Up The Monk,63,Liam Wright,Michael Appleby,9- 5,4,5,True,0,0.03925439,3,Chelmsford (AW)_2026-01-11_4:12,9
-Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,4:12,Strobelight,67,Grace McEntee,George Boughey,9- 6,4,0,True,0,0.03601359,11,Chelmsford (AW)_2026-01-11_4:12,10
-Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,4:12,Tootsie,65,Connor Planas,Phil McEntee,9- 2,4,3,True,0,0.03569367,4,Chelmsford (AW)_2026-01-11_4:12,11
-Chelmsford (AW),11 Jan 2026Polytrack,1m,Standard,4:42,Miners Gamble,75,Ben Robinson,Brian Ellison,9- 8,5,0,True,0,0.07111599,5,Chelmsford (AW)_2026-01-11_4:42,1
-Chelmsford (AW),11 Jan 2026Polytrack,1m,Standard,4:42,Galaxy Wonder,74,Gina Mangan,Tony Carroll,9- 8,4,0,True,0,0.05547646,4,Chelmsford (AW)_2026-01-11_4:42,2
-Chelmsford (AW),11 Jan 2026Polytrack,1m,Standard,4:42,Kessaar Power,70,Grace McEntee,Phil McEntee,9- 2,6,0,True,0,0.054389324,,Chelmsford (AW)_2026-01-11_4:42,3
-Chelmsford (AW),11 Jan 2026Polytrack,1m,Standard,4:42,Al Waqidi,73,Nicola Currie,Jamie Osborne,9- 9,8,0,True,0,0.050386604,1,Chelmsford (AW)_2026-01-11_4:42,4
-Chelmsford (AW),11 Jan 2026Polytrack,1m,Standard,4:42,Fulford Cross,73,Joey Haynes,David Simcock,9- 6,4,0,True,0,0.049374867,7,Chelmsford (AW)_2026-01-11_4:42,5
-Chelmsford (AW),11 Jan 2026Polytrack,1m,Standard,4:42,Rainwater,74,Harry Russell,Richard Fahey,9- 9,5,0,True,0,0.049191926,3,Chelmsford (AW)_2026-01-11_4:42,6
-Chelmsford (AW),11 Jan 2026Polytrack,1m,Standard,4:42,Simply Blue,76,Jonny Peate,James Owen,9- 9,4,0,True,0,0.04036493,8,Chelmsford (AW)_2026-01-11_4:42,7
-Chelmsford (AW),11 Jan 2026Polytrack,1m,Standard,4:42,Brinton,71,Olivia Tubb,Jonathan Portman,9- 3,5,5,True,0,0.037694473,2,Chelmsford (AW)_2026-01-11_4:42,8
-Chelmsford (AW),11 Jan 2026Polytrack,1m,Standard,4:42,Tam Lin,71,Tyler Heard,Anthony Carson,9- 5,4,0,True,0,0.03570354,6,Chelmsford (AW)_2026-01-11_4:42,9
-Fontwell,11 Jan 2026 SKY,2m3f,Soft,1:00,Roi Lion,-,Robert Dunne,Robert Walford,11- 3,8,0,True,0,0.019845093,11,Fontwell_2026-01-11_1:00,1
-Fontwell,11 Jan 2026 SKY,2m3f,Soft,1:00,Monansunu,-,Caoilin Quinn,Andy Irvine,11- 3,6,0,True,0,0.018868247,10,Fontwell_2026-01-11_1:00,2
-Fontwell,11 Jan 2026 SKY,2m3f,Soft,1:00,Mr Finch,-,Ben Jones,Ben Pauling,11- 3,6,0,True,0,0.018201465,4,Fontwell_2026-01-11_1:00,3
-Fontwell,11 Jan 2026 SKY,2m3f,Soft,1:00,Pacman,-,Harry Kimber,Robert Walford,11- 3,5,0,True,0,0.014403048,9,Fontwell_2026-01-11_1:00,4
-Fontwell,11 Jan 2026 SKY,2m3f,Soft,1:00,Western George,-,Jonjo O'Neill Jr,Jonjo & A J O'Neill,11- 3,5,0,True,0,0.014403048,5,Fontwell_2026-01-11_1:00,5
-Fontwell,11 Jan 2026 SKY,2m3f,Soft,1:00,The Cistercian,125,Charlie Hammond,Stuart Edmunds,11 -10,6,0,True,0,0.008115553,UR,Fontwell_2026-01-11_1:00,6
-Fontwell,11 Jan 2026 SKY,2m3f,Soft,1:00,For Old Times Sake,96,Conor O'Farrell,Neil Mulholland,11- 3,5,0,True,0,0.00786648,7,Fontwell_2026-01-11_1:00,7
-Fontwell,11 Jan 2026 SKY,2m3f,Soft,1:00,Legendary Luke,121,Gavin Sheehan,Jamie Snowden,11 -10,6,0,True,0,0.0078088734,1,Fontwell_2026-01-11_1:00,8
-Fontwell,11 Jan 2026 SKY,2m3f,Soft,1:00,Contacto,111,Tom Cannon,Lucy Wadham,11- 3,5,0,True,0,0.0076576625,3,Fontwell_2026-01-11_1:00,9
-Fontwell,11 Jan 2026 SKY,2m3f,Soft,1:00,Manigod,120,James Bowen,Warren Greatrex,11- 3,5,0,True,0,0.0075971647,2,Fontwell_2026-01-11_1:00,10
-Fontwell,11 Jan 2026 SKY,2m3f,Soft,1:00,Herbygoesbananas,81,Brendan Powell,Henrietta C Knight,11- 3,5,0,True,0,0.0075809965,6,Fontwell_2026-01-11_1:00,11
-Fontwell,11 Jan 2026 SKY,2m3f,Soft,1:00,Le Flying Ferret,81,James Davies,Nick Gifford,11- 3,5,0,True,0,0.0075809965,8,Fontwell_2026-01-11_1:00,12
-Fontwell,11 Jan 2026 SKY,3m2f,Soft,1:30,The Brickey Ranger,-,Sean Houlihan,Seamus Mullins,10- 7,8,0,True,0,0.021497633,,Fontwell_2026-01-11_1:30,1
-Fontwell,11 Jan 2026 SKY,3m2f,Soft,1:30,Only Gossip,89,Callum Pritchard,Polly Gundry,10- 9,9,3,True,0,0.009835487,,Fontwell_2026-01-11_1:30,2
-Fontwell,11 Jan 2026 SKY,3m2f,Soft,1:30,Inedit De Mee,109,Kevin Brogan,Toby Lawes,11- 6,8,0,True,0,0.008888318,,Fontwell_2026-01-11_1:30,3
-Fontwell,11 Jan 2026 SKY,3m2f,Soft,1:30,Innisfree Lass,111,Charlie Hammond,Stuart Edmunds,11- 6,8,0,True,0,0.008462699,,Fontwell_2026-01-11_1:30,4
-Fontwell,11 Jan 2026 SKY,3m2f,Soft,1:30,The Scorpion King,110,Gavin Sheehan,Oliver Signy,12- 0,8,0,True,0,0.0083824545,,Fontwell_2026-01-11_1:30,5
-Fontwell,11 Jan 2026 SKY,3m2f,Soft,1:30,Animal,107,Charlie Deutsch,Suzy Smith,11- 8,10,0,True,0,0.00832702,,Fontwell_2026-01-11_1:30,6
-Fontwell,11 Jan 2026 SKY,3m2f,Soft,1:30,Cooleenymore,109,Harry Kimber,Robert Walford,11- 8,10,0,True,0,0.008058553,,Fontwell_2026-01-11_1:30,7
-Fontwell,11 Jan 2026 SKY,3m2f,Soft,1:30,Roe And Co,112,Joe Anderson,Jamie Snowden,12- 0,8,3,True,0,0.0077247773,,Fontwell_2026-01-11_1:30,8
-Fontwell,11 Jan 2026 SKY,3m2f,Soft,1:30,Record High,109,Isabelle Ryder,Suzy Smith,11 -10,9,7,True,0,0.007192181,,Fontwell_2026-01-11_1:30,9
-Fontwell,11 Jan 2026 SKY,3m2f,Soft,1:30,To Be Sure,110,Ellis Collier,Evan Williams,11- 0,11,5,True,0,0.00690839,,Fontwell_2026-01-11_1:30,10
-Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:00,Aj's Diamond,-,Freddie Gordon,Chris Gordon,11- 2,6,0,True,0,0.03886248,4,Fontwell_2026-01-11_2:00,1
-Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:00,Geordies Betty,-,Sean Houlihan,Kevin Bishop,11- 2,6,0,True,0,0.035104033,3,Fontwell_2026-01-11_2:00,2
-Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:00,Cast's Georgie,-,Harry Kimber,Robert Walford,11- 2,5,0,True,0,0.033468295,7,Fontwell_2026-01-11_2:00,3
-Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:00,Bunny Bee,-,Paul O'Brien,Henrietta C Knight,11- 2,5,0,True,0,0.030067375,2,Fontwell_2026-01-11_2:00,4
-Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:00,Mistress Fox,-,Bradley Harris,Neil Mulholland,11- 2,6,3,True,0,0.0299648,8,Fontwell_2026-01-11_2:00,5
-Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:00,Svelte Silhouette,-,Daniel Sansom,Seamus Mullins,11- 2,5,3,True,0,0.021645313,UR,Fontwell_2026-01-11_2:00,6
-Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:00,Ephyra,82,Caoilin Quinn,Andy Irvine,11- 2,5,0,True,0,0.019909022,5,Fontwell_2026-01-11_2:00,7
-Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:00,Limerick Lass,117,Ben Godfrey,Anthony Honeyball,11- 2,6,0,True,0,0.017465815,1,Fontwell_2026-01-11_2:00,8
-Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:00,Queen's Theatre,103,Sam Twiston-Davies,Anthony Honeyball,11- 9,5,0,True,0,0.01736969,,Fontwell_2026-01-11_2:00,9
-Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:00,Wassailing Along,96,Brendan Powell,Joe Tizzard,11- 2,6,0,True,0,0.016396118,6,Fontwell_2026-01-11_2:00,10
-Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:30,Khutulun Khan,-,Tom Cannon,Lucy Wadham,11- 2,7,0,True,0,0.03889731,5,Fontwell_2026-01-11_2:30,1
-Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:30,Shalfa,-,Marc Goldstein,Lydia Richards,11- 2,7,0,True,0,0.03273615,3,Fontwell_2026-01-11_2:30,2
-Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:30,Flame Dancer,-,James Davies,Noel Williams,10- 3,4,0,True,0,0.028781341,PU,Fontwell_2026-01-11_2:30,3
-Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:30,Don't Cheddar Tear,-,Tabitha Worsley,Georgie Howell,11- 2,7,3,True,0,0.028647447,,Fontwell_2026-01-11_2:30,4
-Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:30,Cushendall,-,Tom Bellamy,Alan King,11- 2,6,0,True,0,0.028036924,8,Fontwell_2026-01-11_2:30,5
-Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:30,Yasmina,94,Caoilin Quinn,Andy Irvine,11- 2,6,0,True,0,0.020241003,4,Fontwell_2026-01-11_2:30,6
-Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:30,Onefournine,108,Jonjo O'Neill Jr,Jonjo & A J O'Neill,11- 2,6,0,True,0,0.019996263,2,Fontwell_2026-01-11_2:30,7
-Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:30,Holetown,108,Charlie Deutsch,Venetia Williams,11- 2,6,0,True,0,0.019155556,6,Fontwell_2026-01-11_2:30,8
-Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:30,Blue Marvel,113,Charlie Hammond,Stuart Edmunds,11- 2,5,0,True,0,0.014379159,7,Fontwell_2026-01-11_2:30,9
-Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:30,Park Princess,123,Sam Twiston-Davies,Anthony Honeyball,11- 9,6,0,True,0,0.013536364,1,Fontwell_2026-01-11_2:30,10
-Fontwell,11 Jan 2026 SKY,3m2f,Soft,3:00,Smith,-,Marc Goldstein,Lydia Richards,10- 5,10,0,True,0,0.022507532,,Fontwell_2026-01-11_3:00,1
-Fontwell,11 Jan 2026 SKY,3m2f,Soft,3:00,Hilltown,-,Ellis Collier,Seamus Mullins,10- 2,8,5,True,0,0.016822202,5,Fontwell_2026-01-11_3:00,2
-Fontwell,11 Jan 2026 SKY,3m2f,Soft,3:00,Mr Griffiths,98,Jonjo O'Neill Jr,Jonjo & A J O'Neill,11- 2,6,0,True,0,0.010745893,1,Fontwell_2026-01-11_3:00,3
-Fontwell,11 Jan 2026 SKY,3m2f,Soft,3:00,Jour d'Orage,96,Conor O'Farrell,Neil Mulholland,10 -13,7,0,True,0,0.010038531,7,Fontwell_2026-01-11_3:00,4
-Fontwell,11 Jan 2026 SKY,3m2f,Soft,3:00,I Love You Sivola,100,Brendan Powell,Helen Nelmes,10- 4,8,0,True,0,0.009176614,6,Fontwell_2026-01-11_3:00,5
-Fontwell,11 Jan 2026 SKY,3m2f,Soft,3:00,Fox Cottage,99,Daniel Sansom,Seamus Mullins,11- 4,6,3,True,0,0.009135909,PU,Fontwell_2026-01-11_3:00,6
-Fontwell,11 Jan 2026 SKY,3m2f,Soft,3:00,Woodythewoodpecker,102,Conor Ring,Evan Williams,12- 0,6,0,True,0,0.008576979,2,Fontwell_2026-01-11_3:00,7
-Fontwell,11 Jan 2026 SKY,3m2f,Soft,3:00,Happy Returns,100,Bradley Harris,Neil Mulholland,10 -12,9,3,True,0,0.008418987,4,Fontwell_2026-01-11_3:00,8
-Fontwell,11 Jan 2026 SKY,3m2f,Soft,3:00,William Philo,99,Shane Quinlan,Ben Lund,10- 3,9,3,True,0,0.008098107,8,Fontwell_2026-01-11_3:00,9
-Fontwell,11 Jan 2026 SKY,3m2f,Soft,3:00,Wot You Wearing,99,Fern O'Brien,Fergal O'Brien,10 -10,9,5,True,0,0.0073917997,PU,Fontwell_2026-01-11_3:00,10
-Fontwell,11 Jan 2026 SKY,3m2f,Soft,3:00,Jewel Eyed Judy,102,James Turner,Nigel & Willy Twiston-Davies,10 -11,6,5,True,0,0.007370461,PU,Fontwell_2026-01-11_3:00,11
-Fontwell,11 Jan 2026 SKY,3m2f,Soft,3:00,Bobalot,104,Benjamin Macey,Laura Horsfall,11 -12,9,7,True,0,0.0070825797,3,Fontwell_2026-01-11_3:00,12
-Fontwell,11 Jan 2026 SKY,2m3½f,Soft,3:30,Alright Dai,-,Conor O'Farrell,Neil Mulholland,12- 0,8,0,True,0,0.029155204,1,Fontwell_2026-01-11_3:30,1
-Fontwell,11 Jan 2026 SKY,2m3½f,Soft,3:30,Everyonesacritic,106,Isabel Williams,Evan Williams,11- 1,7,0,True,0,0.018306885,3,Fontwell_2026-01-11_3:30,2
-Fontwell,11 Jan 2026 SKY,2m3½f,Soft,3:30,Roxhill,95,Sean Houlihan,Seamus Mullins,11- 2,7,0,True,0,0.017867139,F,Fontwell_2026-01-11_3:30,3
-Fontwell,11 Jan 2026 SKY,2m3½f,Soft,3:30,Hatos,102,Brendan Powell,Joe Tizzard,11- 0,9,0,True,0,0.017107137,2,Fontwell_2026-01-11_3:30,4
-Fontwell,11 Jan 2026 SKY,2m3½f,Soft,3:30,Angel's Dream,104,Caoilin Quinn,Gary & Josh Moore,11- 2,8,0,True,0,0.015299199,PU,Fontwell_2026-01-11_3:30,5
-Fontwell,11 Jan 2026 SKY,2m3½f,Soft,3:30,Summer In Milan,106,Freddie Gordon,Chris Gordon,11 -10,7,0,True,0,0.01381662,F,Fontwell_2026-01-11_3:30,6
-Fontwell,11 Jan 2026 SKY,2m3½f,Soft,3:30,Sanitiser,103,Freddie Mitchell,Gary & Josh Moore,11 -13,7,3,True,0,0.012281903,,Fontwell_2026-01-11_3:30,7
-Fontwell,11 Jan 2026 SKY,2m3f,Soft,4:00,I Play County,107,Kevin Brogan,Toby Lawes,12- 2,7,0,True,0,0.009501856,PU,Fontwell_2026-01-11_4:00,1
-Fontwell,11 Jan 2026 SKY,2m3f,Soft,4:00,Kool Kid,108,Brendan Powell,Joe Tizzard,11- 8,6,0,True,0,0.009238894,6,Fontwell_2026-01-11_4:00,2
-Fontwell,11 Jan 2026 SKY,2m3f,Soft,4:00,Bridge,109,Caoilin Quinn,Gary & Josh Moore,11- 6,6,0,True,0,0.009193555,7,Fontwell_2026-01-11_4:00,3
-Fontwell,11 Jan 2026 SKY,2m3f,Soft,4:00,Comanche Magic,110,Charlie Hammond,Stuart Edmunds,11 -11,6,0,True,0,0.009070625,4,Fontwell_2026-01-11_4:00,4
-Fontwell,11 Jan 2026 SKY,2m3f,Soft,4:00,Calshot Spit,109,Marc Goldstein,Sheena West,11- 7,6,0,True,0,0.008867533,PU,Fontwell_2026-01-11_4:00,5
-Fontwell,11 Jan 2026 SKY,2m3f,Soft,4:00,Miss Maxfort,112,Jonjo O'Neill Jr,D Donovan,11- 5,6,0,True,0,0.00872983,PU,Fontwell_2026-01-11_4:00,6
-Fontwell,11 Jan 2026 SKY,2m3f,Soft,4:00,Activist,112,Jack Tudor,David Pipe,11 -12,7,0,True,0,0.008691986,PU,Fontwell_2026-01-11_4:00,7
-Fontwell,11 Jan 2026 SKY,2m3f,Soft,4:00,Motazzen,114,Paul O'Brien,Henrietta C Knight,11- 4,8,0,True,0,0.008524814,3,Fontwell_2026-01-11_4:00,8
-Fontwell,11 Jan 2026 SKY,2m3f,Soft,4:00,Bradman,116,James Best,Kevin Bishop,10- 2,5,0,True,0,0.0078727575,1,Fontwell_2026-01-11_4:00,9
-Fontwell,11 Jan 2026 SKY,2m3f,Soft,4:00,Lexie's Moon,109,Benjamin Macey,Laura Horsfall,11- 6,8,7,True,0,0.007694926,2,Fontwell_2026-01-11_4:00,10
-Fontwell,11 Jan 2026 SKY,2m3f,Soft,4:00,Kajikia,108,Jay Tidball,Paul Nicholls,12- 0,6,5,True,0,0.0075423173,PU,Fontwell_2026-01-11_4:00,11
-Fontwell,11 Jan 2026 SKY,2m3f,Soft,4:00,Westlain,115,Lorcan Williams,Jack Jones,11- 0,4,0,True,0,0.0074523506,5,Fontwell_2026-01-11_4:00,12
-Fontwell,11 Jan 2026 SKY,2m3f,Soft,4:00,Northanger Abbey,103,Ben Sutton,Philip Hobbs & Johnson White,11 -11,6,5,True,0,0.007335063,,Fontwell_2026-01-11_4:00,13
-Fontwell,11 Jan 2026 SKY,2m3f,Soft,4:00,Hillsin,110,James Turner,Alan Jones,11- 7,8,5,True,0,0.0072855866,PU,Fontwell_2026-01-11_4:00,14
-Fontwell,11 Jan 2026 SKY,2m3f,Soft,4:00,Cast's Tasha,113,Toby McCain-Mitchell,Ben Clarke,12- 2,9,5,True,0,0.0070849536,PU,Fontwell_2026-01-11_4:00,15
-Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,12:20,Banter At The Bar,-,Gavin Brouder,M F Morris,11 -12,6,0,True,0,0.287558,1,Punchestown_2026-01-11_12:20,1
-Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,12:20,Enge Hazard,-,Darragh O'Keeffe,Andrew McNamara,11 -12,8,0,True,0,0.08354058,F,Punchestown_2026-01-11_12:20,2
-Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,12:20,Themanintheboots,112,Jack Kennedy,Gordon Elliott,11 -12,8,0,True,0,0.07485036,6,Punchestown_2026-01-11_12:20,3
-Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,12:20,Mistyburn,-,Tiernan Power Roche,P J Rothwell,11 -12,6,3,True,0,0.0731563,PU,Punchestown_2026-01-11_12:20,4
-Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,12:20,Silver King,106,Phillip Enright,Oliver McKiernan,11 -12,10,0,True,0,0.05445089,4,Punchestown_2026-01-11_12:20,5
-Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,12:20,Bajan Excell,88,Patrick M O'Brien,Ms Claire O'Connell,11 -12,10,5,True,0,0.048304822,PU,Punchestown_2026-01-11_12:20,6
-Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,12:20,Additional Time,-,Alex Harvey,John C McConnell,11 -12,7,0,True,0,0.046955477,PU,Punchestown_2026-01-11_12:20,7
-Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,12:20,Katie Daniels,-,Kevin Healy,Cian Collins,11- 5,7,7,True,0,0.044889323,5,Punchestown_2026-01-11_12:20,8
-Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,12:20,Mighty Jeremy,116,Simon Torrens,Patrick T Foley,11 -12,12,0,True,0,0.038575783,3,Punchestown_2026-01-11_12:20,9
-Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,12:20,Rajsalad,102,Charlie O'Dwyer,Conor O'Dwyer,11 -12,10,5,True,0,0.030856276,PU,Punchestown_2026-01-11_12:20,10
-Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,12:20,John The Diva,118,Sean O'Keeffe,M A Cahill,11 -12,9,0,True,0,0.028326696,2,Punchestown_2026-01-11_12:20,11
-Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,12:20,Brucejack,121,Danny Mullins,P A Fahy,11 -12,9,0,True,0,0.02703815,PU,Punchestown_2026-01-11_12:20,12
-Punchestown,11 Jan 2026,2m3½f,Yielding To Soft,12:50,Predators Gold,161,Paul Townend,W P Mullins,11- 2,7,0,True,0,0.12948236,3,Punchestown_2026-01-11_12:50,1
-Punchestown,11 Jan 2026,2m3½f,Yielding To Soft,12:50,Jacob's Ladder,155,Jack Kennedy,Gordon Elliott,11- 2,7,0,True,0,0.077029325,2,Punchestown_2026-01-11_12:50,2
-Punchestown,11 Jan 2026,2m3½f,Yielding To Soft,12:50,The Enabler,160,Sam Ewing,Gordon Elliott,11- 2,7,0,True,0,0.0696988,4,Punchestown_2026-01-11_12:50,3
-Punchestown,11 Jan 2026,2m3½f,Yielding To Soft,12:50,Kappa Jy Pyke,150,Danny Mullins,W P Mullins,11- 2,6,0,True,0,0.06426288,1,Punchestown_2026-01-11_12:50,4
-Punchestown,11 Jan 2026,2m3½f,Yielding To Soft,12:50,Pure Steel,148,Mark Walsh,James Joseph Mangan,11- 2,6,0,True,0,0.02546307,5,Punchestown_2026-01-11_12:50,5
-Punchestown,11 Jan 2026,2m3½f,Yielding To Soft,1:20,Tullabrack Lad,-,Benjamin P Kennedy,Francis J Flood,10- 6,7,4,True,0,0.0929284,PU,Punchestown_2026-01-11_1:20,1
-Punchestown,11 Jan 2026,2m3½f,Yielding To Soft,1:20,Diamond Dollar,-,Kevin A Murphy,C Byrnes,11- 9,7,4,True,0,0.06477576,1,Punchestown_2026-01-11_1:20,2
-Punchestown,11 Jan 2026,2m3½f,Yielding To Soft,1:20,Baltinglass Hill,104,Tiernan Power Roche,P J Rothwell,10- 8,9,0,True,0,0.06449897,PU,Punchestown_2026-01-11_1:20,3
-Punchestown,11 Jan 2026,2m3½f,Yielding To Soft,1:20,Just For Yuse,103,Patrick M O'Brien,Paul Stafford,10- 9,8,2,True,0,0.049305517,2,Punchestown_2026-01-11_1:20,4
-Punchestown,11 Jan 2026,2m3½f,Yielding To Soft,1:20,Hakensack,-,Michael Kenneally,James William Hannon,10 -11,7,4,True,0,0.044113487,6,Punchestown_2026-01-11_1:20,5
-Punchestown,11 Jan 2026,2m3½f,Yielding To Soft,1:20,Ernie From Nurney,95,Peter Smithers,Padraig Roche,11 -11,9,4,True,0,0.03954789,4,Punchestown_2026-01-11_1:20,6
-Punchestown,11 Jan 2026,2m3½f,Yielding To Soft,1:20,Duce Bigalow,96,Eoin Staples,Seamus Neville,10 -13,7,2,True,0,0.03271917,5,Punchestown_2026-01-11_1:20,7
-Punchestown,11 Jan 2026,2m3½f,Yielding To Soft,1:20,Feast,90,Anna McGuinness,Stephanie Ocsko-Moore,10- 4,9,4,True,0,0.029258776,PU,Punchestown_2026-01-11_1:20,8
-Punchestown,11 Jan 2026,2m3½f,Yielding To Soft,1:20,Mastermind,100,Shane Markey,Ms Helen P Markham,10- 3,12,4,True,0,0.024272956,3,Punchestown_2026-01-11_1:20,9
-Punchestown,11 Jan 2026,2m3½f,Yielding To Soft,1:20,Lovely Reaction,100,Aidan Kelly,Thomas Mullins,12- 0,8,0,True,0,0.023188077,PU,Punchestown_2026-01-11_1:20,10
-Punchestown,11 Jan 2026,2m3½f,Yielding To Soft,1:20,Halsafari,98,Calum Hogan,James M Barcoe,11 -10,13,4,True,0,0.021955477,7,Punchestown_2026-01-11_1:20,11
-Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,1:50,Nine Graces,125,Mr Finian Maguire,Barry Connell,12- 4,9,0,True,0,0.24980965,5,Punchestown_2026-01-11_1:50,1
-Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,1:50,Soloman Lane,123,Mr P W Gleeson,Martin Hassett,11- 7,11,7,True,0,0.16380182,11,Punchestown_2026-01-11_1:50,2
-Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,1:50,Harbour Highway,125,Mr Alan O'Sullivan,Emmet Mullins,10 -10,7,7,True,0,0.08160766,10,Punchestown_2026-01-11_1:50,3
-Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,1:50,Hardwired,123,Mr J H Williamson,T M Walsh,11- 4,10,5,True,0,0.06585233,4,Punchestown_2026-01-11_1:50,4
-Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,1:50,Showurappreciation,127,Mr Derek O'Connor,Jonathan Sweeney,11- 7,8,0,True,0,0.062299367,1,Punchestown_2026-01-11_1:50,5
-Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,1:50,Union Park,125,Mr R Sugrue,P J Rothwell,11 -13,10,7,True,0,0.06188335,,Punchestown_2026-01-11_1:50,6
-Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,1:50,Prince Palace,124,Mr P W Mullins,P A Fahy,11- 7,8,0,True,0,0.061100457,PU,Punchestown_2026-01-11_1:50,7
-Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,1:50,Gringo d'Aubrelle,140,Mr J M Halford,Gordon Elliott,11- 4,10,7,True,0,0.057979196,F,Punchestown_2026-01-11_1:50,8
-Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,1:50,Krabat,124,Mr A P Ryan,Michael J McDonagh,11- 7,11,5,True,0,0.050992057,7,Punchestown_2026-01-11_1:50,9
-Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,1:50,Solly Attwell,125,Mr R James,Cian Collins,11- 7,8,7,True,0,0.04662871,6,Punchestown_2026-01-11_1:50,10
-Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,1:50,Whateys Quest,123,Miss A L Fitzgibbon,C Byrnes,10 -13,8,7,True,0,0.04252525,8,Punchestown_2026-01-11_1:50,11
-Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,1:50,Bigbraveboy,125,Mr S Connor,James William Hannon,10- 8,8,7,True,0,0.024984002,3,Punchestown_2026-01-11_1:50,12
-Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,1:50,Ney,126,Mr Finn Buckley,Edward Buckley,11 -10,8,7,True,0,0.023434449,2,Punchestown_2026-01-11_1:50,13
-Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,1:50,Evies Vladimir,121,Mr B M Coonan,Gavin Cromwell,11- 7,9,7,True,0,0.021913288,9,Punchestown_2026-01-11_1:50,14
-Punchestown,11 Jan 2026,2m½f,Yielding,2:20,Sober,133,Paul Townend,W P Mullins,11- 4,7,0,True,0,0.12645108,1,Punchestown_2026-01-11_2:20,1
-Punchestown,11 Jan 2026,2m½f,Yielding,2:20,Road Exile,136,Jack Kennedy,Gordon Elliott,11- 4,6,0,True,0,0.08044762,2,Punchestown_2026-01-11_2:20,2
-Punchestown,11 Jan 2026,2m½f,Yielding,2:20,Free Spirit,112,Danny Mullins,W P Mullins,11- 4,5,0,True,0,0.061612204,3,Punchestown_2026-01-11_2:20,3
-Punchestown,11 Jan 2026,2m½f,Yielding,2:20,Frankie John,136,D G Hogan,Denis Gerard Hogan,11- 4,6,0,True,0,0.026305506,,Punchestown_2026-01-11_2:20,4
-Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Tyson Fury,115,D G Hogan,Denis Gerard Hogan,11 -12,9,0,True,0,0.21920407,,Punchestown_2026-01-11_2:50,1
-Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Riskabahia,100,Paul Townend,W P Mullins,11- 5,6,0,True,0,0.13342614,,Punchestown_2026-01-11_2:50,2
-Punchestown,11 Jan 2026,2m½f,Yielding,2:50,The Shanty Field,61,Michael Kenneally,Declan Queally,11 -12,6,7,True,0,0.10666361,,Punchestown_2026-01-11_2:50,3
-Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Golden Wings,-,Danny Gilligan,Gordon Elliott,11- 5,5,0,True,0,0.08436439,,Punchestown_2026-01-11_2:50,4
-Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Springhill Warrior,118,Jack Kennedy,Gordon Elliott,11 -12,5,0,True,0,0.07110371,,Punchestown_2026-01-11_2:50,5
-Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Laxxio,-,Danny Mullins,Anthony Mullins,11 -12,5,0,True,0,0.070448816,,Punchestown_2026-01-11_2:50,6
-Punchestown,11 Jan 2026,2m½f,Yielding,2:50,I Started A Joke,129,Philip Byrnes,C Byrnes,11 -12,7,0,True,0,0.06756608,,Punchestown_2026-01-11_2:50,7
-Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Albus,89,Sam Ewing,Gordon Elliott,11 -12,6,0,True,0,0.0637959,,Punchestown_2026-01-11_2:50,8
-Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Gerrymandering,29,,William J McLernon,11 -12,8,0,True,0,0.06188674,,Punchestown_2026-01-11_2:50,9
-Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Poet's Gale,-,Daniel King,A J Martin,11 -12,5,0,True,0,0.055537246,,Punchestown_2026-01-11_2:50,10
-Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Port Mor,-,Ricky Doyle,Eoin Griffin,11 -12,6,0,True,0,0.053518403,,Punchestown_2026-01-11_2:50,11
-Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Convincing,80,E Walsh,Ciaran Murphy,11 -12,5,0,True,0,0.052431,,Punchestown_2026-01-11_2:50,12
-Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Atlantic Gamble,95,Jack G Gilligan,Paul John Gilligan,11 -12,5,5,True,0,0.041842934,,Punchestown_2026-01-11_2:50,13
-Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Press The Button,-,Keith Donoghue,Gavin Cromwell,11 -12,6,0,True,0,0.04082816,,Punchestown_2026-01-11_2:50,14
-Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Let It Settle,-,Shane Fitzgerald,Gavin Cromwell,11- 5,5,0,True,0,0.038121022,,Punchestown_2026-01-11_2:50,15
-Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Navagio,75,Kieren Buckley,Ciaran Murphy,11 -12,7,0,True,0,0.036782846,,Punchestown_2026-01-11_2:50,16
-Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Red Veil,96,Conor Lamon,Adrian Sexton,10- 6,4,7,True,0,0.036375422,,Punchestown_2026-01-11_2:50,17
-Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Woodstar Lily,-,Carl Millar,W J Austin,11- 5,5,5,True,0,0.03570138,,Punchestown_2026-01-11_2:50,18
-Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Ozark's Walk,75,Brian Barry,Riceal Dunne,11 -12,6,7,True,0,0.033813752,,Punchestown_2026-01-11_2:50,19
-Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Embrace The Day,-,Conor Stone-Walsh,Gavin Cromwell,11 -12,5,0,True,0,0.033581242,,Punchestown_2026-01-11_2:50,20
-Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Lyreen Og,95,,A J Martin,11 -12,6,0,True,0,0.0245454,,Punchestown_2026-01-11_2:50,21
-Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Large Steps,102,Jordan Gainford,Cian Collins,11 -12,5,0,True,0,0.021734651,,Punchestown_2026-01-11_2:50,22
-Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Sound As A Bell,91,Mark Walsh,Gavin Cromwell,11 -12,5,0,True,0,0.02173463,,Punchestown_2026-01-11_2:50,23
-Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Playtime,106,Kevin Sexton,Gordon Elliott,11 -12,5,0,True,0,0.021495204,,Punchestown_2026-01-11_2:50,24
-Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Ocean Of Dreams,85,Simon Torrens,Gary McGill,11 -12,5,0,True,0,0.020963835,,Punchestown_2026-01-11_2:50,25
-Punchestown,11 Jan 2026,2m5f,Yielding,3:20,Moon Mission,119,Tiernan Power Roche,P J Rothwell,10 -12,5,3,True,0,0.11216211,3,Punchestown_2026-01-11_3:20,1
-Punchestown,11 Jan 2026,2m5f,Yielding,3:20,Magic Day,126,Darragh O'Keeffe,Henry De Bromhead,11- 3,7,0,True,0,0.0544913,15,Punchestown_2026-01-11_3:20,2
-Punchestown,11 Jan 2026,2m5f,Yielding,3:20,Plunkett Street,124,Daniel King,Michael William O'Meara,11- 9,8,0,True,0,0.04590882,12,Punchestown_2026-01-11_3:20,3
-Punchestown,11 Jan 2026,2m5f,Yielding,3:20,San Hilario,124,Jack Kennedy,Gordon Elliott,11 -10,5,0,True,0,0.04377263,2,Punchestown_2026-01-11_3:20,4
-Punchestown,11 Jan 2026,2m5f,Yielding,3:20,Ontheropes,124,Mr C Mullins,Thomas Mullins,11 -11,12,7,True,0,0.03190586,13,Punchestown_2026-01-11_3:20,5
-Punchestown,11 Jan 2026,2m5f,Yielding,3:20,Happy Dreams,122,Sean O'Keeffe,Michael J McDonagh,11- 5,9,0,True,0,0.025072096,6,Punchestown_2026-01-11_3:20,6
-Punchestown,11 Jan 2026,2m5f,Yielding,3:20,Theflyingbee,128,Mr J R Martin,F G Hand,11 -12,9,7,True,0,0.023837248,5,Punchestown_2026-01-11_3:20,7
-Punchestown,11 Jan 2026,2m5f,Yielding,3:20,Moylussa,123,Philip Donovan,Maike Magnussen,11- 1,7,3,True,0,0.022302452,4,Punchestown_2026-01-11_3:20,8
-Punchestown,11 Jan 2026,2m5f,Yielding,3:20,Minority Interest,128,Calum Hogan,P J Rothwell,10- 1,6,7,True,0,0.020304523,8,Punchestown_2026-01-11_3:20,9
-Punchestown,11 Jan 2026,2m5f,Yielding,3:20,Beyond Your Dreams,116,Mark Walsh,Padraig Roche,11 -10,5,0,True,0,0.018970683,9,Punchestown_2026-01-11_3:20,10
-Punchestown,11 Jan 2026,2m5f,Yielding,3:20,Kimy,128,Michael Kenneally,Thomas Mullins,10 -11,6,7,True,0,0.018755708,14,Punchestown_2026-01-11_3:20,11
-Punchestown,11 Jan 2026,2m5f,Yielding,3:20,Jupiter Du Gite,126,Cian Quirke,T Hogan,11- 7,7,0,True,0,0.018335676,11,Punchestown_2026-01-11_3:20,12
-Punchestown,11 Jan 2026,2m5f,Yielding,3:20,Garnacho,124,Thomas O'Connor,Mark Fahey,11- 7,7,7,True,0,0.018270098,7,Punchestown_2026-01-11_3:20,13
-Punchestown,11 Jan 2026,2m5f,Yielding,3:20,Olympy De Cerisy,120,Kevin Healy,Declan Queally,11- 6,7,7,True,0,0.017775428,10,Punchestown_2026-01-11_3:20,14
-Punchestown,11 Jan 2026,2m5f,Yielding,3:20,Powerful,124,Simon Torrens,Mrs John Harrington,11 -12,5,0,True,0,0.017373703,1,Punchestown_2026-01-11_3:20,15
-Punchestown,11 Jan 2026,2m5f,Yielding,3:20,Littlefoot,128,Danny Gilligan,M A Molloy,11 -11,8,0,True,0,0.016921964,,Punchestown_2026-01-11_3:20,16
-Sha Tin,11 Jan 2026 SKY,6f,Good,4:30,I P O Bros,53,James Orman,Y S Tsui,9- 7,5,0,True,0,0.04794316,4,Sha Tin_2026-01-11_4:30,1
-Sha Tin,11 Jan 2026 SKY,6f,Good,4:30,Super Elite,54,Andrea Atzeni,Douglas Whyte,8- 5,6,0,True,0,0.04602567,11,Sha Tin_2026-01-11_4:30,2
-Sha Tin,11 Jan 2026 SKY,6f,Good,4:30,My Flying Angel,58,Alexis Badel,F C Lor,9- 4,5,0,True,0,0.04424724,5,Sha Tin_2026-01-11_4:30,3
-Sha Tin,11 Jan 2026 SKY,6f,Good,4:30,King Alloy,55,Richard Kingscote,Jimmy Ting,9- 7,4,0,True,0,0.04346534,6,Sha Tin_2026-01-11_4:30,4
-Sha Tin,11 Jan 2026 SKY,6f,Good,4:30,General Smart,55,,C S Shum,9- 7,4,0,True,0,0.04346534,,Sha Tin_2026-01-11_4:30,5
-Sha Tin,11 Jan 2026 SKY,6f,Good,4:30,Happy Boys,58,,Mark Newnham,9- 7,4,0,True,0,0.041667704,,Sha Tin_2026-01-11_4:30,6
-Sha Tin,11 Jan 2026 SKY,6f,Good,4:30,Euro Rocks,56,Karis Teetan,C H Yip,8- 3,7,0,True,0,0.041563,10,Sha Tin_2026-01-11_4:30,7
-Sha Tin,11 Jan 2026 SKY,6f,Good,4:30,Majestic Delight,57,Jerry Chau,David Eustace,9- 4,4,2,True,0,0.0414591,3,Sha Tin_2026-01-11_4:30,8
-Sha Tin,11 Jan 2026 SKY,6f,Good,4:30,You'remyeverything,55,H T Mo,C W Chang,9- 1,9,2,True,0,0.037807535,12,Sha Tin_2026-01-11_4:30,9
-Sha Tin,11 Jan 2026 SKY,6f,Good,4:30,Inno Century,61,Matthew Chadwick,W Y So,9- 5,5,0,True,0,0.032062594,7,Sha Tin_2026-01-11_4:30,10
-Sha Tin,11 Jan 2026 SKY,6f,Good,4:30,Snowthorn,57,Zac Purton,P F Yiu,9- 9,4,0,True,0,0.030564228,1,Sha Tin_2026-01-11_4:30,11
-Sha Tin,11 Jan 2026 SKY,6f,Good,4:30,The Way We Win,61,M L Yeung,Jamie Richards,8- 5,5,0,True,0,0.030436192,8,Sha Tin_2026-01-11_4:30,12
-Sha Tin,11 Jan 2026 SKY,6f,Good,4:30,Shotgun,61,Matthew Poon,D J Hall,9- 3,4,0,True,0,0.02918637,2,Sha Tin_2026-01-11_4:30,13
-Sha Tin,11 Jan 2026 SKY,6f,Good,4:30,Team Happy,61,Maxime Guyon,P C Ng,9- 1,5,0,True,0,0.027519906,9,Sha Tin_2026-01-11_4:30,14
-Sha Tin,11 Jan 2026 SKY,6f,Good,5:00,Circuit Happy,52,,David A Hayes,9- 1,4,0,True,0,0.038610365,,Sha Tin_2026-01-11_5:00,1
-Sha Tin,11 Jan 2026 SKY,6f,Good,5:00,Holmes A Court,62,Brenton Avdulla,A S Cruz,9- 7,4,0,True,0,0.028509984,5,Sha Tin_2026-01-11_5:00,2
-Sha Tin,11 Jan 2026 SKY,6f,Good,5:00,Quick Money,70,Jerry Chau,C H Yip,9- 5,4,2,True,0,0.027198663,9,Sha Tin_2026-01-11_5:00,3
-Sha Tin,11 Jan 2026 SKY,6f,Good,5:00,Majestic Valour,71,Zac Purton,P C Ng,9- 9,4,0,True,0,0.027076092,1,Sha Tin_2026-01-11_5:00,4
-Sha Tin,11 Jan 2026 SKY,6f,Good,5:00,Honorary,60,K C Leung,W K Mo,9- 1,4,0,True,0,0.02682121,10,Sha Tin_2026-01-11_5:00,5
-Sha Tin,11 Jan 2026 SKY,6f,Good,5:00,Yeux De Lifeline,61,Andrea Atzeni,J Size,8 -11,4,0,True,0,0.025934516,7,Sha Tin_2026-01-11_5:00,6
-Sha Tin,11 Jan 2026 SKY,6f,Good,5:00,Dash,71,Lyle Hewitson,Douglas Whyte,8- 5,4,0,True,0,0.025807453,6,Sha Tin_2026-01-11_5:00,7
-Sha Tin,11 Jan 2026 SKY,6f,Good,5:00,Money Tycoon,57,M L Yeung,F C Lor,8 -11,3,0,True,0,0.025457812,11,Sha Tin_2026-01-11_5:00,8
-Sha Tin,11 Jan 2026 SKY,6f,Good,5:00,Happy Alliance,67,C Y Ho,K W Lui,8 -11,4,0,True,0,0.02368418,12,Sha Tin_2026-01-11_5:00,9
-Sha Tin,11 Jan 2026 SKY,6f,Good,5:00,Sea Diamond,-,Hugh Bowman,David Eustace,9- 1,4,0,True,0,0.023196762,4,Sha Tin_2026-01-11_5:00,10
-Sha Tin,11 Jan 2026 SKY,6f,Good,5:00,Autumn Vibes,76,Maxime Guyon,Jamie Richards,8- 8,4,0,True,0,0.021866648,8,Sha Tin_2026-01-11_5:00,11
-Sha Tin,11 Jan 2026 SKY,6f,Good,5:00,Warriors Dream,78,Karis Teetan,B Crawford,8 -13,5,0,True,0,0.020558288,3,Sha Tin_2026-01-11_5:00,12
-Sha Tin,11 Jan 2026 SKY,6f,Good,5:00,Lucky Ranger,-,L J Ferraris,Mark Newnham,9- 1,3,0,True,0,0.018947711,2,Sha Tin_2026-01-11_5:00,13
-Sha Tin,11 Jan 2026 SKY,6f,Good,5:00,Tycoon Express,-,,C Fownes,9- 1,3,0,True,0,0.018947711,,Sha Tin_2026-01-11_5:00,14
-Sha Tin,11 Jan 2026 SKY,6f,Good,5:30,Ka Ying Warrior,75,Karis Teetan,B Crawford,8- 9,7,0,True,0,0.040600847,4,Sha Tin_2026-01-11_5:30,1
-Sha Tin,11 Jan 2026 SKY,6f,Good,5:30,Groovy Feeling,72,M L Yeung,Jamie Richards,8- 7,5,0,True,0,0.039337773,12,Sha Tin_2026-01-11_5:30,2
-Sha Tin,11 Jan 2026 SKY,6f,Good,5:30,Cirrus Speed,62,Matthew Poon,D J Hall,8- 8,4,0,True,0,0.038206115,5,Sha Tin_2026-01-11_5:30,3
-Sha Tin,11 Jan 2026 SKY,6f,Good,5:30,Young Legacy,48,,J Size,9- 0,4,0,True,0,0.03362194,,Sha Tin_2026-01-11_5:30,4
-Sha Tin,11 Jan 2026 SKY,6f,Good,5:30,Aquaman,55,Richard Kingscote,C W Chang,8 -13,4,0,True,0,0.032439776,11,Sha Tin_2026-01-11_5:30,5
-Sha Tin,11 Jan 2026 SKY,6f,Good,5:30,Conrad The Great,60,K C Leung,Douglas Whyte,8 -10,4,0,True,0,0.027382456,9,Sha Tin_2026-01-11_5:30,6
-Sha Tin,11 Jan 2026 SKY,6f,Good,5:30,Ruby Sailing,72,,K L Man,8- 9,5,0,True,0,0.026562206,,Sha Tin_2026-01-11_5:30,7
-Sha Tin,11 Jan 2026 SKY,6f,Good,5:30,Power Summit,71,David Probert,David Eustace,8- 7,4,0,True,0,0.025807453,7,Sha Tin_2026-01-11_5:30,8
-Sha Tin,11 Jan 2026 SKY,6f,Good,5:30,Happy Shooter,73,Lyle Hewitson,C S Shum,8 -10,5,0,True,0,0.025752496,2,Sha Tin_2026-01-11_5:30,9
-Sha Tin,11 Jan 2026 SKY,6f,Good,5:30,Ever Luck,74,James Orman,Mark Newnham,9- 9,3,0,True,0,0.021469655,3,Sha Tin_2026-01-11_5:30,10
-Sha Tin,11 Jan 2026 SKY,6f,Good,5:30,Lucky McQueen,76,Matthew Chadwick,W K Mo,8- 9,4,0,True,0,0.02087782,8,Sha Tin_2026-01-11_5:30,11
-Sha Tin,11 Jan 2026 SKY,6f,Good,5:30,Elite Golf,64,Harry Bentley,W Y So,9- 1,3,0,True,0,0.02044973,1,Sha Tin_2026-01-11_5:30,12
-Sha Tin,11 Jan 2026 SKY,6f,Good,5:30,Chill Partners,66,Jerry Chau,K W Lui,9- 1,3,2,True,0,0.019193532,6,Sha Tin_2026-01-11_5:30,13
-Sha Tin,11 Jan 2026 SKY,6f,Good,5:30,Majestic Life,-,Angus Chung,C H Yip,9- 1,3,2,True,0,0.019062439,10,Sha Tin_2026-01-11_5:30,14
-Sha Tin,11 Jan 2026 SKY,7f,Good,6:00,Rainbow Warrior,31,Lyle Hewitson,Douglas Whyte,9- 1,4,0,True,0,0.04951414,13,Sha Tin_2026-01-11_6:00,1
-Sha Tin,11 Jan 2026 SKY,7f,Good,6:00,Young Horizon,75,Karis Teetan,B Crawford,8- 3,7,0,True,0,0.044589125,5,Sha Tin_2026-01-11_6:00,2
-Sha Tin,11 Jan 2026 SKY,7f,Good,6:00,Circuit Fiery,75,Harry Bentley,W Y So,8 -10,6,0,True,0,0.036399715,3,Sha Tin_2026-01-11_6:00,3
-Sha Tin,11 Jan 2026 SKY,7f,Good,6:00,Red Brick Warrior,58,L J Ferraris,David Eustace,9- 1,4,0,True,0,0.035530783,10,Sha Tin_2026-01-11_6:00,4
-Sha Tin,11 Jan 2026 SKY,7f,Good,6:00,Kingly Demeanor,74,,A S Cruz,8- 8,6,0,True,0,0.03490324,,Sha Tin_2026-01-11_6:00,5
-Sha Tin,11 Jan 2026 SKY,7f,Good,6:00,Frantanck,74,Angus Chung,P C Ng,8 -10,7,2,True,0,0.034817263,6,Sha Tin_2026-01-11_6:00,6
-Sha Tin,11 Jan 2026 SKY,7f,Good,6:00,The Heir I,73,C Y Ho,C Fownes,9- 3,6,0,True,0,0.034437325,8,Sha Tin_2026-01-11_6:00,7
-Sha Tin,11 Jan 2026 SKY,7f,Good,6:00,Bright Day,76,James Orman,K L Man,9- 7,6,0,True,0,0.029887455,12,Sha Tin_2026-01-11_6:00,8
-Sha Tin,11 Jan 2026 SKY,7f,Good,6:00,Super Love,66,Hugh Bowman,C H Yip,9- 9,5,0,True,0,0.029772233,14,Sha Tin_2026-01-11_6:00,9
-Sha Tin,11 Jan 2026 SKY,7f,Good,6:00,Flying Knight,68,Dylan Browne McMonagle,W K Mo,9- 5,4,0,True,0,0.027751511,9,Sha Tin_2026-01-11_6:00,10
-Sha Tin,11 Jan 2026 SKY,7f,Good,6:00,Lucky Man,73,Richard Kingscote,David A Hayes,8 -10,5,0,True,0,0.025865817,11,Sha Tin_2026-01-11_6:00,11
-Sha Tin,11 Jan 2026 SKY,7f,Good,6:00,Kyrus Treasure,67,,David Eustace,8 -11,4,0,True,0,0.025321655,,Sha Tin_2026-01-11_6:00,12
-Sha Tin,11 Jan 2026 SKY,7f,Good,6:00,Endeared,80,Zac Purton,J Size,9- 9,6,0,True,0,0.02470896,2,Sha Tin_2026-01-11_6:00,13
-Sha Tin,11 Jan 2026 SKY,7f,Good,6:00,Flying Boom,72,Matthew Poon,C W Chang,8 -12,4,0,True,0,0.024313878,4,Sha Tin_2026-01-11_6:00,14
-Sha Tin,11 Jan 2026 SKY,7f,Good,6:00,Rezeki,76,Andrea Atzeni,D J Hall,9- 2,5,0,True,0,0.023594538,1,Sha Tin_2026-01-11_6:00,15
-Sha Tin,11 Jan 2026 SKY,7f,Good,6:00,Incredible Moment,77,Alexis Badel,Mark Newnham,8 -11,4,0,True,0,0.0207799,7,Sha Tin_2026-01-11_6:00,16
-Sha Tin,11 Jan 2026 SKY,7f,Good,6:30,Manaphy,57,K C Leung,W K Mo,8 -12,5,0,True,0,0.04993684,11,Sha Tin_2026-01-11_6:30,1
-Sha Tin,11 Jan 2026 SKY,7f,Good,6:30,Strathpeffer,71,Lyle Hewitson,Douglas Whyte,9- 2,6,0,True,0,0.04707729,2,Sha Tin_2026-01-11_6:30,2
-Sha Tin,11 Jan 2026 SKY,7f,Good,6:30,Amazing Award,72,Jerry Chau,David Eustace,9- 3,5,2,True,0,0.043361556,7,Sha Tin_2026-01-11_6:30,3
-Sha Tin,11 Jan 2026 SKY,7f,Good,6:30,Fortune Kingo,72,Richard Kingscote,Jimmy Ting,8 -11,4,0,True,0,0.035892393,8,Sha Tin_2026-01-11_6:30,4
-Sha Tin,11 Jan 2026 SKY,7f,Good,6:30,Brave Win,68,C Y Ho,K W Lui,8 -12,4,0,True,0,0.0340857,10,Sha Tin_2026-01-11_6:30,5
-Sha Tin,11 Jan 2026 SKY,7f,Good,6:30,Oldtown,68,L J Ferraris,W Y So,9- 6,4,0,True,0,0.029330479,6,Sha Tin_2026-01-11_6:30,6
-Sha Tin,11 Jan 2026 SKY,7f,Good,6:30,Star Satyr,74,Angus Chung,A S Cruz,9- 9,4,2,True,0,0.02867941,4,Sha Tin_2026-01-11_6:30,7
-Sha Tin,11 Jan 2026 SKY,7f,Good,6:30,Apolar Fighter,71,Maxime Guyon,David Eustace,8- 8,5,0,True,0,0.028424647,14,Sha Tin_2026-01-11_6:30,8
-Sha Tin,11 Jan 2026 SKY,7f,Good,6:30,Shinyu Kokoroe,65,David Probert,B Crawford,9- 0,5,0,True,0,0.027248228,13,Sha Tin_2026-01-11_6:30,9
-Sha Tin,11 Jan 2026 SKY,7f,Good,6:30,Precision Hope,63,Alexis Badel,David A Hayes,9- 0,4,0,True,0,0.026680566,12,Sha Tin_2026-01-11_6:30,10
-Sha Tin,11 Jan 2026 SKY,7f,Good,6:30,Smart Fat Cat,72,,W K Mo,8 -13,4,0,True,0,0.025702437,,Sha Tin_2026-01-11_6:30,11
-Sha Tin,11 Jan 2026 SKY,7f,Good,6:30,Robot Star,68,Zac Purton,K L Man,9- 1,4,0,True,0,0.02486812,1,Sha Tin_2026-01-11_6:30,12
-Sha Tin,11 Jan 2026 SKY,7f,Good,6:30,Brownneedsfurther,71,James Orman,D J Hall,8 -13,4,0,True,0,0.024718383,5,Sha Tin_2026-01-11_6:30,13
-Sha Tin,11 Jan 2026 SKY,7f,Good,6:30,Crossborderdude,71,Brenton Avdulla,J Size,9- 0,3,0,True,0,0.019968586,3,Sha Tin_2026-01-11_6:30,14
-Sha Tin,11 Jan 2026 SKY,7f,Good,6:30,Young Fighter,80,Karis Teetan,C Fownes,8- 8,4,0,True,0,0.019552594,9,Sha Tin_2026-01-11_6:30,15
-Sha Tin,11 Jan 2026 SKY,1m1f,Good,7:00,Our Lucky Glory,70,L J Ferraris,W Y So,8 -10,7,0,True,0,0.05017955,10,Sha Tin_2026-01-11_7:00,1
-Sha Tin,11 Jan 2026 SKY,1m1f,Good,7:00,Kasa Papa,74,Andrea Atzeni,A S Cruz,8- 7,8,0,True,0,0.045514803,9,Sha Tin_2026-01-11_7:00,2
-Sha Tin,11 Jan 2026 SKY,1m1f,Good,7:00,Good Good,68,,J Size,9- 2,5,0,True,0,0.043950766,,Sha Tin_2026-01-11_7:00,3
-Sha Tin,11 Jan 2026 SKY,1m1f,Good,7:00,Super Goldendragon,64,K C Leung,W K Mo,9- 1,4,0,True,0,0.042618237,6,Sha Tin_2026-01-11_7:00,4
-Sha Tin,11 Jan 2026 SKY,1m1f,Good,7:00,Floof,79,Karis Teetan,B Crawford,8- 9,6,0,True,0,0.040695567,14,Sha Tin_2026-01-11_7:00,5
-Sha Tin,11 Jan 2026 SKY,1m1f,Good,7:00,Young Bravo,66,James Orman,D J Hall,9- 9,4,0,True,0,0.040449694,5,Sha Tin_2026-01-11_7:00,6
-Sha Tin,11 Jan 2026 SKY,1m1f,Good,7:00,Yiu Cheung Victory,74,Alexis Badel,C H Yip,8 -13,6,0,True,0,0.0368534,13,Sha Tin_2026-01-11_7:00,7
-Sha Tin,11 Jan 2026 SKY,1m1f,Good,7:00,Packing Hurricane,77,Harry Bentley,P C Ng,9- 2,7,0,True,0,0.035673555,8,Sha Tin_2026-01-11_7:00,8
-Sha Tin,11 Jan 2026 SKY,1m1f,Good,7:00,Pearl Of Pang's,69,C Y Ho,K L Man,9- 2,5,0,True,0,0.033000126,7,Sha Tin_2026-01-11_7:00,9
-Sha Tin,11 Jan 2026 SKY,1m1f,Good,7:00,Joyful Prosperity,76,Matthew Poon,C S Shum,8- 9,6,0,True,0,0.032797575,11,Sha Tin_2026-01-11_7:00,10
-Sha Tin,11 Jan 2026 SKY,1m1f,Good,7:00,Audacious Pursuit,66,Hugh Bowman,C Fownes,9- 9,4,0,True,0,0.032175668,2,Sha Tin_2026-01-11_7:00,11
-Sha Tin,11 Jan 2026 SKY,1m1f,Good,7:00,Dilbagh,71,,Douglas Whyte,8- 9,5,0,True,0,0.03113282,,Sha Tin_2026-01-11_7:00,12
-Sha Tin,11 Jan 2026 SKY,1m1f,Good,7:00,China Win,71,Zac Purton,David A Hayes,9- 2,4,0,True,0,0.029387513,1,Sha Tin_2026-01-11_7:00,13
-Sha Tin,11 Jan 2026 SKY,1m1f,Good,7:00,Luck Is Back,76,Richard Kingscote,K W Lui,9- 6,5,0,True,0,0.028137775,12,Sha Tin_2026-01-11_7:00,14
-Sha Tin,11 Jan 2026 SKY,1m1f,Good,7:00,Volcanic Spark,80,Maxime Guyon,P F Yiu,8 -12,6,0,True,0,0.026351769,3,Sha Tin_2026-01-11_7:00,15
-Sha Tin,11 Jan 2026 SKY,1m1f,Good,7:00,Charity Together,77,Dylan Browne McMonagle,David Eustace,9- 4,4,0,True,0,0.026076576,4,Sha Tin_2026-01-11_7:00,16
-Sha Tin,11 Jan 2026 SKY,6f,Good,7:35,Let's Have Fun,78,,David A Hayes,8- 7,4,0,True,0,0.035743337,,Sha Tin_2026-01-11_7:35,1
-Sha Tin,11 Jan 2026 SKY,6f,Good,7:35,Young Emperor,92,L J Ferraris,David Eustace,9- 0,5,0,True,0,0.031574704,1,Sha Tin_2026-01-11_7:35,2
-Sha Tin,11 Jan 2026 SKY,6f,Good,7:35,Glittering Legend,112,,David Eustace,9- 9,4,0,True,0,0.030087695,,Sha Tin_2026-01-11_7:35,3
-Sha Tin,11 Jan 2026 SKY,6f,Good,7:35,Alpha Strike,88,C Y Ho,C Fownes,9- 1,4,0,True,0,0.029376553,10,Sha Tin_2026-01-11_7:35,4
-Sha Tin,11 Jan 2026 SKY,6f,Good,7:35,Szeryng,87,Zac Purton,J Size,9- 0,4,0,True,0,0.029049916,12,Sha Tin_2026-01-11_7:35,5
-Sha Tin,11 Jan 2026 SKY,6f,Good,7:35,Matzden,-,Alexis Badel,Jamie Richards,8- 9,4,0,True,0,0.026878994,6,Sha Tin_2026-01-11_7:35,6
-Sha Tin,11 Jan 2026 SKY,6f,Good,7:35,Win Ease,78,M L Yeung,K W Lui,8- 7,5,0,True,0,0.026760357,11,Sha Tin_2026-01-11_7:35,7
-Sha Tin,11 Jan 2026 SKY,6f,Good,7:35,Armour War Eagle,97,Andrea Atzeni,Mark Newnham,8- 6,6,0,True,0,0.026120218,4,Sha Tin_2026-01-11_7:35,8
-Sha Tin,11 Jan 2026 SKY,6f,Good,7:35,Matters Most,83,Ellis Wong,C S Shum,9- 5,5,5,True,0,0.024913928,9,Sha Tin_2026-01-11_7:35,9
-Sha Tin,11 Jan 2026 SKY,6f,Good,7:35,Pakistan Legacy,85,James Orman,W Y So,9- 5,5,0,True,0,0.024907766,7,Sha Tin_2026-01-11_7:35,10
-Sha Tin,11 Jan 2026 SKY,6f,Good,7:35,Aurora Patch,87,Matthew Chadwick,K L Man,9- 2,5,0,True,0,0.023857879,5,Sha Tin_2026-01-11_7:35,11
-Sha Tin,11 Jan 2026 SKY,6f,Good,7:35,Celestial Hero,83,Hugh Bowman,Douglas Whyte,9- 9,4,0,True,0,0.023639245,3,Sha Tin_2026-01-11_7:35,12
-Sha Tin,11 Jan 2026 SKY,6f,Good,7:35,Prestige Always,91,Lyle Hewitson,P C Ng,8 -13,5,0,True,0,0.022110289,8,Sha Tin_2026-01-11_7:35,13
-Sha Tin,11 Jan 2026 SKY,6f,Good,7:35,Chill Buddy,87,Karis Teetan,P F Yiu,8- 9,4,0,True,0,0.021295177,2,Sha Tin_2026-01-11_7:35,14
-Sha Tin,11 Jan 2026 SKY,7f,Good,8:05,Beauty Crescent,109,Angus Chung,A S Cruz,8- 4,6,2,True,0,0.033086993,9,Sha Tin_2026-01-11_8:05,1
-Sha Tin,11 Jan 2026 SKY,7f,Good,8:05,Beauty Eternal,114,Brenton Avdulla,J Size,9- 9,7,0,True,0,0.03204714,5,Sha Tin_2026-01-11_8:05,2
-Sha Tin,11 Jan 2026 SKY,7f,Good,8:05,Invincible Shield,110,C Y Ho,K W Lui,9- 5,5,0,True,0,0.03059035,8,Sha Tin_2026-01-11_8:05,3
-Sha Tin,11 Jan 2026 SKY,7f,Good,8:05,Drombeg Banner,111,Maxime Guyon,P C Ng,8 -13,7,0,True,0,0.028809765,10,Sha Tin_2026-01-11_8:05,4
-Sha Tin,11 Jan 2026 SKY,7f,Good,8:05,Infinite Resolve,107,Alexis Badel,Mark Newnham,8- 4,4,0,True,0,0.027364828,2,Sha Tin_2026-01-11_8:05,5
-Sha Tin,11 Jan 2026 SKY,7f,Good,8:05,Sky Trust,109,Hugh Bowman,C Fownes,8 -13,5,0,True,0,0.026406007,7,Sha Tin_2026-01-11_8:05,6
-Sha Tin,11 Jan 2026 SKY,7f,Good,8:05,Dancing Code,110,Ellis Wong,C Fownes,9- 2,7,5,True,0,0.023446215,12,Sha Tin_2026-01-11_8:05,7
-Sha Tin,11 Jan 2026 SKY,7f,Good,8:05,Young Champion,116,M L Yeung,J Size,8- 6,6,0,True,0,0.02269067,11,Sha Tin_2026-01-11_8:05,8
-Sha Tin,11 Jan 2026 SKY,7f,Good,8:05,Mr Ascendency,112,Harry Bentley,P F Yiu,8- 4,8,0,True,0,0.022434724,13,Sha Tin_2026-01-11_8:05,9
-Sha Tin,11 Jan 2026 SKY,7f,Good,8:05,Healthy Happy,112,Jerry Chau,F C Lor,9- 7,9,2,True,0,0.021603689,6,Sha Tin_2026-01-11_8:05,10
-Sha Tin,11 Jan 2026 SKY,7f,Good,8:05,Mid Winter Wind,113,Matthew Chadwick,Mark Newnham,8- 5,5,0,True,0,0.020784663,3,Sha Tin_2026-01-11_8:05,11
-Sha Tin,11 Jan 2026 SKY,7f,Good,8:05,The Boom Box,107,,W Y So,8- 5,5,0,True,0,0.020256754,,Sha Tin_2026-01-11_8:05,12
-Sha Tin,11 Jan 2026 SKY,7f,Good,8:05,Public Attention,111,Andrea Atzeni,David A Hayes,8- 6,4,0,True,0,0.01968636,4,Sha Tin_2026-01-11_8:05,13
-Sha Tin,11 Jan 2026 SKY,7f,Good,8:05,Markwin,109,H T Mo,W K Mo,8 -11,5,2,True,0,0.019573329,14,Sha Tin_2026-01-11_8:05,14
-Sha Tin,11 Jan 2026 SKY,7f,Good,8:05,Little Paradise,106,Zac Purton,Jimmy Ting,8 -10,4,0,True,0,0.017205447,1,Sha Tin_2026-01-11_8:05,15
-Sha Tin,11 Jan 2026 SKY,1m1f,Good,8:40,Joy Of Spring,92,Ellis Wong,C Fownes,9- 9,6,5,True,0,0.03344815,13,Sha Tin_2026-01-11_8:40,1
-Sha Tin,11 Jan 2026 SKY,1m1f,Good,8:40,Emblazon,91,,W K Mo,8- 3,4,0,True,0,0.028511988,,Sha Tin_2026-01-11_8:40,2
-Sha Tin,11 Jan 2026 SKY,1m1f,Good,8:40,Packing Fighter,90,Lyle Hewitson,P C Ng,8- 5,4,0,True,0,0.02804324,4,Sha Tin_2026-01-11_8:40,3
-Sha Tin,11 Jan 2026 SKY,1m1f,Good,8:40,Enthralled,98,Andrea Atzeni,J Size,8- 5,5,0,True,0,0.027999371,7,Sha Tin_2026-01-11_8:40,4
-Sha Tin,11 Jan 2026 SKY,1m1f,Good,8:40,Fallon,100,,A S Cruz,9- 0,6,0,True,0,0.025007412,,Sha Tin_2026-01-11_8:40,5
-Sha Tin,11 Jan 2026 SKY,1m1f,Good,8:40,Fortune Boy,93,Zac Purton,David A Hayes,8- 8,4,0,True,0,0.024397165,6,Sha Tin_2026-01-11_8:40,6
-Sha Tin,11 Jan 2026 SKY,1m1f,Good,8:40,Mondial,104,James Orman,Mark Newnham,8 -12,5,0,True,0,0.023734868,14,Sha Tin_2026-01-11_8:40,7
-Sha Tin,11 Jan 2026 SKY,1m1f,Good,8:40,Money Catcher,96,K C Leung,F C Lor,8- 5,8,0,True,0,0.023667231,1,Sha Tin_2026-01-11_8:40,8
-Sha Tin,11 Jan 2026 SKY,1m1f,Good,8:40,Prestige Good,92,Jerry Chau,P F Yiu,9- 1,5,2,True,0,0.021902904,5,Sha Tin_2026-01-11_8:40,9
-Sha Tin,11 Jan 2026 SKY,1m1f,Good,8:40,The Auspicious,89,Maxime Guyon,Y S Tsui,8- 7,4,0,True,0,0.021812655,3,Sha Tin_2026-01-11_8:40,10
-Sha Tin,11 Jan 2026 SKY,1m1f,Good,8:40,Mister Dapper,95,Brenton Avdulla,David Eustace,8 -11,6,0,True,0,0.021083862,11,Sha Tin_2026-01-11_8:40,11
-Sha Tin,11 Jan 2026 SKY,1m1f,Good,8:40,Master Trillion,93,Karis Teetan,F C Lor,8- 3,5,0,True,0,0.020720238,12,Sha Tin_2026-01-11_8:40,12
-Sha Tin,11 Jan 2026 SKY,1m1f,Good,8:40,Romantic Thor,97,L J Ferraris,C S Shum,8 -11,5,0,True,0,0.01991646,9,Sha Tin_2026-01-11_8:40,13
-Sha Tin,11 Jan 2026 SKY,1m1f,Good,8:40,Stunning Peach,103,Hugh Bowman,A S Cruz,9- 7,5,0,True,0,0.019539902,2,Sha Tin_2026-01-11_8:40,14
-Sha Tin,11 Jan 2026 SKY,1m1f,Good,8:40,Liveandletlive,94,Matthew Chadwick,A S Cruz,8 -12,5,0,True,0,0.018327793,10,Sha Tin_2026-01-11_8:40,15
-Sha Tin,11 Jan 2026 SKY,1m1f,Good,8:40,Excellence Value,93,Alexis Badel,W Y So,9- 0,5,0,True,0,0.017881317,8,Sha Tin_2026-01-11_8:40,16
-Sha Tin,11 Jan 2026 SKY,1m,Good,9:15,Natural Numbers,72,James Orman,Y S Tsui,9- 2,4,0,True,0,0.04387256,12,Sha Tin_2026-01-11_9:15,1
-Sha Tin,11 Jan 2026 SKY,1m,Good,9:15,Fit For Beauty,89,Andrea Atzeni,J Size,8- 5,4,0,True,0,0.031089125,6,Sha Tin_2026-01-11_9:15,2
-Sha Tin,11 Jan 2026 SKY,1m,Good,9:15,Class,73,C Y Ho,P F Yiu,8 -11,4,0,True,0,0.03040517,13,Sha Tin_2026-01-11_9:15,3
-Sha Tin,11 Jan 2026 SKY,1m,Good,9:15,Shamz,90,,A S Cruz,8- 9,4,0,True,0,0.02860951,,Sha Tin_2026-01-11_9:15,4
-Sha Tin,11 Jan 2026 SKY,1m,Good,9:15,Aerodynamics,86,,Mark Newnham,8 -12,4,0,True,0,0.027733145,,Sha Tin_2026-01-11_9:15,5
-Sha Tin,11 Jan 2026 SKY,1m,Good,9:15,Gratifide,81,Richard Kingscote,David Eustace,8- 5,4,0,True,0,0.024670906,11,Sha Tin_2026-01-11_9:15,6
-Sha Tin,11 Jan 2026 SKY,1m,Good,9:15,Win Beauty Viva,92,Karis Teetan,J Size,8- 5,4,0,True,0,0.023898572,7,Sha Tin_2026-01-11_9:15,7
-Sha Tin,11 Jan 2026 SKY,1m,Good,9:15,Supreme Mastermind,91,M L Yeung,David A Hayes,8- 3,4,0,True,0,0.023346236,4,Sha Tin_2026-01-11_9:15,8
-Sha Tin,11 Jan 2026 SKY,1m,Good,9:15,The Red Hare,89,Maxime Guyon,F C Lor,8- 7,4,0,True,0,0.022130758,3,Sha Tin_2026-01-11_9:15,9
-Sha Tin,11 Jan 2026 SKY,1m,Good,9:15,Invincible Ibis,88,Hugh Bowman,Mark Newnham,9- 9,4,0,True,0,0.021846626,1,Sha Tin_2026-01-11_9:15,10
-Sha Tin,11 Jan 2026 SKY,1m,Good,9:15,Legend Winner,92,Lyle Hewitson,Mark Newnham,8- 8,4,0,True,0,0.021741929,8,Sha Tin_2026-01-11_9:15,11
-Sha Tin,11 Jan 2026 SKY,1m,Good,9:15,Beauty Bolt,96,Zac Purton,A S Cruz,9- 8,4,0,True,0,0.020893412,2,Sha Tin_2026-01-11_9:15,12
-Sha Tin,11 Jan 2026 SKY,1m,Good,9:15,California Waves,87,Harry Bentley,W K Mo,8- 9,4,0,True,0,0.02052694,5,Sha Tin_2026-01-11_9:15,13
-Sha Tin,11 Jan 2026 SKY,1m,Good,9:15,Daryl Flash,94,Dylan Browne McMonagle,Y S Tsui,9- 4,4,0,True,0,0.019750718,9,Sha Tin_2026-01-11_9:15,14
-Sha Tin,11 Jan 2026 SKY,1m,Good,9:15,Uranus Star,95,L J Ferraris,K W Lui,8 -11,4,0,True,0,0.01898202,10,Sha Tin_2026-01-11_9:15,15
-Sha Tin,11 Jan 2026 SKY,1m,Good,9:15,Hott Shott,93,Matthew Poon,P C Ng,8 -10,4,0,True,0,0.018329054,14,Sha Tin_2026-01-11_9:15,16
-Sha Tin,11 Jan 2026 SKY,7f,Good,9:50,Golden Empire,87,Karis Teetan,B Crawford,8- 7,8,0,True,0,0.05453893,9,Sha Tin_2026-01-11_9:50,1
-Sha Tin,11 Jan 2026 SKY,7f,Good,9:50,So You Will,-,,C Fownes,8 -10,4,0,True,0,0.04178625,,Sha Tin_2026-01-11_9:50,2
-Sha Tin,11 Jan 2026 SKY,7f,Good,9:50,King Of Selection,76,Matthew Chadwick,W K Mo,8- 5,4,0,True,0,0.04058318,13,Sha Tin_2026-01-11_9:50,3
-Sha Tin,11 Jan 2026 SKY,7f,Good,9:50,Circuit Grand Slam,91,C Y Ho,K L Man,9- 9,4,0,True,0,0.03299758,11,Sha Tin_2026-01-11_9:50,4
-Sha Tin,11 Jan 2026 SKY,7f,Good,9:50,Without Compare,-,H T Mo,C S Shum,8- 8,4,2,True,0,0.032602556,3,Sha Tin_2026-01-11_9:50,5
-Sha Tin,11 Jan 2026 SKY,7f,Good,9:50,Helene Supafeeling,90,Hugh Bowman,David Eustace,9- 8,4,0,True,0,0.032277934,5,Sha Tin_2026-01-11_9:50,6
-Sha Tin,11 Jan 2026 SKY,7f,Good,9:50,Tourbillon Prince,88,,C W Chang,9- 3,7,0,True,0,0.03143119,,Sha Tin_2026-01-11_9:50,7
-Sha Tin,11 Jan 2026 SKY,7f,Good,9:50,Cheaha,89,Brenton Avdulla,A S Cruz,8 -12,4,0,True,0,0.028703853,12,Sha Tin_2026-01-11_9:50,8
-Sha Tin,11 Jan 2026 SKY,7f,Good,9:50,Master Of All,89,M L Yeung,W Y So,9- 1,6,0,True,0,0.026508639,14,Sha Tin_2026-01-11_9:50,9
-Sha Tin,11 Jan 2026 SKY,7f,Good,9:50,Ivy League,94,Richard Kingscote,Douglas Whyte,8- 5,7,0,True,0,0.02525524,6,Sha Tin_2026-01-11_9:50,10
-Sha Tin,11 Jan 2026 SKY,7f,Good,9:50,Mighty Steed,87,Maxime Guyon,K W Lui,8- 7,5,0,True,0,0.025022509,8,Sha Tin_2026-01-11_9:50,11
-Sha Tin,11 Jan 2026 SKY,7f,Good,9:50,Lucky Sam Gor,87,Matthew Poon,Mark Newnham,8- 4,4,0,True,0,0.023366025,1,Sha Tin_2026-01-11_9:50,12
-Sha Tin,11 Jan 2026 SKY,7f,Good,9:50,Blazing Wukong,89,Andrea Atzeni,P F Yiu,8- 5,4,0,True,0,0.0228899,4,Sha Tin_2026-01-11_9:50,13
-Sha Tin,11 Jan 2026 SKY,7f,Good,9:50,Akashvani,91,Lyle Hewitson,David A Hayes,9- 2,4,0,True,0,0.022049243,7,Sha Tin_2026-01-11_9:50,14
-Sha Tin,11 Jan 2026 SKY,7f,Good,9:50,Stormy Grove,89,Harry Bentley,F C Lor,8- 8,4,0,True,0,0.02171523,2,Sha Tin_2026-01-11_9:50,15
-Sha Tin,11 Jan 2026 SKY,7f,Good,9:50,Tin Fook,89,Zac Purton,D J Hall,8- 8,4,0,True,0,0.02171523,10,Sha Tin_2026-01-11_9:50,16
+track_name,race_date,distance,going,time,horse_name,rating,jockey,trainer,weight,age,claims,is_new,label,win_probability,actual_position,Race_id,inferred_position,horse_name_norm,kelly_stake,decimal_odds,edge,ev,action,bet_roi,was_bet
+Chelmsford (AW),11 Jan 2026Polytrack,5f,Standard,1:42,What What What,65,Lewis Chalkley,Michael & David Easterby,9- 8,4,7,True,0,0.0413435,3,Chelmsford (AW)_2026-01-11_1:42,1,what what what,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,5f,Standard,1:42,Master Dandy,65,Taylor Fisher,Michael Keady,9- 8,6,3,True,0,0.04042849,4,Chelmsford (AW)_2026-01-11_1:42,2,master dandy,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,5f,Standard,1:42,Forest Gunner,64,J F Egan,David Evans,9- 3,5,0,True,0,0.03551501,5,Chelmsford (AW)_2026-01-11_1:42,3,forest gunner,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,5f,Standard,1:42,Sir Rodneyredblood,66,Liam Wright,J R Jenkins,9 -11,9,5,True,0,0.035263635,2,Chelmsford (AW)_2026-01-11_1:42,4,sir rodneyredblood,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,5f,Standard,1:42,Second Collection,63,Matthew Lloyd Slater,Tony Carroll,9- 0,10,7,True,0,0.033055086,,Chelmsford (AW)_2026-01-11_1:42,5,second collection,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,5f,Standard,1:42,Inconspicuous,63,Kyle McHugh,Stuart Edmunds,9- 0,4,7,True,0,0.028126001,6,Chelmsford (AW)_2026-01-11_1:42,6,inconspicuous,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,5f,Standard,1:42,Gogo Yubari,67,Harry Vigors,Tony Carroll,10- 5,5,7,True,0,0.021267895,1,Chelmsford (AW)_2026-01-11_1:42,7,gogo yubari,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,6f,Standard,2:12,Man On A Mission,83,Tyler Heard,P Charalambous & J Clutterbuck,8- 5,7,0,True,0,0.02730723,10,Chelmsford (AW)_2026-01-11_2:12,1,man on a mission,0.5205652883333334,151.0,0.0206847134437086,3.12339173,BET,-0.5205652883333334,True
+Chelmsford (AW),11 Jan 2026Polytrack,6f,Standard,2:12,Bill Plumb,84,Grace McEntee,Phil McEntee,9- 5,7,0,True,0,0.02665349,6,Chelmsford (AW)_2026-01-11_2:12,2,bill plumb,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,6f,Standard,2:12,Lady Wingalong,87,Ryan Kavanagh,David Evans,9- 9,7,5,True,0,0.025200656,4,Chelmsford (AW)_2026-01-11_2:12,3,lady wingalong,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,6f,Standard,2:12,Ziggy's Condor,86,Harry Russell,Richard Fahey,9- 8,5,0,True,0,0.020475952,3,Chelmsford (AW)_2026-01-11_2:12,4,ziggy's condor,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,6f,Standard,2:12,Waistcoat,85,Rhys Clutterbuck,Ross Burdon,9- 3,5,0,True,0,0.020329453,1,Chelmsford (AW)_2026-01-11_2:12,5,waistcoat,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,6f,Standard,2:12,Ziggy's Queen,84,Ethan Tindall,Richard Fahey,9- 5,5,7,True,0,0.020195426,2,Chelmsford (AW)_2026-01-11_2:12,6,ziggy's queen,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,6f,Standard,2:12,Correspondence,82,Gina Mangan,Tony Carroll,9- 2,4,0,True,0,0.019353705,8,Chelmsford (AW)_2026-01-11_2:12,7,correspondence,0.2386810512499999,101.0,0.0294527149009901,0.9547242049999998,BET,-0.2386810512499999,True
+Chelmsford (AW),11 Jan 2026Polytrack,6f,Standard,2:12,Atomic Mass,84,Tom Kiely-Marshall,Michael & David Easterby,8- 6,4,5,True,0,0.019128425,7,Chelmsford (AW)_2026-01-11_2:12,8,atomic mass,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,6f,Standard,2:12,Middleton View,85,Harry Vigors,Stuart Williams,9- 8,4,7,True,0,0.018438764,9,Chelmsford (AW)_2026-01-11_2:12,9,middleton view,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,6f,Standard,2:12,Em Four,86,Conor Whiteley,Jamie Osborne,9- 8,4,7,True,0,0.018438764,5,Chelmsford (AW)_2026-01-11_2:12,10,em four,0.215578791,101.0,0.02853777390099,0.862315164,BET,-0.215578791,True
+Chelmsford (AW),11 Jan 2026Polytrack,1m2f,Standard,2:42,Three On Thursday,72,Gina Mangan,Tony Carroll,9- 7,4,0,True,0,0.03817095,3,Chelmsford (AW)_2026-01-11_2:42,1,three on thursday,0.473359225,51.0,0.0385631068627451,0.94671845,BET,-0.473359225,True
+Chelmsford (AW),11 Jan 2026Polytrack,1m2f,Standard,2:42,Twilight Guest,71,Harry Vigors,George Margarson,9- 4,6,7,True,0,0.03625767,5,Chelmsford (AW)_2026-01-11_2:42,2,twilight guest,0.6655061674999999,101.0,0.0463566799009901,2.66202467,BET,-0.6655061674999999,True
+Chelmsford (AW),11 Jan 2026Polytrack,1m2f,Standard,2:42,Enthused,76,Jonny Peate,James Owen,9- 9,9,0,True,0,0.03286171,2,Chelmsford (AW)_2026-01-11_2:42,3,enthused,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,1m2f,Standard,2:42,Seraphic,75,Callum Hutchinson,David Killahena & Graeme McPherson,9- 8,6,0,True,0,0.03093603,1,Chelmsford (AW)_2026-01-11_2:42,4,seraphic,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,1m2f,Standard,2:42,Age Of Time,74,Nicola Currie,Ian Williams,9- 9,5,0,True,0,0.028883122,4,Chelmsford (AW)_2026-01-11_2:42,5,age of time,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,1m2f,Standard,3:12,Come To Pass,47,Gina Mangan,Tony Carroll,9- 9,7,0,True,0,0.075164534,4,Chelmsford (AW)_2026-01-11_3:12,1,come to pass,0.828163956818182,23.0,0.0116862731304347,0.7287842820000001,BET,-0.828163956818182,True
+Chelmsford (AW),11 Jan 2026Polytrack,1m2f,Standard,3:12,Mary Rose,49,Tyler Heard,Stephanie Cassidy,9- 8,4,0,True,0,0.05911324,7,Chelmsford (AW)_2026-01-11_3:12,2,mary rose,1.1838038875,81.0,0.0667675609876543,3.78817244,BET,-1.1838038875,True
+Chelmsford (AW),11 Jan 2026Polytrack,1m2f,Standard,3:12,Marinakis,60,Ryan Kavanagh,Ian Williams,9- 9,6,5,True,0,0.05755553,1,Chelmsford (AW)_2026-01-11_3:12,3,marinakis,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,1m2f,Standard,3:12,Sun Festival,53,Zacharia Clarke,Joseph Parr,9- 9,8,7,True,0,0.05734102,8,Chelmsford (AW)_2026-01-11_3:12,4,sun festival,1.197860755,101.0,0.0674400299009901,4.79144302,BET,-1.197860755,True
+Chelmsford (AW),11 Jan 2026Polytrack,1m2f,Standard,3:12,Spaceage Love Song,54,Joe Bradnam,Michael Bell,9- 8,4,7,True,0,0.056684263,3,Chelmsford (AW)_2026-01-11_3:12,5,spaceage love song,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,1m2f,Standard,3:12,Prince Hector,57,Tom Kiely-Marshall,Jessica Bedi,9- 9,8,5,True,0,0.048850037,2,Chelmsford (AW)_2026-01-11_3:12,6,prince hector,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,1m2f,Standard,3:12,Al Shabab,64,J F Egan,David Evans,9- 9,5,0,True,0,0.047002338,5,Chelmsford (AW)_2026-01-11_3:12,7,al shabab,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,1m2f,Standard,3:12,Knight Of Magic,60,Rhys Clutterbuck,James Owen,9 -13,7,0,True,0,0.045458615,6,Chelmsford (AW)_2026-01-11_3:12,8,knight of magic,0.4133279621212122,34.0,0.0360468502941176,0.5455929100000001,BET,-0.4133279621212122,True
+Chelmsford (AW),11 Jan 2026Polytrack,1m2f,Standard,3:12,Sunset In Paris,60,Jonny Peate,J R Jenkins,9- 9,8,0,True,0,0.042881444,9,Chelmsford (AW)_2026-01-11_3:12,9,sunset in paris,0.5934768220000001,51.0,0.043273600862745,1.186953644,BET,-0.5934768220000001,True
+Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,3:42,Tolstoy,89,Ben Robinson,Brian Ellison,9- 6,7,0,True,0,0.04962362,5,Chelmsford (AW)_2026-01-11_3:42,1,tolstoy,0.052620025,21.0,0.0220045723809523,0.04209602,BET,-0.052620025,True
+Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,3:42,Monsieur Kodi,90,Ethan Tindall,Richard Fahey,9- 3,7,7,True,0,0.04287129,3,Chelmsford (AW)_2026-01-11_3:42,2,monsieur kodi,0.3466847424242423,34.0,0.0334595252941176,0.45762386,BET,-0.3466847424242423,True
+Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,3:42,Revolutionise,90,Harry Vigors,Stuart Williams,9- 5,10,7,True,0,0.042155586,9,Chelmsford (AW)_2026-01-11_3:42,3,revolutionise,0.8144285465000002,101.0,0.0522545959009901,3.2577141860000003,BET,-0.8144285465000002,True
+Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,3:42,Gaiety Musical,91,Ryan Kavanagh,David Evans,9- 7,5,5,True,0,0.035214644,6,Chelmsford (AW)_2026-01-11_3:42,4,gaiety musical,0.1494681030303031,34.0,0.0258028792941176,0.197297896,BET,-0.1494681030303031,True
+Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,3:42,Kit Gabriel,90,Tyler Heard,Simon Pearce,9- 2,7,0,True,0,0.030145278,11,Chelmsford (AW)_2026-01-11_3:42,5,kit gabriel,0.3862627371212121,67.0,0.0352199048656716,1.0197336260000005,BET,-0.3862627371212121,True
+Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,3:42,Chola Empire,90,Joey Haynes,David Simcock,9- 0,7,0,True,0,0.028104795,,Chelmsford (AW)_2026-01-11_3:42,6,chola empire,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,3:42,Diamondonthehill,91,Charlie Bell,Dr Richard Newland & Jamie Insole,9 -11,8,7,True,0,0.027638825,2,Chelmsford (AW)_2026-01-11_3:42,7,diamondonthehill,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,3:42,North View,92,Gina Mangan,Stuart Williams,9- 7,5,0,True,0,0.025059912,1,Chelmsford (AW)_2026-01-11_3:42,8,north view,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,3:42,Benacre,93,Oliver Stammers,Charlie Johnston,9- 8,6,0,True,0,0.024906058,7,Chelmsford (AW)_2026-01-11_3:42,9,benacre,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,3:42,Cherry Cobbler,92,Callum Hutchinson,Stuart Williams,9- 3,4,0,True,0,0.023447486,8,Chelmsford (AW)_2026-01-11_3:42,10,cherry cobbler,0.2162808946969697,67.0,0.0285221128656716,0.570981562,BET,-0.2162808946969697,True
+Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,3:42,Commander Of Life,91,Dougie Costello,Jessica Macey,9- 9,5,0,True,0,0.021263333,4,Chelmsford (AW)_2026-01-11_3:42,11,commander of life,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,3:42,Rochelle,87,J F Egan,George Margarson,9- 9,5,0,True,0,0.02115548,10,Chelmsford (AW)_2026-01-11_3:42,12,rochelle,0.28417587,101.0,0.0312544899009901,1.13670348,BET,-0.28417587,True
+Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,4:12,Diligent Henry,66,Dougie Costello,Jessica Macey,9- 7,5,0,True,0,0.18737,10,Chelmsford (AW)_2026-01-11_4:12,1,diligent henry,2.6526750000000003,11.0,0.0964609090909091,1.06107,BET,-2.6526750000000003,True
+Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,4:12,Kondratiev Wave,67,Gina Mangan,Tony Carroll,9- 8,9,0,True,0,0.06682583,6,Chelmsford (AW)_2026-01-11_4:12,2,kondratiev wave,0.212561109375,17.0,0.0280023005882352,0.13603911,BET,-0.212561109375,True
+Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,4:12,Secret Road,66,Rhys Clutterbuck,James Owen,9 -10,8,0,True,0,0.06198018,2,Chelmsford (AW)_2026-01-11_4:12,3,secret road,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,4:12,Last Outlaw,66,Taylor Fisher,Michael Keady,9- 9,5,3,True,0,0.054033168,5,Chelmsford (AW)_2026-01-11_4:12,4,last outlaw,0.1683706599999999,21.0,0.0264141203809523,0.1346965280000001,BET,-0.1683706599999999,True
+Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,4:12,Campani,64,Joey Haynes,David Simcock,9- 5,4,0,True,0,0.053973746,1,Chelmsford (AW)_2026-01-11_4:12,5,campani,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,4:12,Blueandtangerine,64,Lewis Chalkley,Michael & David Easterby,9- 8,4,7,True,0,0.052679006,9,Chelmsford (AW)_2026-01-11_4:12,6,blueandtangerine,1.0801449015,101.0,0.0627780159009901,4.320579606,BET,-1.0801449015,True
+Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,4:12,Fidget Lady,62,Ethan Tindall,Richard Fahey,9- 0,4,7,True,0,0.04519126,8,Chelmsford (AW)_2026-01-11_4:12,7,fidget lady,0.5330260375,41.0,0.0208010160975609,0.85284166,BET,-0.5330260375,True
+Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,4:12,Global Warning,65,Jonny Peate,John Butler,9- 8,10,0,True,0,0.043659203,7,Chelmsford (AW)_2026-01-11_4:12,8,global warning,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,4:12,Up The Monk,63,Liam Wright,Michael Appleby,9- 5,4,5,True,0,0.03925439,3,Chelmsford (AW)_2026-01-11_4:12,9,up the monk,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,4:12,Strobelight,67,Grace McEntee,George Boughey,9- 6,4,0,True,0,0.03601359,11,Chelmsford (AW)_2026-01-11_4:12,10,strobelight,0.2978482437499999,41.0,0.0316233460975609,0.4765571899999998,BET,-0.2978482437499999,True
+Chelmsford (AW),11 Jan 2026Polytrack,7f,Standard,4:12,Tootsie,65,Connor Planas,Phil McEntee,9- 2,4,3,True,0,0.03569367,4,Chelmsford (AW)_2026-01-11_4:12,11,tootsie,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,1m,Standard,4:42,Miners Gamble,75,Ben Robinson,Brian Ellison,9- 8,5,0,True,0,0.07111599,5,Chelmsford (AW)_2026-01-11_4:42,1,miners gamble,1.426049746212121,67.0,0.0761906168656716,3.76477133,BET,-1.426049746212121,True
+Chelmsford (AW),11 Jan 2026Polytrack,1m,Standard,4:42,Galaxy Wonder,74,Gina Mangan,Tony Carroll,9- 8,4,0,True,0,0.05547646,4,Chelmsford (AW)_2026-01-11_4:42,2,galaxy wonder,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,1m,Standard,4:42,Kessaar Power,70,Grace McEntee,Phil McEntee,9- 2,6,0,True,0,0.054389324,,Chelmsford (AW)_2026-01-11_4:42,3,kessaar power,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,1m,Standard,4:42,Al Waqidi,73,Nicola Currie,Jamie Osborne,9- 9,8,0,True,0,0.050386604,1,Chelmsford (AW)_2026-01-11_4:42,4,al waqidi,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,1m,Standard,4:42,Fulford Cross,73,Joey Haynes,David Simcock,9- 6,4,0,True,0,0.049374867,7,Chelmsford (AW)_2026-01-11_4:42,5,fulford cross,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,1m,Standard,4:42,Rainwater,74,Harry Russell,Richard Fahey,9- 9,5,0,True,0,0.049191926,3,Chelmsford (AW)_2026-01-11_4:42,6,rainwater,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,1m,Standard,4:42,Simply Blue,76,Jonny Peate,James Owen,9- 9,4,0,True,0,0.04036493,8,Chelmsford (AW)_2026-01-11_4:42,7,simply blue,0.6456251174242424,67.0,0.0454395568656716,1.70445031,BET,-0.6456251174242424,True
+Chelmsford (AW),11 Jan 2026Polytrack,1m,Standard,4:42,Brinton,71,Olivia Tubb,Jonathan Portman,9- 3,5,5,True,0,0.037694473,2,Chelmsford (AW)_2026-01-11_4:42,8,brinton,,,,,,0.0,False
+Chelmsford (AW),11 Jan 2026Polytrack,1m,Standard,4:42,Tam Lin,71,Tyler Heard,Anthony Carson,9- 5,4,0,True,0,0.03570354,6,Chelmsford (AW)_2026-01-11_4:42,9,tam lin,0.651514385,101.0,0.0458025499009901,2.60605754,BET,-0.651514385,True
+Fontwell,11 Jan 2026 SKY,2m3f,Soft,1:00,Roi Lion,-,Robert Dunne,Robert Walford,11- 3,8,0,True,0,0.019845093,11,Fontwell_2026-01-11_1:00,1,roi lion,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m3f,Soft,1:00,Monansunu,-,Caoilin Quinn,Andy Irvine,11- 3,6,0,True,0,0.018868247,10,Fontwell_2026-01-11_1:00,2,monansunu,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m3f,Soft,1:00,Mr Finch,-,Ben Jones,Ben Pauling,11- 3,6,0,True,0,0.018201465,4,Fontwell_2026-01-11_1:00,3,mr finch,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m3f,Soft,1:00,Pacman,-,Harry Kimber,Robert Walford,11- 3,5,0,True,0,0.014403048,9,Fontwell_2026-01-11_1:00,4,pacman,0.3107963524,501.0,0.032407040015968,6.215927048,BET,-0.3107963524,True
+Fontwell,11 Jan 2026 SKY,2m3f,Soft,1:00,Western George,-,Jonjo O'Neill Jr,Jonjo & A J O'Neill,11- 3,5,0,True,0,0.014403048,5,Fontwell_2026-01-11_1:00,5,western george,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m3f,Soft,1:00,The Cistercian,125,Charlie Hammond,Stuart Edmunds,11 -10,6,0,True,0,0.008115553,UR,Fontwell_2026-01-11_1:00,6,the cistercian,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m3f,Soft,1:00,For Old Times Sake,96,Conor O'Farrell,Neil Mulholland,11- 3,5,0,True,0,0.00786648,7,Fontwell_2026-01-11_1:00,7,for old times sake,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m3f,Soft,1:00,Legendary Luke,121,Gavin Sheehan,Jamie Snowden,11 -10,6,0,True,0,0.0078088734,1,Fontwell_2026-01-11_1:00,8,legendary luke,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m3f,Soft,1:00,Contacto,111,Tom Cannon,Lucy Wadham,11- 3,5,0,True,0,0.0076576625,3,Fontwell_2026-01-11_1:00,9,contacto,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m3f,Soft,1:00,Manigod,120,James Bowen,Warren Greatrex,11- 3,5,0,True,0,0.0075971647,2,Fontwell_2026-01-11_1:00,10,manigod,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m3f,Soft,1:00,Herbygoesbananas,81,Brendan Powell,Henrietta C Knight,11- 3,5,0,True,0,0.0075809965,6,Fontwell_2026-01-11_1:00,11,herbygoesbananas,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m3f,Soft,1:00,Le Flying Ferret,81,James Davies,Nick Gifford,11- 3,5,0,True,0,0.0075809965,8,Fontwell_2026-01-11_1:00,12,le flying ferret,0.12749872478125,401.0,0.025087230913965,2.0399795965000003,BET,-0.12749872478125,True
+Fontwell,11 Jan 2026 SKY,3m2f,Soft,1:30,The Brickey Ranger,-,Sean Houlihan,Seamus Mullins,10- 7,8,0,True,0,0.021497633,,Fontwell_2026-01-11_1:30,1,the brickey ranger,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,3m2f,Soft,1:30,Only Gossip,89,Callum Pritchard,Polly Gundry,10- 9,9,3,True,0,0.009835487,,Fontwell_2026-01-11_1:30,2,only gossip,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,3m2f,Soft,1:30,Inedit De Mee,109,Kevin Brogan,Toby Lawes,11- 6,8,0,True,0,0.008888318,,Fontwell_2026-01-11_1:30,3,inedit de mee,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,3m2f,Soft,1:30,Innisfree Lass,111,Charlie Hammond,Stuart Edmunds,11- 6,8,0,True,0,0.008462699,,Fontwell_2026-01-11_1:30,4,innisfree lass,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,3m2f,Soft,1:30,The Scorpion King,110,Gavin Sheehan,Oliver Signy,12- 0,8,0,True,0,0.0083824545,,Fontwell_2026-01-11_1:30,5,the scorpion king,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,3m2f,Soft,1:30,Animal,107,Charlie Deutsch,Suzy Smith,11- 8,10,0,True,0,0.00832702,,Fontwell_2026-01-11_1:30,6,animal,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,3m2f,Soft,1:30,Cooleenymore,109,Harry Kimber,Robert Walford,11- 8,10,0,True,0,0.008058553,,Fontwell_2026-01-11_1:30,7,cooleenymore,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,3m2f,Soft,1:30,Roe And Co,112,Joe Anderson,Jamie Snowden,12- 0,8,3,True,0,0.0077247773,,Fontwell_2026-01-11_1:30,8,roe and co,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,3m2f,Soft,1:30,Record High,109,Isabelle Ryder,Suzy Smith,11 -10,9,7,True,0,0.007192181,,Fontwell_2026-01-11_1:30,9,record high,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,3m2f,Soft,1:30,To Be Sure,110,Ellis Collier,Evan Williams,11- 0,11,5,True,0,0.00690839,,Fontwell_2026-01-11_1:30,10,to be sure,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:00,Aj's Diamond,-,Freddie Gordon,Chris Gordon,11- 2,6,0,True,0,0.03886248,4,Fontwell_2026-01-11_2:00,1,aj's diamond,0.0104244799999999,26.0,0.0204009415384615,0.0104244799999999,BET,-0.0104244799999999,True
+Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:00,Geordies Betty,-,Sean Houlihan,Kevin Bishop,11- 2,6,0,True,0,0.035104033,3,Fontwell_2026-01-11_2:00,2,geordies betty,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:00,Cast's Georgie,-,Harry Kimber,Robert Walford,11- 2,5,0,True,0,0.033468295,7,Fontwell_2026-01-11_2:00,3,cast's georgie,0.59507444875,101.0,0.0435673049009901,2.380297795,BET,-0.59507444875,True
+Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:00,Bunny Bee,-,Paul O'Brien,Henrietta C Knight,11- 2,5,0,True,0,0.030067375,2,Fontwell_2026-01-11_2:00,4,bunny bee,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:00,Mistress Fox,-,Bradley Harris,Neil Mulholland,11- 2,6,3,True,0,0.0299648,8,Fontwell_2026-01-11_2:00,5,mistress fox,0.5874474666666667,151.0,0.0233422834437086,3.5246848,BET,-0.5874474666666667,True
+Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:00,Svelte Silhouette,-,Daniel Sansom,Seamus Mullins,11- 2,5,3,True,0,0.021645313,UR,Fontwell_2026-01-11_2:00,6,svelte silhouette,0.29654415325,101.0,0.0317443229009901,1.1861766129999998,BET,-0.29654415325,True
+Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:00,Ephyra,82,Caoilin Quinn,Andy Irvine,11- 2,5,0,True,0,0.019909022,5,Fontwell_2026-01-11_2:00,7,ephyra,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:00,Limerick Lass,117,Ben Godfrey,Anthony Honeyball,11- 2,6,0,True,0,0.017465815,1,Fontwell_2026-01-11_2:00,8,limerick lass,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:00,Queen's Theatre,103,Sam Twiston-Davies,Anthony Honeyball,11- 9,5,0,True,0,0.01736969,,Fontwell_2026-01-11_2:00,9,queen's theatre,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:00,Wassailing Along,96,Brendan Powell,Joe Tizzard,11- 2,6,0,True,0,0.016396118,6,Fontwell_2026-01-11_2:00,10,wassailing along,0.1640019795,101.0,0.0264951279009901,0.656007918,BET,-0.1640019795,True
+Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:30,Khutulun Khan,-,Tom Cannon,Lucy Wadham,11- 2,7,0,True,0,0.03889731,5,Fontwell_2026-01-11_2:30,1,khutulun khan,0.6083787007575757,67.0,0.0439719368656716,1.6061197699999998,BET,-0.6083787007575757,True
+Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:30,Shalfa,-,Marc Goldstein,Lydia Richards,11- 2,7,0,True,0,0.03273615,3,Fontwell_2026-01-11_2:30,2,shalfa,0.62495098,126.0,0.024799642063492,3.1247549,BET,-0.62495098,True
+Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:30,Flame Dancer,-,James Davies,Noel Williams,10- 3,4,0,True,0,0.028781341,PU,Fontwell_2026-01-11_2:30,3,flame dancer,0.6224116591,251.0,0.02479727725498,6.224116591,BET,-0.6224116591,True
+Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:30,Don't Cheddar Tear,-,Tabitha Worsley,Georgie Howell,11- 2,7,3,True,0,0.028647447,,Fontwell_2026-01-11_2:30,4,don't cheddar tear,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:30,Cushendall,-,Tom Bellamy,Alan King,11- 2,6,0,True,0,0.028036924,8,Fontwell_2026-01-11_2:30,5,cushendall,0.457932331,101.0,0.0381359339009901,1.8317293240000003,BET,-0.457932331,True
+Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:30,Yasmina,94,Caoilin Quinn,Andy Irvine,11- 2,6,0,True,0,0.020241003,4,Fontwell_2026-01-11_2:30,6,yasmina,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:30,Onefournine,108,Jonjo O'Neill Jr,Jonjo & A J O'Neill,11- 2,6,0,True,0,0.019996263,2,Fontwell_2026-01-11_2:30,7,onefournine,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:30,Holetown,108,Charlie Deutsch,Venetia Williams,11- 2,6,0,True,0,0.019155556,6,Fontwell_2026-01-11_2:30,8,holetown,0.233677789,101.0,0.02925456590099,0.934711156,BET,-0.233677789,True
+Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:30,Blue Marvel,113,Charlie Hammond,Stuart Edmunds,11- 2,5,0,True,0,0.014379159,7,Fontwell_2026-01-11_2:30,9,blue marvel,0.3047222616111111,451.0,0.0321618640997782,5.485000709,BET,-0.3047222616111111,True
+Fontwell,11 Jan 2026 SKY,2m1½f,Soft,2:30,Park Princess,123,Sam Twiston-Davies,Anthony Honeyball,11- 9,6,0,True,0,0.013536364,1,Fontwell_2026-01-11_2:30,10,park princess,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,3m2f,Soft,3:00,Smith,-,Marc Goldstein,Lydia Richards,10- 5,10,0,True,0,0.022507532,,Fontwell_2026-01-11_3:00,1,smith,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,3m2f,Soft,3:00,Hilltown,-,Ellis Collier,Seamus Mullins,10- 2,8,5,True,0,0.016822202,5,Fontwell_2026-01-11_3:00,2,hilltown,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,3m2f,Soft,3:00,Mr Griffiths,98,Jonjo O'Neill Jr,Jonjo & A J O'Neill,11- 2,6,0,True,0,0.010745893,1,Fontwell_2026-01-11_3:00,3,mr griffiths,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,3m2f,Soft,3:00,Jour d'Orage,96,Conor O'Farrell,Neil Mulholland,10 -13,7,0,True,0,0.010038531,7,Fontwell_2026-01-11_3:00,4,jour d'orage,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,3m2f,Soft,3:00,I Love You Sivola,100,Brendan Powell,Helen Nelmes,10- 4,8,0,True,0,0.009176614,6,Fontwell_2026-01-11_3:00,5,i love you sivola,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,3m2f,Soft,3:00,Fox Cottage,99,Daniel Sansom,Seamus Mullins,11- 4,6,3,True,0,0.009135909,PU,Fontwell_2026-01-11_3:00,6,fox cottage,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,3m2f,Soft,3:00,Woodythewoodpecker,102,Conor Ring,Evan Williams,12- 0,6,0,True,0,0.008576979,2,Fontwell_2026-01-11_3:00,7,woodythewoodpecker,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,3m2f,Soft,3:00,Happy Returns,100,Bradley Harris,Neil Mulholland,10 -12,9,3,True,0,0.008418987,4,Fontwell_2026-01-11_3:00,8,happy returns,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,3m2f,Soft,3:00,William Philo,99,Shane Quinlan,Ben Lund,10- 3,9,3,True,0,0.008098107,8,Fontwell_2026-01-11_3:00,9,william philo,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,3m2f,Soft,3:00,Wot You Wearing,99,Fern O'Brien,Fergal O'Brien,10 -10,9,5,True,0,0.0073917997,PU,Fontwell_2026-01-11_3:00,10,wot you wearing,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,3m2f,Soft,3:00,Jewel Eyed Judy,102,James Turner,Nigel & Willy Twiston-Davies,10 -11,6,5,True,0,0.007370461,PU,Fontwell_2026-01-11_3:00,11,jewel eyed judy,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,3m2f,Soft,3:00,Bobalot,104,Benjamin Macey,Laura Horsfall,11 -12,9,7,True,0,0.0070825797,3,Fontwell_2026-01-11_3:00,12,bobalot,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m3½f,Soft,3:30,Alright Dai,-,Conor O'Farrell,Neil Mulholland,12- 0,8,0,True,0,0.029155204,1,Fontwell_2026-01-11_3:30,1,alright dai,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m3½f,Soft,3:30,Everyonesacritic,106,Isabel Williams,Evan Williams,11- 1,7,0,True,0,0.018306885,3,Fontwell_2026-01-11_3:30,2,everyonesacritic,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m3½f,Soft,3:30,Roxhill,95,Sean Houlihan,Seamus Mullins,11- 2,7,0,True,0,0.017867139,F,Fontwell_2026-01-11_3:30,3,roxhill,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m3½f,Soft,3:30,Hatos,102,Brendan Powell,Joe Tizzard,11- 0,9,0,True,0,0.017107137,2,Fontwell_2026-01-11_3:30,4,hatos,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m3½f,Soft,3:30,Angel's Dream,104,Caoilin Quinn,Gary & Josh Moore,11- 2,8,0,True,0,0.015299199,PU,Fontwell_2026-01-11_3:30,5,angel's dream,0.0094872473484848,67.0,0.0203738258656716,0.0250463329999999,BET,-0.0094872473484848,True
+Fontwell,11 Jan 2026 SKY,2m3½f,Soft,3:30,Summer In Milan,106,Freddie Gordon,Chris Gordon,11 -10,7,0,True,0,0.01381662,F,Fontwell_2026-01-11_3:30,6,summer in milan,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m3½f,Soft,3:30,Sanitiser,103,Freddie Mitchell,Gary & Josh Moore,11 -13,7,3,True,0,0.012281903,,Fontwell_2026-01-11_3:30,7,sanitiser,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m3f,Soft,4:00,I Play County,107,Kevin Brogan,Toby Lawes,12- 2,7,0,True,0,0.009501856,PU,Fontwell_2026-01-11_4:00,1,i play county,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m3f,Soft,4:00,Kool Kid,108,Brendan Powell,Joe Tizzard,11- 8,6,0,True,0,0.009238894,6,Fontwell_2026-01-11_4:00,2,kool kid,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m3f,Soft,4:00,Bridge,109,Caoilin Quinn,Gary & Josh Moore,11- 6,6,0,True,0,0.009193555,7,Fontwell_2026-01-11_4:00,3,bridge,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m3f,Soft,4:00,Comanche Magic,110,Charlie Hammond,Stuart Edmunds,11 -11,6,0,True,0,0.009070625,4,Fontwell_2026-01-11_4:00,4,comanche magic,0.1648325390625,401.0,0.026576859413965,2.637320625,BET,-0.1648325390625,True
+Fontwell,11 Jan 2026 SKY,2m3f,Soft,4:00,Calshot Spit,109,Marc Goldstein,Sheena West,11- 7,6,0,True,0,0.008867533,PU,Fontwell_2026-01-11_4:00,5,calshot spit,0.1666254101666666,451.0,0.0266502380997782,2.999257383,BET,-0.1666254101666666,True
+Fontwell,11 Jan 2026 SKY,2m3f,Soft,4:00,Miss Maxfort,112,Jonjo O'Neill Jr,D Donovan,11- 5,6,0,True,0,0.00872983,PU,Fontwell_2026-01-11_4:00,6,miss maxfort,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m3f,Soft,4:00,Activist,112,Jack Tudor,David Pipe,11 -12,7,0,True,0,0.008691986,PU,Fontwell_2026-01-11_4:00,7,activist,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m3f,Soft,4:00,Motazzen,114,Paul O'Brien,Henrietta C Knight,11- 4,8,0,True,0,0.008524814,3,Fontwell_2026-01-11_4:00,8,motazzen,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m3f,Soft,4:00,Bradman,116,James Best,Kevin Bishop,10- 2,5,0,True,0,0.0078727575,1,Fontwell_2026-01-11_4:00,9,bradman,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m3f,Soft,4:00,Lexie's Moon,109,Benjamin Macey,Laura Horsfall,11- 6,8,7,True,0,0.007694926,2,Fontwell_2026-01-11_4:00,10,lexie's moon,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m3f,Soft,4:00,Kajikia,108,Jay Tidball,Paul Nicholls,12- 0,6,5,True,0,0.0075423173,PU,Fontwell_2026-01-11_4:00,11,kajikia,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m3f,Soft,4:00,Westlain,115,Lorcan Williams,Jack Jones,11- 0,4,0,True,0,0.0074523506,5,Fontwell_2026-01-11_4:00,12,westlain,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m3f,Soft,4:00,Northanger Abbey,103,Ben Sutton,Philip Hobbs & Johnson White,11 -11,6,5,True,0,0.007335063,,Fontwell_2026-01-11_4:00,13,northanger abbey,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m3f,Soft,4:00,Hillsin,110,James Turner,Alan Jones,11- 7,8,5,True,0,0.0072855866,PU,Fontwell_2026-01-11_4:00,14,hillsin,,,,,,0.0,False
+Fontwell,11 Jan 2026 SKY,2m3f,Soft,4:00,Cast's Tasha,113,Toby McCain-Mitchell,Ben Clarke,12- 2,9,5,True,0,0.0070849536,PU,Fontwell_2026-01-11_4:00,15,cast's tasha,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,12:20,Banter At The Bar,-,Gavin Brouder,M F Morris,11 -12,6,0,True,0,0.287558,1,Punchestown_2026-01-11_12:20,1,banter at the bar,5.704695833333332,13.0,0.190634923076923,2.7382539999999995,STRONG BET,68.45634999999999,True
+Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,12:20,Enge Hazard,-,Darragh O'Keeffe,Andrew McNamara,11 -12,8,0,True,0,0.08354058,F,Punchestown_2026-01-11_12:20,2,enge hazard,1.7413707803030305,67.0,0.0886152068656716,4.59721886,BET,-1.7413707803030305,True
+Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,12:20,Themanintheboots,112,Jack Kennedy,Gordon Elliott,11 -12,8,0,True,0,0.07485036,6,Punchestown_2026-01-11_12:20,3,themanintheboots,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,12:20,Mistyburn,-,Tiernan Power Roche,P J Rothwell,11 -12,6,3,True,0,0.0731563,PU,Punchestown_2026-01-11_12:20,4,mistyburn,1.73622313,251.0,0.08917223625498,17.362231299999998,BET,-1.73622313,True
+Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,12:20,Silver King,106,Phillip Enright,Oliver McKiernan,11 -12,10,0,True,0,0.05445089,4,Punchestown_2026-01-11_12:20,5,silver king,0.4157231400000001,26.0,0.0159893515384615,0.4157231400000001,BET,-0.4157231400000001,True
+Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,12:20,Bajan Excell,88,Patrick M O'Brien,Ms Claire O'Connell,11 -12,10,5,True,0,0.048304822,PU,Punchestown_2026-01-11_12:20,6,bajan excell,1.1124510322,251.0,0.04432075825498,11.124510322,BET,-1.1124510322,True
+Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,12:20,Additional Time,-,Alex Harvey,John C McConnell,11 -12,7,0,True,0,0.046955477,PU,Punchestown_2026-01-11_12:20,7,additional time,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,12:20,Katie Daniels,-,Kevin Healy,Cian Collins,11- 5,7,7,True,0,0.044889323,5,Punchestown_2026-01-11_12:20,8,katie daniels,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,12:20,Mighty Jeremy,116,Simon Torrens,Patrick T Foley,11 -12,12,0,True,0,0.038575783,3,Punchestown_2026-01-11_12:20,9,mighty jeremy,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,12:20,Rajsalad,102,Charlie O'Dwyer,Conor O'Dwyer,11 -12,10,5,True,0,0.030856276,PU,Punchestown_2026-01-11_12:20,10,rajsalad,0.6502639345,201.0,0.0258811516218905,5.202111476,BET,-0.6502639345,True
+Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,12:20,John The Diva,118,Sean O'Keeffe,M A Cahill,11 -12,9,0,True,0,0.028326696,2,Punchestown_2026-01-11_12:20,11,john the diva,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,12:20,Brucejack,121,Danny Mullins,P A Fahy,11 -12,9,0,True,0,0.02703815,PU,Punchestown_2026-01-11_12:20,12,brucejack,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m3½f,Yielding To Soft,12:50,Predators Gold,161,Paul Townend,W P Mullins,11- 2,7,0,True,0,0.12948236,3,Punchestown_2026-01-11_12:50,1,predators gold,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m3½f,Yielding To Soft,12:50,Jacob's Ladder,155,Jack Kennedy,Gordon Elliott,11- 2,7,0,True,0,0.077029325,2,Punchestown_2026-01-11_12:50,2,jacob's ladder,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m3½f,Yielding To Soft,12:50,The Enabler,160,Sam Ewing,Gordon Elliott,11- 2,7,0,True,0,0.0696988,4,Punchestown_2026-01-11_12:50,3,the enabler,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m3½f,Yielding To Soft,12:50,Kappa Jy Pyke,150,Danny Mullins,W P Mullins,11- 2,6,0,True,0,0.06426288,1,Punchestown_2026-01-11_12:50,4,kappa jy pyke,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m3½f,Yielding To Soft,12:50,Pure Steel,148,Mark Walsh,James Joseph Mangan,11- 2,6,0,True,0,0.02546307,5,Punchestown_2026-01-11_12:50,5,pure steel,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m3½f,Yielding To Soft,1:20,Tullabrack Lad,-,Benjamin P Kennedy,Francis J Flood,10- 6,7,4,True,0,0.0929284,PU,Punchestown_2026-01-11_1:20,1,tullabrack lad,2.1720314,151.0,0.1063058834437086,13.0321884,BET,-2.1720314,True
+Punchestown,11 Jan 2026,2m3½f,Yielding To Soft,1:20,Diamond Dollar,-,Kevin A Murphy,C Byrnes,11- 9,7,4,True,0,0.06477576,1,Punchestown_2026-01-11_1:20,2,diamond dollar,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m3½f,Yielding To Soft,1:20,Baltinglass Hill,104,Tiernan Power Roche,P J Rothwell,10- 8,9,0,True,0,0.06449897,PU,Punchestown_2026-01-11_1:20,3,baltinglass hill,0.1507538906250001,17.0,0.0256754405882352,0.09648249,BET,-0.1507538906250001,True
+Punchestown,11 Jan 2026,2m3½f,Yielding To Soft,1:20,Just For Yuse,103,Patrick M O'Brien,Paul Stafford,10- 9,8,2,True,0,0.049305517,2,Punchestown_2026-01-11_1:20,4,just for yuse,0.7572906835,51.0,0.0296976738627451,1.514581367,BET,-0.7572906835,True
+Punchestown,11 Jan 2026,2m3½f,Yielding To Soft,1:20,Hakensack,-,Michael Kenneally,James William Hannon,10 -11,7,4,True,0,0.044113487,6,Punchestown_2026-01-11_1:20,5,hakensack,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m3½f,Yielding To Soft,1:20,Ernie From Nurney,95,Peter Smithers,Padraig Roche,11 -11,9,4,True,0,0.03954789,4,Punchestown_2026-01-11_1:20,6,ernie from nurney,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m3½f,Yielding To Soft,1:20,Duce Bigalow,96,Eoin Staples,Seamus Neville,10 -13,7,2,True,0,0.03271917,5,Punchestown_2026-01-11_1:20,7,duce bigalow,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m3½f,Yielding To Soft,1:20,Feast,90,Anna McGuinness,Stephanie Ocsko-Moore,10- 4,9,4,True,0,0.029258776,PU,Punchestown_2026-01-11_1:20,8,feast,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m3½f,Yielding To Soft,1:20,Mastermind,100,Shane Markey,Ms Helen P Markham,10- 3,12,4,True,0,0.024272956,3,Punchestown_2026-01-11_1:20,9,mastermind,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m3½f,Yielding To Soft,1:20,Lovely Reaction,100,Aidan Kelly,Thomas Mullins,12- 0,8,0,True,0,0.023188077,PU,Punchestown_2026-01-11_1:20,10,lovely reaction,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m3½f,Yielding To Soft,1:20,Halsafari,98,Calum Hogan,James M Barcoe,11 -10,13,4,True,0,0.021955477,7,Punchestown_2026-01-11_1:20,11,halsafari,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,1:50,Nine Graces,125,Mr Finian Maguire,Barry Connell,12- 4,9,0,True,0,0.24980965,5,Punchestown_2026-01-11_1:50,1,nine graces,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,1:50,Soloman Lane,123,Mr P W Gleeson,Martin Hassett,11- 7,11,7,True,0,0.16380182,11,Punchestown_2026-01-11_1:50,2,soloman lane,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,1:50,Harbour Highway,125,Mr Alan O'Sullivan,Emmet Mullins,10 -10,7,7,True,0,0.08160766,10,Punchestown_2026-01-11_1:50,3,harbour highway,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,1:50,Hardwired,123,Mr J H Williamson,T M Walsh,11- 4,10,5,True,0,0.06585233,4,Punchestown_2026-01-11_1:50,4,hardwired,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,1:50,Showurappreciation,127,Mr Derek O'Connor,Jonathan Sweeney,11- 7,8,0,True,0,0.062299367,1,Punchestown_2026-01-11_1:50,5,showurappreciation,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,1:50,Union Park,125,Mr R Sugrue,P J Rothwell,11 -13,10,7,True,0,0.06188335,,Punchestown_2026-01-11_1:50,6,union park,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,1:50,Prince Palace,124,Mr P W Mullins,P A Fahy,11- 7,8,0,True,0,0.061100457,PU,Punchestown_2026-01-11_1:50,7,prince palace,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,1:50,Gringo d'Aubrelle,140,Mr J M Halford,Gordon Elliott,11- 4,10,7,True,0,0.057979196,F,Punchestown_2026-01-11_1:50,8,gringo d'aubrelle,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,1:50,Krabat,124,Mr A P Ryan,Michael J McDonagh,11- 7,11,5,True,0,0.050992057,7,Punchestown_2026-01-11_1:50,9,krabat,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,1:50,Solly Attwell,125,Mr R James,Cian Collins,11- 7,8,7,True,0,0.04662871,6,Punchestown_2026-01-11_1:50,10,solly attwell,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,1:50,Whateys Quest,123,Miss A L Fitzgibbon,C Byrnes,10 -13,8,7,True,0,0.04252525,8,Punchestown_2026-01-11_1:50,11,whateys quest,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,1:50,Bigbraveboy,125,Mr S Connor,James William Hannon,10- 8,8,7,True,0,0.024984002,3,Punchestown_2026-01-11_1:50,12,bigbraveboy,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,1:50,Ney,126,Mr Finn Buckley,Edward Buckley,11 -10,8,7,True,0,0.023434449,2,Punchestown_2026-01-11_1:50,13,ney,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m6½f,Yielding To Soft,1:50,Evies Vladimir,121,Mr B M Coonan,Gavin Cromwell,11- 7,9,7,True,0,0.021913288,9,Punchestown_2026-01-11_1:50,14,evies vladimir,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m½f,Yielding,2:20,Sober,133,Paul Townend,W P Mullins,11- 4,7,0,True,0,0.12645108,1,Punchestown_2026-01-11_2:20,1,sober,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m½f,Yielding,2:20,Road Exile,136,Jack Kennedy,Gordon Elliott,11- 4,6,0,True,0,0.08044762,2,Punchestown_2026-01-11_2:20,2,road exile,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m½f,Yielding,2:20,Free Spirit,112,Danny Mullins,W P Mullins,11- 4,5,0,True,0,0.061612204,3,Punchestown_2026-01-11_2:20,3,free spirit,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m½f,Yielding,2:20,Frankie John,136,D G Hogan,Denis Gerard Hogan,11- 4,6,0,True,0,0.026305506,,Punchestown_2026-01-11_2:20,4,frankie john,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Tyson Fury,115,D G Hogan,Denis Gerard Hogan,11 -12,9,0,True,0,0.21920407,,Punchestown_2026-01-11_2:50,1,tyson fury,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Riskabahia,100,Paul Townend,W P Mullins,11- 5,6,0,True,0,0.13342614,8,Punchestown_2026-01-11_2:50,2,riskabahia,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m½f,Yielding,2:50,The Shanty Field,61,Michael Kenneally,Declan Queally,11 -12,6,7,True,0,0.10666361,5,Punchestown_2026-01-11_2:50,3,the shanty field,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Golden Wings,-,Danny Gilligan,Gordon Elliott,11- 5,5,0,True,0,0.08436439,3,Punchestown_2026-01-11_2:50,4,golden wings,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Springhill Warrior,118,Jack Kennedy,Gordon Elliott,11 -12,5,0,True,0,0.07110371,2,Punchestown_2026-01-11_2:50,5,springhill warrior,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Laxxio,-,Danny Mullins,Anthony Mullins,11 -12,5,0,True,0,0.070448816,4,Punchestown_2026-01-11_2:50,6,laxxio,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m½f,Yielding,2:50,I Started A Joke,129,Philip Byrnes,C Byrnes,11 -12,7,0,True,0,0.06756608,1,Punchestown_2026-01-11_2:50,7,i started a joke,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Albus,89,Sam Ewing,Gordon Elliott,11 -12,6,0,True,0,0.0637959,,Punchestown_2026-01-11_2:50,8,albus,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Gerrymandering,29,,William J McLernon,11 -12,8,0,True,0,0.06188674,,Punchestown_2026-01-11_2:50,9,gerrymandering,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Poet's Gale,-,Daniel King,A J Martin,11 -12,5,0,True,0,0.055537246,12,Punchestown_2026-01-11_2:50,10,poet's gale,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Port Mor,-,Ricky Doyle,Eoin Griffin,11 -12,6,0,True,0,0.053518403,PU,Punchestown_2026-01-11_2:50,11,port mor,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Convincing,80,E Walsh,Ciaran Murphy,11 -12,5,0,True,0,0.052431,13,Punchestown_2026-01-11_2:50,12,convincing,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Atlantic Gamble,95,Jack G Gilligan,Paul John Gilligan,11 -12,5,5,True,0,0.041842934,7,Punchestown_2026-01-11_2:50,13,atlantic gamble,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Press The Button,-,Keith Donoghue,Gavin Cromwell,11 -12,6,0,True,0,0.04082816,,Punchestown_2026-01-11_2:50,14,press the button,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Let It Settle,-,Shane Fitzgerald,Gavin Cromwell,11- 5,5,0,True,0,0.038121022,14,Punchestown_2026-01-11_2:50,15,let it settle,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Navagio,75,Kieren Buckley,Ciaran Murphy,11 -12,7,0,True,0,0.036782846,18,Punchestown_2026-01-11_2:50,16,navagio,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Red Veil,96,Conor Lamon,Adrian Sexton,10- 6,4,7,True,0,0.036375422,11,Punchestown_2026-01-11_2:50,17,red veil,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Woodstar Lily,-,Carl Millar,W J Austin,11- 5,5,5,True,0,0.03570138,PU,Punchestown_2026-01-11_2:50,18,woodstar lily,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Ozark's Walk,75,Brian Barry,Riceal Dunne,11 -12,6,7,True,0,0.033813752,15,Punchestown_2026-01-11_2:50,19,ozark's walk,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Embrace The Day,-,Conor Stone-Walsh,Gavin Cromwell,11 -12,5,0,True,0,0.033581242,10,Punchestown_2026-01-11_2:50,20,embrace the day,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Lyreen Og,95,,A J Martin,11 -12,6,0,True,0,0.0245454,,Punchestown_2026-01-11_2:50,21,lyreen og,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Large Steps,102,Jordan Gainford,Cian Collins,11 -12,5,0,True,0,0.021734651,16,Punchestown_2026-01-11_2:50,22,large steps,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Sound As A Bell,91,Mark Walsh,Gavin Cromwell,11 -12,5,0,True,0,0.02173463,6,Punchestown_2026-01-11_2:50,23,sound as a bell,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Playtime,106,Kevin Sexton,Gordon Elliott,11 -12,5,0,True,0,0.021495204,9,Punchestown_2026-01-11_2:50,24,playtime,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m½f,Yielding,2:50,Ocean Of Dreams,85,Simon Torrens,Gary McGill,11 -12,5,0,True,0,0.020963835,17,Punchestown_2026-01-11_2:50,25,ocean of dreams,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m5f,Yielding,3:20,Moon Mission,119,Tiernan Power Roche,P J Rothwell,10 -12,5,3,True,0,0.11216211,3,Punchestown_2026-01-11_3:20,1,moon mission,1.7951460568181814,23.0,0.0486838491304347,1.5797285299999997,BET,-1.7951460568181814,True
+Punchestown,11 Jan 2026,2m5f,Yielding,3:20,Magic Day,126,Darragh O'Keeffe,Henry De Bromhead,11- 3,7,0,True,0,0.0544913,15,Punchestown_2026-01-11_3:20,2,magic day,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m5f,Yielding,3:20,Plunkett Street,124,Daniel King,Michael William O'Meara,11- 9,8,0,True,0,0.04590882,12,Punchestown_2026-01-11_3:20,3,plunkett street,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m5f,Yielding,3:20,San Hilario,124,Jack Kennedy,Gordon Elliott,11 -10,5,0,True,0,0.04377263,2,Punchestown_2026-01-11_3:20,4,san hilario,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m5f,Yielding,3:20,Ontheropes,124,Mr C Mullins,Thomas Mullins,11 -11,12,7,True,0,0.03190586,13,Punchestown_2026-01-11_3:20,5,ontheropes,0.555622965,101.0,0.0420048699009901,2.2224918600000003,BET,-0.555622965,True
+Punchestown,11 Jan 2026,2m5f,Yielding,3:20,Happy Dreams,122,Sean O'Keeffe,Michael J McDonagh,11- 5,9,0,True,0,0.025072096,6,Punchestown_2026-01-11_3:20,6,happy dreams,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m5f,Yielding,3:20,Theflyingbee,128,Mr J R Martin,F G Hand,11 -12,9,7,True,0,0.023837248,5,Punchestown_2026-01-11_3:20,7,theflyingbee,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m5f,Yielding,3:20,Moylussa,123,Philip Donovan,Maike Magnussen,11- 1,7,3,True,0,0.022302452,4,Punchestown_2026-01-11_3:20,8,moylussa,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m5f,Yielding,3:20,Minority Interest,128,Calum Hogan,P J Rothwell,10- 1,6,7,True,0,0.020304523,8,Punchestown_2026-01-11_3:20,9,minority interest,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m5f,Yielding,3:20,Beyond Your Dreams,116,Mark Walsh,Padraig Roche,11 -10,5,0,True,0,0.018970683,9,Punchestown_2026-01-11_3:20,10,beyond your dreams,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m5f,Yielding,3:20,Kimy,128,Michael Kenneally,Thomas Mullins,10 -11,6,7,True,0,0.018755708,14,Punchestown_2026-01-11_3:20,11,kimy,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m5f,Yielding,3:20,Jupiter Du Gite,126,Cian Quirke,T Hogan,11- 7,7,0,True,0,0.018335676,11,Punchestown_2026-01-11_3:20,12,jupiter du gite,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m5f,Yielding,3:20,Garnacho,124,Thomas O'Connor,Mark Fahey,11- 7,7,7,True,0,0.018270098,7,Punchestown_2026-01-11_3:20,13,garnacho,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m5f,Yielding,3:20,Olympy De Cerisy,120,Kevin Healy,Declan Queally,11- 6,7,7,True,0,0.017775428,10,Punchestown_2026-01-11_3:20,14,olympy de cerisy,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m5f,Yielding,3:20,Powerful,124,Simon Torrens,Mrs John Harrington,11 -12,5,0,True,0,0.017373703,1,Punchestown_2026-01-11_3:20,15,powerful,,,,,,0.0,False
+Punchestown,11 Jan 2026,2m5f,Yielding,3:20,Littlefoot,128,Danny Gilligan,M A Molloy,11 -11,8,0,True,0,0.016921964,,Punchestown_2026-01-11_3:20,16,littlefoot,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,4:30,I P O Bros,53,James Orman,Y S Tsui,9- 7,5,0,True,0,0.04794316,4,Sha Tin_2026-01-11_4:30,1,i p o bros,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,4:30,Super Elite,54,Andrea Atzeni,Douglas Whyte,8- 5,6,0,True,0,0.04602567,11,Sha Tin_2026-01-11_4:30,2,super elite,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,4:30,My Flying Angel,58,Alexis Badel,F C Lor,9- 4,5,0,True,0,0.04424724,5,Sha Tin_2026-01-11_4:30,3,my flying angel,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,4:30,King Alloy,55,Richard Kingscote,Jimmy Ting,9- 7,4,0,True,0,0.04346534,6,Sha Tin_2026-01-11_4:30,4,king alloy,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,4:30,General Smart,55,,C S Shum,9- 7,4,0,True,0,0.04346534,,Sha Tin_2026-01-11_4:30,5,general smart,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,4:30,Happy Boys,58,,Mark Newnham,9- 7,4,0,True,0,0.041667704,,Sha Tin_2026-01-11_4:30,6,happy boys,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,4:30,Euro Rocks,56,Karis Teetan,C H Yip,8- 3,7,0,True,0,0.041563,10,Sha Tin_2026-01-11_4:30,7,euro rocks,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,4:30,Majestic Delight,57,Jerry Chau,David Eustace,9- 4,4,2,True,0,0.0414591,3,Sha Tin_2026-01-11_4:30,8,majestic delight,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,4:30,You'remyeverything,55,H T Mo,C W Chang,9- 1,9,2,True,0,0.037807535,12,Sha Tin_2026-01-11_4:30,9,you'remyeverything,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,4:30,Inno Century,61,Matthew Chadwick,W Y So,9- 5,5,0,True,0,0.032062594,7,Sha Tin_2026-01-11_4:30,10,inno century,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,4:30,Snowthorn,57,Zac Purton,P F Yiu,9- 9,4,0,True,0,0.030564228,1,Sha Tin_2026-01-11_4:30,11,snowthorn,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,4:30,The Way We Win,61,M L Yeung,Jamie Richards,8- 5,5,0,True,0,0.030436192,8,Sha Tin_2026-01-11_4:30,12,the way we win,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,4:30,Shotgun,61,Matthew Poon,D J Hall,9- 3,4,0,True,0,0.02918637,2,Sha Tin_2026-01-11_4:30,13,shotgun,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,4:30,Team Happy,61,Maxime Guyon,P C Ng,9- 1,5,0,True,0,0.027519906,9,Sha Tin_2026-01-11_4:30,14,team happy,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,5:00,Circuit Happy,52,,David A Hayes,9- 1,4,0,True,0,0.038610365,,Sha Tin_2026-01-11_5:00,1,circuit happy,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,5:00,Holmes A Court,62,Brenton Avdulla,A S Cruz,9- 7,4,0,True,0,0.028509984,5,Sha Tin_2026-01-11_5:00,2,holmes a court,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,5:00,Quick Money,70,Jerry Chau,C H Yip,9- 5,4,2,True,0,0.027198663,9,Sha Tin_2026-01-11_5:00,3,quick money,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,5:00,Majestic Valour,71,Zac Purton,P C Ng,9- 9,4,0,True,0,0.027076092,1,Sha Tin_2026-01-11_5:00,4,majestic valour,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,5:00,Honorary,60,K C Leung,W K Mo,9- 1,4,0,True,0,0.02682121,10,Sha Tin_2026-01-11_5:00,5,honorary,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,5:00,Yeux De Lifeline,61,Andrea Atzeni,J Size,8 -11,4,0,True,0,0.025934516,7,Sha Tin_2026-01-11_5:00,6,yeux de lifeline,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,5:00,Dash,71,Lyle Hewitson,Douglas Whyte,8- 5,4,0,True,0,0.025807453,6,Sha Tin_2026-01-11_5:00,7,dash,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,5:00,Money Tycoon,57,M L Yeung,F C Lor,8 -11,3,0,True,0,0.025457812,11,Sha Tin_2026-01-11_5:00,8,money tycoon,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,5:00,Happy Alliance,67,C Y Ho,K W Lui,8 -11,4,0,True,0,0.02368418,12,Sha Tin_2026-01-11_5:00,9,happy alliance,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,5:00,Sea Diamond,-,Hugh Bowman,David Eustace,9- 1,4,0,True,0,0.023196762,4,Sha Tin_2026-01-11_5:00,10,sea diamond,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,5:00,Autumn Vibes,76,Maxime Guyon,Jamie Richards,8- 8,4,0,True,0,0.021866648,8,Sha Tin_2026-01-11_5:00,11,autumn vibes,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,5:00,Warriors Dream,78,Karis Teetan,B Crawford,8 -13,5,0,True,0,0.020558288,3,Sha Tin_2026-01-11_5:00,12,warriors dream,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,5:00,Lucky Ranger,-,L J Ferraris,Mark Newnham,9- 1,3,0,True,0,0.018947711,2,Sha Tin_2026-01-11_5:00,13,lucky ranger,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,5:00,Tycoon Express,-,,C Fownes,9- 1,3,0,True,0,0.018947711,,Sha Tin_2026-01-11_5:00,14,tycoon express,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,5:30,Ka Ying Warrior,75,Karis Teetan,B Crawford,8- 9,7,0,True,0,0.040600847,4,Sha Tin_2026-01-11_5:30,1,ka ying warrior,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,5:30,Groovy Feeling,72,M L Yeung,Jamie Richards,8- 7,5,0,True,0,0.039337773,12,Sha Tin_2026-01-11_5:30,2,groovy feeling,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,5:30,Cirrus Speed,62,Matthew Poon,D J Hall,8- 8,4,0,True,0,0.038206115,5,Sha Tin_2026-01-11_5:30,3,cirrus speed,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,5:30,Young Legacy,48,,J Size,9- 0,4,0,True,0,0.03362194,,Sha Tin_2026-01-11_5:30,4,young legacy,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,5:30,Aquaman,55,Richard Kingscote,C W Chang,8 -13,4,0,True,0,0.032439776,11,Sha Tin_2026-01-11_5:30,5,aquaman,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,5:30,Conrad The Great,60,K C Leung,Douglas Whyte,8 -10,4,0,True,0,0.027382456,9,Sha Tin_2026-01-11_5:30,6,conrad the great,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,5:30,Ruby Sailing,72,,K L Man,8- 9,5,0,True,0,0.026562206,,Sha Tin_2026-01-11_5:30,7,ruby sailing,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,5:30,Power Summit,71,David Probert,David Eustace,8- 7,4,0,True,0,0.025807453,7,Sha Tin_2026-01-11_5:30,8,power summit,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,5:30,Happy Shooter,73,Lyle Hewitson,C S Shum,8 -10,5,0,True,0,0.025752496,2,Sha Tin_2026-01-11_5:30,9,happy shooter,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,5:30,Ever Luck,74,James Orman,Mark Newnham,9- 9,3,0,True,0,0.021469655,3,Sha Tin_2026-01-11_5:30,10,ever luck,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,5:30,Lucky McQueen,76,Matthew Chadwick,W K Mo,8- 9,4,0,True,0,0.02087782,8,Sha Tin_2026-01-11_5:30,11,lucky mcqueen,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,5:30,Elite Golf,64,Harry Bentley,W Y So,9- 1,3,0,True,0,0.02044973,1,Sha Tin_2026-01-11_5:30,12,elite golf,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,5:30,Chill Partners,66,Jerry Chau,K W Lui,9- 1,3,2,True,0,0.019193532,6,Sha Tin_2026-01-11_5:30,13,chill partners,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,5:30,Majestic Life,-,Angus Chung,C H Yip,9- 1,3,2,True,0,0.019062439,10,Sha Tin_2026-01-11_5:30,14,majestic life,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,6:00,Rainbow Warrior,31,Lyle Hewitson,Douglas Whyte,9- 1,4,0,True,0,0.04951414,13,Sha Tin_2026-01-11_6:00,1,rainbow warrior,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,6:00,Young Horizon,75,Karis Teetan,B Crawford,8- 3,7,0,True,0,0.044589125,5,Sha Tin_2026-01-11_6:00,2,young horizon,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,6:00,Circuit Fiery,75,Harry Bentley,W Y So,8 -10,6,0,True,0,0.036399715,3,Sha Tin_2026-01-11_6:00,3,circuit fiery,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,6:00,Red Brick Warrior,58,L J Ferraris,David Eustace,9- 1,4,0,True,0,0.035530783,10,Sha Tin_2026-01-11_6:00,4,red brick warrior,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,6:00,Kingly Demeanor,74,,A S Cruz,8- 8,6,0,True,0,0.03490324,,Sha Tin_2026-01-11_6:00,5,kingly demeanor,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,6:00,Frantanck,74,Angus Chung,P C Ng,8 -10,7,2,True,0,0.034817263,6,Sha Tin_2026-01-11_6:00,6,frantanck,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,6:00,The Heir I,73,C Y Ho,C Fownes,9- 3,6,0,True,0,0.034437325,8,Sha Tin_2026-01-11_6:00,7,the heir i,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,6:00,Bright Day,76,James Orman,K L Man,9- 7,6,0,True,0,0.029887455,12,Sha Tin_2026-01-11_6:00,8,bright day,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,6:00,Super Love,66,Hugh Bowman,C H Yip,9- 9,5,0,True,0,0.029772233,14,Sha Tin_2026-01-11_6:00,9,super love,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,6:00,Flying Knight,68,Dylan Browne McMonagle,W K Mo,9- 5,4,0,True,0,0.027751511,9,Sha Tin_2026-01-11_6:00,10,flying knight,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,6:00,Lucky Man,73,Richard Kingscote,David A Hayes,8 -10,5,0,True,0,0.025865817,11,Sha Tin_2026-01-11_6:00,11,lucky man,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,6:00,Kyrus Treasure,67,,David Eustace,8 -11,4,0,True,0,0.025321655,,Sha Tin_2026-01-11_6:00,12,kyrus treasure,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,6:00,Endeared,80,Zac Purton,J Size,9- 9,6,0,True,0,0.02470896,2,Sha Tin_2026-01-11_6:00,13,endeared,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,6:00,Flying Boom,72,Matthew Poon,C W Chang,8 -12,4,0,True,0,0.024313878,4,Sha Tin_2026-01-11_6:00,14,flying boom,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,6:00,Rezeki,76,Andrea Atzeni,D J Hall,9- 2,5,0,True,0,0.023594538,1,Sha Tin_2026-01-11_6:00,15,rezeki,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,6:00,Incredible Moment,77,Alexis Badel,Mark Newnham,8 -11,4,0,True,0,0.0207799,7,Sha Tin_2026-01-11_6:00,16,incredible moment,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,6:30,Manaphy,57,K C Leung,W K Mo,8 -12,5,0,True,0,0.04993684,11,Sha Tin_2026-01-11_6:30,1,manaphy,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,6:30,Strathpeffer,71,Lyle Hewitson,Douglas Whyte,9- 2,6,0,True,0,0.04707729,2,Sha Tin_2026-01-11_6:30,2,strathpeffer,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,6:30,Amazing Award,72,Jerry Chau,David Eustace,9- 3,5,2,True,0,0.043361556,7,Sha Tin_2026-01-11_6:30,3,amazing award,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,6:30,Fortune Kingo,72,Richard Kingscote,Jimmy Ting,8 -11,4,0,True,0,0.035892393,8,Sha Tin_2026-01-11_6:30,4,fortune kingo,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,6:30,Brave Win,68,C Y Ho,K W Lui,8 -12,4,0,True,0,0.0340857,10,Sha Tin_2026-01-11_6:30,5,brave win,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,6:30,Oldtown,68,L J Ferraris,W Y So,9- 6,4,0,True,0,0.029330479,6,Sha Tin_2026-01-11_6:30,6,oldtown,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,6:30,Star Satyr,74,Angus Chung,A S Cruz,9- 9,4,2,True,0,0.02867941,4,Sha Tin_2026-01-11_6:30,7,star satyr,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,6:30,Apolar Fighter,71,Maxime Guyon,David Eustace,8- 8,5,0,True,0,0.028424647,14,Sha Tin_2026-01-11_6:30,8,apolar fighter,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,6:30,Shinyu Kokoroe,65,David Probert,B Crawford,9- 0,5,0,True,0,0.027248228,13,Sha Tin_2026-01-11_6:30,9,shinyu kokoroe,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,6:30,Precision Hope,63,Alexis Badel,David A Hayes,9- 0,4,0,True,0,0.026680566,12,Sha Tin_2026-01-11_6:30,10,precision hope,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,6:30,Smart Fat Cat,72,,W K Mo,8 -13,4,0,True,0,0.025702437,,Sha Tin_2026-01-11_6:30,11,smart fat cat,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,6:30,Robot Star,68,Zac Purton,K L Man,9- 1,4,0,True,0,0.02486812,1,Sha Tin_2026-01-11_6:30,12,robot star,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,6:30,Brownneedsfurther,71,James Orman,D J Hall,8 -13,4,0,True,0,0.024718383,5,Sha Tin_2026-01-11_6:30,13,brownneedsfurther,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,6:30,Crossborderdude,71,Brenton Avdulla,J Size,9- 0,3,0,True,0,0.019968586,3,Sha Tin_2026-01-11_6:30,14,crossborderdude,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,6:30,Young Fighter,80,Karis Teetan,C Fownes,8- 8,4,0,True,0,0.019552594,9,Sha Tin_2026-01-11_6:30,15,young fighter,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m1f,Good,7:00,Our Lucky Glory,70,L J Ferraris,W Y So,8 -10,7,0,True,0,0.05017955,10,Sha Tin_2026-01-11_7:00,1,our lucky glory,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m1f,Good,7:00,Kasa Papa,74,Andrea Atzeni,A S Cruz,8- 7,8,0,True,0,0.045514803,9,Sha Tin_2026-01-11_7:00,2,kasa papa,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m1f,Good,7:00,Good Good,68,,J Size,9- 2,5,0,True,0,0.043950766,,Sha Tin_2026-01-11_7:00,3,good good,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m1f,Good,7:00,Super Goldendragon,64,K C Leung,W K Mo,9- 1,4,0,True,0,0.042618237,6,Sha Tin_2026-01-11_7:00,4,super goldendragon,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m1f,Good,7:00,Floof,79,Karis Teetan,B Crawford,8- 9,6,0,True,0,0.040695567,14,Sha Tin_2026-01-11_7:00,5,floof,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m1f,Good,7:00,Young Bravo,66,James Orman,D J Hall,9- 9,4,0,True,0,0.040449694,5,Sha Tin_2026-01-11_7:00,6,young bravo,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m1f,Good,7:00,Yiu Cheung Victory,74,Alexis Badel,C H Yip,8 -13,6,0,True,0,0.0368534,13,Sha Tin_2026-01-11_7:00,7,yiu cheung victory,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m1f,Good,7:00,Packing Hurricane,77,Harry Bentley,P C Ng,9- 2,7,0,True,0,0.035673555,8,Sha Tin_2026-01-11_7:00,8,packing hurricane,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m1f,Good,7:00,Pearl Of Pang's,69,C Y Ho,K L Man,9- 2,5,0,True,0,0.033000126,7,Sha Tin_2026-01-11_7:00,9,pearl of pang's,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m1f,Good,7:00,Joyful Prosperity,76,Matthew Poon,C S Shum,8- 9,6,0,True,0,0.032797575,11,Sha Tin_2026-01-11_7:00,10,joyful prosperity,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m1f,Good,7:00,Audacious Pursuit,66,Hugh Bowman,C Fownes,9- 9,4,0,True,0,0.032175668,2,Sha Tin_2026-01-11_7:00,11,audacious pursuit,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m1f,Good,7:00,Dilbagh,71,,Douglas Whyte,8- 9,5,0,True,0,0.03113282,,Sha Tin_2026-01-11_7:00,12,dilbagh,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m1f,Good,7:00,China Win,71,Zac Purton,David A Hayes,9- 2,4,0,True,0,0.029387513,1,Sha Tin_2026-01-11_7:00,13,china win,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m1f,Good,7:00,Luck Is Back,76,Richard Kingscote,K W Lui,9- 6,5,0,True,0,0.028137775,12,Sha Tin_2026-01-11_7:00,14,luck is back,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m1f,Good,7:00,Volcanic Spark,80,Maxime Guyon,P F Yiu,8 -12,6,0,True,0,0.026351769,3,Sha Tin_2026-01-11_7:00,15,volcanic spark,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m1f,Good,7:00,Charity Together,77,Dylan Browne McMonagle,David Eustace,9- 4,4,0,True,0,0.026076576,4,Sha Tin_2026-01-11_7:00,16,charity together,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,7:35,Let's Have Fun,78,,David A Hayes,8- 7,4,0,True,0,0.035743337,,Sha Tin_2026-01-11_7:35,1,let's have fun,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,7:35,Young Emperor,92,L J Ferraris,David Eustace,9- 0,5,0,True,0,0.031574704,1,Sha Tin_2026-01-11_7:35,2,young emperor,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,7:35,Glittering Legend,112,,David Eustace,9- 9,4,0,True,0,0.030087695,,Sha Tin_2026-01-11_7:35,3,glittering legend,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,7:35,Alpha Strike,88,C Y Ho,C Fownes,9- 1,4,0,True,0,0.029376553,10,Sha Tin_2026-01-11_7:35,4,alpha strike,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,7:35,Szeryng,87,Zac Purton,J Size,9- 0,4,0,True,0,0.029049916,12,Sha Tin_2026-01-11_7:35,5,szeryng,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,7:35,Matzden,-,Alexis Badel,Jamie Richards,8- 9,4,0,True,0,0.026878994,6,Sha Tin_2026-01-11_7:35,6,matzden,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,7:35,Win Ease,78,M L Yeung,K W Lui,8- 7,5,0,True,0,0.026760357,11,Sha Tin_2026-01-11_7:35,7,win ease,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,7:35,Armour War Eagle,97,Andrea Atzeni,Mark Newnham,8- 6,6,0,True,0,0.026120218,4,Sha Tin_2026-01-11_7:35,8,armour war eagle,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,7:35,Matters Most,83,Ellis Wong,C S Shum,9- 5,5,5,True,0,0.024913928,9,Sha Tin_2026-01-11_7:35,9,matters most,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,7:35,Pakistan Legacy,85,James Orman,W Y So,9- 5,5,0,True,0,0.024907766,7,Sha Tin_2026-01-11_7:35,10,pakistan legacy,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,7:35,Aurora Patch,87,Matthew Chadwick,K L Man,9- 2,5,0,True,0,0.023857879,5,Sha Tin_2026-01-11_7:35,11,aurora patch,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,7:35,Celestial Hero,83,Hugh Bowman,Douglas Whyte,9- 9,4,0,True,0,0.023639245,3,Sha Tin_2026-01-11_7:35,12,celestial hero,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,7:35,Prestige Always,91,Lyle Hewitson,P C Ng,8 -13,5,0,True,0,0.022110289,8,Sha Tin_2026-01-11_7:35,13,prestige always,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,6f,Good,7:35,Chill Buddy,87,Karis Teetan,P F Yiu,8- 9,4,0,True,0,0.021295177,2,Sha Tin_2026-01-11_7:35,14,chill buddy,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,8:05,Beauty Crescent,109,Angus Chung,A S Cruz,8- 4,6,2,True,0,0.033086993,9,Sha Tin_2026-01-11_8:05,1,beauty crescent,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,8:05,Beauty Eternal,114,Brenton Avdulla,J Size,9- 9,7,0,True,0,0.03204714,5,Sha Tin_2026-01-11_8:05,2,beauty eternal,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,8:05,Invincible Shield,110,C Y Ho,K W Lui,9- 5,5,0,True,0,0.03059035,8,Sha Tin_2026-01-11_8:05,3,invincible shield,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,8:05,Drombeg Banner,111,Maxime Guyon,P C Ng,8 -13,7,0,True,0,0.028809765,10,Sha Tin_2026-01-11_8:05,4,drombeg banner,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,8:05,Infinite Resolve,107,Alexis Badel,Mark Newnham,8- 4,4,0,True,0,0.027364828,2,Sha Tin_2026-01-11_8:05,5,infinite resolve,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,8:05,Sky Trust,109,Hugh Bowman,C Fownes,8 -13,5,0,True,0,0.026406007,7,Sha Tin_2026-01-11_8:05,6,sky trust,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,8:05,Dancing Code,110,Ellis Wong,C Fownes,9- 2,7,5,True,0,0.023446215,12,Sha Tin_2026-01-11_8:05,7,dancing code,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,8:05,Young Champion,116,M L Yeung,J Size,8- 6,6,0,True,0,0.02269067,11,Sha Tin_2026-01-11_8:05,8,young champion,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,8:05,Mr Ascendency,112,Harry Bentley,P F Yiu,8- 4,8,0,True,0,0.022434724,13,Sha Tin_2026-01-11_8:05,9,mr ascendency,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,8:05,Healthy Happy,112,Jerry Chau,F C Lor,9- 7,9,2,True,0,0.021603689,6,Sha Tin_2026-01-11_8:05,10,healthy happy,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,8:05,Mid Winter Wind,113,Matthew Chadwick,Mark Newnham,8- 5,5,0,True,0,0.020784663,3,Sha Tin_2026-01-11_8:05,11,mid winter wind,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,8:05,The Boom Box,107,,W Y So,8- 5,5,0,True,0,0.020256754,,Sha Tin_2026-01-11_8:05,12,the boom box,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,8:05,Public Attention,111,Andrea Atzeni,David A Hayes,8- 6,4,0,True,0,0.01968636,4,Sha Tin_2026-01-11_8:05,13,public attention,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,8:05,Markwin,109,H T Mo,W K Mo,8 -11,5,2,True,0,0.019573329,14,Sha Tin_2026-01-11_8:05,14,markwin,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,8:05,Little Paradise,106,Zac Purton,Jimmy Ting,8 -10,4,0,True,0,0.017205447,1,Sha Tin_2026-01-11_8:05,15,little paradise,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m1f,Good,8:40,Joy Of Spring,92,Ellis Wong,C Fownes,9- 9,6,5,True,0,0.03344815,13,Sha Tin_2026-01-11_8:40,1,joy of spring,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m1f,Good,8:40,Emblazon,91,,W K Mo,8- 3,4,0,True,0,0.028511988,,Sha Tin_2026-01-11_8:40,2,emblazon,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m1f,Good,8:40,Packing Fighter,90,Lyle Hewitson,P C Ng,8- 5,4,0,True,0,0.02804324,4,Sha Tin_2026-01-11_8:40,3,packing fighter,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m1f,Good,8:40,Enthralled,98,Andrea Atzeni,J Size,8- 5,5,0,True,0,0.027999371,7,Sha Tin_2026-01-11_8:40,4,enthralled,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m1f,Good,8:40,Fallon,100,,A S Cruz,9- 0,6,0,True,0,0.025007412,,Sha Tin_2026-01-11_8:40,5,fallon,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m1f,Good,8:40,Fortune Boy,93,Zac Purton,David A Hayes,8- 8,4,0,True,0,0.024397165,6,Sha Tin_2026-01-11_8:40,6,fortune boy,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m1f,Good,8:40,Mondial,104,James Orman,Mark Newnham,8 -12,5,0,True,0,0.023734868,14,Sha Tin_2026-01-11_8:40,7,mondial,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m1f,Good,8:40,Money Catcher,96,K C Leung,F C Lor,8- 5,8,0,True,0,0.023667231,1,Sha Tin_2026-01-11_8:40,8,money catcher,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m1f,Good,8:40,Prestige Good,92,Jerry Chau,P F Yiu,9- 1,5,2,True,0,0.021902904,5,Sha Tin_2026-01-11_8:40,9,prestige good,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m1f,Good,8:40,The Auspicious,89,Maxime Guyon,Y S Tsui,8- 7,4,0,True,0,0.021812655,3,Sha Tin_2026-01-11_8:40,10,the auspicious,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m1f,Good,8:40,Mister Dapper,95,Brenton Avdulla,David Eustace,8 -11,6,0,True,0,0.021083862,11,Sha Tin_2026-01-11_8:40,11,mister dapper,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m1f,Good,8:40,Master Trillion,93,Karis Teetan,F C Lor,8- 3,5,0,True,0,0.020720238,12,Sha Tin_2026-01-11_8:40,12,master trillion,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m1f,Good,8:40,Romantic Thor,97,L J Ferraris,C S Shum,8 -11,5,0,True,0,0.01991646,9,Sha Tin_2026-01-11_8:40,13,romantic thor,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m1f,Good,8:40,Stunning Peach,103,Hugh Bowman,A S Cruz,9- 7,5,0,True,0,0.019539902,2,Sha Tin_2026-01-11_8:40,14,stunning peach,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m1f,Good,8:40,Liveandletlive,94,Matthew Chadwick,A S Cruz,8 -12,5,0,True,0,0.018327793,10,Sha Tin_2026-01-11_8:40,15,liveandletlive,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m1f,Good,8:40,Excellence Value,93,Alexis Badel,W Y So,9- 0,5,0,True,0,0.017881317,8,Sha Tin_2026-01-11_8:40,16,excellence value,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m,Good,9:15,Natural Numbers,72,James Orman,Y S Tsui,9- 2,4,0,True,0,0.04387256,12,Sha Tin_2026-01-11_9:15,1,natural numbers,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m,Good,9:15,Fit For Beauty,89,Andrea Atzeni,J Size,8- 5,4,0,True,0,0.031089125,6,Sha Tin_2026-01-11_9:15,2,fit for beauty,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m,Good,9:15,Class,73,C Y Ho,P F Yiu,8 -11,4,0,True,0,0.03040517,13,Sha Tin_2026-01-11_9:15,3,class,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m,Good,9:15,Shamz,90,,A S Cruz,8- 9,4,0,True,0,0.02860951,,Sha Tin_2026-01-11_9:15,4,shamz,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m,Good,9:15,Aerodynamics,86,,Mark Newnham,8 -12,4,0,True,0,0.027733145,,Sha Tin_2026-01-11_9:15,5,aerodynamics,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m,Good,9:15,Gratifide,81,Richard Kingscote,David Eustace,8- 5,4,0,True,0,0.024670906,11,Sha Tin_2026-01-11_9:15,6,gratifide,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m,Good,9:15,Win Beauty Viva,92,Karis Teetan,J Size,8- 5,4,0,True,0,0.023898572,7,Sha Tin_2026-01-11_9:15,7,win beauty viva,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m,Good,9:15,Supreme Mastermind,91,M L Yeung,David A Hayes,8- 3,4,0,True,0,0.023346236,4,Sha Tin_2026-01-11_9:15,8,supreme mastermind,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m,Good,9:15,The Red Hare,89,Maxime Guyon,F C Lor,8- 7,4,0,True,0,0.022130758,3,Sha Tin_2026-01-11_9:15,9,the red hare,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m,Good,9:15,Invincible Ibis,88,Hugh Bowman,Mark Newnham,9- 9,4,0,True,0,0.021846626,1,Sha Tin_2026-01-11_9:15,10,invincible ibis,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m,Good,9:15,Legend Winner,92,Lyle Hewitson,Mark Newnham,8- 8,4,0,True,0,0.021741929,8,Sha Tin_2026-01-11_9:15,11,legend winner,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m,Good,9:15,Beauty Bolt,96,Zac Purton,A S Cruz,9- 8,4,0,True,0,0.020893412,2,Sha Tin_2026-01-11_9:15,12,beauty bolt,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m,Good,9:15,California Waves,87,Harry Bentley,W K Mo,8- 9,4,0,True,0,0.02052694,5,Sha Tin_2026-01-11_9:15,13,california waves,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m,Good,9:15,Daryl Flash,94,Dylan Browne McMonagle,Y S Tsui,9- 4,4,0,True,0,0.019750718,9,Sha Tin_2026-01-11_9:15,14,daryl flash,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m,Good,9:15,Uranus Star,95,L J Ferraris,K W Lui,8 -11,4,0,True,0,0.01898202,10,Sha Tin_2026-01-11_9:15,15,uranus star,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,1m,Good,9:15,Hott Shott,93,Matthew Poon,P C Ng,8 -10,4,0,True,0,0.018329054,14,Sha Tin_2026-01-11_9:15,16,hott shott,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,9:50,Golden Empire,87,Karis Teetan,B Crawford,8- 7,8,0,True,0,0.05453893,9,Sha Tin_2026-01-11_9:50,1,golden empire,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,9:50,So You Will,-,,C Fownes,8 -10,4,0,True,0,0.04178625,,Sha Tin_2026-01-11_9:50,2,so you will,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,9:50,King Of Selection,76,Matthew Chadwick,W K Mo,8- 5,4,0,True,0,0.04058318,13,Sha Tin_2026-01-11_9:50,3,king of selection,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,9:50,Circuit Grand Slam,91,C Y Ho,K L Man,9- 9,4,0,True,0,0.03299758,11,Sha Tin_2026-01-11_9:50,4,circuit grand slam,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,9:50,Without Compare,-,H T Mo,C S Shum,8- 8,4,2,True,0,0.032602556,3,Sha Tin_2026-01-11_9:50,5,without compare,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,9:50,Helene Supafeeling,90,Hugh Bowman,David Eustace,9- 8,4,0,True,0,0.032277934,5,Sha Tin_2026-01-11_9:50,6,helene supafeeling,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,9:50,Tourbillon Prince,88,,C W Chang,9- 3,7,0,True,0,0.03143119,,Sha Tin_2026-01-11_9:50,7,tourbillon prince,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,9:50,Cheaha,89,Brenton Avdulla,A S Cruz,8 -12,4,0,True,0,0.028703853,12,Sha Tin_2026-01-11_9:50,8,cheaha,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,9:50,Master Of All,89,M L Yeung,W Y So,9- 1,6,0,True,0,0.026508639,14,Sha Tin_2026-01-11_9:50,9,master of all,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,9:50,Ivy League,94,Richard Kingscote,Douglas Whyte,8- 5,7,0,True,0,0.02525524,6,Sha Tin_2026-01-11_9:50,10,ivy league,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,9:50,Mighty Steed,87,Maxime Guyon,K W Lui,8- 7,5,0,True,0,0.025022509,8,Sha Tin_2026-01-11_9:50,11,mighty steed,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,9:50,Lucky Sam Gor,87,Matthew Poon,Mark Newnham,8- 4,4,0,True,0,0.023366025,1,Sha Tin_2026-01-11_9:50,12,lucky sam gor,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,9:50,Blazing Wukong,89,Andrea Atzeni,P F Yiu,8- 5,4,0,True,0,0.0228899,4,Sha Tin_2026-01-11_9:50,13,blazing wukong,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,9:50,Akashvani,91,Lyle Hewitson,David A Hayes,9- 2,4,0,True,0,0.022049243,7,Sha Tin_2026-01-11_9:50,14,akashvani,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,9:50,Stormy Grove,89,Harry Bentley,F C Lor,8- 8,4,0,True,0,0.02171523,2,Sha Tin_2026-01-11_9:50,15,stormy grove,,,,,,0.0,False
+Sha Tin,11 Jan 2026 SKY,7f,Good,9:50,Tin Fook,89,Zac Purton,D J Hall,8- 8,4,0,True,0,0.02171523,10,Sha Tin_2026-01-11_9:50,16,tin fook,,,,,,0.0,False

@@ -131,7 +131,8 @@ def scrape_race_data_selenium(driver, url):
             # Get horse name
             horse_name_elem = container.select_one('[data-test-selector="RC-cardPage-runnerName"]')
             horse_name = clean_text(horse_name_elem.text) if horse_name_elem else ""
-            
+            # Inside your loop:
+            horse_name = horse_name.removesuffix(" right")
             if not horse_name:
                 continue
 
@@ -151,6 +152,7 @@ def scrape_race_data_selenium(driver, url):
             trend = calculate_trend(all_odds)
             
             row = {
+                "URL" : url,
                 "horse_name": horse_name,
                 "odds_live": odds_live,
                 "odds_1": odds_history[0],
@@ -159,6 +161,7 @@ def scrape_race_data_selenium(driver, url):
                 "odds_4": odds_history[3],
                 "trend": trend
             }
+            print(row["horse_name"],row["odds_live"])
             race_rows.append(row)
         
         print(f"  [+] Scraped {len(race_rows)} horses with odds data")
@@ -179,7 +182,7 @@ if __name__ == "__main__":
     chrome_options.add_argument("--disable-blink-features=AutomationControlled")
     driver = webdriver.Chrome(options=chrome_options)
 
-    tomorrow_url = "https://www.racingpost.com/racecards/tomorrow"
+    tomorrow_url = "https://www.racingpost.com/racecards/tomorrow/"
     
     # 1. Get URLs using BeautifulSoup (with retries)
     print("\nStep 1: Collecting race URLs...")
@@ -216,7 +219,7 @@ if __name__ == "__main__":
 
     if master_data:
         df = pd.DataFrame(master_data)
-        tomorrow_date = (datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d")        
+        tomorrow_date = (datetime.now() + timedelta(days=0)).strftime("%Y-%m-%d")        
         output_file = f"{folder_name}/Odds_{tomorrow_date}.csv"
         
         df.to_csv(output_file, index=False)

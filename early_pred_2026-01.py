@@ -103,7 +103,6 @@ def normalize_weight(w_str: str) -> float:
 # ============================================================
 #                  CORE AUTOMATION PIPELINE
 # ============================================================
-
 def run_automated_pipeline(target_date_str, model_path, scaler_path, historic_path, lookup_path):
     input_file = os.path.join("Inference_Inputs", f"Input_{target_date_str}.csv")
     output_dir = "Inference_Outputs"
@@ -129,7 +128,6 @@ def run_automated_pipeline(target_date_str, model_path, scaler_path, historic_pa
     df_hist = pd.read_csv(historic_path)
     df_hist['race_date'] = pd.to_datetime(df_hist['race_date'], errors='coerce')
     
-    # FIXED: Only create label if race_position exists
     if 'race_position' in df_hist.columns:
         df_hist['label'] = (df_hist['race_position'] == 1).astype(int)
     else:
@@ -137,13 +135,11 @@ def run_automated_pipeline(target_date_str, model_path, scaler_path, historic_pa
     
     df_new['is_new'] = True
     df_hist['is_new'] = False
-    
-    # FIXED: Set label to 0 for new data (we don't know the outcome yet)
     df_new['label'] = 0
     
     full_df = pd.concat([df_hist, df_new], ignore_index=True)
     
-    # 3. Preprocessing
+    # 3. Preprocessing (FIXED: Added Age Bins here to prevent KeyError)
     full_df['distance'] = full_df['distance'].apply(normalize_distance)
     full_df['weight'] = full_df['weight'].apply(normalize_weight)
     full_df['rating'] = pd.to_numeric(full_df['rating'], errors='coerce').fillna(70)
@@ -154,6 +150,11 @@ def run_automated_pipeline(target_date_str, model_path, scaler_path, historic_pa
     full_df['j_t'] = full_df['J_Name'].astype(str) + " | " + full_df['T_Name'].astype(str)
     full_df['going_clean'] = full_df['going'].apply(extract_clean_going)
 
+    # --- AGE BIN CREATION (Moved here for safety) ---
+    full_df['is_young_horse'] = (full_df['age'] <= 3).astype(int)
+    full_df['is_prime_age'] = ((full_df['age'] >= 4) & (full_df['age'] <= 6)).astype(int)
+    full_df['is_veteran'] = (full_df['age'] >= 7).astype(int)
+
     # 4. Contextual Features
     full_df['jt_runs'] = full_df.groupby('j_t').cumcount()
     full_df['jt_wins'] = full_df.groupby('j_t')['label'].cumsum() - full_df['label']
@@ -163,24 +164,13 @@ def run_automated_pipeline(target_date_str, model_path, scaler_path, historic_pa
     full_df['track_total_runs'] = full_df.groupby('track_stripped').cumcount()
     full_df['track_total_wins'] = full_df.groupby('track_stripped')['label'].cumsum() - full_df['label']
     
-    # FIXED: Avoid division by zero
-    full_df['track_win_rate'] = np.where(
-        full_df['track_total_runs'] > 0,
-        full_df['track_total_wins'] / full_df['track_total_runs'],
-        0.0
-    )
-    
+    full_df['track_win_rate'] = np.where(full_df['track_total_runs'] > 0, full_df['track_total_wins'] / full_df['track_total_runs'], 0.0)
     full_df['track_cum_distance'] = full_df.groupby('track_stripped')['distance'].cumsum() - full_df['distance']
     
-    # FIXED: Better fallback for track_avg_distance
     median_distance = full_df['distance'].median()
-    full_df['track_avg_distance'] = np.where(
-        full_df['track_total_runs'] > 0,
-        full_df['track_cum_distance'] / full_df['track_total_runs'],
-        median_distance
-    )
+    full_df['track_avg_distance'] = np.where(full_df['track_total_runs'] > 0, full_df['track_cum_distance'] / full_df['track_total_runs'], median_distance)
 
-    # 5. Horse Stats & Logging Data
+    # 5. Horse Stats & History Tracking
     pred_idx = full_df[full_df['is_new']].index
     horse_cols = ['EMA_Form', 'performance_on_going', 'days_since_last', 'recent_win_rate', 
                   'career_wins', 'career_races', 'career_win_rate']
@@ -189,6 +179,9 @@ def run_automated_pipeline(target_date_str, model_path, scaler_path, historic_pa
             full_df[c] = 0.0
 
     log_horse_data = []
+    # Lists to store history info for final output
+    hist_counts = []
+    is_found_list = []
 
     print("Processing Horse Stats...")
     for idx in tqdm(pred_idx):
@@ -197,56 +190,45 @@ def run_automated_pipeline(target_date_str, model_path, scaler_path, historic_pa
         source = "Fallback"
         runs_found = 0
         
+        # Priority 1: Check Lookup Index
         if lookup_df is not None and h_name in lookup_df.index:
             for col in horse_cols:
                 if col in lookup_df.columns:
                     val = lookup_df.loc[h_name, col]
                     full_df.at[idx, col] = val if pd.notna(val) else 0.0
             source = "Lookup"
-            runs_found = lookup_df.loc[h_name, 'career_races'] if 'career_races' in lookup_df.columns else 0
+            runs_found = int(lookup_df.loc[h_name, 'career_races']) if 'career_races' in lookup_df.columns else 0
+        
+        # Priority 2: Check Historical File
         else:
-            h_history = df_hist[df_hist['horse_name'] == h_name].sort_values('race_date')
+            h_history = full_df[(full_df['horse_name'] == h_name) & (~full_df['is_new'])].sort_values('race_date')
+
             if not h_history.empty:
-                # Career stats
-                full_df.at[idx, 'career_wins'] = h_history['label'].sum()
                 runs_found = len(h_history)
+                full_df.at[idx, 'career_wins'] = h_history['label'].sum()
                 full_df.at[idx, 'career_races'] = runs_found
-                full_df.at[idx, 'career_win_rate'] = full_df.at[idx, 'career_wins'] / runs_found if runs_found > 0 else 0.0
+                full_df.at[idx, 'career_win_rate'] = full_df.at[idx, 'career_wins'] / runs_found
                 full_df.at[idx, 'recent_win_rate'] = h_history['label'].tail(5).mean()
                 
-                # Performance on going - FIXED: Check if any races exist before division
                 g_hist = h_history[h_history['going_clean'] == going]
-                if not g_hist.empty:
-                    full_df.at[idx, 'performance_on_going'] = g_hist['label'].mean()
-                else:
-                    full_df.at[idx, 'performance_on_going'] = 0.0
+                full_df.at[idx, 'performance_on_going'] = g_hist['label'].mean() if not g_hist.empty else 0.0
                 
-                # FIXED: Calculate days_since_last
                 if pd.notna(h_history['race_date'].iloc[-1]):
                     target_race_date = full_df.at[idx, 'race_date']
-                    if pd.notna(target_race_date):
-                        last_race_date = h_history['race_date'].iloc[-1]
-                        days_diff = (pd.to_datetime(target_race_date) - pd.to_datetime(last_race_date)).days
-                        full_df.at[idx, 'days_since_last'] = max(0, days_diff)
-                    else:
-                        full_df.at[idx, 'days_since_last'] = 365  # Default if target date missing
-                else:
-                    full_df.at[idx, 'days_since_last'] = 365
+                    last_race_date = h_history['race_date'].iloc[-1]
+                    days_diff = (pd.to_datetime(target_race_date) - pd.to_datetime(last_race_date)).days
+                    full_df.at[idx, 'days_since_last'] = max(0, days_diff)
                 
-                # EMA Form calculation
                 full_df.at[idx, 'EMA_Form'] = 0.5 
             else:
-                # No history found - set sensible defaults
                 full_df.at[idx, 'EMA_Form'] = 0.3
                 full_df.at[idx, 'days_since_last'] = 365
-                full_df.at[idx, 'performance_on_going'] = 0.0
+                runs_found = 0
         
+        # Save history tracking data
+        hist_counts.append(runs_found)
+        is_found_list.append(runs_found > 0)
         log_horse_data.append({"name": h_name, "runs": runs_found, "source": source})
-
-    # Age Bins
-    full_df['is_young_horse'] = (full_df['age'] <= 3).astype(int)
-    full_df['is_prime_age'] = ((full_df['age'] >= 4) & (full_df['age'] <= 6)).astype(int)
-    full_df['is_veteran'] = (full_df['age'] >= 7).astype(int)
 
     # 6. Prediction
     feature_cols = [
@@ -260,42 +242,14 @@ def run_automated_pipeline(target_date_str, model_path, scaler_path, historic_pa
     
     X = full_df.loc[pred_idx, feature_cols]
     
-    # FIXED: Better NaN handling with informative summary
     nan_summary = X.isna().sum()
-    if nan_summary.sum() > 0:
-        print("\n⚠️  WARNING: NaN values detected before filling:")
-        print(nan_summary[nan_summary > 0])
-    
-    # Fill NaNs with safe defaults
     X = X.fillna({
-        'EMA_Form': 0.3,
-        'wilson_score': 0.0,
-        'jt_runs': 0,
-        'jt_wins': 0,
-        'performance_on_going': 0.0,
-        'days_since_last': 365,
-        'track_win_rate': 0.0,
-        'track_avg_distance': X['distance'].median() if 'distance' in X.columns else 0.0,
-        'is_young_horse': 0,
-        'is_prime_age': 1,
-        'is_veteran': 0,
-        'recent_win_rate': 0.0,
-        'career_wins': 0,
-        'career_races': 0,
-        'career_win_rate': 0.0,
-        'distance': 0.0,
-        'claims': 0,
-        'age': 4,
-        'weight': 126.0,
-        'rating': 70
+        'EMA_Form': 0.3, 'wilson_score': 0.0, 'jt_runs': 0, 'jt_wins': 0,
+        'performance_on_going': 0.0, 'days_since_last': 365, 'track_win_rate': 0.0,
+        'track_avg_distance': median_distance, 'is_young_horse': 0, 'is_prime_age': 1,
+        'is_veteran': 0, 'recent_win_rate': 0.0, 'career_wins': 0, 'career_races': 0,
+        'career_win_rate': 0.0, 'distance': 0.0, 'claims': 0, 'age': 4, 'weight': 126.0, 'rating': 70
     })
-    
-    # Final check for any remaining NaNs
-    if X.isna().any().any():
-        print("\n❌ ERROR: NaNs still present after filling!")
-        print(X.isna().sum()[X.isna().sum() > 0])
-        # Force fill any remaining NaNs with 0
-        X = X.fillna(0)
     
     model = joblib.load(model_path)
     scaler = joblib.load(scaler_path)
@@ -303,18 +257,21 @@ def run_automated_pipeline(target_date_str, model_path, scaler_path, historic_pa
     X_scaled = scaler.transform(X)
     probs = model.predict_proba(X_scaled)[:, 1]
     
-    # 7. Finalize and Log
+    # 7. Finalize Output
+    final_output = df_new.copy()
+    final_output['win_probability'] = probs
+    
+    # NEW: Add history metadata to output CSV
+    final_output['history_count'] = hist_counts
+    final_output['is_found_in_history'] = is_found_list
+
     for i, p in enumerate(probs):
         log_horse_data[i]['prob'] = p
 
-    final_output = df_new.copy()
-    final_output['win_probability'] = probs
     final_output = final_output.sort_values(['track_name', 'win_probability'], ascending=[True, False])
     final_output.to_csv(output_file, index=False)
     
-    # Write the log file
     write_inference_log(target_date_str, input_file, len(df_new), nan_summary, log_horse_data)
-    
     print(f"✓ Success! Predictions saved to: {output_file}")
 
 # ============================================================

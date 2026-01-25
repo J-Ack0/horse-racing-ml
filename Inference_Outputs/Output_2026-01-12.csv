@@ -1,0 +1,321 @@
+track_name,race_date,distance,going,time,horse_name,rating,jockey,trainer,weight,age,claims,is_new,label,win_probability
+Hereford,12 Jan 2026 SKY,2m3½f,Good To Soft,3:30,Harthill,-,Tom Bellamy,David Dennis,10 -10,8,0,True,0,0.033268306
+Hereford,12 Jan 2026 SKY,3m1½f,Good To Soft,3:00,Dontworrywegotthis,-,Tabitha Worsley,Georgie Howell,10- 5,7,3,True,0,0.02889953
+Hereford,12 Jan 2026 SKY,3m1½f,Good To Soft,3:00,Vengeance,91,NON-RUNNER,Jimmy Frost,11- 6,8,0,True,0,0.023192285
+Hereford,12 Jan 2026 SKY,2m3½f,Good To Soft,3:30,Formel Park,100,Conor Ring,Evan Williams,10- 3,6,0,True,0,0.022827454
+Hereford,12 Jan 2026 SKY,3m1½f,Good To Soft,3:00,Bredon Hill Dart,92,Lucy Gardner,Sue Gardner,11- 5,7,0,True,0,0.02255765
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,4:00,Roi Du Roume,-,James Bowen,Mickey Bowen,11- 2,6,0,True,0,0.021357467
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,4:00,Faith's Song,-,Ben Poste,Tom Symonds,10- 9,5,0,True,0,0.020126954
+Hereford,12 Jan 2026 SKY,3m1f,Good To Soft,1:00,Just In A Bit,-,Shane Quinlan,Mel Rowley,11- 4,8,0,True,0,0.019908607
+Hereford,12 Jan 2026 SKY,2m5f,Good To Soft,2:30,I Ain't Your Mate,-,Jack Tudor,Christian Williams,10- 8,6,0,True,0,0.019860923
+Hereford,12 Jan 2026 SKY,3m1½f,Good To Soft,3:00,Mr Griffiths,93,Jonjo O'Neill Jr,Jonjo & A J O'Neill,12- 0,6,0,True,0,0.019787919
+Hereford,12 Jan 2026 SKY,3m1½f,Good To Soft,3:00,Briery Butterfly,95,Sam Twiston-Davies,Henry Daly,11 -12,7,0,True,0,0.019276576
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,4:00,Loch Ness Pineau,-,Ben Jones,Ben Pauling,11- 2,5,0,True,0,0.018985162
+Hereford,12 Jan 2026 SKY,3m1½f,Good To Soft,3:00,Harksman,89,James Best,Martin Keighley,11- 0,6,0,True,0,0.018719705
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,4:00,Pigeon Forge,-,Harry Cobden,Emma Lavelle,10- 9,5,0,True,0,0.018558247
+Hereford,12 Jan 2026 SKY,2m3½f,Good To Soft,3:30,Prairie Queen,102,Sean Houlihan,Sue Gardner,10- 2,6,0,True,0,0.018525818
+Hereford,12 Jan 2026 SKY,2m3½f,Good To Soft,3:30,Lady Fortune,100,James Best,David Killahena & Graeme McPherson,10- 3,6,0,True,0,0.018487643
+Hereford,12 Jan 2026 SKY,2m3½f,Good To Soft,3:30,Noble Grace,97,James Bowen,Warren Greatrex,11- 3,5,0,True,0,0.018475296
+Hereford,12 Jan 2026 SKY,3m1½f,Good To Soft,3:00,Bollin Thou,99,Sean Bowen,Nick Scholfield,11- 2,8,0,True,0,0.018116826
+Hereford,12 Jan 2026 SKY,3m1f,Good To Soft,1:00,Tongaknoxie,-,Callum Pritchard,Philip Hobbs & Johnson White,10 -12,6,0,True,0,0.018088851
+Hereford,12 Jan 2026 SKY,2m5f,Good To Soft,2:30,Soldierofthestorm,-,Jonjo O'Neill Jr,Jonjo & A J O'Neill,11 -10,8,0,True,0,0.018008087
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,2:00,Both Of Us,-,NON-RUNNER,Kerry Lee,10- 4,4,0,True,0,0.01708415
+Hereford,12 Jan 2026 SKY,2m5f,Good To Soft,2:30,Gold For Alec,-,Callum Pritchard,Tom Symonds,11- 6,6,3,True,0,0.016996946
+Hereford,12 Jan 2026 SKY,2m3½f,Good To Soft,3:30,Time Was,103,Joe Williamson,Philip Kirby,10- 9,9,3,True,0,0.016897185
+Hereford,12 Jan 2026 SKY,3m1½f,Good To Soft,3:00,Shorten Sassy,98,Shane Quinlan,Mel Rowley,11- 3,6,3,True,0,0.016827116
+Hereford,12 Jan 2026 SKY,3m1½f,Good To Soft,3:00,Happy Returns,95,Bradley Harris,Neil Mulholland,11- 3,9,3,True,0,0.01665148
+Hereford,12 Jan 2026 SKY,3m1f,Good To Soft,1:00,Heva Rose,-,Ned Fox,Venetia Williams,11 -12,9,3,True,0,0.016419813
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,4:00,Arizona Moon,-,Charlie Hammond,Stuart Edmunds,11- 2,5,0,True,0,0.01636808
+Hereford,12 Jan 2026 SKY,2m3½f,Good To Soft,3:30,Sweet Honey B,98,Richard Patrick,Clive Boultbee-Brooks,12- 0,8,0,True,0,0.016287688
+Hereford,12 Jan 2026 SKY,2m3½f,Good To Soft,3:30,Jamaicaine,104,Conor O'Farrell,Neil Mulholland,11- 0,7,0,True,0,0.016036775
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,4:00,Britway Belle,-,Freddie Keighley,Henry Oliver,10- 9,5,7,True,0,0.015161405
+Hereford,12 Jan 2026 SKY,2m5f,Good To Soft,2:30,Just Forty,-,James Bowen,Warren Greatrex,10 -10,5,0,True,0,0.015094007
+Hereford,12 Jan 2026 SKY,3m1½f,Good To Soft,3:00,Getaway Sam,90,Ned Fox,Matt Sheppard,11- 1,6,5,True,0,0.014929572
+Hereford,12 Jan 2026 SKY,3m1½f,Good To Soft,3:00,Jewel Eyed Judy,97,James Turner,Nigel & Willy Twiston-Davies,11- 2,6,5,True,0,0.014633948
+Hereford,12 Jan 2026 SKY,3m1½f,Good To Soft,3:00,Smart Bucks,96,Joe Williamson,Philip Kirby,10- 6,6,3,True,0,0.014587362
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,2:00,Lovis De Sceaux,68,Shane Fenelon,Sarah-Jayne Davies,11- 3,5,5,True,0,0.014261239
+Hereford,12 Jan 2026 SKY,2m3½f,Good To Soft,3:30,Gower Spirit,103,Stan Sheppard,Matt Sheppard,11 -11,6,0,True,0,0.014103757
+Hereford,12 Jan 2026 SKY,2m3½f,Good To Soft,3:30,Jessie Jump Jet,102,Robert Dunne,Samuel Drinkwater,11- 2,6,0,True,0,0.014103539
+Hereford,12 Jan 2026 SKY,2m3½f,Good To Soft,3:30,Feet On The Ground,101,Jonathan Burke,Fergal O'Brien,11- 9,8,0,True,0,0.014096917
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,1:30,Glancing Jack,-,Ben Poste,Tom Symonds,11- 3,5,0,True,0,0.013968355
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,1:30,Western Cross,-,Sean Houlihan,Philip Hobbs & Johnson White,11- 3,5,0,True,0,0.013968355
+Hereford,12 Jan 2026 SKY,2m3½f,Good To Soft,3:30,Make Sunshine,103,Ned Fox,Ryan Potter,11- 0,7,5,True,0,0.013597805
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,2:00,Lyric,-,Jonjo O'Neill Jr,Jonjo & A J O'Neill,11- 3,5,0,True,0,0.013597005
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,2:00,Kenobi,-,Conor Ring,Evan Williams,11- 3,5,0,True,0,0.013510701
+Hereford,12 Jan 2026 SKY,2m3½f,Good To Soft,3:30,Fay Ce Que Voudras,102,Liam Harrison,Kerry Lee,11- 1,10,0,True,0,0.0131287575
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,1:30,Lady Magic,-,Ned Fox,Tom Symonds,10 -10,5,5,True,0,0.011941171
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,2:00,Lord Virginia,-,Beau Morgan,Martin Keighley,11- 3,5,5,True,0,0.011730396
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,4:00,Don't Call Me Sue,97,Conor O'Farrell,Neil Mulholland,10- 9,6,0,True,0,0.0110361185
+Hereford,12 Jan 2026 SKY,2m3½f,Good To Soft,3:30,Ballerina Boxer,94,Mr Jack Stenhouse,Nikki Evans,11- 9,8,7,True,0,0.011022659
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,4:00,Simply A Dancer,96,Lilly Pinchin,Emma-Jane Bishop,10- 9,5,0,True,0,0.010007801
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,1:30,Glancing Back,90,Lilly Pinchin,Emma-Jane Bishop,10 -10,6,0,True,0,0.009702454
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,1:30,Donegal,119,Sean Bowen,Charlie Longsdon,10- 4,4,0,True,0,0.009609107
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,4:00,Cool Customer,112,Jonathan Burke,Fergal O'Brien,11- 2,5,0,True,0,0.009586865
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,1:30,Triple Haych,99,Richard Patrick,Sheila Lewis,11- 3,7,0,True,0,0.009557007
+Hereford,12 Jan 2026 SKY,3m1f,Good To Soft,1:00,Lynsey Larue,100,Ellis Collier,Evan Williams,10- 6,7,3,True,0,0.00940499
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,1:30,Loaded And Locked,128,Harry Cobden,Emma Lavelle,11- 3,6,0,True,0,0.009378939
+Hereford,12 Jan 2026 SKY,2m5f,Good To Soft,2:30,The Magus,126,Conor Ring,Evan Williams,10- 9,6,0,True,0,0.009122306
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,1:30,Ahanaglogh,82,Tom Broughton,Fergal O'Brien,11- 3,7,5,True,0,0.008953436
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,4:00,Mysti Meadow,101,Charlie Deutsch,Mel Rowley,10- 9,5,0,True,0,0.008938107
+Hereford,12 Jan 2026 SKY,2m5f,Good To Soft,2:30,Noahsgreatrainbow,129,Paul O'Brien,Harry Derham,12- 0,7,0,True,0,0.0088107595
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,1:30,Ciao Bellisima,88,Nick Slatter,Henry Oliver,10 -10,6,3,True,0,0.008797202
+Hereford,12 Jan 2026 SKY,3m1f,Good To Soft,1:00,Martalmix'jac,109,Tabitha Worsley,Mel Rowley,10- 6,9,0,True,0,0.008761003
+Hereford,12 Jan 2026 SKY,3m1f,Good To Soft,1:00,Tuscan Rose,108,Bradley Harris,Neil Mulholland,10- 9,8,3,True,0,0.008706214
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,2:00,Cote d'Ange,78,Dylan Johnston,Sam Thomas,11- 3,5,0,True,0,0.008690598
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,4:00,That'll Be Oxo,110,Tom Bellamy,Kim Bailey & Mat Nicholls,11- 2,5,0,True,0,0.008664145
+Hereford,12 Jan 2026 SKY,3m1f,Good To Soft,1:00,Illogical Logic,110,Toby McCain-Mitchell,Christian Williams,11- 4,8,0,True,0,0.008645506
+Hereford,12 Jan 2026 SKY,3m1f,Good To Soft,1:00,Ithaka,105,Freddie Mitchell,Ryan Potter,12- 0,10,0,True,0,0.00861273
+Hereford,12 Jan 2026 SKY,2m5f,Good To Soft,2:30,The Winslow Boy,128,Ben Poste,Tom Symonds,11- 7,7,0,True,0,0.008611146
+Hereford,12 Jan 2026 SKY,3m1f,Good To Soft,1:00,Innisfree Lass,110,NON-RUNNER,Stuart Edmunds,11 -10,8,0,True,0,0.008597406
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,2:00,Vol Royale,120,Harry Cobden,Kayley Woollacott,11 -10,6,0,True,0,0.008590268
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,1:30,Race To Base,124,Sam Twiston-Davies,Nigel & Willy Twiston-Davies,11 -10,6,0,True,0,0.008312697
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,2:00,Cooler Than Me,89,Tom Broughton,Fergal O'Brien,11- 3,8,5,True,0,0.0079799695
+Hereford,12 Jan 2026 SKY,3m1f,Good To Soft,1:00,Born At Midnight,109,Freddie Gordon,Kathy Turner,12- 0,11,0,True,0,0.0079153
+Hereford,12 Jan 2026 SKY,2m5f,Good To Soft,2:30,Ede'iffs Rock,125,Harry Kimber,Kathy Turner,11- 1,8,0,True,0,0.007834077
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,2:00,Aguellid,109,Sean Houlihan,Philip Hobbs & Johnson White,11- 3,5,0,True,0,0.0077912556
+Hereford,12 Jan 2026 SKY,2m5f,Good To Soft,2:30,Rodney,131,Charlie Deutsch,Kerry Lee,11- 8,7,0,True,0,0.007786904
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,2:00,Could Be You,93,Harry Kimber,Ryan Potter,11- 3,6,0,True,0,0.007776624
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,1:30,Guardami Ancora,119,Conor Ring,Evan Williams,11- 3,5,0,True,0,0.0077433162
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,1:30,Boston Savr,103,Jonjo O'Neill Jr,Jonjo & A J O'Neill,11- 3,5,0,True,0,0.0076984656
+Hereford,12 Jan 2026 SKY,2m5f,Good To Soft,2:30,Pepe Le Moko,131,Ciaran Gethings,Jane Williams,11- 6,8,0,True,0,0.0076522585
+Hereford,12 Jan 2026 SKY,2m5f,Good To Soft,2:30,Zestful Hope,127,David Bass,Charlie Longsdon,11- 4,9,0,True,0,0.0076225623
+Hereford,12 Jan 2026 SKY,3m1f,Good To Soft,1:00,Mary's Fortune,109,Rian Corcoran,Tim Vaughan,11- 5,8,5,True,0,0.0073585357
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,1:30,Looping d'Arc,121,James Bowen,Warren Greatrex,11 -10,5,0,True,0,0.0072192694
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,2:00,Peter's Last Deal,107,Ben Poste,Tom Symonds,11- 3,5,0,True,0,0.007209819
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,2:00,Daring To Dream,104,James Best,Harriet Dickin,10 -10,5,0,True,0,0.0070733633
+Hereford,12 Jan 2026 SKY,3m1f,Good To Soft,1:00,Lightonthewing,110,Ciaran O'Shea,Sue Gardner,11- 1,11,5,True,0,0.006849335
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,2:00,Raging Al,94,James Davies,Tim Vaughan,11- 3,5,0,True,0,0.006607344
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,1:30,Lootenay,88,Shane Fenelon,Sarah-Jayne Davies,11- 3,5,5,True,0,0.0062755616
+Hereford,12 Jan 2026 SKY,2m,Good To Soft,2:00,Harbour Light,102,Toby McCain-Mitchell,Nigel & Willy Twiston-Davies,11- 3,5,5,True,0,0.0061981105
+Lingfield (AW),12 Jan 2026 SKY Polytrack,1m,Standard,3:10,Unknown Journey,54,William Carson,Tony Carroll,9- 9,4,0,True,0,0.08009036
+Lingfield (AW),12 Jan 2026 SKY Polytrack,1m,Standard,3:10,Mr Trick,56,Ryan Kavanagh,Ian Williams,9- 9,8,5,True,0,0.07781209
+Lingfield (AW),12 Jan 2026 SKY Polytrack,6f,Standard,2:10,Miss Moonshine,55,Oliver Searle,Rod Millman,9- 9,6,5,True,0,0.067061804
+Lingfield (AW),12 Jan 2026 SKY Polytrack,6f,Standard,2:10,World Of Darcy,55,Darragh Keenan,John Ryan,9- 9,5,0,True,0,0.062151317
+Lingfield (AW),12 Jan 2026 SKY Polytrack,6f,Standard,2:10,Lynwood Lad,57,Tom Queally,Gary & Josh Moore,9- 9,6,0,True,0,0.060454886
+Lingfield (AW),12 Jan 2026 SKY Polytrack,6f,Standard,2:10,Call Glory,59,Ryan Kavanagh,Ian Williams,10- 0,5,5,True,0,0.05954642
+Lingfield (AW),12 Jan 2026 SKY Polytrack,6f,Standard,2:10,Sarabi,55,Hollie Doyle,Michael Keady,9- 9,4,0,True,0,0.057630893
+Lingfield (AW),12 Jan 2026 SKY Polytrack,1m,Standard,3:10,Duke Orsino,57,Lewis Edmunds,J R Jenkins,9- 9,4,0,True,0,0.057067763
+Lingfield (AW),12 Jan 2026 SKY Polytrack,6f,Standard,1:40,Tactical Blitz,53,Hollie Doyle,Archie Watson,9- 0,3,0,True,0,0.05524239
+Lingfield (AW),12 Jan 2026 SKY Polytrack,6f,Standard,2:10,Autumn Angel,57,Jack Doughty,Tony Carroll,9- 9,7,0,True,0,0.054724794
+Lingfield (AW),12 Jan 2026 SKY Polytrack,6f,Standard,2:10,Beauzon,58,Charles Bishop,Ian Williams,9- 9,7,0,True,0,0.053460028
+Lingfield (AW),12 Jan 2026 SKY Polytrack,7f,Standard,2:40,Chloe's Courage,66,Darragh Keenan,John Ryan,9- 7,4,0,True,0,0.05082078
+Lingfield (AW),12 Jan 2026 SKY Polytrack,1m,Standard,3:10,Royal Jet,63,Marco Ghiani,Tony Carroll,9- 9,6,0,True,0,0.049905036
+Lingfield (AW),12 Jan 2026 SKY Polytrack,1m,Standard,3:10,Taskheer,59,Jack Mitchell,Daniel Steele,9- 9,8,0,True,0,0.045487802
+Lingfield (AW),12 Jan 2026 SKY Polytrack,5f,Standard,12:40,Coronado King,90,Hollie Doyle,Archie Watson,9- 4,5,0,True,0,0.04503468
+Lingfield (AW),12 Jan 2026 SKY Polytrack,1m,Standard,3:10,Rainbow Sign,61,Pat Cosgrave,Mark Pattinson,9- 9,8,0,True,0,0.044431817
+Lingfield (AW),12 Jan 2026 SKY Polytrack,7f,Standard,2:40,Mount Mogan,67,Luke Morris,Laura Mongan,9- 8,9,0,True,0,0.042961914
+Lingfield (AW),12 Jan 2026 SKY Polytrack,1m,Standard,3:10,Valadero,60,Sean D Bowen,Brian Toomey,9- 9,5,0,True,0,0.04289668
+Lingfield (AW),12 Jan 2026 SKY Polytrack,1m,Standard,3:10,Celtic John,61,Paddy Bradley,Pat Phelan,9- 9,5,0,True,0,0.041573923
+Lingfield (AW),12 Jan 2026 SKY Polytrack,1m,Standard,3:10,Huntly Lodge,61,Hollie Doyle,Amanda Perrett,9- 9,5,0,True,0,0.041573923
+Lingfield (AW),12 Jan 2026 SKY Polytrack,7f,Standard,2:40,Capallcliste,63,Taryn Langley,Simon Hodgson,9- 0,6,5,True,0,0.041278962
+Lingfield (AW),12 Jan 2026 SKY Polytrack,1m,Standard,3:10,Monks Mead,62,George Bass,Mark Usher,9- 9,5,0,True,0,0.040368225
+Lingfield (AW),12 Jan 2026 SKY Polytrack,6f,Standard,2:10,Midnight Call,61,Matthew Lloyd Slater,Tony Carroll,9- 9,5,7,True,0,0.038924046
+Lingfield (AW),12 Jan 2026 SKY Polytrack,1m,Standard,3:10,Princess Pw,61,Luke Morris,Gay Kelleway,9- 9,4,0,True,0,0.038744472
+Lingfield (AW),12 Jan 2026 SKY Polytrack,7f,Standard,2:40,Roman Emperor,65,Donagh Murphy,John Ryan,9- 9,5,7,True,0,0.03808246
+Lingfield (AW),12 Jan 2026 SKY Polytrack,5f,Standard,12:40,Master Of My Fate,87,Jason Hart,John & Sean Quinn,9- 9,5,0,True,0,0.03796408
+Lingfield (AW),12 Jan 2026 SKY Polytrack,7f,Standard,2:40,Jackson Street,67,Paddy Bradley,Michael Attwater,9- 9,5,0,True,0,0.03777702
+Lingfield (AW),12 Jan 2026 SKY Polytrack,6f,Standard,1:40,Tenbob Tommy,75,Charles Bishop,Sheena West,10- 2,5,0,True,0,0.037432957
+Lingfield (AW),12 Jan 2026 SKY Polytrack,7f,Standard,2:40,Mighty Ruler,63,Kaiya Fraser,Michael Attwater,9- 9,4,0,True,0,0.03700448
+Lingfield (AW),12 Jan 2026 SKY Polytrack,2m,Standard,1:10,Prince Quattro,77,Pat Cosgrave,James Owen,9 -12,7,0,True,0,0.03646204
+Lingfield (AW),12 Jan 2026 SKY Polytrack,6f,Standard,1:40,Charging Bull,66,Callum Hutchinson,Andrew Balding,10- 2,4,0,True,0,0.035549548
+Lingfield (AW),12 Jan 2026 SKY Polytrack,1m,Standard,3:10,Arlecchino's Rex,-,NON-RUNNER,Mark Usher,9- 9,4,0,True,0,0.034864303
+Lingfield (AW),12 Jan 2026 SKY Polytrack,1m,Standard,3:40,Foreseen,84,Marco Ghiani,Tony Carroll,9- 8,5,0,True,0,0.033302344
+Lingfield (AW),12 Jan 2026 SKY Polytrack,7f,Standard,2:40,Mishy's Star,60,Josephine Gordon,Keiran Burke,9- 0,4,0,True,0,0.033054963
+Lingfield (AW),12 Jan 2026 SKY Polytrack,7f,Standard,2:40,Supernova Steps,65,Hollie Doyle,David Loughnane,9- 0,5,0,True,0,0.032689784
+Lingfield (AW),12 Jan 2026 SKY Polytrack,1m,Standard,3:40,H Key Lails,86,Ryan Kavanagh,Michael Attwater,9- 3,6,5,True,0,0.031812523
+Lingfield (AW),12 Jan 2026 SKY Polytrack,2m,Standard,1:10,Young Endless,75,Alec Voikhansky,Kevin Frost,9 -13,7,0,True,0,0.031516388
+Lingfield (AW),12 Jan 2026 SKY Polytrack,1m,Standard,3:40,Renesmee,83,Darragh Keenan,Michael Keady,9- 9,6,0,True,0,0.03115504
+Lingfield (AW),12 Jan 2026 SKY Polytrack,1m,Standard,3:40,Way To Dubai,86,Harry Davies,Michael Appleby,9- 1,7,0,True,0,0.029762106
+Lingfield (AW),12 Jan 2026 SKY Polytrack,1m,Standard,3:40,Repertoire,87,Taryn Langley,David Simcock,9- 1,10,5,True,0,0.029072035
+Lingfield (AW),12 Jan 2026 SKY Polytrack,5f,Standard,12:40,Almaty Star,92,Jack Mitchell,Robert Cowell,9- 7,6,0,True,0,0.029006679
+Lingfield (AW),12 Jan 2026 SKY Polytrack,1m,Standard,3:40,Comedian Leader,82,William Cox,Jim & Suzi Best,8 -12,6,0,True,0,0.028500928
+Lingfield (AW),12 Jan 2026 SKY Polytrack,5f,Standard,12:40,Diomed Spirit,91,Marco Ghiani,Stuart Williams,9- 7,6,0,True,0,0.028339714
+Lingfield (AW),12 Jan 2026 SKY Polytrack,6f,Standard,1:40,Pedros Dream,38,William Carson,Tony Carroll,9- 0,3,0,True,0,0.025700726
+Lingfield (AW),12 Jan 2026 SKY Polytrack,1m,Standard,3:40,Kingkeer,86,Paddy Bradley,Simon Dow,9- 8,5,0,True,0,0.025251327
+Lingfield (AW),12 Jan 2026 SKY Polytrack,6f,Standard,1:40,No Drama Mama,60,Nicola Currie,Ollie Sangster,8- 9,3,0,True,0,0.024743779
+Lingfield (AW),12 Jan 2026 SKY Polytrack,2m,Standard,1:10,A Tickatickatiming,70,Charles Bishop,Sheena West,9- 0,8,0,True,0,0.024558725
+Lingfield (AW),12 Jan 2026 SKY Polytrack,2m,Standard,1:10,Nunc Est Bibendum,77,Lewis Edmunds,Gary & Josh Moore,10- 2,5,0,True,0,0.022666289
+Lingfield (AW),12 Jan 2026 SKY Polytrack,1m,Standard,3:40,Dandy Khan,85,Donagh Murphy,Jim Boyle,8 -11,4,7,True,0,0.02204747
+Lingfield (AW),12 Jan 2026 SKY Polytrack,5f,Standard,12:40,Michaela's Boy,88,Luke Morris,Robert Cowell,9- 9,6,0,True,0,0.021745812
+Lingfield (AW),12 Jan 2026 SKY Polytrack,5f,Standard,12:40,Bint Havana Gold,88,Nicola Currie,Richard Hughes,8- 9,5,0,True,0,0.021156566
+Lingfield (AW),12 Jan 2026 SKY Polytrack,6f,Standard,1:40,Comprador,-,Jack Doughty,Ed Walker,9- 0,3,0,True,0,0.019008663
+Lingfield (AW),12 Jan 2026 SKY Polytrack,5f,Standard,12:40,Toolatetonegotiate,89,Millie Wonnacott,Daisy Hitchins,9- 1,4,5,True,0,0.018939076
+Lingfield (AW),12 Jan 2026 SKY Polytrack,6f,Standard,1:40,Alasrae,76,Pat Cosgrave,George Boughey,9- 0,3,0,True,0,0.018141909
+Punchestown,12 Jan 2026,2m,Soft To Heavy,3:48,How's Hannah,-,Mr P W Mullins,W P Mullins,11 -11,7,0,True,0,0.17399831
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,2:48,Kimi De Mai,122,Paul Townend,W P Mullins,11- 5,6,0,True,0,0.12998365
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,2:18,Kasper Hauser,123,Phillip Enright,Kevin Thomas Coleman,10 -11,4,0,True,0,0.11901313
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,1:48,Thecouncillorswife,55,Benjamin P Kennedy,D Deacon,11- 7,7,7,True,0,0.09145066
+Punchestown,12 Jan 2026,2m,Soft To Heavy,12:48,Madness d'Elle,102,Paul Townend,W P Mullins,11- 7,4,0,True,0,0.08397367
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,2:48,Lord Tobin,101,Jack Kennedy,Gordon Elliott,11 -12,5,0,True,0,0.08181262
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,2:48,Shabby Hill,102,Philip Byrnes,C Byrnes,11 -12,7,0,True,0,0.07284744
+Punchestown,12 Jan 2026,2m6f,Soft To Heavy,3:18,Cathryns Ruby,115,Sean O'Keeffe,Patrick T Foley,11- 5,9,0,True,0,0.07128063
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,1:48,Bambino Fever,132,Paul Townend,W P Mullins,11- 7,6,0,True,0,0.06829761
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,2:48,Peppers Corner,58,Josh Younge,Edward F Power,11- 5,7,7,True,0,0.06457505
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,2:48,Poet's Gale,-,Mr J Costello,A J Martin,11 -12,5,7,True,0,0.06385797
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,2:48,Sticktothescript,98,Phillip Enright,Oliver McKiernan,11 -12,5,0,True,0,0.060229238
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,2:48,Gerrymandering,29,Liam McKenna,William J McLernon,11 -12,8,5,True,0,0.059167292
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,2:48,Royal Soldier,90,Donagh Meyler,Mrs Gillian Callaghan,11 -12,6,0,True,0,0.056965794
+Punchestown,12 Jan 2026,2m6f,Soft To Heavy,3:18,The Man's Room,121,Brian Hayes,C A Murphy,11- 8,6,0,True,0,0.05374562
+Punchestown,12 Jan 2026,2m,Soft To Heavy,12:48,Berto Ramirez,103,Brian Hayes,Andrew McNamara,11- 7,4,0,True,0,0.053278595
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,1:48,Poetisa,-,Danny Mullins,W P Mullins,11- 7,5,0,True,0,0.051200505
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,2:48,Albus,89,Sam Ewing,Gordon Elliott,11 -12,6,0,True,0,0.048767414
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,2:18,Miss Mini Bee,113,Alex Harvey,Patrick T Foley,11- 6,7,0,True,0,0.046572298
+Punchestown,12 Jan 2026,2m,Soft To Heavy,3:48,Fancy Fox,-,Mr H C Swan,Gordon Elliott,11 -11,5,0,True,0,0.046049245
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,2:18,Paul Collins,114,J J Slevin,Brian M McMahon,11 -12,6,0,True,0,0.044158388
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,1:48,Wings Of Africa,22,Cian Quirke,W J Lanigan,11- 7,5,0,True,0,0.043396827
+Punchestown,12 Jan 2026,2m,Soft To Heavy,3:48,Simply Natural,104,Mr D G Lavery,Gavin Cromwell,11 -11,6,0,True,0,0.042872764
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,2:48,Lyreen Og,95,Daniel King,A J Martin,11 -12,6,0,True,0,0.042043455
+Punchestown,12 Jan 2026,2m6f,Soft To Heavy,3:18,Pictures Of Home,115,Jack Kennedy,T M Walsh,11- 0,10,0,True,0,0.04142967
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,2:18,Hey Babbs,118,Patrick M O'Brien,Dermot A McLoughlin,10 -12,6,5,True,0,0.040537074
+Punchestown,12 Jan 2026,2m6f,Soft To Heavy,3:18,Westernersunrise,116,Mr S Connor,James Andrew Fahey,11- 4,7,7,True,0,0.039539576
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,1:48,Susie Lenglen,107,Donagh Meyler,Noel Meade,11- 7,5,0,True,0,0.038987406
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,1:48,Forceonmyown,107,Jack Kennedy,Gordon Elliott,11- 7,7,0,True,0,0.037981898
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,2:48,Jesse James Howard,80,Kieren Buckley,Ms Claire O'Connell,11 -12,7,0,True,0,0.036337372
+Punchestown,12 Jan 2026,2m,Soft To Heavy,12:48,Starword,70,Alix Balfe,Francis Casey,11- 7,4,7,True,0,0.033787858
+Punchestown,12 Jan 2026,2m6f,Soft To Heavy,3:18,Money Heist,110,Mr D McGill,Gary McGill,11 -11,9,7,True,0,0.032915894
+Punchestown,12 Jan 2026,2m,Soft To Heavy,3:48,Ealu,-,Mr Derek O'Connor,S Curling,11 -11,5,0,True,0,0.031270277
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,2:18,Sean Mc,114,Eoin Staples,Paul Nolan,10- 7,6,5,True,0,0.03126988
+Punchestown,12 Jan 2026,2m6f,Soft To Heavy,3:18,Sock It To Me,101,Tiernan Power Roche,P J Rothwell,10- 6,5,3,True,0,0.03125245
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,2:48,Bergamasquo,103,Keith Donoghue,Gavin Cromwell,11 -12,5,0,True,0,0.030978456
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,2:18,Danny The Champ,107,Brian Hayes,John C McConnell,11- 1,5,0,True,0,0.030819904
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,1:48,Lizzymac,69,Philip Donovan,Maike Magnussen,11- 7,5,3,True,0,0.030380549
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,2:18,Loi Des Jeux,111,Sean O'Keeffe,Donal Hassett,10- 2,5,0,True,0,0.028800007
+Punchestown,12 Jan 2026,2m6f,Soft To Heavy,3:18,Rockstown Girl,111,Alex Harvey,Anthony McCann,11- 6,8,0,True,0,0.028682537
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,2:48,Wise Man,85,Danny Mullins,Donal Hassett,11 -12,5,0,True,0,0.02846047
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,1:48,Nothing Da Now,74,John Shinnick,Maike Magnussen,11- 7,6,3,True,0,0.028256966
+Punchestown,12 Jan 2026,2m6f,Soft To Heavy,3:18,Difficult Decision,109,Phillip Enright,Oliver McKiernan,10 -11,13,0,True,0,0.028196568
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,2:18,Mojoe,110,Simon Torrens,Patrick T Foley,11- 9,6,0,True,0,0.028116098
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,2:18,Vallon Du Plessis,105,Conor Stone-Walsh,Tom Dreaper,10- 1,6,0,True,0,0.027639233
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,2:18,Paradise Lost,113,Gavin Brouder,Charles O'Brien,11- 6,7,0,True,0,0.027119586
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,2:48,Michael's Jet,79,Mr R W Barron,V C Ward,11 -12,5,5,True,0,0.025952071
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,2:48,Potters Pal,81,Gavin Brouder,Thomas Cooper,11 -12,5,0,True,0,0.024636865
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,2:18,Kinturk Nelson,113,James Smith,Thomas Gibney,10- 8,7,5,True,0,0.024306018
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,2:18,Dahoma,105,Kevin Healy,Declan Queally,10- 5,4,7,True,0,0.023197658
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,2:48,Double Power,104,James Smith,Ian Patrick Donoghue,11 -12,6,5,True,0,0.02301212
+Punchestown,12 Jan 2026,2m,Soft To Heavy,3:48,Think It Through,101,Miss M O'Sullivan,Emmet Mullins,11 -11,7,5,True,0,0.022461917
+Punchestown,12 Jan 2026,2m,Soft To Heavy,3:48,Smart Answer,-,Miss J Townend,J G Coogan,11 -11,7,0,True,0,0.021790234
+Punchestown,12 Jan 2026,2m,Soft To Heavy,12:48,Wolfpack,-,Danny Gilligan,Gordon Elliott,11- 7,4,0,True,0,0.021344172
+Punchestown,12 Jan 2026,2m6f,Soft To Heavy,3:18,Rocky's Howya,113,Kevin Healy,Declan Queally,11- 4,10,7,True,0,0.020721288
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,2:18,The Guinness Boys,110,Keith Donoghue,Gavin Cromwell,11- 8,7,0,True,0,0.020309381
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,2:18,Kazbek,114,Danny Mullins,Peter Fahey,10 -10,6,0,True,0,0.020167908
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,1:48,Kaleo Ametsa,115,Phillip Enright,Josh Halley,11- 7,6,0,True,0,0.019890422
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,2:18,Patsy's Pride,100,Jordan Gainford,Ms Claire O'Connell,10- 8,7,0,True,0,0.019507999
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,1:48,Carrigmoorna Beech,-,Kevin Healy,Declan Queally,11- 7,5,7,True,0,0.01949004
+Punchestown,12 Jan 2026,2m6f,Soft To Heavy,3:18,Siege Ofjadotville,108,Liam McKenna,Martin Hassett,11- 3,6,5,True,0,0.019465456
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,2:18,Sunrise Strider,110,Cian Quirke,Michael J McDonagh,10- 0,5,0,True,0,0.019341422
+Punchestown,12 Jan 2026,2m,Soft To Heavy,12:48,Deep Water Bay,103,Jack Kennedy,Gordon Elliott,11- 7,4,0,True,0,0.019119881
+Punchestown,12 Jan 2026,2m6f,Soft To Heavy,3:18,Cornmarket,110,Alan King,John J Cullen,11- 5,7,7,True,0,0.018831706
+Punchestown,12 Jan 2026,2m,Soft To Heavy,3:48,Lake Isle,-,Mr J P O'Rourke,C A Murphy,11 -11,5,7,True,0,0.017971383
+Punchestown,12 Jan 2026,2m,Soft To Heavy,3:48,Aint Over Yet,-,Mr J C Barry,Nigel Thomas Slevin,11 -11,5,0,True,0,0.01772493
+Punchestown,12 Jan 2026,2m,Soft To Heavy,1:18,Eco Pete,107,Miss P Elvin,P J Rothwell,11- 7,9,0,True,0,0.017038783
+Punchestown,12 Jan 2026,2m,Soft To Heavy,12:48,Nile Star,-,Donagh Meyler,Ross O'Sullivan,11- 7,4,0,True,0,0.016643541
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,2:18,Sarandon,113,Ross Berry,C A Murphy,11- 4,6,7,True,0,0.016398186
+Punchestown,12 Jan 2026,2m,Soft To Heavy,3:48,Speisialta,-,Mr R W Barron,Anthony John Black,11 -11,6,5,True,0,0.016354589
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,1:48,Ill Raise A Glass,115,Darragh O'Keeffe,Martin Paul Fitzgerald,11- 7,6,0,True,0,0.016097406
+Punchestown,12 Jan 2026,2m,Soft To Heavy,1:18,Trebizond,107,Mr R Sugrue,M K Flannery,11 -13,9,2,True,0,0.015612627
+Punchestown,12 Jan 2026,2m6f,Soft To Heavy,3:18,Folly Master,123,Keith Donoghue,Tom Dreaper,11 -12,8,0,True,0,0.0152780935
+Punchestown,12 Jan 2026,2m,Soft To Heavy,12:48,Mino Des Mottes,108,Danny Mullins,W P Mullins,11- 7,4,0,True,0,0.015039944
+Punchestown,12 Jan 2026,2m,Soft To Heavy,3:48,Jenina,73,Mr J H Williamson,P A Fahy,11 -11,5,5,True,0,0.01414081
+Punchestown,12 Jan 2026,2m3½f,Soft To Heavy,1:48,Doing It In Style,105,Keith Donoghue,Gavin Cromwell,11- 7,6,0,True,0,0.0140805235
+Punchestown,12 Jan 2026,2m6f,Soft To Heavy,3:18,B Da Powders,101,Kevin A Murphy,Declan Queally,10- 3,7,7,True,0,0.014047293
+Punchestown,12 Jan 2026,2m,Soft To Heavy,3:48,Easily Distracted,91,Mr Alan O'Sullivan,Patrick T Foley,11 -11,5,7,True,0,0.013966588
+Punchestown,12 Jan 2026,2m,Soft To Heavy,3:48,Ballinaboola Hanna,71,Ms E C Costello,R Donohoe,11 -11,5,7,True,0,0.013335942
+Punchestown,12 Jan 2026,2m6f,Soft To Heavy,3:18,Accustomed,116,Jordan Gainford,E D Delany,11- 0,6,0,True,0,0.013209079
+Punchestown,12 Jan 2026,2m,Soft To Heavy,1:18,Where Are You Now,89,Mr J M Halford,E Bolger,11- 2,5,0,True,0,0.012637449
+Punchestown,12 Jan 2026,2m,Soft To Heavy,12:48,Direct Approach,70,Jordan Gainford,Gordon Elliott,11- 7,4,0,True,0,0.012465011
+Punchestown,12 Jan 2026,2m,Soft To Heavy,12:48,Stone Rulya,69,Paddy Cody,Eoin Doyle,11- 7,4,7,True,0,0.0123842275
+Punchestown,12 Jan 2026,2m6f,Soft To Heavy,3:18,Empire Walk,104,Eoin Staples,J Motherway,11- 2,5,5,True,0,0.011908944
+Punchestown,12 Jan 2026,2m,Soft To Heavy,12:48,Ray Gun,85,Alex Harvey,J P Flavin,11- 7,4,0,True,0,0.011609766
+Punchestown,12 Jan 2026,2m6f,Soft To Heavy,3:18,Lough Nigara,114,Ricky Doyle,Eoin Griffin,10 -10,9,0,True,0,0.0111577995
+Punchestown,12 Jan 2026,2m6f,Soft To Heavy,3:18,Fighting Falcon,108,Ryan Treacy,Josh Halley,10 -12,5,0,True,0,0.011084066
+Punchestown,12 Jan 2026,2m6f,Soft To Heavy,3:18,Dalmatic,110,G B Noonan,W J O'Doherty,10- 7,6,0,True,0,0.010835848
+Punchestown,12 Jan 2026,2m6f,Soft To Heavy,3:18,Mahler Appeal,116,Cian Quirke,Garrett James Power,10- 2,10,0,True,0,0.010466518
+Punchestown,12 Jan 2026,2m,Soft To Heavy,12:48,Granlahan,-,Patrick M O'Brien,Adrian McGuinness,11- 7,4,5,True,0,0.010386393
+Punchestown,12 Jan 2026,2m6f,Soft To Heavy,3:18,Nettuno Italia,115,Shane Markey,Ross O'Sullivan,10- 6,6,7,True,0,0.009704659
+Punchestown,12 Jan 2026,2m,Soft To Heavy,3:48,Fastnet Crystal,107,Mr Finian Maguire,Joseph Patrick O'Brien,11 -11,5,0,True,0,0.00859593
+Punchestown,12 Jan 2026,2m,Soft To Heavy,3:48,Nells Princess,101,Mr E P O'Brien,Garrett James Power,11 -11,6,5,True,0,0.008516363
+Punchestown,12 Jan 2026,2m,Soft To Heavy,1:18,Black Soul,109,Mr B T Stone,Conor Houlihan,12- 4,7,0,True,0,0.00849189
+Punchestown,12 Jan 2026,2m,Soft To Heavy,1:18,Jumble Light,111,Mr J Dunne,Mark Michael McNiff,11- 3,7,0,True,0,0.008180827
+Punchestown,12 Jan 2026,2m,Soft To Heavy,1:18,Kilt,100,Mr B J Walsh,P J Rothwell,10 -12,5,0,True,0,0.008026244
+Punchestown,12 Jan 2026,2m,Soft To Heavy,1:18,Walk On Annilog,105,Mr D Doyle,Riceal Dunne,11- 8,7,0,True,0,0.007849362
+Punchestown,12 Jan 2026,2m,Soft To Heavy,1:18,Couldntmakeitup,112,Mr Alan O'Sullivan,J A Nash,11- 6,6,0,True,0,0.0077925203
+Punchestown,12 Jan 2026,2m,Soft To Heavy,3:48,Tountinna,102,Mr A P Ryan,Maike Magnussen,11 -11,5,5,True,0,0.007652592
+Punchestown,12 Jan 2026,2m,Soft To Heavy,1:18,Zuzukel,110,Mr J Costello,A J Martin,12- 1,6,4,True,0,0.0072986037
+Punchestown,12 Jan 2026,2m,Soft To Heavy,1:18,Hereditary Rule,109,Mr Finn Buckley,John C McConnell,11 -10,11,0,True,0,0.007160405
+Punchestown,12 Jan 2026,2m,Soft To Heavy,1:18,Metamorpheus,107,Mr C A Bowman,Andrew McNamara,11 -10,7,4,True,0,0.007033192
+Punchestown,12 Jan 2026,2m,Soft To Heavy,12:48,Kizlyar,99,Phillip Enright,Joseph Patrick O'Brien,11- 7,4,0,True,0,0.006894387
+Punchestown,12 Jan 2026,2m,Soft To Heavy,12:48,Concert Party,83,Daniel King,Denis Gerard Hogan,11- 0,4,0,True,0,0.006711771
+Punchestown,12 Jan 2026,2m,Soft To Heavy,12:48,Simple Things,109,Mark Walsh,J P Dempsey,11- 0,4,0,True,0,0.006688215
+Punchestown,12 Jan 2026,2m,Soft To Heavy,1:18,Be Fierce,107,Mr L P Shanahan,T M Walsh,11 -10,9,2,True,0,0.0066035264
+Punchestown,12 Jan 2026,2m,Soft To Heavy,12:48,Kilmeaden,106,J J Slevin,Donnacha Aidan O'Brien,11- 7,4,0,True,0,0.00658307
+Punchestown,12 Jan 2026,2m,Soft To Heavy,12:48,Royal Belief,86,Ben Harvey,Cian Collins,11- 7,4,0,True,0,0.006163916
+Punchestown,12 Jan 2026,2m,Soft To Heavy,1:18,Mo Ghille Mar,108,Ms K M Ryan,John Joseph Hanlon,11 -12,5,4,True,0,0.0056331223
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,7f,Standard,6:00,Thequietman,82,Mark Winn,David O'Meara,9- 5,5,0,True,0,0.27281702
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,1m½f,Standard,7:30,Strobelight,69,Billy Loughnane,George Boughey,9- 5,4,0,True,0,0.070463546
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,1m½f,Standard,7:30,Homer Stokes,66,Callum Rodriguez,David & Nicola Barron,9- 6,8,0,True,0,0.06777331
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,1m½f,Standard,7:30,Paps Of Jura,57,Rob Hornby,Sam Thomas,9- 4,5,0,True,0,0.062055625
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,1m1½f,Standard,8:00,Eagles Whistle,61,Shane Gray,Daragh Bourke,10- 5,6,0,True,0,0.057417553
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,1m1½f,Standard,8:00,Bondi Man,57,Tyler Heard,Sarah Hollinshead,9- 9,7,0,True,0,0.057235707
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,1m6f,Standard,5:00,V Power,73,Zoe Lewis,Thomas Faulkner,9- 9,6,5,True,0,0.05221376
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,7f,Standard,6:00,Splinterwood,57,Alistair Rawlinson,Michael Appleby,9- 5,4,0,True,0,0.05190491
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,1m½f,Standard,7:30,Lhebayeb,68,Callum Shepherd,Richard Price,9- 5,8,0,True,0,0.050483525
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,1m1½f,Standard,8:00,Newfire,54,Donovan Goucher,Kevin Frost,9- 9,5,7,True,0,0.049017936
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,1m½f,Standard,7:30,How's The Guvnor,69,George Wood,Jennie Candlish,9- 7,5,0,True,0,0.046954133
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,1m1½f,Standard,8:00,That Lucas Fella,62,NON-RUNNER,Iain Jardine,9- 8,4,0,True,0,0.046667762
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,1m1½f,Standard,8:00,Desiderata,63,Robert Havlin,Thomas Faulkner,9- 9,6,0,True,0,0.045197263
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,1m1½f,Standard,8:00,The Pug,59,Aiden Brookes,Micky Hammond,9- 9,6,3,True,0,0.044923313
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,1m1½f,Standard,8:00,Gemini Man,59,NON-RUNNER,Iain Jardine,9- 9,8,0,True,0,0.04191386
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,1m1½f,Standard,8:00,Pyrrhic Dancer,61,Taylor Fisher,Gary Brown,9- 9,7,3,True,0,0.040186267
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,1m½f,Standard,7:30,Faster Bee,65,Gina Mangan,Fergal O'Brien,9- 2,5,0,True,0,0.03933586
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,1m1½f,Standard,8:00,Wrist Art,62,George Wood,James Owen,9- 9,9,0,True,0,0.038994472
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,1m1½f,Standard,8:00,Racing Country,61,Rob Hornby,Damien Wingrove,9- 9,11,0,True,0,0.038894936
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,1m1½f,Standard,8:00,Trusty Scout,62,Ben Ffrench Davis,Derek Shaw,9- 9,8,5,True,0,0.037450608
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,1m½f,Standard,7:30,Dash Power,64,Sean Kirrane,Lawrence Mullaney,9- 0,5,0,True,0,0.03654321
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,7f,Standard,6:30,Flowstate,82,Mark Winn,David O'Meara,9- 7,5,0,True,0,0.036411006
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,1m½f,Standard,7:30,Volendam,66,Rowan Scott,Tony Carroll,9- 6,4,0,True,0,0.0346011
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,1m½f,Standard,7:30,Scenario,67,Neil Callan,Tony Carroll,9- 7,4,0,True,0,0.033437356
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,1m½f,Standard,7:30,Pacific Prince,59,Laura Coughlan,James Bennett,9- 9,5,3,True,0,0.03279386
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,6f,Standard,5:30,Lina Codina,64,Faye McManoman,Nigel Tinkler,8 -13,3,0,True,0,0.031974196
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,7f,Standard,7:00,Prancy Peer,67,Jason Watson,Ollie Sangster,9- 8,3,0,True,0,0.031663086
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,1m½f,Standard,7:30,Arlecchino's Rex,67,Jason Watson,Mark Usher,8 -13,4,0,True,0,0.031508364
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,6f,Standard,5:30,Blindfold Games,66,Billy Loughnane,George Boughey,9- 6,3,0,True,0,0.030497734
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,7f,Standard,6:30,River Wharfe,80,Myla Coppins,Tony Carroll,8 -10,8,7,True,0,0.029033411
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,7f,Standard,6:30,Bear Rock,79,Faye McManoman,Michael Mullineaux,9- 9,5,0,True,0,0.02786133
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,7f,Standard,7:00,Spirit Of Mara,67,Warren Fentiman,Richard Fahey,9- 1,3,5,True,0,0.027179044
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,1m½f,Standard,7:30,R P McMurphy,68,Edward Greatrex,Michael Appleby,9- 8,4,0,True,0,0.026963819
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,7f,Standard,6:30,Bella Bisbee,81,Kieran O'Neill,Scott Dixon,9- 8,5,0,True,0,0.025426919
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,7f,Standard,6:00,Hammal,-,Kieran O'Neill,Max Young,9- 5,5,0,True,0,0.024844378
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,7f,Standard,7:00,Slack Bob,67,Robert Havlin,Ed Dunlop,9- 9,3,0,True,0,0.023560451
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,7f,Standard,7:00,Because We Can,68,Georgia Dobie,Clive Cox,9- 9,3,0,True,0,0.023335828
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,1m6f,Standard,5:00,Moon Over The Sea,68,Tyrese Cameron,Tony Carroll,9- 8,7,3,True,0,0.023280216
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,7f,Standard,6:30,Harbour Vision,79,Mikkel Mortensen,Scott Dixon,9- 1,11,5,True,0,0.022800958
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,7f,Standard,6:00,Miss Helena,-,Faye McManoman,Michael Mullineaux,9- 0,4,0,True,0,0.02271157
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,7f,Standard,7:00,Sailor Batt,69,Callum Rodriguez,David & Nicola Barron,9- 7,3,0,True,0,0.022642972
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,7f,Standard,7:00,Pimentel,66,Rob Hornby,Marcus Tregoning,9- 3,3,0,True,0,0.022066772
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,7f,Standard,6:00,They All Know Me,84,Warren Fentiman,Richard Fahey,9- 5,4,5,True,0,0.02182707
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,7f,Standard,6:30,Adelaide Bay,78,Stevie Donohoe,Thomas Faulkner,9- 2,4,0,True,0,0.021373605
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,6f,Standard,5:30,Tafah,69,George Wood,Tony Carroll,9- 2,3,0,True,0,0.021038786
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,1m6f,Standard,5:00,Fascinating Shadow,69,Conor Whiteley,James Owen,9 -10,8,5,True,0,0.020980524
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,7f,Standard,6:30,Mart,79,Neil Callan,Dylan Cunha,9- 7,5,0,True,0,0.020961946
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,6f,Standard,5:30,Faithful Dream,65,Alistair Rawlinson,Michael Appleby,9- 2,3,0,True,0,0.02095247
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,1m6f,Standard,5:00,Zooks,73,Jack Nicholls,Ian Williams,9- 6,6,0,True,0,0.02083313
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,7f,Standard,6:00,Counting Cards,89,Callum Rodriguez,Edward Bethell,9- 5,4,0,True,0,0.020545086
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,6f,Standard,5:30,Life After Love,61,Jason Watson,Ollie Sangster,9- 1,3,0,True,0,0.02045719
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,7f,Standard,7:00,Crown The Future,70,Neil Callan,Jack Morland,9- 2,3,0,True,0,0.020291021
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,6f,Standard,5:30,Golden Havana,66,Sean Kirrane,Michael Dods,9- 6,3,0,True,0,0.020166814
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,6f,Standard,5:30,Espona Bay,68,Saffie Osborne,Michael Bell,9- 9,3,0,True,0,0.020085191
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,1m6f,Standard,5:00,Grand Duchess Olga,69,Chloe Lyons,Julia & Shelley Birkett,9 -12,6,5,True,0,0.020034524
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,6f,Standard,5:30,Far Too Fizzy,67,Rowan Scott,David Loughnane,9- 1,3,0,True,0,0.019650126
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,7f,Standard,6:30,Arnaz,80,Billy Loughnane,Mark Loughnane,9- 7,5,0,True,0,0.01954924
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,1m6f,Standard,5:00,Alex The Great,66,Myla Coppins,Tony Carroll,9- 7,6,5,True,0,0.019384665
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,7f,Standard,6:30,The Caribbean,81,Saffie Osborne,Heather Main,9- 7,5,0,True,0,0.01935851
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,7f,Standard,7:00,Surgeon Commander,66,Billy Loughnane,Craig Lidster,9- 1,3,0,True,0,0.019123478
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,7f,Standard,6:30,Nacho Nacho Nacho,80,Callum Shepherd,Jack Morland,9- 5,4,0,True,0,0.019020453
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,6f,Standard,5:30,Grey Horizon,71,Kieran O'Neill,Scott Dixon,9- 9,3,0,True,0,0.018881317
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,1m6f,Standard,5:00,Havachoc,66,Tom Kiely-Marshall,Patrick Morris,8 -11,4,0,True,0,0.018396514
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,6f,Standard,5:30,Black Rock Beauty,64,Warren Fentiman,Richard Fahey,9- 6,3,5,True,0,0.018321497
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,1m6f,Standard,5:00,Legacy Power,73,Poppy Scott,Michael Mullineaux,9 -10,6,5,True,0,0.017795336
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,1m6f,Standard,5:00,Urban Warrior,59,Harry Vigors,Stuart Williams,9- 8,4,5,True,0,0.017714273
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,7f,Standard,6:00,Oceans Five,83,Billy Loughnane,Brian Meehan,9- 5,4,0,True,0,0.017687028
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,1m6f,Standard,5:00,Blue Siam,66,Liam Wright,Hugo Palmer,9- 1,4,0,True,0,0.017100716
+Wolverhampton (AW),12 Jan 2026 SKY Tapeta,7f,Standard,6:00,All Moonshine,85,Jason Watson,Andrew Balding,9- 7,4,0,True,0,0.015526642
