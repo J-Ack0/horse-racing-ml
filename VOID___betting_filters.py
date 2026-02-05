@@ -542,7 +542,7 @@ def build_and_evaluate(pred_path: str, odds_path: str, thr_path: str, bankroll: 
 # ------------------------- CLI & defaults ----------------------------------
 
 def main():
-    TODAY = (datetime.now()).strftime("%Y-%m-%d")
+    TODAY =(datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d")
     default_pred = f"Inference_Outputs/Output_{TODAY}.csv"
     default_odds = f"Inference_Odds/Odds_{TODAY}.csv"
     default_thr = "Model_Thresholds/xgb_model_t_2026-01-14.csv"

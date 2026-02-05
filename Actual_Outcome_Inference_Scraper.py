@@ -63,7 +63,7 @@ def get_headers():
 # --- SCRAPER LOGIC ---
 
 def get_finished_race_links(session, target_date=None):
-    url = f"https://www.racingpost.com/racecards/{target_date}/" if target_date else "https://www.racingpost.com/racecards/"
+    url = f"https://www.racingpost.com/racecard/{target_date}/" if target_date else "https://www.racingpost.com/racecards/"
     base_url = "https://www.racingpost.com"
 
     try:
@@ -447,5 +447,5 @@ def run_loss_function_pipeline(date_str):
 
 if __name__ == "__main__":
     today_str = datetime.now().strftime('%Y-%m-%d')
-    yesterday_str = (datetime.now() - timedelta(days=1)).strftime('%Y-%m-%d')
+    yesterday_str = (datetime.now() - timedelta(days=0)).strftime('%Y-%m-%d')
     run_loss_function_pipeline(yesterday_str)

@@ -1,0 +1,402 @@
+track_name,race_date,distance,going,time,horse_name,rating,jockey,trainer,weight,age,claims,is_new,label,win_probability,history_count,is_found_in_history
+Ayr,29 Jan 2026,2m½f,Soft,3:43,Kinbara Firstdraft,115,J J Slevin,S R B Crawford,11- 9,7,0,True,0,0.057198334,0,False
+Ayr,29 Jan 2026,2m4½f,Soft,1:43,Follow Charlie,123,Ben Smith,R Mike Smith,11- 2,7,7,True,0,0.046979714,0,False
+Ayr,29 Jan 2026,2m½f,Soft,3:43,Ballyfort,120,Bruce Lynn,N W Alexander,11- 2,8,0,True,0,0.040396914,0,False
+Ayr,29 Jan 2026,2m,Soft,4:13,The Skecher,-,Harry Skelton,Dan Skelton,11- 2,5,0,True,0,0.04013198,0,False
+Ayr,29 Jan 2026,2m,Soft,4:13,Myfriendcooper,-,Brian Hughes,Lucinda Hughes,10- 9,6,0,True,0,0.038898718,0,False
+Ayr,29 Jan 2026,2m½f,Soft,3:43,Wotter Trotter,120,Harry Skelton,Dan Skelton,11- 2,6,0,True,0,0.037620228,0,False
+Ayr,29 Jan 2026,2m½f,Soft,3:43,Netywell,127,Patrick Wadge,Lucinda Russell & Michael Scudamore,11 -13,9,0,True,0,0.033432197,0,False
+Ayr,29 Jan 2026,2m½f,Soft,3:43,Great Pepper,121,Charlotte Jones,James Moffatt,11 -13,8,0,True,0,0.03314114,0,False
+Ayr,29 Jan 2026,2m,Soft,4:13,Blue Du Neuf,102,J J Slevin,S R B Crawford,11- 2,6,0,True,0,0.032394804,0,False
+Ayr,29 Jan 2026,2m½f,Soft,3:43,Chumlee,121,Harry Reed,Sandy Forster,10- 2,11,0,True,0,0.032071948,0,False
+Ayr,29 Jan 2026,2m,Soft,2:43,Run Baby Run,-,Ben Smith,R Mike Smith,11- 5,5,7,True,0,0.030180344,0,False
+Ayr,29 Jan 2026,2m4½f,Soft,1:43,Jakana,122,Brian Hughes,Leonard Kerr,10- 5,7,0,True,0,0.028024102,0,False
+Ayr,29 Jan 2026,2m4½f,Soft,1:43,Rock Dj,113,Jamie Hamilton,Mark Walford,10 -13,6,0,True,0,0.02751154,0,False
+Ayr,29 Jan 2026,2m,Soft,4:13,Bay Runner,-,Sean Quinlan,Lizzie Quinlan,11- 2,5,0,True,0,0.026992297,0,False
+Ayr,29 Jan 2026,2m½f,Soft,3:43,Disguisedlimit,124,Craig Nichol,Oliver Greenall & Josh Guerriero,11- 7,7,0,True,0,0.026859825,0,False
+Ayr,29 Jan 2026,2m4½f,Soft,1:43,Fostered Phil,120,Derek Fox,William Young Jnr,10 -11,12,0,True,0,0.026681393,0,False
+Ayr,29 Jan 2026,2m,Soft,4:13,Allfor,-,Conner McCann,Lucinda Russell & Michael Scudamore,11- 2,5,7,True,0,0.026316037,0,False
+Ayr,29 Jan 2026,2m,Soft,4:13,Finisk Pride,-,Jack Power,Lucinda Russell & Michael Scudamore,11- 2,5,5,True,0,0.025748456,0,False
+Ayr,29 Jan 2026,2m½f,Soft,3:43,Flash Du Pistolet,123,Sean Quinlan,Stuart Coltherd,11- 4,8,0,True,0,0.025718229,0,False
+Ayr,29 Jan 2026,3m½f,Soft,3:13,Pure Sirloin,118,Harry Reed,Sandy Forster,10- 2,8,0,True,0,0.02541413,0,False
+Ayr,29 Jan 2026,2m½f,Soft,3:43,Tommy Combats,123,Callum Bewley,Martin Todhunter,10- 9,7,0,True,0,0.025412995,0,False
+Ayr,29 Jan 2026,3m½f,Soft,3:13,Theme Tune,120,Bruce Lynn,N W Alexander,11- 0,11,0,True,0,0.025064439,0,False
+Ayr,29 Jan 2026,3m½f,Soft,3:13,Buzz Iceclear,124,Jamie Hamilton,Mark Walford,11- 5,6,0,True,0,0.024475839,0,False
+Ayr,29 Jan 2026,2m½f,Soft,3:43,Carcaci Castle,128,Jamie Hamilton,Sandy Thomson,11- 1,10,0,True,0,0.023830486,0,False
+Ayr,29 Jan 2026,2m4½f,Soft,1:43,El Jefe,118,Conor Rabbitt,Andrew Hamilton,10 -13,9,3,True,0,0.022573099,0,False
+Ayr,29 Jan 2026,2m½f,Soft,3:43,Coup De Coeur,125,Brian Hughes,Micky Hammond,12- 0,8,0,True,0,0.022398017,0,False
+Ayr,29 Jan 2026,3m½f,Soft,3:13,Fox's Fancy,123,Derek Fox,Lucinda Russell & Michael Scudamore,11- 5,8,0,True,0,0.022376588,0,False
+Ayr,29 Jan 2026,3m½f,Soft,3:13,Adveram,121,Callum Bewley,Ian Duncan,10- 7,7,0,True,0,0.020738224,0,False
+Ayr,29 Jan 2026,3m½f,Soft,3:13,Carismatic Soldier,122,Sean Bowen,Olly Murphy,11- 8,7,0,True,0,0.020631777,0,False
+Ayr,29 Jan 2026,3m½f,Soft,3:13,Canunclecani,120,Sean Quinlan,Jackie Stephen,10 -13,7,0,True,0,0.020548398,0,False
+Ayr,29 Jan 2026,3m,Soft,2:13,Donny Boy,137,Bruce Lynn,N W Alexander,11- 4,10,0,True,0,0.02042738,0,False
+Ayr,29 Jan 2026,2m,Soft,2:43,Irish Champ,119,J J Slevin,S R B Crawford,11- 5,6,0,True,0,0.020348797,0,False
+Ayr,29 Jan 2026,3m½f,Soft,3:13,Rocheval,120,Patrick Wadge,Lucinda Russell & Michael Scudamore,11 -10,6,0,True,0,0.020331323,0,False
+Ayr,29 Jan 2026,3m½f,Soft,3:13,Shoeshine Boy,122,Craig Nichol,Donald Whillans,10- 8,10,0,True,0,0.020240223,0,False
+Ayr,29 Jan 2026,2m,Soft,4:13,El Gangster,112,Craig Nichol,Donald Whillans,11- 2,5,0,True,0,0.019627592,0,False
+Ayr,29 Jan 2026,3m½f,Soft,3:13,President Scottie,121,Danny McMenamin,Nicky Richards,11 -10,8,0,True,0,0.019247288,0,False
+Ayr,29 Jan 2026,2m,Soft,1:13,Sagonige,-,Brian Hughes,Ruth Jefferson,11- 4,7,0,True,0,0.018528735,0,False
+Ayr,29 Jan 2026,3m½f,Soft,3:13,Felicie Du Maquis,121,Richard Patrick,Clive Boultbee-Brooks,12- 1,11,0,True,0,0.01829384,0,False
+Ayr,29 Jan 2026,2m4½f,Soft,1:43,Langdale Lane,120,Gavin Sheehan,R Mike Smith,10 -13,9,0,True,0,0.0181728,0,False
+Ayr,29 Jan 2026,2m,Soft,4:13,Katagat,112,Sean Bowen,David Killahena & Graeme McPherson,11- 2,6,0,True,0,0.018153207,0,False
+Ayr,29 Jan 2026,2m4½f,Soft,1:43,Diamond Geezer,122,Sean Bowen,Olly Murphy,11- 0,7,0,True,0,0.018147184,0,False
+Ayr,29 Jan 2026,3m½f,Soft,3:13,Grand Voyage,118,Joshua Thompson,Stuart Coltherd,10- 2,10,5,True,0,0.017955385,0,False
+Ayr,29 Jan 2026,2m,Soft,2:43,Valtteri Its James,-,Patrick Wadge,Lucinda Russell & Michael Scudamore,11- 5,5,0,True,0,0.017820934,0,False
+Ayr,29 Jan 2026,3m,Soft,2:13,Wendigo,155,Gavin Sheehan,Jamie Snowden,11 -10,7,0,True,0,0.017347803,0,False
+Ayr,29 Jan 2026,2m,Soft,1:13,Am I Bovvered,-,Patrick Wadge,Sandy Forster,11- 4,6,0,True,0,0.01699133,0,False
+Ayr,29 Jan 2026,2m,Soft,1:13,Royal Maggs,-,Jamie Hamilton,Mark Walford,11- 4,6,0,True,0,0.01699133,0,False
+Ayr,29 Jan 2026,2m,Soft,1:13,Society Soldier,-,Derek Fox,Lucinda Russell & Michael Scudamore,11- 4,6,0,True,0,0.01699133,0,False
+Ayr,29 Jan 2026,2m4½f,Soft,1:43,Wolfspear,122,Callum Bewley,Daragh Bourke,11- 1,10,0,True,0,0.015713388,0,False
+Ayr,29 Jan 2026,2m4½f,Soft,1:43,Eloi Du Puy,122,Bruce Lynn,N W Alexander,11- 3,8,0,True,0,0.015674481,0,False
+Ayr,29 Jan 2026,2m,Soft,4:13,L'Appel Du Large,86,NON-RUNNER,N W Alexander,11- 2,5,0,True,0,0.015518539,0,False
+Ayr,29 Jan 2026,2m4½f,Soft,1:43,Kool Raoul,122,Gregor Walkingshaw,Lucinda Russell & Michael Scudamore,11- 1,6,10,True,0,0.015233163,0,False
+Ayr,29 Jan 2026,2m4½f,Soft,1:43,Saracen Beau,119,Danny McMenamin,Nicky Richards,12- 0,7,0,True,0,0.015147834,0,False
+Ayr,29 Jan 2026,3m½f,Soft,3:13,Gaillimh A Stor,123,Dominic Hislop,N W Alexander,11- 3,10,10,True,0,0.015045978,0,False
+Ayr,29 Jan 2026,2m4½f,Soft,1:43,Coconut Splash,115,Mr Kit Alexander,N W Alexander,11- 0,11,5,True,0,0.015023191,0,False
+Ayr,29 Jan 2026,2m4½f,Soft,1:43,One Mill Harbour,118,Charlotte Jones,James Moffatt,11- 4,9,0,True,0,0.013297935,0,False
+Ayr,29 Jan 2026,2m,Soft,1:13,Changemyluck,77,NON-RUNNER,Stuart Coltherd,11- 4,6,0,True,0,0.0132243335,0,False
+Ayr,29 Jan 2026,2m,Soft,2:43,Cavalier du Luy,109,Bruce Lynn,N W Alexander,11 -12,5,0,True,0,0.0120397,0,False
+Ayr,29 Jan 2026,3m,Soft,2:13,Maximilian,148,Brian Hughes,Donald McCain,11- 4,10,0,True,0,0.011682224,0,False
+Ayr,29 Jan 2026,2m,Soft,2:43,Belvedere Bhoy,81,Derek Fox,Lucinda Russell & Michael Scudamore,11- 5,5,0,True,0,0.011473231,0,False
+Ayr,29 Jan 2026,2m,Soft,2:43,Irandando Has,111,Toby Wynne,Sam Allwood,11 -12,7,0,True,0,0.010634434,0,False
+Ayr,29 Jan 2026,2m,Soft,2:43,Stede Bonnet,133,Sean Bowen,Gordon Elliott,11 -12,5,0,True,0,0.010094297,0,False
+Ayr,29 Jan 2026,2m,Soft,2:43,Sanilam,114,Brian Hughes,Sandy Thomson,11 -12,6,0,True,0,0.009979885,0,False
+Ayr,29 Jan 2026,2m,Soft,2:43,Le Beau Madrik,122,NON-RUNNER,Dan Skelton,11 -12,5,0,True,0,0.009324405,0,False
+Ayr,29 Jan 2026,2m,Soft,1:13,Coolkatie,118,Harry Skelton,Dan Skelton,11- 4,6,0,True,0,0.0081130965,0,False
+Ayr,29 Jan 2026,2m,Soft,1:13,Klassy Pearl,105,Richard Patrick,Clive Boultbee-Brooks,11- 4,6,0,True,0,0.0076722,0,False
+Ayr,29 Jan 2026,2m,Soft,1:13,Berwick Law,80,Danny McMenamin,Iain Jardine,11- 4,5,0,True,0,0.0070092757,0,False
+Ayr,29 Jan 2026,2m,Soft,1:13,Apples Jane,111,Sean Bowen,Gordon Elliott,11- 4,5,0,True,0,0.006732083,0,False
+Bahrain,29 Jan 2026,6f,,6:20,Commanche Falls,107,Connor Beasley,Michael Dods,9 -10,9,0,True,0,0.4678169,2,True
+Bahrain,29 Jan 2026,6f,,6:20,Blue Day,96,Callum Shepherd,George Scott,9- 5,5,0,True,0,0.11024894,1,True
+Bahrain,29 Jan 2026,1m2f,,5:40,Urban Sprawl,110,Sandro Paiva,Jaffar Marzooq,8- 7,6,0,True,0,0.07042856,0,False
+Bahrain,29 Jan 2026,1m2f,,5:40,Max Mayhem,111,Lee Newman,George Baker,9- 5,8,0,True,0,0.06702288,0,False
+Bahrain,29 Jan 2026,6f,,6:20,Maystar,60,Ahmed Maki,Jaber Ramadhan,8 -13,9,0,True,0,0.030425036,0,False
+Bahrain,29 Jan 2026,6f,,6:20,Kaasib,88,Neil Callan,Ali Abdulmajeed,9- 6,6,0,True,0,0.029069245,0,False
+Bahrain,29 Jan 2026,6f,,6:20,Spangled Mac,104,Billy Loughnane,George Boughey,9- 3,7,0,True,0,0.027869642,0,False
+Bahrain,29 Jan 2026,1m4f,Good To Firm,3:30,Malakye,-,Marcialis Jaures,Ahmed Al Sadah,8 -13,7,0,True,0,0.025663856,0,False
+Bahrain,29 Jan 2026,6f,,6:20,Inveigle,88,Qais Bin Saif Al Busaidi,Mahmood Jawad,9- 7,8,0,True,0,0.024435995,0,False
+Bahrain,29 Jan 2026,6f,,6:20,Nationwide,103,Stephane Ladjadj,Fawzi Abdulla Nass,9- 5,8,0,True,0,0.024010763,0,False
+Bahrain,29 Jan 2026,6f,,6:20,Buffer Zone,90,Mark Lawson,Ali Jan,9- 5,11,0,True,0,0.023367338,0,False
+Bahrain,29 Jan 2026,6f,,6:20,Desert Cop,107,Lee Newman,George Baker,9- 3,6,0,True,0,0.023086248,0,False
+Bahrain,29 Jan 2026,6f,,6:20,Dairerin,86,Ray Dawson,Ali Jan,9 -11,7,0,True,0,0.022505423,0,False
+Bahrain,29 Jan 2026,6f,,6:20,Redemption Time,91,Mirko Sanna,Jaber Ramadhan,9- 8,6,0,True,0,0.022502119,0,False
+Bahrain,29 Jan 2026,6f,,6:20,Up The Pace,105,Tom Marquand,Daniel & Claire Kubler,9- 3,4,0,True,0,0.02227858,0,False
+Bahrain,29 Jan 2026,1m2f,,5:40,Slieve Binnian,106,Luke McAteer,David Marnane,9- 5,6,0,True,0,0.021677539,0,False
+Bahrain,29 Jan 2026,1m2f,,5:40,Azka,86,Stephane Ladjadj,Fawzi Abdulla Nass,9- 3,6,0,True,0,0.02131153,0,False
+Bahrain,29 Jan 2026,6f,,6:20,Another Baar,97,Benoit De La Sayette,Adrian Paul Keatley,10- 3,6,0,True,0,0.019128231,0,False
+Bahrain,29 Jan 2026,6f,,6:20,Grand City Hall,101,Jason Hart,Reyadh Ahmed,9- 2,5,0,True,0,0.018664466,0,False
+Bahrain,29 Jan 2026,6f,,6:20,Partisan Hero,106,Luke McAteer,David Loughnane,9- 5,6,0,True,0,0.018355217,0,False
+Bahrain,29 Jan 2026,1m2f,,5:40,Rollajam,98,Husain Makki,Fawzi Abdulla Nass,9- 8,7,0,True,0,0.017831894,0,False
+Bahrain,29 Jan 2026,6f,,6:20,Roman Dragon,104,Paul Mulrennan,Hugo Palmer,10- 3,7,0,True,0,0.01742032,0,False
+Bahrain,29 Jan 2026,6f,,6:20,Dream Out Loud,91,,Jaber Ramadhan,9- 8,4,0,True,0,0.017335784,0,False
+Bahrain,29 Jan 2026,1m2f,,5:40,Hot Dancer,97,Jason Hart,Ali Abdulmajeed,9- 5,4,0,True,0,0.017309729,0,False
+Bahrain,29 Jan 2026,6f,,6:20,Burdett,98,Oisin Orr,Ali Jan,9 -10,5,0,True,0,0.017290296,0,False
+Bahrain,29 Jan 2026,1m2f,,5:40,Salamanca Lad,95,Connor Beasley,Jaber Ramadhan,9- 8,5,0,True,0,0.017247748,0,False
+Bahrain,29 Jan 2026,6f,,6:20,Ramazan,94,NON-RUNNER,Jaber Ramadhan,9 -11,6,0,True,0,0.017134652,0,False
+Bahrain,29 Jan 2026,6f,,6:20,Dubai Bling,102,Ebrahim Nader,Hugo Palmer,9- 8,4,0,True,0,0.016699912,0,False
+Bahrain,29 Jan 2026,6f,,6:20,Arctic Grey,104,,Paul Smith,8 -13,4,0,True,0,0.016632143,0,False
+Bahrain,29 Jan 2026,1m2f,,5:40,Wave Rider,99,Callum Shepherd,George Scott,9 -13,4,0,True,0,0.016432917,0,False
+Bahrain,29 Jan 2026,6f,,6:20,Chief Mankato,106,Edward Greatrex,Jack Channon,9- 0,5,0,True,0,0.015999738,0,False
+Bahrain,29 Jan 2026,1m4f,Good To Firm,3:30,Tartan Chief,90,Jason Hart,Ali Abdulmajeed,9 -11,7,0,True,0,0.01584081,0,False
+Bahrain,29 Jan 2026,1m2f,,5:40,Phoenix Passion,97,Oisin Orr,Fawzi Abdulla Nass,9- 5,5,0,True,0,0.014640427,0,False
+Bahrain,29 Jan 2026,1m4f,Good To Firm,3:30,Nepal,105,Rosie Jessop,George Scott,8- 7,4,0,True,0,0.013689612,0,False
+Bahrain,29 Jan 2026,1m4f,Good To Firm,3:30,Refreshment,103,Ray Dawson,Jaber Ramadhan,8- 7,4,0,True,0,0.013666396,0,False
+Bahrain,29 Jan 2026,1m2f,,5:40,Merlin's Beard,103,Hussain Asghar,Osama Hashim,9 -11,8,0,True,0,0.013495401,0,False
+Bahrain,29 Jan 2026,1m2f,,5:40,Dain Ma Nut In,108,Lewis Edmunds,Lucinda Russell & Michael Scudamore,9- 3,5,0,True,0,0.013394147,0,False
+Bahrain,29 Jan 2026,1m2f,,5:40,Westridge,107,Tom Marquand,Daniel & Claire Kubler,10- 0,5,0,True,0,0.0133915385,0,False
+Bahrain,29 Jan 2026,1m2f,,5:40,Athan,102,Rosie Jessop,Fawzi Abdulla Nass,9- 2,5,0,True,0,0.01338203,0,False
+Bahrain,29 Jan 2026,1m2f,,5:40,Soldier's Empire,107,Neil Callan,Osama Hashim,9- 3,5,0,True,0,0.013207904,0,False
+Bahrain,29 Jan 2026,1m2f,,5:40,Vestigia,104,Billy Loughnane,Jaber Ramadhan,9- 7,5,0,True,0,0.0131068425,0,False
+Bahrain,29 Jan 2026,1m4f,Good To Firm,3:30,Bleak,99,Stephane Ladjadj,Fawzi Abdulla Nass,9- 8,6,0,True,0,0.012918083,0,False
+Bahrain,29 Jan 2026,1m4f,Good To Firm,3:30,Knight Of Honour,104,Neil Callan,Ali Abdulmajeed,9- 5,7,0,True,0,0.012813691,0,False
+Bahrain,29 Jan 2026,1m4f,Good To Firm,3:30,Young Ireland,103,Connor Beasley,Jaber Ramadhan,8 -11,6,0,True,0,0.012570179,0,False
+Bahrain,29 Jan 2026,1m4f,Good To Firm,3:30,Signalman,101,Husain Makki,Fawzi Abdulla Nass,9- 4,5,0,True,0,0.011815264,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,6f,Standard,5:30,Seven Fires,53,George Bass,Jack Channon,10- 2,4,0,True,0,0.08077053,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,2m,Standard,7:30,Alex The Great,56,Nicola Currie,Tony Carroll,9- 5,6,0,True,0,0.07456086,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,2m,Standard,7:30,Shibuya Song,36,Mason Paetel,James Owen,9- 5,7,5,True,0,0.072533,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,6f,Standard,6:00,Bishop's Glory,58,Finley Marsh,Joey Ramsden,9- 9,6,0,True,0,0.06957253,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,6f,Standard,6:00,Poetic Jack,58,Sean Levey,Robert Cowell,9- 9,6,0,True,0,0.051842127,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,6f,Standard,6:00,Tommytwohoots,55,Alistair Rawlinson,Shaun Harris,9- 9,8,0,True,0,0.04621811,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,7f,Standard,7:00,Amaysmont,65,Oliver Stammers,Kevin Frost,9- 6,9,0,True,0,0.044886485,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,2m,Standard,7:30,Sullivan Bay,69,Finley Marsh,Jim & Suzi Best,9- 6,6,0,True,0,0.044782788,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,6f,Standard,6:00,Under Curfew,56,Gina Mangan,Tony Carroll,9- 9,10,0,True,0,0.04369111,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,5f,Standard,5:00,Master Dandy,65,Hector Crouch,Michael Keady,9 -11,6,0,True,0,0.04337108,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,6f,Standard,6:00,Lion Ring,57,Ryan Kavanagh,Andrew J Martin,9- 9,8,5,True,0,0.041451056,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,5f,Standard,5:00,Smasher,67,Sean Levey,Michael Attwater,9- 7,6,0,True,0,0.040792704,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,6f,Standard,6:00,Up The Monk,53,Mason Paetel,Michael Appleby,9- 9,4,5,True,0,0.04066361,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,7f,Standard,7:00,Edergole's Gift,72,Ryan Kavanagh,Conrad Allen,9- 8,5,5,True,0,0.039093602,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,2m,Standard,7:30,Arenas Del Tiempo,67,Dylan Hogan,Jim & Suzi Best,9- 5,8,0,True,0,0.03890773,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,7f,Standard,7:00,My Boy Harry,69,Finley Marsh,Jim & Suzi Best,9- 9,4,0,True,0,0.038406845,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,7f,Standard,7:00,Thomas Equinas,71,Robert Havlin,Dean Ivory,9- 5,7,0,True,0,0.037408225,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,7f,Standard,7:00,Bullington Bry,71,Hollie Doyle,Jane Chapple-Hyam,9- 6,4,0,True,0,0.037195366,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,5f,Standard,5:00,It's Showtime,61,Ryan Kavanagh,Conrad Allen,9- 5,5,5,True,0,0.03675222,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,2m,Standard,7:30,Hiconic,67,Hollie Doyle,Alex Hales,8 -12,9,0,True,0,0.036143366,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,5f,Standard,5:00,He's An Angel,66,Oliver Stammers,Kevin Frost,10- 0,6,0,True,0,0.036107503,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,5f,Standard,5:00,Forever Noah,66,Finley Marsh,Joey Ramsden,9- 5,5,0,True,0,0.035277676,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,5f,Standard,5:00,The Defiant,63,Jack Dace,Luke Dace,9- 2,10,5,True,0,0.03524099,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,5f,Standard,5:00,Top Star,62,J F Egan,Dean Ivory,9- 8,4,0,True,0,0.034113135,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,7f,Standard,7:00,You Are Everything,68,Nicola Currie,Tony Carroll,9- 4,7,0,True,0,0.03368567,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,5f,Standard,5:00,Second Collection,64,Matthew Lloyd Slater,Tony Carroll,9- 0,10,7,True,0,0.03313149,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,7f,Standard,7:00,Charlatan,71,Jack Dace,David Simcock,9- 2,6,5,True,0,0.033017583,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,5f,Standard,5:00,Desdemona,66,Hollie Doyle,Michael Attwater,9- 9,4,0,True,0,0.03278872,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,1m,Standard,8:00,H Key Lails,83,Ryan Kavanagh,Michael Attwater,9- 6,6,5,True,0,0.032243636,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,6f,Standard,6:00,Dubai Magic,59,Hollie Doyle,Matt Crawley,9- 9,4,0,True,0,0.03161449,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,5f,Standard,5:00,Snow Boots,62,Myla Coppins,Tony Carroll,9- 0,5,7,True,0,0.029854247,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,2m,Standard,7:30,Rogue Justice,69,Hector Crouch,Jack Jones,9- 6,4,0,True,0,0.029840995,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,5f,Standard,5:00,Marcus,66,Sean D Bowen,Charlie Wallis,9- 0,5,0,True,0,0.029234407,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,7f,Standard,7:00,Potters Prince,64,Hector Crouch,Matt Crawley,9- 7,4,0,True,0,0.029145721,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,2m,Standard,7:30,Burano Murano,64,Robert Havlin,Denis Quinn,9- 9,4,0,True,0,0.028384851,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,5f,Standard,5:00,Commendation,65,Dylan Hogan,Martin Dunne,9- 0,4,0,True,0,0.028362675,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,6f,Standard,5:30,Anaba Girl,33,Finley Marsh,Jim & Suzi Best,9- 0,3,0,True,0,0.02800334,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,6f,Standard,5:30,Sequential,16,Hollie Doyle,Martin Dunne,9- 0,3,0,True,0,0.02800334,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,6f,Standard,6:30,Intervention,95,Mason Paetel,Michael Appleby,9- 9,9,5,True,0,0.02769676,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,7f,Standard,7:00,Impulse Buy,71,Sean D Bowen,Clare Hobson,9- 5,4,0,True,0,0.027160365,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,7f,Standard,7:00,Lowestoft,64,Gina Mangan,Christine Dunnett,8- 9,4,0,True,0,0.027083697,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,1m,Standard,8:00,Straight A,82,Robert Havlin,Michael Appleby,9- 6,5,0,True,0,0.02615613,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,6f,Standard,6:30,Rebel Path,93,Jack Dace,Stuart Williams,8 -13,7,5,True,0,0.025405481,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,2m,Standard,7:30,Taranjerine,70,Pat Cosgrave,Jim Boyle,9- 8,4,0,True,0,0.024693267,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,1m,Standard,8:00,Gennadius,82,Sean Levey,Richard Hannon,9- 6,4,0,True,0,0.024349315,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,1m,Standard,8:00,Lady Justice,81,Grace McEntee,Stuart Williams,9- 4,4,0,True,0,0.024098642,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,1m,Standard,8:00,Luminous Warrior,81,Hollie Doyle,Dylan Cunha,9- 4,4,0,True,0,0.024098642,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,1m,Standard,8:00,Lexington Jet,84,Conor Whiteley,David Loughnane,9- 7,4,7,True,0,0.023842951,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,1m,Standard,8:00,Mandana,83,Hector Crouch,James Owen,9- 4,4,0,True,0,0.023764597,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,6f,Standard,6:30,Justcallmepete,95,Dougie Costello,Tony Carroll,9 -10,7,0,True,0,0.023569383,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,6f,Standard,5:30,Secret History,79,Hector Crouch,Ed Walker,9- 0,3,0,True,0,0.02218967,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,6f,Standard,6:30,Knebworth,96,Finley Marsh,Richard Hughes,9- 7,6,0,True,0,0.02211515,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,6f,Standard,6:30,Aberama Gold,95,Billy Garritty,David O'Meara,9- 7,9,0,True,0,0.02149193,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,6f,Standard,6:30,Media Shooter,92,Sean D Bowen,James Owen,9- 3,5,0,True,0,0.021106485,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,6f,Standard,6:30,Jesse Luc,95,Hollie Doyle,Mike Murphy,8 -10,6,0,True,0,0.020360045,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,6f,Standard,6:30,Stanley Spencer,95,Hector Crouch,James Tate,9- 7,5,0,True,0,0.020070795,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,6f,Standard,6:30,Twilight Fun,94,Joey Haynes,Chelsea Banham,9- 1,6,0,True,0,0.019374538,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,6f,Standard,5:30,Welcome Retreat,74,Pat Cosgrave,James Owen,9- 0,3,0,True,0,0.019061048,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,6f,Standard,5:30,Adalida,72,Jack Dace,Stuart Williams,9- 0,3,5,True,0,0.018853314,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,6f,Standard,5:30,Militzie,-,Sean Levey,Stuart Williams,9- 0,3,0,True,0,0.018654622,0,False
+Chelmsford (AW),29 Jan 2026Polytrack,6f,Standard,5:30,Tabby Kat,68,Alexandra Egan,Jane Chapple-Hyam,9- 0,3,7,True,0,0.017876696,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,7f,Standard,2:50,Tilsworth Max,58,Jonny Peate,J R Jenkins,9- 9,6,0,True,0,0.087009184,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,7f,Standard,2:50,Alyara,53,Jack Mitchell,Joe Ponting,9- 9,8,0,True,0,0.058682613,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,7f,Standard,2:50,Zaltalla,59,Paddy Bradley,Michael Attwater,9- 9,5,0,True,0,0.057383657,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,7f,Standard,2:50,Royal Jet,60,William Carson,Tony Carroll,10- 0,6,0,True,0,0.05662976,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,7f,Standard,2:50,Henry Tudor,51,Charles Bishop,Mark Hoad,9- 9,4,0,True,0,0.055793867,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,1m,Standard,2:20,Reel Power,58,Jason Watson,Paddy Butler,9- 2,7,0,True,0,0.054691035,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,7f,Standard,2:50,Huntly Lodge,57,Luke Morris,Amanda Perrett,9- 9,5,0,True,0,0.05384408,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,7f,Standard,2:50,Vitalline,58,Tyler Heard,Keiran Burke,9- 9,8,0,True,0,0.052641466,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,1m,Standard,2:20,Havana's Dream,57,Rob Hornby,Ronald Harris,9- 2,4,0,True,0,0.048768844,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,6f,Standard,4:20,Havana Joy,76,Jason Watson,Charles Hills,9- 7,4,0,True,0,0.04439117,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,1m2f,Standard,3:20,Annexation,78,Jack Doughty,Tony Carroll,9 -10,10,0,True,0,0.043648604,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,6f,Standard,3:50,Saturday Again,51,Paddy Bradley,Simon Dow,9- 2,3,0,True,0,0.043417893,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,5f,Standard,1:20,Bang On The Bell,74,Jonny Peate,J R Jenkins,9- 9,7,0,True,0,0.04299249,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,5f,Standard,1:20,Coolagh Magic,74,William Carson,Anthony Carson,9- 5,10,0,True,0,0.042942673,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,5f,Standard,1:20,Level Up,73,Oliver Searle,David Evans,9- 6,7,5,True,0,0.041884113,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,5f,Standard,1:20,Honour Your Dreams,73,Paddy Bradley,Michael Attwater,9- 9,6,0,True,0,0.04181067,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,1m,Standard,2:20,Dion Baker,60,Darragh Keenan,Michael Wigham,9- 9,7,0,True,0,0.04173542,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,5f,Standard,1:20,Alafdhal,-,NON-RUNNER,Phil McEntee,9- 4,8,0,True,0,0.04102081,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,6f,Standard,3:50,Bucklow Hill,-,Jason Watson,Charles Hills,9- 7,3,0,True,0,0.04077804,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,1m,Standard,2:20,Volendam,63,Rossa Ryan,Tony Carroll,9- 9,4,0,True,0,0.04073972,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,1m,Standard,2:20,World Of Darcy,59,Luke Morris,John Ryan,9- 3,5,0,True,0,0.040250935,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,5f,Standard,1:20,Gustav Graves,75,George Wood,Derek Shaw,9- 7,8,0,True,0,0.039186038,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,7f,Standard,2:50,Stacey Racey,60,Cieren Fallon,Keiran Burke,9- 9,5,0,True,0,0.037946492,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,6f,Standard,4:20,Porfin,81,Connor Planas,Phil McEntee,8- 5,8,3,True,0,0.03761969,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,7f,Standard,2:50,Sarabi,59,Rossa Ryan,Michael Keady,9- 9,4,0,True,0,0.03703217,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,1m,Standard,2:20,Poke The Bear,63,Tyler Heard,Hayley Burton,9 -13,4,0,True,0,0.036777794,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,1m,Standard,2:20,Unknown Journey,60,Jack Doughty,Tony Carroll,9- 3,4,0,True,0,0.036483247,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,1m2f,Standard,3:20,Raintown,78,Taylor Fisher,J S Moore,9- 7,6,3,True,0,0.03631251,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,1m,Standard,2:20,Celtic John,64,Paddy Bradley,Pat Phelan,9- 8,5,0,True,0,0.035286248,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,1m,Standard,2:20,Charles Morin,62,Rhys Clutterbuck,Pat Phelan,9- 8,5,0,True,0,0.034618933,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,6f,Standard,4:20,Stapleford Park,74,Joe Leavy,Michael Attwater,9- 3,4,0,True,0,0.03426831,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,1m,Standard,2:20,Resilient Lady,62,Charles Bishop,Gary Brown,9- 9,4,0,True,0,0.03265242,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,6f,Standard,4:20,Invincible Speed,78,Paddy Bradley,Mark Loughnane,9- 9,5,0,True,0,0.031372283,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,5f,Standard,1:20,Hello Luna,74,Rob Hornby,Jonathan Portman,9- 7,4,0,True,0,0.031190423,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,6f,Standard,4:20,Mart,79,Luke Morris,Dylan Cunha,9- 5,5,0,True,0,0.03002943,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,1m2f,Standard,3:20,Alta Rica,80,Harry Davies,Marcus Tregoning,9- 9,4,0,True,0,0.02906604,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,6f,Standard,3:50,Chhota Saab,73,Kieran O'Neill,S Woods,9- 7,3,0,True,0,0.029047167,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,5f,Standard,1:20,Captain Kinsella,73,Luke Morris,John Gallagher,9- 1,4,0,True,0,0.02863064,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,6f,Standard,3:50,Silent Strike,-,Callum Hutchinson,Andrew Balding,9- 7,3,0,True,0,0.027812958,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,6f,Standard,3:50,Sakura Spirit,72,Rowan Scott,Kevin Philippart De Foy,9- 2,3,0,True,0,0.027322331,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,1m2f,Standard,3:20,Didaar,79,Darragh Keenan,Denis Quinn,9- 7,5,0,True,0,0.027233992,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,5f,Standard,1:20,Son Of Astar,75,Rossa Ryan,Tony Carroll,9- 4,4,0,True,0,0.026815098,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,6f,Standard,4:20,All Too Beautiful,82,Jack Mitchell,Roger Teal,9- 6,4,0,True,0,0.026071997,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,6f,Standard,3:50,Dinky Diamond,-,Jack Mitchell,William Stone,9- 2,3,0,True,0,0.025690865,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,6f,Standard,3:50,Salamis Bay,-,Luke Morris,Gay Kelleway,9- 2,3,0,True,0,0.025690865,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,6f,Standard,3:50,Seven Of Hearts,-,Rossa Ryan,Clive Cox,9- 2,3,0,True,0,0.025690865,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,1m2f,Standard,3:20,Tommy's Promise,82,Donagh Murphy,John Ryan,9- 6,5,7,True,0,0.025054174,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,1m2f,Standard,3:20,Bownder,80,Olivia Tubb,Jonathan Portman,9- 6,4,5,True,0,0.023693344,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,1m2f,Standard,3:20,Meet Me In Meraki,80,Rossa Ryan,David Evans,9- 9,5,0,True,0,0.023333132,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,1m2f,Standard,3:20,King's Hand,81,Luke Morris,Sir Mark Prescott Bt,9- 4,4,0,True,0,0.023310946,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,1m2f,Standard,3:20,Penfolds Grange,82,William Carson,Mark Pattinson,9- 7,4,0,True,0,0.02318427,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,1m,Standard,1:50,Luminare,80,Cieren Fallon,William Haggas,9- 3,3,0,True,0,0.02043963,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,5f,Standard,1:20,Thecoffeepoddotco,76,Joe Leavy,Richard Hannon,9- 9,4,0,True,0,0.020251218,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,1m,Standard,1:50,Space Invasion,87,Joe Leavy,Richard Hannon,9- 9,3,0,True,0,0.020217929,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,1m,Standard,1:50,Try Storm Cat,85,Jack Mitchell,Charlie Johnston,9- 7,3,0,True,0,0.019868959,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,1m,Standard,1:50,Sovereign Wealth,86,Rossa Ryan,George Boughey,9- 6,3,0,True,0,0.0153049175,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,1m,Standard,1:50,Foothold,87,Harry Davies,Marcus Tregoning,8 -10,3,0,True,0,0.014537082,0,False
+Lingfield (AW),29 Jan 2026 SKY Polytrack,1m,Standard,1:50,Maskatto,88,Jason Watson,Andrew Balding,8 -11,3,0,True,0,0.014227862,0,False
+Thurles,29 Jan 2026,2m6½f,Soft,4:25,Pookie Holler,119,Darragh O'Keeffe,Henry De Bromhead,11- 4,6,0,True,0,0.22014855,0,False
+Thurles,29 Jan 2026,2m,Soft,2:25,Michonne,105,Donagh Meyler,Mrs John Harrington,11- 0,4,0,True,0,0.12821645,1,True
+Thurles,29 Jan 2026,2m6½f,Soft,4:25,Fighting Fit,120,Mark Walsh,J P Dempsey,11 -10,11,0,True,0,0.1258243,6,True
+Thurles,29 Jan 2026,2m6½f,Soft,3:55,Eliodam,-,Paul Townend,W P Mullins,11 -12,5,0,True,0,0.10089513,0,False
+Thurles,29 Jan 2026,3m1f,Soft To Heavy,1:55,Magic Sadler,122,Ms E C Costello,P M J Doyle,12- 0,8,7,True,0,0.09736012,2,True
+Thurles,29 Jan 2026,2m,Soft,2:25,Charme De Faust,105,Paul Townend,W P Mullins,10- 6,4,0,True,0,0.09135617,0,False
+Thurles,29 Jan 2026,2m,Soft,2:25,John Dixen,51,Tiernan Power Roche,P J Rothwell,10 -13,4,3,True,0,0.07726914,0,False
+Thurles,29 Jan 2026,2m,Soft,2:55,Roc Dino,109,Paul Townend,W P Mullins,11- 4,5,0,True,0,0.07114103,0,False
+Thurles,29 Jan 2026,2m4f,Soft,3:25,Real Empire,99,Dylan O'Connor,John Joseph Hanlon,11- 3,6,7,True,0,0.04903689,8,True
+Thurles,29 Jan 2026,2m6½f,Soft,4:25,Sarah Beara,116,Phillip Enright,S Curling,11 -12,8,0,True,0,0.04237054,0,False
+Thurles,29 Jan 2026,2m6½f,Soft,4:25,Ira Hayes,113,Alex Harvey,John C McConnell,11- 9,7,0,True,0,0.040904656,0,False
+Thurles,29 Jan 2026,2m,Soft,2:25,Crest Of Light,59,Danny Gilligan,Cian Collins,11- 7,4,0,True,0,0.04033871,0,False
+Thurles,29 Jan 2026,2m6½f,Soft,3:55,Ballingurteen,71,John Shinnick,Terence O'Brien,11- 5,6,3,True,0,0.038344517,0,False
+Thurles,29 Jan 2026,2m6½f,Soft,4:25,Juke Hill,109,Jack Kennedy,Gordon Elliott,11- 2,6,0,True,0,0.038181696,0,False
+Thurles,29 Jan 2026,2m6½f,Soft,4:25,Union Park,116,Tiernan Power Roche,P J Rothwell,11- 2,10,3,True,0,0.035380628,0,False
+Thurles,29 Jan 2026,2m6½f,Soft,3:55,Danalii,-,Jack G Gilligan,Paul John Gilligan,11 -12,5,5,True,0,0.034145445,0,False
+Thurles,29 Jan 2026,2m6½f,Soft,3:55,Supreme Axel,68,Josh Younge,James Andrew Fahey,11- 5,7,7,True,0,0.03349155,0,False
+Thurles,29 Jan 2026,3m1f,Soft To Heavy,1:55,Gale Force Jet,99,Mr J L Scallan,Sean Thomas Doyle,12- 0,7,7,True,0,0.030606529,0,False
+Thurles,29 Jan 2026,2m,Soft,2:25,Beauvallon,-,Danny Mullins,W P Mullins,10 -13,4,0,True,0,0.030063044,0,False
+Thurles,29 Jan 2026,2m,Soft,2:55,Ode To Joy,56,Gavin Brouder,William J McLernon,10 -11,6,0,True,0,0.029677548,0,False
+Thurles,29 Jan 2026,2m6½f,Soft,3:55,Private Policy,-,Paddy Cleary,Nigel Thomas Slevin,11 -12,8,7,True,0,0.02966041,0,False
+Thurles,29 Jan 2026,2m6½f,Soft,3:55,Sacramental,71,Thomas O'Connor,J R Finn,11 -12,8,7,True,0,0.028145865,0,False
+Thurles,29 Jan 2026,2m6½f,Soft,3:55,Shuil Swift,82,Mr A D Bustin,C Byrnes,11- 5,6,7,True,0,0.027789444,0,False
+Thurles,29 Jan 2026,2m4f,Soft,3:25,Teagarden Jazz,102,Philip Donovan,Charlie Keegan,11 -10,7,3,True,0,0.027200114,14,True
+Thurles,29 Jan 2026,2m6½f,Soft,4:25,Ferdia,-,Brian Barry,John Patrick Ryan,11- 2,10,7,True,0,0.026330838,0,False
+Thurles,29 Jan 2026,2m6½f,Soft,3:55,Not Leaving Yet,76,Dylan Whelan,Robert Murphy,11- 5,6,7,True,0,0.025144145,0,False
+Thurles,29 Jan 2026,2m6½f,Soft,3:55,Matilauna,89,Phillip Enright,Gillian Scott,11- 5,6,0,True,0,0.023400627,0,False
+Thurles,29 Jan 2026,2m,Soft,2:55,Tangara Bay,113,Darragh O'Keeffe,Henry De Bromhead,10 -11,6,0,True,0,0.023355702,0,False
+Thurles,29 Jan 2026,2m,Soft,2:25,Mode Avion,114,Jack Kennedy,Gordon Elliott,11- 7,4,0,True,0,0.023150468,0,False
+Thurles,29 Jan 2026,2m5f,Soft To Heavy,1:25,Hello Jack,106,Jack Kennedy,Gordon Elliott,11 -12,6,0,True,0,0.023120692,0,False
+Thurles,29 Jan 2026,2m4f,Soft,3:25,Bee Bright,-,Ryan Treacy,Timothy Doyle,10- 7,9,0,True,0,0.022245856,0,False
+Thurles,29 Jan 2026,2m4f,Soft,3:25,Venturi Effect,-,Cian Quirke,Timothy Doyle,10- 7,8,0,True,0,0.022165943,0,False
+Thurles,29 Jan 2026,2m,Soft,2:55,Masons Apron,71,Brian Hayes,Liam P Cusack,11- 4,6,0,True,0,0.021919228,0,False
+Thurles,29 Jan 2026,2m,Soft,2:55,Two Can Plan,-,Cian Quirke,Andrew Slattery,11- 4,6,0,True,0,0.021504734,0,False
+Thurles,29 Jan 2026,2m,Soft,2:25,O'Grady Cracker,97,Cian Quirke,Andrew Slattery,10 -13,4,0,True,0,0.019418662,0,False
+Thurles,29 Jan 2026,2m6½f,Soft,3:55,Blow Wind Blow,100,Mark Walsh,E Bolger,11 -12,5,0,True,0,0.01909325,0,False
+Thurles,29 Jan 2026,2m5f,Soft To Heavy,1:25,Insouciant Dallier,-,Kevin Sexton,James Andrew Fahey,11 -12,8,0,True,0,0.018708877,0,False
+Thurles,29 Jan 2026,2m4f,Soft,3:25,Little Boy Sivola,98,Tiernan Power Roche,P J Rothwell,11- 1,5,3,True,0,0.018534504,0,False
+Thurles,29 Jan 2026,2m,Soft,2:55,El Cairos,133,Jack Kennedy,Gordon Elliott,11 -12,6,0,True,0,0.018501047,0,False
+Thurles,29 Jan 2026,2m4f,Soft,3:25,Gaelic Des Chastys,100,Patrick M O'Brien,E McNamara,11- 7,10,5,True,0,0.018229077,0,False
+Thurles,29 Jan 2026,2m,Soft,2:55,Ehteyat,-,Danny Mullins,M K Flannery,11 -12,7,0,True,0,0.018196676,0,False
+Thurles,29 Jan 2026,2m5f,Soft To Heavy,1:25,Toor Khov,-,Liam Quinlan,Ms M Flynn,11 -12,8,0,True,0,0.018174106,0,False
+Thurles,29 Jan 2026,2m6½f,Soft,3:55,Albus,94,Jordan Gainford,Gordon Elliott,11 -12,6,0,True,0,0.018152576,0,False
+Thurles,29 Jan 2026,2m,Soft,2:55,Thisain'tthat,-,,M A Molloy,11- 4,6,0,True,0,0.017733864,0,False
+Thurles,29 Jan 2026,2m4f,Soft,3:25,Love Like This,98,Michael Kenneally,John Patrick Ryan,11- 2,8,7,True,0,0.017663632,0,False
+Thurles,29 Jan 2026,3m1f,Soft To Heavy,1:55,Benwisken,-,Mr A T Feeney,M O Quigley,12- 0,7,7,True,0,0.017636573,0,False
+Thurles,29 Jan 2026,2m5f,Soft To Heavy,1:25,Cowper Hall,-,Keith Donoghue,Gavin Cromwell,11 -12,6,0,True,0,0.017589213,0,False
+Thurles,29 Jan 2026,2m,Soft,2:25,Thelittlevillager,-,Dylan Robinson,P J Rothwell,10- 6,4,0,True,0,0.017484056,0,False
+Thurles,29 Jan 2026,3m1f,Soft To Heavy,1:55,Keep On Dreaming,102,Mr Derek O'Connor,E Bolger,12- 0,6,0,True,0,0.017121486,0,False
+Thurles,29 Jan 2026,2m,Soft,2:25,Padre Bay,68,Ricky Doyle,Thomas Cleary,10 -13,4,0,True,0,0.017087664,0,False
+Thurles,29 Jan 2026,2m4f,Soft,3:25,Zolpharine,107,Daniel King,John Patrick Ryan,10- 6,8,0,True,0,0.016600719,0,False
+Thurles,29 Jan 2026,2m,Soft,2:55,Thetwocharlies,-,Josh Younge,James Andrew Fahey,11- 4,7,7,True,0,0.016543197,0,False
+Thurles,29 Jan 2026,2m5f,Soft To Heavy,1:25,Goody Four Shoes,-,Harry Sexton,Thomas Gibney,11 -12,8,7,True,0,0.01631641,0,False
+Thurles,29 Jan 2026,3m1f,Soft To Heavy,1:55,Our Story,-,Mr B Aherne,Garry Aherne,12- 0,8,7,True,0,0.016169075,0,False
+Thurles,29 Jan 2026,2m6½f,Soft,4:25,King In Love,115,Sean O'Keeffe,Sean Aherne,11 -12,6,0,True,0,0.015764823,0,False
+Thurles,29 Jan 2026,2m,Soft,2:55,Ballindenisk,74,E Walsh,John Joseph Murphy,11- 4,6,0,True,0,0.015649797,0,False
+Thurles,29 Jan 2026,3m1f,Soft To Heavy,1:55,Bloomhill,-,Mr D Doyle,Thomas Cleary,12- 0,9,7,True,0,0.01538947,0,False
+Thurles,29 Jan 2026,2m4f,Soft,3:25,Glory Sky,100,Liam Quinlan,Ray Hackett,10- 6,6,0,True,0,0.014955639,0,False
+Thurles,29 Jan 2026,2m6½f,Soft,4:25,Pebble Bleu,117,Michael Kenneally,Colin Motherway,10- 6,7,7,True,0,0.014110841,0,False
+Thurles,29 Jan 2026,2m,Soft,2:25,Ismahane,-,Daniel King,P Twomey,11- 0,4,0,True,0,0.013893308,0,False
+Thurles,29 Jan 2026,2m,Soft,2:55,Smooth Talker,-,,Patrick Griffin,11- 4,5,0,True,0,0.013409254,0,False
+Thurles,29 Jan 2026,2m6½f,Soft,4:25,A Nod To Getaway,120,Eoin Staples,Paul O'Flynn,11- 3,9,5,True,0,0.013293833,0,False
+Thurles,29 Jan 2026,2m,Soft,2:55,Max Meridius,72,Simon Torrens,Thomas Mullins,11- 4,5,0,True,0,0.012718708,0,False
+Thurles,29 Jan 2026,2m5f,Soft To Heavy,1:25,Bajan Excell,88,Patrick M O'Brien,Ms Claire O'Connell,11 -12,10,5,True,0,0.012472491,0,False
+Thurles,29 Jan 2026,2m4f,Soft,3:25,Added Bonus,101,Sean O'Keeffe,Brendan Maurice Walsh,10- 0,12,0,True,0,0.012466661,0,False
+Thurles,29 Jan 2026,2m,Soft,2:55,How's The Head,108,Miss J Townend,Timothy Townend,11- 4,7,0,True,0,0.012309312,0,False
+Thurles,29 Jan 2026,2m,Soft,2:25,Annie's Angel,-,Patrick M O'Brien,Adrian McGuinness,11- 0,4,5,True,0,0.012057414,0,False
+Thurles,29 Jan 2026,2m,Soft,2:55,Ballyhasty,-,Eoin Staples,W J Austin,11- 4,5,5,True,0,0.011655921,0,False
+Thurles,29 Jan 2026,2m4f,Soft,3:25,Max Time,98,Paddy Cleary,I Madden,10- 0,9,7,True,0,0.010552893,0,False
+Thurles,29 Jan 2026,3m1f,Soft To Heavy,1:55,Made U Look,90,Mr Finian Maguire,Eugene M O'Sullivan,12- 0,7,0,True,0,0.010490577,0,False
+Thurles,29 Jan 2026,2m4f,Soft,3:25,Toor Moon,100,Danny Mullins,Ms M Flynn,10- 8,9,0,True,0,0.009815206,0,False
+Thurles,29 Jan 2026,2m,Soft,2:55,Poppycon,101,Phillip Enright,Eoin Doyle,11- 4,6,0,True,0,0.009174359,0,False
+Thurles,29 Jan 2026,2m5f,Soft To Heavy,1:25,Live To Laugh,105,Darragh O'Keeffe,Peter Fahey,11 -12,7,0,True,0,0.009155497,0,False
+Thurles,29 Jan 2026,2m4f,Soft,3:25,Hakensack,104,Darragh O'Keeffe,James William Hannon,10- 8,7,0,True,0,0.009105468,0,False
+Thurles,29 Jan 2026,2m,Soft,2:55,Quietrunsthedon,82,John Shinnick,Liam P Cusack,11- 4,8,3,True,0,0.008930549,0,False
+Thurles,29 Jan 2026,2m5f,Soft To Heavy,1:25,Roxhill Roise,107,Danny Gilligan,David M O'Brien,11- 5,8,0,True,0,0.0087146545,0,False
+Thurles,29 Jan 2026,2m4f,Soft,3:25,Marlpark,100,,John Patrick Ryan,11 -10,7,0,True,0,0.008641019,0,False
+Thurles,29 Jan 2026,3m1f,Soft To Heavy,1:55,Mister Loolah,90,Mr Andrew Burke-Ott,Alexander Ott,12- 0,6,7,True,0,0.008607748,0,False
+Thurles,29 Jan 2026,2m4f,Soft,3:25,Mi Lucky Cailin,102,Jack Kennedy,William J McLernon,12- 0,8,0,True,0,0.008343433,0,False
+Thurles,29 Jan 2026,2m5f,Soft To Heavy,1:25,Figurehead,113,Simon Torrens,Michael G Cleary,11 -12,9,0,True,0,0.007969283,0,False
+Thurles,29 Jan 2026,2m4f,Soft,3:25,Mister Rockefeller,98,Josh Williamson,F Costello,10- 6,7,5,True,0,0.007902965,0,False
+Thurles,29 Jan 2026,2m4f,Soft,3:25,Siul Molly Siul,103,Eoin Staples,Sean Joseph Allen,10- 8,7,5,True,0,0.007825512,0,False
+Thurles,29 Jan 2026,3m1f,Soft To Heavy,1:55,Cold Old Fire,95,Mr D Allen,Raymond Hurley,12- 0,8,7,True,0,0.007824884,0,False
+Thurles,29 Jan 2026,2m,Soft,2:25,Blue Train,104,Phillip Enright,C Byrnes,11- 7,4,0,True,0,0.007809856,0,False
+Thurles,29 Jan 2026,3m1f,Soft To Heavy,1:55,Nibbles,97,Mr T O'Connor,Turlough O'Connor,12- 0,9,7,True,0,0.007715335,0,False
+Thurles,29 Jan 2026,2m5f,Soft To Heavy,1:25,John The Diva,122,Phillip Enright,M A Cahill,11 -12,9,0,True,0,0.007641114,0,False
+Thurles,29 Jan 2026,2m,Soft,2:55,Deise Crystal,101,Sean O'Keeffe,Sean Aherne,11- 4,5,0,True,0,0.0075289975,0,False
+Thurles,29 Jan 2026,2m,Soft,2:55,One Of Mine,112,Ricky Doyle,Eamon Courtney,11- 4,5,0,True,0,0.0074741193,0,False
+Thurles,29 Jan 2026,2m,Soft,2:25,Concert Party,100,Philip Donovan,Denis Gerard Hogan,11- 0,4,3,True,0,0.0074733053,0,False
+Thurles,29 Jan 2026,2m,Soft,2:25,Dream Angel,82,Jordan Gainford,Cian Collins,11- 0,4,0,True,0,0.007445007,0,False
+Thurles,29 Jan 2026,2m4f,Soft,3:25,Jay Pee M,108,John Shinnick,Terence O'Brien,11 -11,7,3,True,0,0.0074217874,0,False
+Thurles,29 Jan 2026,2m4f,Soft,3:25,Loughrask Jet,98,Phillip Enright,Brian M McMahon,11- 7,5,0,True,0,0.0072523197,0,False
+Thurles,29 Jan 2026,2m4f,Soft,3:25,Jaynemax,101,Jordan Gainford,Thomas Dowling,11- 8,5,0,True,0,0.007178557,0,False
+Thurles,29 Jan 2026,2m,Soft,2:55,Shallow Bowles,111,Niall Moore,Denis Leahy,10 -11,6,5,True,0,0.0070925085,0,False
+Thurles,29 Jan 2026,2m,Soft,2:25,Dawn Coming,116,Eoin Staples,C Byrnes,10 -13,4,5,True,0,0.0067970036,0,False
+Thurles,29 Jan 2026,2m4f,Soft,3:25,Where Are You Now,105,Mark Walsh,E Bolger,11 -12,5,0,True,0,0.0067732916,0,False
+Thurles,29 Jan 2026,2m,Soft,2:55,Ballinaboola Gold,85,,R Donohoe,10 -11,5,0,True,0,0.006620568,0,False
+Thurles,29 Jan 2026,2m,Soft,2:55,Lord Of The Locke,98,Michael Kenneally,C Byrnes,11- 4,5,7,True,0,0.0064218687,0,False
+Wincanton,29 Jan 2026,2m5½f,Heavy,1:33,Dalcassian Girl,-,Bryan Carver,Chris Honour,11- 3,6,0,True,0,0.045756884,0,False
+Wincanton,29 Jan 2026,2m5½f,Heavy,1:33,Miss Jaffa Cake,-,Ben Poste,Polly Gundry,11- 3,6,0,True,0,0.045756884,0,False
+Wincanton,29 Jan 2026,2m5½f,Heavy,1:33,Moonlight Stride,-,Sean Houlihan,Philip Hobbs & Johnson White,11- 3,6,0,True,0,0.045756884,0,False
+Wincanton,29 Jan 2026,2m5½f,Heavy,1:33,Ballynorth,92,Ben Jones,Ben Pauling,11- 3,6,0,True,0,0.04543218,0,False
+Wincanton,29 Jan 2026,2m4f,Heavy,2:03,The Blueberry One,-,Paul O'Brien,Harry Derham,11 -12,7,0,True,0,0.039713494,0,False
+Wincanton,29 Jan 2026,2m5½f,Heavy,1:33,Poet's Muse,-,Lorcan Williams,I Chanin,11- 3,5,0,True,0,0.038033973,0,False
+Wincanton,29 Jan 2026,2m5½f,Heavy,1:33,Svelte Silhouette,-,Daniel Sansom,Seamus Mullins,11- 3,5,3,True,0,0.036760937,0,False
+Wincanton,29 Jan 2026,1m7f,Heavy,2:33,Forest Hills,48,James Davies,Carroll Gray,11- 6,5,0,True,0,0.036127314,0,False
+Wincanton,29 Jan 2026,2m4f,Heavy,2:03,Italian Spirit,-,James Best,Harriet Dickin,11- 8,10,0,True,0,0.034759182,0,False
+Wincanton,29 Jan 2026,2m4f,Heavy,2:03,Thankyouandplease,-,Rex Dingle,Syd Hosie,11- 9,6,0,True,0,0.031816732,0,False
+Wincanton,29 Jan 2026,2m5½f,Heavy,1:33,Wassailing Along,95,Brendan Powell,Joe Tizzard,11- 3,6,0,True,0,0.027236236,0,False
+Wincanton,29 Jan 2026,1m7f,Heavy,2:33,Anthracite,62,James Best,Neil Mulholland,11- 6,5,0,True,0,0.026957469,0,False
+Wincanton,29 Jan 2026,2m5½f,Heavy,1:33,Katie's Melody,105,Paul O'Brien,Harry Derham,11- 3,6,0,True,0,0.026401248,0,False
+Wincanton,29 Jan 2026,2m5½f,Heavy,1:33,Bunny Bee,102,Alice Stevens,Henrietta C Knight,11- 3,5,3,True,0,0.024350222,0,False
+Wincanton,29 Jan 2026,2m5½f,Heavy,1:33,Strong Run,117,Jonathan Burke,Fergal O'Brien,11- 9,7,0,True,0,0.024328187,0,False
+Wincanton,29 Jan 2026,1m7f,Heavy,2:33,Mistress Fox,-,Bradley Harris,Neil Mulholland,10 -13,6,3,True,0,0.02318792,0,False
+Wincanton,29 Jan 2026,1m7f,Heavy,2:33,Mossy Fen Coolio,-,Jonjo O'Neill Jr,Jonjo & A J O'Neill,11- 6,6,0,True,0,0.023096874,0,False
+Wincanton,29 Jan 2026,1m7f,Heavy,2:33,Aguellid,117,Sean Houlihan,Philip Hobbs & Johnson White,11- 6,5,0,True,0,0.019824801,0,False
+Wincanton,29 Jan 2026,1m7f,Heavy,2:33,Lord Chamberlain,-,Robert Dunne,Dominic Elsworth,11- 6,5,0,True,0,0.019055057,0,False
+Wincanton,29 Jan 2026,1m7f,Heavy,2:33,Viva Vincente,-,Conor Ring,Evan Williams,11- 6,5,0,True,0,0.018628195,0,False
+Wincanton,29 Jan 2026,1m7f,Heavy,2:33,Galactic Princess,70,Robbie David,Daisy Hitchins,10 -13,5,7,True,0,0.01740057,0,False
+Wincanton,29 Jan 2026,2m4f,Heavy,2:03,Windsurfer,108,Jack Quinlan,Ben Case,12- 0,7,0,True,0,0.017376894,0,False
+Wincanton,29 Jan 2026,2m4f,Heavy,2:03,Mutley Crew,113,Harry Kimber,Robert Walford,10 -11,10,0,True,0,0.01700717,0,False
+Wincanton,29 Jan 2026,2m4f,Heavy,2:03,Carrigmoorna Rowan,110,James Davies,Ryan Potter,11 -10,9,0,True,0,0.01575739,0,False
+Wincanton,29 Jan 2026,2m4f,Heavy,2:03,Atreides,110,Bradley Harris,Neil Mulholland,11 -10,8,3,True,0,0.015750345,0,False
+Wincanton,29 Jan 2026,1m7f,Heavy,4:33,Rob's Spirit,65,Mr Eddie Edge,Nick Scholfield,11- 2,5,7,True,0,0.014876396,0,False
+Wincanton,29 Jan 2026,1m7f,Heavy,2:33,Marhaba Million,78,Rex Dingle,Syd Hosie,11- 6,5,0,True,0,0.014443467,0,False
+Wincanton,29 Jan 2026,2m5½f,Heavy,1:33,Coolanna,124,Ciaran Gethings,Kim Bailey & Mat Nicholls,11- 9,6,0,True,0,0.014191433,0,False
+Wincanton,29 Jan 2026,1m7f,Heavy,4:33,Sparkling Water,-,Stan Sheppard,Ralph Beckett,11- 2,5,0,True,0,0.013819316,0,False
+Wincanton,29 Jan 2026,1m7f,Heavy,4:33,That Is Blue,-,Brendan Powell,Henrietta C Knight,11- 2,5,0,True,0,0.013819316,0,False
+Wincanton,29 Jan 2026,1m7f,Heavy,4:33,Hotter Than Dubai,-,Bryan Carver,Chris Honour,11- 2,5,0,True,0,0.013732829,0,False
+Wincanton,29 Jan 2026,1m7f,Heavy,4:33,Pink Perjury,-,Ben Poste,Polly Gundry,11- 2,5,0,True,0,0.013732829,0,False
+Wincanton,29 Jan 2026,1m7f,Heavy,4:33,Saffron Belle,-,Lucy Gardner,Sue Gardner,11- 2,5,0,True,0,0.013732829,0,False
+Wincanton,29 Jan 2026,1m7f,Heavy,2:33,Galashiels,97,Nico de Boinville,Nicky Henderson,11- 6,7,0,True,0,0.01275723,0,False
+Wincanton,29 Jan 2026,1m7f,Heavy,2:33,Richforadaay,83,Ciaran Gethings,I Chanin,11- 6,6,0,True,0,0.012365492,0,False
+Wincanton,29 Jan 2026,1m7f,Heavy,2:33,Bright Legend,125,Isabelle Ryder,Faye Bramley,11- 6,6,5,True,0,0.012315232,0,False
+Wincanton,29 Jan 2026,1m7f,Heavy,2:33,Pourquoi Pas Papa,127,Harry Cobden,Paul Nicholls,10- 7,4,0,True,0,0.012123899,0,False
+Wincanton,29 Jan 2026,2m4f,Heavy,3:03,Stopherandgo,87,Ben Poste,Kevin Pickard,10- 2,9,0,True,0,0.012043868,0,False
+Wincanton,29 Jan 2026,2m4f,Heavy,3:03,Gorcombe And Wise,92,Harry Kimber,Robert Walford,10- 4,6,0,True,0,0.011764359,0,False
+Wincanton,29 Jan 2026,1m7f,Heavy,2:33,Spring Serenade,84,Luke Scott,Kevin Bishop,10 -13,7,3,True,0,0.011462668,0,False
+Wincanton,29 Jan 2026,1m7f,Heavy,2:33,For Old Times Sake,96,Conor O'Farrell,Neil Mulholland,11- 6,5,0,True,0,0.011257392,0,False
+Wincanton,29 Jan 2026,1m7f,Heavy,2:33,Tobi Kanobee,96,Ben Godfrey,Claire Hitch,11- 6,7,0,True,0,0.010946864,0,False
+Wincanton,29 Jan 2026,2m4f,Heavy,3:03,Badentaggart,97,Lorcan Williams,Jeremy Scott,11- 4,7,0,True,0,0.010918233,0,False
+Wincanton,29 Jan 2026,1m7f,Heavy,4:33,Dreamfyre Dancer,76,Ciaran Gethings,Alastair Ralph,11- 2,5,0,True,0,0.010883534,0,False
+Wincanton,29 Jan 2026,2m4f,Heavy,3:03,Tractor Jack,91,Brendan Powell,Joe Tizzard,11- 7,6,0,True,0,0.010639427,0,False
+Wincanton,29 Jan 2026,1m7f,Heavy,2:33,Stone Cold,97,Stan Sheppard,Matt Sheppard,11- 6,5,0,True,0,0.010126262,0,False
+Wincanton,29 Jan 2026,2m4f,Heavy,3:03,Jour d'Orage,99,Conor O'Farrell,Neil Mulholland,10 -10,7,0,True,0,0.009890576,0,False
+Wincanton,29 Jan 2026,2m4f,Heavy,3:03,Ourbrowneyedgirl,91,Lucy Gardner,Sue Gardner,11- 7,7,0,True,0,0.009793906,0,False
+Wincanton,29 Jan 2026,1m7f,Heavy,2:33,Harbour Light,99,Toby McCain-Mitchell,Nigel & Willy Twiston-Davies,11- 6,5,5,True,0,0.009580284,0,False
+Wincanton,29 Jan 2026,2m4f,Heavy,3:03,Watchoutitscookie,99,James Davies,Nigel Hawke,10- 6,8,0,True,0,0.009366114,0,False
+Wincanton,29 Jan 2026,2m4f,Heavy,3:03,Local Derby,99,Freddie Gordon,Chris Gordon,11- 3,6,0,True,0,0.009298414,0,False
+Wincanton,29 Jan 2026,1m7f,Heavy,4:33,Midnight Doyen,107,Lorcan Williams,Jeremy Scott,11- 2,6,0,True,0,0.008460599,0,False
+Wincanton,29 Jan 2026,2m4f,Heavy,3:03,Bradman,103,James Best,Kevin Bishop,11- 4,5,0,True,0,0.008202924,0,False
+Wincanton,29 Jan 2026,2m4f,Heavy,3:03,Whatmakes Honey B,101,Chad Bament,Harriet Brown,11- 2,7,7,True,0,0.008150429,0,False
+Wincanton,29 Jan 2026,2m4f,Heavy,3:03,Devilsrollthedice,100,Rian Corcoran,Gordon Treacy,11- 1,6,7,True,0,0.008081864,0,False
+Wincanton,29 Jan 2026,3m1f,Heavy,3:33,Collectors Item,139,Jonjo O'Neill Jr,Jonjo & A J O'Neill,12- 1,9,0,True,0,0.007962191,0,False
+Wincanton,29 Jan 2026,2m4f,Heavy,3:03,Broomfield Gale,103,Robbie David,Daisy Hitchins,11 -12,8,7,True,0,0.007866444,0,False
+Wincanton,29 Jan 2026,3m1f,Heavy,3:33,Largy Poet,142,Freddie Keighley,Paul Nicholls,12- 1,7,7,True,0,0.007862414,0,False
+Wincanton,29 Jan 2026,1m7f,Heavy,4:33,Western Charm,98,Ben Godfrey,Anthony Honeyball,11- 2,5,0,True,0,0.007558686,0,False
+Wincanton,29 Jan 2026,3m1f,Heavy,4:03,Thunder Rock,135,Mr James King,Olly Murphy,12- 6,10,0,True,0,0.0074709044,0,False
+Wincanton,29 Jan 2026,2m4f,Heavy,3:03,Ribba Hill,99,Paddy Hanlon,Syd Hosie,12- 0,5,5,True,0,0.0074295187,0,False
+Wincanton,29 Jan 2026,3m1f,Heavy,3:33,Jupiter Allen,142,Lorcan Williams,Chester Williams,11- 0,7,0,True,0,0.007339366,0,False
+Wincanton,29 Jan 2026,1m7f,Heavy,4:33,Secret Des Lune,111,Rex Dingle,Ben Clarke,11- 2,5,0,True,0,0.007299222,0,False
+Wincanton,29 Jan 2026,3m1f,Heavy,3:33,Take Your Time,140,Harry Cobden,Paul Nicholls,11- 0,11,0,True,0,0.0070733605,0,False
+Wincanton,29 Jan 2026,2m4f,Heavy,3:03,Inchagoill Lady,103,Lewis Saunders,Kevin Pickard,10 -11,10,5,True,0,0.007063143,0,False
+Wincanton,29 Jan 2026,3m1f,Heavy,3:33,My Silver Lining,144,James Best,Emma Lavelle,10 -13,10,0,True,0,0.0069775227,0,False
+Wincanton,29 Jan 2026,3m1f,Heavy,4:03,Illico De Cotte,129,Mr Frederick Philipson-Stow,Will Biddick,12- 2,8,7,True,0,0.006873751,0,False
+Wincanton,29 Jan 2026,3m1f,Heavy,3:33,Pimlico Point,141,Conor O'Farrell,Kerry Lee,10 -13,9,0,True,0,0.006868053,0,False
+Wincanton,29 Jan 2026,3m1f,Heavy,4:03,Go Sacre Go,115,Mr Paddy Barlow,Robert Walford,11 -12,10,3,True,0,0.0068032993,0,False
+Wincanton,29 Jan 2026,3m1f,Heavy,4:03,Pyleigh Court,112,Miss Ella Herbison,R C Pudd,12- 0,11,7,True,0,0.0064771706,0,False
+Wincanton,29 Jan 2026,3m1f,Heavy,4:03,Mr Glass,127,Mr Lucas Murphy,Paul Nicholls,12- 2,10,7,True,0,0.0064404914,0,False
+Wincanton,29 Jan 2026,3m1f,Heavy,4:03,Minella Jab,108,Mr Jake Bament,Miss M Lawrence,11 -12,9,7,True,0,0.0063039614,0,False

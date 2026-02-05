@@ -111,7 +111,7 @@ def scrape_race_data(url):
 
 # --- MAIN EXECUTION PIPELINE ---
 if __name__ == "__main__":
-    tomorrow_url = "https://www.racingpost.com/racecards/tomorrow/"
+    tomorrow_url = "https://www.racingpost.com/racecards/"
     
     # 1. Get the list of URLs
     all_race_urls = get_links_directly_from_tag(tomorrow_url)

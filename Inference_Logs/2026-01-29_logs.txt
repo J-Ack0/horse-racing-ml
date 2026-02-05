@@ -1,0 +1,415 @@
+============================================================
+INFERENCE LOG FOR EVENT DATE: 2026-01-29
+Execution Time: 2026-01-28 22:48:32
+Input File: Inference_Inputs\Input_2026-01-29.csv
+============================================================
+
+### DATA QUALITY SUMMARY
+Total Entries Processed: 401
+Missing Values (NaNs) found in key features (before zero-fill):
+ - No missing values found. Data is clean.
+
+### HORSE PREDICTION SUMMARY
+Horse Name                | Runs Found | Win Prob   | Source    
+-----------------------------------------------------------------
+Bajan Excell              | 0          | 0.0125     | Fallback  
+Cowper Hall               | 0          | 0.0176     | Fallback  
+Figurehead                | 0          | 0.0080     | Fallback  
+Goody Four Shoes          | 0          | 0.0163     | Fallback  
+Hello Jack                | 0          | 0.0231     | Fallback  
+Insouciant Dallier        | 0          | 0.0187     | Fallback  
+John The Diva             | 0          | 0.0076     | Fallback  
+Live To Laugh             | 0          | 0.0092     | Fallback  
+Toor Khov                 | 0          | 0.0182     | Fallback  
+Roxhill Roise             | 0          | 0.0087     | Fallback  
+Benwisken                 | 0          | 0.0176     | Fallback  
+Bloomhill                 | 0          | 0.0154     | Fallback  
+Cold Old Fire             | 0          | 0.0078     | Fallback  
+Gale Force Jet            | 0          | 0.0306     | Lookup    
+Keep On Dreaming          | 0          | 0.0171     | Fallback  
+Made U Look               | 0          | 0.0105     | Fallback  
+Magic Sadler              | 2          | 0.0974     | Lookup    
+Mister Loolah             | 0          | 0.0086     | Fallback  
+Nibbles                   | 0          | 0.0077     | Fallback  
+Our Story                 | 0          | 0.0162     | Fallback  
+Blue Train                | 0          | 0.0078     | Fallback  
+Crest Of Light            | 0          | 0.0403     | Fallback  
+Mode Avion                | 0          | 0.0232     | Fallback  
+Annie's Angel             | 0          | 0.0121     | Fallback  
+Concert Party             | 0          | 0.0075     | Fallback  
+Dream Angel               | 0          | 0.0074     | Fallback  
+Ismahane                  | 0          | 0.0139     | Fallback  
+Michonne                  | 1          | 0.1282     | Lookup    
+Beauvallon                | 0          | 0.0301     | Fallback  
+Dawn Coming               | 0          | 0.0068     | Fallback  
+John Dixen                | 0          | 0.0773     | Fallback  
+O'Grady Cracker           | 0          | 0.0194     | Fallback  
+Padre Bay                 | 0          | 0.0171     | Fallback  
+Charme De Faust           | 0          | 0.0914     | Fallback  
+Thelittlevillager         | 0          | 0.0175     | Fallback  
+Ehteyat                   | 0          | 0.0182     | Fallback  
+El Cairos                 | 0          | 0.0185     | Fallback  
+Ballindenisk              | 0          | 0.0156     | Fallback  
+Ballyhasty                | 0          | 0.0117     | Fallback  
+Deise Crystal             | 0          | 0.0075     | Fallback  
+How's The Head            | 0          | 0.0123     | Fallback  
+Lord Of The Locke         | 0          | 0.0064     | Fallback  
+Masons Apron              | 0          | 0.0219     | Fallback  
+Max Meridius              | 0          | 0.0127     | Fallback  
+One Of Mine               | 0          | 0.0075     | Fallback  
+Poppycon                  | 0          | 0.0092     | Fallback  
+Quietrunsthedon           | 0          | 0.0089     | Fallback  
+Roc Dino                  | 0          | 0.0711     | Fallback  
+Thetwocharlies            | 0          | 0.0165     | Fallback  
+Two Can Plan              | 0          | 0.0215     | Fallback  
+Ode To Joy                | 0          | 0.0297     | Fallback  
+Shallow Bowles            | 0          | 0.0071     | Fallback  
+Tangara Bay               | 0          | 0.0234     | Fallback  
+Ballinaboola Gold         | 0          | 0.0066     | Fallback  
+Thisain'tthat             | 0          | 0.0177     | Fallback  
+Smooth Talker             | 0          | 0.0134     | Fallback  
+Mi Lucky Cailin           | 0          | 0.0083     | Fallback  
+Where Are You Now         | 0          | 0.0068     | Fallback  
+Jay Pee M                 | 0          | 0.0074     | Fallback  
+Teagarden Jazz            | 14         | 0.0272     | Lookup    
+Gaelic Des Chastys        | 0          | 0.0182     | Fallback  
+Loughrask Jet             | 0          | 0.0073     | Fallback  
+Real Empire               | 8          | 0.0490     | Lookup    
+Love Like This            | 0          | 0.0177     | Fallback  
+Little Boy Sivola         | 0          | 0.0185     | Fallback  
+Hakensack                 | 0          | 0.0091     | Fallback  
+Siul Molly Siul           | 0          | 0.0078     | Fallback  
+Toor Moon                 | 0          | 0.0098     | Fallback  
+Bee Bright                | 0          | 0.0222     | Fallback  
+Venturi Effect            | 0          | 0.0222     | Fallback  
+Glory Sky                 | 0          | 0.0150     | Fallback  
+Zolpharine                | 0          | 0.0166     | Fallback  
+Added Bonus               | 0          | 0.0125     | Fallback  
+Max Time                  | 0          | 0.0106     | Fallback  
+Jaynemax                  | 0          | 0.0072     | Fallback  
+Marlpark                  | 0          | 0.0086     | Fallback  
+Mister Rockefeller        | 0          | 0.0079     | Fallback  
+Albus                     | 0          | 0.0182     | Fallback  
+Blow Wind Blow            | 0          | 0.0191     | Fallback  
+Danalii                   | 0          | 0.0341     | Fallback  
+Eliodam                   | 0          | 0.1009     | Fallback  
+Private Policy            | 0          | 0.0297     | Fallback  
+Sacramental               | 0          | 0.0281     | Fallback  
+Ballingurteen             | 0          | 0.0383     | Fallback  
+Matilauna                 | 0          | 0.0234     | Fallback  
+Not Leaving Yet           | 0          | 0.0251     | Fallback  
+Shuil Swift               | 0          | 0.0278     | Fallback  
+Supreme Axel              | 0          | 0.0335     | Fallback  
+King In Love              | 0          | 0.0158     | Fallback  
+Sarah Beara               | 0          | 0.0424     | Fallback  
+Fighting Fit              | 6          | 0.1258     | Lookup    
+Ira Hayes                 | 0          | 0.0409     | Fallback  
+Pookie Holler             | 0          | 0.2201     | Lookup    
+A Nod To Getaway          | 0          | 0.0133     | Fallback  
+Ferdia                    | 0          | 0.0263     | Fallback  
+Juke Hill                 | 0          | 0.0382     | Fallback  
+Union Park                | 0          | 0.0354     | Fallback  
+Pebble Bleu               | 0          | 0.0141     | Fallback  
+Coolanna                  | 0          | 0.0142     | Fallback  
+Strong Run                | 0          | 0.0243     | Fallback  
+Ballynorth                | 0          | 0.0454     | Fallback  
+Bunny Bee                 | 0          | 0.0244     | Fallback  
+Dalcassian Girl           | 0          | 0.0458     | Fallback  
+Katie's Melody            | 0          | 0.0264     | Fallback  
+Miss Jaffa Cake           | 0          | 0.0458     | Fallback  
+Moonlight Stride          | 0          | 0.0458     | Fallback  
+Poet's Muse               | 0          | 0.0380     | Fallback  
+Svelte Silhouette         | 0          | 0.0368     | Fallback  
+Wassailing Along          | 0          | 0.0272     | Fallback  
+Windsurfer                | 0          | 0.0174     | Fallback  
+The Blueberry One         | 0          | 0.0397     | Fallback  
+Carrigmoorna Rowan        | 0          | 0.0158     | Fallback  
+Atreides                  | 0          | 0.0158     | Fallback  
+Thankyouandplease         | 0          | 0.0318     | Fallback  
+Italian Spirit            | 0          | 0.0348     | Fallback  
+Mutley Crew               | 0          | 0.0170     | Fallback  
+Aguellid                  | 0          | 0.0198     | Fallback  
+Anthracite                | 0          | 0.0270     | Fallback  
+Bright Legend             | 0          | 0.0123     | Fallback  
+Forest Hills              | 0          | 0.0361     | Fallback  
+For Old Times Sake        | 0          | 0.0113     | Fallback  
+Galashiels                | 0          | 0.0128     | Fallback  
+Harbour Light             | 0          | 0.0096     | Fallback  
+Lord Chamberlain          | 0          | 0.0191     | Fallback  
+Marhaba Million           | 0          | 0.0144     | Fallback  
+Mossy Fen Coolio          | 0          | 0.0231     | Fallback  
+Richforadaay              | 0          | 0.0124     | Fallback  
+Stone Cold                | 0          | 0.0101     | Fallback  
+Tobi Kanobee              | 0          | 0.0109     | Fallback  
+Viva Vincente             | 0          | 0.0186     | Fallback  
+Galactic Princess         | 0          | 0.0174     | Fallback  
+Mistress Fox              | 0          | 0.0232     | Fallback  
+Spring Serenade           | 0          | 0.0115     | Fallback  
+Pourquoi Pas Papa         | 0          | 0.0121     | Fallback  
+Ribba Hill                | 0          | 0.0074     | Fallback  
+Broomfield Gale           | 0          | 0.0079     | Fallback  
+Tractor Jack              | 0          | 0.0106     | Fallback  
+Ourbrowneyedgirl          | 0          | 0.0098     | Fallback  
+Bradman                   | 0          | 0.0082     | Fallback  
+Badentaggart              | 0          | 0.0109     | Fallback  
+Local Derby               | 0          | 0.0093     | Fallback  
+Whatmakes Honey B         | 0          | 0.0082     | Fallback  
+Devilsrollthedice         | 0          | 0.0081     | Fallback  
+Inchagoill Lady           | 0          | 0.0071     | Fallback  
+Jour d'Orage              | 0          | 0.0099     | Fallback  
+Watchoutitscookie         | 0          | 0.0094     | Fallback  
+Gorcombe And Wise         | 0          | 0.0118     | Fallback  
+Stopherandgo              | 0          | 0.0120     | Fallback  
+Largy Poet                | 0          | 0.0079     | Fallback  
+Collectors Item           | 0          | 0.0080     | Fallback  
+Take Your Time            | 0          | 0.0071     | Fallback  
+Jupiter Allen             | 0          | 0.0073     | Fallback  
+Pimlico Point             | 0          | 0.0069     | Fallback  
+My Silver Lining          | 0          | 0.0070     | Fallback  
+Thunder Rock              | 0          | 0.0075     | Fallback  
+Illico De Cotte           | 0          | 0.0069     | Fallback  
+Mr Glass                  | 0          | 0.0064     | Fallback  
+Pyleigh Court             | 0          | 0.0065     | Fallback  
+Go Sacre Go               | 0          | 0.0068     | Fallback  
+Minella Jab               | 0          | 0.0063     | Fallback  
+Dreamfyre Dancer          | 0          | 0.0109     | Fallback  
+Hotter Than Dubai         | 0          | 0.0137     | Fallback  
+Midnight Doyen            | 0          | 0.0085     | Fallback  
+Pink Perjury              | 0          | 0.0137     | Fallback  
+Rob's Spirit              | 0          | 0.0149     | Fallback  
+Saffron Belle             | 0          | 0.0137     | Fallback  
+Secret Des Lune           | 0          | 0.0073     | Fallback  
+Sparkling Water           | 0          | 0.0138     | Fallback  
+That Is Blue              | 0          | 0.0138     | Fallback  
+Western Charm             | 0          | 0.0076     | Fallback  
+Am I Bovvered             | 0          | 0.0170     | Fallback  
+Apples Jane               | 0          | 0.0067     | Fallback  
+Berwick Law               | 0          | 0.0070     | Fallback  
+Changemyluck              | 0          | 0.0132     | Fallback  
+Coolkatie                 | 0          | 0.0081     | Fallback  
+Klassy Pearl              | 0          | 0.0077     | Fallback  
+Royal Maggs               | 0          | 0.0170     | Fallback  
+Sagonige                  | 0          | 0.0185     | Fallback  
+Society Soldier           | 0          | 0.0170     | Fallback  
+Saracen Beau              | 0          | 0.0151     | Fallback  
+One Mill Harbour          | 0          | 0.0133     | Fallback  
+Eloi Du Puy               | 0          | 0.0157     | Fallback  
+Follow Charlie            | 0          | 0.0470     | Fallback  
+Kool Raoul                | 0          | 0.0152     | Fallback  
+Wolfspear                 | 0          | 0.0157     | Fallback  
+Diamond Geezer            | 0          | 0.0181     | Fallback  
+Coconut Splash            | 0          | 0.0150     | Fallback  
+Rock Dj                   | 0          | 0.0275     | Fallback  
+Langdale Lane             | 0          | 0.0182     | Fallback  
+El Jefe                   | 0          | 0.0226     | Fallback  
+Fostered Phil             | 0          | 0.0267     | Fallback  
+Jakana                    | 0          | 0.0280     | Fallback  
+Wendigo                   | 0          | 0.0173     | Fallback  
+Donny Boy                 | 0          | 0.0204     | Fallback  
+Maximilian                | 0          | 0.0117     | Fallback  
+Cavalier du Luy           | 0          | 0.0120     | Fallback  
+Irandando Has             | 0          | 0.0106     | Fallback  
+Le Beau Madrik            | 0          | 0.0093     | Fallback  
+Sanilam                   | 0          | 0.0100     | Fallback  
+Stede Bonnet              | 0          | 0.0101     | Fallback  
+Belvedere Bhoy            | 0          | 0.0115     | Fallback  
+Irish Champ               | 0          | 0.0203     | Fallback  
+Run Baby Run              | 0          | 0.0302     | Fallback  
+Valtteri Its James        | 0          | 0.0178     | Fallback  
+Felicie Du Maquis         | 0          | 0.0183     | Fallback  
+Rocheval                  | 0          | 0.0203     | Fallback  
+President Scottie         | 0          | 0.0192     | Fallback  
+Carismatic Soldier        | 0          | 0.0206     | Fallback  
+Buzz Iceclear             | 0          | 0.0245     | Fallback  
+Fox's Fancy               | 0          | 0.0224     | Fallback  
+Gaillimh A Stor           | 0          | 0.0150     | Fallback  
+Theme Tune                | 0          | 0.0251     | Fallback  
+Canunclecani              | 0          | 0.0205     | Fallback  
+Shoeshine Boy             | 0          | 0.0202     | Fallback  
+Adveram                   | 0          | 0.0207     | Fallback  
+Grand Voyage              | 0          | 0.0180     | Fallback  
+Pure Sirloin              | 0          | 0.0254     | Fallback  
+Coup De Coeur             | 0          | 0.0224     | Fallback  
+Netywell                  | 0          | 0.0334     | Fallback  
+Great Pepper              | 0          | 0.0331     | Fallback  
+Kinbara Firstdraft        | 0          | 0.0572     | Fallback  
+Disguisedlimit            | 0          | 0.0269     | Fallback  
+Flash Du Pistolet         | 0          | 0.0257     | Fallback  
+Wotter Trotter            | 0          | 0.0376     | Fallback  
+Ballyfort                 | 0          | 0.0404     | Fallback  
+Carcaci Castle            | 0          | 0.0238     | Fallback  
+Tommy Combats             | 0          | 0.0254     | Fallback  
+Chumlee                   | 0          | 0.0321     | Fallback  
+Allfor                    | 0          | 0.0263     | Fallback  
+Bay Runner                | 0          | 0.0270     | Fallback  
+Blue Du Neuf              | 0          | 0.0324     | Fallback  
+El Gangster               | 0          | 0.0196     | Fallback  
+Finisk Pride              | 0          | 0.0257     | Fallback  
+Katagat                   | 0          | 0.0182     | Fallback  
+L'Appel Du Large          | 0          | 0.0155     | Fallback  
+The Skecher               | 0          | 0.0401     | Fallback  
+Myfriendcooper            | 0          | 0.0389     | Fallback  
+Thecoffeepoddotco         | 0          | 0.0203     | Fallback  
+Bang On The Bell          | 0          | 0.0430     | Fallback  
+Honour Your Dreams        | 0          | 0.0418     | Fallback  
+Hello Luna                | 0          | 0.0312     | Fallback  
+Gustav Graves             | 0          | 0.0392     | Fallback  
+Level Up                  | 0          | 0.0419     | Fallback  
+Coolagh Magic             | 0          | 0.0429     | Fallback  
+Alafdhal                  | 0          | 0.0410     | Fallback  
+Son Of Astar              | 0          | 0.0268     | Fallback  
+Captain Kinsella          | 0          | 0.0286     | Fallback  
+Space Invasion            | 0          | 0.0202     | Fallback  
+Try Storm Cat             | 0          | 0.0199     | Fallback  
+Sovereign Wealth          | 0          | 0.0153     | Fallback  
+Luminare                  | 0          | 0.0204     | Fallback  
+Maskatto                  | 0          | 0.0142     | Fallback  
+Foothold                  | 0          | 0.0145     | Fallback  
+Poke The Bear             | 0          | 0.0368     | Fallback  
+Volendam                  | 0          | 0.0407     | Fallback  
+Dion Baker                | 0          | 0.0417     | Fallback  
+Resilient Lady            | 0          | 0.0327     | Fallback  
+Celtic John               | 0          | 0.0353     | Fallback  
+Charles Morin             | 0          | 0.0346     | Fallback  
+Unknown Journey           | 0          | 0.0365     | Fallback  
+World Of Darcy            | 0          | 0.0403     | Fallback  
+Reel Power                | 0          | 0.0547     | Fallback  
+Havana's Dream            | 0          | 0.0488     | Fallback  
+Royal Jet                 | 0          | 0.0566     | Fallback  
+Alyara                    | 0          | 0.0587     | Fallback  
+Henry Tudor               | 0          | 0.0558     | Fallback  
+Huntly Lodge              | 0          | 0.0538     | Fallback  
+Sarabi                    | 0          | 0.0370     | Fallback  
+Stacey Racey              | 0          | 0.0379     | Fallback  
+Tilsworth Max             | 0          | 0.0870     | Fallback  
+Vitalline                 | 0          | 0.0526     | Fallback  
+Zaltalla                  | 0          | 0.0574     | Fallback  
+Annexation                | 0          | 0.0436     | Fallback  
+Meet Me In Meraki         | 0          | 0.0233     | Fallback  
+Alta Rica                 | 0          | 0.0291     | Fallback  
+Didaar                    | 0          | 0.0272     | Fallback  
+Penfolds Grange           | 0          | 0.0232     | Fallback  
+Raintown                  | 0          | 0.0363     | Fallback  
+Bownder                   | 0          | 0.0237     | Fallback  
+Tommy's Promise           | 0          | 0.0251     | Fallback  
+King's Hand               | 0          | 0.0233     | Fallback  
+Bucklow Hill              | 0          | 0.0408     | Fallback  
+Chhota Saab               | 0          | 0.0290     | Fallback  
+Silent Strike             | 0          | 0.0278     | Fallback  
+Dinky Diamond             | 0          | 0.0257     | Fallback  
+Sakura Spirit             | 0          | 0.0273     | Fallback  
+Salamis Bay               | 0          | 0.0257     | Fallback  
+Saturday Again            | 0          | 0.0434     | Fallback  
+Seven Of Hearts           | 0          | 0.0257     | Fallback  
+Invincible Speed          | 0          | 0.0314     | Fallback  
+Havana Joy                | 0          | 0.0444     | Fallback  
+All Too Beautiful         | 0          | 0.0261     | Fallback  
+Mart                      | 0          | 0.0300     | Fallback  
+Stapleford Park           | 0          | 0.0343     | Fallback  
+Porfin                    | 0          | 0.0376     | Fallback  
+He's An Angel             | 0          | 0.0361     | Fallback  
+Master Dandy              | 0          | 0.0434     | Fallback  
+Desdemona                 | 0          | 0.0328     | Fallback  
+Top Star                  | 0          | 0.0341     | Fallback  
+Smasher                   | 0          | 0.0408     | Fallback  
+Forever Noah              | 0          | 0.0353     | Fallback  
+It's Showtime             | 0          | 0.0368     | Fallback  
+The Defiant               | 0          | 0.0352     | Fallback  
+Marcus                    | 0          | 0.0292     | Fallback  
+Commendation              | 0          | 0.0284     | Fallback  
+Second Collection         | 0          | 0.0331     | Fallback  
+Snow Boots                | 0          | 0.0299     | Fallback  
+Seven Fires               | 0          | 0.0808     | Fallback  
+Adalida                   | 0          | 0.0189     | Fallback  
+Anaba Girl                | 0          | 0.0280     | Fallback  
+Militzie                  | 0          | 0.0187     | Fallback  
+Secret History            | 0          | 0.0222     | Fallback  
+Sequential                | 0          | 0.0280     | Fallback  
+Tabby Kat                 | 0          | 0.0179     | Fallback  
+Welcome Retreat           | 0          | 0.0191     | Fallback  
+Bishop's Glory            | 0          | 0.0696     | Fallback  
+Dubai Magic               | 0          | 0.0316     | Fallback  
+Lion Ring                 | 0          | 0.0415     | Fallback  
+Poetic Jack               | 0          | 0.0518     | Fallback  
+Tommytwohoots             | 0          | 0.0462     | Fallback  
+Under Curfew              | 0          | 0.0437     | Fallback  
+Up The Monk               | 0          | 0.0407     | Fallback  
+Justcallmepete            | 0          | 0.0236     | Fallback  
+Intervention              | 0          | 0.0277     | Fallback  
+Stanley Spencer           | 0          | 0.0201     | Fallback  
+Aberama Gold              | 0          | 0.0215     | Fallback  
+Knebworth                 | 0          | 0.0221     | Fallback  
+Media Shooter             | 0          | 0.0211     | Fallback  
+Twilight Fun              | 0          | 0.0194     | Fallback  
+Rebel Path                | 0          | 0.0254     | Fallback  
+Jesse Luc                 | 0          | 0.0204     | Fallback  
+My Boy Harry              | 0          | 0.0384     | Fallback  
+Edergole's Gift           | 0          | 0.0391     | Fallback  
+Potters Prince            | 0          | 0.0291     | Fallback  
+Amaysmont                 | 0          | 0.0449     | Fallback  
+Bullington Bry            | 0          | 0.0372     | Fallback  
+Impulse Buy               | 0          | 0.0272     | Fallback  
+Thomas Equinas            | 0          | 0.0374     | Fallback  
+You Are Everything        | 0          | 0.0337     | Fallback  
+Charlatan                 | 0          | 0.0330     | Fallback  
+Lowestoft                 | 0          | 0.0271     | Fallback  
+Burano Murano             | 0          | 0.0284     | Fallback  
+Taranjerine               | 0          | 0.0247     | Fallback  
+Rogue Justice             | 0          | 0.0298     | Fallback  
+Sullivan Bay              | 0          | 0.0448     | Fallback  
+Alex The Great            | 0          | 0.0746     | Fallback  
+Shibuya Song              | 0          | 0.0725     | Fallback  
+Arenas Del Tiempo         | 0          | 0.0389     | Fallback  
+Hiconic                   | 0          | 0.0361     | Fallback  
+Lexington Jet             | 0          | 0.0238     | Fallback  
+H Key Lails               | 0          | 0.0322     | Fallback  
+Straight A                | 0          | 0.0262     | Fallback  
+Gennadius                 | 0          | 0.0243     | Fallback  
+Lady Justice              | 0          | 0.0241     | Fallback  
+Luminous Warrior          | 0          | 0.0241     | Fallback  
+Mandana                   | 0          | 0.0238     | Fallback  
+Tartan Chief              | 0          | 0.0158     | Fallback  
+Bleak                     | 0          | 0.0129     | Fallback  
+Knight Of Honour          | 0          | 0.0128     | Fallback  
+Signalman                 | 0          | 0.0118     | Fallback  
+Malakye                   | 0          | 0.0257     | Fallback  
+Young Ireland             | 0          | 0.0126     | Fallback  
+Refreshment               | 0          | 0.0137     | Fallback  
+Nepal                     | 0          | 0.0137     | Fallback  
+Westridge                 | 0          | 0.0134     | Fallback  
+Wave Rider                | 0          | 0.0164     | Fallback  
+Merlin's Beard            | 0          | 0.0135     | Fallback  
+Rollajam                  | 0          | 0.0178     | Fallback  
+Salamanca Lad             | 0          | 0.0172     | Fallback  
+Vestigia                  | 0          | 0.0131     | Fallback  
+Hot Dancer                | 0          | 0.0173     | Fallback  
+Max Mayhem                | 0          | 0.0670     | Lookup    
+Phoenix Passion           | 0          | 0.0146     | Fallback  
+Slieve Binnian            | 0          | 0.0217     | Fallback  
+Azka                      | 0          | 0.0213     | Fallback  
+Dain Ma Nut In            | 0          | 0.0134     | Fallback  
+Soldier's Empire          | 0          | 0.0132     | Fallback  
+Athan                     | 0          | 0.0134     | Fallback  
+Urban Sprawl              | 0          | 0.0704     | Lookup    
+Another Baar              | 0          | 0.0191     | Fallback  
+Roman Dragon              | 0          | 0.0174     | Fallback  
+Dairerin                  | 0          | 0.0225     | Fallback  
+Ramazan                   | 0          | 0.0171     | Fallback  
+Burdett                   | 0          | 0.0173     | Fallback  
+Commanche Falls           | 2          | 0.4678     | Lookup    
+Dream Out Loud            | 0          | 0.0173     | Fallback  
+Dubai Bling               | 0          | 0.0167     | Fallback  
+Redemption Time           | 0          | 0.0225     | Fallback  
+Inveigle                  | 0          | 0.0244     | Fallback  
+Kaasib                    | 0          | 0.0291     | Fallback  
+Buffer Zone               | 0          | 0.0234     | Fallback  
+Nationwide                | 0          | 0.0240     | Fallback  
+Partisan Hero             | 0          | 0.0184     | Fallback  
+Desert Cop                | 0          | 0.0231     | Fallback  
+Spangled Mac              | 0          | 0.0279     | Fallback  
+Up The Pace               | 0          | 0.0223     | Fallback  
+Chief Mankato             | 0          | 0.0160     | Fallback  
+Blue Day                  | 1          | 0.1102     | Fallback  
+Grand City Hall           | 0          | 0.0187     | Fallback  
+Arctic Grey               | 0          | 0.0166     | Fallback  
+Maystar                   | 0          | 0.0304     | Fallback  

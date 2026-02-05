@@ -219,7 +219,7 @@ if __name__ == "__main__":
 
     if master_data:
         df = pd.DataFrame(master_data)
-        tomorrow_date = (datetime.now() + timedelta(days=0)).strftime("%Y-%m-%d")        
+        tomorrow_date = (datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d")        
         output_file = f"{folder_name}/Odds_{tomorrow_date}.csv"
         
         df.to_csv(output_file, index=False)
