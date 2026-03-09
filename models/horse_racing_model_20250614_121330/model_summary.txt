@@ -1,0 +1,339 @@
+Horse Racing Prediction Model Summary
+==================================================
+
+Training Date: 20250614_121330
+Model Type: TabNetClassifier
+AUC Score: 0.9592
+Best F1 Threshold: 0.980
+Best Profit Threshold: 1.000
+
+Feature Configuration:
+- Total Features: 160
+- Categorical Features: 6
+- Numerical Features: 154
+
+Categorical Features:
+  - track_name
+  - race_time
+  - going
+  - horse_name
+  - jockey
+  - trainer
+
+Numerical Features:
+  - distance
+  - claims
+  - age
+  - weight
+  - rating
+  - recent_win_rate
+  - career_wins
+  - career_races
+  - career_win_rate
+  - days_since_last
+  - jockey_win_rate
+  - trainer_win_rate
+  - track_win_rate
+  - track_avg_distance
+  - weight_percentile
+  - is_young_horse
+  - is_prime_age
+  - is_veteran
+  - race_class_encoded
+  - performance_on_Good  (Turf)
+  - performance_on_Good
+  - performance_on_Good (Good To Firm In Places)
+  - performance_on_Good (Good To Yielding In Places)
+  - performance_on_Good (Good To Yielding In Places) s I.N.H. Flat (Turf)
+  - performance_on_Good (Good To Yielding In Places)  Flat (Turf)
+  - performance_on_Good To Yielding
+  - performance_on_Good To Yielding  Flat (Turf)
+  - performance_on_Yielding (Good In Places)
+  - performance_on_Yielding (Good In Places)  Flat (Turf)
+  - performance_on_Yielding (Good In Places)  (Turf)
+  - performance_on_Yielding (Yielding To Soft In Places)
+  - performance_on_Yielding (Yielding To Soft In Places)  (Turf)
+  - performance_on_Soft (Heavy In Places)
+  - performance_on_Soft (Heavy In Places)  Hurdle (Turf)
+  - performance_on_Soft (Heavy In Places)  Flat (Turf)
+  - performance_on_Yielding (Good In Places) unity Maiden Hurdle (Turf)
+  - performance_on_Yielding
+  - performance_on_Yielding ap Hurdle (Turf)
+  - performance_on_Good To Yielding unity Handicap Chase (Turf)
+  - performance_on_Good To Yielding (Yielding In Places)
+  - performance_on_Good To Yielding (Yielding In Places) ap Hurdle (Turf)
+  - performance_on_Good To Yielding (Yielding In Places)  Flat (Turf)
+  - performance_on_Good (Yielding In Places)
+  - performance_on_Good To Yielding (Yielding In Places) Turf)
+  - performance_on_Good (Good To Yielding In Places)  Hurdle (Turf)
+  - performance_on_Good  Flat (Turf)
+  - performance_on_Good (Yielding In Places)  Flat (Turf)
+  - performance_on_Good To Firm (Good In Places)
+  - performance_on_Good To Firm
+  - performance_on_Good To Firm  (Turf)
+  - performance_on_Good To Yielding (Good In Places)
+  - performance_on_Yielding (Good To Yielding In Places)
+  - performance_on_Yielding  (Turf)
+  - performance_on_Yielding To Soft
+  - performance_on_Soft To Heavy (Soft In Places)
+  - performance_on_Soft
+  - performance_on_Yielding To Soft (Soft In Places)
+  - performance_on_Good (Good To Firm In Places)  (Turf)
+  - performance_on_Standard
+  - performance_on_Good To Yielding  Hurdle (Turf)
+  - performance_on_missing
+  - performance_on_Good  Hurdle (Turf)
+  - performance_on_Good ap Hurdle (Turf)
+  - performance_on_Yielding To Soft (Soft In Places)  Flat (Turf)
+  - performance_on_Yielding  Flat (Turf)
+  - performance_on_Soft (Soft To Heavy In Places)
+  - performance_on_Soft To Heavy
+  - performance_on_Soft To Heavy nge Handicap Chase (Turf)
+  - performance_on_Soft (Soft To Heavy In Places) ap Hurdle (Turf)
+  - performance_on_Standard ytrack)
+  - performance_on_Soft  Flat (Turf)
+  - performance_on_Yielding To Soft  Hurdle (Turf)
+  - performance_on_Heavy
+  - performance_on_Soft (Yielding In Places)
+  - performance_on_Soft (Soft To Heavy In Places)  Hurdle (Turf)
+  - performance_on_Soft To Heavy  (Turf)
+  - performance_on_Soft (Yielding To Soft In Places)
+  - performance_on_Soft (Yielding To Soft In Places) ap Hurdle (Turf)
+  - performance_on_Soft (Yielding To Soft In Places)  Flat (Turf)
+  - performance_on_Yielding (Soft In  Places)
+  - performance_on_Soft To Heavy (Heavy In Places)
+  - performance_on_Yielding (Soft In Places)
+  - performance_on_Heavy (Soft To Heavy In Places)
+  - performance_on_Soft To Heavy  Flat (Turf)
+  - performance_on_Soft (Soft To Heavy In Places)  Flat (Turf)
+  - performance_on_Heavy ap Chase (Turf)
+  - performance_on_Soft To Heavy ap Hurdle (Turf)
+  - performance_on_Soft  Hurdle (Turf)
+  - performance_on_Soft (Yielding To Soft In Places)  Hurdle (Turf)
+  - performance_on_Yielding ss
+  - performance_on_Yielding (Good To Yielding In Places)  Flat (Turf)
+  - performance_on_Yielding (Yielding To Soft In Places)  Flat (Turf)
+  - performance_on_Good (Good To Yielding In Places) ap Chase (Turf)
+  - performance_on_Standard olytrack)
+  - performance_on_Yielding (Good To Yielding In Places) ap Chase (Turf)
+  - performance_on_Heavy (Soft In Places)
+  - performance_on_Heavy (Soft In Places)  Flat (Turf)
+  - performance_on_Heavy (Soft To Heavy In Places) ap Hurdle (Turf)
+  - performance_on_Heavy (Soft To Heavy In Places)  Flat (Turf)
+  - performance_on_Heavy (Soft To Heavy In Places) n I.N.H. Flat (Turf)
+  - performance_on_Soft To Heavy (Heavy In Places)  (Turf)
+  - performance_on_Soft (Heavy In Places)  (Turf)
+  - performance_on_Heavy  (Turf)
+  - performance_on_Heavy  Flat (Turf)
+  - performance_on_Soft  (Turf)
+  - performance_on_Yielding (Good Tio Yielding In Places)
+  - performance_on_Yielding To Point I.N.H. Flat (Turf)
+  - performance_on_Good To Yielding (Good In Places)  Flat (Turf)
+  - performance_on_Good To Yielding  (Turf)
+  - performance_on_Good To Yielding (Yielding In Back Straight)
+  - performance_on_Good s I.N.H. Flat (Turf)
+  - performance_on_Good (Good To Yielding To Places)
+  - performance_on_Good (Good  To Firm In Places)
+  - performance_on_Good ap Chase (Turf)
+  - performance_on_Yielding To Soft  Flat (Turf)
+  - performance_on_Good (Good To Yielding Places)
+  - performance_on_Good ( Yielding In Places) Maiden Hurdle (D.I) (Turf)
+  - performance_on_Good ( Yielding In Places) aiden Hurdle (D.Ii) (Turf)
+  - performance_on_Good ( Yielding In Places)
+  - performance_on_Good (Good To Yielding In Places)  (Turf)
+  - performance_on_Soft (Yielding In Places)  (Turf)
+  - performance_on_Yielding (Good To Yielding)
+  - performance_on_Good (Good To Yielding)  Flat (Turf)
+  - performance_on_Yielding To Soft  (Turf)
+  - performance_on_Yielding To Soft ap (Turf)
+  - performance_on_Good ap (Turf)
+  - performance_on_Yielding (
+  - performance_on_Good To Yielding (Good In Places) ap (Turf)
+  - performance_on_Good To Yielding Maiden Hurdle (Turf)
+  - performance_on_Good (Good To Firm In Palces)
+  - performance_on_Standard ap (Sand)
+  - performance_on_Yielding To Soft ap Chase (Turf)
+  - performance_on_Yielding To Soft (Yielding In Places)
+  - performance_on_Soft ap (Turf)
+  - performance_on_Soft (Soft To Heavy In Places)  (Turf)
+  - performance_on_Soft To Heavy (Heavy In Places)  Hurdle (Turf)
+  - performance_on_Soft To Heavy (Heavy In Places) ap Hurdle (Turf)
+  - performance_on_Heavy ap Hurdle (Turf)
+  - performance_on_Soft n Memorial Hurdle (Turf)
+  - performance_on_Soft To Heavy (Heavy In Places) nge Handicap Chase (Turf)
+  - performance_on_Soft dle (D.I) (Turf)
+  - performance_on_Soft le (D.Ii) (Turf)
+  - performance_on_Soft (Yielding In Places)  Flat (Turf)
+  - performance_on_Soft (Yielding To Soft In Places) Flat (Turf)
+  - performance_on_Soft ap Chase (Turf)
+  - performance_on_Soft To Heavy ap Chase (Turf)
+  - performance_on_Heavy n I.N.H. Flat (Turf)
+  - performance_on_Heavy ss
+  - performance_on_Heavy (Soft To Heavy In Places)  Hurdle (Turf)
+  - performance_on_Yielding (Good To Yielding In Places) To Point I.N.H. Flat (Turf)
+  - performance_on_Yielding al I.N.H. Flat (Turf)
+  - performance_on_Good (Yielding In Places)  (Turf)
+  - performance_on_Good (Good To Firm In Places) ap Chase (Turf)
+  - performance_on_Good (Good To Yielding In Places) ap Hurdle (Turf)
+
+All Features (in processing order):
+   1. track_name
+   2. race_time
+   3. going
+   4. distance
+   5. horse_name
+   6. jockey
+   7. claims
+   8. trainer
+   9. age
+  10. weight
+  11. rating
+  12. recent_win_rate
+  13. career_wins
+  14. career_races
+  15. career_win_rate
+  16. days_since_last
+  17. jockey_win_rate
+  18. trainer_win_rate
+  19. track_win_rate
+  20. track_avg_distance
+  21. weight_percentile
+  22. is_young_horse
+  23. is_prime_age
+  24. is_veteran
+  25. race_class_encoded
+  26. performance_on_Good  (Turf)
+  27. performance_on_Good
+  28. performance_on_Good (Good To Firm In Places)
+  29. performance_on_Good (Good To Yielding In Places)
+  30. performance_on_Good (Good To Yielding In Places) s I.N.H. Flat (Turf)
+  31. performance_on_Good (Good To Yielding In Places)  Flat (Turf)
+  32. performance_on_Good To Yielding
+  33. performance_on_Good To Yielding  Flat (Turf)
+  34. performance_on_Yielding (Good In Places)
+  35. performance_on_Yielding (Good In Places)  Flat (Turf)
+  36. performance_on_Yielding (Good In Places)  (Turf)
+  37. performance_on_Yielding (Yielding To Soft In Places)
+  38. performance_on_Yielding (Yielding To Soft In Places)  (Turf)
+  39. performance_on_Soft (Heavy In Places)
+  40. performance_on_Soft (Heavy In Places)  Hurdle (Turf)
+  41. performance_on_Soft (Heavy In Places)  Flat (Turf)
+  42. performance_on_Yielding (Good In Places) unity Maiden Hurdle (Turf)
+  43. performance_on_Yielding
+  44. performance_on_Yielding ap Hurdle (Turf)
+  45. performance_on_Good To Yielding unity Handicap Chase (Turf)
+  46. performance_on_Good To Yielding (Yielding In Places)
+  47. performance_on_Good To Yielding (Yielding In Places) ap Hurdle (Turf)
+  48. performance_on_Good To Yielding (Yielding In Places)  Flat (Turf)
+  49. performance_on_Good (Yielding In Places)
+  50. performance_on_Good To Yielding (Yielding In Places) Turf)
+  51. performance_on_Good (Good To Yielding In Places)  Hurdle (Turf)
+  52. performance_on_Good  Flat (Turf)
+  53. performance_on_Good (Yielding In Places)  Flat (Turf)
+  54. performance_on_Good To Firm (Good In Places)
+  55. performance_on_Good To Firm
+  56. performance_on_Good To Firm  (Turf)
+  57. performance_on_Good To Yielding (Good In Places)
+  58. performance_on_Yielding (Good To Yielding In Places)
+  59. performance_on_Yielding  (Turf)
+  60. performance_on_Yielding To Soft
+  61. performance_on_Soft To Heavy (Soft In Places)
+  62. performance_on_Soft
+  63. performance_on_Yielding To Soft (Soft In Places)
+  64. performance_on_Good (Good To Firm In Places)  (Turf)
+  65. performance_on_Standard
+  66. performance_on_Good To Yielding  Hurdle (Turf)
+  67. performance_on_missing
+  68. performance_on_Good  Hurdle (Turf)
+  69. performance_on_Good ap Hurdle (Turf)
+  70. performance_on_Yielding To Soft (Soft In Places)  Flat (Turf)
+  71. performance_on_Yielding  Flat (Turf)
+  72. performance_on_Soft (Soft To Heavy In Places)
+  73. performance_on_Soft To Heavy
+  74. performance_on_Soft To Heavy nge Handicap Chase (Turf)
+  75. performance_on_Soft (Soft To Heavy In Places) ap Hurdle (Turf)
+  76. performance_on_Standard ytrack)
+  77. performance_on_Soft  Flat (Turf)
+  78. performance_on_Yielding To Soft  Hurdle (Turf)
+  79. performance_on_Heavy
+  80. performance_on_Soft (Yielding In Places)
+  81. performance_on_Soft (Soft To Heavy In Places)  Hurdle (Turf)
+  82. performance_on_Soft To Heavy  (Turf)
+  83. performance_on_Soft (Yielding To Soft In Places)
+  84. performance_on_Soft (Yielding To Soft In Places) ap Hurdle (Turf)
+  85. performance_on_Soft (Yielding To Soft In Places)  Flat (Turf)
+  86. performance_on_Yielding (Soft In  Places)
+  87. performance_on_Soft To Heavy (Heavy In Places)
+  88. performance_on_Yielding (Soft In Places)
+  89. performance_on_Heavy (Soft To Heavy In Places)
+  90. performance_on_Soft To Heavy  Flat (Turf)
+  91. performance_on_Soft (Soft To Heavy In Places)  Flat (Turf)
+  92. performance_on_Heavy ap Chase (Turf)
+  93. performance_on_Soft To Heavy ap Hurdle (Turf)
+  94. performance_on_Soft  Hurdle (Turf)
+  95. performance_on_Soft (Yielding To Soft In Places)  Hurdle (Turf)
+  96. performance_on_Yielding ss
+  97. performance_on_Yielding (Good To Yielding In Places)  Flat (Turf)
+  98. performance_on_Yielding (Yielding To Soft In Places)  Flat (Turf)
+  99. performance_on_Good (Good To Yielding In Places) ap Chase (Turf)
+  100. performance_on_Standard olytrack)
+  101. performance_on_Yielding (Good To Yielding In Places) ap Chase (Turf)
+  102. performance_on_Heavy (Soft In Places)
+  103. performance_on_Heavy (Soft In Places)  Flat (Turf)
+  104. performance_on_Heavy (Soft To Heavy In Places) ap Hurdle (Turf)
+  105. performance_on_Heavy (Soft To Heavy In Places)  Flat (Turf)
+  106. performance_on_Heavy (Soft To Heavy In Places) n I.N.H. Flat (Turf)
+  107. performance_on_Soft To Heavy (Heavy In Places)  (Turf)
+  108. performance_on_Soft (Heavy In Places)  (Turf)
+  109. performance_on_Heavy  (Turf)
+  110. performance_on_Heavy  Flat (Turf)
+  111. performance_on_Soft  (Turf)
+  112. performance_on_Yielding (Good Tio Yielding In Places)
+  113. performance_on_Yielding To Point I.N.H. Flat (Turf)
+  114. performance_on_Good To Yielding (Good In Places)  Flat (Turf)
+  115. performance_on_Good To Yielding  (Turf)
+  116. performance_on_Good To Yielding (Yielding In Back Straight)
+  117. performance_on_Good s I.N.H. Flat (Turf)
+  118. performance_on_Good (Good To Yielding To Places)
+  119. performance_on_Good (Good  To Firm In Places)
+  120. performance_on_Good ap Chase (Turf)
+  121. performance_on_Yielding To Soft  Flat (Turf)
+  122. performance_on_Good (Good To Yielding Places)
+  123. performance_on_Good ( Yielding In Places) Maiden Hurdle (D.I) (Turf)
+  124. performance_on_Good ( Yielding In Places) aiden Hurdle (D.Ii) (Turf)
+  125. performance_on_Good ( Yielding In Places)
+  126. performance_on_Good (Good To Yielding In Places)  (Turf)
+  127. performance_on_Soft (Yielding In Places)  (Turf)
+  128. performance_on_Yielding (Good To Yielding)
+  129. performance_on_Good (Good To Yielding)  Flat (Turf)
+  130. performance_on_Yielding To Soft  (Turf)
+  131. performance_on_Yielding To Soft ap (Turf)
+  132. performance_on_Good ap (Turf)
+  133. performance_on_Yielding (
+  134. performance_on_Good To Yielding (Good In Places) ap (Turf)
+  135. performance_on_Good To Yielding Maiden Hurdle (Turf)
+  136. performance_on_Good (Good To Firm In Palces)
+  137. performance_on_Standard ap (Sand)
+  138. performance_on_Yielding To Soft ap Chase (Turf)
+  139. performance_on_Yielding To Soft (Yielding In Places)
+  140. performance_on_Soft ap (Turf)
+  141. performance_on_Soft (Soft To Heavy In Places)  (Turf)
+  142. performance_on_Soft To Heavy (Heavy In Places)  Hurdle (Turf)
+  143. performance_on_Soft To Heavy (Heavy In Places) ap Hurdle (Turf)
+  144. performance_on_Heavy ap Hurdle (Turf)
+  145. performance_on_Soft n Memorial Hurdle (Turf)
+  146. performance_on_Soft To Heavy (Heavy In Places) nge Handicap Chase (Turf)
+  147. performance_on_Soft dle (D.I) (Turf)
+  148. performance_on_Soft le (D.Ii) (Turf)
+  149. performance_on_Soft (Yielding In Places)  Flat (Turf)
+  150. performance_on_Soft (Yielding To Soft In Places) Flat (Turf)
+  151. performance_on_Soft ap Chase (Turf)
+  152. performance_on_Soft To Heavy ap Chase (Turf)
+  153. performance_on_Heavy n I.N.H. Flat (Turf)
+  154. performance_on_Heavy ss
+  155. performance_on_Heavy (Soft To Heavy In Places)  Hurdle (Turf)
+  156. performance_on_Yielding (Good To Yielding In Places) To Point I.N.H. Flat (Turf)
+  157. performance_on_Yielding al I.N.H. Flat (Turf)
+  158. performance_on_Good (Yielding In Places)  (Turf)
+  159. performance_on_Good (Good To Firm In Places) ap Chase (Turf)
+  160. performance_on_Good (Good To Yielding In Places) ap Hurdle (Turf)

@@ -1,0 +1,44 @@
+IGNORE/*
+
+#OLD
+racing_url_collector.py
+Usage.py
+Whole9.py
+train_xgb.py
+daily_racing_master.py
+Data_Analysis/MergeCSVandDropDupes.py
+Data_Analysis/monte_Sim.py
+# Large Data Files
+*.csv
+*.zip
+*.pkl
+!label_encoders.pkl
+!xgb_winner_classifier.pkl
+
+# Folders to ignore (local data)
+Inference_Inputs/
+Inference_Odds/
+Inference_Outputs/
+Inference_Logs/
+Inference_Actuals/
+Inference_Summary/
+IGNORE/
+daily_racing_data/
+logs/
+output/
+pre-race-scraperNotes.md
+Inference_Betting/
+Inference_Bets
+Pt2/
+Csv/*
+Data_Analysis/PNG/*
+
+
+# System files
+__pycache__/
+.DS_Store
+.env
+.*__pycache__
+
+#important
+p*.py
