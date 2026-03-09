@@ -1,7 +1,0 @@
-Feature,Pearson_r,P_Value,Status,Interpretation
-career_win_rate,0.09760463700646355,3.557623458831557e-223,✓✓✓ Highly Significant,Very Weak Positive
-days_since_last_race,-0.007326426748330433,0.061234043572733425,Not Significant,Very Weak Negative
-track_dist_experience,0.0011469929241531027,0.7085012781955953,Not Significant,Very Weak Positive
-distance_in_meters,3.212319699268324e-05,0.9916456965325441,Not Significant,Very Weak Positive
-horse_weight,,,❌ Insufficient Data,N/A
-jockey_age,,,❌ Insufficient Data,N/A
