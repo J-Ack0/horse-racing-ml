@@ -14,6 +14,7 @@ Data_Analysis/monte_Sim.py
 *.pkl
 !label_encoders.pkl
 !xgb_winner_classifier.pkl
+!V2_engineered_features.csv
 
 # Folders to ignore (local data)
 Inference_Inputs/
@@ -42,5 +43,9 @@ __pycache__/
 
 #important
 p*.py
-models/*
-!models/xgb*
+models/horse_racing_model_20250616_201516
+models/horse_racing_model_20250615_232845
+models/horse_racing_model_20250615_151313
+models/horse_racing_model_20250615_213702
+models/horse_racing_model_20250614_121330
+

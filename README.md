@@ -4,6 +4,8 @@ An end-to-end ML pipeline for predicting horse racing outcomes and identifying v
 
 The commit history is intentionally unpolished. This was a live system used daily, not a demo project. The cleanup here reflects maturity, not a rewrite.
 
+There was also a great deal of reduant code as this project is nearly over a year old and so that code has been stripped from this project.
+
 ---
 
 ## Model Performance
