@@ -194,3 +194,119 @@ both `train_model.py` and `inference.py`, and the stale threshold date in
 `betting_filters.py` → "pick latest file in `Model_Thresholds/`") so the daily workflow
 in the README actually runs as documented. I left the repo untouched otherwise — the
 only new file is this report, and the `~/venvs/horse-racing-ml` venv (outside the repo).
+
+---
+
+## Addendum (2026-09-13, later same day) — `data_collection/` scrapers
+
+You asked me to check all three scrapers, noting the daily ones (`scrape_racecards.py`,
+`scrape_odds.py`) may fail depending on time-of-day timing quirks, but that
+`scrape_results.py` ("the collection of results") should work perfectly and to
+scrutinize + actually run it. I installed `requests`/`beautifulsoup4`/`selenium` into
+the same venv (chromedriver + chromium are already present at
+`/usr/bin/chromedriver` / `/usr/bin/chromium`, matched versions, 152.0.7977.75 — no
+version-skew issue there) and ran it live against racingpost.com.
+
+**Verdict: `scrape_results.py` does not work at all, for reasons that have nothing to
+do with timing.** It's not a "ran late / missed the window" situation — it can't
+retrieve a single result under any timing, today.
+
+### Bug 1 — wrong URL (typo), always returns HTTP 406
+
+`get_finished_race_links()` builds the URL as:
+```python
+url = f"https://www.racingpost.com/racecard/{target_date}/"   # singular "racecard"
+```
+That endpoint doesn't exist — Racing Post 406's it immediately. The correct, working
+path is plural, `.../racecards/{date}/` — which is exactly what the *other two*
+scrapers already use correctly. `scrape_results.py` is the odd one out. Confirmed:
+
+```
+/racecard/2026-09-13/    -> 406
+/racecards/2026-09-13/   -> 200
+/results/2026-09-13/     -> 200
+```
+
+Since `__main__` always calls this with a concrete date string, the buggy branch is
+the *only* one ever exercised in normal use — the correct no-date branch
+(`.../racecards/` with no date, used for "today") exists in the code but is dead code
+given how the script is invoked. Every real run of this script has been silently
+returning "Found 0 completed races to audit" (caught by a broad `except Exception`,
+printed, not raised) since whenever this line was introduced.
+
+### Bug 2 — even fixed, the site no longer renders what it's looking for
+
+I patched the URL locally (test only, not committed) and re-ran the link discovery.
+It still finds 0 links. Racing Post has since redesigned the front end: the
+meeting/results listing pages have moved to a Next.js + styled-components build.
+I fetched and inspected the live, current markup:
+
+- The CSS class the scraper filters on, `RC-meetingItem__link`, **does not appear
+  anywhere in the current page** (checked via raw HTML and via a full
+  Selenium-rendered DOM — 0 occurrences either way).
+- The `data-race-time` attribute the "is this race finished yet" cutoff logic depends
+  on **also does not exist anywhere on the page** (0 occurrences).
+- Anchor tags on the listing page now carry auto-generated, non-semantic class names
+  (e.g. `class="sc-5d1b9ba8-1 jKoham"`) instead of the old `RC-*` scheme.
+
+This is a real site redesign, not a stale cache or a timing fluke — every one of the
+`RC-*` / `data-test-selector` / `data-race-time` selectors this scraper (and its two
+siblings) were built against appears to predate the current site.
+
+### Bug 3 — individual race/result detail pages are actively bot-blocked
+
+Separately from the selector problem: fetching an *individual* race detail page
+(the page `scrape_actual_results()` would need to open for each finished race) returns
+HTTP 406 with a ~5.3KB stub page — both via plain `requests` (even with a warmed-up
+session, cookies, and a same-site `Referer`) **and** via headless Chromium/Selenium.
+The listing pages (`/racecards/<date>/`, `/results/<date>/`) load fine either way; it's
+specifically the deep per-race URLs (`/racecards/<id>/<course>/<date>/<raceid>`,
+presumably `/results/<id>/<course>/<date>/<raceid>` too) that trigger this. That
+pattern — list pages open, detail pages blocked, blocked identically for a plain
+requests session and a real (if headless) browser — reads like server-side bot
+detection keyed on the URL pattern or a missing auth/session token, not just a
+User-Agent check. I did not attempt to defeat it (fingerprint evasion is out of scope
+for a legitimate personal scraper, and this crosses from "site redesign broke my
+selectors" into "site is actively resisting automated access" — worth you deciding
+deliberately whether/how to proceed rather than me quietly working around it).
+
+I also noticed the anonymous session gets served a stripped-down page containing a
+login link (`/auth/login/?state=...`) on the results listing — worth checking whether
+Racing Post now requires an authenticated session to see result data at all, which
+would be a separate, non-technical blocker on top of the above.
+
+### Net effect on the other two scrapers
+
+I didn't do a full run of `scrape_racecards.py` / `scrape_odds.py` (you flagged those
+as already known to be flaky and out of scope for today), but the same broken
+selectors and the same detail-page block almost certainly affect them too:
+`scrape_racecards.py`'s `scrape_race_data()` and `scrape_odds.py`'s
+`scrape_race_data_selenium()` both read `data-test-selector="RC-cardPage-runnerName"`
+etc. from those same now-blocked/redesigned detail pages. `scrape_odds.py` already
+uses Selenium (real browser automation), so if it's still working for you day-to-day,
+that's a meaningful signal the block is specifically about headless/no-session
+requests rather than the URL pattern itself — worth testing on a machine with a normal
+GUI Chrome and your regular cookies before assuming it's fully dead.
+
+One more discrepancy worth flagging: `scrape_racecards.py` fetches
+`https://www.racingpost.com/racecards/` (today's listing) while `scrape_odds.py`
+fetches `https://www.racingpost.com/racecards/tomorrow/` — but both then label their
+output file with tomorrow's date. Depending on what the bare `/racecards/` endpoint
+defaults to at the time of day you run it (today vs. rolls over to tomorrow's card
+late in the day), `scrape_racecards.py` could be scraping and mis-labeling *today's*
+races as tomorrow's — this is likely the "semantics/timing" issue you already had in
+mind, now pinned down to a concrete cause.
+
+### Bottom line
+
+`scrape_results.py` is currently 100% non-functional — not intermittent, not
+timing-sensitive, broken on every run: a URL typo means it never even reaches a
+working results page, and the results/racecard site structure it was written against
+has since changed underneath it. Fixing it for real needs: (1) the one-character URL
+fix, (2) new selectors matched to the current site (I could get updated ones since
+listing pages are still readable), and (3) a plan for the detail-page block — most
+likely converting it to Selenium like `scrape_odds.py` already does, and testing
+whether that alone clears the 406 or whether a login session is now required.
+
+I made no code changes to any scraper — this was read + live-probe only, per your ask
+to scrutinize before touching anything.
