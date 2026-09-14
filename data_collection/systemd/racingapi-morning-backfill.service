@@ -1,0 +1,11 @@
+[Unit]
+Description=Backfill yesterday's results from The Racing API into live_extension.db
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/git/horse-racing-ml/data_collection
+# No --start/--end: defaults to (dataset_end+1 -> yesterday) each run.
+# Upserts are idempotent, so re-covering already-filled days each morning is
+# harmless (just a few wasted requests), and it self-heals any day that
+# failed on a previous run.
+ExecStart=%h/git/horse-racing-ml/venv/bin/python backfill_history.py

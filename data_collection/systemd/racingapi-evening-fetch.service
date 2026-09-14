@@ -1,0 +1,8 @@
+[Unit]
+Description=Fetch tomorrow's racecard from The Racing API
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/git/horse-racing-ml/data_collection
+# Adjust venv path to wherever the venv (with the .env holding RACING_API_*) lives
+ExecStart=%h/git/horse-racing-ml/venv/bin/python fetch_daily_racecards.py --day tomorrow
