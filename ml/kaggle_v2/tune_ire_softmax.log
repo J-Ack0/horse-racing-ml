@@ -1,0 +1,33 @@
+obj=softmax ire=True split=(Timestamp('2024-11-24 00:00:00'), Timestamp('2025-05-15 00:00:00')) rows=81678
+[00] rll=2.0315 auc=0.7456 it= 161 (8s) {'max_depth': 3, 'min_child_weight': 1.0, 'subsample': 0.799711144976046, 'colsample_bytree': 0.7608990145740144, 'colsample_bylevel': 1.0, 'reg_lambda': 0.2778294337210486, 'reg_alpha': 5.162310133018718, 'gamma': 0.002845829145639892}
+[01] rll=2.0309 auc=0.7435 it= 228 (10s) {'max_depth': 3, 'min_child_weight': 20.0, 'subsample': 0.8487534371185531, 'colsample_bytree': 0.6213958742378746, 'colsample_bylevel': 1.0, 'reg_lambda': 3.4211338449353943, 'reg_alpha': 0.44809676654593683, 'gamma': 0.003040102699640505}
+[02] rll=2.0390 auc=0.7474 it= 114 (10s) {'max_depth': 5, 'min_child_weight': 20.0, 'subsample': 0.8681442336409935, 'colsample_bytree': 0.7074293880898963, 'colsample_bylevel': 1.0, 'reg_lambda': 4.438393533091865, 'reg_alpha': 8.387925359045115, 'gamma': 0.08670742122760307}
+[03] rll=2.0400 auc=0.7477 it=  53 (8s) {'max_depth': 7, 'min_child_weight': 20.0, 'subsample': 0.7413099420241792, 'colsample_bytree': 0.7549571823694261, 'colsample_bylevel': 0.8, 'reg_lambda': 0.5080467704679636, 'reg_alpha': 1.6173750344120676, 'gamma': 0.0}
+[04] rll=2.0376 auc=0.7495 it=  96 (15s) {'max_depth': 8, 'min_child_weight': 1.0, 'subsample': 0.7868292826953085, 'colsample_bytree': 0.5662869355202226, 'colsample_bylevel': 0.6, 'reg_lambda': 48.73409715385363, 'reg_alpha': 0.05245595138827176, 'gamma': 0.22738837102668089}
+[05] rll=2.0346 auc=0.7462 it= 186 (9s) {'max_depth': 3, 'min_child_weight': 1.0, 'subsample': 0.9605724314752708, 'colsample_bytree': 0.5302889544511169, 'colsample_bylevel': 0.6, 'reg_lambda': 0.1256678144534736, 'reg_alpha': 0.006354418539711723, 'gamma': 0.043770204125223644}
+[06] rll=2.0372 auc=0.7467 it= 105 (9s) {'max_depth': 5, 'min_child_weight': 50.0, 'subsample': 0.8789444354945191, 'colsample_bytree': 0.6035923964454671, 'colsample_bylevel': 1.0, 'reg_lambda': 0.30162760264377236, 'reg_alpha': 9.6770615235377, 'gamma': 0.2622042381297515}
+[07] rll=2.0340 auc=0.7453 it= 193 (9s) {'max_depth': 3, 'min_child_weight': 50.0, 'subsample': 0.613620111578815, 'colsample_bytree': 0.9075340638670345, 'colsample_bylevel': 0.6, 'reg_lambda': 5.802909827055242, 'reg_alpha': 0.01717271541239216, 'gamma': 0.0020527231985684284}
+[08] rll=2.0658 auc=0.7367 it=  39 (7s) {'max_depth': 7, 'min_child_weight': 3.0, 'subsample': 0.6098344429860745, 'colsample_bytree': 0.903474909023669, 'colsample_bylevel': 0.6, 'reg_lambda': 0.24077353451451647, 'reg_alpha': 0.9057065241327366, 'gamma': 0.001647103245811074}
+[09] rll=2.0302 auc=0.7467 it= 134 (10s) {'max_depth': 5, 'min_child_weight': 1.0, 'subsample': 0.9583031006965126, 'colsample_bytree': 0.4161660468308217, 'colsample_bylevel': 0.8, 'reg_lambda': 26.026032613827635, 'reg_alpha': 0.0057634173148486765, 'gamma': 0.0011557585762524052}
+
+TOP 5 by val race-logloss:
+  max_depth  min_child_weight  subsample  colsample_bytree  colsample_bylevel  reg_lambda  reg_alpha    gamma      rll      auc  best_iter
+         5               1.0   0.958303          0.416166                0.8   26.026033   0.005763 0.001156 2.030159 0.746675        134
+         3              20.0   0.848753          0.621396                1.0    3.421134   0.448097 0.003040 2.030937 0.743542        228
+         3               1.0   0.799711          0.760899                1.0    0.277829   5.162310 0.002846 2.031492 0.745571        161
+         3              50.0   0.613620          0.907534                0.6    5.802910   0.017173 0.002053 2.033954 0.745323        193
+         3               1.0   0.960572          0.530289                0.6    0.125668   0.006354 0.043770 2.034648 0.746230        186
+  cfg0 fold0: rll=2.0971 auc=0.7289 it=92
+  cfg0 fold1: rll=2.0336 auc=0.7414 it=155
+  cfg0 fold2: rll=2.0220 auc=0.7449 it=153
+cfg0: WF mean rll=2.0509 auc=0.7384
+  cfg1 fold0: rll=2.1028 auc=0.7294 it=75
+  cfg1 fold1: rll=2.0368 auc=0.7415 it=232
+  cfg1 fold2: rll=2.0254 auc=0.7424 it=172
+cfg1: WF mean rll=2.0550 auc=0.7378
+
+WALK-FORWARD:
+  cfg  mean_rll  mean_auc  mean_iter  max_depth  min_child_weight  subsample  colsample_bytree  colsample_bylevel  reg_lambda  reg_alpha    gamma
+   0  2.050885  0.738401 133.333333          5               1.0   0.958303          0.416166                0.8   26.026033   0.005763 0.001156
+   1  2.054990  0.737756 159.666667          3              20.0   0.848753          0.621396                1.0    3.421134   0.448097 0.003040
+saved best params {'max_depth': 5, 'min_child_weight': 1.0, 'subsample': 0.9583031006965126, 'colsample_bytree': 0.4161660468308217, 'colsample_bylevel': 0.8, 'reg_lambda': 26.026032613827635, 'reg_alpha': 0.0057634173148486765, 'gamma': 0.0011557585762524052, '_mean_iter': 133.33333333333334}
