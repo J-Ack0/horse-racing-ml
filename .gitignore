@@ -40,6 +40,7 @@ __pycache__/
 .DS_Store
 .env
 .*__pycache__
+*.env
 
 #important
 p*.py
@@ -49,3 +50,8 @@ models/horse_racing_model_20250615_151313
 models/horse_racing_model_20250615_213702
 models/horse_racing_model_20250614_121330
 
+# External data (Kaggle raceform dataset, ~1.1GB SQLite - not for git)
+data/
+*.db
+*.sqlite
+*.sqlite3
