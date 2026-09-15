@@ -55,3 +55,9 @@ data/
 *.db
 *.sqlite
 *.sqlite3
+
+# kaggle_v2
+ml/kaggle_v2/cache/
+ml/kaggle_v2/__pycache__/
+!ml/kaggle_v2/results_*.csv
+!ml/kaggle_v2/reliability*.csv

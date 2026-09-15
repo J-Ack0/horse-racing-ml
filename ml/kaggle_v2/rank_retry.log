@@ -1,0 +1,5 @@
+rank:ndcg it=214 (83s) AUC=0.7115 top1=0.2658 MRR=0.4783 rll=1.9854
+rank:pairwise it=1199 (237s) AUC=0.6861 top1=0.2432 MRR=0.4532 rll=2.0485
+                model      auc       ap     top1     top3      mrr    ndcg3  race_logloss  brier_norm      ece
+    rank:ndcg (retry) 0.711467 0.232206 0.265824 0.594698 0.478343 0.454751      1.985430    0.084668 0.007657
+rank:pairwise (retry) 0.686111 0.215867 0.243156 0.553450 0.453208 0.420765      2.048501    0.086370 0.011448
