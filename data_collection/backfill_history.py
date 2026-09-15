@@ -14,6 +14,10 @@ pre-race feature build (fetch_daily_racecards.py does that, pre-race fields
 only). Keeping the two scripts separate is deliberate: it makes it
 structurally impossible to leak a result into a same-day pre-race feature.
 
+The API's /v1/results endpoint takes a start_date/end_date range directly
+(not one call per day) and paginates at limit=500 rows/page — see
+docs/2026-09-14_live_data_pipeline_plan.md, "Confirmed API schema".
+
 Usage:
     python backfill_history.py                      # 2026-05-28 -> yesterday
     python backfill_history.py --start 2026-06-01 --end 2026-06-30
@@ -22,7 +26,6 @@ from __future__ import annotations
 
 import argparse
 import sys
-import time
 from datetime import date, timedelta, datetime, timezone
 
 from racingapi_client import RacingAPIClient, RacingAPIError
@@ -33,12 +36,17 @@ DATASET_END_DATE = date(2026, 5, 27)  # last date present in data/raceform.db
 
 def results_to_rows(payload: dict, fetched_at: str) -> list[dict]:
     """
-    Map one /results response onto our `data` table row shape.
+    Map one /v1/results page onto our `data` table row shape.
 
-    ASSUMPTION: payload shape mirrors racecards
-    ({"results": [{race fields..., "runners": [...]}]}) with runner-level
-    finishing fields added (position, sp, ratings). VERIFY with a probe
-    result response and adjust key names before relying on this.
+    Field names per the documented schema (see docs/2026-09-14_live_data_pipeline_plan.md):
+    API `position` -> our `pos`, `sp_dec` -> our `sp` (decimal, matches how
+    raceform.db's `sp` column is used downstream), `weight_lbs` -> our `wgt`,
+    `performance_rating`/`speed_rating` -> our `rpr`/`ts`, `comments` -> our
+    `comment`, `race_class` -> our `class`. `ovr_btn` has no confirmed API
+    equivalent (only overall `btn` documented) — left NULL until verified.
+    Response is assumed race-grouped with nested runners, mirroring
+    /racecards/standard's shape (same vendor, same doc family) — CONFIRM
+    with a --probe once results() is first called for real.
     """
     rows: list[dict] = []
     for race in payload.get("results", []):
@@ -56,7 +64,7 @@ def results_to_rows(payload: dict, fetched_at: str) -> list[dict]:
             "sex_rest": race.get("sex_restriction"),
             "dist": race.get("distance"),
             "going": race.get("going"),
-            "ran": len(race.get("runners", [])),
+            "ran": race.get("field_size") or len(race.get("runners", [])),
             "fetched_at": fetched_at,
         }
         for runner in race.get("runners", []):
@@ -65,36 +73,27 @@ def results_to_rows(payload: dict, fetched_at: str) -> list[dict]:
                 "num": runner.get("number"),
                 "draw": runner.get("draw"),
                 "pos": runner.get("position"),
-                "ovr_btn": runner.get("overall_beaten_distance"),
-                "btn": runner.get("beaten_distance"),
+                "btn": runner.get("btn"),
                 "horse": runner.get("horse"),
                 "age": runner.get("age"),
                 "sex": runner.get("sex"),
-                "wgt": runner.get("weight"),
+                "wgt": runner.get("weight_lbs"),
                 "hg": runner.get("headgear"),
-                "time": runner.get("time"),
-                "sp": runner.get("starting_price"),
+                "sp": runner.get("sp_dec"),
                 "jockey": runner.get("jockey"),
                 "trainer": runner.get("trainer"),
                 "prize": runner.get("prize"),
-                "or": runner.get("official_rating"),
-                "rpr": runner.get("rpr"),
-                "ts": runner.get("ts"),
+                "or": runner.get("ofr"),
+                "rpr": runner.get("performance_rating"),
+                "ts": runner.get("speed_rating"),
                 "sire": runner.get("sire"),
                 "dam": runner.get("dam"),
                 "damsire": runner.get("damsire"),
                 "owner": runner.get("owner"),
-                "comment": runner.get("comment"),
+                "comment": runner.get("comments"),
             })
             rows.append(row)
     return rows
-
-
-def daterange(start: date, end: date):
-    d = start
-    while d <= end:
-        yield d
-        d += timedelta(days=1)
 
 
 def main() -> int:
@@ -115,19 +114,20 @@ def main() -> int:
 
     conn = connect()
     total = 0
-    for d in daterange(args.start, args.end):
-        fetched_at = datetime.now(timezone.utc).isoformat()
-        try:
-            payload = client.results(d)
-        except RacingAPIError as e:
-            print(f"  {d.isoformat()}: ERROR {e} — skipping, re-run later to retry this date", file=sys.stderr)
-            continue
-        rows = results_to_rows(payload, fetched_at)
-        n = upsert_rows(conn, rows)
-        total += n
-        print(f"  {d.isoformat()}: {n} rows")
+    pages = 0
+    try:
+        for payload in client.results_all_pages(args.start, args.end):
+            fetched_at = datetime.now(timezone.utc).isoformat()
+            rows = results_to_rows(payload, fetched_at)
+            n = upsert_rows(conn, rows)
+            total += n
+            pages += 1
+            print(f"  page {pages}: {n} rows (total so far {payload.get('total')})")
+    except RacingAPIError as e:
+        print(f"ERROR: {e} — re-run to retry (upserts are idempotent, already-written rows are safe)", file=sys.stderr)
+        return 1
 
-    print(f"Backfill done: {total} rows across {(args.end - args.start).days + 1} days "
+    print(f"Backfill done: {total} rows across {pages} page(s) "
           f"({args.start.isoformat()} -> {args.end.isoformat()}) into live_extension.db")
     return 0
 

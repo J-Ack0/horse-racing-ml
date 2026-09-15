@@ -68,29 +68,63 @@ available *before* a race runs, not reconstructed after the fact.
   pattern of systemd user timers rather than cron (no crontab is set up
   here — see envmap). NOT yet installed/enabled.
 
-## ⚠️ Unverified — must confirm before first real run
+## Confirmed API schema (2026-09-15 update)
 
-The Racing API's documentation page (`api.theracingapi.com/documentation`)
-is gated behind signup; I could not fetch the actual field schema. Every
-script above encodes **assumed** JSON shapes and field names
-(`racecards_to_rows()` / `results_to_rows()` docstrings flag this
-explicitly). Before relying on this pipeline:
+`api.theracingapi.com/documentation` itself is gated behind signup and
+couldn't be fetched directly, but Context7's public doc index
+(`context7.com/websites/api_theracingapi`) has the same content mirrored
+and fetchable without an account. Used it to pull the real endpoint/field
+schema and rewrote the client + mapping functions against it (previously
+they were pure guesses — see git history of this file for the original
+assumed shape). Not yet verified against a *live* response with our own
+key — see the residual TODO below.
 
-1. Sign up, put the key in the venv, run:
+**Base URL:** `https://api.theracingapi.com`
+**Auth:** HTTP Basic (`Authorization: Basic <base64 user:pass>`) — Standard/Pro plans.
+**Rate limits:** Free 1 req/s; Standard 5 req/s (used in the client); Pro variable.
+
+### `GET /v1/racecards/standard` (pre-race, used by `fetch_daily_racecards.py`)
+Params: `day` ("today"|"tomorrow", default "today"), `region_codes[]`, `course_ids[]`, `limit` (default 500), `skip`.
+Response: `{racecards: [Race], total, limit, skip, query}`.
+
+Race fields (subset used): `race_id, race_name, course, date, off_time, distance, field_size, going, race_class, age_band, rating_band, sex_restriction, pattern, type, runners[]`.
+
+Runner fields (subset used) — **note the name deltas vs our schema**, already applied in `racecard_to_rows()`:
+`horse, number(->num), draw, age, sex, lbs(->wgt), ofr(->or), headgear(->hg), jockey, trainer, owner, sire, dam, damsire`.
+Also available but not yet consumed: `form, last_run, comment, trainer_14_days, odds[] (bookmaker quotes), silk_url, wind_surgery, colour, dob, breeder`.
+
+### `GET /v1/results` (post-race, used by `backfill_history.py`)
+Params: `start_date`, `end_date` (YYYY-MM-DD; defaults to a 365-day window if omitted — we always pass both), `region[]`, `course[]`, `type[]`, `going[]`, `race_class[]`, `limit` (default 50, we use 500), `skip`.
+Paginate via `skip += limit` until `skip >= total` — `results_all_pages()` in the client does this.
+
+Runner fields (subset used) — name deltas already applied in `results_to_rows()`:
+`position(->pos), sp_dec(->sp), btn, weight_lbs(->wgt), performance_rating(->rpr), speed_rating(->ts), comments(->comment), prize, ofr(->or)`.
+**Unconfirmed:** whether results rows nest under a race object with a `runners[]` array (assumed, matching racecards' shape — same vendor/doc family) or come back flat per-runner; whether `ovr_btn` (our column) has any equivalent (left NULL for now).
+
+### Other endpoints available, not used yet
+Search: `/v1/horses/search`, `/v1/jockeys/search`, `/v1/trainers/search`, `/v1/sires/search`, `/v1/dams/search`, `/v1/owners/search`.
+Profile/analysis: `/v1/horses/{id}/standard`, `/v1/horses/{id}/analysis/distance-times`, `/v1/trainers/{id}/analysis/{courses,jockeys,horse-ages}`, `/v1/sires/{id}/analysis/classes`, `/v1/damsires/{id}/analysis/classes`.
+Free tier (no auth): `/v1/racecards/free`, `/v1/results/today/free`, `/v1/meets/free` (North America) — useful for a quick connectivity smoke test before paying for Standard.
+
+## ⚠️ Still unverified — do this before the first real run
+
+The schema above is documented shape, not something confirmed against our
+own account/key yet. Before relying on this pipeline:
+
+1. Sign up (Standard plan, for the 5 req/s limit the client assumes and
+   for `/racecards/standard` + `/results` access), put the key in the venv, run:
    ```
    python data_collection/racingapi_client.py --probe
    ```
-2. Compare the real response against `REQUIRED_RAW_FIELDS` in
-   `racingapi_client.py` (mirrors `ml/kaggle_v2/features.py::load_raw()`'s
-   required columns: date, course, race_id, off, race_name, type, class,
-   pattern, age_band, sex_rest, dist, going, ran, num, pos, draw, horse,
-   age, sex, wgt, hg, jockey, trainer, or, sire, dam, damsire).
-3. Fix up the key names in `racecard_to_rows()` (fetch_daily_racecards.py)
-   and `results_to_rows()` (backfill_history.py) to match reality.
-4. Confirm official rating (`or`) and breeding fields (`sire`/`dam`/`damsire`)
-   are actually present pre-race on the racecard endpoint — these are the
-   fields most likely to require a separate horse-profile lookup rather
-   than being inline on the racecard.
+2. Diff the real response against the field lists above and against
+   `REQUIRED_RAW_FIELDS` in `racingapi_client.py` (mirrors
+   `ml/kaggle_v2/features.py::load_raw()`'s required columns).
+3. Specifically confirm: (a) `ofr` (official rating) and `sire`/`dam`/`damsire`
+   are actually populated pre-race on `/racecards/standard` — they're the
+   fields most likely to need a separate `/horses/{id}/standard` lookup
+   instead; (b) whether `/v1/results` nests runners under races or is flat;
+   (c) whether `sp_dec` is truly decimal odds (our `sp` column's expected format).
+4. Fix up any drift in `racecard_to_rows()` / `results_to_rows()`.
 
 ## Not done yet (next steps)
 

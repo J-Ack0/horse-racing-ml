@@ -22,19 +22,21 @@ import argparse
 import sys
 from datetime import date, timedelta, datetime, timezone
 
+
 from racingapi_client import RacingAPIClient, RacingAPIError
 from live_db import connect, upsert_rows
 
 
 def racecard_to_rows(payload: dict, fetched_at: str) -> list[dict]:
     """
-    Map one /racecards/standard response onto our `data` table row shape.
+    Map one /v1/racecards/standard response onto our `data` table row shape.
 
-    ASSUMPTION: payload shape is {"racecards": [{race fields..., "runners": [...]}]}
-    per The Racing API's documented pattern. VERIFY against a real --probe
-    response before relying on this in production — adjust key names below
-    to match. Only pre-race fields are populated; pos/sp/rpr/ts/prize/comment
-    are left NULL since they don't exist until after the race.
+    Field names below are per the documented schema (see
+    docs/2026-09-14_live_data_pipeline_plan.md, "Confirmed API schema") —
+    note several differ from our own column names: API `ofr` -> our `or`,
+    API `lbs` -> our `wgt`, API `race_class` -> our `class`. Only pre-race
+    fields are populated; pos/sp/rpr/ts/prize/comment are left NULL since
+    they don't exist until after the race.
     """
     rows: list[dict] = []
     for race in payload.get("racecards", []):
@@ -52,7 +54,7 @@ def racecard_to_rows(payload: dict, fetched_at: str) -> list[dict]:
             "sex_rest": race.get("sex_restriction"),
             "dist": race.get("distance"),
             "going": race.get("going"),
-            "ran": len(race.get("runners", [])),
+            "ran": race.get("field_size") or len(race.get("runners", [])),
             "fetched_at": fetched_at,
         }
         for runner in race.get("runners", []):
@@ -63,11 +65,11 @@ def racecard_to_rows(payload: dict, fetched_at: str) -> list[dict]:
                 "horse": runner.get("horse"),
                 "age": runner.get("age"),
                 "sex": runner.get("sex"),
-                "wgt": runner.get("weight"),
+                "wgt": runner.get("lbs"),
                 "hg": runner.get("headgear"),
                 "jockey": runner.get("jockey"),
                 "trainer": runner.get("trainer"),
-                "or": runner.get("official_rating"),
+                "or": runner.get("ofr"),
                 "sire": runner.get("sire"),
                 "dam": runner.get("dam"),
                 "damsire": runner.get("damsire"),
@@ -87,7 +89,7 @@ def main() -> int:
 
     try:
         client = RacingAPIClient()
-        payload = client.racecards(target)
+        payload = client.racecards(when=args.day)
     except RacingAPIError as e:
         print(f"ERROR: {e}", file=sys.stderr)
         return 1

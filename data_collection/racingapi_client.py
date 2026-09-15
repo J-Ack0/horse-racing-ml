@@ -13,13 +13,13 @@ activate script) — do NOT commit them. Load with, e.g.:
     source venv/bin/activate
     export $(grep -v '^#' venv/.env | xargs)   # or use python-dotenv
 
-ASSUMPTIONS TO VERIFY (docs are gated behind signup, could not be confirmed
-without an account — see docs/2026-09-14_live_data_pipeline_plan.md):
-  - base URL: https://api.theracingapi.com/v1
-  - endpoint paths below (racecards, results)
-  - exact field names in the JSON response
-Once you have a key, run `python data_collection/racingapi_client.py --probe`
-to dump one live racecard response and confirm/fix the paths & field map.
+Endpoint paths, params and field names below are sourced from the public
+Context7-indexed docs for api.theracingapi.com (2026-09-15) — see
+docs/2026-09-14_live_data_pipeline_plan.md for the full schema dump and the
+mapping table. Still unverified: the account's own key/plan hasn't hit these
+endpoints live yet, so run `python data_collection/racingapi_client.py --probe`
+once you have a key to confirm response shape hasn't drifted, then re-check
+against REQUIRED_RAW_FIELDS below.
 """
 from __future__ import annotations
 
@@ -83,27 +83,54 @@ class RacingAPIClient:
 
     # --- Racecards (pre-race, for live prediction) ---------------------
 
-    def racecards(self, day: date | None = None) -> Any:
-        """Racecards for a given day (default: today). Pre-race fields only."""
-        day = day or date.today()
+    def racecards(self, when: str = "today") -> Any:
+        """
+        Racecards for "today" or "tomorrow" (the API takes a day keyword,
+        not an arbitrary date — /v1/racecards/standard only ever covers
+        those two). Pre-race fields only.
+        """
+        if when not in ("today", "tomorrow"):
+            raise ValueError('racecards() day must be "today" or "tomorrow"')
         return self._get(
             "/racecards/standard",
-            params={"date": day.isoformat(), "region_codes": REGION},
+            params={"day": when, "region_codes": REGION},
         )
 
     # --- Results (post-race, for backfilling training history) ---------
 
-    def results(self, day: date) -> Any:
-        """Settled results for a single past day."""
+    def results(self, start: date, end: date | None = None, skip: int = 0) -> Any:
+        """
+        Settled results for [start, end] (inclusive), default end=start.
+        One page (limit=500); paginate by passing `skip` — the response's
+        "total" field tells you when you've read everything.
+        """
+        end = end or start
         return self._get(
             "/results",
-            params={"date": day.isoformat(), "region_codes": REGION},
+            params={
+                "start_date": start.isoformat(),
+                "end_date": end.isoformat(),
+                "region": REGION,
+                "limit": 500,
+                "skip": skip,
+            },
         )
+
+    def results_all_pages(self, start: date, end: date | None = None):
+        """Generator yielding every page's payload until `total` is exhausted."""
+        skip = 0
+        while True:
+            payload = self.results(start, end, skip=skip)
+            yield payload
+            total = payload.get("total", 0)
+            skip += 500
+            if skip >= total:
+                break
 
 
 def _probe(client: RacingAPIClient) -> None:
     """Dump one live racecard response so field names can be checked/mapped."""
-    data = client.racecards()
+    data = client.racecards(when="today")
     print(json.dumps(data, indent=2)[:4000])
     print("\n--- REQUIRED_RAW_FIELDS to locate in the above ---")
     print(REQUIRED_RAW_FIELDS)
