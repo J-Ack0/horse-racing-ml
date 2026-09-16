@@ -243,8 +243,74 @@ legitimate value for a non-pattern race) — fixed in the tests themselves.
       actually return data for "tomorrow" on the Free plan; only "today"
       has been live-verified.
 
+## Inference built and run live: 2026-09-16/17
+
+Built `ml/kaggle_v2/inference.py` — scores a day's racecard with the base
+(UK+IRE combined, includes `is_ire`) blend_all model: the three saved
+boosters `cache/final_{binary,softmax,pltop3}.json`, blended by the exact
+geometric-mean-then-renormalise method `exp_final.py`'s `blend()` uses.
+Output: `ml/kaggle_v2/predictions/predictions_<date>.csv` (gitignored, it's
+a run artifact) plus a top-pick-per-race console summary.
+
+**Performance**: the first working run (full ~1.85M-row historical table,
+`HISTORY_START=2021-01-01` → ~900K rows) took ~22 minutes on this Pi. Fixed
+per user direction — inference only needs each of today's ~150-450
+horses'/jockeys'/trainers'/sires'/dams'/damsires' OWN history, not a full
+scan, since every rolling/entity stat in `features.py` (`day_stats`, a
+horse's own `prior_*` shifts) is computed per-entity. `inference.py` now
+runs 6 separate indexed queries (`data_ext/raceform.db` got new indexes on
+`date` + all six entity columns) — one per entity column, `entity IN
+(today's values)` — unions and dedupes them, instead of a date-range scan.
+Result: **~1.85M rows → ~780K rows loaded → ~3m50s** end to end (still
+dominated by `features.build()`'s groupby/cumsum work over that row count,
+not the SQL read). `features.py::build()` also got a defragmenting
+`df.copy()` after the `day_stats` loop (pure performance, verified
+behavior-preserving).
+
+**Real correctness bugs found only by running this live, not by
+inspection** (all fixed, all covered by new regression tests in
+`data_collection/tests/test_fetch_daily_racecards.py`):
+
+1. `features.py::build()` dropped every race with zero winners so far —
+   correct for a data-integrity check on settled historical races, but it
+   silently deleted ALL of today's rows (none have run yet). Fixed to keep
+   a race when either it has ≥1 winner OR every row in it is unresolved
+   (`any_result_per_race == 0`).
+2. The API gives weight in plain lbs (`"140"`) and distance in plain
+   furlongs (`"10.0"`), but `features.py`'s `parse_wgt()`/`parse_dist()`
+   expect raceform.db's string formats (`"10-0"` stone-lbs, `"1m2f"`) and
+   silently return NaN otherwise — not an error, just empty features. Fixed
+   with `lbs_to_wgt_str()`/`furlongs_to_dist_str()` in
+   `fetch_daily_racecards.py`, applied at row-construction time (not by
+   touching the shared parser, to keep the training path untouched).
+3. **The big one**: `data_ext/raceform.db` suffixes EVERY horse name with
+   its region in parens — `"Great Blasket (IRE)"`, and even GB-bred horses
+   get `"(GB)"`, zero exceptions found. The API's `horse` field is bare. Since
+   `features.py::build()` keys its per-horse `groupby('horse')` on that exact
+   string, a mismatch means today's row and that same horse's own
+   historical rows are treated as two unrelated entities — EVERY
+   `prior_*`/`h_*` feature (win rate, days since last run, prior RPR/TS/OR,
+   course/distance/going experience) comes back NaN for every live runner,
+   regardless of how much history is loaded, because the join key itself
+   never matches. This produced 30 all-NaN features on the first correct
+   run and wasn't caught by any test — it doesn't raise, it just produces
+   silently-empty features. Fixed with `with_region_suffix()`, using the
+   API's per-runner `region` field (confirmed present on the Free tier).
+   **Known residual gap**: `sire`/`dam`/`damsire` are horse names too and
+   have the exact same suffix convention, but the Free-tier racecard
+   response does not include `sire_region`/`dam_region`/`damsire_region`
+   (only `region` for the horse itself is present) — so `sire_wr`/`dam_wr`/
+   `dsire_wr`-derived features are still silently zero/NaN for now. Lowest
+   priority to fix of the three (breeding-based stats, much less predictive
+   than the horse's own form) but not yet done.
+
+Final clean run (2026-09-17, 444 runners / 39 races): only 1 feature
+(`sire_wr_z`, an expected consequence of the residual sire/dam/damsire gap
+above) came back all-NaN, down from 30.
+
 ## Cross-references
 
 - `ml/kaggle_v2/README.md` — AUC improvement writeup, point-in-time rules.
 - `FIXES.md`, `TRIAL_RUN_AUDIT.md` — why the RP scraper was rejected.
 - `data/Kaggle_ReadMe.md` — static dataset provenance.
+- `ml/kaggle_v2/inference.py` — live scoring entry point.

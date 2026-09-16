@@ -114,9 +114,13 @@ def build(df):
     df['ran'] = to_num(df['ran'])
     df = df[(df['ran'] >= 3) & (df['ran'].notna())]
 
-    # drop races without exactly one winner (data errors / dead heats handled by keeping >=1)
+    # Drop races with a result but zero winners (data errors). A race where
+    # EVERY row is unresolved (pos not yet known - i.e. today's/a future
+    # racecard, used at inference time) is deliberately kept: it hasn't run
+    # yet, so "zero winners so far" doesn't mean the data is broken.
     wins_per_race = df.groupby('race_id')['win'].transform('sum')
-    df = df[wins_per_race >= 1]
+    any_result_per_race = df.groupby('race_id')['finished'].transform('max')
+    df = df[(wins_per_race >= 1) | (any_result_per_race == 0)]
 
     df = df.sort_values(['date', 'race_id']).reset_index(drop=True)
 
@@ -237,6 +241,12 @@ def build(df):
     day_stats(['dam'], 'dam')
     day_stats(['damsire'], 'dsire')
     day_stats(['trainer', 'type'], 'tt')
+
+    # The per-column assignments above (and the horse/course/dist/going/type
+    # loop before them) leave the frame heavily fragmented -- a single
+    # defragmenting copy here is a pure performance fix (same values, better
+    # memory layout), not a behavior change.
+    df = df.copy()
 
     # ---------------- race-relative (within-race) transforms ----------------
     # These use only OTHER runners' PRE-RACE features -> not leakage.
