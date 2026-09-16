@@ -15,8 +15,18 @@ only). Keeping the two scripts separate is deliberate: it makes it
 structurally impossible to leak a result into a same-day pre-race feature.
 
 The API's /v1/results endpoint takes a start_date/end_date range directly
-(not one call per day) and paginates at limit=500 rows/page — see
-docs/2026-09-14_live_data_pipeline_plan.md, "Confirmed API schema".
+(not one call per day) and paginates at limit=500 rows/page.
+
+⚠️ LIVE-CONFIRMED 2026-09-16: this endpoint 401s with "Standard Plan
+required" on the account's current Free plan — see
+docs/2026-09-14_live_data_pipeline_plan.md, "Live-verified 2026-09-16".
+This script will fail with a clear RacingAPIPlanError until the account is
+upgraded. Its exact field mapping (results_to_rows below) is therefore
+still UNVERIFIED against a real paid response — only the Free-tier
+/results/today/free shape has been confirmed live, and that lacks
+sp/rpr/ts/prize/comment entirely, so it can't be used to verify this
+mapping either. Re-check field names with a live call as the very first
+thing after upgrading.
 
 Usage:
     python backfill_history.py                      # 2026-05-28 -> yesterday
@@ -28,7 +38,7 @@ import argparse
 import sys
 from datetime import date, timedelta, datetime, timezone
 
-from racingapi_client import RacingAPIClient, RacingAPIError
+from racingapi_client import RacingAPIClient, RacingAPIError, RacingAPIPlanError
 from live_db import connect, upsert_rows
 
 DATASET_END_DATE = date(2026, 5, 27)  # last date present in data/raceform.db
@@ -44,6 +54,9 @@ def results_to_rows(payload: dict, fetched_at: str) -> list[dict]:
     `performance_rating`/`speed_rating` -> our `rpr`/`ts`, `comments` -> our
     `comment`, `race_class` -> our `class`. `ovr_btn` has no confirmed API
     equivalent (only overall `btn` documented) — left NULL until verified.
+    An unrated horse's `or`/`ofr` comes back as the literal string "–" (an
+    en dash), not null/0 — confirmed live 2026-09-16. Downstream numeric
+    parsing of `or` must handle that, not assume it's always an int string.
     Response is assumed race-grouped with nested runners, mirroring
     /racecards/standard's shape (same vendor, same doc family) — CONFIRM
     with a --probe once results() is first called for real.
@@ -83,7 +96,10 @@ def results_to_rows(payload: dict, fetched_at: str) -> list[dict]:
                 "jockey": runner.get("jockey"),
                 "trainer": runner.get("trainer"),
                 "prize": runner.get("prize"),
-                "or": runner.get("ofr"),
+                # NOTE: racecards/free uses key "ofr" but results/today/free uses
+                # key "or" for the same field (confirmed live 2026-09-16, an
+                # actual vendor inconsistency between endpoints) — try both.
+                "or": runner.get("or", runner.get("ofr")),
                 "rpr": runner.get("performance_rating"),
                 "ts": runner.get("speed_rating"),
                 "sire": runner.get("sire"),
@@ -123,6 +139,11 @@ def main() -> int:
             total += n
             pages += 1
             print(f"  page {pages}: {n} rows (total so far {payload.get('total')})")
+    except RacingAPIPlanError as e:
+        print(f"ERROR: {e}\nHistorical backfill needs a Standard plan subscription "
+              f"(theracingapi.com) — the Free plan only covers today's racecards/results.",
+              file=sys.stderr)
+        return 1
     except RacingAPIError as e:
         print(f"ERROR: {e} — re-run to retry (upserts are idempotent, already-written rows are safe)", file=sys.stderr)
         return 1

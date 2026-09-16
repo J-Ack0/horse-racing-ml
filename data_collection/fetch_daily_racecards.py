@@ -27,19 +27,22 @@ from racingapi_client import RacingAPIClient, RacingAPIError
 from live_db import connect, upsert_rows
 
 
-def racecard_to_rows(payload: dict, fetched_at: str) -> list[dict]:
+def racecard_to_rows(races: list[dict], fetched_at: str) -> list[dict]:
     """
-    Map one /v1/racecards/standard response onto our `data` table row shape.
+    Map a list of races from /v1/racecards/free (racingapi_client.racecards_free())
+    onto our `data` table row shape.
 
-    Field names below are per the documented schema (see
-    docs/2026-09-14_live_data_pipeline_plan.md, "Confirmed API schema") —
-    note several differ from our own column names: API `ofr` -> our `or`,
-    API `lbs` -> our `wgt`, API `race_class` -> our `class`. Only pre-race
-    fields are populated; pos/sp/rpr/ts/prize/comment are left NULL since
-    they don't exist until after the race.
+    Field names below are LIVE-CONFIRMED against the account's own key on
+    2026-09-16 (see docs/2026-09-14_live_data_pipeline_plan.md,
+    "Live-verified 2026-09-16"). Deltas from our column names: API `ofr` ->
+    our `or`, API `lbs` -> our `wgt`, API `race_class` -> our `class`, API
+    `distance_f` -> our `dist` (furlongs-as-string; the free tier has no
+    "6f210y"-style distance string, only distance_f). Only pre-race fields
+    are populated; pos/sp/rpr/ts/prize/comment are left NULL since they
+    don't exist until after the race.
     """
     rows: list[dict] = []
-    for race in payload.get("racecards", []):
+    for race in races:
         base = {
             "date": race.get("date"),
             "course": race.get("course"),
@@ -52,7 +55,7 @@ def racecard_to_rows(payload: dict, fetched_at: str) -> list[dict]:
             "rating_band": race.get("rating_band"),
             "age_band": race.get("age_band"),
             "sex_rest": race.get("sex_restriction"),
-            "dist": race.get("distance"),
+            "dist": race.get("distance_f"),
             "going": race.get("going"),
             "ran": race.get("field_size") or len(race.get("runners", [])),
             "fetched_at": fetched_at,
@@ -89,12 +92,12 @@ def main() -> int:
 
     try:
         client = RacingAPIClient()
-        payload = client.racecards(when=args.day)
+        races = client.racecards_free(when=args.day)
     except RacingAPIError as e:
         print(f"ERROR: {e}", file=sys.stderr)
         return 1
 
-    rows = racecard_to_rows(payload, fetched_at)
+    rows = racecard_to_rows(races, fetched_at)
     if not rows:
         print(f"No racecard rows returned for {target.isoformat()} — nothing written.")
         return 0

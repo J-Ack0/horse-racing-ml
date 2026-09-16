@@ -1,25 +1,36 @@
 """
 Thin client for The Racing API (theracingapi.com) — UK & Ireland coverage.
 
-Auth: HTTP Basic (username/password issued on the dashboard after subscribing),
-read from environment variables so credentials never touch the repo:
+Auth: HTTP Basic. Credentials live in a `.env` file at the repo root
+(`USERNAME=...` / `PASSWORD=...`, gitignored — see the ".env" entry added
+in 56dfabf) and are loaded via `load_dotenv()` below — never hardcoded,
+never logged, never printed by this module.
 
-    RACING_API_USERNAME
-    RACING_API_PASSWORD
+`USERNAME`/`PASSWORD` are generic names shared with things like your shell
+login. `load_dotenv()` does NOT override a value already present in the
+real environment, so if your shell happens to already export its own
+USERNAME/PASSWORD those win silently. If auth ever looks wrong, check
+`env | grep -E '^(USERNAME|PASSWORD)='` before assuming the .env is bad.
 
-Put these in a .env file inside your venv (or export them in the venv's
-activate script) — do NOT commit them. Load with, e.g.:
+Endpoint paths/params/fields below are CONFIRMED LIVE against the account's
+own key on 2026-09-16 (see docs/2026-09-14_live_data_pipeline_plan.md,
+"Live-verified 2026-09-16" section) — not just vendor docs. Two important
+findings from that verification:
 
-    source venv/bin/activate
-    export $(grep -v '^#' venv/.env | xargs)   # or use python-dotenv
-
-Endpoint paths, params and field names below are sourced from the public
-Context7-indexed docs for api.theracingapi.com (2026-09-15) — see
-docs/2026-09-14_live_data_pipeline_plan.md for the full schema dump and the
-mapping table. Still unverified: the account's own key/plan hasn't hit these
-endpoints live yet, so run `python data_collection/racingapi_client.py --probe`
-once you have a key to confirm response shape hasn't drifted, then re-check
-against REQUIRED_RAW_FIELDS below.
+  1. This account is on the **Free plan**. `/racecards/standard` and the
+     historical `/results` endpoint both 401 with "Standard Plan required".
+     `/racecards/free` and `/results/today/free` work and, for racecards,
+     actually carry every pre-race field the model needs (ofr, lbs, draw,
+     sire/dam/damsire, headgear, jockey, trainer, owner) — so live
+     PREDICTION works today without upgrading. Historical BACKFILL
+     (backfill_history.py) does NOT: `/results/today/free` only covers
+     today and is missing sp/rpr/ts/prize/comment even for today. That
+     needs a Standard plan subscription.
+  2. Free-plan rate limit is 1 req/sec, not 5 — confirmed via a live 429
+     ("Rate limit exceeded: 1 per 1 second"). Also `region_codes` takes ONE
+     region per call ("gb" or "ire"), not a combined "gb+ire" (422
+     "unrecognised region code, gb+ire") — REGIONS below are queried one
+     at a time and merged.
 """
 from __future__ import annotations
 
@@ -27,14 +38,40 @@ import os
 import time
 import json
 import argparse
-from datetime import date, datetime
+import subprocess
+from datetime import date
+from pathlib import Path
 from typing import Any
 
 import requests
+from dotenv import load_dotenv
+
+
+def _load_env() -> None:
+    """
+    Load .env from this checkout's root, and — since .env is gitignored and
+    so isn't copied into git worktrees — also fall back to the main repo's
+    root (found via `git rev-parse --git-common-dir`) so this works whether
+    run from the main checkout or a worktree.
+    """
+    here_root = Path(__file__).resolve().parent.parent
+    load_dotenv(here_root / ".env")
+    try:
+        common_dir = subprocess.run(
+            ["git", "rev-parse", "--git-common-dir"],
+            cwd=here_root, capture_output=True, text=True, check=True,
+        ).stdout.strip()
+        main_root = Path(common_dir).resolve().parent
+        load_dotenv(main_root / ".env")
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        pass
+
+
+_load_env()
 
 BASE_URL = "https://api.theracingapi.com/v1"
-REGION = "gb+ire"  # GB + Ireland, matches the UK+IRE training data
-RATE_LIMIT_PER_SEC = 5  # per theracingapi.com docs, default plan limit
+REGIONS = ["gb", "ire"]  # queried one at a time and merged — see module docstring
+RATE_LIMIT_PER_SEC = 1  # confirmed live for the Free plan; bump if/when upgraded
 
 # Raw fields features.py::load_raw() needs, for reference when mapping the
 # API's JSON response onto our schema:
@@ -50,57 +87,109 @@ class RacingAPIError(RuntimeError):
     pass
 
 
+class RacingAPIPlanError(RacingAPIError):
+    """Raised when the account's plan doesn't cover the requested endpoint."""
+
+
 class RacingAPIClient:
+    # Class-level (shared across every instance in this process), not
+    # per-instance: the rate limit is enforced by the vendor per ACCOUNT,
+    # not per client object, so two RacingAPIClient()s created back-to-back
+    # (e.g. in two separate script runs sharing a process, or two tests)
+    # must not each think they get their own fresh 1-req/sec allowance.
+    _last_request_ts = 0.0
+
     def __init__(self, username: str | None = None, password: str | None = None):
-        self.username = username or os.environ.get("RACING_API_USERNAME")
-        self.password = password or os.environ.get("RACING_API_PASSWORD")
+        self.username = username or os.environ.get("USERNAME")
+        self.password = password or os.environ.get("PASSWORD")
         if not self.username or not self.password:
             raise RacingAPIError(
-                "Set RACING_API_USERNAME and RACING_API_PASSWORD in the environment "
-                "(e.g. a .env file in your venv) before using this client."
+                "Set USERNAME and PASSWORD in the repo-root .env "
+                "before using this client."
             )
         self.session = requests.Session()
         self.session.auth = (self.username, self.password)
-        self._last_request_ts = 0.0
 
     def _throttle(self) -> None:
         min_interval = 1.0 / RATE_LIMIT_PER_SEC
-        elapsed = time.monotonic() - self._last_request_ts
+        elapsed = time.monotonic() - RacingAPIClient._last_request_ts
         if elapsed < min_interval:
             time.sleep(min_interval - elapsed)
-        self._last_request_ts = time.monotonic()
+        RacingAPIClient._last_request_ts = time.monotonic()
 
     def _get(self, path: str, params: dict | None = None) -> Any:
         self._throttle()
         url = f"{BASE_URL}{path}"
         resp = self.session.get(url, params=params, timeout=30)
+        RacingAPIClient._last_request_ts = time.monotonic()  # account for request latency too
+
+        if resp.status_code == 200:
+            return resp.json()
+
+        try:
+            detail = resp.json().get("detail") or resp.json().get("error")
+        except (ValueError, AttributeError):
+            detail = resp.text[:200]
+
+        if resp.status_code == 401 and detail and "plan" in str(detail).lower():
+            raise RacingAPIPlanError(f"{path}: {detail} (account plan doesn't cover this endpoint)")
         if resp.status_code == 401:
-            raise RacingAPIError("401 Unauthorized — check RACING_API_USERNAME/PASSWORD.")
+            raise RacingAPIError(f"{path}: 401 Unauthorized — check USERNAME/PASSWORD in .env ({detail})")
         if resp.status_code == 429:
-            raise RacingAPIError("429 rate limited — back off and retry.")
-        resp.raise_for_status()
-        return resp.json()
+            raise RacingAPIError(f"{path}: 429 rate limited ({detail}) — back off and retry.")
+        if resp.status_code == 422:
+            raise RacingAPIError(f"{path}: 422 validation error — {detail}")
+        raise RacingAPIError(f"{path}: HTTP {resp.status_code} — {detail}")
 
-    # --- Racecards (pre-race, for live prediction) ---------------------
+    # --- Racecards (pre-race, for live prediction) ----------------------
+    # Free-plan endpoint. Carries every pre-race field REQUIRED_RAW_FIELDS
+    # needs (verified live 2026-09-16) — no plan upgrade needed for this.
 
-    def racecards(self, when: str = "today") -> Any:
+    def racecards_free(self, when: str = "today") -> list[dict]:
         """
-        Racecards for "today" or "tomorrow" (the API takes a day keyword,
-        not an arbitrary date — /v1/racecards/standard only ever covers
-        those two). Pre-race fields only.
+        Racecards for "today" or "tomorrow", merged across REGIONS. Each
+        call only takes one region, so this makes len(REGIONS) requests.
+
+        NOTE: /racecards/free actually only supports day="today" — "tomorrow"
+        is accepted as a param by this client but not guaranteed to return
+        anything until verified; the pre-race evening-fetch flow may need
+        to fall back to same-day-only until a Standard plan is available
+        (see docs/2026-09-14_live_data_pipeline_plan.md).
         """
+        races: list[dict] = []
+        for region in REGIONS:
+            payload = self._get("/racecards/free", params={"region_codes": region, "day": when})
+            races.extend(payload.get("racecards", []))
+        return races
+
+    def racecards_standard(self, when: str = "today") -> list[dict]:
+        """Paid-plan racecards (richer fields incl. bookmaker odds). Raises RacingAPIPlanError on Free."""
         if when not in ("today", "tomorrow"):
-            raise ValueError('racecards() day must be "today" or "tomorrow"')
-        return self._get(
-            "/racecards/standard",
-            params={"day": when, "region_codes": REGION},
-        )
+            raise ValueError('racecards_standard() day must be "today" or "tomorrow"')
+        races: list[dict] = []
+        for region in REGIONS:
+            payload = self._get("/racecards/standard", params={"day": when, "region_codes": region})
+            races.extend(payload.get("racecards", []))
+        return races
 
     # --- Results (post-race, for backfilling training history) ---------
 
+    def results_today_free(self) -> list[dict]:
+        """
+        Free-plan today's results. Missing sp/rpr/ts/prize/comment (verified
+        live 2026-09-16) — usable for a coarse position-only signal, NOT a
+        substitute for the Standard-plan historical backfill below.
+        """
+        races: list[dict] = []
+        for region in REGIONS:
+            payload = self._get("/results/today/free", params={"region": region})
+            races.extend(payload.get("results", []))
+        return races
+
     def results(self, start: date, end: date | None = None, skip: int = 0) -> Any:
         """
-        Settled results for [start, end] (inclusive), default end=start.
+        Paid-plan historical results for [start, end] (inclusive).
+        Raises RacingAPIPlanError on the Free plan (confirmed live).
         One page (limit=500); paginate by passing `skip` — the response's
         "total" field tells you when you've read everything.
         """
@@ -110,7 +199,7 @@ class RacingAPIClient:
             params={
                 "start_date": start.isoformat(),
                 "end_date": end.isoformat(),
-                "region": REGION,
+                "region": "gb,ire",
                 "limit": 500,
                 "skip": skip,
             },
@@ -129,11 +218,20 @@ class RacingAPIClient:
 
 
 def _probe(client: RacingAPIClient) -> None:
-    """Dump one live racecard response so field names can be checked/mapped."""
-    data = client.racecards(when="today")
-    print(json.dumps(data, indent=2)[:4000])
+    """Dump live racecard + results data (free tier) so field names can be checked/mapped."""
+    races = client.racecards_free(when="today")
+    print(f"racecards_free: {len(races)} races")
+    if races:
+        print(json.dumps(races[0], indent=2)[:3000])
     print("\n--- REQUIRED_RAW_FIELDS to locate in the above ---")
     print(REQUIRED_RAW_FIELDS)
+
+    print("\n--- trying /racecards/standard (expect RacingAPIPlanError on Free) ---")
+    try:
+        client.racecards_standard(when="today")
+        print("Standard plan racecards worked — upgrade already in effect!")
+    except RacingAPIPlanError as e:
+        print(f"As expected on Free plan: {e}")
 
 
 if __name__ == "__main__":

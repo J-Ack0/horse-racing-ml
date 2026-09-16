@@ -1,7 +1,11 @@
 # Live Data Pipeline — Plan & Progress
 
 **Started:** 2026-09-14
-**Status:** code scaffolded, NOT YET RUN — needs API key + field-mapping verification
+**Last updated:** 2026-09-16
+**Status:** LIVE-VERIFIED. Live prediction data pull works end-to-end today
+(no plan upgrade needed). Historical backfill is code-complete but blocked
+on a Standard plan subscription. 45-test suite in place, all passing
+(41 mocked + 4 live).
 
 ## Why this exists
 
@@ -126,21 +130,118 @@ own account/key yet. Before relying on this pipeline:
    (c) whether `sp_dec` is truly decimal odds (our `sp` column's expected format).
 4. Fix up any drift in `racecard_to_rows()` / `results_to_rows()`.
 
+## Live-verified 2026-09-16
+
+Credentials were added to a repo-root `.env` (`USERNAME=`/`PASSWORD=`,
+gitignored). Built a venv (`venv/`, not committed) with
+`requests`/`python-dotenv`/`pytest`/`responses`, then ran the pipeline
+against the real API — not just against vendor docs. Findings that changed
+the design:
+
+1. **Account plan is Free, not Standard.** `/racecards/standard` and the
+   historical `/v1/results` both return `401 {"detail": "Standard Plan
+   required"}`. This was unknown until tested live.
+2. **The Free racecards endpoint (`/racecards/free`) is actually sufficient
+   for live prediction.** Live-pulled response has every pre-race field
+   `features.py` needs: `ofr` (official rating), `lbs` (weight), `draw`,
+   `sire`/`dam`/`damsire`, `headgear`, `jockey`, `trainer`, `owner`, plus
+   race-level `race_class`, `going`, `age_band`, `sex_restriction`,
+   `pattern`, `rating_band`. **No plan upgrade needed to keep the daily
+   racecard fetch running.**
+3. **Historical backfill (`backfill_history.py`) is blocked**, not just
+   unverified — confirmed 401 live. `/results/today/free` (the free
+   results tier) does NOT substitute: it lacks `sp`/`rpr`/`ts`/`prize`/
+   `comment` entirely, even for just today. A Standard plan subscription is
+   a hard requirement to fill the `2026-05-28` → yesterday gap.
+4. **`region_codes` takes exactly one region per call**, not a combined
+   value — `"gb+ire"` 422s ("unrecognised region code"). Both
+   `racecards_free()` and `racecards_standard()` now loop `REGIONS = ["gb",
+   "ire"]` and merge.
+5. **Free-plan rate limit is 1 req/sec, not 5** — confirmed via a live 429
+   ("Rate limit exceeded: 1 per 1 second"). `RATE_LIMIT_PER_SEC` corrected.
+6. **Endpoint field-name inconsistency, caught by the test suite, not
+   manual inspection**: `/racecards/free` uses `ofr` for official rating,
+   but `/results/today/free` uses `or` for the same value on the same
+   account. `backfill_history.py::results_to_rows()` now tries both
+   (`runner.get("or", runner.get("ofr"))`).
+7. **Unrated horses return the literal string `"–"` (en dash)** for
+   `or`/`ofr`, not null or 0 — anything doing numeric parsing on that
+   column downstream must handle it.
+8. **Rate-limit clock was a real bug, not just a test artifact**: it was
+   stored per-`RacingAPIClient`-instance (`self._last_request_ts`), so two
+   client objects created back-to-back (e.g. two separate script
+   invocations sharing a process, or the daily fetch + backfill running in
+   sequence) would each think they got a fresh 1-req/sec allowance and
+   double the real rate against the account. Fixed to a class-level shared
+   clock (`RacingAPIClient._last_request_ts`), with a regression test
+   (`test_rate_limit_clock_is_shared_across_instances`).
+
+**Live pull confirmed working end-to-end**: `fetch_daily_racecards.py --day
+today` wrote 327 real runner rows across 5+ GB/IRE courses into
+`data/live_extension.db` with every required field populated.
+
+### Test suite
+
+`data_collection/tests/` — 45 tests, `pytest.ini` at `data_collection/`
+root. Run with `venv/bin/python -m pytest` from `data_collection/`.
+
+- `test_racingapi_client.py` (mocked via `responses`): credential handling,
+  error-code mapping (401/plan-vs-auth/422/429/non-JSON bodies), rate-limit
+  throttling incl. the shared-clock regression test, region merging,
+  pagination stop condition.
+- `test_fetch_daily_racecards.py`: `racecard_to_rows()` against a REAL
+  captured fixture (`tests/fixtures/racecards_free_gb.json`, live
+  2026-09-16) — checks every `REQUIRED_RAW_FIELDS` entry is present, no
+  post-race field leaks in, field-name translation is correct.
+- `test_backfill_history.py`: `results_to_rows()` mapping logic (still
+  bounded by point 3 above — full field coverage needs a paid-plan
+  fixture), CLI date-range defaults, and that a plan error surfaces a clear
+  message + exit code 1 instead of crashing.
+- `test_live_db.py`: upsert-on-`(date, race_id, horse)` idempotency,
+  declaration-change overwrites, missing-key-becomes-NULL, schema
+  re-entrancy — all against a throwaway sqlite file, never the real
+  `live_extension.db`.
+- `test_live_smoke.py`: **opt-in**, skipped unless
+  `RUN_LIVE_API_TESTS=1` (needs the real `.env`) — hits only Free-tier
+  endpoints, confirms the live schema hasn't drifted from the fixtures, and
+  confirms the Standard-plan gate is still in effect (update/remove that
+  assertion after upgrading).
+
+Three real bugs were caught and fixed by writing these tests, not by
+inspection: the `ofr`/`or` field-name inconsistency (#6 above), the
+per-instance rate-limit clock (#8 above), and two of the tests' own
+assumptions were initially too strict (checked `__dict__` contents instead
+of repr; required non-empty `pattern`/`sex_rest` when empty string is a
+legitimate value for a non-pattern race) — fixed in the tests themselves.
+
 ## Not done yet (next steps)
 
-- [ ] Sign up for The Racing API, get key, verify field mapping (above).
-- [ ] Run `backfill_history.py` once to fill `2026-05-28` → yesterday.
-- [ ] Install/enable the systemd timers (`systemctl --user enable --now ...`).
+- [x] ~~Sign up for The Racing API, get key, verify field mapping.~~ Done —
+      key is live, Free plan, mapping verified against real responses.
+- [ ] **Upgrade to Standard plan** to unblock `backfill_history.py` — this
+      is now the single blocker on filling `2026-05-28` → yesterday.
+      Re-verify `results_to_rows()`'s field mapping against a real paid
+      response immediately after upgrading (see point 3, live-verified
+      section) — it is currently the assumed/documented shape, not
+      confirmed.
+- [ ] Install/enable the systemd timers (`systemctl --user enable --now ...`)
+      — units exist in `data_collection/systemd/`, not yet installed.
 - [ ] Wire `live_extension.db` into `ml/kaggle_v2/common.py` / `features.py`
       so the feature build reads a UNION of `raceform.db` + `live_extension.db`
       (not done — those files are currently untouched, still point only at
       the static export).
-- [ ] Add `requests` (and `python-dotenv` if wanted) to whatever
-      requirements file the venv installs from — not present in the base
-      environment (`ModuleNotFoundError: requests`, checked this session).
+- [x] ~~Add `requests`/`python-dotenv` somewhere installable.~~ Done —
+      `venv/` created at the repo root with `requests`, `python-dotenv`,
+      `pytest`, `responses` (not committed; recreate with `python3 -m venv
+      venv && venv/bin/pip install requests python-dotenv pytest responses`).
 - [ ] Decide inference entry point: a script that, given today's
       `live_extension.db` rows, builds features and calls the trained
-      model — not built yet, this session only covers data acquisition.
+      model — not built yet, this session only covers data acquisition
+      and its test coverage.
+- [ ] `racecards_free(when="tomorrow")` is untested live — the evening
+      fetch flow (pulling tomorrow's card) hasn't been confirmed to
+      actually return data for "tomorrow" on the Free plan; only "today"
+      has been live-verified.
 
 ## Cross-references
 
