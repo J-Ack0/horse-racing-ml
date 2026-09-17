@@ -164,7 +164,7 @@ def blend_predictions(today: pd.DataFrame, feats: list[str]) -> pd.DataFrame:
     log_blend = sum(np.log(np.clip(pn[n], 1e-12, None)) for n in MODELS) / len(MODELS)
     pn["blend_all"] = softmax_by_group(log_blend, gidx, n_groups)
 
-    out = today[["date", "race_id", "course", "off", "race_name", "horse", "jockey", "trainer"]].copy()
+    out = today[["date", "race_id", "course", "off", "race_name", "horse", "jockey", "trainer", "num"]].copy()
     for name in MODELS + ["blend_all"]:
         out[name] = pn[name]
     out["rank_in_race"] = out.groupby("race_id")["blend_all"].rank(ascending=False, method="first")
