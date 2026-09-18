@@ -338,6 +338,35 @@ not hard: yesterday's results are still recoverable this way.
   finishing orders). Both days still carry the ~113-day history gap and the
   sire/dam/damsire suffix gap.
 
+## 2026-09-18 scored via the API (score_predictions.py)
+
+Inference was run at ~19:30 IST, after most races had finished, so this is a
+post-hoc run (the model never sees results, so no leakage, but it is not a
+prospective pre-race test). `/results/today/free` returned 42 finished races
+(416 runners, full finishing positions incl. `PU`/`F`).
+
+| Races | Top-1 (#1 pick won) | #1 pick finished top 3 | Precision@3 | Mean position error |
+|---|---|---|---|---|
+| 42 | 10/42 = 23.8% | 22/42 = 52.4% | 57/126 = 45.2% | 3.34 (random-order ≈ 3.5) |
+
+- **Results API carries positions but no features**: runner fields are only
+  `position`, `number`, names/ids, `weight`/`weight_lbs`, `or`, `draw`,
+  `headgear`, `sex`, `age`, breeding. No sp, rpr, ts, prize, comment, btn or
+  time. So it can score predictions but cannot feed `prior_rpr`/`prior_ts`
+  history; still no backfill without a Standard plan.
+- **Withdrawn horses (new pipeline finding)**: `/racecards/free` keeps
+  non-runners. 6 of 42 races had a withdrawn #1 pick and 51 declared runners
+  never ran. `score_predictions.py` now re-ranks each race among actual runners
+  (`n_nonrunners_dropped` in its output). For prospective use, the pre-race
+  refresh must drop withdrawn horses before inference, otherwise the model
+  ranks horses that will not run and field-size features are inflated.
+- Scorer bug fixed: predictions store `num` as float (`2.0`), API as string
+  (`"2"`), so the first run matched 0 races; both are now normalised (test added).
+- Mean position error is only slightly better than random ordering, so the
+  model's value is in the top of the ranking, not the full order.
+- Cumulative (16th + 17th + 18th, different scoring paths): 26 wins in 115
+  races = 22.6% top-1; the 18th's top-3 is 52.4%. History gap now 114 days.
+
 ## Cross-references
 
 - `ml/kaggle_v2/README.md` — AUC improvement writeup, point-in-time rules.

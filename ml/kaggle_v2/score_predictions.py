@@ -74,14 +74,27 @@ def fetch_results_today() -> pd.DataFrame:
 
 
 def score(predictions: pd.DataFrame, results: pd.DataFrame) -> dict:
+    # predictions.csv stores num as float (2.0, from features.py's to_num) while
+    # the API returns it as a string ("2"); normalise both to integer strings.
+    def _norm_num(s: pd.Series) -> pd.Series:
+        return pd.to_numeric(s, errors="coerce").astype("Int64").astype(str)
+
     predictions = predictions.copy()
-    predictions["num"] = predictions["num"].astype(str)
+    predictions["num"] = _norm_num(predictions["num"])
     results = results.copy()
-    results["num"] = results["num"].astype(str)
+    results["num"] = _norm_num(results["num"])
 
     merged = predictions.merge(results, on=["race_id", "num"], how="inner", suffixes=("", "_result"))
     n_races_predicted = predictions["race_id"].nunique()
     n_races_matched = merged["race_id"].nunique()
+
+    # The free racecard still lists horses withdrawn after declaration; they
+    # never appear in results. Re-rank each race among horses that actually
+    # ran (order preserved), otherwise a withdrawn #1 pick silently drops the
+    # race from top-1/top-3. Equivalent to having had correct declarations.
+    in_matched_races = predictions["race_id"].isin(merged["race_id"])
+    n_nonrunners_dropped = int(in_matched_races.sum() - len(merged))
+    merged["rank_in_race"] = merged.groupby("race_id")["rank_in_race"].rank(method="first")
     if n_races_matched == 0:
         raise RuntimeError(
             "No races matched between predictions and results — either none of "
@@ -101,6 +114,7 @@ def score(predictions: pd.DataFrame, results: pd.DataFrame) -> dict:
         "n_races_predicted": n_races_predicted,
         "n_races_matched": n_races_matched,
         "n_races_unfinished_or_unmatched": n_races_predicted - n_races_matched,
+        "n_nonrunners_dropped": n_nonrunners_dropped,
         "n_runners_matched": len(merged),
         "n_runners_finished": len(finished),
         "top1_accuracy": top1_accuracy,

@@ -85,6 +85,31 @@ def test_raises_when_nothing_matches():
         score(p, r)
 
 
+def test_withdrawn_top_pick_is_reranked_not_dropped():
+    p = preds([
+        {"date": "2026-09-18", "race_id": "r1", "num": 1, "rank_in_race": 1},  # withdrawn
+        {"date": "2026-09-18", "race_id": "r1", "num": 2, "rank_in_race": 2},
+        {"date": "2026-09-18", "race_id": "r1", "num": 3, "rank_in_race": 3},
+    ])
+    r = results([
+        {"race_id": "r1", "num": "2", "position": 1.0},
+        {"race_id": "r1", "num": "3", "position": 2.0},
+    ])
+    m = score(p, r)
+    assert m["n_nonrunners_dropped"] == 1
+    assert m["top1_accuracy"] == 1.0          # #2 becomes the effective #1 and won
+    assert m["mean_position_error"] == 0.0    # re-ranked order matches finish
+
+
+def test_float_num_from_predictions_csv_joins_to_string_num_from_api():
+    # Real shapes: predictions.csv has num=2.0 (float), API results have num="2".
+    p = preds([{"date": "2026-09-18", "race_id": "r1", "num": 2.0, "rank_in_race": 1}])
+    r = results([{"race_id": "r1", "num": "2", "position": 1.0}])
+    m = score(p, r)
+    assert m["n_races_matched"] == 1
+    assert m["top1_accuracy"] == 1.0
+
+
 def test_num_join_key_is_stringified_so_int_vs_str_mismatch_does_not_break_join():
     p = preds([{"date": "2026-09-17", "race_id": "r1", "num": 1, "rank_in_race": 1}])
     r = results([{"race_id": "r1", "num": "1", "position": 1.0}])
