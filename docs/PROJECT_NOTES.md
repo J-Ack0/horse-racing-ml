@@ -516,6 +516,25 @@ window 2025-11-29 to 2026-05-27, 7,961 races with a complete SP book):
   the market 26.6%, actual 27.3%. The model is well calibrated but carries no information
   beyond the market's price.
 
+**Odds distribution of the model's #1 picks at SP** (same 7,961 held-out races; decimal
+odds, stake included):
+
+| Group | n | Min | Q1 | Median | Q3 | Max | Mean | p90 | p99 |
+|---|---|---|---|---|---|---|---|---|---|
+| All bets | 7,961 | 1.04 | 2.40 | 3.50 | 5.30 | 113 | 4.66 | 8.10 | 21.0 |
+| Winners | 2,175 | 1.04 | 1.83 | 2.62 | 3.75 | 71 | 3.10 | 5.00 | 10.0 |
+| Losers | 5,786 | 1.12 | 2.80 | 4.00 | 6.00 | 113 | 5.25 | 9.15 | 24.0 |
+| Market favourite, winners | 2,688 | 1.04 | 1.83 | 2.40 | 3.20 | 7.0 | 2.59 | 4.00 | 5.5 |
+
+- Needed for +10%: mean winning odds of 4.03. Actual 3.10, so the return is 0.848 per
+  unit and the gap is 252 units per 1,000 bets. A winner set with the same shape would
+  need every winner to pay about 30% more (median about 3.4, Q3 about 4.9).
+- Winners are mostly short: 59% paid under 3.0 and only 8 of 2,175 paid 15.0 or more
+  (3.2% of the return). The top 5% of winners average 9.6; without them the mean is 2.77.
+- Extra winners needed per 1,000 bets to close the gap if each pays 5.0 / 8.0 / 12.0 /
+  21.0 / 34.0: 50 / 32 / 21 / 12 / 7 (that is +5.0 / +3.1 / +2.1 / +1.2 / +0.7 points of
+  hit rate). Long-shot winners are what would move it, and the model does not find them.
+
 **Caveats and what would change the conclusion**
 - SP is not an obtainable price. Exchange best-odds or early prices have a much smaller
   takeout (about 2 to 5% plus commission) and could shift the picture; that is untested.
