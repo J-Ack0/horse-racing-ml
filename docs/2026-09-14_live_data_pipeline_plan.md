@@ -308,6 +308,36 @@ Final clean run (2026-09-17, 444 runners / 39 races): only 1 feature
 (`sire_wr_z`, an expected consequence of the residual sire/dam/damsire gap
 above) came back all-NaN, down from 30.
 
+## Live scoring vs actual results (2026-09-16 and 2026-09-17)
+
+**Free historical-results source found**: `https://www.horseracing.net/results/<course>/<dd-mm-yy>`
+(e.g. `/results/yarmouth/16-09-26`) is server-rendered and returns a full
+card with 1st/2nd/3rd per race via WebFetch. Racing Post, Sporting Life,
+AtTheRaces, RacingTV and BBC results pages do not (JS apps / blocked, same
+finding as `FIXES.md`). This gets around the Standard-plan gate for
+*scoring* only (top 3, no full finishing order, no sp/rpr/ts), so it
+cannot substitute for `backfill_history.py`. It also means the "score the
+same day via `/results/today/free`" deadline in `score_predictions.py` is
+not hard: yesterday's results are still recoverable this way.
+
+| Day | Races | Top-1 precision (#1 pick won) | #1 pick finished top 3 | Precision@3 (model's top 3 vs actual top 3) |
+|---|---|---|---|---|
+| 2026-09-16 | 34 | 11/34 = 32.4% | 22/34 = 64.7% | 50/102 = 49.0% |
+| 2026-09-17 | 39 | 5/39 = 12.8% | 15/39 = 38.5% | 37/117 = 31.6% |
+| Combined | 73 | 16/73 = 21.9% | 37/73 = 50.7% | 87/219 = 39.7% |
+
+- Training-time reference (`results_final.csv`): top-1 ~0.27, top-3 (winner in
+  model's top 3) ~0.60. Random baseline at ~11 runners/race is ~9% top-1.
+- The 16th ran on the degraded feature set (before the horse-name region
+  fix, ~25 features all-NaN); the 17th ran on the fixed set. The 17th was
+  *worse*, so the fix did not visibly help, but n=39 is far too small to
+  separate that from day-to-day variance (top-1 SE at n=39 is ~7 points).
+- An earlier note said 35 races for the 16th; the correct count is 34 (one
+  Kelso race was dropped by `build()`, 3 of 327 runners).
+- Mean position error is not computable from top-3-only results (needs full
+  finishing orders). Both days still carry the ~113-day history gap and the
+  sire/dam/damsire suffix gap.
+
 ## Cross-references
 
 - `ml/kaggle_v2/README.md` — AUC improvement writeup, point-in-time rules.
