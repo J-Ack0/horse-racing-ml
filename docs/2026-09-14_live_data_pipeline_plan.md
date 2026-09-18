@@ -347,7 +347,10 @@ prospective pre-race test). `/results/today/free` returned 42 finished races
 
 | Races | Top-1 (#1 pick won) | #1 pick finished top 3 | Precision@3 | Mean position error |
 |---|---|---|---|---|
-| 42 | 10/42 = 23.8% | 22/42 = 52.4% | 57/126 = 45.2% | 3.34 (random-order ≈ 3.5) |
+| 44 | 10/44 = 22.7% | 22/44 = 50.0% | 60/132 = 45.5% | 3.36 (random-order ≈ 3.5) |
+
+(Re-run later the same evening once two more races had finished; the first
+pass over 42 races gave 23.8% / 52.4% / 45.2% / 3.34.)
 
 - **Results API carries positions but no features**: runner fields are only
   `position`, `number`, names/ids, `weight`/`weight_lbs`, `or`, `draw`,
