@@ -370,6 +370,49 @@ pass over 42 races gave 23.8% / 52.4% / 45.2% / 3.34.)
 - Cumulative (16th + 17th + 18th, different scoring paths): 26 wins in 115
   races = 22.6% top-1; the 18th's top-3 is 52.4%. History gap now 114 days.
 
+## Qualitative analysis: course selection and UK vs Ireland (2026-09-18)
+
+Sample: 117 scored races (16th, 17th, 18th; #1 pick per race, 18th re-ranked
+among actual runners). Far too small to rank individual courses.
+
+- **UK vs Ireland: no measurable difference.** UK 20/89 = 22.5% top-1, 51.7%
+  top-3; Ireland 6/28 = 21.4%, 46.4%. 95% CIs overlap almost entirely
+  (Ireland top-1 CI 0.10 to 0.40). Irish fields are larger (11.9 vs 9.8
+  runners), which alone explains the small top-3 gap.
+- **Course**: 4 to 16 races per course; Sandown 43%, Ayr 12.5%, Yarmouth 14%,
+  Wolverhampton 12.5% are all inside noise. Do not select or avoid courses
+  from this. Course results mostly track average field size (Kelso 5.4 and
+  Newton Abbot 6.7 runners look "good"; Ayr 12.4 looks "bad").
+- **What does drive results**: field size (<=8 runners: 31.7% top-1 / 73.2%
+  top-3; 13+: 14.8% / 22.2%; UK 13+ was 1/16) and race type (handicaps 9/66 =
+  13.6% top-1 and 56% of the sample; maiden/novice 33 to 42%; nurseries 1/10).
+  The model's own top-pick probability is mostly a field-size proxy; picks
+  below 0.15 won 1 of 26 (post-hoc threshold, needs out-of-sample validation).
+- **Structural Irish data issue (found this session)**: from 2025-10-15 the
+  source data dropped the "(IRE)" suffix from Irish course names ("Naas (IRE)"
+  became "Naas"). `features.py` sets `is_ire` from that suffix, so Irish
+  runners after that date, and every live Irish race, get `is_ire = 0`. The
+  README's "Irish data ends 2025-10-14" is a labelling artifact: Irish racing
+  continues in `raceform.db` under bare names (e.g. Dundalk 3,166 rows since).
+  The UK+IRE model's "UK-only" test window (2025-11-29 to 2026-05-27)
+  contained 13,818 Irish runners in 1,200 races, so the 0.7445 blend_all AUC
+  was on a mixed set, not UK only. Impact on predictions looks small:
+  `is_ire` is ~0.01 to 0.04% of model gain (rank ~120 of 131); course-keyed
+  stats (`tc_wr` ~0.9%, `jc_wr` ~0.5%) fragment across the two spellings.
+  The models lean on the horse's own form: `prior_rpr` rank/z-score, `h_rel_ema`,
+  field size. Fix: normalise course names (strip "(IRE)") in `load_raw()` and
+  derive `is_ire` from a course lookup, then retrain.
+- **Coverage**: 37% of Irish runners have no history in `raceform.db` vs 29% of
+  UK (median 3 vs 4 prior runs). History for both stops 2026-05-27
+  (median ~4 months since last run). Irish RPR coverage in history is not worse
+  than UK (82 to 93% vs 71 to 93%), so data quality is not the cause of any gap.
+- **Withdrawals (18th only)**: 20 non-runners over 13 Irish races (1.5/race)
+  vs 32 over 31 UK races (1.0/race).
+- **Suggested next step**: redo this on the held-out test split in
+  `cache/features.pkl` (thousands of races, `course` column is kept) to get
+  statistically usable per-course, per-region, per-field-size and
+  confidence-threshold numbers.
+
 ## Cross-references
 
 - `ml/kaggle_v2/README.md` — AUC improvement writeup, point-in-time rules.
