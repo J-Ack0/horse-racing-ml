@@ -6,7 +6,7 @@ the races have run.
 exposes finished results only through /v1/results/today/free — there is no
 way to fetch a PAST day's results without a Standard plan subscription (the
 historical /v1/results endpoint 401s "Standard Plan required", confirmed
-live 2026-09-16; see docs/2026-09-14_live_data_pipeline_plan.md). Run this
+live 2026-09-16; see docs/PROJECT_NOTES.md, section 4.3). Run this
 after the day's last race has gone off, for the same --date you ran
 inference.py with earlier that day — waiting until tomorrow makes that
 day's results permanently unscoreable on this plan.

@@ -3,7 +3,7 @@ Live inference: score today's (or any date's) racecard with the trained
 blend_all model (binary + race-softmax + Plackett-Luce top-3, UK+IRE
 combined — the "base", no-TAG model in cache/, matching results_final.csv's
 blend_all row, AUC 0.7445 on the held-out test split; see
-ml/kaggle_v2/README.md).
+docs/PROJECT_NOTES.md, section 3).
 
 Pipeline:
   1. Load TODAY's pre-race rows from data/live_extension.db (written by
@@ -12,7 +12,7 @@ Pipeline:
   2. Load ONLY the historical rows that can affect today's field: every row
      whose horse/jockey/trainer/sire/dam/damsire matches an entity running
      today (data_ext/raceform.db has indexes on all six columns for this -
-     see docs/2026-09-14_live_data_pipeline_plan.md). Every rolling/entity
+     see docs/PROJECT_NOTES.md, section 5). Every rolling/entity
      stat in features.py (day_stats, a horse's own prior_* shifts,
      horse-x-course/dist/going/type experience) is computed per-entity, so
      an entity's cumulative stat depends only on ITS OWN historical rows -
@@ -26,12 +26,12 @@ Pipeline:
      cumulative stats already exclude same-day rows by construction - so
      today's rows get properly-computed pre-race features without any
      special-casing.
-  4. Filter to today's date, select the 134 base features (cache/feature_names.txt,
+  4. Filter to today's date, select the 135 base features (cache/feature_names.txt,
      includes is_ire so both GB and IRE races score off one model), run the
      three saved boosters, and blend exactly as exp_final.py's blend() does:
      geometric mean of per-race-normalised probabilities, renormalised.
 
-⚠️ KNOWN DATA GAP (see docs/2026-09-14_live_data_pipeline_plan.md): the
+⚠️ KNOWN DATA GAP (see docs/PROJECT_NOTES.md, section 2.1): the
 historical DB ends 2026-05-27 and backfill_history.py is blocked on a
 Standard Racing API plan, so entity/rolling stats (days_since_run,
 jky_runs/trn_wr/etc., a horse's own recent-form features) do not reflect
@@ -135,7 +135,7 @@ def report_data_gap(historical: pd.DataFrame, target_date: str) -> None:
     gap_days = (pd.Timestamp(target_date) - pd.Timestamp(hist_max)).days
     print(f"⚠️  Historical data ends {hist_max}; today is {target_date} "
           f"({gap_days} days of unfilled history — backfill_history.py is blocked "
-          f"on a Standard Racing API plan, see docs/2026-09-14_live_data_pipeline_plan.md).\n"
+          f"on a Standard Racing API plan, see docs/PROJECT_NOTES.md, section 2.1).\n"
           f"    Recent-form features (days_since_run, entity day_stats, prior_*) for any "
           f"horse/jockey/trainer that has run since {hist_max} will UNDERSTATE recent "
           f"activity. Treat predictions as directional, not calibrated, until this gap "

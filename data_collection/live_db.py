@@ -5,7 +5,7 @@ Writes into `data/live_extension.db` — a SEPARATE file from the static Kaggle
 export `data/raceform.db`, with the identical `data` table schema, so:
   - the static export is never mutated (it stays a clean, reproducible base)
   - features.py / common.py just need to UNION both files at load time
-    (see docs/2026-09-14_live_data_pipeline_plan.md, "Wiring into features.py")
+    (see docs/PROJECT_NOTES.md, section 10, "Wire live_extension.db")
 
 Rows are upserted on (date, race_id, horse) so re-running a fetch (e.g. the
 evening racecard pull, then a pre-race declarations refresh) is idempotent.

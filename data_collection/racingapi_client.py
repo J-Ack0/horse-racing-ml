@@ -13,8 +13,8 @@ USERNAME/PASSWORD those win silently. If auth ever looks wrong, check
 `env | grep -E '^(USERNAME|PASSWORD)='` before assuming the .env is bad.
 
 Endpoint paths/params/fields below are CONFIRMED LIVE against the account's
-own key on 2026-09-16 (see docs/2026-09-14_live_data_pipeline_plan.md,
-"Live-verified 2026-09-16" section) — not just vendor docs. Two important
+own key on 2026-09-16 (see docs/PROJECT_NOTES.md, section 4.3) — not just
+vendor docs. Two important
 findings from that verification:
 
   1. This account is on the **Free plan**. `/racecards/standard` and the
@@ -154,7 +154,7 @@ class RacingAPIClient:
         is accepted as a param by this client but not guaranteed to return
         anything until verified; the pre-race evening-fetch flow may need
         to fall back to same-day-only until a Standard plan is available
-        (see docs/2026-09-14_live_data_pipeline_plan.md).
+        (see docs/PROJECT_NOTES.md, section 4.3).
         """
         races: list[dict] = []
         for region in REGIONS:

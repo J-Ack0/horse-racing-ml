@@ -1,7 +1,7 @@
 """
 Daily job: pull racecards for live prediction.
 
-Two intended run times (see docs/2026-09-14_live_data_pipeline_plan.md):
+Two intended run times (see docs/PROJECT_NOTES.md, section 4.2):
   1. Evening (e.g. 18:00) — pull TOMORROW's racecard. Fields are stable this
      far out (declarations, entries) and this is what next-day feature
      building/prediction runs against.
@@ -89,8 +89,7 @@ def racecard_to_rows(races: list[dict], fetched_at: str) -> list[dict]:
     onto our `data` table row shape.
 
     Field names below are LIVE-CONFIRMED against the account's own key on
-    2026-09-16 (see docs/2026-09-14_live_data_pipeline_plan.md,
-    "Live-verified 2026-09-16"). Deltas from our column names: API `ofr` ->
+    2026-09-16 (see docs/PROJECT_NOTES.md, section 4.3). Deltas from our column names: API `ofr` ->
     our `or`, API `lbs` -> our `wgt`, API `race_class` -> our `class`, API
     `distance_f` -> our `dist` (furlongs-as-string; the free tier has no
     "6f210y"-style distance string, only distance_f). Only pre-race fields

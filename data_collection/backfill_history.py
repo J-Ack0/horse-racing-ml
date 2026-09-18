@@ -5,7 +5,7 @@ date and "yesterday" gets filled in for rolling/entity feature history.
 
 The static export (data/raceform.db) currently ends 2026-05-27 (verified via
 `SELECT MIN(date), MAX(date) FROM data` — see
-docs/2026-09-14_live_data_pipeline_plan.md). Default start is the day after
+docs/PROJECT_NOTES.md, section 2.1). Default start is the day after
 that; override with --start if the export gets refreshed later.
 
 This writes POST-race fields (pos, sp, rpr, ts, prize) which is fine here —
@@ -19,7 +19,7 @@ The API's /v1/results endpoint takes a start_date/end_date range directly
 
 ⚠️ LIVE-CONFIRMED 2026-09-16: this endpoint 401s with "Standard Plan
 required" on the account's current Free plan — see
-docs/2026-09-14_live_data_pipeline_plan.md, "Live-verified 2026-09-16".
+docs/PROJECT_NOTES.md, section 4.3 (live-verified 2026-09-16).
 This script will fail with a clear RacingAPIPlanError until the account is
 upgraded. Its exact field mapping (results_to_rows below) is therefore
 still UNVERIFIED against a real paid response — only the Free-tier
@@ -48,7 +48,7 @@ def results_to_rows(payload: dict, fetched_at: str) -> list[dict]:
     """
     Map one /v1/results page onto our `data` table row shape.
 
-    Field names per the documented schema (see docs/2026-09-14_live_data_pipeline_plan.md):
+    Field names per the documented schema (see docs/PROJECT_NOTES.md, section 4.3):
     API `position` -> our `pos`, `sp_dec` -> our `sp` (decimal, matches how
     raceform.db's `sp` column is used downstream), `weight_lbs` -> our `wgt`,
     `performance_rating`/`speed_rating` -> our `rpr`/`ts`, `comments` -> our
