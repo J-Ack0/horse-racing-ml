@@ -472,6 +472,59 @@ sp/rpr/ts), but it cannot substitute for `backfill_history.py`.
 
 ---
 
+### 6.4 Betting math: break-even odds and holdout ROI at SP (2026-09-19)
+
+Conventions: 1 unit flat stake on the model's #1 pick, decimal odds include the stake
+(5/2 = 3.5), no commission or tax. Break-even decimal odds = 1 / hit rate. To target a
+return r you need odds of (1 + r) / hit rate.
+
+**Napkin numbers**
+
+| Hit rate (#1 pick wins) | Source | Break-even odds | For +5% | For +10% |
+|---|---|---|---|---|
+| 27.3% | held-out test, blend_all (`results_final.csv`) | 3.67 (about 8/3) | 3.85 | 4.04 |
+| 22.2% (26/117) | live, 16th to 18th | 4.50 (7/2) | 4.73 | 4.95 |
+| 15.6% to 30.6% | live 95% interval | 6.4 down to 3.3 | - | - |
+
+- The live interval is wide: 117 races give an ROI standard error of about 15 points
+  (per-bet return SD is roughly 1.65 at these odds). Seeing a 2.5-point ROI standard
+  error would take about 4,000 to 5,000 bets. Live results cannot confirm or reject a
+  profit at this sample size.
+- Kelly stake at odds 4.0: 3.0% of bankroll using the 27.3% hit rate; negative (no bet)
+  using the live 22.2%.
+- Losing runs: 72.7% of bets lose, so 10 losses in a row happens about 4% of the time
+  from any starting point, and the longest losing run in 100 bets is typically about 10.
+
+**Held-out test priced at real starting prices** (`ml/kaggle_v2/holdout_roi.py`;
+window 2025-11-29 to 2026-05-27, 7,961 races with a complete SP book):
+
+| Strategy | Bets | Win rate | Mean odds | ROI |
+|---|---|---|---|---|
+| Model #1 pick at SP | 7,961 | 27.3% | 4.66 | -15.2% |
+| Market favourite at SP | 7,961 | 33.8% | 2.98 | -12.6% |
+| Every runner at SP | 79,167 | 10.2% | 27.5 | -20.6% |
+
+- The SP book sums to 121.2% per race (about 17.5% takeout), so blind betting loses
+  12 to 20% before any edge.
+- The model's winners paid 3.11 on average (from 27.3% x 3.11 = 0.85) against the 3.67
+  needed; the favourite's paid 2.59 against 2.96 needed.
+- Minimum-price filters (SP >= 3.0 to 6.0) gave ROI -17% to -26%; value filters
+  (`p_model x SP >= 1 + margin`, on the #1 pick or on every runner) gave -11% to -20%.
+  Nothing filtered turned positive.
+- Model vs market: on the horses that actually won, the model gave 18.1% on average and
+  the market-implied probability was 21.3%. For the model's #1 picks the model said 27.8%,
+  the market 26.6%, actual 27.3%. The model is well calibrated but carries no information
+  beyond the market's price.
+
+**Caveats and what would change the conclusion**
+- SP is not an obtainable price. Exchange best-odds or early prices have a much smaller
+  takeout (about 2 to 5% plus commission) and could shift the picture; that is untested.
+- Live inference has no odds at all on the Free plan (racecards/standard, which carries
+  bookmaker odds, needs a Standard plan), so a live value filter cannot be run yet.
+- Realistic route to a profit is extra signal the market lacks, not a price filter on this
+  model. Next test: join exchange prices (or Standard-plan odds) to the held-out picks and
+  repeat the table above.
+
 ## 7. Analysis: course, UK vs Ireland, field size
 
 Sample: 117 scored races (16th to 18th; #1 pick per race, the 18th re-ranked among
@@ -754,6 +807,9 @@ RUN_LIVE_API_TESTS=1 venv/bin/python -m pytest data_collection/tests/test_live_s
 
 ## 12. Changelog
 
+- **2026-09-19**: betting math and held-out ROI at starting prices (section 6.4,
+  `ml/kaggle_v2/holdout_roi.py`): the model's #1 pick loses 15.2% flat at SP across 7,961
+  held-out races, no price or value filter turns positive.
 - **2026-09-18**: recorded the data window decision and the full-history coverage
   check (section 2.1); consolidated all markdown into this file. Course and UK-vs-Ireland
   analysis (117 races) and the Irish naming-switch finding (`087f9e1`). Scored the 18th
