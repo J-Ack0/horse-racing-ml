@@ -1,0 +1,12 @@
+[Unit]
+Description=Fetch today's racecard from The Racing API and run inference
+StartLimitIntervalSec=2h
+StartLimitBurst=3
+
+[Service]
+Type=oneshot
+ExecStart=%h/git/horse-racing-ml/.claude/worktrees/quirky-wobbling-teapot/data_collection/run_daily.sh fetch
+# Inference peaks near 2.7 GB on an 8 GB / no-swap Pi and was OOM-killed once;
+# a retry after memory recovers worked, so retry a few times.
+Restart=on-failure
+RestartSec=10min

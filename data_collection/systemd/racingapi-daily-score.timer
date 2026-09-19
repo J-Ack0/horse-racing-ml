@@ -1,0 +1,10 @@
+[Unit]
+Description=Run racingapi-daily-score daily at 23:00
+
+[Timer]
+OnCalendar=*-*-* 23:00:00
+# Free plan only serves today's results, so a missed run cannot be caught up.
+Persistent=false
+
+[Install]
+WantedBy=timers.target

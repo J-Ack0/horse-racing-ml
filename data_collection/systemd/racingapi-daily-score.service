@@ -1,0 +1,6 @@
+[Unit]
+Description=Score today's predictions against The Racing API results
+
+[Service]
+Type=oneshot
+ExecStart=%h/git/horse-racing-ml/.claude/worktrees/quirky-wobbling-teapot/data_collection/run_daily.sh score

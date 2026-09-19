@@ -309,9 +309,20 @@ top features are `prior_rpr_rk` (9.0% in binary), `field_size` (8.5%), `h_rel_em
 - `backfill_history.py`: pulls settled results from 2026-05-28 (dataset end + 1) to
   yesterday in one ranged call with pagination; idempotent; defaults self-heal a day
   that failed. Prints a plan-required message and exits 1 on the Free plan.
-- `systemd/`: `racingapi-evening-fetch.{service,timer}` (18:00) and
-  `racingapi-morning-backfill.{service,timer}` (07:00). Systemd user timers rather than
-  cron (no crontab on this Pi). **Not installed or enabled.**
+- `systemd/`: `racingapi-daily-fetch.{service,timer}` (01:00: fetch today's racecard,
+  then inference) and `racingapi-daily-score.{service,timer}` (23:00: score today
+  against `/results/today/free`; `Persistent=false` because the Free plan only serves
+  today's results). Both call `data_collection/run_daily.sh fetch|score`. **Installed
+  and enabled 2026-09-19** as symlinks in `~/.config/systemd/user/` (`systemctl --user
+  link` the `.service` files as well as enabling the `.timer` files), with
+  `loginctl enable-linger` on so they run without a desktop session. Systemd user
+  timers rather than cron (no crontab on this Pi). The units point at the worktree
+  path (`.claude/worktrees/quirky-wobbling-teapot`), because `inference.py`/the scorer
+  and the `venv/` exist only there; re-link them if that worktree moves or the branch
+  is merged. The fetch unit retries up to 3 times, 10 min apart, in case inference is
+  OOM-killed. The older `racingapi-evening-fetch` (18:00) and
+  `racingapi-morning-backfill` (07:00) units are still **not installed** (backfill
+  needs a Standard plan).
 
 ### 4.3 Free vs Standard plan (live-verified 2026-09-16)
 
@@ -448,6 +459,7 @@ sp/rpr/ts), but it cannot substitute for `backfill_history.py`.
 | 2026-09-18 | 44 | 10/44 = 22.7% | 22/44 = 50.0% | 60/132 = 45.5% | 3.36 (random about 3.5) |
 | 16th + 17th | 73 | 16/73 = 21.9% | 37/73 = 50.7% | 87/219 = 39.7% | |
 | All three | 117 | 26 wins, about 22% | | | |
+| 2026-09-19 | 53 | 10/53 = 18.9% | 23/53 = 43.4% | not computed by `score_predictions.py` | 3.55 (random about 3.5) |
 
 - 18th detail: inference ran about 19:30 IST after most races had finished, so it is a
   post-hoc run (no leakage, not a prospective test). `/results/today/free` returned 42
@@ -718,7 +730,7 @@ Pipeline and data:
   (fills 2026-05-28 to yesterday, 114+ days and growing). Re-verify
   `results_to_rows()` against a real paid response right after (nesting, `sp_dec`,
   `ovr_btn`).
-- [ ] Install and enable the systemd timers (`systemctl --user enable --now ...`).
+- [x] Install and enable the systemd timers (daily fetch+inference 01:00, score 23:00; done 2026-09-19, see 4.2). Backfill/evening units remain uninstalled.
 - [ ] Wire `live_extension.db` into `ml/kaggle_v2/common.py` / `features.py` as a UNION
   (today `inference.py` reads it separately and training reads only the static export).
 - [ ] Verify `racecards_free(when="tomorrow")` live for the evening fetch flow.
