@@ -115,3 +115,22 @@ def test_num_join_key_is_stringified_so_int_vs_str_mismatch_does_not_break_join(
     r = results([{"race_id": "r1", "num": "1", "position": 1.0}])
     m = score(p, r)
     assert m["n_races_matched"] == 1
+
+
+def test_precision_at_3_counts_top3_picks_inside_actual_top3():
+    # 4 runners; model ranks 1,2,3,4; actual finish is 4th->1st, 1->2nd, 2->3rd, 3->4th.
+    p = preds([
+        {"date": "2026-09-17", "race_id": "r1", "num": str(n), "rank_in_race": n}
+        for n in (1, 2, 3, 4)
+    ])
+    r = results([
+        {"race_id": "r1", "num": "4", "position": 1.0},
+        {"race_id": "r1", "num": "1", "position": 2.0},
+        {"race_id": "r1", "num": "2", "position": 3.0},
+        {"race_id": "r1", "num": "3", "position": 4.0},
+    ])
+    m = score(p, r)
+    # top-3 picks are runners 1,2,3; only 1 and 2 finished in the top 3
+    assert m["precision_at_3_hits"] == 2
+    assert m["precision_at_3_picks"] == 3
+    assert m["precision_at_3"] == pytest.approx(2 / 3)

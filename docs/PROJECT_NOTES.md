@@ -320,7 +320,7 @@ top features are `prior_rpr_rk` (9.0% in binary), `field_size` (8.5%), `h_rel_em
   path (`.claude/worktrees/quirky-wobbling-teapot`), because `inference.py`/the scorer
   and the `venv/` exist only there; re-link them if that worktree moves or the branch
   is merged. The fetch unit retries up to 3 times, 10 min apart, in case inference is
-  OOM-killed. The older `racingapi-evening-fetch` (18:00) and
+  OOM-killed. Each run pushes a phone note through `notify-phone.sh` (`[Done]` with race/runner counts and the first 12 top picks after the 01:00 fetch+inference; `[Done]` with top-1/top-3/precision@3 after the 23:00 score; `[Error]` with the log tail on any failure). An offline phone queues the note and never fails the job. `score_predictions.py` now also reports precision@3 (added 2026-09-19, with a test). The older `racingapi-evening-fetch` (18:00) and
   `racingapi-morning-backfill` (07:00) units are still **not installed** (backfill
   needs a Standard plan).
 
@@ -459,7 +459,7 @@ sp/rpr/ts), but it cannot substitute for `backfill_history.py`.
 | 2026-09-18 | 44 | 10/44 = 22.7% | 22/44 = 50.0% | 60/132 = 45.5% | 3.36 (random about 3.5) |
 | 16th + 17th | 73 | 16/73 = 21.9% | 37/73 = 50.7% | 87/219 = 39.7% | |
 | All three | 117 | 26 wins, about 22% | | | |
-| 2026-09-19 | 53 | 10/53 = 18.9% | 23/53 = 43.4% | not computed by `score_predictions.py` | 3.55 (random about 3.5) |
+| 2026-09-19 | 53 | 10/53 = 18.9% | 23/53 = 43.4% | 70/159 = 44.0% | 3.55 (random about 3.5) |
 
 - 18th detail: inference ran about 19:30 IST after most races had finished, so it is a
   post-hoc run (no leakage, not a prospective test). `/results/today/free` returned 42

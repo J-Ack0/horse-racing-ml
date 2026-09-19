@@ -106,6 +106,10 @@ def score(predictions: pd.DataFrame, results: pd.DataFrame) -> dict:
     top1_accuracy = float((top_picks["position"] == 1).mean())
     top3_accuracy = float((top_picks["position"] <= 3).mean())
 
+    top3_picks = merged[merged["rank_in_race"] <= 3]
+    n_top3_picks = len(top3_picks)
+    precision_at_3_hits = int((top3_picks["position"] <= 3).sum())
+
     finished = merged[merged["position"].notna()]
     mean_position_error = float((finished["rank_in_race"] - finished["position"]).abs().mean())
 
@@ -119,6 +123,9 @@ def score(predictions: pd.DataFrame, results: pd.DataFrame) -> dict:
         "n_runners_finished": len(finished),
         "top1_accuracy": top1_accuracy,
         "top3_accuracy": top3_accuracy,
+        "precision_at_3": precision_at_3_hits / n_top3_picks,
+        "precision_at_3_hits": precision_at_3_hits,
+        "precision_at_3_picks": n_top3_picks,
         "mean_position_error": mean_position_error,
     }
 
@@ -166,6 +173,8 @@ def main() -> int:
           f"(model's #1 pick actually won this fraction of races)")
     print(f"top3_accuracy        = {m['top3_accuracy']:.3f}  "
           f"(model's #1 pick finished in the top 3 this fraction of races)")
+    print(f"precision_at_3       = {m['precision_at_3']:.3f}  "
+          f"({m['precision_at_3_hits']}/{m['precision_at_3_picks']}: share of the model's top-3 picks per race that finished in the actual top 3)")
     print(f"mean_position_error  = {m['mean_position_error']:.3f}  "
           f"(mean |predicted rank - actual finishing position| across finishers; lower is better, 0 = perfect)")
 
