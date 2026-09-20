@@ -366,6 +366,7 @@ with no missing day; the 153 overlapping races are identical.
   only (5,675 of 5,987 races, 53,442 runner rows over 115 days); the other regions (HK, USA, ARG,
   ...) were skipped, rerun with `--regions all` to add them. `live_extension.db` now holds 53,875
   rows over 116 days (05-28 to 09-20; the 20th is the pre-race card).
+- **Standard-plan endpoint facts (live-verified 2026-09-20)**: `/v1/results` takes ONE region per call (`gb,ire` is rejected) and `limit <= 100` races per page (`total` counts races); its output for 2026-09-19 matched the exported files exactly (53 GB+IRE races, 581 runners). `/v1/racecards/standard` returns `odds[]` per runner (about 28 bookmakers, some with decimal `"SP"`). The racecards' `off_time` is a 12h clock without am/pm; `fetch_daily_racecards.py` now stores the 24h time from `off_dt` (before this fix live predictions had `off_hour` 2 instead of 14).
 - **Mapping bugs found and fixed** by comparing 706 runners against `raceform.db` on 05-26/27
   (`data_collection/results_mapping.py`, now used by `backfill_history.py`; the old "assumed"
   mapping is gone): `performance_rating` and `speed_rating` are **not** raceform's `rpr` / `ts`
@@ -602,6 +603,38 @@ came from the feature bug in [5.0](#50-fast-path-and-two-feature-bugs-fixed-2026
 model. It is still **not a betting edge**: flat ROI at SP for the #1 pick is -11.0% (all races) and
 stays negative at every confidence threshold (-4% to -9%), in line with the -15.2% held-out figure in
 6.4. Ireland is weaker than GB here (24% vs 29% top-1, 627 races).
+
+### 6.6 What share of picks is at a bettable price (2026-09-20)
+
+`ml/kaggle_v2/bettable_analysis.py` on the walk-forward backtest (4,438 races) joined to the
+starting price. Break-even decimal odds for a confidence band = 1 / precision of all runners at or
+above the threshold (t = 0.20 has precision 30.2%, so break-even 3.34 decimal, 7/3 fractional).
+"Bettable" = SP at or above that.
+
+| t | runners | precision | break-even | bettable share | win rate of the bettable ones | ROI of bettable | ROI of the rest |
+|---|---|---|---|---|---|---|---|
+| 0.15 | 9,086 | 24.1% | 4.16 | 50.4% | 13.0% | -16.5% | -8.4% |
+| 0.20 | 4,817 | 30.0% | 3.34 | 50.1% | 18.2% | -9.7% | -8.3% |
+| 0.30 | 1,491 | 40.6% | 2.46 | 50.7% | 26.6% | -6.4% | -6.8% |
+| 0.40 | 453 | 52.3% | 1.91 | 42.6% | 36.3% | -2.4% | -5.5% |
+
+About half of the picks clear the price bar at every threshold (#1 picks only: 49% to 53%), **but the
+ones that clear it do not win at the threshold's precision** (t=0.20: 18.2% against the 30.2% needed),
+because a price above break-even is where the market disagrees with the model, and the market is
+right more often. #1 picks by SP band: model p vs market-implied vs actual is 0.392 / 0.630 / 0.595
+at SP < 2, but 0.191 / 0.130 / 0.102 at SP 6-10 and 0.175 / 0.070 / 0.057 at SP 10+ (the model
+over-rates long prices). Value rule p x SP - 1 >= 0 selects 39.6% of #1 picks (win rate 16.9%, ROI
+-14.2%); even >= 0.20 edge (26% of picks) loses 15.8%. Nothing turned positive; the least bad
+subsets are the high-confidence ones (-2% to -6%). Caveat: SP is the closing price, not necessarily
+obtainable, and the best price across bookmakers earlier in the day can differ.
+
+`ml/kaggle_v2/today_odds_report.py [--date]` lists the day's #1 picks with the best current
+bookmaker price (racecards/standard, about 28 bookmakers per runner, "SP" entries skipped) or, for
+finished races, the closing SP from `/v1/results`, with break-even odds, bettable flag, model edge and
+the market's own implied probability (overround removed). First run 2026-09-20 12:23, before any race:
+15 of 21 #1 picks (71%) at a bettable best price and 10 of 21 with model edge >= 0; the best of 28
+prices is biased upward relative to the SP, so tonight's closing report is the fair comparison. The
+01:00 and 23:00 jobs add these lines to the phone notes.
 
 ### 6.4 Betting math: break-even odds and holdout ROI at SP (2026-09-19)
 
