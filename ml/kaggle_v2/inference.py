@@ -47,6 +47,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import gc
 import sqlite3
 import sys
 from datetime import date as date_cls
@@ -175,6 +176,8 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--date", default=date_cls.today().isoformat())
     ap.add_argument("--out", default=None, help="CSV path (default: predictions/predictions_<date>.csv)")
+    ap.add_argument("--max-runners", type=int, default=200,
+                    help="score the day in chunks of whole races with about this many runners each (memory bound)")
     args = ap.parse_args()
 
     for name, path in MODEL_FILES.items():
@@ -193,34 +196,52 @@ def main() -> int:
         return 1
     print(f"  {len(live)} runner rows across {live['race_id'].nunique()} races.")
 
-    entities = {col: live[col].dropna().unique().tolist() for col in ENTITY_COLS if col in live.columns}
-    print(f"Loading history scoped to today's entities from {HISTORICAL_DB} "
-          f"({', '.join(f'{len(v)} {k}s' for k, v in entities.items())}) ...", flush=True)
-    historical = load_historical_for_entities(entities, before_date=args.date)
-    print(f"  {len(historical)} historical rows loaded (vs ~1.85M in the full table).")
-    report_data_gap(historical, args.date)
-
-    combined = pd.concat([historical, live], ignore_index=True)
-    print("Building point-in-time features (this can take a minute)...", flush=True)
-    built = feat.build(combined)
-
-    today_df = built[built["date"] == pd.Timestamp(args.date)].reset_index(drop=True)
-    if today_df.empty:
-        print(f"ERROR: no rows survived features.build() for {args.date} "
-              f"(check ran>=3 / exactly-one-winner filters aren't dropping the live rows "
-              f"— today's rows have no winner yet, verify build() doesn't require one for "
-              f"unfinished races).", file=sys.stderr)
-        return 1
-
     feats_path = HERE / "cache" / "feature_names.txt"
-    feats = [l.strip() for l in open(feats_path) if l.strip()]
-    feats = [f for f in feats if f in today_df.columns]
-    missing = [f for f in feats if today_df[f].isna().all()]
-    if missing:
-        print(f"NOTE: {len(missing)} feature(s) are all-NaN for today's rows: {missing[:10]}"
-              f"{'...' if len(missing) > 10 else ''}", file=sys.stderr)
+    all_feats = [l.strip() for l in open(feats_path) if l.strip()]
 
-    preds = blend_predictions(today_df, feats)
+    # Features for a runner depend only on that entity's own history and on the runners of
+    # its OWN race, so the day is scored in chunks of whole races (bounded memory: a whole
+    # ~700-runner day needs >5 GB and gets OOM-killed on the 8 GB Pi). Verified identical to
+    # a single whole-day run (see docs/PROJECT_NOTES.md, section 5).
+    race_ids = (live.drop_duplicates("race_id").sort_values(["course", "off"])["race_id"].tolist())
+    k = max(1, -(-len(live) // args.max_runners))            # ceil
+    chunks = [race_ids[i::k] for i in range(k)]
+    parts = []
+    for ci, ids in enumerate(chunks, 1):
+        lv = live[live["race_id"].isin(ids)]
+        entities = {col: lv[col].dropna().unique().tolist() for col in ENTITY_COLS if col in lv.columns}
+        print(f"[chunk {ci}/{k}] {len(lv)} runners, {len(ids)} races; loading history scoped to their entities "
+              f"from {HISTORICAL_DB} ({', '.join(f'{len(v)} {c}s' for c, v in entities.items())}) ...", flush=True)
+        historical = load_historical_for_entities(entities, before_date=args.date)
+        print(f"  {len(historical)} historical rows loaded (vs ~1.85M in the full table).")
+        if ci == 1:
+            report_data_gap(historical, args.date)
+
+        combined = pd.concat([historical, lv], ignore_index=True)
+        del historical
+        print("  building point-in-time features (this can take a minute)...", flush=True)
+        # drop_zero_winner_races=False: history is loaded per-entity, so past races are
+        # incomplete and often lack their winner; the default filter would silently drop them.
+        built = feat.build(combined, drop_zero_winner_races=False)
+        del combined
+
+        today_df = built[built["date"] == pd.Timestamp(args.date)].reset_index(drop=True)
+        del built
+        if today_df.empty:
+            print(f"ERROR: no rows survived features.build() for {args.date} chunk {ci} "
+                  f"(check ran>=3 filter isn't dropping the live rows).", file=sys.stderr)
+            return 1
+        feats = [f for f in all_feats if f in today_df.columns]
+        missing = [f for f in feats if today_df[f].isna().all()]
+        if missing:
+            print(f"NOTE: {len(missing)} feature(s) are all-NaN for this chunk: {missing[:10]}"
+                  f"{'...' if len(missing) > 10 else ''}", file=sys.stderr)
+        parts.append(blend_predictions(today_df, feats))
+        del today_df
+        gc.collect()
+
+    preds = pd.concat(parts, ignore_index=True).sort_values(
+        ["date", "course", "off", "rank_in_race"]).reset_index(drop=True)
 
     out_path = Path(args.out) if args.out else HERE / "predictions" / f"predictions_{args.date}.csv"
     out_path.parent.mkdir(parents=True, exist_ok=True)

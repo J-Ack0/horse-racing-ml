@@ -1,9 +1,9 @@
 """
-Score the backtest predictions (predictions/backtest/predictions_<date>.csv, written by
-backtest_gap.py from the unmodified live inference path) against the settled results now
+Score the walk-forward predictions (predictions/backtest_wf/predictions_<date>.csv, written by
+backtest_walkforward.py) against the settled results now
 in data/live_extension.db. Prints a markdown report and writes report.md + threshold CSVs.
 
-    python evaluate_backtest.py [--dir predictions/backtest] [--boot 1000]
+    python evaluate_backtest.py [--dir predictions/backtest_wf] [--boot 1000]
 """
 from __future__ import annotations
 
@@ -140,7 +140,7 @@ def group_rows(rt: pd.DataFrame, col: str) -> pd.DataFrame:
 
 
 def md(df: pd.DataFrame, floatfmt="{:.3f}") -> str:
-    d = df.reset_index()
+    d = df if isinstance(df.index, pd.RangeIndex) else df.reset_index()
     cols = list(d.columns)
     lines = ["| " + " | ".join(str(c) for c in cols) + " |", "|" + "---|" * len(cols)]
     for _, r in d.iterrows():
@@ -150,7 +150,7 @@ def md(df: pd.DataFrame, floatfmt="{:.3f}") -> str:
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--dir", default=str(HERE / "predictions" / "backtest"))
+    ap.add_argument("--dir", default=str(HERE / "predictions" / "backtest_wf"))
     ap.add_argument("--boot", type=int, default=1000)
     args = ap.parse_args()
     out_dir = Path(args.dir)
@@ -166,8 +166,10 @@ def main() -> int:
 
     lines = [
         f"# Backtest of live inference on the post-May gap ({df['date'].min()} to {df['date'].max()})",
-        f"{days} days, {h['races']} GB+IRE races, {h['runners']} runners. Unmodified inference.py, history from raceform.db only "
-        "(ends 2026-05-27; the recent-form gap grows every day), results blanked from the input. `rpr`/`ts` are NULL for the gap.\n",
+        f"{days} days, {h['races']} GB+IRE races, {h['runners']} runners. Walk-forward with fast_inference.py: each day is "
+        "predicted from history = raceform.db (to 2026-05-27) plus every earlier day's results, with the day's own result columns "
+        "blanked. Features verified identical to the training matrix. `rpr`/`ts` are NULL for the gap days (prior_rpr/prior_ts "
+        "do not see them).\n",
         "## Headline (#1 pick per race, blend_all)",
         "| metric | value | 95% CI (race bootstrap) | held-out reference |", "|---|---|---|---|",
         f"| top-1 (pick won) | {h['top1']:.3f} | {ci['top1'][0]:.3f} to {ci['top1'][1]:.3f} | {REF['top-1']} |",

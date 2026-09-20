@@ -25,7 +25,7 @@ results_mapping.py and was verified 2026-09-20 against exported
 /v1/results data and raceform.db (see that module's docstring).
 
 Usage:
-    python backfill_history.py                      # 2026-05-28 -> yesterday
+    python backfill_history.py                      # day after the last day with results -> yesterday
     python backfill_history.py --start 2026-06-01 --end 2026-06-30
 """
 from __future__ import annotations
@@ -41,11 +41,22 @@ from results_mapping import results_to_rows  # verified mapping, see results_map
 DATASET_END_DATE = date(2026, 5, 27)  # last date present in data/raceform.db
 
 
+def default_start() -> date:
+    """Day after the latest day that already has results in live_extension.db."""
+    conn = connect()
+    row = conn.execute("SELECT MAX(date) FROM data WHERE pos IS NOT NULL").fetchone()
+    conn.close()
+    return date.fromisoformat(row[0]) + timedelta(days=1) if row and row[0] else DATASET_END_DATE + timedelta(days=1)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--start", type=date.fromisoformat, default=DATASET_END_DATE + timedelta(days=1))
+    ap.add_argument("--start", type=date.fromisoformat, default=None,
+                    help="default: the day after the latest day with results in live_extension.db")
     ap.add_argument("--end", type=date.fromisoformat, default=date.today() - timedelta(days=1))
     args = ap.parse_args()
+    if args.start is None:
+        args.start = default_start()
 
     if args.start > args.end:
         print(f"Nothing to backfill: start {args.start} is after end {args.end}.")

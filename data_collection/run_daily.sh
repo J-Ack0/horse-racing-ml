@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Daily live pipeline driver, called by the racingapi-daily-* systemd user units.
-#   run_daily.sh fetch   racecard for today, then inference on it (needs ~3 GB free RAM)
+#   run_daily.sh fetch   backfill yesterday's results, fetch today's racecard, fast inference (~1 min)
 #   run_daily.sh score   score today's predictions against /results/today/free
 # The Free plan only serves today's results, so `score` must run on the same day.
 # Each run pushes a phone note via notify-phone.sh ([Done] on success, [Error] on
@@ -26,14 +26,20 @@ trap on_error ERR
 
 case "$MODE" in
   fetch)
+    # 1. yesterday's settled results into the history (Standard plan). Not fatal: if it fails
+    #    the day is still predicted, just without the newest results.
+    if ! "$PY" data_collection/backfill_history.py 2>&1 | tee "$LOG"; then
+      notify error "Results backfill failed for $DAY (predicting without the newest results)" "$(tail -n 8 "$LOG")"
+    fi
+    BACKFILL="$(grep -E 'Backfill done|Nothing to backfill' "$LOG" | tail -n1 || true)"
+    # 2. today's racecard, 3. fast inference (history = raceform + all finished days)
     "$PY" data_collection/fetch_daily_racecards.py --day today 2>&1 | tee "$LOG"
-    "$PY" ml/kaggle_v2/inference.py --date "$DAY" 2>&1 | tee -a "$LOG"
+    "$PY" ml/kaggle_v2/fast_inference.py --date "$DAY" 2>&1 | tee -a "$LOG"
     RUNNERS="$(grep -oE 'Upserted [0-9]+ runner rows' "$LOG" | grep -oE '[0-9]+' | head -n1 || true)"
-    RACES="$(grep -oE 'runner rows across [0-9]+ races' "$LOG" | grep -oE '[0-9]+ races' | grep -oE '[0-9]+' | head -n1 || true)"
-    GAP="$(grep -oE '[0-9]+ days of unfilled history' "$LOG" | head -n1 || true)"
+    RACES="$(grep -oE 'predictions \([0-9]+ races\)' "$LOG" | grep -oE '[0-9]+' | head -n1 || true)"
     PICKS="$(grep -E -- '->.*\(p=' "$LOG" | head -n 12 | sed 's/^ *//' || true)"
     notify done "Racecard $DAY fetched: ${RACES:-?} races, ${RUNNERS:-?} runners; inference done" \
-      "History gap: ${GAP:-unknown}. Top picks (first 12 races):
+      "Backfill: ${BACKFILL:-none}. Top picks (first 12 races):
 $PICKS"
     ;;
   score)

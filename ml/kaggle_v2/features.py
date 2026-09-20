@@ -100,7 +100,21 @@ def load_raw():
     return df
 
 
-def build(df):
+def build(df, drop_zero_winner_races=True, entity_counts=None):
+    """
+    drop_zero_winner_races=True (default, used for training on the full table) drops races
+    that have a result but no winner as data errors. Inference must pass False: it loads
+    history only for today's entities, so a past race usually has just some of its rows
+    loaded and its winner is often absent; the full table has no such races, and dropping
+    them silently removed about a third of every entity's history (understating
+    h_runs_prior, days_since_run, jky_runs, ... versus training).
+
+    entity_counts=None (default) computes the jockey/trainer/sire/... cumulative run/win
+    stats from `df` itself (training). The fast inference path instead passes a dict
+    {tag: DataFrame(keys..., f'{tag}_runs', f'{tag}_wins')} of counts strictly before the
+    target date (one row per entity key, from SQL), so `df` only needs the target runners
+    plus each of their horses' own past runs.
+    """
     df = df.copy()
     df['date'] = pd.to_datetime(df['date'], errors='coerce')
     df = df[df['date'].notna()]
@@ -118,9 +132,10 @@ def build(df):
     # EVERY row is unresolved (pos not yet known - i.e. today's/a future
     # racecard, used at inference time) is deliberately kept: it hasn't run
     # yet, so "zero winners so far" doesn't mean the data is broken.
-    wins_per_race = df.groupby('race_id')['win'].transform('sum')
-    any_result_per_race = df.groupby('race_id')['finished'].transform('max')
-    df = df[(wins_per_race >= 1) | (any_result_per_race == 0)]
+    if drop_zero_winner_races:
+        wins_per_race = df.groupby('race_id')['win'].transform('sum')
+        any_result_per_race = df.groupby('race_id')['finished'].transform('max')
+        df = df[(wins_per_race >= 1) | (any_result_per_race == 0)]
 
     df = df.sort_values(['date', 'race_id']).reset_index(drop=True)
 
@@ -219,14 +234,19 @@ def build(df):
     # ---------------- entity stats: strict day-boundary cumulative ----------------
     def day_stats(keys, tag, extra_hit=None):
         """Cumulative runs/wins for `keys` up to but EXCLUDING the current date."""
-        agg = df.groupby(keys + ['date'], sort=True, dropna=False).agg(
-            n=('win', 'size'), w=('win', 'sum'))
-        agg = agg.sort_index()
-        gk = agg.groupby(level=list(range(len(keys))))
-        agg[f'{tag}_runs'] = gk['n'].cumsum() - agg['n']
-        agg[f'{tag}_wins'] = gk['w'].cumsum() - agg['w']
-        out = agg[[f'{tag}_runs', f'{tag}_wins']].reset_index()
-        merged = df[keys + ['date']].merge(out, on=keys + ['date'], how='left')
+        if entity_counts is not None:
+            merged = df[keys].merge(entity_counts[tag], on=keys, how='left')
+            # an entity with no prior rows has 0 runs/wins (training: cumsum - n = 0), never NaN
+            merged[[f'{tag}_runs', f'{tag}_wins']] = merged[[f'{tag}_runs', f'{tag}_wins']].fillna(0)
+        else:
+            agg = df.groupby(keys + ['date'], sort=True, dropna=False).agg(
+                n=('win', 'size'), w=('win', 'sum'))
+            agg = agg.sort_index()
+            gk = agg.groupby(level=list(range(len(keys))))
+            agg[f'{tag}_runs'] = gk['n'].cumsum() - agg['n']
+            agg[f'{tag}_wins'] = gk['w'].cumsum() - agg['w']
+            out = agg[[f'{tag}_runs', f'{tag}_wins']].reset_index()
+            merged = df[keys + ['date']].merge(out, on=keys + ['date'], how='left')
         df[f'{tag}_runs'] = merged[f'{tag}_runs'].values
         df[f'{tag}_wins'] = merged[f'{tag}_wins'].values
         df[f'{tag}_wr'] = wilson(df[f'{tag}_wins'], df[f'{tag}_runs'])
