@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-20",
+  "name": "EW Lucky 15",
+  "unit_stake": 0.16,
+  "currency": "EUR",
+  "legs": [
+    {"horse": "Le Nez Creux (FR)",     "course": "Listowel", "off": "14:48", "price": 4.33,  "places": 2, "denom": 4},
+    {"horse": "Premier Fantasy (IRE)", "course": "Plumpton", "off": "15:08", "price": 2.00,  "places": 2, "denom": 4},
+    {"horse": "Haveanothertry (IRE)",  "course": "Listowel", "off": "15:48", "price": 10.00, "places": 3, "denom": 5},
+    {"horse": "Shane's Spirit (IRE)",  "course": "Plumpton", "off": "17:08", "price": 1.80,  "places": 2, "denom": 4}
+  ]
+}
