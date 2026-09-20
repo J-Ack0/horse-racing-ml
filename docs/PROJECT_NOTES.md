@@ -1,6 +1,6 @@
 # Horse Racing ML: Project Notes
 
-**Last updated:** 2026-09-18
+**Last updated:** 2026-09-20
 **Single source of truth.** This file replaces `FIXES.md`, `TRIAL_RUN_AUDIT.md`,
 `docs/2026-09-14_live_data_pipeline_plan.md` and `ml/kaggle_v2/README.md`
 (all folded in below, none of their facts dropped). The root `README.md` is a
@@ -15,8 +15,11 @@ short landing page that links here.
    - [2.3 Naming conventions that break joins](#23-naming-conventions-that-break-joins)
 3. [Model (kaggle_v2)](#3-model-kaggle_v2)
 4. [Live data pipeline (The Racing API)](#4-live-data-pipeline-the-racing-api)
+   - [4.6 History gap fill](#46-history-gap-fill-2026-09-20), [4.7 API reference (Standard plan)](#47-api-reference-standard-plan-verified-live-2026-09-20)
 5. [Inference](#5-inference)
+   - [5.0 Fast path and two feature bugs fixed](#50-fast-path-and-two-feature-bugs-fixed-2026-09-20)
 6. [Scoring and results log](#6-scoring-and-results-log)
+   - [6.5 Walk-forward backtest](#65-walk-forward-backtest-on-the-post-may-races-2026-09-20), [6.6 Bettable prices](#66-what-share-of-picks-is-at-a-bettable-price-2026-09-20), [6.7 Bet slips, each-way Lucky 15 and settlement](#67-bet-slips-each-way-lucky-15-and-settlement-2026-09-20)
 7. [Analysis: course, UK vs Ireland, field size](#7-analysis-course-uk-vs-ireland-field-size)
 8. [Testing](#8-testing)
 9. [Legacy system (v1) and scraper audit](#9-legacy-system-v1-and-scraper-audit)
@@ -38,26 +41,28 @@ Arch Linux ARM). Two generations of code:
   objectives (binary, race-softmax, Plackett-Luce top-3), blended. Live data from
   The Racing API, live inference and scoring built 2026-09-16 to 2026-09-18.
 
-Status as of 2026-09-18:
+Status as of 2026-09-20:
 
 | Area | State |
 |---|---|
-| Model | Trained, `blend_all` AUC 0.7445 (UK+IRE test) / 0.7663 (Irish-only test) |
-| Live data (racecards) | Working on the Free plan, live-verified 2026-09-16 |
-| Live data (history backfill) | Plan upgraded to Standard (2026-09-20); 2026-05-28 to 2026-09-19 loaded into `live_extension.db` from exported JSON, **not yet used by inference/training** (see 4.6) |
-| Inference | Working, ~3m50s per day, 444-529 runners |
-| Scoring | Working (`score_predictions.py`); out-of-sample walk-forward over 115 days / 4,438 races: 27.9% top-1, 59.5% top-3 ([6.5](#65-walk-forward-backtest-on-the-post-may-races-2026-09-20)) |
-| Tests | `data_collection/tests`: 50 pass, 4 live tests skipped by default; `ml/kaggle_v2/tests`: 8 pass |
-| Data window | 2015-01-01 to 2026-05-27 (fixed, ends 2026-05-27; the gap to today grows daily) |
+| Model | Trained, `blend_all` AUC 0.7445 (UK+IRE test) / 0.7663 (Irish-only test). Out of sample (walk-forward, 4,438 races after May): 27.9% top-1, 59.5% top-3, AUC 0.739 ([6.5](#65-walk-forward-backtest-on-the-post-may-races-2026-09-20)) |
+| Racing API | **Standard plan since 2026-09-20**: racecards with bookmaker odds, historical results, verified live ([4.7](#47-api-reference-standard-plan-verified-live-2026-09-20)) |
+| History | `raceform.db` to 2026-05-27 plus 2026-05-28 onward in `live_extension.db` (loaded from exported files, then nightly backfill); used by `fast_inference.py` ([4.6](#46-history-gap-fill-2026-09-20)) |
+| Inference | `fast_inference.py`: about 12-20 s per day, under 1.5 GB, features identical to the training matrix ([5.0](#50-fast-path-and-two-feature-bugs-fixed-2026-09-20)). The old `inference.py` had two feature bugs |
+| Scoring | `score_predictions.py` (top-1, top-3, mean position error, precision@3) and `evaluate_backtest.py` (full threshold/split report) |
+| Odds and bets | `today_odds_report.py`, `bettable_analysis.py`, slip settlement `check_selections.py` ([6.6](#66-what-share-of-picks-is-at-a-bettable-price-2026-09-20), [6.7](#67-bet-slips-each-way-lucky-15-and-settlement-2026-09-20)). Not a betting edge at bookmaker prices |
+| Scheduling | systemd user timers: 01:00 backfill + racecard + inference, 23:00 score + closing odds; each sends a phone note via `notify-phone.sh` ([4.2](#42-code-data_collection)) |
+| Tests | `data_collection/tests`: 56 pass, 4 live tests skipped by default; `ml/kaggle_v2/tests`: 21 pass |
+| Data window | Training window unchanged (2015-01-01 to 2026-05-27); features use history from 2021-01-01 |
 
 Repo pieces that matter (paths relative to repo root):
 
 | Path | Purpose |
 |---|---|
 | `data_ext/raceform.db` | Historical table `data`, 2015-01-01 to 2026-05-27 (untracked) |
-| `data/live_extension.db` | Live racecard rows, same schema plus `fetched_at` (untracked) |
-| `data_collection/` | Racing API client, daily fetch, backfill, systemd units, tests; legacy `scrape_*.py` |
-| `ml/kaggle_v2/` | v2 features, objectives, experiments, `inference.py`, `score_predictions.py`, cache, tests |
+| `data/live_extension.db` | Racecards and finished days from 2026-05-28 (results included once settled), same schema plus `fetched_at`; timestamped backups `live_extension.db.bak-*` (untracked) |
+| `data_collection/` | Racing API client, daily fetch, results backfill and loader/mapping (`results_mapping.py`, `load_results_json.py`), `run_daily.sh`, systemd units, tests; legacy `scrape_*.py` |
+| `ml/kaggle_v2/` | v2 features, objectives, experiments, `fast_inference.py` (use this), `inference.py` (older), `score_predictions.py`, `backtest_walkforward.py`, `evaluate_backtest.py`, `bettable_analysis.py`, `today_odds_report.py`, `check_selections.py` + `slips/`, `verify_fast_vs_training.py`, cache, tests |
 | `docs/PROJECT_NOTES.md` | This file |
 
 ---
@@ -309,10 +314,11 @@ top features are `prior_rpr_rk` (9.0% in binary), `field_size` (8.5%), `h_rel_em
 - `backfill_history.py`: pulls settled results from 2026-05-28 (dataset end + 1) to
   yesterday in one ranged call with pagination; idempotent; defaults self-heal a day
   that failed. Prints a plan-required message and exits 1 on the Free plan.
+- `results_mapping.py`: `/v1/results` JSON -> `data` table rows (verified against `raceform.db`, see 4.6); `load_results_json.py`: idempotent loader for exported results files; `run_daily.sh fetch|score`: the driver the systemd units call (adds `[Done]`/`[Error]` phone notes).
 - `systemd/`: `racingapi-daily-fetch.{service,timer}` (01:00: backfill yesterday's results, fetch today's racecard,
   then `fast_inference.py`; the backfill step is non-fatal) and `racingapi-daily-score.{service,timer}` (23:00: score today
   against `/results/today/free`; `Persistent=false` because the Free plan only serves
-  today's results). Both call `data_collection/run_daily.sh fetch|score`. **Installed
+  today's results). Both call `data_collection/run_daily.sh fetch|score`; the 01:00 note also carries an "Odds now" line and the 23:00 note a "Closing odds" line from `today_odds_report.py` (non-fatal). **Installed
   and enabled 2026-09-19** as symlinks in `~/.config/systemd/user/` (`systemctl --user
   link` the `.service` files as well as enabling the `.timer` files), with
   `loginctl enable-linger` on so they run without a desktop session. Systemd user
@@ -386,6 +392,51 @@ with no missing day; the 153 overlapping races are identical.
 - Correction to an earlier note in this session: race_ids from the results and racecard endpoints do
   match on recent days (both `rac_3229...`); no id-scheme problem.
 
+### 4.7 API reference (Standard plan, verified live 2026-09-20)
+
+Base URL `https://api.theracingapi.com/v1`, HTTP Basic auth, credentials `USERNAME`/`PASSWORD` in the repo-root
+`.env` (never print or commit them). Vendor rate limits: Free 1 request/s (confirmed by a 429), Standard 5/s;
+`racingapi_client.py` still throttles at 1/s (`RATE_LIMIT_PER_SEC`), which is plenty for the daily jobs.
+Client: `data_collection/racingapi_client.py` (`racecards_free`, `racecards_standard`, `results_today_free`,
+`results`, `results_all_pages`).
+
+| Endpoint | Plan | Parameters | Notes |
+|---|---|---|---|
+| `GET /racecards/free` | Free | `region_codes` (one of `gb`, `ire`), `day=today` | pre-race fields; keeps non-runners; `off_time` is a 12h clock |
+| `GET /racecards/standard` | Standard | `region_codes` (one region per call), `day=today|tomorrow` | adds `odds[]` per runner |
+| `GET /results/today/free` | Free | `region` | today only; positions, no SP/ratings |
+| `GET /results` | Standard | `start_date`, `end_date`, `region` (**one** value; `gb,ire` gives 422 "unrecognised region code"), `limit` (**max 100**; 500 gives 422), `skip` | response `{limit, query, results, skip, total}`; `total` counts **races**; page by `skip += 100`; one call sequence per region |
+
+Standard racecard (`racecards[]`): race keys include `race_id`, `course`, `off_time` (12h, no am/pm), `off_dt` (ISO
+with UTC offset, the reliable 24h source), `race_status` (`declared` before racing), `field_size` (declared runners
+after withdrawals, so it can be smaller than `len(runners)`), `going`, `distance_f`, `race_class`, `pattern`, `type`,
+`is_abandoned`, `betting_forecast`, `verdict`, `tip`, `weather`. Runner keys include `number`, `horse` (no region suffix),
+`region` (the horse's origin, not the race's), `jockey`, `trainer`, `sire`/`dam`/`damsire` (+ regions), `ofr`, `lbs`,
+`draw`, `form`, `rpr`, `ts`, `performance_rating`, `speed_rating`, `odds`.
+
+- **Non-runners**: a withdrawn horse stays in `runners` with **`number == "NR"`** and still carries prices. Drop them
+  before predicting or pricing (`fast_inference.drop_non_runners`; on 2026-09-20 13 of 187 runners in 11 races; one race
+  went from 5 to 3 runners, which removes its each-way market).
+- **`odds[]`** (about 28 entries): `bookmaker`, `fractional`, `decimal`, `ew_places`, `ew_denom`, `updated`. Some `decimal`
+  values are `"SP"` or `"-"` (skip them). Exchanges (Betfair Exchange, Matchbook, Smarkets) have no each-way terms;
+  each-way terms come per bookmaker (typically 1/4 for 2 places, 1/5 for 3 places in bigger fields). The best price across
+  all entries is biased upward against the starting price, and the best price that also has EW terms is what you can
+  actually use for an each-way bet.
+- **Off time**: use `off_dt[11:16]`; the raw `off_time` "2:08" made `off_hour` read 2 instead of 14 until fixed in
+  `fetch_daily_racecards.py` (`off_24h`).
+
+Results (`results[]`, identical to the exported files): race keys `race_id`, `date`, `region`, `course`, `off`, `off_dt`,
+`dist`, `dist_f`, `going`, `class`, `type`, `pattern`, `rating_band`, `age_band`, `sex_rest`, `runners`,
+`non_runners`, `tote_*`; runner keys `number`, `horse` (with region suffix), `position` (string: `1`, `2`, ... or a
+code `PU`, `F`, `UR`, `RR`, `BD`, `SU`, `RO`, `CO`, `DSQ`), `sp` (fractional, e.g. `11/4F`), `sp_dec`, `bsp` (Betfair
+starting price, 98% present), `btn`, `ovr_btn`, `weight` (`8-13`) / `weight_lbs`, `time` (unpadded seconds, `4:5.30`),
+`or`, `draw`, `prize`, `comment`, `performance_rating`, `speed_rating`, and `rpr`/`tsr` which are **empty in every row**.
+Race ids for recent days match between the racecard and results endpoints (`rac_3229...`); older ids use a different
+range. Loaded rows keep GB, IRE and FR (`--regions all` keeps HK, USA and the rest). Details of the row mapping are in 4.6.
+
+Data also arrived as exported results JSON via Taildrop (`~/Desktop/taildrop-inbox/`, not in git); the live `/v1/results`
+output for 2026-09-19 matched the export exactly (53 GB+IRE races, 581 runners).
+
 ### 4.4 Vendor documentation (found 2026-09-15)
 
 `api.theracingapi.com/documentation` is gated behind signup, but Context7's public
@@ -394,8 +445,8 @@ index (`context7.com/websites/api_theracingapi`, `/llms.txt`) mirrors it. Base U
 `/v1/horses/{id}/standard`, `/v1/horses/{id}/analysis/distance-times`,
 `/v1/trainers/{id}/analysis/{courses,jockeys,horse-ages}`,
 `/v1/sires/{id}/analysis/classes`, `/v1/damsires/{id}/analysis/classes`,
-`/v1/meets/free` (North America). Standard racecard extras not yet consumed:
-`trainer_14_days`, `odds[]` (bookmaker quotes), `silk_url`, `wind_surgery`, `colour`,
+`/v1/meets/free` (North America). Standard racecard extras: `odds[]` is now consumed by `today_odds_report.py`; not yet used:
+`trainer_14_days`, `silk_url`, `wind_surgery`, `colour`,
 `dob`, `breeder`.
 
 ### 4.5 Bugs found and fixed in the pipeline (2026-09-16)
@@ -638,6 +689,47 @@ the market's own implied probability (overround removed). First run 2026-09-20 1
 prices is biased upward relative to the SP, so tonight's closing report is the fair comparison. The
 01:00 and 23:00 jobs add these lines to the phone notes.
 
+### 6.7 Bet slips, each-way Lucky 15 and settlement (2026-09-20)
+
+Tools: `ml/kaggle_v2/today_odds_report.py` (picks vs current or closing odds), `slips/<date>_lucky15.json` +
+`check_selections.py` (settlement). Analysis code for the numbers below lived in scratch scripts; the formulas are here.
+
+- **Minimum odds for profit**: a pick in confidence band T (highest threshold at or below its probability) has
+  break-even decimal odds `1 / precision(T)`, using the backtest precisions
+  `{0.10: 0.185, 0.15: 0.242, 0.20: 0.302, 0.25: 0.359, 0.30: 0.408, 0.35: 0.467, 0.40: 0.526, 0.50: 0.626}`,
+  i.e. `{5.41, 4.13, 3.31, 2.78, 2.45, 2.14, 1.90, 1.60}`. Necessary, not sufficient (see 6.6).
+- **Selection rule for the stack**: highest T, then highest probability within T; price at an each-way bookmaker at or above
+  the minimum odds; the race must have an each-way market (5+ runners, terms from `odds[].ew_places/ew_denom`);
+  exchanges excluded; withdrawn horses removed first.
+- **Each-way Lucky 15**: 4 singles, 6 doubles, 4 trebles, 1 four-fold = 15 bets; each-way doubles it to 30 lines. Place
+  odds = `1 + (win_odds - 1) / denom`. Per leg the return multiplier of one line is `d` (win) / `d_place` (placed) / 0
+  (lost) / 1 (void); a Lucky 15 line-set returns `prod(1 + r_i) - 1` per unit, computed for the win and place parts and
+  summed, so the exact outcome distribution is an enumeration over 3^4 (won, placed only, lost) leg outcomes.
+- **Place probability**: no place model exists, so `P(top k)` comes from Plackett-Luce with `blend_all` as strengths
+  (Gumbel sampling), scaled by 0.941. Check on 600 backtest races: mean PL top-k of the #1 pick 0.628 against 0.591 actual.
+  Treat place probabilities as approximate.
+- **2026-09-20 slip** (EUR 5 pot, EUR 0.16 per line, 30 lines = EUR 4.80): Le Nez Creux (Listowel 14:48, 4.33, 1/4 2pl),
+  Premier Fantasy (Plumpton 15:08, 2.00, 1/4 2pl), Haveanothertry (Listowel 15:48, 10.00, 1/5 3pl), Shane's Spirit
+  (Plumpton 17:08, 1.80, 1/4 2pl). Expected result on the market's probabilities -EUR 1.16 (-24%), on the model's +EUR 4.68,
+  but the model figure is driven by Haveanothertry (model 34% vs market 8%; the backtest says the model over-rates long
+  prices, 17.5% modelled vs 5.7% actual at SP 10+); Mancero (Plumpton 15:38) is the same T band closer to the market.
+  Chance of a profit 47% (model) / 17% (market); all four winning returns EUR 87.
+- **Money-back accumulator vs the Lucky 15** (offer: one leg placing 2nd-4th refunds a EUR 10 free bet): the 4-fold at 155.9x
+  wins 0.4% (market) to 2.6% (model) of the time and the refund fires 3.6% to 12.8%; a free bet is worth about half to 80% of
+  face, so the offer adds only EUR 0.25 to 0.90 to a EUR 5 bet. Expected result of the acca on the market's numbers is
+  -EUR 1.62 to -1.87 against -EUR 1.16 for the each-way Lucky 15, which also pays something whenever any leg wins or
+  places. Check the offer's terms (Lucky 15 / each-way often excluded, stake caps, free-bet stake not returned).
+- **Exchange prices (Betfair SP)**: the model's #1 picks return +4.0% before commission and +2.4% after 2% commission at
+  BSP (n = 4,378, standard error about 2.4 points) against -11.0% at bookmaker SP; the market favourite at BSP with 2%
+  commission is -1.1%. Promising, not proven. The exchange has no each-way market. Not built into any tool yet.
+- **Settlement**: `venv/bin/python ml/kaggle_v2/check_selections.py slips/2026-09-20_lucky15.json [--wait-minutes 120
+  --poll-seconds 300 --no-notify]` polls `/v1/results` until every leg has run, settles at the slip's planned prices and
+  terms (W/P/L/NR), and sends one `notify-phone.sh` note (`[Done]`, or `[Status]` if races are missing at the deadline).
+  Slip JSON: `date`, `name`, `unit_stake`, `currency`, `legs[]` with `horse`, `course`, `off` (24h), `price`, `places`,
+  `denom`. Scheduled once with a transient timer: `systemd-run --user --unit=lucky15-check-20260920 --collect
+  --on-calendar='2026-09-20 17:30:00' --working-directory=<worktree> <venv python> ml/kaggle_v2/check_selections.py
+  <slip> --wait-minutes 180`. Transient timers do not survive a reboot.
+
 ### 6.4 Betting math: break-even odds and holdout ROI at SP (2026-09-19)
 
 Conventions: 1 unit flat stake on the model's #1 pick, decimal odds include the stake
@@ -755,23 +847,30 @@ actual runners). Far too small to rank individual courses.
 ## 8. Testing
 
 - `data_collection/tests/` (`data_collection/pytest.ini`), from repo root:
-  `venv/bin/python -m pytest data_collection/tests -q`. **50 pass, 4 skipped.**
+  `venv/bin/python -m pytest data_collection/tests -q`. **56 pass, 4 skipped.**
   - `test_racingapi_client.py` (mocked with `responses`): credentials, error mapping
     (401 plan vs auth, 422, 429, non-JSON), throttling incl. the shared-clock
     regression, region merging, pagination stop.
   - `test_fetch_daily_racecards.py`: `racecard_to_rows()` against a real captured
     fixture (`tests/fixtures/racecards_free_gb.json`, live 2026-09-16); required fields
     present, no post-race fields, field translation, wgt/dist/region-suffix regressions.
-  - `test_backfill_history.py`: mapping logic (paid shape still assumed), CLI defaults,
-    plan error gives a clear message and exit code 1.
+  - `test_backfill_history.py`: verified results mapping, CLI defaults, plan error gives a
+    clear message and exit code 1. `test_results_mapping.py`: `results_to_rows()` formats
+    (24h off, dist without yardage, stone-lb weight, padded time, NULL rpr/ts), region filter,
+    loader merge of racecard days and the bare-name fallback. The client tests cover one region
+    per `/results` call and pages of 100; `test_fetch_daily_racecards.py` also covers `off_24h`.
   - `test_live_db.py`: upsert idempotency against a throwaway file.
   - `test_live_smoke.py`: **opt-in** (`RUN_LIVE_API_TESTS=1`, needs the real `.env`);
     Free-tier endpoints only; also asserts the Standard-plan gate is still in effect
     (update after upgrading).
-- `ml/kaggle_v2/tests/test_score_predictions.py`: `venv/bin/python -m pytest
-  ml/kaggle_v2/tests -q`. **8 pass** (perfect ranking, top pick loses, non-finisher,
-  unfinished race, nothing matches, int/str and float/str `num`, withdrawn top pick
-  re-ranked).
+- `ml/kaggle_v2/tests/`: `venv/bin/python -m pytest ml/kaggle_v2/tests -q`. **21 pass.**
+  `test_score_predictions.py` (8 + precision@3: ranking, top pick loses, non-finisher, unfinished race, nothing
+  matches, `num` types, withdrawn pick re-ranked); `test_features_partial_history.py` (`drop_zero_winner_races`);
+  `test_fast_inference.py` (entity counts strictly before the date from both databases, 2021 start, `ran` >= 3 and
+  course filters, null-key groups, walk-forward inclusion, new entities get 0, pre-race blanking, `drop_non_runners`);
+  `test_check_selections.py` (Lucky 15 settlement against the hand calculation: all four winning returns 543.8 units
+  per unit stake, place terms, void legs). Parity with the training matrix is a script, not a test:
+  `verify_fast_vs_training.py` (needs `cache/features.pkl`, about a minute).
 - Fixtures: `racecards_free_gb.json` and `results_today_free_gb.json` (2 races each),
   `racecards_standard_401.json`, `results_paid_401.json`.
 - Environment: venv at repo root (`venv/`, not committed): `python3 -m venv venv &&
@@ -887,21 +986,24 @@ Pipeline and data:
 - [x] Install and enable the systemd timers (daily fetch+inference 01:00, score 23:00; done 2026-09-19, see 4.2). Backfill/evening units remain uninstalled.
 - [x] Wire `live_extension.db` into inference history (done in `fast_inference.py`, 2026-09-20). Training still reads only the static export; retraining on the extended history is open.
 - [ ] Verify `racecards_free(when="tomorrow")` live for the evening fetch flow.
-- [ ] **Drop withdrawn horses** in the pre-race refresh before inference (free
-  racecards keep non-runners; they inflate field-size features and get picked).
+- [x] **Drop withdrawn horses** before inference (done 2026-09-20 in `fast_inference.py`/the odds report for today; withdrawals
+  happen through the morning, so the 01:00 predictions can be stale: rerun before racing; the 01:00 note flags nothing about it yet).
 - [ ] Fix the sire/dam/damsire region-suffix gap (`sire_wr`/`dam_wr`/`dsire_wr` features
   are empty; needs a region source or a name-lookup workaround). Lowest priority.
 - [ ] Add a requirements file for the venv (none exists).
-- [ ] Reduce inference memory (peak ~2.7 GB, one OOM kill seen): downcast dtypes,
-  batch, or trim history.
+- [x] Reduce inference memory: `fast_inference.py` peaks under 1.5 GB (the old path needed more than 4 GB on big days and was OOM-killed).
+- [ ] Retrain on the extended history (2026-05-28 onward) and decide what to do about `rpr`/`ts`, which are empty for the gap.
+- [ ] Test the 01:00 job end to end on the Standard plan (the results call and mapping are verified separately; `backfill_history.py` itself has not run for real) and consider a mid-morning re-run for withdrawals and prices.
+- [ ] Use the market: second-stage model on model probability plus market/exchange price (BSP), exchange-price ROI with commission, shrinking towards the market where model and market disagree (6.6, 6.7).
+- [ ] Ireland is weaker than GB in the walk-forward (24.2% vs 28.5% top-1); revisit the Irish course-name issue.
+- [ ] Bump `RATE_LIMIT_PER_SEC` to 5 (Standard) if the jobs ever get slow.
 
 Model and analysis:
 - [ ] Fix Irish course-name handling in `load_raw()`/`features.py` (strip `(IRE)`,
   derive `is_ire` from a lookup) and retrain; the existing "UK-only" AUC is a mixed set.
 - [ ] Redo the course / region / field-size / confidence analysis on the held-out test
   split in `cache/features.pkl`; validate the "<0.15 confidence" idea out of sample.
-- [ ] Score more days (about 22.6% top-1 over 115 races is a small sample); consider
-  pointing `score_predictions.py` at horseracing.net for past days.
+- [x] Score more days: 115-day walk-forward done (6.5).
 - [ ] Investigate the 2003 row-count doubling and the Nov 1995 / Oct-Nov 1996 gaps
   (only matters if pre-2015 data is used).
 
@@ -982,8 +1084,14 @@ Live workflow:
 ```bash
 venv/bin/python data_collection/racingapi_client.py --probe
 venv/bin/python data_collection/fetch_daily_racecards.py --day today
-venv/bin/python ml/kaggle_v2/inference.py --date 2026-09-18
-venv/bin/python ml/kaggle_v2/score_predictions.py --date 2026-09-18   # same day only
+venv/bin/python ml/kaggle_v2/fast_inference.py --date 2026-09-20      # drops non-runners for today
+venv/bin/python ml/kaggle_v2/score_predictions.py --date 2026-09-20   # same day only (Free results endpoint)
+venv/bin/python ml/kaggle_v2/today_odds_report.py [--all-runners]     # picks vs current or closing odds
+venv/bin/python ml/kaggle_v2/verify_fast_vs_training.py               # feature parity with the training matrix
+venv/bin/python ml/kaggle_v2/backtest_walkforward.py && venv/bin/python ml/kaggle_v2/evaluate_backtest.py   # 115-day backtest, ~15 min
+venv/bin/python ml/kaggle_v2/bettable_analysis.py                     # bettable-price share and ROI by threshold
+venv/bin/python data_collection/load_results_json.py FILE... [--dry-run --regions GB,IRE,FR|all]   # exported results into live_extension.db
+venv/bin/python ml/kaggle_v2/check_selections.py ml/kaggle_v2/slips/2026-09-20_lucky15.json      # settle a slip and notify
 RUN_LIVE_API_TESTS=1 venv/bin/python -m pytest data_collection/tests/test_live_smoke.py
 ```
 
@@ -991,6 +1099,14 @@ RUN_LIVE_API_TESTS=1 venv/bin/python -m pytest data_collection/tests/test_live_s
 
 ## 12. Changelog
 
+- **2026-09-20**: Standard plan. Gap 2026-05-28 to 09-19 loaded from two exported results files (`load_results_json.py`,
+  `results_mapping.py`, mapping corrected against `raceform.db`); found and fixed two inference feature bugs (dropped history,
+  2015 vs 2021 window) and built `fast_inference.py` (parity with the training matrix); 115-day walk-forward backtest (27.9% top-1,
+  59.5% top-3); bettable-price analysis; `today_odds_report.py` (odds, closing SP, non-runner removal); API fixes found live
+  (`/results` one region per call, `limit <= 100`; 24h off time); each-way Lucky 15 slip settlement (`check_selections.py`, transient
+  timer). Notes: 4.6, 4.7, 5.0, 6.5, 6.6, 6.7.
+- **2026-09-19**: systemd timers installed (01:00 fetch + inference, 23:00 score), phone notes via `notify-phone.sh`,
+  `precision@3` added to the scorer.
 - **2026-09-19**: betting math and held-out ROI at starting prices (section 6.4,
   `ml/kaggle_v2/holdout_roi.py`): the model's #1 pick loses 15.2% flat at SP across 7,961
   held-out races, no price or value filter turns positive.
