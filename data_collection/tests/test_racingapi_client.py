@@ -198,28 +198,25 @@ def test_racecards_standard_rejects_bad_day():
 @responses.activate
 def test_results_all_pages_stops_at_total(monkeypatch):
     monkeypatch.setattr(rac.time, "sleep", lambda s: None)
-    responses.add(
-        responses.GET, f"{BASE}/results",
-        json={"results": [{"race_id": f"r{i}"} for i in range(500)], "total": 620},
-        status=200,
-        match=[responses.matchers.query_param_matcher(
-            {"start_date": "2026-01-01", "end_date": "2026-01-01",
-             "region": "gb,ire", "limit": "500", "skip": "0"})],
-    )
-    responses.add(
-        responses.GET, f"{BASE}/results",
-        json={"results": [{"race_id": f"r{i}"} for i in range(500, 620)], "total": 620},
-        status=200,
-        match=[responses.matchers.query_param_matcher(
-            {"start_date": "2026-01-01", "end_date": "2026-01-01",
-             "region": "gb,ire", "limit": "500", "skip": "500"})],
-    )
     import datetime
+    for region in ("gb", "ire"):
+        total = 120 if region == "gb" else 30
+        responses.add(
+            responses.GET, f"{BASE}/results",
+            json={"results": [{"race_id": f"{region}{i}"} for i in range(min(100, total))], "total": total}, status=200,
+            match=[responses.matchers.query_param_matcher({
+                "start_date": "2026-01-01", "end_date": "2026-01-01", "region": region, "limit": "100", "skip": "0"})],
+        )
+    responses.add(
+        responses.GET, f"{BASE}/results",
+        json={"results": [{"race_id": f"gb{i}"} for i in range(100, 120)], "total": 120}, status=200,
+        match=[responses.matchers.query_param_matcher({
+            "start_date": "2026-01-01", "end_date": "2026-01-01", "region": "gb", "limit": "100", "skip": "100"})],
+    )
     c = RacingAPIClient(username="u", password="p")
     pages = list(c.results_all_pages(datetime.date(2026, 1, 1)))
-    assert len(pages) == 2
-    assert len(pages[0]["results"]) == 500
-    assert len(pages[1]["results"]) == 120
+    # gb needs two pages (120 races, 100 per page), ire one page
+    assert [len(p["results"]) for p in pages] == [100, 20, 30]
 
 
 @responses.activate
@@ -232,7 +229,7 @@ def test_results_all_pages_single_page_when_total_fits(monkeypatch):
     import datetime
     c = RacingAPIClient(username="u", password="p")
     pages = list(c.results_all_pages(datetime.date(2026, 1, 1)))
-    assert len(pages) == 1
+    assert len(pages) == 2   # one page per region (gb, ire)
 
 
 @responses.activate

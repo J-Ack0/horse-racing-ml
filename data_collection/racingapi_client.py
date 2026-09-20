@@ -71,6 +71,7 @@ _load_env()
 
 BASE_URL = "https://api.theracingapi.com/v1"
 REGIONS = ["gb", "ire"]  # queried one at a time and merged — see module docstring
+RESULTS_PAGE_SIZE = 100  # /results rejects limit > 100 (live 2026-09-20)
 RATE_LIMIT_PER_SEC = 1  # confirmed live for the Free plan; bump if/when upgraded
 
 # Raw fields features.py::load_raw() needs, for reference when mapping the
@@ -186,12 +187,13 @@ class RacingAPIClient:
             races.extend(payload.get("results", []))
         return races
 
-    def results(self, start: date, end: date | None = None, skip: int = 0) -> Any:
+    def results(self, start: date, end: date | None = None, skip: int = 0, region: str = "gb") -> Any:
         """
-        Paid-plan historical results for [start, end] (inclusive).
-        Raises RacingAPIPlanError on the Free plan (confirmed live).
-        One page (limit=500); paginate by passing `skip` — the response's
-        "total" field tells you when you've read everything.
+        Standard-plan historical results for [start, end] (inclusive), ONE region per call
+        (`region="gb,ire"` is rejected: "unrecognised region code", live-verified 2026-09-20).
+        Pages are at most 100 RACES (limit=500 is rejected with a 422); the response's "total"
+        is the number of races for the query, so paginate with `skip`. Raises RacingAPIPlanError
+        on the Free plan.
         """
         end = end or start
         return self._get(
@@ -199,22 +201,23 @@ class RacingAPIClient:
             params={
                 "start_date": start.isoformat(),
                 "end_date": end.isoformat(),
-                "region": "gb,ire",
-                "limit": 500,
+                "region": region,
+                "limit": RESULTS_PAGE_SIZE,
                 "skip": skip,
             },
         )
 
     def results_all_pages(self, start: date, end: date | None = None):
-        """Generator yielding every page's payload until `total` is exhausted."""
-        skip = 0
-        while True:
-            payload = self.results(start, end, skip=skip)
-            yield payload
-            total = payload.get("total", 0)
-            skip += 500
-            if skip >= total:
-                break
+        """Generator yielding every page's payload for every region until `total` is exhausted."""
+        for region in REGIONS:
+            skip = 0
+            while True:
+                payload = self.results(start, end, skip=skip, region=region)
+                yield payload
+                total = payload.get("total", 0)
+                skip += RESULTS_PAGE_SIZE
+                if skip >= total:
+                    break
 
 
 def _probe(client: RacingAPIClient) -> None:

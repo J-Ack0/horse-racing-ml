@@ -153,3 +153,19 @@ def test_racecard_to_rows_wgt_and_dist_are_parseable_by_features_py():
     row = racecard_to_rows([race], fetched_at="now")[0]
     assert parse_wgt(row["wgt"]) == 140.0
     assert parse_dist(row["dist"]) == 10.0
+
+
+def test_off_is_24h_like_raceform_db():
+    from fetch_daily_racecards import off_24h
+    assert off_24h({"off_time": "2:08", "off_dt": "2026-09-16T14:08:00+01:00"}) == "14:08"
+    assert off_24h({"off_time": "2:08"}) == "14:08"      # no off_dt: afternoon hours are pm
+    assert off_24h({"off_time": "12:30"}) == "12:30"
+    assert off_24h({"off_time": "11:40"}) == "11:40"
+    assert off_24h({}) is None
+
+
+def test_racecard_rows_carry_24h_off(racecards_free_payload):
+    races = racecards_free_payload["racecards"][:1]
+    from fetch_daily_racecards import racecard_to_rows
+    rows = racecard_to_rows(races, fetched_at="now")
+    assert rows[0]["off"] == races[0]["off_dt"][11:16]

@@ -27,6 +27,27 @@ from racingapi_client import RacingAPIClient, RacingAPIError
 from live_db import connect, upsert_rows
 
 
+def off_24h(race: dict) -> str | None:
+    """
+    "14:08" from the racecard's off_dt (local ISO time). The API's own `off_time` is a 12h clock with
+    no am/pm ("2:08"), while raceform.db stores 24h ("14:08") and features.py's `off_hour` is the
+    leading number, so passing "2:08" through made every afternoon race look like 2am (found
+    2026-09-20). Fallback without off_dt: UK/IRE racing runs about 11:00-21:00, so hours 1-9 are pm.
+    """
+    dt = race.get("off_dt") or ""
+    if len(dt) >= 16 and dt[10] == "T":
+        return dt[11:16]
+    t = race.get("off_time")
+    if not t or ":" not in str(t):
+        return t
+    h, _, m = str(t).partition(":")
+    try:
+        hour = int(h)
+    except ValueError:
+        return t
+    return f"{hour + 12 if 1 <= hour <= 9 else hour:02d}:{m}"
+
+
 def lbs_to_wgt_str(lbs) -> str | None:
     """
     140 (lbs, as returned by the API's `lbs` field) -> "10-0" (stone-lbs,
@@ -102,7 +123,7 @@ def racecard_to_rows(races: list[dict], fetched_at: str) -> list[dict]:
             "date": race.get("date"),
             "course": race.get("course"),
             "race_id": race.get("race_id"),
-            "off": race.get("off_time"),
+            "off": off_24h(race),
             "race_name": race.get("race_name"),
             "type": race.get("type"),
             "class": race.get("race_class"),

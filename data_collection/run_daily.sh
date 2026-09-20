@@ -38,8 +38,11 @@ case "$MODE" in
     RUNNERS="$(grep -oE 'Upserted [0-9]+ runner rows' "$LOG" | grep -oE '[0-9]+' | head -n1 || true)"
     RACES="$(grep -oE 'predictions \([0-9]+ races\)' "$LOG" | grep -oE '[0-9]+' | head -n1 || true)"
     PICKS="$(grep -E -- '->.*\(p=' "$LOG" | head -n 12 | sed 's/^ *//' || true)"
+    # bookmaker odds now (non-fatal): how many #1 picks are at or above break-even odds
+    ODDS="$("$PY" ml/kaggle_v2/today_odds_report.py 2>&1 | grep -m1 '^\*\*#1 picks at a bettable price' | tr -d '*' || true)"
     notify done "Racecard $DAY fetched: ${RACES:-?} races, ${RUNNERS:-?} runners; inference done" \
-      "Backfill: ${BACKFILL:-none}. Top picks (first 12 races):
+      "Backfill: ${BACKFILL:-none}. Odds now: ${ODDS:-unavailable}
+Top picks (first 12 races):
 $PICKS"
     ;;
   score)
@@ -49,8 +52,11 @@ $PICKS"
     P3="$(grep -oE '^precision_at_3 +=  ?[0-9.]+' "$LOG" | grep -oE '[0-9.]+$' || true)"
     SC="$(grep -oE '^Scored [0-9]+/[0-9]+ races' "$LOG" | head -n1 || true)"
     pct() { awk -v x="${1:-}" 'BEGIN{ if (x=="") print "?"; else printf "%.1f%%", x*100 }'; }
+    # closing odds (non-fatal): finished races use the SP; adds bettable-pick counts and how they did
+    CLOSE="$("$PY" ml/kaggle_v2/today_odds_report.py 2>&1 | grep -E '^(\*\*#1 picks at a bettable|Finished:)' | tr -d '*' || true)"
     notify done "Results $DAY: top-1 $(pct "$T1"), top-3 $(pct "$T3"), P@3 $(pct "$P3") (${SC:-scored})" \
-      "$(grep -E '^(Scored|top1|top3|precision|mean_position)' "$LOG")"
+      "$(grep -E '^(Scored|top1|top3|precision|mean_position)' "$LOG")
+Closing odds: ${CLOSE:-unavailable}"
     ;;
   *)
     echo "usage: run_daily.sh fetch|score" >&2; exit 2 ;;
