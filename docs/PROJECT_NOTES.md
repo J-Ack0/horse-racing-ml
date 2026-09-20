@@ -46,7 +46,7 @@ Status as of 2026-09-18:
 | Live data (racecards) | Working on the Free plan, live-verified 2026-09-16 |
 | Live data (history backfill) | Plan upgraded to Standard (2026-09-20); 2026-05-28 to 2026-09-19 loaded into `live_extension.db` from exported JSON, **not yet used by inference/training** (see 4.6) |
 | Inference | Working, ~3m50s per day, 444-529 runners |
-| Scoring | Working (`score_predictions.py`), 3 days scored, ~22.6% top-1 over 115 races |
+| Scoring | Working (`score_predictions.py`); out-of-sample walk-forward over 115 days / 4,438 races: 27.9% top-1, 59.5% top-3 ([6.5](#65-walk-forward-backtest-on-the-post-may-races-2026-09-20)) |
 | Tests | `data_collection/tests`: 50 pass, 4 live tests skipped by default; `ml/kaggle_v2/tests`: 8 pass |
 | Data window | 2015-01-01 to 2026-05-27 (fixed, ends 2026-05-27; the gap to today grows daily) |
 
@@ -309,8 +309,8 @@ top features are `prior_rpr_rk` (9.0% in binary), `field_size` (8.5%), `h_rel_em
 - `backfill_history.py`: pulls settled results from 2026-05-28 (dataset end + 1) to
   yesterday in one ranged call with pagination; idempotent; defaults self-heal a day
   that failed. Prints a plan-required message and exits 1 on the Free plan.
-- `systemd/`: `racingapi-daily-fetch.{service,timer}` (01:00: fetch today's racecard,
-  then inference) and `racingapi-daily-score.{service,timer}` (23:00: score today
+- `systemd/`: `racingapi-daily-fetch.{service,timer}` (01:00: backfill yesterday's results, fetch today's racecard,
+  then `fast_inference.py`; the backfill step is non-fatal) and `racingapi-daily-score.{service,timer}` (23:00: score today
   against `/results/today/free`; `Persistent=false` because the Free plan only serves
   today's results). Both call `data_collection/run_daily.sh fetch|score`. **Installed
   and enabled 2026-09-19** as symlinks in `~/.config/systemd/user/` (`systemctl --user
@@ -377,11 +377,9 @@ with no missing day; the 153 overlapping races are identical.
   on official rating.
 - **Merge days**: the 16th's racecard rows held bare horse names (pre-suffix-fix), so the loader
   matches on the bare name and renames to the suffixed form.
-- **Not yet used**: `inference.py` still reads history from `raceform.db` only (it reads
-  `live_extension.db` for today's card only), so the gap does not affect predictions until
-  `live_extension.db` is unioned into the history load. Until then `days_since_run` and the entity
-  form features still understate anything since 2026-05-27. Also, because `rpr`/`ts` are NULL in the
-  gap, `prior_rpr` / `prior_ts` will not see these runs even after the union.
+- **Used by inference since 2026-09-20**: `fast_inference.py` reads `live_extension.db` as history for
+  every later day (see [5.0](#50-fast-path-and-two-feature-bugs-fixed-2026-09-20)); training still reads
+  only the static export. `rpr`/`ts` are NULL in the gap, so `prior_rpr`/`prior_ts` do not see those runs.
 - `raceform.db` contains French races (about 10% of May's rows); FR in the gap is loaded for the same
   reason.
 - Correction to an earlier note in this session: race_ids from the results and racecard endpoints do
@@ -411,6 +409,45 @@ index (`context7.com/websites/api_theracingapi`, `/llms.txt`) mirrors it. Base U
 ---
 
 ## 5. Inference
+
+### 5.0 Fast path and two feature bugs fixed (2026-09-20)
+
+**Use `ml/kaggle_v2/fast_inference.py --date YYYY-MM-DD`** (about 12 to 20 s per day, under 1.5 GB).
+It builds features only for the day's runners: each horse's own past runs plus SQL running
+counts per jockey/trainer/sire/dam/damsire/pair strictly before the date, passed to
+`features.build(..., entity_counts=...)`. History = `raceform.db` (to 2026-05-27) plus every
+finished day in `live_extension.db` dated before the target, so predicting D+1 automatically sees D's
+results (walk-forward). **Verified identical to the training matrix**: 0 of 135 features differ on
+2026-05-20, 2025-10-04 and 2024-06-15 (`ml/kaggle_v2/verify_fast_vs_training.py`).
+
+Two bugs in the older `inference.py` (still there; it now scores in memory-bounded chunks of whole
+races and passes the fix below) made every earlier live prediction use different features from
+training:
+
+1. **`build()` dropped a third of the history.** Its "race with a result but no winner = data
+   error" filter ran on history loaded per entity, where a past race usually has only some rows
+   loaded and its winner is often absent. On 2026-09-06 32% of loaded history rows were dropped
+   (for example a horse with 26 real prior runs kept 14), understating `h_runs_prior`,
+   `days_since_run`, `jky_runs` and friends. The full table has 0 such races. Fix:
+   `build(..., drop_zero_winner_races=False)` for inference (default unchanged for training). The
+   earlier claim below that entity stats "depend only on the entity's own rows" was wrong because of
+   this filter, and it is also why scoring a day in race chunks looked inexact (up to 0.086 in
+   probability); after the fix chunked and whole-day runs are identical.
+2. **History window mismatch.** Training built features from `HISTORY_START=2021-01-01`
+   (`features.py` default) while inference loaded everything back to 2015, inflating every entity
+   count. `fast_inference.py` uses 2021-01-01.
+
+The live results logged for 2026-09-16 to 19 in [6.3](#63-results-by-day-1-pick-per-race)
+(about 21% top-1) were produced with bug 1 and are superseded by the walk-forward in
+[6.5](#65-walk-forward-backtest-on-the-post-may-races-2026-09-20).
+
+Limits: gap rows loaded from the results export have `rpr`/`ts` NULL (the vendor's
+performance/speed ratings are a different scale), so `prior_rpr`/`prior_ts` do not see those runs.
+Nightly results come from `backfill_history.py` (default start = day after the last day with results;
+first live use on the Standard plan is untested).
+
+### 5.1 Older entity-scoped path (`inference.py`)
+
 
 `ml/kaggle_v2/inference.py --date YYYY-MM-DD` scores a day's racecard with the base
 (UK+IRE, includes `is_ire`) blend_all model. Output:
@@ -485,6 +522,8 @@ sp/rpr/ts), but it cannot substitute for `backfill_history.py`.
 
 ### 6.3 Results by day (#1 pick per race)
 
+**Superseded**: the rows below were scored with the history-dropping feature bug ([5.0](#50-fast-path-and-two-feature-bugs-fixed-2026-09-20)). The corrected out-of-sample numbers are in [6.5](#65-walk-forward-backtest-on-the-post-may-races-2026-09-20).
+
 | Day | Races | Top-1 | #1 pick in top 3 | Precision@3 | Mean position error |
 |---|---|---|---|---|---|
 | 2026-09-16 | 34 | 11/34 = 32.4% | 22/34 = 64.7% | 50/102 = 49.0% | n/a (top-3 only) |
@@ -516,6 +555,53 @@ sp/rpr/ts), but it cannot substitute for `backfill_history.py`.
   closed at midnight); the 17th was scored via horseracing.net.
 
 ---
+
+### 6.5 Walk-forward backtest on the post-May races (2026-09-20)
+
+Every day from 2026-05-28 to 2026-09-19 predicted with `fast_inference.py` from history = raceform
+plus all earlier days' results, day's own result columns blanked, then scored
+(`ml/kaggle_v2/backtest_walkforward.py`, `evaluate_backtest.py`, `run_backtest.sh`; predictions and
+`report.md` in `ml/kaggle_v2/predictions/backtest_wf/`, gitignored). These races are after the model's
+training and held-out window, so this is a genuine out-of-sample test: **115 days, 4,438 GB+IRE
+races, 41,381 runners**, 15 minutes end to end, no failures.
+
+| Metric (#1 pick per race, blend_all) | Value | 95% CI | Held-out reference |
+|---|---|---|---|
+| top-1 (pick won) | 27.9% | 26.6 to 29.2 | 27.3% |
+| top-3 (pick placed) | 59.5% | 58.1 to 60.9 | about 60% |
+| precision@3 | 52.2% | 51.4 to 53.0 | |
+| MRR of the winner | 0.490 | | about 0.49 |
+| mean position error | 2.76 | | random about 3.5 |
+| runner AUC (win) | 0.739 | | 0.7445 |
+| average precision (win) | 0.275 | 0.258 to 0.294 | about 0.27 |
+
+Per-day distribution (n=115): top-1 mean 27.9%, sd 7.5 (p5 16.5, p25 23.1, median 28.0, p75 33.3,
+p95 40.4); top-3 mean 60.0%, sd 8.1 (p5 47.0, p95 73.4); precision@3 mean 52.6%, sd 5.4.
+
+Runner-level threshold table (flag a runner if `blend_all` >= t; positive = wins):
+
+| t | flagged per race | precision | recall | F1 | flat ROI at SP |
+|---|---|---|---|---|---|
+| 0.10 | 3.9 | 18.5% | 72.1% | 0.294 | -16.5% |
+| 0.15 | 2.1 | 24.2% | 49.9% | **0.326** | -12.5% |
+| 0.20 | 1.1 | 30.2% | 33.1% | 0.316 | -9.0% |
+| 0.30 | 0.34 | 40.8% | 14.0% | 0.209 | -6.6% |
+| 0.40 | 0.10 | 52.6% | 5.5% | 0.100 | -4.2% |
+| 0.50 | 0.03 | 62.6% | 2.0% | 0.038 | -4.3% |
+
+#1 pick only, by minimum confidence of the pick: p >= 0.20 covers 68% of races with 32.7% top-1 /
+68.7% top-3; p >= 0.30 covers 30% with 41.0% / 78.4%; p >= 0.40 covers 10% with 52.0% / 87.2%.
+Calibration by decile is close to the diagonal (top decile mean p 0.298, win rate 0.318).
+
+Splits (top-1 / top-3): GB 28.5% / 61.1% (3,811 races), Ireland 24.2% / 50.1% (627); fields of 8 or
+fewer 34.1% / 71.2%, 9-12 23.7% / 54.2%, 13-16 19.8% / 39.3%, 17+ 19.2% / 38.9%; Flat 28.2%,
+Hurdle 25.5%, Chase 28.4%; by month 25.7 (May, 5 days), 27.7, 29.2, 27.4, 27.0.
+
+Reading it: the model holds its held-out level out of sample, so the poor live numbers logged in 6.3
+came from the feature bug in [5.0](#50-fast-path-and-two-feature-bugs-fixed-2026-09-20), not from the
+model. It is still **not a betting edge**: flat ROI at SP for the #1 pick is -11.0% (all races) and
+stays negative at every confidence threshold (-4% to -9%), in line with the -15.2% held-out figure in
+6.4. Ireland is weaker than GB here (24% vs 29% top-1, 627 races).
 
 ### 6.4 Betting math: break-even odds and holdout ROI at SP (2026-09-19)
 
@@ -764,8 +850,7 @@ Pipeline and data:
   `results_to_rows()` against a real paid response right after (nesting, `sp_dec`,
   `ovr_btn`).
 - [x] Install and enable the systemd timers (daily fetch+inference 01:00, score 23:00; done 2026-09-19, see 4.2). Backfill/evening units remain uninstalled.
-- [ ] Wire `live_extension.db` into `ml/kaggle_v2/common.py` / `features.py` as a UNION
-  (today `inference.py` reads it separately and training reads only the static export).
+- [x] Wire `live_extension.db` into inference history (done in `fast_inference.py`, 2026-09-20). Training still reads only the static export; retraining on the extended history is open.
 - [ ] Verify `racecards_free(when="tomorrow")` live for the evening fetch flow.
 - [ ] **Drop withdrawn horses** in the pre-race refresh before inference (free
   racecards keep non-runners; they inflate field-size features and get picked).

@@ -161,7 +161,13 @@ def main() -> int:
     ci = bootstrap(rt, df, args.boot)
     days = df["date"].nunique()
 
-    daily = rt.groupby("date").agg(races=("top1", "size"), top1=("top1", "mean"), top3=("top3", "mean"))
+    daily = rt.groupby("date").agg(races=("top1", "size"), top1=("top1", "mean"), top3=("top3", "mean"),
+                                   hits3=("hits3", "sum"), n3=("n3", "sum"))
+    daily["p_at_3"] = daily["hits3"] / daily["n3"]
+    pct = daily[["top1", "top3", "p_at_3"]].quantile([0.05, 0.10, 0.25, 0.50, 0.75, 0.90, 0.95]).T
+    pct.columns = [f"p{int(q * 100)}" for q in pct.columns]
+    pct.insert(0, "mean", daily[["top1", "top3", "p_at_3"]].mean())
+    pct.insert(1, "sd", daily[["top1", "top3", "p_at_3"]].std())
     rt["field_bucket"] = pd.cut(rt["field"], [0, 8, 12, 16, 100], labels=["<=8", "9-12", "13-16", "17+"])
 
     lines = [
@@ -194,6 +200,7 @@ def main() -> int:
         f"top-1: mean {daily['top1'].mean():.3f}, sd {daily['top1'].std():.3f}, min {daily['top1'].min():.3f}, "
         f"median {daily['top1'].median():.3f}, max {daily['top1'].max():.3f}; "
         f"top-3: mean {daily['top3'].mean():.3f}, sd {daily['top3'].std():.3f}\n",
+        "Percentiles of the per-day metric:", md(pct) + "\n",
     ]
     report = "\n".join(lines)
     (out_dir / "report.md").write_text(report)
