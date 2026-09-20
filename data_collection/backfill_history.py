@@ -20,13 +20,9 @@ The API's /v1/results endpoint takes a start_date/end_date range directly
 ⚠️ LIVE-CONFIRMED 2026-09-16: this endpoint 401s with "Standard Plan
 required" on the account's current Free plan — see
 docs/PROJECT_NOTES.md, section 4.3 (live-verified 2026-09-16).
-This script will fail with a clear RacingAPIPlanError until the account is
-upgraded. Its exact field mapping (results_to_rows below) is therefore
-still UNVERIFIED against a real paid response — only the Free-tier
-/results/today/free shape has been confirmed live, and that lacks
-sp/rpr/ts/prize/comment entirely, so it can't be used to verify this
-mapping either. Re-check field names with a live call as the very first
-thing after upgrading.
+The account is now on the Standard plan. The row mapping lives in
+results_mapping.py and was verified 2026-09-20 against exported
+/v1/results data and raceform.db (see that module's docstring).
 
 Usage:
     python backfill_history.py                      # 2026-05-28 -> yesterday
@@ -40,76 +36,9 @@ from datetime import date, timedelta, datetime, timezone
 
 from racingapi_client import RacingAPIClient, RacingAPIError, RacingAPIPlanError
 from live_db import connect, upsert_rows
+from results_mapping import results_to_rows  # verified mapping, see results_mapping.py
 
 DATASET_END_DATE = date(2026, 5, 27)  # last date present in data/raceform.db
-
-
-def results_to_rows(payload: dict, fetched_at: str) -> list[dict]:
-    """
-    Map one /v1/results page onto our `data` table row shape.
-
-    Field names per the documented schema (see docs/PROJECT_NOTES.md, section 4.3):
-    API `position` -> our `pos`, `sp_dec` -> our `sp` (decimal, matches how
-    raceform.db's `sp` column is used downstream), `weight_lbs` -> our `wgt`,
-    `performance_rating`/`speed_rating` -> our `rpr`/`ts`, `comments` -> our
-    `comment`, `race_class` -> our `class`. `ovr_btn` has no confirmed API
-    equivalent (only overall `btn` documented) — left NULL until verified.
-    An unrated horse's `or`/`ofr` comes back as the literal string "–" (an
-    en dash), not null/0 — confirmed live 2026-09-16. Downstream numeric
-    parsing of `or` must handle that, not assume it's always an int string.
-    Response is assumed race-grouped with nested runners, mirroring
-    /racecards/standard's shape (same vendor, same doc family) — CONFIRM
-    with a --probe once results() is first called for real.
-    """
-    rows: list[dict] = []
-    for race in payload.get("results", []):
-        base = {
-            "date": race.get("date"),
-            "course": race.get("course"),
-            "race_id": race.get("race_id"),
-            "off": race.get("off_time"),
-            "race_name": race.get("race_name"),
-            "type": race.get("type"),
-            "class": race.get("race_class"),
-            "pattern": race.get("pattern"),
-            "rating_band": race.get("rating_band"),
-            "age_band": race.get("age_band"),
-            "sex_rest": race.get("sex_restriction"),
-            "dist": race.get("distance"),
-            "going": race.get("going"),
-            "ran": race.get("field_size") or len(race.get("runners", [])),
-            "fetched_at": fetched_at,
-        }
-        for runner in race.get("runners", []):
-            row = dict(base)
-            row.update({
-                "num": runner.get("number"),
-                "draw": runner.get("draw"),
-                "pos": runner.get("position"),
-                "btn": runner.get("btn"),
-                "horse": runner.get("horse"),
-                "age": runner.get("age"),
-                "sex": runner.get("sex"),
-                "wgt": runner.get("weight_lbs"),
-                "hg": runner.get("headgear"),
-                "sp": runner.get("sp_dec"),
-                "jockey": runner.get("jockey"),
-                "trainer": runner.get("trainer"),
-                "prize": runner.get("prize"),
-                # NOTE: racecards/free uses key "ofr" but results/today/free uses
-                # key "or" for the same field (confirmed live 2026-09-16, an
-                # actual vendor inconsistency between endpoints) — try both.
-                "or": runner.get("or", runner.get("ofr")),
-                "rpr": runner.get("performance_rating"),
-                "ts": runner.get("speed_rating"),
-                "sire": runner.get("sire"),
-                "dam": runner.get("dam"),
-                "damsire": runner.get("damsire"),
-                "owner": runner.get("owner"),
-                "comment": runner.get("comments"),
-            })
-            rows.append(row)
-    return rows
 
 
 def main() -> int:

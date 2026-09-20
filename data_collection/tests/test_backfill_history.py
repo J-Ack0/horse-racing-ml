@@ -1,11 +1,8 @@
 """
-Tests for backfill_history.py. results_to_rows()'s exact field mapping is
-UNVERIFIED against a real paid response (the account is on the Free plan —
-see racingapi_client.py's module docstring), so these tests pin the
-*documented/assumed* shape and are expected to need updating the moment a
-Standard-plan response is captured. What IS fully tested here: date
-defaults, CLI plumbing, and — critically — that a plan error surfaces a
-clear message and a non-zero exit rather than crashing or silently no-oping.
+Tests for backfill_history.py. The row mapping (results_mapping.py) was verified
+2026-09-20 against real /v1/results exports; more thorough mapping tests are in
+test_results_mapping.py. Also tested here: date defaults, CLI plumbing, and that a
+plan error surfaces a clear message and a non-zero exit rather than crashing.
 """
 import datetime
 import sys
@@ -21,34 +18,25 @@ def test_default_start_is_day_after_dataset_end():
     assert bh.DATASET_END_DATE == datetime.date(2026, 5, 27)
 
 
-def test_results_to_rows_maps_assumed_field_names(results_today_free_payload):
-    # NOTE: results_today_free lacks sp/rpr/ts/prize/comment entirely (confirmed
-    # live) so this fixture only exercises the fields it does share with the
-    # assumed paid /results shape (position, weight_lbs is NOT in free -> weight
-    # only). We test the mapping function's *logic* here, not full field coverage;
-    # full coverage needs a paid-plan fixture (see module docstring).
+def test_results_to_rows_uses_verified_mapping(results_today_free_payload):
+    # Mapping verified 2026-09-20 against exported /v1/results data and raceform.db
+    # (see results_mapping.py): numeric strings become ints, weight stays stone-lb,
+    # and the vendor's performance/speed ratings are NOT rpr/ts (left NULL).
     race = dict(results_today_free_payload["results"][0])
     race["runners"] = [dict(race["runners"][0])]
     r = race["runners"][0]
-    r["sp_dec"] = 2.5
-    r["weight_lbs"] = r.get("weight_lbs", "140")
-    r["performance_rating"] = 75
-    r["speed_rating"] = 70
-    r["comments"] = "travelled well"
-    r["prize"] = 1000
-    r["btn"] = "1.5"
+    r.update({"sp": "5/2", "weight": "9-7", "performance_rating": "75", "speed_rating": "70",
+              "comment": "travelled well", "prize": "1000.50", "btn": "1.5"})
 
-    rows = bh.results_to_rows({"results": [race]}, fetched_at="now")
-    row = rows[0]
-    assert row["pos"] == r["position"]
-    assert row["sp"] == 2.5
-    assert row["rpr"] == 75
-    assert row["ts"] == 70
+    row = bh.results_to_rows({"results": [race]}, fetched_at="now")[0]
+    assert row["pos"] == int(r["position"])
+    assert row["sp"] == "5/2"
+    assert row["wgt"] == "9-7"
+    assert row["rpr"] is None and row["ts"] is None
     assert row["comment"] == "travelled well"
     assert row["prize"] == 1000
-    # results/today/free uses key "or" directly (confirmed live 2026-09-16,
-    # unlike racecards/free which uses "ofr" for the same field)
-    assert row["or"] == r["or"]
+    assert row["btn"] == 1.5
+    assert row["or"] == (int(r["or"]) if str(r.get("or", "")).strip("-–") else None)
 
 
 def test_results_to_rows_empty_payload():

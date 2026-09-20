@@ -44,7 +44,7 @@ Status as of 2026-09-18:
 |---|---|
 | Model | Trained, `blend_all` AUC 0.7445 (UK+IRE test) / 0.7663 (Irish-only test) |
 | Live data (racecards) | Working on the Free plan, live-verified 2026-09-16 |
-| Live data (history backfill) | Code-complete, **blocked on a Standard plan** |
+| Live data (history backfill) | Plan upgraded to Standard (2026-09-20); 2026-05-28 to 2026-09-19 loaded into `live_extension.db` from exported JSON, **not yet used by inference/training** (see 4.6) |
 | Inference | Working, ~3m50s per day, 444-529 runners |
 | Scoring | Working (`score_predictions.py`), 3 days scored, ~22.6% top-1 over 115 races |
 | Tests | `data_collection/tests`: 50 pass, 4 live tests skipped by default; `ml/kaggle_v2/tests`: 8 pass |
@@ -326,7 +326,7 @@ top features are `prior_rpr_rk` (9.0% in binary), `field_size` (8.5%), `h_rel_em
 
 ### 4.3 Free vs Standard plan (live-verified 2026-09-16)
 
-The account is on the **Free plan**.
+The table below is the Free-plan state verified 2026-09-16. **The account moved to the Standard plan on 2026-09-20**; the Standard endpoints have not been probed live from this repo yet (the history loaded in 4.6 came from exported files).
 
 | Endpoint | Free plan | Notes |
 |---|---|---|
@@ -353,6 +353,39 @@ The account is on the **Free plan**.
   `performance_rating`->rpr, `speed_rating`->ts, `comments`->comment, `prize`,
   `ofr`->or, runners nested under races. Re-verify immediately after upgrading.
 - `racecards_free(when="tomorrow")` is untested live (only "today" verified).
+
+### 4.6 History gap fill, 2026-09-20
+
+The gap (2026-05-28 to yesterday, 115 days) was filled from two exported `/v1/results` JSON
+files sent by Taildrop (`2026-05-26_2026-06-27_results.json`, `2026-06-26_2026-09-20_results.json`,
+kept in `~/Desktop/taildrop-inbox/`, not in git). Together they cover every day 05-28 to 09-19
+with no missing day; the 153 overlapping races are identical.
+
+- **Loaded**: `data_collection/load_results_json.py FILE...` (idempotent, backs up
+  `live_extension.db` first, `--dry-run`, `--regions GB,IRE,FR|all`, `--start`). Loaded GB+IRE+FR
+  only (5,675 of 5,987 races, 53,442 runner rows over 115 days); the other regions (HK, USA, ARG,
+  ...) were skipped, rerun with `--regions all` to add them. `live_extension.db` now holds 53,875
+  rows over 116 days (05-28 to 09-20; the 20th is the pre-race card).
+- **Mapping bugs found and fixed** by comparing 706 runners against `raceform.db` on 05-26/27
+  (`data_collection/results_mapping.py`, now used by `backfill_history.py`; the old "assumed"
+  mapping is gone): `performance_rating` and `speed_rating` are **not** raceform's `rpr` / `ts`
+  (history `rpr` is blank where the vendor has 113; the vendor's own `rpr` and `tsr` fields are
+  empty in every row), so `rpr` and `ts` are **NULL for all loaded rows**; `wgt` must come from the
+  stone-lb `weight` ("8-13"), not `weight_lbs`; `off` comes from `off_dt` (24h), not the 12h `off`;
+  `dist` drops the yardage ("2m13y" -> "2m"); `time` pads seconds ("4:5.30" -> "4:05.30"); `sp` stays
+  fractional text like history. Exact match on pos, prize, draw, going, off; 99% on wgt/btn/sp, 96%
+  on official rating.
+- **Merge days**: the 16th's racecard rows held bare horse names (pre-suffix-fix), so the loader
+  matches on the bare name and renames to the suffixed form.
+- **Not yet used**: `inference.py` still reads history from `raceform.db` only (it reads
+  `live_extension.db` for today's card only), so the gap does not affect predictions until
+  `live_extension.db` is unioned into the history load. Until then `days_since_run` and the entity
+  form features still understate anything since 2026-05-27. Also, because `rpr`/`ts` are NULL in the
+  gap, `prior_rpr` / `prior_ts` will not see these runs even after the union.
+- `raceform.db` contains French races (about 10% of May's rows); FR in the gap is loaded for the same
+  reason.
+- Correction to an earlier note in this session: race_ids from the results and racecard endpoints do
+  match on recent days (both `rac_3229...`); no id-scheme problem.
 
 ### 4.4 Vendor documentation (found 2026-09-15)
 
@@ -726,7 +759,7 @@ odds scrapers almost certainly affected too.
 One deduplicated list. **Open** unless marked fixed.
 
 Pipeline and data:
-- [ ] **Upgrade to a Standard Racing API plan** to unblock `backfill_history.py`
+- [x] **Upgrade to a Standard Racing API plan** (done 2026-09-20; gap loaded from exported files, see 4.6). Still to do: probe the Standard endpoints live, union `live_extension.db` into the history load, decide on `rpr`/`ts` for the gap: `backfill_history.py`
   (fills 2026-05-28 to yesterday, 114+ days and growing). Re-verify
   `results_to_rows()` against a real paid response right after (nesting, `sp_dec`,
   `ovr_btn`).
