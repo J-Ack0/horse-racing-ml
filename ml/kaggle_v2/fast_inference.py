@@ -112,6 +112,28 @@ def prerace_view(rows: pd.DataFrame) -> pd.DataFrame:
     return rows
 
 
+_SUFFIX = __import__("re").compile(r"\s*\([A-Za-z]{2,4}\)$")
+
+
+def _bare(name) -> str:
+    return _SUFFIX.sub("", str(name)).strip().lower()
+
+
+def drop_non_runners(live: pd.DataFrame, cards: list[dict]) -> pd.DataFrame:
+    """
+    Remove withdrawn horses. The racecard APIs keep a non-runner in its race (standard racecards mark
+    it with number "NR" and still quote prices), so without this the field size, the race-relative
+    features and even the #1 pick include horses that will not run. `ran` is reset to the number of
+    runners left. Only meaningful for a day that has not been run (results already exclude NRs).
+    """
+    keep = {c["race_id"]: {_bare(r["horse"]) for r in c.get("runners", []) if str(r.get("number")).upper() != "NR"}
+            for c in cards}
+    mask = [(_bare(h) in keep[r]) if r in keep else True for r, h in zip(live["race_id"], live["horse"])]
+    out = live[mask].copy()
+    out["ran"] = out.groupby("race_id")["horse"].transform("size")
+    return out
+
+
 def features_for_day(date: str, today_rows: pd.DataFrame) -> pd.DataFrame:
     today_rows = prerace_view(today_rows)
     hist = load_horse_history(today_rows["horse"].dropna().unique().tolist(), date)
@@ -139,6 +161,15 @@ def main() -> int:
     if live.empty:
         print(f"No rows for {args.date} in {inf.LIVE_DB}", file=sys.stderr)
         return 1
+    if args.date == __import__("datetime").date.today().isoformat():
+        try:   # withdrawn horses (Standard racecards); if the call fails, predict on the full card
+            sys.path.insert(0, str(HERE.parent.parent / "data_collection"))
+            from racingapi_client import RacingAPIClient
+            n0 = len(live)
+            live = drop_non_runners(live, RacingAPIClient().racecards_standard("today"))
+            print(f"Dropped {n0 - len(live)} non-runner row(s).")
+        except Exception as e:  # noqa: BLE001
+            print(f"WARNING: could not check non-runners ({e}); predicting on the full card.", file=sys.stderr)
     preds = predict_day(args.date, live)
     out = Path(args.out) if args.out else HERE / "predictions" / f"predictions_{args.date}.csv"
     out.parent.mkdir(parents=True, exist_ok=True)

@@ -442,6 +442,8 @@ The live results logged for 2026-09-16 to 19 in [6.3](#63-results-by-day-1-pick-
 (about 21% top-1) were produced with bug 1 and are superseded by the walk-forward in
 [6.5](#65-walk-forward-backtest-on-the-post-may-races-2026-09-20).
 
+**Non-runners (2026-09-20)**: the racecard APIs keep a withdrawn horse in its race (Standard racecards mark it `number: "NR"` and still quote prices); 13 of 187 runners on 2026-09-20 were NRs across 11 races (one race fell from 5 to 3 runners). `fast_inference.py` now drops them for today (`drop_non_runners`, uses `racecards_standard`, resets `ran`) and the odds report skips them. Withdrawals happen during the morning, so the 01:00 predictions can be stale; rerun `fast_inference.py` / `today_odds_report.py` shortly before racing.
+
 Limits: gap rows loaded from the results export have `rpr`/`ts` NULL (the vendor's
 performance/speed ratings are a different scale), so `prior_rpr`/`prior_ts` do not see those runs.
 Nightly results come from `backfill_history.py` (default start = day after the last day with results;

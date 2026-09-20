@@ -64,6 +64,8 @@ def odds_frame(races: list[dict]) -> pd.DataFrame:
     rows = []
     for race in races:
         for r in race.get("runners", []):
+            if str(r.get("number")).upper() == "NR":      # withdrawn: still listed with prices
+                continue
             books = [o for o in r.get("odds") or [] if _num(o.get("decimal")) is not None]   # skip "SP" etc.
             dec = [float(o["decimal"]) for o in books]
             best = max(books, key=lambda o: float(o["decimal"])) if books else None
@@ -104,7 +106,7 @@ def main() -> int:
         print(f"(no closing odds: {str(e)[:120]})", file=sys.stderr)
         closing = pd.DataFrame(columns=["race_id", "hkey", "sp_dec", "finish"])
 
-    preds = fi.predict_day(args.date, inf.load_live(args.date))
+    preds = fi.predict_day(args.date, fi.drop_non_runners(inf.load_live(args.date), cards) if day == date_cls.today() else inf.load_live(args.date))
     preds["hkey"] = preds["horse"].map(bare)
     d = preds.merge(odds.drop_duplicates(["race_id", "hkey"]), on=["race_id", "hkey"], how="left") \
              .merge(closing.drop_duplicates(["race_id", "hkey"]), on=["race_id", "hkey"], how="left")

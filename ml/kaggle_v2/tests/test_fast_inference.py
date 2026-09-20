@@ -89,3 +89,14 @@ def test_features_for_day_walks_forward_and_new_entities_get_zero(dbs):
     assert by.loc["A (GB)", "jky_runs"] == 3                  # J: two historic rows + the gap day before the target
     assert by.loc["B (GB)", "jky_runs"] == 0 and by.loc["B (GB)", "jky_wins"] == 0   # unseen jockey: 0, not NaN
     assert by["h_runs_prior"].eq(0).all()                     # these horses have no earlier runs
+
+
+def test_drop_non_runners_removes_nr_and_resets_field_size():
+    live = pd.DataFrame({"race_id": ["r1"] * 4 + ["r2"] * 3, "horse": ["A (GB)", "B (IRE)", "NR One (FR)", "D (GB)", "E", "F", "G"],
+                         "ran": [4, 4, 4, 4, 3, 3, 3]})
+    cards = [{"race_id": "r1", "runners": [{"horse": "A", "number": "1"}, {"horse": "B", "number": "2"},
+                                            {"horse": "NR One", "number": "NR"}, {"horse": "D", "number": "4"}]},
+             {"race_id": "r2", "runners": [{"horse": "E", "number": "1"}, {"horse": "F", "number": "2"}, {"horse": "G", "number": "3"}]}]
+    out = fi.drop_non_runners(live, cards)
+    assert "NR One (FR)" not in set(out["horse"]) and len(out) == 6
+    assert out.loc[out["race_id"] == "r1", "ran"].eq(3).all() and out.loc[out["race_id"] == "r2", "ran"].eq(3).all()
